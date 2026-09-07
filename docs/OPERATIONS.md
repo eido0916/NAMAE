@@ -16,7 +16,7 @@
 4. 意図した変更なら`npm run data:accept`で品質基準を更新する。
 5. `npm run data:build`でSQLiteとハッシュ付き公開JSONを生成する。
 6. `npm test && npm run lint && npm run build && npm run test:browser`を実行する。
-7. 原本、整形データ、品質基準、SQLite、公開JSONを同じコミットに含める。
+7. 原本、整形データ、品質基準、公開JSONを同じコミットに含める。SQLiteはOS差によるバイナリ差分を避けるためGit管理せず、各ビルドで再生成する。
 
 10%以上の件数減少、文字体系の混入、空データ、国・種別の不一致は品質検査で停止する。公開JSONは一時ディレクトリで生成してから入れ替えるため、生成途中のファイルは公開対象にならない。
 

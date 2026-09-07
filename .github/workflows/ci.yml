@@ -24,7 +24,7 @@ jobs:
       - run: npm run lint
       - run: npm run build
       - name: Generated data is committed and reproducible
-        run: git diff --exit-code -- data public/data reports
+        run: git diff --exit-code -- data/quality-baseline.json public/data reports
       - name: Install browser
         run: npx playwright install --with-deps chromium
       - name: Start static site
@@ -35,7 +35,7 @@ jobs:
       - name: Enforce source redistribution review on production
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: npm run licenses:check
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: data-quality-and-browser-results
