@@ -129,13 +129,13 @@ for (let start = 1920; start <= 2025; start += 4) {
             .map((line) => line.split(","));
           for (const sex of ["M", "F"]) {
             const group = rows.filter((row) => row[1] === sex);
-            group.slice(0, 200).forEach(([name, , count], index) =>
+            group.slice(0, 500).forEach(([name, , count], index) =>
               american.push({
                 country: "US",
                 type: "given_name",
                 name,
                 rank: index + 1,
-                totalEntries: Math.min(200, group.length),
+                totalEntries: Math.min(500, group.length),
                 year,
                 dataYear: year,
                 gender: sex === "M" ? "male" : "female",
@@ -243,6 +243,7 @@ if (!japanese.length || !american.length) throw Error("No rankings imported");
 const japaneseForApp = japanese.filter(
   (record) => record.rankingBasis === "overall",
 );
+const americanForApp = american.filter((record) => record.year === 2020);
 
 const sortRecords = (a, b) =>
   (a.year ?? 0) - (b.year ?? 0) ||
@@ -251,7 +252,64 @@ const sortRecords = (a, b) =>
   a.rank - b.rank ||
   a.name.localeCompare(b.name, "ja");
 japaneseForApp.sort(sortRecords);
-american.sort(sortRecords);
+americanForApp.sort(sortRecords);
+
+const foreignDatasets = [
+  {
+    country: "GB",
+    year: 2025,
+    source: "Office for National Statistics・Onomaverse Global Given-Name Frequency",
+    sourceUrl: "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys",
+    file: "data-sources/rankings/foreign/gb-2025.json",
+  },
+  {
+    country: "FR",
+    year: 2024,
+    source: "INSEE Fichier des prénoms national",
+    sourceUrl: "https://www.insee.fr/fr/statistiques/8894961",
+    file: "data-sources/rankings/foreign/fr-2024.json",
+  },
+  {
+    country: "DE",
+    year: 2024,
+    source: "Beliebte Vornamen Top 500",
+    sourceUrl: "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024",
+    file: "data-sources/rankings/foreign/de-2024.json",
+  },
+  {
+    country: "KR",
+    year: 2024,
+    source: "아기이름 연도별 이름 순위・출생신고 기준",
+    sourceUrl: "https://baby-name.kr/annalRanking/2024/",
+    file: "data-sources/rankings/foreign/kr-2024.json",
+  },
+];
+for (const dataset of foreignDatasets) {
+  const records = JSON.parse(readFileSync(dataset.file, "utf8"));
+  if (records.length < 1000) throw Error(`${dataset.country} foreign ranking is incomplete`);
+  const normalized = records.map((record) => ({
+    ...record,
+    totalEntries: 500,
+    year: dataset.year,
+    dataYear: dataset.year,
+  }));
+  writeFileSync(
+    `src/data/${dataset.country.toLowerCase()}/given-name/sample.json`,
+    JSON.stringify({
+      meta: {
+        country: dataset.country,
+        type: "given_name",
+        source: dataset.source,
+        sourceUrl: dataset.sourceUrl,
+        dataYear: dataset.year,
+        isOfficial: dataset.country === "GB" || dataset.country === "FR",
+        isSample: false,
+        notes: "男女別に公開順位の上位500件を収録。同数順位は掲載順を連番化しています。",
+      },
+      records: normalized,
+    }),
+  );
+}
 
 const meta = (country, source, sourceUrl, records) => ({
   country,
@@ -267,7 +325,7 @@ const meta = (country, source, sourceUrl, records) => ({
   notes:
     country === "JP"
       ? "公開された赤ちゃんの読み順位を優先し、未掲載の読みは公開ランキング掲載歴と名前辞書から総合順位を推定。全国民の人口順位ではありません。"
-      : "SSA公開データのミラーを使用。各年・性別上位200件を収録。",
+      : "SSA公開データのミラーを使用。2020年の男女別上位500件を収録。",
 });
 
 writeFileSync(
@@ -289,9 +347,9 @@ writeFileSync(
       "US",
       "米国SSA Baby Names（公開ミラー）",
       "https://www.ssa.gov/oact/babynames/limits.html",
-      american,
+      americanForApp,
     ),
-    records: american,
+    records: americanForApp,
   }),
 );
 

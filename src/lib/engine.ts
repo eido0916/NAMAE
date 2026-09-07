@@ -141,7 +141,7 @@ export function findClosestEquivalentName(
   input: DiagnosisInput,
   country: string,
   source?: NameRecord,
-  mode: MatchingMode = "normalizedRank",
+  mode: MatchingMode = "exactRank",
 ): NameRecord {
   const records = getCohort(input, country);
   if (!records.length) throw Error("該当するデータがありません");

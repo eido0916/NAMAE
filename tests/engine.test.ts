@@ -43,23 +43,14 @@ test("given-name diagnosis no longer requires a birth year", () => {
   );
 });
 
-test("foreign names are matched by percentile across different list sizes", () => {
+test("foreign names use the same published rank number", () => {
   const result = diagnose({
     name: "じゅん",
     type: "given_name",
     gender: "male",
   });
-  const sourcePercentile = calculateRankPercentile(
-    result.record!.rank,
-    result.record!.totalEntries,
-  );
-  const us = result.matches.find((match) => match.country.code === "US")!;
-  const usPercentile = calculateRankPercentile(
-    us.record.rank,
-    us.record.totalEntries,
-  );
-  assert.ok(Math.abs(sourcePercentile - usPercentile) <= 1 / 200);
-  assert.equal(us.record.rank, 37);
+  assert.equal(result.record?.rank, 365);
+  for (const match of result.matches) assert.equal(match.record.rank, 365);
 });
 
 test("normalization mode remains available explicitly", () => {
@@ -78,7 +69,7 @@ test("normalization mode remains available explicitly", () => {
     source,
     "normalizedRank",
   );
-  assert.equal(result.rank, 40);
+  assert.equal(result.rank, 100);
 });
 
 test("dictionary-only names receive a clearly marked estimated rank", () => {

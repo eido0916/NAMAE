@@ -11,7 +11,7 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await expect(page.getByText("2025年の調査を使用")).toBeVisible();
   await expect(
     page.getByRole("article").filter({ hasText: "United States" }),
-  ).toContainText("#37");
+  ).toContainText("#365");
   const downloadEvent = page.waitForEvent("download");
   await page.getByRole("button", { name: "結果を画像保存" }).click();
   const download = await downloadEvent;
