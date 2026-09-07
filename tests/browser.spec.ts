@@ -12,6 +12,17 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await expect(
     page.getByRole("article").filter({ hasText: "United States" }),
   ).toContainText("#365");
+  await expect(page.locator(".result-country-picker")).toBeVisible();
+  await page
+    .locator(".result-country-options label")
+    .filter({ hasText: "イタリア" })
+    .click();
+  await expect(
+    page.getByRole("article").filter({ hasText: "Italy" }),
+  ).toBeVisible();
+  await expect(
+    page.locator(".result-country-options input:checked"),
+  ).toHaveCount(6);
   const downloadEvent = page.waitForEvent("download");
   await page.getByRole("button", { name: "結果を画像保存" }).click();
   const download = await downloadEvent;
