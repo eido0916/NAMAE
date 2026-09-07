@@ -120,6 +120,11 @@ test("foreign surnames use the same rank number", () => {
   const result = diagnose({ name: "はやし", type: "surname" });
   assert.equal(result.record?.rank, 18);
   for (const match of result.matches) assert.equal(match.record.rank, 18);
+  assert.match(result.matches.find((match) => match.country.code === "KR")!.record.name, /^[가-힣]+$/);
+  for (const code of ["FR", "DE"] as const) {
+    const name = result.matches.find((match) => match.country.code === code)!.record.name;
+    assert.match(name, /^[\p{Script=Latin} .'-]+$/u);
+  }
 });
 
 test("ambiguous kanji readings require explicit selection", () => {
