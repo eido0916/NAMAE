@@ -245,21 +245,12 @@ h1 {
 .form-heading {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 22px;
 }
 .mini-star {
   font-size: 31px;
   color: var(--accent);
   line-height: 1;
-}
-.pill {
-  font-size: 12px;
-  border: 1px solid #c9ed9d33;
-  border-radius: 30px;
-  color: var(--accent);
-  padding: 6px 11px;
-  background: #c9ed9d06;
 }
 .form-card h2 {
   font-size: 20px;
@@ -1144,7 +1135,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
     <form onSubmit={submit} className="glass form-card">
       <div className="form-heading">
         <span className="mini-star">✳</span>
-        <span className="pill">無料・約10秒</span>
       </div>
       <h2>世界のあなたに、会いにいこう。</h2>
       <p className="muted">まずは、何を診断しますか？</p>

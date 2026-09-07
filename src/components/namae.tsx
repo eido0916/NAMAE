@@ -196,7 +196,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
     <form onSubmit={submit} className="glass form-card">
       <div className="form-heading">
         <span className="mini-star">✳</span>
-        <span className="pill">無料・約10秒</span>
       </div>
       <h2>世界のあなたに、会いにいこう。</h2>
       <p className="muted">まずは、何を診断しますか？</p>
