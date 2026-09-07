@@ -158,7 +158,7 @@ export function Home({
         </div>
       </section>
       <p className="data-note">
-        日本と海外25か国の公開ランキングと名前辞書で診断します。国はフォームから選べます。
+        日本と海外{getCountryConfig().length - 1}か国の公開ランキングと名前辞書で診断します。国はフォームから選べます。
       </p>
     </>
   );

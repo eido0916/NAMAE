@@ -9,6 +9,53 @@ const year = 2026;
 // Countries with useful coverage for both given names and surnames. Existing
 // country datasets keep their more authoritative national sources.
 const countries = {
+  AE: ["アラブ首長国連邦", "United Arab Emirates", "🇦🇪"],
+  AO: ["アンゴラ", "Angola", "🇦🇴"],
+  BD: ["バングラデシュ", "Bangladesh", "🇧🇩"],
+  BG: ["ブルガリア", "Bulgaria", "🇧🇬"],
+  BH: ["バーレーン", "Bahrain", "🇧🇭"],
+  BO: ["ボリビア", "Bolivia", "🇧🇴"],
+  CM: ["カメルーン", "Cameroon", "🇨🇲"],
+  CN: ["中国", "China", "🇨🇳"],
+  CR: ["コスタリカ", "Costa Rica", "🇨🇷"],
+  CZ: ["チェコ", "Czechia", "🇨🇿"],
+  DK: ["デンマーク", "Denmark", "🇩🇰"],
+  DZ: ["アルジェリア", "Algeria", "🇩🇿"],
+  EG: ["エジプト", "Egypt", "🇪🇬"],
+  FI: ["フィンランド", "Finland", "🇫🇮"],
+  GH: ["ガーナ", "Ghana", "🇬🇭"],
+  GR: ["ギリシャ", "Greece", "🇬🇷"],
+  GT: ["グアテマラ", "Guatemala", "🇬🇹"],
+  HK: ["香港", "Hong Kong", "🇭🇰"],
+  IL: ["イスラエル", "Israel", "🇮🇱"],
+  IQ: ["イラク", "Iraq", "🇮🇶"],
+  IR: ["イラン", "Iran", "🇮🇷"],
+  JO: ["ヨルダン", "Jordan", "🇯🇴"],
+  KW: ["クウェート", "Kuwait", "🇰🇼"],
+  KZ: ["カザフスタン", "Kazakhstan", "🇰🇿"],
+  LB: ["レバノン", "Lebanon", "🇱🇧"],
+  LU: ["ルクセンブルク", "Luxembourg", "🇱🇺"],
+  LY: ["リビア", "Libya", "🇱🇾"],
+  MA: ["モロッコ", "Morocco", "🇲🇦"],
+  MO: ["マカオ", "Macao", "🇲🇴"],
+  MU: ["モーリシャス", "Mauritius", "🇲🇺"],
+  MY: ["マレーシア", "Malaysia", "🇲🇾"],
+  NO: ["ノルウェー", "Norway", "🇳🇴"],
+  OM: ["オマーン", "Oman", "🇴🇲"],
+  PA: ["パナマ", "Panama", "🇵🇦"],
+  PH: ["フィリピン", "Philippines", "🇵🇭"],
+  PS: ["パレスチナ", "Palestine", "🇵🇸"],
+  QA: ["カタール", "Qatar", "🇶🇦"],
+  RU: ["ロシア", "Russia", "🇷🇺"],
+  SA: ["サウジアラビア", "Saudi Arabia", "🇸🇦"],
+  SD: ["スーダン", "Sudan", "🇸🇩"],
+  SE: ["スウェーデン", "Sweden", "🇸🇪"],
+  SG: ["シンガポール", "Singapore", "🇸🇬"],
+  SY: ["シリア", "Syria", "🇸🇾"],
+  TN: ["チュニジア", "Tunisia", "🇹🇳"],
+  TW: ["台湾", "Taiwan", "🇹🇼"],
+  UY: ["ウルグアイ", "Uruguay", "🇺🇾"],
+  YE: ["イエメン", "Yemen", "🇾🇪"],
   IT: ["イタリア", "Italy", "🇮🇹"],
   ES: ["スペイン", "Spain", "🇪🇸"],
   PT: ["ポルトガル", "Portugal", "🇵🇹"],
@@ -126,4 +173,21 @@ for (const country of Object.keys(countries)) {
     counts[country][type] = records.length;
   }
 }
+
+const catalogPath = join(outputRoot, "countries.json");
+const catalog = JSON.parse(readFileSync(catalogPath, "utf8"));
+const catalogCodes = new Set(catalog.map((country) => country.code));
+for (const [code, [nameJa, nameEn, flag]] of Object.entries(countries)) {
+  if (catalogCodes.has(code)) continue;
+  catalog.push({
+    code,
+    nameJa,
+    nameEn,
+    flag,
+    enabled: true,
+    supportsGivenName: true,
+    supportsSurname: true,
+  });
+}
+writeFileSync(catalogPath, JSON.stringify(catalog, null, 2) + "\n");
 console.log(JSON.stringify(counts, null, 2));
