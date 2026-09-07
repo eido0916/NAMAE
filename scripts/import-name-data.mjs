@@ -129,13 +129,13 @@ for (let start = 1920; start <= 2025; start += 4) {
             .map((line) => line.split(","));
           for (const sex of ["M", "F"]) {
             const group = rows.filter((row) => row[1] === sex);
-            group.slice(0, 500).forEach(([name, , count], index) =>
+            group.slice(0, 5000).forEach(([name, , count], index) =>
               american.push({
                 country: "US",
                 type: "given_name",
                 name,
                 rank: index + 1,
-                totalEntries: Math.min(500, group.length),
+                totalEntries: Math.min(5000, group.length),
                 year,
                 dataYear: year,
                 gender: sex === "M" ? "male" : "female",
@@ -286,10 +286,9 @@ const foreignDatasets = [
 ];
 for (const dataset of foreignDatasets) {
   const records = JSON.parse(readFileSync(dataset.file, "utf8"));
-  if (records.length < 1000) throw Error(`${dataset.country} foreign ranking is incomplete`);
   const normalized = records.map((record) => ({
     ...record,
-    totalEntries: 500,
+    totalEntries: record.totalEntries || records.filter((item) => item.gender === record.gender).length,
     year: dataset.year,
     dataYear: dataset.year,
   }));
@@ -304,7 +303,7 @@ for (const dataset of foreignDatasets) {
         dataYear: dataset.year,
         isOfficial: dataset.country === "GB" || dataset.country === "FR",
         isSample: false,
-        notes: "男女別に公開順位の上位500件を収録。同数順位は掲載順を連番化しています。",
+        notes: "公開データから取得できる範囲を男女別に収録。同数順位は掲載順を連番化しています。",
       },
       records: normalized,
     }),
@@ -325,7 +324,7 @@ const meta = (country, source, sourceUrl, records) => ({
   notes:
     country === "JP"
       ? "公開された赤ちゃんの読み順位を優先し、未掲載の読みは公開ランキング掲載歴と名前辞書から総合順位を推定。全国民の人口順位ではありません。"
-      : "SSA公開データのミラーを使用。2020年の男女別上位500件を収録。",
+      : "SSA公開データのミラーを使用。2020年の男女別上位5,000件を収録。",
 });
 
 writeFileSync(

@@ -53,6 +53,12 @@ test("foreign names use the same published rank number", () => {
   for (const match of result.matches) assert.equal(match.record.rank, 365);
 });
 
+test("foreign rankings remain available beyond the former 500-name cutoff", () => {
+  const result = diagnose({ name: "じゅんや", type: "given_name", gender: "male" });
+  assert.equal(result.record?.rank, 638);
+  for (const match of result.matches) assert.equal(match.record.rank, 638);
+});
+
 test("normalization mode remains available explicitly", () => {
   assert.equal(calculateRankPercentile(100, 5000), 0.02);
   const source = {
@@ -69,7 +75,7 @@ test("normalization mode remains available explicitly", () => {
     source,
     "normalizedRank",
   );
-  assert.equal(result.rank, 100);
+  assert.equal(result.rank, 1000);
 });
 
 test("dictionary-only names receive a clearly marked estimated rank", () => {
