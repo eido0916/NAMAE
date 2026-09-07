@@ -14,7 +14,23 @@ async function request(path, method = "GET") {
 const home = await (await request("/")).text();
 if (!home.includes("NAMAE")) throw new Error("Home page signature is missing");
 const manifest = await (await request("/data/manifest.json")).json();
-if (manifest.schemaVersion !== 2 || manifest.datasets?.length !== 12)
+const expectedDatasets = manifest.countries
+  ?.filter((country) => country.enabled)
+  .flatMap((country) => {
+    const types = [];
+    if (country.supportsGivenName) types.push(`${country.code}/given_name`);
+    if (country.supportsSurname) types.push(`${country.code}/surname`);
+    return types;
+  });
+const actualDatasets = new Set(
+  (manifest.datasets ?? []).map((dataset) => `${dataset.country}/${dataset.type}`),
+);
+if (
+  manifest.schemaVersion !== 2 ||
+  !manifest.dataVersion ||
+  !expectedDatasets?.length ||
+  expectedDatasets.some((key) => !actualDatasets.has(key))
+)
   throw new Error("Unexpected data manifest");
 for (const entry of [manifest.dictionary, ...manifest.datasets])
   await request(entry.path, "HEAD");
