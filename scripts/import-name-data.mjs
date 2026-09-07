@@ -310,6 +310,33 @@ for (const dataset of foreignDatasets) {
   );
 }
 
+const foreignSurnameDatasets = [
+  { country: "US", year: 2020, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/us-surname-2020.json" },
+  { country: "GB", year: 2025, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/gb-surname-2025.json" },
+  { country: "FR", year: 2024, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/fr-surname-2024.json" },
+  { country: "DE", year: 2024, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/de-surname-2024.json" },
+  { country: "KR", year: 2015, source: "Korean Last Names・2015 Census / Onomaverse", sourceUrl: "https://koreanlastnames.com/most-common-korean-last-names/", file: "data-sources/rankings/foreign/kr-surname-2015.json" },
+];
+for (const dataset of foreignSurnameDatasets) {
+  const records = JSON.parse(readFileSync(dataset.file, "utf8"));
+  writeFileSync(
+    `src/data/${dataset.country.toLowerCase()}/surname/sample.json`,
+    JSON.stringify({
+      meta: {
+        country: dataset.country,
+        type: "surname",
+        source: dataset.source,
+        sourceUrl: dataset.sourceUrl,
+        dataYear: dataset.year,
+        isOfficial: false,
+        isSample: false,
+        notes: "公開姓氏頻度データを順位順に収録。日本の順位番号と対応させます。",
+      },
+      records,
+    }),
+  );
+}
+
 const meta = (country, source, sourceUrl, records) => ({
   country,
   type: "given_name",

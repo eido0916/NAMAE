@@ -30,15 +30,17 @@ http://localhost:3000 を開きます。PowerShellで実行ポリシーにより
 | 日本の漢字表記ランキング | 1920〜2025年、延べ6,863レコード（1,123表記） | 推定順位の掲載実績に使用 |
 | 日本の読み方ランキング | 2004〜2025年、延べ2,290レコード | 推定順位の掲載実績に使用 |
 | 日本の苗字 | 1,999姓、調査年度不明 | 辞書内の推定人数を降順で順位付け |
-| 米国の下の名前 | 2020年、男女各500件 | SSA人数順。人数同数は元ファイル順（アルファベット順） |
+| 米国の下の名前 | 2020年、男女各5,000件 | SSA人数順。人数同数は元ファイル順（アルファベット順） |
 | 英・仏・韓・独の下の名前 | 英1,554件・仏4,000件・韓4,000件・独1,828件（2024〜2025年） | ONS / INSEE / 韓国出生届集計 / ドイツTop500・補完データ。海外カードの順位対応に使用 |
-| 英・仏・韓・独、米国の苗字 | 従来の少数サンプル | 下の名前診断のみ公開ランキングを使用 |
+| 海外の苗字 | 米1,925・英864・仏947・韓106・独393姓 | Onomaverse姓氏頻度。韓国は2015年国勢調査Top100を補完。日本の順位番号に対応 |
 
 日本の実順位は[ベビーカレンダーの名前ランキング検索](https://baby-calendar.jp/nazuke/)が公開する2017年以降の読み順位を使用し、検索対象に含まれた888読みは最新掲載年の順位を表示します。補助情報には[明治安田の生まれ年別の名前調査](https://www.meijiyasuda.co.jp/enjoy/ranking/index.html)の漢字表記・読み方ランキングを使います。各調査の対象者内の順位であり、全国民の人口順位ではありません。
 
 米国は[SSA](https://www.ssa.gov/oact/babynames/limits.html)の公開データを[hackerb9のミラー](https://github.com/hackerb9/ssa-baby-names)から取得しました。現在は2020年までの収録です。
 
 英国の上位100件は[英国国家統計局（ONS）](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsgirls)、順位補完には[Onomaverse](https://onomaverse.com/datasets/given-name-frequency)（CC BY 4.0）を使用しています。フランスは[INSEE](https://www.insee.fr/fr/statistiques/8894961)、ドイツは[Beliebte Vornamen Top 500](https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024)、韓国は[아기이름の2024年出生届順位](https://baby-name.kr/annalRanking/2024/)を使用しています。
+
+海外の苗字は[Onomaverse Global Surname Frequency](https://onomaverse.com/datasets/surname-frequency)を使用し、韓国は[2015年国勢調査に基づく韓国姓氏Top100](https://koreanlastnames.com/most-common-korean-last-names/)を補完しています。
 
 辞書・苗字は[Japanese Personal Name Dataset](https://github.com/shuheilocale/japanese-personal-name-dataset)（MIT）です。原典とライセンスを `data-sources/japanese-names/` に保存しています。公開順位のない読みでは、同データセットの一般名リストへの収録と別表記数を弱い補助信号として使います。苗字の人数は推定値であり、全国公式統計として扱いません。
 
@@ -59,7 +61,7 @@ node scripts/import-name-data.mjs
 npm run data:build
 ```
 
-通常のデータ生成とビルドはネットワーク取得せず、同梱データからregistryを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に上記2コマンドを実行します。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
+通常のデータ生成とビルドはネットワーク取得せず、同梱データからregistryを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign` と `node scripts/import-foreign-surnames.mjs`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に上記2コマンドを実行します。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
 
 ## 検証
 

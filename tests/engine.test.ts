@@ -116,6 +116,12 @@ test("Hayashi is recognized as a surname", () => {
   assert.equal(getCohort({ name: "佐藤", type: "surname" }, "JP").length, 1999);
 });
 
+test("foreign surnames use the same rank number", () => {
+  const result = diagnose({ name: "はやし", type: "surname" });
+  assert.equal(result.record?.rank, 18);
+  for (const match of result.matches) assert.equal(match.record.rank, 18);
+});
+
 test("ambiguous kanji readings require explicit selection", () => {
   const options = getReadingOptions("大翔");
   assert.ok(options.length > 1);
