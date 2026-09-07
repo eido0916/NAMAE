@@ -43,6 +43,7 @@ export type DiagnosisInput = {
   gender?: Gender;
   year?: number;
   reading?: string;
+  destinationCountries?: string[];
 };
 export type Diagnosis = {
   input: DiagnosisInput;

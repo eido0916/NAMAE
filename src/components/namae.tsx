@@ -2,6 +2,13 @@
 import Link from "next/link";
 import Image from "next/image";
 function Flag({ code, label }: { code: string; label: string }) {
+  const config = getCountryConfig(code)[0];
+  if (!["JP", "US", "GB", "FR", "KR", "DE"].includes(code))
+    return (
+      <span className="country-flag country-flag-emoji" role="img" aria-label={label}>
+        {config?.flag ?? "🌐"}
+      </span>
+    );
   return (
     <Image
       className="country-flag"
@@ -96,12 +103,12 @@ export function Home({
             あなたは<span className="accent">何という名前？</span>
           </h1>
           <div className="countries">
-            {getCountryConfig().map((c) => (
+            {getCountryConfig().slice(0, 6).map((c) => (
               <span key={c.code} title={c.nameJa}>
                 <Flag code={c.code} label={c.nameJa} />
               </span>
             ))}
-            <span className="country-count">6 COUNTRIES</span>
+            <span className="country-count">{getCountryConfig().length} COUNTRIES</span>
           </div>
         </section>
         <section className="form-column">
@@ -151,7 +158,7 @@ export function Home({
         </div>
       </section>
       <p className="data-note">
-                日本と海外5か国の公開ランキングと名前辞書で診断します。出典は結果で確認できます。
+        日本と海外25か国の公開ランキングと名前辞書で診断します。国はフォームから選べます。
       </p>
     </>
   );
@@ -166,6 +173,13 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [dataReady, setDataReady] = useState(false);
   const [dataError, setDataError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
+  const [destinationCountries, setDestinationCountries] = useState([
+    "US",
+    "GB",
+    "FR",
+    "KR",
+    "DE",
+  ]);
   const { setResult } = useContext(ResultContext);
   const router = useRouter();
   useEffect(() => {
@@ -192,6 +206,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
       const input = {
         name,
         type,
+        destinationCountries,
         ...(type === "given_name"
           ? { gender, ...(reading ? { reading } : {}) }
           : {}),
@@ -206,10 +221,13 @@ function NameForm({ initialType }: { initialType: NameType }) {
         await loadInputData("surname");
         surnameRecord = getSurnameRecord(name);
       }
-      await loadDiagnosisData(surnameRecord ? "surname" : type);
+      await loadDiagnosisData(
+        surnameRecord ? "surname" : type,
+        destinationCountries,
+      );
       const result = surnameRecord
         ? {
-            ...diagnose({ name, type: "surname" }),
+            ...diagnose({ name, type: "surname", destinationCountries }),
             autoDetectedFrom: "given_name" as const,
           }
         : diagnose(input);
@@ -339,6 +357,45 @@ function NameForm({ initialType }: { initialType: NameType }) {
           </div>
         </fieldset>
       )}
+      <fieldset className="country-picker">
+        <legend className="field-label">
+          診断する国 <span>{destinationCountries.length}/8か国</span>
+        </legend>
+        <details>
+          <summary>
+            {destinationCountries
+              .map((code) => getCountryConfig(code)[0]?.nameJa)
+              .filter(Boolean)
+              .join("・")} <span>変更 ＋</span>
+          </summary>
+          <div className="country-options">
+            {getCountryConfig()
+              .filter((country) => country.code !== "JP")
+              .map((country) => {
+                const checked = destinationCountries.includes(country.code);
+                const disabled = !checked && destinationCountries.length >= 8;
+                return (
+                  <label key={country.code}>
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      disabled={disabled}
+                      onChange={() => {
+                        setDestinationCountries((current) =>
+                          checked
+                            ? current.filter((code) => code !== country.code)
+                            : [...current, country.code],
+                        );
+                        setError("");
+                      }}
+                    />
+                    <span>{country.flag} {country.nameJa}</span>
+                  </label>
+                );
+              })}
+          </div>
+        </details>
+      </fieldset>
       {(error || dataError) && (
         <div className="form-error-row">
           <p id="form-error" role="alert" className="error">
@@ -358,7 +415,11 @@ function NameForm({ initialType }: { initialType: NameType }) {
           )}
         </div>
       )}
-      <button className="primary" type="submit" disabled={!dataReady || busy}>
+      <button
+        className="primary"
+        type="submit"
+        disabled={!dataReady || busy || destinationCountries.length === 0}
+      >
         {busy || !dataReady
           ? "診断データを読み込み中…"
           : `世界の${surname ? "苗字" : "名前"}を見る`} {dataReady && !busy && <span>↗</span>}

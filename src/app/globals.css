@@ -38,6 +38,63 @@
   width: 32px;
   height: 32px;
 }
+.country-flag-emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  line-height: 1;
+}
+.country-picker {
+  margin: 20px 0;
+}
+.country-picker details {
+  border: 1px solid #ffffff20;
+  border-radius: 8px;
+  background: #10141188;
+}
+.country-picker summary {
+  min-height: 51px;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  color: #d9dfd5;
+  font-size: 13px;
+  line-height: 1.6;
+  list-style: none;
+}
+.country-picker summary::-webkit-details-marker { display: none; }
+.country-picker summary span { flex: 0 0 auto; color: var(--accent); }
+.country-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+  max-height: 245px;
+  overflow-y: auto;
+  padding: 0 12px 12px;
+}
+.country-options label { cursor: pointer; min-width: 0; }
+.country-options input { position: absolute; opacity: 0; }
+.country-options span {
+  display: block;
+  padding: 9px 10px;
+  border: 1px solid #ffffff16;
+  border-radius: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.country-options input:checked + span {
+  border-color: #c9ed9d77;
+  background: #c9ed9d10;
+  color: var(--accent);
+}
+.country-options input:focus-visible + span { outline: 2px solid var(--accent); }
+.country-options input:disabled + span { opacity: .4; cursor: not-allowed; }
 .sample-ticket .country-flag,
 .original .country-flag {
   width: 25px;

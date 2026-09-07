@@ -42,7 +42,10 @@ async function importUnitedKingdom() {
     const body = await download(url, join(cacheDir, `gb-${gender}.xlsx`));
     const workbook = new ExcelJS.Workbook();
     await workbook.xlsx.load(body);
-    const sheet = workbook.worksheets.find((item) => /top|name|rank/i.test(item.name)) ?? workbook.worksheets[0];
+    const sheet =
+      workbook.getWorksheet("Table_6") ??
+      workbook.worksheets.find((item) => item.rowCount > 1000) ??
+      workbook.worksheets[0];
     const rows = [];
     sheet.eachRow((row) => rows.push(row.values.map((value) => String(value ?? "").trim())));
     let header = rows.findIndex((row) => row.some((value) => /name/i.test(value)) && row.some((value) => /rank/i.test(value)));
@@ -54,7 +57,7 @@ async function importUnitedKingdom() {
       const name = row[nameColumn];
       const rank = Number(String(row[rankColumn] ?? "").replace(/[, ]/g, ""));
       if (!name || !Number.isFinite(rank) || rank < 1) continue;
-      if (rank <= limit) records.push(record("GB", gender, name, rank, 2025, countColumn >= 0 ? Number(row[countColumn]) || undefined : undefined));
+      records.push(record("GB", gender, name, rank, 2025, countColumn >= 0 ? Number(row[countColumn]) || undefined : undefined));
     }
   }
   const broad = await download(
@@ -100,7 +103,7 @@ async function importFrance() {
   const records = [];
   for (const [sex, values] of byGender) {
     values.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "fr"));
-    values.slice(0, limit).forEach((value, index) => records.push(record("FR", sex === "1" ? "male" : "female", value.name, index + 1, 2024, value.count)));
+    values.forEach((value, index) => records.push(record("FR", sex === "1" ? "male" : "female", value.name, index + 1, 2024, value.count)));
   }
   return finalize(records);
 }

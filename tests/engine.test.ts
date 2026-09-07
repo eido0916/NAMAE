@@ -9,6 +9,8 @@ import gbGiven from "../src/data/gb/given-name/sample.json";
 import gbSurname from "../src/data/gb/surname/sample.json";
 import jpGiven from "../src/data/jp/given-name/sample.json";
 import jpSurname from "../src/data/jp/surname/sample.json";
+import itGiven from "../src/data/it/given-name/onomaverse.json";
+import itSurname from "../src/data/it/surname/onomaverse.json";
 import krGiven from "../src/data/kr/given-name/sample.json";
 import krSurname from "../src/data/kr/surname/sample.json";
 import usGiven from "../src/data/us/given-name/sample.json";
@@ -35,6 +37,8 @@ configureEngine({
     gbSurname,
     jpGiven,
     jpSurname,
+    itGiven,
+    itSurname,
     krGiven,
     krSurname,
     usGiven,
@@ -107,7 +111,21 @@ test("normalization mode remains available explicitly", () => {
     source,
     "normalizedRank",
   );
-  assert.equal(result.rank, 1000);
+  assert.ok(
+    Math.abs(calculateRankPercentile(result.rank, result.totalEntries) - 0.2) <
+      0.001,
+  );
+});
+
+test("destination countries can be selected from the expanded catalog", () => {
+  const result = diagnose({
+    name: "じゅん",
+    type: "given_name",
+    gender: "male",
+    destinationCountries: ["IT"],
+  });
+  assert.deepEqual(result.matches.map((match) => match.country.code), ["IT"]);
+  assert.equal(result.matches[0].record.rank, 365);
 });
 
 test("dictionary-only names receive a clearly marked estimated rank", () => {

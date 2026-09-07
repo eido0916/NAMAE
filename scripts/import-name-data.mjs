@@ -129,13 +129,13 @@ for (let start = 1920; start <= 2025; start += 4) {
             .map((line) => line.split(","));
           for (const sex of ["M", "F"]) {
             const group = rows.filter((row) => row[1] === sex);
-            group.slice(0, 5000).forEach(([name, , count], index) =>
+            group.forEach(([name, , count], index) =>
               american.push({
                 country: "US",
                 type: "given_name",
                 name,
                 rank: index + 1,
-                totalEntries: Math.min(5000, group.length),
+                totalEntries: group.length,
                 year,
                 dataYear: year,
                 gender: sex === "M" ? "male" : "female",
@@ -351,7 +351,7 @@ const meta = (country, source, sourceUrl, records) => ({
   notes:
     country === "JP"
       ? "公開された赤ちゃんの読み順位を優先し、未掲載の読みは公開ランキング掲載歴と名前辞書から総合順位を推定。全国民の人口順位ではありません。"
-      : "SSA公開データのミラーを使用。2020年の男女別上位5,000件を収録。",
+      : "SSA公開データのミラーを使用。2020年に5件以上登録された名前を男女別に全件収録。",
 });
 
 writeFileSync(

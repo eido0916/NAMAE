@@ -98,12 +98,17 @@ export async function loadInputData(type: NameType) {
   await Promise.all(work);
 }
 
-export async function loadDiagnosisData(type: NameType) {
+export async function loadDiagnosisData(type: NameType, countries?: string[]) {
   await loadInputData(type);
   const manifest = await getManifest();
   await Promise.all(
     manifest.datasets
-      .filter((dataset) => dataset.country !== "JP" && dataset.type === type)
+      .filter(
+        (dataset) =>
+          dataset.country !== "JP" &&
+          dataset.type === type &&
+          (!countries || countries.includes(dataset.country)),
+      )
       .map((dataset) => loadDataset(dataset.country, dataset.type)),
   );
 }

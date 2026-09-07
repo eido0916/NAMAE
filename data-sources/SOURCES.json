@@ -66,11 +66,21 @@
       "id": "onomaverse",
       "name": "Onomaverse Names Datasets",
       "url": "https://onomaverse.com/datasets",
-      "datasets": ["US/surname", "GB/given_name", "GB/surname", "FR/surname", "DE/given_name", "DE/surname", "KR/surname"],
+      "datasets": ["GB/given_name", "GB/surname", "FR/surname", "DE/given_name", "DE/surname", "KR/surname", "IT/given_name", "IT/surname", "ES/given_name", "ES/surname", "PT/given_name", "PT/surname", "NL/given_name", "NL/surname", "BE/given_name", "BE/surname", "CH/given_name", "CH/surname", "AT/given_name", "AT/surname", "IE/given_name", "IE/surname", "CA/given_name", "CA/surname", "BR/given_name", "BR/surname", "MX/given_name", "MX/surname", "AR/given_name", "AR/surname", "CO/given_name", "CO/surname", "CL/given_name", "CL/surname", "PE/given_name", "PE/surname", "ZA/given_name", "ZA/surname", "NG/given_name", "NG/surname", "IN/given_name", "IN/surname", "TR/given_name", "TR/surname", "PL/given_name", "PL/surname"],
       "licenseName": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "redistributionStatus": "permitted",
       "attribution": "Names data from Onomaverse (https://onomaverse.com/datasets), licensed CC BY 4.0."
+    },
+    {
+      "id": "us-census-surnames",
+      "name": "U.S. Census Bureau 2010 Census Surname Data",
+      "url": "https://www.census.gov/topics/population/genealogy/data/2010_surnames.html",
+      "datasets": ["US/surname"],
+      "licenseName": "U.S. government work / public use",
+      "licenseUrl": "https://www.census.gov/about/policies/citation.html",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: U.S. Census Bureau, 2010 Census Surname Data"
     },
     {
       "id": "beliebte-vornamen",

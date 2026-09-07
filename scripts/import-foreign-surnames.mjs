@@ -14,9 +14,10 @@ async function download(url, file) {
 }
 
 function makeRecords(country, values, year) {
-  values.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-  const totalEntries = values.length;
-  return values.map((value, index) => ({
+  const unique = [...new Map(values.map((value) => [value.name.normalize("NFKC").toLocaleLowerCase(), value])).values()];
+  unique.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  const totalEntries = unique.length;
+  return unique.map((value, index) => ({
     country,
     type: "surname",
     name: value.name,

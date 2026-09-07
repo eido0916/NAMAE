@@ -98,6 +98,13 @@ test("data load failure can be retried without sending a name", async ({ page })
   await expect(page.getByRole("button", { name: "データを再読み込み" })).toBeVisible();
   await page.getByRole("button", { name: "データを再読み込み" }).click();
   await expect(page.getByRole("button", { name: "世界の名前を見る" })).toBeEnabled();
+  await page.getByText("変更 ＋").click();
+  await page.getByText("🇮🇹 イタリア").click();
+  await page.getByRole("button", { name: "じゅん", exact: true }).click();
+  await page.getByRole("button", { name: "世界の名前を見る" }).click();
+  await expect(
+    page.getByRole("article").filter({ hasText: "Italy" }),
+  ).toBeVisible();
   await page.goto("http://localhost:3000/sources");
   await expect(page.getByRole("heading", { name: "データ出典・ライセンス" })).toBeVisible();
 });

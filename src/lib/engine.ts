@@ -218,6 +218,11 @@ export function validateInput(input: DiagnosisInput): string | undefined {
     return "診断の種類を選んでください。";
   if (!input.name.trim()) return "名前を入力してください。";
   if (
+    input.destinationCountries &&
+    (input.destinationCountries.length < 1 || input.destinationCountries.length > 8)
+  )
+    return "診断する国は1〜8か国で選んでください。";
+  if (
     Array.from(input.name.trim()).length > 30 ||
     !/^[\p{L}\p{M}ー・ '’-]+$/u.test(input.name.trim())
   )
@@ -248,7 +253,13 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
   if (error) throw Error(error);
   const clean: DiagnosisInput =
     input.type === "surname"
-      ? { name: input.name.trim(), type: input.type }
+      ? {
+          name: input.name.trim(),
+          type: input.type,
+          ...(input.destinationCountries
+            ? { destinationCountries: input.destinationCountries }
+            : {}),
+        }
       : { ...input, name: input.name.trim() };
   const record = getNameRecord(clean);
   const sourceYear = record?.year ?? getCohort(clean, "JP")[0]?.year;
@@ -272,6 +283,8 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
       .filter(
         (c) =>
           c.code !== "JP" &&
+          (clean.destinationCountries?.includes(c.code) ??
+            ["US", "GB", "FR", "KR", "DE"].includes(c.code)) &&
           (input.type === "surname" ? c.supportsSurname : c.supportsGivenName),
       )
       .map((country) => {
