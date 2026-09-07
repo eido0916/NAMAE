@@ -83,3 +83,21 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
     ),
   ).toBe(true);
 });
+
+test("data load failure can be retried without sending a name", async ({ page }) => {
+  let failed = false;
+  await page.route("**/data/datasets/jp/given-name.*.json", async (route) => {
+    if (!failed) {
+      failed = true;
+      await route.abort("failed");
+      return;
+    }
+    await route.continue();
+  });
+  await page.goto("http://localhost:3000/name");
+  await expect(page.getByRole("button", { name: "データを再読み込み" })).toBeVisible();
+  await page.getByRole("button", { name: "データを再読み込み" }).click();
+  await expect(page.getByRole("button", { name: "世界の名前を見る" })).toBeEnabled();
+  await page.goto("http://localhost:3000/sources");
+  await expect(page.getByRole("heading", { name: "データ出典・ライセンス" })).toBeVisible();
+});

@@ -6,6 +6,12 @@ import ExcelJS from "exceljs";
 const cacheDir = "data-sources/rankings/foreign";
 mkdirSync(cacheDir, { recursive: true });
 const limit = 2000;
+const latinName = /^[\p{Script=Latin}\p{M} .'-]+$/u;
+
+function decodeHtml(value) {
+  const entities = { amp: "&", auml: "ä", Auml: "Ä", ouml: "ö", Ouml: "Ö", uuml: "ü", Uuml: "Ü", szlig: "ß", eacute: "é", Eacute: "É" };
+  return value.replace(/&([A-Za-z]+);/g, (match, entity) => entities[entity] ?? match).normalize("NFC");
+}
 
 async function download(url, file) {
   if (existsSync(file)) return readFileSync(file);
@@ -60,8 +66,8 @@ async function importUnitedKingdom() {
   for (const line of broad.toString("utf8").split(/\r?\n/).slice(1)) {
     const fields = line.split(",");
     if (fields.length < 8 || fields[3] !== "GB") continue;
-    const name = fields[0].trim();
-    if (!name) continue;
+    const name = decodeHtml(fields[0].trim());
+    if (!name || !latinName.test(name)) continue;
     const genders = fields[2].includes("M") ? ["male"] : [];
     if (fields[2].includes("F")) genders.push("female");
     for (const gender of genders) {
@@ -103,7 +109,7 @@ function parseGermanList(html, index) {
   const table = html.match(/<!--Hitliste Beginn-->([\s\S]*?)<!--Hitliste Ende-->/i)?.[1] ?? "";
   const lists = [...table.matchAll(/<ol>([\s\S]*?)<\/ol>/gi)].map((match) =>
     [...match[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map((match) =>
-      match[1].replace(/<[^>]+>/g, "").replace(/&uuml;/g, "ü").replace(/&amp;/g, "&").trim(),
+      decodeHtml(match[1].replace(/<[^>]+>/g, "").trim()),
     ).filter(Boolean),
   );
   return lists[index]?.slice(0, limit) ?? [];
@@ -126,9 +132,9 @@ async function importGermany() {
     const genders = fields[2].includes("M") ? ["male"] : [];
     if (fields[2].includes("F")) genders.push("female");
     for (const gender of genders) {
-      const name = fields[0].trim();
+      const name = decodeHtml(fields[0].trim());
       const key = `${gender}|${name.toLowerCase()}`;
-      if (!name || seen.has(key)) continue;
+      if (!name || !latinName.test(name) || seen.has(key)) continue;
       seen.add(key);
       records.push(record("DE", gender, name, 0, 2024, Number(fields[5]) || undefined));
     }

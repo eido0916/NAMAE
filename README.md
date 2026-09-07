@@ -31,8 +31,8 @@ http://localhost:3000 を開きます。PowerShellで実行ポリシーにより
 | 日本の読み方ランキング | 2004〜2025年、延べ2,290レコード | 推定順位の掲載実績に使用 |
 | 日本の苗字 | 1,999姓、調査年度不明 | 辞書内の推定人数を降順で順位付け |
 | 米国の下の名前 | 2020年、男女各5,000件 | SSA人数順。人数同数は元ファイル順（アルファベット順） |
-| 英・仏・韓・独の下の名前 | 英1,554件・仏4,000件・韓4,000件・独1,828件（2024〜2025年） | ONS / INSEE / 韓国出生届集計 / ドイツTop500・補完データ。海外カードの順位対応に使用 |
-| 海外の苗字 | 米1,902・英856・仏932・韓100・独378姓 | Onomaverse姓氏頻度を現地文字体系で絞り込み。韓国は2015年国勢調査Top100。日本の順位番号に対応 |
+| 英・仏・韓・独の下の名前 | 英1,537件・仏4,000件・韓4,000件・独1,815件（2024〜2025年） | ONS / INSEE / 韓国出生届集計 / ドイツTop500・補完データ。海外カードの順位対応に使用 |
+| 海外の苗字 | 米1,900・英855・仏932・韓100・独378姓 | Onomaverse姓氏頻度を現地文字体系で絞り込み。韓国は2015年国勢調査Top100。日本の順位番号に対応 |
 
 日本の実順位は[ベビーカレンダーの名前ランキング検索](https://baby-calendar.jp/nazuke/)が公開する2017年以降の読み順位を使用し、検索対象に含まれた888読みは最新掲載年の順位を表示します。補助情報には[明治安田の生まれ年別の名前調査](https://www.meijiyasuda.co.jp/enjoy/ranking/index.html)の漢字表記・読み方ランキングを使います。各調査の対象者内の順位であり、全国民の人口順位ではありません。
 
@@ -54,7 +54,7 @@ Rarity Scoreは順位/同じ性別の収録件数×100を四捨五入します�
 
 ## データ構成
 
-`src/data/<国>/<種別>/*.json` は取得・整形済みの原本です。`npm run data:build` がこれらを `data/namae.sqlite` に統合し、検証済みの公開用データを `public/data/` へ国・種類別に書き出します。ブラウザーは最初に日本の照合データだけを読み、診断時に下の名前または苗字のうち必要な海外データだけを取得します。
+`data-sources/`は取得原本、`src/data/<国>/<種別>/*.json`は整形済みデータです。`npm run data:build` が品質検査後にこれらを `data/namae.sqlite` へ統合し、検証済みの公開用データを `public/data/`へ国・種類別に書き出します。公開JSONのファイル名には内容ハッシュを付け、固定URLのマニフェストだけを再検証します。ブラウザーは最初に日本の照合データだけを読み、診断時に下の名前または苗字のうち必要な海外データだけを取得します。
 
 SQLiteは更新・検証用の単一のデータ源です。公開サイトからSQLiteや外部DBへ接続しないため、Vercelなどへの静的公開でDB利用料はかかりません。
 
@@ -66,7 +66,9 @@ SQLiteは更新・検証用の単一のデータ源です。公開サイトか�
 npm run data:build
 ```
 
-通常のデータ生成とビルドはネットワーク取得せず、同梱データからSQLiteと公開JSONを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign` と `npm run data:refresh:foreign-surnames`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に `npm run data:build` を実行します。`npm run data:registry` は旧形式の一括JSONが必要な検証用です。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
+`npm run data:check`は文字体系、重複、空データ、順位範囲、件数の急減、出典台帳を検査します。意図した更新を確認した後、`npm run data:accept`で比較基準を更新します。結果は`reports/data-quality.md`に出力されます。
+
+通常のデータ生成とビルドはネットワーク取得せず、同梱データからSQLiteと公開JSONを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign` と `npm run data:refresh:foreign-surnames`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に `npm run data:build` を実行します。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
 
 ## 検証
 
@@ -88,4 +90,4 @@ npm run test:browser
 
 入力情報をURL・Cookie・localStorage・サーバーに保存しません。再読み込みすると結果は消えます。利用者が共有操作をした場合のみ共有先に結果を渡します。
 
-`node scripts/export-source.mjs` で全ソースを `SOURCE.md` に出力できます。
+データ出典は`data-sources/SOURCES.json`で管理し、サイトの`/sources`に表示します。再配布条件が確認中の出典は`npm run licenses:check`と本番ブランチのCIで公開を停止します。運用、更新、監視、ロールバックの手順は[docs/OPERATIONS.md](docs/OPERATIONS.md)にまとめています。

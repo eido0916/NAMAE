@@ -2,38 +2,26 @@ import { DatabaseSync } from "node:sqlite";
 import {
   mkdirSync,
   readFileSync,
-  readdirSync,
   renameSync,
   rmSync,
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
+import { readDatasets } from "./data-utils.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const sourceRoot = join(root, "src", "data");
 const output = join(root, "data", "namae.sqlite");
 const temporary = `${output}.tmp`;
 
-function collectJson(dir, files = []) {
-  for (const item of readdirSync(dir, { withFileTypes: true })) {
-    const path = join(dir, item.name);
-    if (item.isDirectory()) collectJson(path, files);
-    else if (item.name.endsWith(".json")) files.push(path);
-  }
-  return files;
-}
-
-const datasetFiles = readdirSync(sourceRoot, { withFileTypes: true })
-  .filter((entry) => entry.isDirectory() && entry.name !== "dictionary")
-  .flatMap((entry) => collectJson(join(sourceRoot, entry.name)))
-  .sort();
-const datasets = datasetFiles.map((path) =>
-  JSON.parse(readFileSync(path, "utf8")),
-);
+const datasets = readDatasets(sourceRoot).map(({ dataset }) => dataset);
 const dictionary = JSON.parse(
   readFileSync(join(sourceRoot, "dictionary", "names.json"), "utf8"),
 );
 const countries = JSON.parse(
   readFileSync(join(sourceRoot, "countries.json"), "utf8"),
+);
+const provenance = JSON.parse(
+  readFileSync(join(root, "data-sources", "SOURCES.json"), "utf8"),
 );
 
 mkdirSync(dirname(output), { recursive: true });
@@ -84,6 +72,21 @@ db.exec(`
     reading TEXT NOT NULL,
     aliases_json TEXT NOT NULL
   );
+  CREATE TABLE sources (
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    url TEXT NOT NULL,
+    license_name TEXT NOT NULL,
+    license_url TEXT NOT NULL,
+    redistribution_status TEXT NOT NULL,
+    attribution TEXT NOT NULL
+  );
+  CREATE TABLE source_datasets (
+    source_id TEXT NOT NULL,
+    dataset_key TEXT NOT NULL,
+    PRIMARY KEY (source_id, dataset_key),
+    FOREIGN KEY (source_id) REFERENCES sources(id)
+  );
   CREATE INDEX ranking_lookup ON ranking_entries(country, type, gender, year, ranking_basis, rank);
   CREATE INDEX ranking_name ON ranking_entries(country, type, name);
   CREATE INDEX dictionary_reading ON dictionary_entries(gender, reading);
@@ -100,6 +103,10 @@ const insertRanking = db.prepare(
 );
 const insertDictionary = db.prepare(
   "INSERT INTO dictionary_entries (gender,reading,aliases_json) VALUES (?,?,?)",
+);
+const insertSource = db.prepare("INSERT INTO sources VALUES (?,?,?,?,?,?,?)");
+const insertSourceDataset = db.prepare(
+  "INSERT INTO source_datasets VALUES (?,?)",
 );
 
 db.exec("BEGIN");
@@ -152,6 +159,19 @@ try {
       entry.reading,
       JSON.stringify(entry.aliases),
     );
+  for (const source of provenance.sources) {
+    insertSource.run(
+      source.id,
+      source.name,
+      source.url,
+      source.licenseName,
+      source.licenseUrl,
+      source.redistributionStatus,
+      source.attribution,
+    );
+    for (const datasetKey of source.datasets)
+      insertSourceDataset.run(source.id, datasetKey);
+  }
   db.exec("COMMIT");
 } catch (error) {
   db.exec("ROLLBACK");

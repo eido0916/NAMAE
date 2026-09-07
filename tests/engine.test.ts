@@ -1,7 +1,18 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import datasets from "../src/data/registry.json";
 import dictionary from "../src/data/dictionary/names.json";
+import deGiven from "../src/data/de/given-name/sample.json";
+import deSurname from "../src/data/de/surname/sample.json";
+import frGiven from "../src/data/fr/given-name/sample.json";
+import frSurname from "../src/data/fr/surname/sample.json";
+import gbGiven from "../src/data/gb/given-name/sample.json";
+import gbSurname from "../src/data/gb/surname/sample.json";
+import jpGiven from "../src/data/jp/given-name/sample.json";
+import jpSurname from "../src/data/jp/surname/sample.json";
+import krGiven from "../src/data/kr/given-name/sample.json";
+import krSurname from "../src/data/kr/surname/sample.json";
+import usGiven from "../src/data/us/given-name/sample.json";
+import usSurname from "../src/data/us/surname/sample.json";
 import {
   configureEngine,
   diagnose,
@@ -15,7 +26,20 @@ import {
 } from "../src/lib/engine";
 
 configureEngine({
-  datasets: datasets as Parameters<typeof configureEngine>[0]["datasets"],
+  datasets: [
+    deGiven,
+    deSurname,
+    frGiven,
+    frSurname,
+    gbGiven,
+    gbSurname,
+    jpGiven,
+    jpSurname,
+    krGiven,
+    krSurname,
+    usGiven,
+    usSurname,
+  ] as Parameters<typeof configureEngine>[0]["datasets"],
   dictionary,
 });
 

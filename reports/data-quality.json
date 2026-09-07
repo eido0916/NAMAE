@@ -1,0 +1,198 @@
+{
+  "provenanceReviewedAt": "2026-09-07",
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "ベビーカレンダー 名前ランキング: 公開前に再配布条件の確認が必要です",
+    "明治安田 名前ランキング: 公開前に再配布条件の確認が必要です",
+    "U.S. Social Security Administration Baby Names: 公開前に再配布条件の確認が必要です",
+    "Beliebte Vornamen Top 500: 公開前に再配布条件の確認が必要です",
+    "아기이름 연도별 이름 순위: 公開前に再配布条件の確認が必要です",
+    "Korean Last Names: 公開前に再配布条件の確認が必要です"
+  ],
+  "changes": [
+    {
+      "key": "DE/given_name",
+      "before": 1815,
+      "after": 1815,
+      "delta": 0
+    },
+    {
+      "key": "DE/surname",
+      "before": 378,
+      "after": 378,
+      "delta": 0
+    },
+    {
+      "key": "FR/given_name",
+      "before": 4000,
+      "after": 4000,
+      "delta": 0
+    },
+    {
+      "key": "FR/surname",
+      "before": 932,
+      "after": 932,
+      "delta": 0
+    },
+    {
+      "key": "GB/given_name",
+      "before": 1537,
+      "after": 1537,
+      "delta": 0
+    },
+    {
+      "key": "GB/surname",
+      "before": 855,
+      "after": 855,
+      "delta": 0
+    },
+    {
+      "key": "JP/given_name",
+      "before": 8872,
+      "after": 8872,
+      "delta": 0
+    },
+    {
+      "key": "JP/surname",
+      "before": 1999,
+      "after": 1999,
+      "delta": 0
+    },
+    {
+      "key": "KR/given_name",
+      "before": 4000,
+      "after": 4000,
+      "delta": 0
+    },
+    {
+      "key": "KR/surname",
+      "before": 100,
+      "after": 100,
+      "delta": 0
+    },
+    {
+      "key": "US/given_name",
+      "before": 10000,
+      "after": 10000,
+      "delta": 0
+    },
+    {
+      "key": "US/surname",
+      "before": 1900,
+      "after": 1900,
+      "delta": 0
+    }
+  ],
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "key": "DE/given_name",
+      "file": "src/data/de/given-name/sample.json",
+      "records": 1815,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 910,
+      "sha256": "d60b31df484f1806c35671673b82053b33b9c1eab179f8928ea98f55d3925258"
+    },
+    {
+      "key": "DE/surname",
+      "file": "src/data/de/surname/sample.json",
+      "records": 378,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 378,
+      "sha256": "7ac08234e15705e279364936e77b0047222f13cf6ff01161ef9591871af559ab"
+    },
+    {
+      "key": "FR/given_name",
+      "file": "src/data/fr/given-name/sample.json",
+      "records": 4000,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2000,
+      "sha256": "369bf1e7d3368c9e50f14ab86df8948c6144f9aa97069c3268ec594464d4055f"
+    },
+    {
+      "key": "FR/surname",
+      "file": "src/data/fr/surname/sample.json",
+      "records": 932,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 932,
+      "sha256": "ec37967e8db2f35bfe1c8e0c93c92a8ab65aad67576cd3d9f82c2648e07dbd5a"
+    },
+    {
+      "key": "GB/given_name",
+      "file": "src/data/gb/given-name/sample.json",
+      "records": 1537,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 799,
+      "sha256": "e0b8acaff5be49f4656e625d10ba422a1a5acad4a3b69aab93fce82be5562c7e"
+    },
+    {
+      "key": "GB/surname",
+      "file": "src/data/gb/surname/sample.json",
+      "records": 855,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 855,
+      "sha256": "825a62d3cab9c697909a18f27ccf8a5618e1e8e658bcbd75a0e707d0dded6d9f"
+    },
+    {
+      "key": "JP/given_name",
+      "file": "src/data/jp/given-name/sample.json",
+      "records": 8872,
+      "estimated": 7984,
+      "minRank": 1,
+      "maxRank": 5578,
+      "sha256": "f203c07d300f020b2ee97441f4e9367d01521521e18799c349a7ebcb00dd9892"
+    },
+    {
+      "key": "JP/surname",
+      "file": "src/data/jp/surname/sample.json",
+      "records": 1999,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1999,
+      "sha256": "cc4544f266d96f12f81ab4a0a18cc087ac5d6ce453b88a6a7415e85e35eccece"
+    },
+    {
+      "key": "KR/given_name",
+      "file": "src/data/kr/given-name/sample.json",
+      "records": 4000,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2000,
+      "sha256": "9fc7a925d48f0daa0d283a77d63cf9c3543e0872eef2779e6bfbcbe459a9485d"
+    },
+    {
+      "key": "KR/surname",
+      "file": "src/data/kr/surname/sample.json",
+      "records": 100,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 100,
+      "sha256": "2b357943154000ab41bb78854d7a6d8c099438614c138021f02e2e35e04f683d"
+    },
+    {
+      "key": "US/given_name",
+      "file": "src/data/us/given-name/sample.json",
+      "records": 10000,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5000,
+      "sha256": "59737e01858c4d37661f9b25a339d3888d26ea605499d52b1067377dae4ce82e"
+    },
+    {
+      "key": "US/surname",
+      "file": "src/data/us/surname/sample.json",
+      "records": 1900,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1900,
+      "sha256": "ec0b1a902316f2221a31f95458f6bae819600f76cf7079a0d25e849c9b6907c5"
+    }
+  ]
+}

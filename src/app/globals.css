@@ -94,6 +94,79 @@ button:disabled {
   opacity: 0.5;
   cursor: wait;
 }
+.form-error-row {
+  display: grid;
+  gap: 8px;
+}
+.retry-data {
+  justify-self: start;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.policy-page {
+  width: min(1040px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 120px 0 100px;
+}
+.policy-page > h1 {
+  margin: 20px 0 32px;
+  font-size: clamp(2.25rem, 6vw, 4.5rem);
+}
+.policy-page > p,
+.policy-page > section {
+  max-width: 760px;
+  line-height: 1.9;
+}
+.policy-page > section {
+  margin-top: 40px;
+}
+.policy-page h2 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+.source-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 44px;
+}
+.source-item {
+  padding: 28px;
+}
+.source-item > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.source-item h2 {
+  margin: 0;
+}
+.source-item a,
+.footer-links a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.license-status {
+  flex: 0 0 auto;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 4px 9px;
+  font-size: .72rem;
+}
+.license-status.permitted {
+  color: var(--accent);
+}
+.license-status.review_required {
+  color: #e7bf77;
+}
+.policy-note {
+  margin-top: 32px;
+}
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
 button:hover:not(:disabled) {
   filter: brightness(1.08);
 }

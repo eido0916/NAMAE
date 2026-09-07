@@ -68,6 +68,11 @@ export function Footer() {
         © {new Date().getFullYear()} NAMAE ·{" "}
         <a href="/flags/ATTRIBUTION.txt">Flags: Twemoji / CC BY 4.0</a>
       </span>
+      <span className="footer-links">
+        <Link href="/sources">データ出典</Link>
+        <Link href="/privacy">プライバシー</Link>
+        <Link href="/legal">利用上の注意</Link>
+      </span>
     </footer>
   );
 }
@@ -160,6 +165,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [busy, setBusy] = useState(false);
   const [dataReady, setDataReady] = useState(false);
   const [dataError, setDataError] = useState("");
+  const [loadAttempt, setLoadAttempt] = useState(0);
   const { setResult } = useContext(ResultContext);
   const router = useRouter();
   useEffect(() => {
@@ -177,7 +183,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
     return () => {
       active = false;
     };
-  }, [type]);
+  }, [type, loadAttempt]);
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setBusy(true);
@@ -334,9 +340,23 @@ function NameForm({ initialType }: { initialType: NameType }) {
         </fieldset>
       )}
       {(error || dataError) && (
-        <p id="form-error" role="alert" className="error">
-          {error || dataError}
-        </p>
+        <div className="form-error-row">
+          <p id="form-error" role="alert" className="error">
+            {error || dataError}
+          </p>
+          {dataError && (
+            <button
+              className="retry-data"
+              type="button"
+              onClick={() => {
+                setDataError("");
+                setLoadAttempt((attempt) => attempt + 1);
+              }}
+            >
+              データを再読み込み ↻
+            </button>
+          )}
+        </div>
       )}
       <button className="primary" type="submit" disabled={!dataReady || busy}>
         {busy || !dataReady
