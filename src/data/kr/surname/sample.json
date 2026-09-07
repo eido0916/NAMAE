@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "country": "KR",
+    "type": "surname",
+    "source": "NAMAE 動作確認用サンプル",
+    "dataYear": 2007,
+    "isOfficial": false,
+    "isSample": true,
+    "notes": "順位は架空のサンプルです。2007年の固定データを全入力年に使用します。実際の人気・希少性を示すものではありません。"
+  },
+  "records": [
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Kim",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Lee",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Park",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Choi",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Jung",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Kang",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Cho",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Yoon",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Jang",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Lim",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Han",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "name": "Oh",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "country": "FR",
+    "type": "surname",
+    "source": "NAMAE 動作確認用サンプル",
+    "dataYear": 2007,
+    "isOfficial": false,
+    "isSample": true,
+    "notes": "順位は架空のサンプルです。2007年の固定データを全入力年に使用します。実際の人気・希少性を示すものではありません。"
+  },
+  "records": [
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Martin",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Bernard",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Thomas",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Petit",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Robert",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Richard",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Durand",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Dubois",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Moreau",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Laurent",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Simon",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Michel",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "unknown",
+      "dataYear": 2007
+    }
+  ]
+}

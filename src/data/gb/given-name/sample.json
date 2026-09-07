@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "country": "GB",
+    "type": "given_name",
+    "source": "NAMAE 動作確認用サンプル",
+    "dataYear": 2007,
+    "isOfficial": false,
+    "isSample": true,
+    "notes": "順位は架空のサンプルです。2007年の固定データを全入力年に使用します。実際の人気・希少性を示すものではありません。"
+  },
+  "records": [
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Oliver",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "George",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Harry",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Noah",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Jack",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Leo",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Arthur",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Muhammad",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Oscar",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Charlie",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Henry",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Freddie",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Olivia",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Amelia",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Isla",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Ava",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Emily",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Isabella",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Mia",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Poppy",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Ella",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Lily",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Sophia",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "name": "Grace",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    }
+  ]
+}

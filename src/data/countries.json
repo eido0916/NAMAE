@@ -1,0 +1,56 @@
+[
+  {
+    "code": "JP",
+    "nameJa": "日本",
+    "nameEn": "Japan",
+    "flag": "🇯🇵",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "US",
+    "nameJa": "アメリカ",
+    "nameEn": "United States",
+    "flag": "🇺🇸",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GB",
+    "nameJa": "イギリス",
+    "nameEn": "United Kingdom",
+    "flag": "🇬🇧",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "FR",
+    "nameJa": "フランス",
+    "nameEn": "France",
+    "flag": "🇫🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "KR",
+    "nameJa": "韓国",
+    "nameEn": "South Korea",
+    "flag": "🇰🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "DE",
+    "nameJa": "ドイツ",
+    "nameEn": "Germany",
+    "flag": "🇩🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  }
+]

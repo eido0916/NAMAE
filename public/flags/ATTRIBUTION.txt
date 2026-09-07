@@ -1,0 +1,4 @@
+Flag graphics: Twemoji, Copyright Twitter, Inc. and other contributors.
+https://github.com/jdecked/twemoji
+Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Original SVG assets, unmodified. See LICENSE-GRAPHICS.

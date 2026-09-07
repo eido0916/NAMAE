@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "country": "KR",
+    "type": "given_name",
+    "source": "NAMAE 動作確認用サンプル",
+    "dataYear": 2007,
+    "isOfficial": false,
+    "isSample": true,
+    "notes": "順位は架空のサンプルです。2007年の固定データを全入力年に使用します。実際の人気・希少性を示すものではありません。"
+  },
+  "records": [
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Min-jun",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Seo-jun",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Do-yun",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ye-jun",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Si-woo",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ha-jun",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ju-won",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ji-ho",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ji-hu",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Jun-woo",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Jun-seo",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Geon-u",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Seo-yeon",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Seo-yun",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ji-woo",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Seo-hyeon",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ha-eun",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ha-yun",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Min-seo",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ji-yu",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Yun-seo",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Chae-won",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Su-a",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "name": "Ji-a",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    }
+  ]
+}

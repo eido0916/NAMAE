@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "country": "FR",
+    "type": "given_name",
+    "source": "NAMAE 動作確認用サンプル",
+    "dataYear": 2007,
+    "isOfficial": false,
+    "isSample": true,
+    "notes": "順位は架空のサンプルです。2007年の固定データを全入力年に使用します。実際の人気・希少性を示すものではありません。"
+  },
+  "records": [
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Gabriel",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Léo",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Raphaël",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Arthur",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Louis",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Lucas",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Adam",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Jules",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Hugo",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Maël",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Noah",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Gabin",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "male",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Jade",
+      "aliases": [],
+      "rank": 1,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Louise",
+      "aliases": [],
+      "rank": 2,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Emma",
+      "aliases": [],
+      "rank": 3,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Ambre",
+      "aliases": [],
+      "rank": 4,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Alice",
+      "aliases": [],
+      "rank": 5,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Rose",
+      "aliases": [],
+      "rank": 6,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Anna",
+      "aliases": [],
+      "rank": 7,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Alba",
+      "aliases": [],
+      "rank": 8,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Romy",
+      "aliases": [],
+      "rank": 9,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Mia",
+      "aliases": [],
+      "rank": 10,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Lina",
+      "aliases": [],
+      "rank": 11,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "name": "Chloé",
+      "aliases": [],
+      "rank": 12,
+      "totalEntries": 12,
+      "gender": "female",
+      "year": 2007,
+      "dataYear": 2007
+    }
+  ]
+}
