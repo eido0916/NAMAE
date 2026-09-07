@@ -1,6 +1,4 @@
-import datasets from "@/data/registry.json";
 import countries from "@/data/countries.json";
-import dictionary from "@/data/dictionary/names.json";
 import type {
   CountryConfig,
   Dataset,
@@ -11,6 +9,14 @@ import type {
   NameType,
   RankingBasis,
 } from "./types";
+type DictionaryEntry = {
+  gender: string;
+  reading: string;
+  aliases: string[];
+};
+
+let datasets: Dataset[] = [];
+let dictionary: DictionaryEntry[] = [];
 export const normalizeName = (name: string) =>
   name
     .normalize("NFKC")
@@ -18,12 +24,37 @@ export const normalizeName = (name: string) =>
     .toLowerCase()
     .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 96));
 const readingIndex = new Map<string, Set<string>>();
-for (const entry of dictionary)
-  for (const alias of [entry.reading, ...entry.aliases]) {
-    const key = `${entry.gender}|${normalizeName(alias)}`;
-    if (!readingIndex.has(key)) readingIndex.set(key, new Set());
-    readingIndex.get(key)!.add(entry.reading);
+
+function rebuildReadingIndex() {
+  readingIndex.clear();
+  for (const entry of dictionary)
+    for (const alias of [entry.reading, ...entry.aliases]) {
+      const key = `${entry.gender}|${normalizeName(alias)}`;
+      if (!readingIndex.has(key)) readingIndex.set(key, new Set());
+      readingIndex.get(key)!.add(entry.reading);
+    }
+}
+
+export function configureEngine(data: {
+  datasets?: Dataset[];
+  dictionary?: DictionaryEntry[];
+}) {
+  if (data.dictionary) {
+    dictionary = data.dictionary;
+    rebuildReadingIndex();
   }
+  if (data.datasets) {
+    const byKey = new Map(
+      datasets.map((dataset) => [
+        `${dataset.meta.country}/${dataset.meta.type}`,
+        dataset,
+      ]),
+    );
+    for (const dataset of data.datasets)
+      byKey.set(`${dataset.meta.country}/${dataset.meta.type}`, dataset);
+    datasets = [...byKey.values()];
+  }
+}
 export function getReadingOptions(
   name: string,
   gender: string = "male",

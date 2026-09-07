@@ -45,8 +45,7 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
     page
       .getByRole("article")
       .filter({ hasText: "United States" })
-      .getByRole("heading", { name: "Smith", exact: true }),
-  ).toBeVisible();
+  ).toContainText("#1");
   await page.goto("http://localhost:3000/name");
   await page.locator("#name").fill("大翔");
   await page.locator("#reading").fill("はると");

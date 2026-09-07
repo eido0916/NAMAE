@@ -1,6 +1,6 @@
 # NAMAE
 
-名前・苗字のランキングから海外名を探すNext.js / TypeScript / Tailwind CSSアプリです。入力情報はブラウザーのメモリ内のみで処理します。
+名前・苗字のランキングから海外名を探すNext.js / TypeScriptアプリです。入力情報はブラウザーのメモリ内のみで処理します。ランキングの管理にはビルド時SQLiteを使い、公開サイトは分割JSONだけを配信します。
 
 ## 起動
 
@@ -52,16 +52,21 @@ Rarity Scoreは順位/同じ性別の収録件数×100を四捨五入します�
 
 かな・ローマ字は読みへ正規化します。漢字の読みが一意でない場合は利用者に確認し、選ばれた読みの総合人気順位を表示します。公開検索に最新実順位がある場合はそれを優先し、ない場合だけ推定順位を使用します。
 
+## データ構成
+
+`src/data/<国>/<種別>/*.json` は取得・整形済みの原本です。`npm run data:build` がこれらを `data/namae.sqlite` に統合し、検証済みの公開用データを `public/data/` へ国・種類別に書き出します。ブラウザーは最初に日本の照合データだけを読み、診断時に下の名前または苗字のうち必要な海外データだけを取得します。
+
+SQLiteは更新・検証用の単一のデータ源です。公開サイトからSQLiteや外部DBへ接続しないため、Vercelなどへの静的公開でDB利用料はかかりません。
+
 ## データ更新
 
-`src/data/<国>/<種別>/*.json` にデータセットを配置し、`src/data/countries.json` に国設定を追加します。1国・1種別につき1データセットで、records内に複数年度を格納できます。
+データセットを更新した後は、SQLiteと公開JSONを再生成します。
 
 ```sh
-node scripts/import-name-data.mjs
 npm run data:build
 ```
 
-通常のデータ生成とビルドはネットワーク取得せず、同梱データからregistryを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign` と `node scripts/import-foreign-surnames.mjs`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に上記2コマンドを実行します。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
+通常のデータ生成とビルドはネットワーク取得せず、同梱データからSQLiteと公開JSONを再生成します。海外ランキングを更新するときは `npm run data:refresh:foreign` と `npm run data:refresh:foreign-surnames`、日本の公開検索結果を更新するときは `npm run data:refresh:baby-calendar` を実行し、その後に `npm run data:build` を実行します。`npm run data:registry` は旧形式の一括JSONが必要な検証用です。従来の `generate-sample-data.mjs` は全データを初期サンプルに戻すため、通常運用では実行しないでください。
 
 ## 検証
 
@@ -77,7 +82,7 @@ npm run test:browser
 
 ## 公開・画像・プライバシー
 
-`NEXT_PUBLIC_SITE_URL` に本番URLを設定してビルドしてください。Vercelまたは静的ホスティングで配信できます。DB・外部AI API・解析サービスは不要です。
+`NEXT_PUBLIC_SITE_URL` に本番URLを設定してビルドしてください。Vercelまたは静的ホスティングで配信できます。実行時DB・外部AI API・解析サービスは不要です。
 
 結果は1080×1920 PNGで保存できます。共有はWeb Share APIを使い、非対応時はコピーまたは画像保存にフォールバックします。国旗はTwemoji（CC BY 4.0）。`public/flags/` にライセンスと出典を保存しています。
 

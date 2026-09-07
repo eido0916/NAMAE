@@ -17,6 +17,7 @@ import { useRouter } from "next/navigation";
 import {
   createContext,
   useContext,
+  useEffect,
   useState,
   type ReactNode,
   type FormEvent,
@@ -28,6 +29,7 @@ import {
   getReadingOptions,
   getSurnameRecord,
 } from "@/lib/engine";
+import { loadDiagnosisData, loadInputData } from "@/lib/data-loader";
 import { saveResult, shareResult } from "@/lib/share";
 import type { Diagnosis, Gender, NameType } from "@/lib/types";
 const ResultContext = createContext<{
@@ -155,11 +157,32 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [gender, setGender] = useState<Gender>("male");
   const [reading, setReading] = useState("");
   const [error, setError] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [dataReady, setDataReady] = useState(false);
+  const [dataError, setDataError] = useState("");
   const { setResult } = useContext(ResultContext);
   const router = useRouter();
-  function submit(e: FormEvent<HTMLFormElement>) {
+  useEffect(() => {
+    let active = true;
+    loadInputData(type)
+      .then(() => active && setDataReady(true))
+      .catch((error: unknown) => {
+        if (active)
+          setDataError(
+            error instanceof Error
+              ? error.message
+              : "診断データを読み込めませんでした。",
+          );
+      });
+    return () => {
+      active = false;
+    };
+  }, [type]);
+  async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setBusy(true);
     try {
+      await loadInputData(type);
       const input = {
         name,
         type,
@@ -167,10 +190,17 @@ function NameForm({ initialType }: { initialType: NameType }) {
           ? { gender, ...(reading ? { reading } : {}) }
           : {}),
       };
-      const surnameRecord =
+      const givenNameRecord =
+        type === "given_name" ? getNameRecord(input) : undefined;
+      let surnameRecord: ReturnType<typeof getSurnameRecord>;
+      if (
         type === "given_name" &&
-        !getNameRecord(input) &&
-        getSurnameRecord(name);
+        (!givenNameRecord || givenNameRecord.isEstimated)
+      ) {
+        await loadInputData("surname");
+        surnameRecord = getSurnameRecord(name);
+      }
+      await loadDiagnosisData(surnameRecord ? "surname" : type);
       const result = surnameRecord
         ? {
             ...diagnose({ name, type: "surname" }),
@@ -185,6 +215,8 @@ function NameForm({ initialType }: { initialType: NameType }) {
           ? e.message
           : "診断できませんでした。もう一度お試しください。",
       );
+    } finally {
+      setBusy(false);
     }
   }
   const surname = type === "surname";
@@ -206,7 +238,11 @@ function NameForm({ initialType }: { initialType: NameType }) {
             aria-pressed={type === t}
             className={type === t ? "selected" : ""}
             onClick={() => {
-              setType(t);
+              if (t !== type) {
+                setType(t);
+                setDataReady(false);
+                setDataError("");
+              }
               setError("");
             }}
           >
@@ -297,13 +333,15 @@ function NameForm({ initialType }: { initialType: NameType }) {
           </div>
         </fieldset>
       )}
-      {error && (
+      {(error || dataError) && (
         <p id="form-error" role="alert" className="error">
-          {error}
+          {error || dataError}
         </p>
       )}
-      <button className="primary" type="submit">
-        世界の{surname ? "苗字" : "名前"}を見る <span>↗</span>
+      <button className="primary" type="submit" disabled={!dataReady || busy}>
+        {busy || !dataReady
+          ? "診断データを読み込み中…"
+          : `世界の${surname ? "苗字" : "名前"}を見る`} {dataReady && !busy && <span>↗</span>}
       </button>
       <p className="form-caption">Same popularity. Different country.</p>
     </form>

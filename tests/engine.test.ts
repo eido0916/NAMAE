@@ -1,6 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import datasets from "../src/data/registry.json";
+import dictionary from "../src/data/dictionary/names.json";
 import {
+  configureEngine,
   diagnose,
   calculateRankPercentile,
   findClosestEquivalentName,
@@ -10,6 +13,11 @@ import {
   validateInput,
   getCohort,
 } from "../src/lib/engine";
+
+configureEngine({
+  datasets: datasets as Parameters<typeof configureEngine>[0]["datasets"],
+  dictionary,
+});
 
 test("deep Japanese rankings cover the reported ordinary names", () => {
   const cases = [
