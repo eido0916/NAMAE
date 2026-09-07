@@ -23,7 +23,8 @@
     "data:refresh:foreign-surnames": "node scripts/import-foreign-surnames.mjs",
     "data:refresh:countries": "node scripts/import-onomaverse-countries.mjs",
     "data:refresh:us-surnames": "node scripts/import-us-census-surnames.mjs",
-    "data:refresh:baby-calendar": "node scripts/import-baby-calendar.mjs"
+    "data:refresh:baby-calendar": "node scripts/import-baby-calendar.mjs",
+    "data:refresh:enamdict": "node scripts/import-enamdict.mjs"
   },
   "dependencies": {
     "jszip": "^3.10.1",

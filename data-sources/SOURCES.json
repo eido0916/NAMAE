@@ -40,6 +40,19 @@
       "attribution": "Copyright (c) 2022 shuheilocale, MIT License"
     },
     {
+      "id": "enamdict",
+      "name": "ENAMDICT/JMnedict Japanese Proper Names Dictionary",
+      "url": "https://www.edrdg.org/enamdict/enamdict_doc.html",
+      "datasets": [
+        "JP/given_name",
+        "JP/surname"
+      ],
+      "licenseName": "EDRDG Dictionary Licence",
+      "licenseUrl": "https://www.edrdg.org/",
+      "redistributionStatus": "review_required",
+      "attribution": "ENAMDICT/JMnedict by the Electronic Dictionary Research and Development Group; used with acknowledgement."
+    },
+    {
       "id": "ssa-baby-names",
       "name": "U.S. Social Security Administration Baby Names",
       "url": "https://www.ssa.gov/oact/babynames/limits.html",

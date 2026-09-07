@@ -158,7 +158,7 @@ export function Home({
         </div>
       </section>
       <p className="data-note">
-        日本と海外{getCountryConfig().length - 1}か国の公開ランキングと名前辞書で診断します。国はフォームから選べます。
+        日本と海外{getCountryConfig().length - 1}か国の公開ランキングと名前辞書で診断します。
       </p>
     </>
   );
@@ -173,13 +173,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [dataReady, setDataReady] = useState(false);
   const [dataError, setDataError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
-  const [destinationCountries, setDestinationCountries] = useState([
-    "US",
-    "GB",
-    "FR",
-    "KR",
-    "DE",
-  ]);
+  const destinationCountries = ["US", "GB", "FR", "KR", "DE"];
   const { setResult } = useContext(ResultContext);
   const router = useRouter();
   useEffect(() => {
@@ -357,45 +351,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
           </div>
         </fieldset>
       )}
-      <fieldset className="country-picker">
-        <legend className="field-label">
-          診断する国 <span>{destinationCountries.length}/8か国</span>
-        </legend>
-        <details>
-          <summary>
-            {destinationCountries
-              .map((code) => getCountryConfig(code)[0]?.nameJa)
-              .filter(Boolean)
-              .join("・")} <span>変更 ＋</span>
-          </summary>
-          <div className="country-options">
-            {getCountryConfig()
-              .filter((country) => country.code !== "JP")
-              .map((country) => {
-                const checked = destinationCountries.includes(country.code);
-                const disabled = !checked && destinationCountries.length >= 8;
-                return (
-                  <label key={country.code}>
-                    <input
-                      type="checkbox"
-                      checked={checked}
-                      disabled={disabled}
-                      onChange={() => {
-                        setDestinationCountries((current) =>
-                          checked
-                            ? current.filter((code) => code !== country.code)
-                            : [...current, country.code],
-                        );
-                        setError("");
-                      }}
-                    />
-                    <span>{country.flag} {country.nameJa}</span>
-                  </label>
-                );
-              })}
-          </div>
-        </details>
-      </fieldset>
       {(error || dataError) && (
         <div className="form-error-row">
           <p id="form-error" role="alert" className="error">
@@ -429,47 +384,9 @@ function NameForm({ initialType }: { initialType: NameType }) {
   );
 }
 export function Results() {
-  const { result, setResult } = useContext(ResultContext);
+  const { result } = useContext(ResultContext);
   const [status, setStatus] = useState("");
   const [busy, setBusy] = useState(false);
-  const [countryUpdateBusy, setCountryUpdateBusy] = useState(false);
-  const [countryUpdateError, setCountryUpdateError] = useState("");
-  const selectedCountries = result
-    ? (result.input.destinationCountries?.filter((code) => code !== "JP") ??
-      result.matches.map(({ country }) => country.code))
-    : [];
-
-  async function updateDestinationCountries(nextCountries: string[]) {
-    if (!result || countryUpdateBusy) return;
-    if (nextCountries.length < 1) {
-      setCountryUpdateError("表示する国を1か国以上選んでください。");
-      return;
-    }
-    if (nextCountries.length > 8) return;
-
-    setCountryUpdateBusy(true);
-    setCountryUpdateError("");
-    try {
-      await loadDiagnosisData(result.input.type, nextCountries);
-      const nextResult = diagnose({
-        ...result.input,
-        destinationCountries: nextCountries,
-      });
-      setResult(
-        result.autoDetectedFrom
-          ? { ...nextResult, autoDetectedFrom: result.autoDetectedFrom }
-          : nextResult,
-      );
-    } catch (error) {
-      setCountryUpdateError(
-        error instanceof Error
-          ? error.message
-          : "国別データを読み込めませんでした。",
-      );
-    } finally {
-      setCountryUpdateBusy(false);
-    }
-  }
 
   if (!result)
     return (
@@ -589,62 +506,6 @@ export function Results() {
         </h2>
         <span>IF YOU WERE BORN IN…</span>
       </div>
-      <fieldset
-        className="result-country-picker"
-        disabled={countryUpdateBusy}
-        aria-busy={countryUpdateBusy}
-      >
-        <legend>
-          <span>表示する国</span>
-          <small>{selectedCountries.length}/8か国</small>
-        </legend>
-        <div className="result-country-options">
-          {getCountryConfig()
-            .filter((country) => {
-              if (country.code === "JP") return false;
-              return result.input.type === "surname"
-                ? country.supportsSurname
-                : country.supportsGivenName;
-            })
-            .map((country) => {
-              const checked = selectedCountries.includes(country.code);
-              const disabled =
-                !checked &&
-                (selectedCountries.length >= 8 || countryUpdateBusy);
-              return (
-                <label key={country.code}>
-                  <input
-                    type="checkbox"
-                    checked={checked}
-                    disabled={disabled}
-                    onChange={() => {
-                      const nextCountries = checked
-                        ? selectedCountries.filter(
-                            (code) => code !== country.code,
-                          )
-                        : [...selectedCountries, country.code];
-                      void updateDestinationCountries(nextCountries);
-                    }}
-                  />
-                  <span>
-                    <Flag code={country.code} label={country.nameJa} />
-                    {country.nameJa}
-                  </span>
-                </label>
-              );
-            })}
-        </div>
-        <p className="result-country-hint">
-          {countryUpdateBusy
-            ? "国別データを更新しています…"
-            : "チェックした国のランキングだけ表示します（最大8か国）"}
-        </p>
-        {countryUpdateError && (
-          <p className="error" role="alert">
-            {countryUpdateError}
-          </p>
-        )}
-      </fieldset>
       <div className="match-grid">
         {result.matches.map(({ country, record }, i) => (
           <article

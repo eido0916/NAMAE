@@ -19,14 +19,14 @@ const csvFile = Object.values(zip.files).find((file) => file.name.toLowerCase().
 if (!csvFile) throw new Error("Census surname CSV was not found");
 const text = await csvFile.async("string");
 const lines = text.split(/\r?\n/).filter(Boolean);
-const records = lines.slice(1, 10001).map((line, index) => {
+const records = lines.slice(1).map((line, index) => {
   const [name, rank, count, proportion] = line.split(",");
   return {
     country: "US",
     type: "surname",
     name: name[0] + name.slice(1).toLocaleLowerCase("en-US"),
     rank: Number(rank) || index + 1,
-    totalEntries: Math.min(10000, lines.length - 1),
+    totalEntries: lines.length - 1,
     count: Number(count),
     share: Number(proportion) / 100000,
     year: 2010,
@@ -49,7 +49,7 @@ writeFileSync(
       dataYear: 2010,
       isOfficial: true,
       isSample: false,
-      notes: "2010年国勢調査で100回以上報告された162,253姓のうち上位10,000件。",
+      notes: "2010年国勢調査で100回以上報告された姓を全件収録（順位付き）。",
     },
     records,
   }),

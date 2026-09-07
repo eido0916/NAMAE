@@ -1,0 +1,10 @@
+ENAMDICT/JMnedict Japanese Proper Names Dictionary
+
+Copyright (C) 2021 The Electronic Dictionary Research and Development Group.
+Source: https://www.edrdg.org/enamdict/enamdict_doc.html
+
+The dictionary files may be used in commercial and non-commercial products
+provided that satisfactory acknowledgement is made. Users who successfully
+incorporate the files in a commercial product or service are requested to make
+a donation to the Group. See https://www.edrdg.org/ for the current usage
+arrangements and acknowledgement requirements.

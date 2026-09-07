@@ -12,17 +12,8 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await expect(
     page.getByRole("article").filter({ hasText: "United States" }),
   ).toContainText("#365");
-  await expect(page.locator(".result-country-picker")).toBeVisible();
-  await page
-    .locator(".result-country-options label")
-    .filter({ hasText: "イタリア" })
-    .click();
-  await expect(
-    page.getByRole("article").filter({ hasText: "Italy" }),
-  ).toBeVisible();
-  await expect(
-    page.locator(".result-country-options input:checked"),
-  ).toHaveCount(6);
+  await expect(page.locator(".country-picker")).toHaveCount(0);
+  await expect(page.locator(".result-country-picker")).toHaveCount(0);
   const downloadEvent = page.waitForEvent("download");
   await page.getByRole("button", { name: "結果を画像保存" }).click();
   const download = await downloadEvent;
@@ -109,12 +100,10 @@ test("data load failure can be retried without sending a name", async ({ page })
   await expect(page.getByRole("button", { name: "データを再読み込み" })).toBeVisible();
   await page.getByRole("button", { name: "データを再読み込み" }).click();
   await expect(page.getByRole("button", { name: "世界の名前を見る" })).toBeEnabled();
-  await page.getByText("変更 ＋").click();
-  await page.getByText("🇮🇹 イタリア").click();
   await page.getByRole("button", { name: "じゅん", exact: true }).click();
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
   await expect(
-    page.getByRole("article").filter({ hasText: "Italy" }),
+    page.getByRole("article").filter({ hasText: "United States" }),
   ).toBeVisible();
   await page.goto("http://localhost:3000/sources");
   await expect(page.getByRole("heading", { name: "データ出典・ライセンス" })).toBeVisible();

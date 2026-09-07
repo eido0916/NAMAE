@@ -97,35 +97,85 @@ function parseCsv(file, type) {
     const country = fields[countryColumn];
     if (!grouped.has(country)) continue;
     const name = normalize(fields[0] ?? "");
-    if (!name || !latinName.test(name)) continue;
+    const nameId = normalize(fields[1] ?? "");
+    if (!name || !nameId) continue;
     const count = Number(fields[countColumn]) || 0;
     if (type === "surname") {
-      grouped.get(country).push({ name, count });
+      grouped.get(country).push({ name, nameId, count });
       continue;
     }
     const genderValue = fields[genderColumn] ?? "";
     if (genderValue.includes("M"))
-      grouped.get(country).push({ name, count, gender: "male" });
+      grouped.get(country).push({ name, nameId, count, gender: "male" });
     if (genderValue.includes("F"))
-      grouped.get(country).push({ name, count, gender: "female" });
+      grouped.get(country).push({ name, nameId, count, gender: "female" });
   }
   return grouped;
+}
+
+function loadLatinTransliterations(valuesByCountry) {
+  const ids = new Set();
+  for (const values of valuesByCountry.values())
+    for (const value of values)
+      if (!latinName.test(value.name)) ids.add(value.nameId);
+  if (!ids.size) return new Map();
+  const aliases = new Map();
+  const file = join(sourceRoot, "onomaverse-name-transliterations.csv");
+  for (const line of readFileSync(file, "utf8").split(/\r?\n/).slice(1)) {
+    if (!line) continue;
+    const fields = line.split(",");
+    const nameId = fields[0];
+    if (!ids.has(nameId)) continue;
+    const localized = normalize(fields[4] ?? "");
+    if (!localized || !latinName.test(localized)) continue;
+    if (!aliases.has(nameId)) aliases.set(nameId, new Set());
+    aliases.get(nameId).add(localized);
+  }
+  return aliases;
+}
+
+function withLatinNames(valuesByCountry) {
+  const aliases = loadLatinTransliterations(valuesByCountry);
+  const result = new Map();
+  for (const [country, values] of valuesByCountry) {
+    result.set(
+      country,
+      values.flatMap((value) => {
+        const transliterations = [...(aliases.get(value.nameId) ?? [])];
+        const displayName = latinName.test(value.name)
+          ? value.name
+          : transliterations.shift();
+        if (!displayName) return [];
+        const allAliases = transliterations.filter(
+          (alias) => alias.toLocaleLowerCase() !== displayName.toLocaleLowerCase(),
+        );
+        if (!latinName.test(value.name)) allAliases.unshift(value.name);
+        return [{ ...value, name: displayName, aliases: [...new Set(allAliases)] }];
+      }),
+    );
+  }
+  return result;
 }
 
 function rankedRecords(country, type, values) {
   const genders = type === "given_name" ? ["male", "female"] : [undefined];
   const records = [];
   for (const gender of genders) {
-    const seen = new Set();
     const cohort = values
       .filter((value) => value.gender === gender)
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-    const unique = cohort.filter((value) => {
+    const unique = [];
+    const byName = new Map();
+    for (const value of cohort) {
       const key = value.name.toLocaleLowerCase();
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
+      const existing = byName.get(key);
+      if (existing) {
+        existing.aliases = [...new Set([...(existing.aliases ?? []), ...(value.aliases ?? [])])];
+        continue;
+      }
+      byName.set(key, value);
+      unique.push(value);
+    }
     unique.forEach((value, index) =>
       records.push({
         country,
@@ -138,14 +188,15 @@ function rankedRecords(country, type, values) {
         year,
         dataYear: year,
         ...(gender ? { gender } : {}),
+        ...(value.aliases?.length ? { aliases: value.aliases } : {}),
       }),
     );
   }
   return records;
 }
 
-const given = parseCsv(join(sourceRoot, "onomaverse-given-name-frequency.csv"), "given_name");
-const surnames = parseCsv(join(sourceRoot, "onomaverse-surname-frequency.csv"), "surname");
+const given = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-given-name-frequency.csv"), "given_name"));
+const surnames = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-surname-frequency.csv"), "surname"));
 const counts = {};
 for (const country of Object.keys(countries)) {
   counts[country] = {};
@@ -165,7 +216,7 @@ for (const country of Object.keys(countries)) {
           dataYear: year,
           isOfficial: false,
           isSample: false,
-          notes: "国別の推定人数を降順に並べた頻度順位。CC BY 4.0。",
+          notes: "国別の推定人数を降順に並べた頻度順位。非ラテン文字の原表記は公式のラテン文字転写を検索別名として収録。CC BY 4.0。",
         },
         records,
       }),
