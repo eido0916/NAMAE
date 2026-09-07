@@ -58,9 +58,7 @@ export function getCohort(
   const inferredRankingBasis =
     rankingBasis ??
     (country === "JP" && input.type === "given_name"
-      ? /[\p{Script=Han}々〆ヵヶ]/u.test(input.name)
-        ? "spelling"
-        : "reading"
+      ? "overall"
       : undefined);
   const records = getDataset(country, input.type).records.filter(
     (record) =>
@@ -68,7 +66,8 @@ export function getCohort(
       (!inferredRankingBasis ||
         record.rankingBasis === inferredRankingBasis),
   );
-  if (input.type === "surname") return records;
+  if (input.type === "surname" || inferredRankingBasis === "overall")
+    return records;
   const years = [
     ...new Set(
       records.map((r) => r.year).filter((y): y is number => y !== undefined),
@@ -82,8 +81,6 @@ export function getCohort(
   return records.filter((r) => r.year === year);
 }
 
-const hasKanji = (value: string) => /[\p{Script=Han}々〆ヵヶ]/u.test(value);
-
 function findJapaneseGivenNameRecord(
   input: DiagnosisInput,
 ): NameRecord | undefined {
@@ -94,38 +91,12 @@ function findJapaneseGivenNameRecord(
     : options.length === 1
       ? options[0]
       : normalizedName;
-  const preferredBasis: RankingBasis = hasKanji(input.name)
-    ? "spelling"
-    : "reading";
-  const bases: RankingBasis[] =
-    preferredBasis === "spelling"
-      ? ["spelling", "reading"]
-      : ["reading"];
-
-  for (const rankingBasis of bases) {
-    const target = rankingBasis === "spelling" ? normalizedName : reading;
-    const matches = (record: NameRecord) =>
-      [record.name, ...(record.aliases ?? [])].some(
-        (alias) => normalizeName(alias) === target,
-      );
-    const cohortRecord = getCohort(input, "JP", rankingBasis).find(matches);
-    if (cohortRecord) return cohortRecord;
-
-    const historicalRecord = getDataset("JP", "given_name").records
-      .filter(
-        (record) =>
-          record.gender === input.gender &&
-          record.rankingBasis === rankingBasis &&
-          matches(record),
-      )
-      .sort(
-        (a, b) =>
-          Math.abs((a.year ?? 0) - (input.year ?? 0)) -
-            Math.abs((b.year ?? 0) - (input.year ?? 0)) ||
-          (b.year ?? 0) - (a.year ?? 0),
-      )[0];
-    if (historicalRecord) return historicalRecord;
-  }
+  return getDataset("JP", "given_name").records.find(
+    (record) =>
+      record.gender === input.gender &&
+      record.rankingBasis === "overall" &&
+      normalizeName(record.name) === reading,
+  );
 }
 
 export function getNameRecord(
@@ -170,7 +141,7 @@ export function findClosestEquivalentName(
   input: DiagnosisInput,
   country: string,
   source?: NameRecord,
-  mode: MatchingMode = "exactRank",
+  mode: MatchingMode = "normalizedRank",
 ): NameRecord {
   const records = getCohort(input, country);
   if (!records.length) throw Error("該当するデータがありません");
@@ -222,12 +193,9 @@ export function validateInput(input: DiagnosisInput): string | undefined {
     return "名前は30文字以内の漢字・かな・英字で入力してください。";
   if (
     input.type === "given_name" &&
-    (!["male", "female"].includes(input.gender ?? "") ||
-      !Number.isInteger(input.year) ||
-      input.year! < 1920 ||
-      input.year! > new Date().getFullYear())
+    !["male", "female"].includes(input.gender ?? "")
   )
-    return "性別と生まれ年を選んでください。";
+    return "性別を選んでください。";
   if (input.type === "given_name") {
     const readings = getReadingOptions(input.name, input.gender);
     if (
@@ -254,7 +222,9 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
   const record = getNameRecord(clean);
   const sourceYear = record?.year ?? getCohort(clean, "JP")[0]?.year;
   const recognition = record
-    ? clean.type === "given_name" && record.year !== clean.year
+    ? clean.type === "given_name" &&
+      record.rankingBasis !== "overall" &&
+      record.year !== clean.year
       ? "historical"
       : "ranked"
     : clean.type === "given_name" &&

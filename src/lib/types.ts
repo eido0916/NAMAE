@@ -1,7 +1,7 @@
 export type NameType = "given_name" | "surname";
 export type Gender = "male" | "female" | "unknown";
 export type MatchingMode = "exactRank" | "normalizedRank" | "populationShare";
-export type RankingBasis = "reading" | "spelling";
+export type RankingBasis = "reading" | "spelling" | "overall";
 export type NameRecord = {
   country: string;
   type: NameType;
@@ -15,6 +15,7 @@ export type NameRecord = {
   share?: number;
   dataYear?: number;
   rankingBasis?: RankingBasis;
+  isEstimated?: boolean;
 };
 export type DatasetMeta = {
   country: string;

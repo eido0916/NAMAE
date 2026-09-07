@@ -10,20 +10,59 @@ import {
   validateInput,
   getCohort,
 } from "../src/lib/engine";
-test("same rank: 2009 Haruto maps to US Jacob #1", () => {
-  const r = diagnose({
-    name: "はると",
+
+test("deep Japanese rankings cover the reported ordinary names", () => {
+  const cases = [
+    ["じゅん", 365],
+    ["れん", 31],
+    ["じゅんや", 638],
+    ["れんや", 259],
+  ] as const;
+  for (const [name, rank] of cases) {
+    const result = diagnose({ name, type: "given_name", gender: "male" });
+    assert.equal(result.record?.rank, rank);
+    assert.equal(result.record?.totalEntries, 1981);
+    assert.equal(result.record?.year, 2025);
+    assert.equal(result.record?.rankingBasis, "overall");
+    assert.equal(result.record?.isEstimated, false);
+    assert.equal(result.recognition, "ranked");
+  }
+});
+
+test("given-name diagnosis no longer requires a birth year", () => {
+  assert.equal(
+    validateInput({ name: "じゅん", type: "given_name", gender: "male" }),
+    undefined,
+  );
+  assert.equal(
+    getCohort(
+      { name: "じゅん", type: "given_name", gender: "male" },
+      "JP",
+    ).length,
+    5578,
+  );
+});
+
+test("foreign names are matched by percentile across different list sizes", () => {
+  const result = diagnose({
+    name: "じゅん",
     type: "given_name",
     gender: "male",
-    year: 2009,
   });
-  assert.equal(r.record?.rank, 1);
-  assert.equal(r.matches[0].record.rank, 1);
-  assert.equal(r.matches[0].record.name, "Jacob");
-  assert.equal(r.meta.dataYear, 2009);
-  for (const m of r.matches) assert.equal(m.record.rank, 1);
+  const sourcePercentile = calculateRankPercentile(
+    result.record!.rank,
+    result.record!.totalEntries,
+  );
+  const us = result.matches.find((match) => match.country.code === "US")!;
+  const usPercentile = calculateRankPercentile(
+    us.record.rank,
+    us.record.totalEntries,
+  );
+  assert.ok(Math.abs(sourcePercentile - usPercentile) <= 1 / 200);
+  assert.equal(us.record.rank, 37);
 });
-test("normalization mode remains available", () => {
+
+test("normalization mode remains available explicitly", () => {
   assert.equal(calculateRankPercentile(100, 5000), 0.02);
   const source = {
     country: "JP",
@@ -33,149 +72,74 @@ test("normalization mode remains available", () => {
     rank: 10,
     totalEntries: 50,
   };
-  const r = findClosestEquivalentName(
-    { name: "test", type: "given_name", gender: "male", year: 2009 },
+  const result = findClosestEquivalentName(
+    { name: "test", type: "given_name", gender: "male" },
     "US",
     source,
     "normalizedRank",
   );
-  assert.equal(r.rank, 40);
+  assert.equal(result.rank, 40);
 });
-test("real cohort changes with year; missing year reported honestly", () => {
-  const a = getNameRecord({
-    name: "ゆうき",
+
+test("dictionary-only names receive a clearly marked estimated rank", () => {
+  const result = diagnose({
+    name: "ああす",
     type: "given_name",
     gender: "male",
-    year: 2009,
   });
-  assert.equal(a?.rank, 3);
-  const b = diagnose({
-    name: "はると",
-    type: "given_name",
-    gender: "male",
-    year: 1990,
-  });
-  assert.equal(b.meta.dataYear, 2004);
-  assert.equal(b.matches[0].record.year, 1990);
+  assert.ok(result.record);
+  assert.equal(result.record?.rankingBasis, "overall");
+  assert.equal(result.record?.isEstimated, true);
+  assert.equal(result.recognition, "ranked");
 });
-test("dictionary recognizes many spellings without inventing ranks", () => {
-  assert.ok(getReadingOptions("太郎").includes("たろう"));
-  assert.ok(getReadingOptions("HARUTO").includes("はると"));
-  assert.ok(getReadingOptions("こうき").length);
+
+test("kanji and romanized input resolve through the reading dictionary", () => {
+  assert.ok(getReadingOptions("純也").includes("じゅんや"));
+  assert.ok(getReadingOptions("JUN").includes("じゅん"));
   assert.equal(
     getNameRecord({
-      name: "コウキ",
+      name: "純也",
+      reading: "じゅんや",
       type: "given_name",
       gender: "male",
-      year: 2009,
     })?.rank,
-    4,
+    638,
   );
-  assert.equal(getSurnameRecord("斎藤")?.name, "斎藤");
-  assert.equal(getSurnameRecord("渡邊")?.name, "渡辺");
-  assert.equal(getCohort({ name: "佐藤", type: "surname" }, "JP").length, 1999);
-});
-test("uses the exact written-name ranking for kanji input", () => {
-  const result = diagnose({
-    name: "悠介",
-    type: "given_name",
-    gender: "male",
-    year: 2007,
-  });
-  assert.equal(result.recognition, "ranked");
-  assert.equal(result.record?.rank, 83);
-  assert.equal(result.record?.year, 2007);
-  assert.equal(result.record?.rankingBasis, "spelling");
-});
-test("keeps reading and written-name rankings separate", () => {
-  const written = getNameRecord({
-    name: "大翔",
-    reading: "はると",
-    type: "given_name",
-    gender: "male",
-    year: 2009,
-  });
-  const reading = getNameRecord({
-    name: "はると",
-    type: "given_name",
-    gender: "male",
-    year: 2009,
-  });
-  assert.equal(written?.rankingBasis, "spelling");
-  assert.equal(reading?.rankingBasis, "reading");
-  assert.ok(
-    getCohort(
-      { name: "大翔", type: "given_name", gender: "male", year: 2009 },
-      "JP",
-    ).every((record) => record.rankingBasis === "spelling"),
-  );
-});
-test("Hayashi exists as surname, not 2007 male given-name rank", () => {
   assert.equal(
-    getNameRecord({ name: "はやし", type: "given_name", gender: "male", year: 2007 }),
-    undefined,
+    getNameRecord({ name: "JUN", type: "given_name", gender: "male" })?.rank,
+    365,
   );
+});
+
+test("Hayashi is recognized as a surname", () => {
   const surname = getSurnameRecord("はやし");
   assert.equal(surname?.name, "林");
   assert.equal(surname?.rank, 18);
   assert.equal(getSurnameRecord("林")?.rank, 18);
+  assert.equal(getCohort({ name: "佐藤", type: "surname" }, "JP").length, 1999);
 });
-test("uses nearest year where the given name has a published rank", () => {
-  const result = diagnose({
-    name: "ともや",
-    type: "given_name",
-    gender: "male",
-    year: 2007,
-  });
-  assert.equal(result.recognition, "historical");
-  assert.equal(result.record?.year, 2005);
-  assert.equal(result.record?.rank, 42);
-  assert.equal(result.meta.dataYear, 2005);
-});
-test("distinguishes dictionary entries from unrecognized inputs", () => {
-  const known = diagnose({
-    name: "たろう",
-    type: "given_name",
-    gender: "male",
-    year: 2007,
-  });
-  assert.equal(known.recognition, "dictionary");
-  assert.equal(known.record, undefined);
-  const unknown = diagnose({
-    name: "未収録名",
-    type: "given_name",
-    gender: "male",
-    year: 2007,
-  });
-  assert.equal(unknown.recognition, "unrecognized");
-});
-test("ambiguous readings require explicit selection", () => {
+
+test("ambiguous kanji readings require explicit selection", () => {
   const options = getReadingOptions("大翔");
   assert.ok(options.length > 1);
   assert.match(
-    validateInput({
-      name: "大翔",
-      type: "given_name",
-      gender: "male",
-      year: 2009,
-    }) ?? "",
+    validateInput({ name: "大翔", type: "given_name", gender: "male" }) ?? "",
     /読み方/,
   );
-  const r = diagnose({
+  const result = diagnose({
     name: "大翔",
     reading: "はると",
     type: "given_name",
     gender: "male",
-    year: 2009,
   });
-  assert.equal(r.record?.rank, 1);
+  assert.equal(result.record?.rankingBasis, "overall");
 });
-test("unknown is deterministic and surname strips birth fields", () => {
+
+test("unknown input is deterministic and surname strips extra fields", () => {
   const input = {
     name: "未収録名",
     type: "given_name" as const,
     gender: "male" as const,
-    year: 2009,
   };
   assert.deepEqual(diagnose(input), diagnose(input));
   assert.equal(diagnose(input).record, undefined);
@@ -185,9 +149,11 @@ test("unknown is deterministic and surname strips birth fields", () => {
     { name: "佐藤", type: "surname" },
   );
 });
-test("invalid inputs rejected", () => {
+
+test("invalid inputs are rejected", () => {
   assert.ok(validateInput({ name: " ", type: "surname" }));
   assert.ok(validateInput({ name: "123", type: "surname" }));
   assert.ok(validateInput({ name: "あ".repeat(31), type: "surname" }));
+  assert.ok(validateInput({ name: "じゅん", type: "given_name" }));
   assert.throws(() => calculateRankPercentile(0, 10));
 });

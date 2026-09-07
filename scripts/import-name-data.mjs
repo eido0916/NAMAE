@@ -16,6 +16,7 @@ const hira = (value) =>
     );
 
 const dictionary = [];
+const commonReadings = new Set();
 for (const [gender, file] of [
   ["male", "man"],
   ["female", "woman"],
@@ -32,6 +33,14 @@ for (const [gender, file] of [
       reading,
       aliases: [romaji, ...kanji].filter(Boolean),
     });
+  }
+  for (const line of readFileSync(
+    `data-sources/japanese-names/first_name_${file}_opti.csv`,
+    "utf8",
+  )
+    .trim()
+    .split(/\r?\n/)) {
+    commonReadings.add(`${gender}|${line.split(",")[0]}`);
   }
 }
 mkdirSync("src/data/dictionary", { recursive: true });
@@ -142,7 +151,98 @@ for (let start = 1920; start <= 2025; start += 4) {
   );
 }
 
+function addJapaneseOverallRankings() {
+  const published = JSON.parse(
+    readFileSync("data-sources/rankings/jp-baby-calendar.json", "utf8"),
+  );
+  const latestPublished = new Map();
+  for (const row of published.records) {
+    const gender = row.sex === "m" ? "male" : "female";
+    const key = `${gender}|${row.reading}`;
+    const current = latestPublished.get(key);
+    if (!current || row.year > current.year) latestPublished.set(key, row);
+  }
+
+  const spellingReadings = new Map();
+  for (const entry of dictionary) {
+    for (const alias of entry.aliases.slice(1)) {
+      const key = `${entry.gender}|${alias}`;
+      if (!spellingReadings.has(key)) spellingReadings.set(key, new Set());
+      spellingReadings.get(key).add(entry.reading);
+    }
+  }
+
+  const evidence = new Map();
+  const addEvidence = (key, value) =>
+    evidence.set(key, (evidence.get(key) ?? 0) + value);
+  for (const record of japanese) {
+    const key = `${record.gender}|${record.name}`;
+    const recency = Math.exp(-(2025 - record.year) / 24);
+    const position =
+      (record.totalEntries - record.rank + 1) / record.totalEntries;
+    if (record.rankingBasis === "reading") {
+      addEvidence(key, 10 * recency * position);
+      continue;
+    }
+    const candidates = spellingReadings.get(key);
+    if (candidates?.size === 1) {
+      addEvidence(
+        `${record.gender}|${[...candidates][0]}`,
+        1.5 * recency * position,
+      );
+    }
+  }
+
+  for (const gender of ["male", "female"]) {
+    const candidates = dictionary
+      .filter((entry) => entry.gender === gender)
+      .map((entry) => {
+        const key = `${gender}|${entry.reading}`;
+        const survey = latestPublished.get(key);
+        const surveyScore = survey
+          ? 1000 * (1 - survey.rank / survey.totalEntries)
+          : 0;
+        return {
+          entry,
+          survey,
+          score:
+            surveyScore +
+            (evidence.get(key) ?? 0) +
+            (commonReadings.has(key) ? 0.6 : 0) +
+            Math.log1p(entry.aliases.length - 1) * 0.015,
+        };
+      })
+      .sort(
+        (a, b) =>
+          b.score - a.score ||
+          b.entry.aliases.length - a.entry.aliases.length ||
+          a.entry.reading.localeCompare(b.entry.reading, "ja"),
+      );
+
+    candidates.forEach(({ entry, survey }, index) => {
+      japanese.push({
+        country: "JP",
+        type: "given_name",
+        name: entry.reading,
+        rank: survey?.rank ?? index + 1,
+        totalEntries: survey?.totalEntries ?? candidates.length,
+        year: survey?.year,
+        dataYear: survey?.year ?? 2025,
+        gender,
+        rankingBasis: "overall",
+        isEstimated: !survey,
+      });
+    });
+  }
+}
+
+addJapaneseOverallRankings();
+
 if (!japanese.length || !american.length) throw Error("No rankings imported");
+
+const japaneseForApp = japanese.filter(
+  (record) => record.rankingBasis === "overall",
+);
 
 const sortRecords = (a, b) =>
   (a.year ?? 0) - (b.year ?? 0) ||
@@ -150,7 +250,7 @@ const sortRecords = (a, b) =>
   String(a.rankingBasis).localeCompare(String(b.rankingBasis)) ||
   a.rank - b.rank ||
   a.name.localeCompare(b.name, "ja");
-japanese.sort(sortRecords);
+japaneseForApp.sort(sortRecords);
 american.sort(sortRecords);
 
 const meta = (country, source, sourceUrl, records) => ({
@@ -166,7 +266,7 @@ const meta = (country, source, sourceUrl, records) => ({
   isSample: false,
   notes:
     country === "JP"
-      ? "保険加入者を対象とする名前表記・読み方調査。全国民の人口順位ではありません。"
+      ? "公開された赤ちゃんの読み順位を優先し、未掲載の読みは公開ランキング掲載歴と名前辞書から総合順位を推定。全国民の人口順位ではありません。"
       : "SSA公開データのミラーを使用。各年・性別上位200件を収録。",
 });
 
@@ -175,11 +275,11 @@ writeFileSync(
   JSON.stringify({
     meta: meta(
       "JP",
-      "明治安田 生まれ年別の名前調査（名前表記・読み方）",
-      "https://www.meijiyasuda.co.jp/enjoy/ranking/index.html",
-      japanese,
+      "ベビーカレンダー 名前ランキング・明治安田 名前調査・Japanese Personal Name Dataset",
+      "https://baby-calendar.jp/nazuke/",
+      japaneseForApp,
     ),
-    records: japanese,
+    records: japaneseForApp,
   }),
 );
 writeFileSync(
@@ -239,12 +339,15 @@ console.log(
   JSON.stringify({
     dictionary: dictionary.length,
     surnames: surnames.length,
-    japanese: japanese.length,
+    japanese: japaneseForApp.length,
     japaneseReading: japanese.filter(
       (record) => record.rankingBasis === "reading",
     ).length,
     japaneseSpelling: japanese.filter(
       (record) => record.rankingBasis === "spelling",
+    ).length,
+    japaneseOverall: japanese.filter(
+      (record) => record.rankingBasis === "overall",
     ).length,
     american: american.length,
     readingYears: readingYears.sort(),

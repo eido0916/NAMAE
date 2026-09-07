@@ -130,7 +130,7 @@ export function Home({
           <p>
             各国のランキングから、
             <br />
-            同じ順位の名前を探します。
+            人気度が近い名前を探します。
           </p>
         </div>
         <div>
@@ -144,7 +144,7 @@ export function Home({
         </div>
       </section>
       <p className="data-note">
-        日本・米国の公開データで診断。その他の国はサンプルです。出典と対象年は結果で確認できます。
+        日本・米国の公開データと名前辞書で診断。その他の国はサンプルです。出典は結果で確認できます。
       </p>
     </>
   );
@@ -153,7 +153,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [type, setType] = useState(initialType);
   const [name, setName] = useState("");
   const [gender, setGender] = useState<Gender>("male");
-  const [year, setYear] = useState("2007");
   const [reading, setReading] = useState("");
   const [error, setError] = useState("");
   const { setResult } = useContext(ResultContext);
@@ -165,7 +164,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
         name,
         type,
         ...(type === "given_name"
-          ? { gender, year: Number(year), ...(reading ? { reading } : {}) }
+          ? { gender, ...(reading ? { reading } : {}) }
           : {}),
       };
       const surnameRecord =
@@ -239,7 +238,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
         試してみる：
         {(surname
           ? ["佐藤", "鈴木", "山田"]
-          : ["はると", "ゆい", "さくら"]
+          : ["じゅん", "れん", "さくら"]
         ).map((n) => (
           <button
             key={n}
@@ -277,47 +276,26 @@ function NameForm({ initialType }: { initialType: NameType }) {
         </div>
       )}
       {!surname && (
-        <div className="field-grid">
-          <fieldset>
-            <legend className="field-label">ランキングの性別</legend>
-            <div className="gender-options">
-              {(["male", "female"] as const).map((g) => (
-                <label key={g}>
-                  <input
-                    type="radio"
-                    name="gender"
-                    value={g}
-                    checked={gender === g}
-                    onChange={() => {
-                      setGender(g);
-                      setReading("");
-                    }}
-                  />
-                  <span>{g === "male" ? "男性" : "女性"}</span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <div>
-            <label className="field-label" htmlFor="year">
-              生まれ年
-            </label>
-            <select
-              id="year"
-              value={year}
-              onChange={(e) => setYear(e.target.value)}
-            >
-              {Array.from(
-                { length: new Date().getFullYear() - 1919 },
-                (_, i) => new Date().getFullYear() - i,
-              ).map((y) => (
-                <option key={y} value={y}>
-                  {y}年
-                </option>
-              ))}
-            </select>
+        <fieldset>
+          <legend className="field-label">ランキングの性別</legend>
+          <div className="gender-options">
+            {(["male", "female"] as const).map((g) => (
+              <label key={g}>
+                <input
+                  type="radio"
+                  name="gender"
+                  value={g}
+                  checked={gender === g}
+                  onChange={() => {
+                    setGender(g);
+                    setReading("");
+                  }}
+                />
+                <span>{g === "male" ? "男性" : "女性"}</span>
+              </label>
+            ))}
           </div>
-        </div>
+        </fieldset>
       )}
       {error && (
         <p id="form-error" role="alert" className="error">
@@ -387,28 +365,26 @@ export function Results() {
           <h2>{result.input.name}</h2>
           <p>
             {result.input.type === "given_name"
-              ? `${result.input.year}年生まれ · ${result.input.gender === "male" ? "男性" : "女性"} · `
+              ? `${result.input.gender === "male" ? "男性" : "女性"} · `
               : ""}
-            {result.meta.dataYear
-              ? `${result.meta.dataYear}年の調査を使用`
+            {result.record?.isEstimated
+              ? "公開ランキングの掲載傾向から推定"
+              : result.meta.dataYear
+                ? `${result.meta.dataYear}年の調査を使用`
               : "調査年度不明のデータを使用"}
             {result.input.reading ? ` · 読み：${result.input.reading}` : ""}
           </p>
-          {result.recognition === "historical" && (
-            <p className="historical-note">
-              選択年では公開順位がないため、最も近い
-              {result.record?.year}年の
-              {result.record?.rankingBasis === "spelling" ? "漢字表記" : "読み方"}
-              順位を参考表示
-            </p>
-          )}
         </div>
         <div className="rank">
           <span>
-            日本ランキング{" "}
+            日本での人気度{" "}
             <small>
               {result.meta.isSample
                 ? "サンプル"
+                : result.record?.rankingBasis === "overall"
+                  ? result.record.isEstimated
+                    ? "総合推定順位"
+                    : "読み方順位"
                 : result.record?.rankingBasis === "spelling"
                   ? "漢字表記順位"
                   : result.record?.rankingBasis === "reading"
@@ -425,7 +401,7 @@ export function Results() {
           </strong>
           <small>
             {result.record
-              ? `収録 ${result.record.totalEntries}件の中での順位`
+              ? `${result.record.totalEntries.toLocaleString("ja-JP")}件の中での順位`
               : result.recognition === "dictionary"
                 ? "名前辞書には収録されています"
                 : "入力表記・読みをご確認ください"}
@@ -478,11 +454,7 @@ export function Results() {
                 現地ランキング <b>#{record.rank}</b>
               </span>
               <span>
-                {record.rank === result.record?.rank
-                  ? "同じ順位"
-                  : result.record
-                    ? "同順位未収録・参考候補"
-                    : "順位不明・参考候補"}
+                {result.record ? "人気度が近い候補" : "参考候補"}
               </span>
             </div>
             <p className="match-source">
@@ -523,14 +495,14 @@ export function Results() {
           診断のしくみ・データについて <span>＋</span>
         </summary>
         <p>
-          日本の下の名前は明治安田の保険加入者を対象にした漢字表記・読み方調査、米国はSSA公開データを使用します。漢字を入力した場合は漢字表記順位を優先し、表記順位がなければ読み方順位を使います。選択年に順位がない場合は、その表記または読みがランキングに入った最も近い年を参考表示します。日本の苗字は公開辞書の推定人数順で、調査年度は不明です。その他の国と米国の苗字はサンプルです。
+          日本の下の名前は、ベビーカレンダーの2017年以降の名前ランキング検索と明治安田の名前調査を使用します。公開順位がある読みは最新の実順位を表示し、未掲載の読みは公開ランキングへの掲載実績、一般名辞書への収録、漢字表記数から総合順位を推定します。日本の苗字は公開辞書の推定人数順です。米国はSSA公開データ、その他の国と米国の苗字はサンプルです。
         </p>
         <p>
-          日本と同じ順位を優先します。同順位が未収録の場合は最も近い順位を参考候補として表示し、順位が一致したとは扱いません。Rarity
-          Scoreは収録ランキング内の相対位置に基づく補助値で、人口割合ではありません。順位不明の場合は算出しません。
+          国ごとに収録件数が異なるため、順位そのものではなくランキング内の位置をそろえて海外名を選びます。Rarity
+          Scoreもランキング内の相対位置に基づく補助値です。
         </p>
         <p>
-          名前辞書は男性5,578読み・女性3,294読み、苗字は1,999件を収録しています。読み・表記の照合に使用し、辞書にあるだけでは順位を付けません。漢字に複数の読みがある場合は入力時に選択できます。
+          名前辞書は男性5,578読み・女性3,294読み、苗字は1,999件を収録しています。辞書にある下の名前には推定順位を付けるため、一般的な名前から少し珍しい名前まで診断できます。漢字に複数の読みがある場合は入力時に選択できます。
         </p>
         {[result.meta, ...result.matches.map((m) => m.meta)].map((meta) => (
           <p key={meta.country}>

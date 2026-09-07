@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "tsx --test tests/engine.test.ts",
     "test:browser": "playwright test tests/browser.spec.ts",
-    "data:build": "node scripts/build-data-registry.mjs"
+    "data:build": "node scripts/build-data-registry.mjs",
+    "data:refresh:baby-calendar": "node scripts/import-baby-calendar.mjs"
   },
   "dependencies": {
     "next": "16.3.4",

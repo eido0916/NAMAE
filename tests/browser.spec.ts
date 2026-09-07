@@ -4,15 +4,14 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await page.goto("http://localhost:3000");
   await expect(page.locator(".sample-ticket")).toHaveCount(0);
   await expect(page.locator(".sample-form")).toHaveCount(0);
-  await page.locator("#year").selectOption("2009");
-  await page.getByRole("button", { name: "はると", exact: true }).click();
+  await expect(page.locator("#year")).toHaveCount(0);
+  await page.getByRole("button", { name: "じゅん", exact: true }).click();
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
+  await expect(page.locator(".rank strong")).toHaveText("#365");
+  await expect(page.getByText("2025年の調査を使用")).toBeVisible();
   await expect(
-    page
-      .getByRole("article")
-      .filter({ hasText: "United States" })
-      .getByRole("heading", { name: "Jacob", exact: true }),
-  ).toBeVisible();
+    page.getByRole("article").filter({ hasText: "United States" }),
+  ).toContainText("#37");
   const downloadEvent = page.waitForEvent("download");
   await page.getByRole("button", { name: "結果を画像保存" }).click();
   const download = await downloadEvent;
@@ -51,30 +50,18 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await page.goto("http://localhost:3000/name");
   await page.locator("#name").fill("大翔");
   await page.locator("#reading").fill("はると");
-  await page.locator("#year").selectOption("2009");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
-  await expect(
-    page
-      .getByRole("article")
-      .filter({ hasText: "United States" })
-      .getByRole("heading", { name: "Jacob", exact: true }),
-  ).toBeVisible();
+  await expect(page.locator(".rank strong")).not.toHaveText("データ未収録");
   await page.goto("http://localhost:3000/name");
   await page.locator("#name").fill("未収録名");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
   await expect(page.getByText("データ未収録", { exact: true })).toBeVisible();
   await expect(page.getByText("算出不可", { exact: true })).toBeVisible();
   await page.goto("http://localhost:3000/name");
-  await page.locator("#name").fill("たろう");
+  await page.locator("#name").fill("ああす");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
-  await expect(page.getByText("公開順位なし", { exact: true })).toBeVisible();
-  await expect(
-    page.getByText("名前辞書には収録されています", { exact: true }),
-  ).toBeVisible();
-  await page.goto("http://localhost:3000/name");
-  await page.locator("#name").fill("ともや");
-  await page.getByRole("button", { name: "世界の名前を見る" }).click();
-  await expect(page.getByText("2005年の順位を参考表示", { exact: false })).toBeVisible();
+  await expect(page.getByText("総合推定順位", { exact: true })).toBeVisible();
+  await expect(page.locator(".rank strong")).toContainText("#");
   await page.goto("http://localhost:3000/name");
   await page.locator("#name").fill("はやし");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
