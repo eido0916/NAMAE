@@ -5,6 +5,15 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await expect(page.locator(".sample-ticket")).toHaveCount(0);
   await expect(page.locator(".sample-form")).toHaveCount(0);
   await expect(page.locator("#year")).toHaveCount(0);
+  const genderBox = await page.locator(".gender-options").boundingBox();
+  const submitBox = await page
+    .getByRole("button", { name: "世界の名前を見る" })
+    .boundingBox();
+  expect(genderBox).not.toBeNull();
+  expect(submitBox).not.toBeNull();
+  expect(submitBox!.y).toBeGreaterThanOrEqual(
+    genderBox!.y + genderBox!.height + 20,
+  );
   await page.getByRole("button", { name: "じゅん", exact: true }).click();
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
   await expect(page.locator(".rank strong")).toHaveText("#365");
