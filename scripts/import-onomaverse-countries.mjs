@@ -78,6 +78,33 @@ const countries = {
   PL: ["ポーランド", "Poland", "🇵🇱"],
 };
 
+// The frequency files include more countries than the curated list above.
+// Discover those country codes so the result picker can expose every country
+// for which both datasets have usable Latin display names. Keep countries
+// backed by national sources on their existing importer path.
+const protectedCodes = new Set(["DE", "FR", "GB", "JP", "KR", "US"]);
+const regionJa = new Intl.DisplayNames(["ja"], { type: "region" });
+const regionEn = new Intl.DisplayNames(["en"], { type: "region" });
+const flagFor = (code) =>
+  [...code].map((char) => String.fromCodePoint(127397 + char.charCodeAt(0))).join("");
+const discoveredCodes = new Set();
+for (const [file, countryColumn] of [
+  [join(sourceRoot, "onomaverse-given-name-frequency.csv"), 3],
+  [join(sourceRoot, "onomaverse-surname-frequency.csv"), 2],
+]) {
+  for (const line of readFileSync(file, "utf8").split(/\r?\n/).slice(1)) {
+    const code = line.split(",")[countryColumn];
+    if (/^[A-Z]{2}$/.test(code)) discoveredCodes.add(code);
+  }
+}
+for (const code of [...discoveredCodes].sort()) {
+  if (protectedCodes.has(code) || countries[code]) continue;
+  const nameJa = regionJa.of(code);
+  const nameEn = regionEn.of(code);
+  if (!nameJa || !nameEn) continue;
+  countries[code] = [nameJa, nameEn, flagFor(code)];
+}
+
 const latinName = /^[\p{Script=Latin}\p{M} .'-]+$/u;
 const normalize = (value) =>
   value
@@ -198,11 +225,20 @@ function rankedRecords(country, type, values) {
 const given = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-given-name-frequency.csv"), "given_name"));
 const surnames = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-surname-frequency.csv"), "surname"));
 const counts = {};
+const generatedCodes = new Set();
 for (const country of Object.keys(countries)) {
+  const ranked = new Map(
+    [
+      ["given_name", rankedRecords(country, "given_name", given.get(country))],
+      ["surname", rankedRecords(country, "surname", surnames.get(country))],
+    ],
+  );
+  if ([...ranked.values()].some((records) => !records.length)) {
+    if (discoveredCodes.has(country)) continue;
+    throw new Error(`${country} has an empty name dataset`);
+  }
   counts[country] = {};
-  for (const [type, grouped] of [["given_name", given], ["surname", surnames]]) {
-    const records = rankedRecords(country, type, grouped.get(country));
-    if (!records.length) throw new Error(`${country}/${type} is empty`);
+  for (const [type, records] of ranked) {
     const directory = join(outputRoot, country.toLowerCase(), type.replace("_", "-"));
     mkdirSync(directory, { recursive: true });
     writeFileSync(
@@ -223,12 +259,14 @@ for (const country of Object.keys(countries)) {
     );
     counts[country][type] = records.length;
   }
+  generatedCodes.add(country);
 }
 
 const catalogPath = join(outputRoot, "countries.json");
 const catalog = JSON.parse(readFileSync(catalogPath, "utf8"));
 const catalogCodes = new Set(catalog.map((country) => country.code));
 for (const [code, [nameJa, nameEn, flag]] of Object.entries(countries)) {
+  if (!generatedCodes.has(code)) continue;
   if (catalogCodes.has(code)) continue;
   catalog.push({
     code,

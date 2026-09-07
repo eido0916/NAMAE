@@ -24,6 +24,7 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
   await expect(page.locator(".country-picker")).toHaveCount(0);
   await expect(page.locator(".result-country-picker")).toBeVisible();
   await page.locator(".result-country-picker summary").click();
+  expect(await page.locator(".result-country-options input").count()).toBeGreaterThan(100);
   await page
     .locator(".result-country-options label")
     .filter({ hasText: "イタリア" })

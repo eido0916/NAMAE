@@ -22,6 +22,7 @@
     "data:refresh:foreign": "node scripts/import-foreign-rankings.mjs",
     "data:refresh:foreign-surnames": "node scripts/import-foreign-surnames.mjs",
     "data:refresh:countries": "node scripts/import-onomaverse-countries.mjs",
+    "data:refresh:popular": "node scripts/import-popular-names.mjs",
     "data:refresh:us-surnames": "node scripts/import-us-census-surnames.mjs",
     "data:refresh:baby-calendar": "node scripts/import-baby-calendar.mjs",
     "data:refresh:enamdict": "node scripts/import-enamdict.mjs"
