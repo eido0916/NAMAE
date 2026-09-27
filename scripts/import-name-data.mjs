@@ -163,6 +163,15 @@ function addJapaneseOverallRankings() {
     if (!current || row.year > current.year) latestPublished.set(key, row);
   }
 
+  // Public readings must not depend on coverage in the initial dictionary.
+  const keys = new Set(dictionary.map((entry) => `${entry.gender}|${entry.reading}`));
+  for (const [key, row] of latestPublished) {
+    if (!keys.has(key)) {
+      dictionary.push({ gender: row.sex === "m" ? "male" : "female", reading: row.reading, aliases: [] });
+      keys.add(key);
+    }
+  }
+
   const spellingReadings = new Map();
   for (const entry of dictionary) {
     for (const alias of entry.aliases.slice(1)) {
@@ -237,6 +246,7 @@ function addJapaneseOverallRankings() {
 }
 
 addJapaneseOverallRankings();
+writeFileSync("src/data/dictionary/names.json", JSON.stringify(dictionary));
 
 if (!japanese.length || !american.length) throw Error("No rankings imported");
 

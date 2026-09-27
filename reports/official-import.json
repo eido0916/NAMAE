@@ -1,0 +1,110 @@
+[
+  {
+    "country": "FI",
+    "type": "given_name",
+    "before": 456,
+    "after": 25341,
+    "rejected": 0,
+    "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a",
+    "coverageLabel": "2026年8月・フィンランド国籍の存命者"
+  },
+  {
+    "country": "ES",
+    "type": "given_name",
+    "before": 1361,
+    "after": 63440,
+    "rejected": 0,
+    "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados",
+    "coverageLabel": "2025年1月・スペイン居住者"
+  },
+  {
+    "country": "PL",
+    "type": "given_name",
+    "before": 347,
+    "after": 77496,
+    "rejected": 0,
+    "source": "https://dane.gov.pl/pl/dataset/1501",
+    "coverageLabel": "2026年1月・PESEL登録者（故人を含む）"
+  },
+  {
+    "country": "BR",
+    "type": "given_name",
+    "before": 1147,
+    "after": 134315,
+    "rejected": 0,
+    "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022",
+    "coverageLabel": "2022年・ブラジル国勢調査"
+  },
+  {
+    "country": "FI",
+    "type": "surname",
+    "before": 124,
+    "after": 23260,
+    "rejected": 0,
+    "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a",
+    "coverageLabel": "2026年8月・フィンランド国籍の存命者"
+  },
+  {
+    "country": "ES",
+    "type": "surname",
+    "before": 469,
+    "after": 86511,
+    "rejected": 1,
+    "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados",
+    "coverageLabel": "2025年1月・スペイン居住者"
+  },
+  {
+    "country": "PL",
+    "type": "surname",
+    "before": 149,
+    "after": 598466,
+    "rejected": 12,
+    "source": "https://dane.gov.pl/pl/dataset/1681",
+    "coverageLabel": "2026年1月・PESELの存命者"
+  },
+  {
+    "country": "BR",
+    "type": "surname",
+    "before": 499,
+    "after": 201601,
+    "rejected": 0,
+    "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022",
+    "coverageLabel": "2022年・ブラジル国勢調査"
+  },
+  {
+    "country": "GB",
+    "type": "given_name",
+    "before": 14773,
+    "after": 42085,
+    "rejected": 0,
+    "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996",
+    "coverageLabel": "1996–2025年・イングランド／ウェールズ出生累計"
+  },
+  {
+    "country": "FR",
+    "type": "given_name",
+    "before": 14530,
+    "after": 51651,
+    "rejected": 0,
+    "source": "https://www.insee.fr/fr/statistiques/8894961",
+    "coverageLabel": "1900–2024年・フランス出生累計"
+  },
+  {
+    "country": "FR",
+    "type": "surname",
+    "before": 935,
+    "after": 218982,
+    "rejected": 0,
+    "source": "https://www.insee.fr/fr/statistiques/3536630",
+    "coverageLabel": "1891–2000年・フランス出生累計"
+  },
+  {
+    "country": "US",
+    "type": "given_name",
+    "before": 31271,
+    "after": 89394,
+    "rejected": 0,
+    "source": "https://www.ssa.gov/oact/babynames/limits.html",
+    "coverageLabel": "1989–2020年・米国出生登録累計"
+  }
+]

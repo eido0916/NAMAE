@@ -215,9 +215,14 @@ function NameForm({ initialType }: { initialType: NameType }) {
         await loadInputData("surname");
         surnameRecord = getSurnameRecord(name);
       }
+      const sourceRecord =
+        surnameRecord ??
+        (type === "surname" ? getSurnameRecord(name) : givenNameRecord);
       await loadDiagnosisData(
         surnameRecord ? "surname" : type,
         destinationCountries,
+        sourceRecord?.rank,
+        sourceRecord?.gender ?? gender,
       );
       const result = surnameRecord
         ? {
@@ -404,7 +409,12 @@ export function Results() {
     setCountryUpdateBusy(true);
     setCountryUpdateError("");
     try {
-      await loadDiagnosisData(result.input.type, nextCountries);
+      await loadDiagnosisData(
+        result.input.type,
+        nextCountries,
+        result.record?.rank,
+        result.input.gender,
+      );
       const nextResult = diagnose({
         ...result.input,
         destinationCountries: nextCountries,
@@ -601,7 +611,7 @@ export function Results() {
         )}
       </details>
       <div className="match-grid">
-        {result.matches.map(({ country, record }, i) => (
+        {result.matches.map(({ country, record, meta }, i) => (
           <article
             className="glass match-card"
             key={country.code}
@@ -631,7 +641,9 @@ export function Results() {
               </span>
             </div>
             <p className="match-source">
-              {record.year ? `${record.year}年 · ` : ""}
+              {meta.coverageLabel
+                ? `${meta.coverageLabel} · `
+                : record.year ? `${record.year}年 · ` : ""}
               {getCountryConfig(country.code) &&
               result.matches.find((m) => m.country.code === country.code)?.meta
                 .isSample
@@ -671,11 +683,11 @@ export function Results() {
           日本の下の名前は、ベビーカレンダーの2017年以降の名前ランキング検索と明治安田の名前調査を使用します。公開順位がある読みは最新の実順位を表示し、未掲載の読みは公開ランキングへの掲載実績、一般名辞書への収録、漢字表記数から総合順位を推定します。日本の苗字は公開辞書の推定人数順です。海外の下の名前と苗字は各国の公開ランキングから取得できる範囲を使用します。
         </p>
         <p>
-          海外の下の名前は各国の公開ランキングから取得できる範囲を収録し、日本の順位番号と同じ順位を優先して対応させます。同数順位は掲載順を連番化しています。国ごとの収録上限を超える場合は収録範囲内で最も近い順位を表示します。Rarity
+          海外の下の名前は各国の公開ランキングから取得できる範囲を収録し、日本の順位番号と同じ順位を優先して対応させます。公開人数から集計したデータは人数順に並べ、同数の場合は名前順で連番にしています。期間を合算した統計は、対象期間を各カードに表示します。国ごとの収録上限を超える場合は収録範囲内で最も近い順位を表示します。Rarity
           Scoreは日本側の順位に基づく補助値です。
         </p>
         <p>
-          名前辞書は男性5,578読み・女性3,294読み、苗字は1,999件を収録しています。辞書にある下の名前には推定順位を付けるため、一般的な名前から少し珍しい名前まで診断できます。漢字に複数の読みがある場合は入力時に選択できます。
+          日本の名前は複数の人名辞書と公開調査を統合しています。辞書にある下の名前には推定順位を付けるため、一般的な名前から少し珍しい名前まで診断できます。漢字に複数の読みがある場合は入力時に選択できます。
         </p>
         {[result.meta, ...result.matches.map((m) => m.meta)].map((meta) => (
           <p key={meta.country}>
@@ -687,8 +699,9 @@ export function Results() {
             ) : (
               meta.source
             )}{" "}
-            / {meta.dataYear || "年度不明"} /{" "}
+            / {meta.coverageLabel ?? meta.dataYear ?? "年度不明"} /{" "}
             {meta.isSample ? "サンプル" : "公開データ"}
+            {meta.notes && <small className="source-notes">{meta.notes}</small>}
           </p>
         ))}
         <p>

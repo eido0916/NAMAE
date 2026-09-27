@@ -20,10 +20,10 @@ const hiragana = /^[ぁ-ゖー]+$/u;
 
 const parsed = [];
 for (const line of text.split(/\r?\n/)) {
-  const match = line.match(/^(.+?)\s+\[([^\]]+)\]\s+\/(.*)\/$/);
+  const match = line.match(/^(.+?)(?:\s+\[([^\]]+)\])?\s+\/(.*)\/$/);
   if (!match) continue;
   const head = match[1].trim();
-  const reading = toHiragana(match[2].trim());
+  const reading = toHiragana((match[2] ?? head).trim());
   if (!head || !reading || !japanese.test(head) || !hiragana.test(reading)) continue;
   const tags = new Set();
   for (const tag of match[3].matchAll(/\(([^)]+)\)/g))
@@ -61,11 +61,10 @@ function addDictionary(gender, reading, head) {
 
 for (const item of parsed) {
   const isSurname = item.tags.has("s");
-  const genders = item.tags.has("f")
-    ? ["female"]
-    : item.tags.has("m")
-      ? ["male"]
-      : ["male", "female"];
+  const genders = [
+    ...(item.tags.has("m") || item.tags.has("g") ? ["male"] : []),
+    ...(item.tags.has("f") || item.tags.has("g") ? ["female"] : []),
+  ];
   if (isSurname) {
     const key = normalize(item.head);
     const existing = surnameByName.get(key);
@@ -143,7 +142,8 @@ given.records = [
   ...given.records.filter((record) => record.rankingBasis !== "overall"),
   ...allGiven,
 ];
-given.meta.source = `${given.meta.source}・ENAMDICT/JMnedict`;
+if (!given.meta.source.includes("ENAMDICT/JMnedict"))
+  given.meta.source += "・ENAMDICT/JMnedict";
 given.meta.sourceUrl = "https://www.edrdg.org/enamdict/enamdict_doc.html";
 given.meta.notes =
   "公開された読み順位を優先し、未掲載の読みは名前辞書から総合順位を推定。ENAMDICT/JMnedictの分類名を追加し、検索用の漢字表記も収録しています。";
@@ -172,7 +172,8 @@ allSurnames.forEach((record, index) => {
   record.totalEntries = surnameTotal;
 });
 surnames.records = allSurnames;
-surnames.meta.source = `${surnames.meta.source}・ENAMDICT/JMnedict`;
+if (!surnames.meta.source.includes("ENAMDICT/JMnedict"))
+  surnames.meta.source += "・ENAMDICT/JMnedict";
 surnames.meta.sourceUrl = "https://www.edrdg.org/enamdict/enamdict_doc.html";
 surnames.meta.notes =
   "推定人数順の公開姓に加え、ENAMDICT/JMnedictの姓分類を検索・順位対応用に収録。追加分の人口順位は推定です。";

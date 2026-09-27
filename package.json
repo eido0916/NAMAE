@@ -9,10 +9,10 @@
     "dev": "next dev",
     "build": "npm run data:build && next build",
     "start": "node scripts/serve.mjs",
-    "lint": "eslint",
-    "test": "tsx --test tests/engine.test.ts",
+    "lint": "eslint src scripts tests eslint.config.mjs next.config.ts",
+    "test": "node scripts/run-tests.mjs",
     "test:browser": "playwright test tests/browser.spec.ts",
-    "data:build": "npm run data:check && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
+    "data:build": "npm run data:check && npm run data:coverage && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
     "data:check": "node scripts/validate-data.mjs",
     "data:accept": "node scripts/validate-data.mjs --accept",
     "data:verify": "node scripts/verify-public-data.mjs",
@@ -25,7 +25,11 @@
     "data:refresh:popular": "node scripts/import-popular-names.mjs",
     "data:refresh:us-surnames": "node scripts/import-us-census-surnames.mjs",
     "data:refresh:baby-calendar": "node scripts/import-baby-calendar.mjs",
-    "data:refresh:enamdict": "node scripts/import-enamdict.mjs"
+    "data:refresh:enamdict": "node scripts/import-enamdict.mjs",
+    "data:refresh:ipadic": "node scripts/import-ipadic-given-names.mjs",
+    "data:refresh:official": "node scripts/import-official-expanded.mjs",
+    "data:coverage": "node scripts/report-coverage.mjs",
+    "data:refresh:jp-rankings": "node scripts/reconcile-japanese-rankings.mjs"
   },
   "dependencies": {
     "jszip": "^3.10.1",

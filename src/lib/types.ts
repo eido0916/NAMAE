@@ -26,6 +26,7 @@ export type DatasetMeta = {
   isOfficial: boolean;
   isSample: boolean;
   notes?: string;
+  coverageLabel?: string;
 };
 export type Dataset = { meta: DatasetMeta; records: NameRecord[] };
 export type CountryConfig = {

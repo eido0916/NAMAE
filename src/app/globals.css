@@ -1070,3 +1070,5 @@ footer {
     transition: none !important;
   }
 }
+
+.source-notes { display: block; margin-top: 0.4rem; line-height: 1.7; }

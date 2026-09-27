@@ -48,6 +48,7 @@ db.exec(`
     is_official INTEGER NOT NULL,
     is_sample INTEGER NOT NULL,
     notes TEXT,
+    coverage_label TEXT,
     PRIMARY KEY (country, type)
   );
   CREATE TABLE ranking_entries (
@@ -96,7 +97,7 @@ const insertCountry = db.prepare(
   "INSERT INTO countries VALUES (?, ?, ?, ?, ?, ?, ?)",
 );
 const insertDataset = db.prepare(
-  "INSERT INTO datasets VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+  "INSERT INTO datasets VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
 );
 const insertRanking = db.prepare(
   "INSERT INTO ranking_entries (country,type,name,aliases_json,rank,total_entries,year,gender,count,share,data_year,ranking_basis,is_estimated) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
@@ -132,6 +133,7 @@ try {
       Number(meta.isOfficial),
       Number(meta.isSample),
       meta.notes ?? null,
+      meta.coverageLabel ?? null,
     );
     for (const record of dataset.records) {
       if (record.rank < 1 || record.rank > record.totalEntries)

@@ -150,6 +150,21 @@ test("dictionary-only names receive a clearly marked estimated rank", () => {
   assert.equal(result.recognition, "ranked");
 });
 
+test("IPADIC expands Japanese given-name readings and kanji aliases", () => {
+  const overall = jpGiven.records.filter(
+    (record) => record.rankingBasis === "overall",
+  );
+  assert.ok(overall.length > 51051);
+  assert.ok(getReadingOptions("一氏", "male").includes("かずうじ"));
+  const result = diagnose({
+    name: "一氏",
+    reading: "かずうじ",
+    type: "given_name",
+    gender: "male",
+  });
+  assert.equal(result.record?.isEstimated, true);
+});
+
 test("kanji and romanized input resolve through the reading dictionary", () => {
   assert.ok(getReadingOptions("純也").includes("じゅんや"));
   assert.ok(getReadingOptions("JUN").includes("じゅん"));

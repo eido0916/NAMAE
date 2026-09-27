@@ -1,0 +1,1857 @@
+[
+  {
+    "country": "ad",
+    "type": "given-name",
+    "male": 7,
+    "female": 4,
+    "total": 11
+  },
+  {
+    "country": "ae",
+    "type": "given-name",
+    "male": 814,
+    "female": 334,
+    "total": 1148
+  },
+  {
+    "country": "ae",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 707
+  },
+  {
+    "country": "af",
+    "type": "given-name",
+    "male": 45,
+    "female": 31,
+    "total": 76
+  },
+  {
+    "country": "af",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 47
+  },
+  {
+    "country": "al",
+    "type": "given-name",
+    "male": 85,
+    "female": 50,
+    "total": 135
+  },
+  {
+    "country": "al",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 72
+  },
+  {
+    "country": "am",
+    "type": "given-name",
+    "male": 19,
+    "female": 19,
+    "total": 38
+  },
+  {
+    "country": "am",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 20
+  },
+  {
+    "country": "ao",
+    "type": "given-name",
+    "male": 62,
+    "female": 54,
+    "total": 116
+  },
+  {
+    "country": "ao",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 62
+  },
+  {
+    "country": "ar",
+    "type": "given-name",
+    "male": 253,
+    "female": 303,
+    "total": 556
+  },
+  {
+    "country": "ar",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 326
+  },
+  {
+    "country": "at",
+    "type": "given-name",
+    "male": 229,
+    "female": 228,
+    "total": 457
+  },
+  {
+    "country": "at",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 146
+  },
+  {
+    "country": "au",
+    "type": "given-name",
+    "male": 15,
+    "female": 12,
+    "total": 27
+  },
+  {
+    "country": "au",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 34
+  },
+  {
+    "country": "aw",
+    "type": "given-name",
+    "male": 5,
+    "female": 5,
+    "total": 10
+  },
+  {
+    "country": "az",
+    "type": "given-name",
+    "male": 31,
+    "female": 34,
+    "total": 65
+  },
+  {
+    "country": "az",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 17
+  },
+  {
+    "country": "ba",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "ba",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 44
+  },
+  {
+    "country": "bd",
+    "type": "given-name",
+    "male": 359,
+    "female": 161,
+    "total": 520
+  },
+  {
+    "country": "bd",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 393
+  },
+  {
+    "country": "be",
+    "type": "given-name",
+    "male": 482,
+    "female": 465,
+    "total": 947
+  },
+  {
+    "country": "be",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 215
+  },
+  {
+    "country": "bf",
+    "type": "given-name",
+    "male": 2,
+    "female": 2,
+    "total": 4
+  },
+  {
+    "country": "bf",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1
+  },
+  {
+    "country": "bg",
+    "type": "given-name",
+    "male": 68,
+    "female": 55,
+    "total": 123
+  },
+  {
+    "country": "bg",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 59
+  },
+  {
+    "country": "bh",
+    "type": "given-name",
+    "male": 188,
+    "female": 145,
+    "total": 333
+  },
+  {
+    "country": "bh",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 202
+  },
+  {
+    "country": "bi",
+    "type": "given-name",
+    "male": 7,
+    "female": 6,
+    "total": 13
+  },
+  {
+    "country": "bi",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 4
+  },
+  {
+    "country": "bn",
+    "type": "given-name",
+    "male": 57,
+    "female": 53,
+    "total": 110
+  },
+  {
+    "country": "bn",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 49
+  },
+  {
+    "country": "bo",
+    "type": "given-name",
+    "male": 306,
+    "female": 287,
+    "total": 593
+  },
+  {
+    "country": "bo",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 224
+  },
+  {
+    "country": "br",
+    "type": "given-name",
+    "male": 526,
+    "female": 621,
+    "total": 1147
+  },
+  {
+    "country": "br",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 499
+  },
+  {
+    "country": "bw",
+    "type": "given-name",
+    "male": 34,
+    "female": 29,
+    "total": 63
+  },
+  {
+    "country": "bw",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 23
+  },
+  {
+    "country": "by",
+    "type": "given-name",
+    "male": 3,
+    "female": 4,
+    "total": 7
+  },
+  {
+    "country": "by",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 5
+  },
+  {
+    "country": "ca",
+    "type": "given-name",
+    "male": 460,
+    "female": 445,
+    "total": 905
+  },
+  {
+    "country": "ca",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 290
+  },
+  {
+    "country": "ch",
+    "type": "given-name",
+    "male": 304,
+    "female": 280,
+    "total": 584
+  },
+  {
+    "country": "ch",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 189
+  },
+  {
+    "country": "cl",
+    "type": "given-name",
+    "male": 431,
+    "female": 491,
+    "total": 922
+  },
+  {
+    "country": "cl",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 527
+  },
+  {
+    "country": "cm",
+    "type": "given-name",
+    "male": 231,
+    "female": 225,
+    "total": 456
+  },
+  {
+    "country": "cm",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 138
+  },
+  {
+    "country": "cn",
+    "type": "given-name",
+    "male": 135,
+    "female": 131,
+    "total": 266
+  },
+  {
+    "country": "cn",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 134
+  },
+  {
+    "country": "co",
+    "type": "given-name",
+    "male": 845,
+    "female": 946,
+    "total": 1791
+  },
+  {
+    "country": "co",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 940
+  },
+  {
+    "country": "cr",
+    "type": "given-name",
+    "male": 242,
+    "female": 239,
+    "total": 481
+  },
+  {
+    "country": "cr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 193
+  },
+  {
+    "country": "cu",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 30
+  },
+  {
+    "country": "cy",
+    "type": "given-name",
+    "male": 50,
+    "female": 50,
+    "total": 100
+  },
+  {
+    "country": "cy",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 40
+  },
+  {
+    "country": "cz",
+    "type": "given-name",
+    "male": 141,
+    "female": 158,
+    "total": 299
+  },
+  {
+    "country": "cz",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 90
+  },
+  {
+    "country": "de",
+    "type": "given-name",
+    "male": 905,
+    "female": 910,
+    "total": 1815
+  },
+  {
+    "country": "de",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 378
+  },
+  {
+    "country": "dj",
+    "type": "given-name",
+    "male": 6,
+    "female": 3,
+    "total": 9
+  },
+  {
+    "country": "dj",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 6
+  },
+  {
+    "country": "dk",
+    "type": "given-name",
+    "male": 187,
+    "female": 177,
+    "total": 364
+  },
+  {
+    "country": "dk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 112
+  },
+  {
+    "country": "do",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 30
+  },
+  {
+    "country": "dz",
+    "type": "given-name",
+    "male": 1087,
+    "female": 949,
+    "total": 2036
+  },
+  {
+    "country": "dz",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1290
+  },
+  {
+    "country": "ec",
+    "type": "given-name",
+    "male": 63,
+    "female": 55,
+    "total": 118
+  },
+  {
+    "country": "ec",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 32
+  },
+  {
+    "country": "ee",
+    "type": "given-name",
+    "male": 28,
+    "female": 28,
+    "total": 56
+  },
+  {
+    "country": "ee",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 38
+  },
+  {
+    "country": "eg",
+    "type": "given-name",
+    "male": 1201,
+    "female": 1070,
+    "total": 2271
+  },
+  {
+    "country": "eg",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 2031
+  },
+  {
+    "country": "es",
+    "type": "given-name",
+    "male": 655,
+    "female": 706,
+    "total": 1361
+  },
+  {
+    "country": "es",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 469
+  },
+  {
+    "country": "et",
+    "type": "given-name",
+    "male": 5,
+    "female": 6,
+    "total": 11
+  },
+  {
+    "country": "et",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 3
+  },
+  {
+    "country": "fi",
+    "type": "given-name",
+    "male": 228,
+    "female": 228,
+    "total": 456
+  },
+  {
+    "country": "fi",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 124
+  },
+  {
+    "country": "fj",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 22
+  },
+  {
+    "country": "fo",
+    "type": "given-name",
+    "male": 10,
+    "female": 12,
+    "total": 22
+  },
+  {
+    "country": "fo",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 20
+  },
+  {
+    "country": "fr",
+    "type": "given-name",
+    "male": 6859,
+    "female": 7671,
+    "total": 14530
+  },
+  {
+    "country": "fr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 935
+  },
+  {
+    "country": "gb",
+    "type": "given-name",
+    "male": 6853,
+    "female": 7920,
+    "total": 14773
+  },
+  {
+    "country": "gb",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 856
+  },
+  {
+    "country": "ge",
+    "type": "given-name",
+    "male": 26,
+    "female": 26,
+    "total": 52
+  },
+  {
+    "country": "ge",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 29
+  },
+  {
+    "country": "gg",
+    "type": "given-name",
+    "male": 11,
+    "female": 7,
+    "total": 18
+  },
+  {
+    "country": "gh",
+    "type": "given-name",
+    "male": 127,
+    "female": 118,
+    "total": 245
+  },
+  {
+    "country": "gh",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 112
+  },
+  {
+    "country": "gi",
+    "type": "given-name",
+    "male": 8,
+    "female": 8,
+    "total": 16
+  },
+  {
+    "country": "gl",
+    "type": "given-name",
+    "male": 16,
+    "female": 12,
+    "total": 28
+  },
+  {
+    "country": "gq",
+    "type": "given-name",
+    "male": 4,
+    "female": 5,
+    "total": 9
+  },
+  {
+    "country": "gr",
+    "type": "given-name",
+    "male": 136,
+    "female": 114,
+    "total": 250
+  },
+  {
+    "country": "gr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 83
+  },
+  {
+    "country": "gt",
+    "type": "given-name",
+    "male": 199,
+    "female": 171,
+    "total": 370
+  },
+  {
+    "country": "gt",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 151
+  },
+  {
+    "country": "hk",
+    "type": "given-name",
+    "male": 309,
+    "female": 290,
+    "total": 599
+  },
+  {
+    "country": "hk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 213
+  },
+  {
+    "country": "hn",
+    "type": "given-name",
+    "male": 9,
+    "female": 9,
+    "total": 18
+  },
+  {
+    "country": "hn",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 5
+  },
+  {
+    "country": "hr",
+    "type": "given-name",
+    "male": 109,
+    "female": 112,
+    "total": 221
+  },
+  {
+    "country": "hr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 62
+  },
+  {
+    "country": "ht",
+    "type": "given-name",
+    "male": 14,
+    "female": 17,
+    "total": 31
+  },
+  {
+    "country": "ht",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 4
+  },
+  {
+    "country": "hu",
+    "type": "given-name",
+    "male": 86,
+    "female": 79,
+    "total": 165
+  },
+  {
+    "country": "hu",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 58
+  },
+  {
+    "country": "id",
+    "type": "given-name",
+    "male": 42,
+    "female": 36,
+    "total": 78
+  },
+  {
+    "country": "id",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 27
+  },
+  {
+    "country": "ie",
+    "type": "given-name",
+    "male": 270,
+    "female": 281,
+    "total": 551
+  },
+  {
+    "country": "ie",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 196
+  },
+  {
+    "country": "il",
+    "type": "given-name",
+    "male": 413,
+    "female": 394,
+    "total": 807
+  },
+  {
+    "country": "il",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 179
+  },
+  {
+    "country": "im",
+    "type": "given-name",
+    "male": 9,
+    "female": 10,
+    "total": 19
+  },
+  {
+    "country": "in",
+    "type": "given-name",
+    "male": 660,
+    "female": 290,
+    "total": 950
+  },
+  {
+    "country": "in",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 524
+  },
+  {
+    "country": "iq",
+    "type": "given-name",
+    "male": 820,
+    "female": 475,
+    "total": 1295
+  },
+  {
+    "country": "iq",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 929
+  },
+  {
+    "country": "ir",
+    "type": "given-name",
+    "male": 345,
+    "female": 265,
+    "total": 610
+  },
+  {
+    "country": "ir",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 212
+  },
+  {
+    "country": "is",
+    "type": "given-name",
+    "male": 22,
+    "female": 20,
+    "total": 42
+  },
+  {
+    "country": "is",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 23
+  },
+  {
+    "country": "it",
+    "type": "given-name",
+    "male": 1142,
+    "female": 1201,
+    "total": 2343
+  },
+  {
+    "country": "it",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 2939
+  },
+  {
+    "country": "je",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "jm",
+    "type": "given-name",
+    "male": 53,
+    "female": 38,
+    "total": 91
+  },
+  {
+    "country": "jm",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 55
+  },
+  {
+    "country": "jo",
+    "type": "given-name",
+    "male": 369,
+    "female": 276,
+    "total": 645
+  },
+  {
+    "country": "jo",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 193
+  },
+  {
+    "country": "jp",
+    "type": "given-name",
+    "male": 22751,
+    "female": 29874,
+    "total": 52625
+  },
+  {
+    "country": "jp",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 100177
+  },
+  {
+    "country": "kg",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "kh",
+    "type": "given-name",
+    "male": 1,
+    "female": 1,
+    "total": 2
+  },
+  {
+    "country": "kh",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 84
+  },
+  {
+    "country": "kr",
+    "type": "given-name",
+    "male": 2000,
+    "female": 2000,
+    "total": 4000
+  },
+  {
+    "country": "kr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 100
+  },
+  {
+    "country": "kw",
+    "type": "given-name",
+    "male": 390,
+    "female": 253,
+    "total": 643
+  },
+  {
+    "country": "kw",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 349
+  },
+  {
+    "country": "kz",
+    "type": "given-name",
+    "male": 195,
+    "female": 206,
+    "total": 401
+  },
+  {
+    "country": "kz",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 91
+  },
+  {
+    "country": "lb",
+    "type": "given-name",
+    "male": 278,
+    "female": 255,
+    "total": 533
+  },
+  {
+    "country": "lb",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 265
+  },
+  {
+    "country": "li",
+    "type": "given-name",
+    "male": 14,
+    "female": 8,
+    "total": 22
+  },
+  {
+    "country": "lk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 50
+  },
+  {
+    "country": "lt",
+    "type": "given-name",
+    "male": 38,
+    "female": 39,
+    "total": 77
+  },
+  {
+    "country": "lt",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 25
+  },
+  {
+    "country": "lu",
+    "type": "given-name",
+    "male": 82,
+    "female": 78,
+    "total": 160
+  },
+  {
+    "country": "lu",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 98
+  },
+  {
+    "country": "lv",
+    "type": "given-name",
+    "male": 9,
+    "female": 9,
+    "total": 18
+  },
+  {
+    "country": "lv",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 15
+  },
+  {
+    "country": "ly",
+    "type": "given-name",
+    "male": 413,
+    "female": 276,
+    "total": 689
+  },
+  {
+    "country": "ly",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 368
+  },
+  {
+    "country": "ma",
+    "type": "given-name",
+    "male": 1324,
+    "female": 1210,
+    "total": 2534
+  },
+  {
+    "country": "ma",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1965
+  },
+  {
+    "country": "mc",
+    "type": "given-name",
+    "male": 5,
+    "female": 5,
+    "total": 10
+  },
+  {
+    "country": "md",
+    "type": "given-name",
+    "male": 19,
+    "female": 19,
+    "total": 38
+  },
+  {
+    "country": "md",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 23
+  },
+  {
+    "country": "me",
+    "type": "given-name",
+    "male": 18,
+    "female": 20,
+    "total": 38
+  },
+  {
+    "country": "me",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 10
+  },
+  {
+    "country": "mk",
+    "type": "given-name",
+    "male": 18,
+    "female": 19,
+    "total": 37
+  },
+  {
+    "country": "mk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 38
+  },
+  {
+    "country": "ml",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "mn",
+    "type": "given-name",
+    "male": 2,
+    "female": 5,
+    "total": 7
+  },
+  {
+    "country": "mo",
+    "type": "given-name",
+    "male": 52,
+    "female": 49,
+    "total": 101
+  },
+  {
+    "country": "mo",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 56
+  },
+  {
+    "country": "mt",
+    "type": "given-name",
+    "male": 55,
+    "female": 48,
+    "total": 103
+  },
+  {
+    "country": "mt",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 45
+  },
+  {
+    "country": "mu",
+    "type": "given-name",
+    "male": 134,
+    "female": 134,
+    "total": 268
+  },
+  {
+    "country": "mu",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 114
+  },
+  {
+    "country": "mv",
+    "type": "given-name",
+    "male": 33,
+    "female": 26,
+    "total": 59
+  },
+  {
+    "country": "mv",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 27
+  },
+  {
+    "country": "mx",
+    "type": "given-name",
+    "male": 684,
+    "female": 861,
+    "total": 1545
+  },
+  {
+    "country": "mx",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 766
+  },
+  {
+    "country": "my",
+    "type": "given-name",
+    "male": 876,
+    "female": 775,
+    "total": 1651
+  },
+  {
+    "country": "my",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1076
+  },
+  {
+    "country": "ng",
+    "type": "given-name",
+    "male": 829,
+    "female": 563,
+    "total": 1392
+  },
+  {
+    "country": "ng",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 955
+  },
+  {
+    "country": "nl",
+    "type": "given-name",
+    "male": 625,
+    "female": 598,
+    "total": 1223
+  },
+  {
+    "country": "nl",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 320
+  },
+  {
+    "country": "no",
+    "type": "given-name",
+    "male": 140,
+    "female": 117,
+    "total": 257
+  },
+  {
+    "country": "no",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 102
+  },
+  {
+    "country": "np",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "np",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 20
+  },
+  {
+    "country": "nz",
+    "type": "given-name",
+    "male": 20,
+    "female": 20,
+    "total": 40
+  },
+  {
+    "country": "nz",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 10
+  },
+  {
+    "country": "om",
+    "type": "given-name",
+    "male": 569,
+    "female": 250,
+    "total": 819
+  },
+  {
+    "country": "om",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 539
+  },
+  {
+    "country": "pa",
+    "type": "given-name",
+    "male": 207,
+    "female": 174,
+    "total": 381
+  },
+  {
+    "country": "pa",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 206
+  },
+  {
+    "country": "pe",
+    "type": "given-name",
+    "male": 569,
+    "female": 590,
+    "total": 1159
+  },
+  {
+    "country": "pe",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 402
+  },
+  {
+    "country": "pf",
+    "type": "given-name",
+    "male": 12,
+    "female": 14,
+    "total": 26
+  },
+  {
+    "country": "ph",
+    "type": "given-name",
+    "male": 102,
+    "female": 94,
+    "total": 196
+  },
+  {
+    "country": "ph",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 138
+  },
+  {
+    "country": "pk",
+    "type": "given-name",
+    "male": 16,
+    "female": 10,
+    "total": 26
+  },
+  {
+    "country": "pk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 3
+  },
+  {
+    "country": "pl",
+    "type": "given-name",
+    "male": 168,
+    "female": 179,
+    "total": 347
+  },
+  {
+    "country": "pl",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 149
+  },
+  {
+    "country": "pr",
+    "type": "given-name",
+    "male": 39,
+    "female": 40,
+    "total": 79
+  },
+  {
+    "country": "pr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 32
+  },
+  {
+    "country": "ps",
+    "type": "given-name",
+    "male": 402,
+    "female": 323,
+    "total": 725
+  },
+  {
+    "country": "ps",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 191
+  },
+  {
+    "country": "pt",
+    "type": "given-name",
+    "male": 189,
+    "female": 214,
+    "total": 403
+  },
+  {
+    "country": "pt",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 228
+  },
+  {
+    "country": "py",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "py",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 25
+  },
+  {
+    "country": "qa",
+    "type": "given-name",
+    "male": 332,
+    "female": 205,
+    "total": 537
+  },
+  {
+    "country": "qa",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 294
+  },
+  {
+    "country": "ro",
+    "type": "given-name",
+    "male": 11,
+    "female": 10,
+    "total": 21
+  },
+  {
+    "country": "ro",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 13
+  },
+  {
+    "country": "rs",
+    "type": "given-name",
+    "male": 44,
+    "female": 36,
+    "total": 80
+  },
+  {
+    "country": "rs",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 20
+  },
+  {
+    "country": "ru",
+    "type": "given-name",
+    "male": 316,
+    "female": 320,
+    "total": 636
+  },
+  {
+    "country": "ru",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 222
+  },
+  {
+    "country": "sa",
+    "type": "given-name",
+    "male": 1989,
+    "female": 768,
+    "total": 2757
+  },
+  {
+    "country": "sa",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 2023
+  },
+  {
+    "country": "sd",
+    "type": "given-name",
+    "male": 486,
+    "female": 335,
+    "total": 821
+  },
+  {
+    "country": "sd",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 449
+  },
+  {
+    "country": "se",
+    "type": "given-name",
+    "male": 234,
+    "female": 222,
+    "total": 456
+  },
+  {
+    "country": "se",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 129
+  },
+  {
+    "country": "sg",
+    "type": "given-name",
+    "male": 346,
+    "female": 281,
+    "total": 627
+  },
+  {
+    "country": "sg",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 286
+  },
+  {
+    "country": "si",
+    "type": "given-name",
+    "male": 48,
+    "female": 41,
+    "total": 89
+  },
+  {
+    "country": "si",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 50
+  },
+  {
+    "country": "sk",
+    "type": "given-name",
+    "male": 12,
+    "female": 11,
+    "total": 23
+  },
+  {
+    "country": "sk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 21
+  },
+  {
+    "country": "sm",
+    "type": "given-name",
+    "male": 3,
+    "female": 2,
+    "total": 5
+  },
+  {
+    "country": "sr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 13
+  },
+  {
+    "country": "sv",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "sv",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 25
+  },
+  {
+    "country": "sy",
+    "type": "given-name",
+    "male": 574,
+    "female": 463,
+    "total": 1037
+  },
+  {
+    "country": "sy",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 611
+  },
+  {
+    "country": "th",
+    "type": "given-name",
+    "male": 5,
+    "female": 0,
+    "total": 5
+  },
+  {
+    "country": "tj",
+    "type": "given-name",
+    "male": 4,
+    "female": 6,
+    "total": 10
+  },
+  {
+    "country": "tm",
+    "type": "given-name",
+    "male": 4,
+    "female": 4,
+    "total": 8
+  },
+  {
+    "country": "tm",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 3
+  },
+  {
+    "country": "tn",
+    "type": "given-name",
+    "male": 735,
+    "female": 698,
+    "total": 1433
+  },
+  {
+    "country": "tn",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1005
+  },
+  {
+    "country": "tr",
+    "type": "given-name",
+    "male": 1457,
+    "female": 1276,
+    "total": 2733
+  },
+  {
+    "country": "tr",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1995
+  },
+  {
+    "country": "tw",
+    "type": "given-name",
+    "male": 85,
+    "female": 75,
+    "total": 160
+  },
+  {
+    "country": "tw",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 80
+  },
+  {
+    "country": "ua",
+    "type": "given-name",
+    "male": 10,
+    "female": 10,
+    "total": 20
+  },
+  {
+    "country": "ua",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 23
+  },
+  {
+    "country": "us",
+    "type": "given-name",
+    "male": 13911,
+    "female": 17360,
+    "total": 31271
+  },
+  {
+    "country": "us",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 162254
+  },
+  {
+    "country": "uy",
+    "type": "given-name",
+    "male": 204,
+    "female": 216,
+    "total": 420
+  },
+  {
+    "country": "uy",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 146
+  },
+  {
+    "country": "uz",
+    "type": "given-name",
+    "male": 2,
+    "female": 0,
+    "total": 2
+  },
+  {
+    "country": "uz",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1
+  },
+  {
+    "country": "ve",
+    "type": "given-name",
+    "male": 12,
+    "female": 10,
+    "total": 22
+  },
+  {
+    "country": "ve",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1
+  },
+  {
+    "country": "vn",
+    "type": "given-name",
+    "male": 1,
+    "female": 0,
+    "total": 1
+  },
+  {
+    "country": "vn",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 43
+  },
+  {
+    "country": "xk",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 20
+  },
+  {
+    "country": "ye",
+    "type": "given-name",
+    "male": 365,
+    "female": 170,
+    "total": 535
+  },
+  {
+    "country": "ye",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 422
+  },
+  {
+    "country": "za",
+    "type": "given-name",
+    "male": 1065,
+    "female": 1148,
+    "total": 2213
+  },
+  {
+    "country": "za",
+    "type": "surname",
+    "male": 0,
+    "female": 0,
+    "total": 1047
+  }
+]

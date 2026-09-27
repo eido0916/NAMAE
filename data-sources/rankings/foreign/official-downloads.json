@@ -1,0 +1,57 @@
+{
+  "retrievedAt": "2026-09-24",
+  "files": [
+    {
+      "url": "https://avoindata.suomi.fi/data/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a/resource/08c89936-a230-42e9-a9fc-288632e234f5/download/etunimitilasto-2026-08-04-dvv.xlsx",
+      "path": "data-sources/rankings/foreign/fi-given-2026.xlsx"
+    },
+    {
+      "url": "https://avoindata.suomi.fi/data/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a/resource/26c2d0fc-c27d-4c8a-b646-95155f9b6e59/download/sukunimitilasto-2026-08-04-dvv.xlsx",
+      "path": "data-sources/rankings/foreign/fi-surnames-2026.xlsx"
+    },
+    {
+      "url": "https://api.dane.gov.pl/media/resources/20260130/7_-_Wykaz_imion__m%C4%99skich_wg_pola_imi%C4%99_pierwsze_wyst%C4%99puj%C4%85cych_w_rejestrze_PESEL_z_uwzgl%C4%99dnieniem_imion_os%C3%B3b_zmar%C5%82ych_.xlsx",
+      "path": "data-sources/rankings/foreign/pl-given-male-2026.xlsx"
+    },
+    {
+      "url": "https://api.dane.gov.pl/media/resources/20260130/7_-_Wykaz_imion_%C5%BCe%C5%84skich_wg_pola_imi%C4%99_pierwsze_wyst%C4%99puj%C4%85cych_w_rejestrze_PESEL_z_uwzgl%C4%99dnieniem_imion_os%C3%B3b_zmar%C5%82ych.xlsx",
+      "path": "data-sources/rankings/foreign/pl-given-female-2026.xlsx"
+    },
+    {
+      "url": "https://api.dane.gov.pl/media/resources/20260128/2_-_nazwiska_%C5%BCe%C5%84skie-osoby_%C5%BCyj%C4%85ce.xlsx",
+      "path": "data-sources/rankings/foreign/pl-surname-female-2026.xlsx"
+    },
+    {
+      "url": "https://api.dane.gov.pl/media/resources/20260128/2_-_nazwiska_m%C4%99skie-osoby_%C5%BCyj%C4%85ce.xlsx",
+      "path": "data-sources/rankings/foreign/pl-surname-male-2026.xlsx"
+    },
+    {
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fbirthsdeathsandmarriages%2Flivebirths%2Fdatasets%2Fbabynamesinenglandandwalesfrom1996%2F1996to2025%2Fbabynames1996to2025.xlsx",
+      "path": "data-sources/rankings/foreign/gb-1996-2025.xlsx"
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/fichier/3536630/noms2008nat_txt.zip",
+      "path": "data-sources/rankings/foreign/fr-surnames-1891-2000.zip"
+    },
+    {
+      "url": "https://www.ine.es/daco/daco42/nombyapel/nombres_por_edad_media.xlsx",
+      "path": "data-sources/rankings/foreign/es-given-2025.xlsx"
+    },
+    {
+      "url": "https://www.ine.es/daco/daco42/nombyapel/apellidos_frecuencia.xls",
+      "path": "data-sources/rankings/foreign/es-surnames-2025.xls"
+    },
+    {
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022/resolve/main/parquet/name_detail.parquet",
+      "path": "data-sources/rankings/foreign/br-name_detail-2022.parquet"
+    },
+    {
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022/resolve/main/parquet/name_ranking.parquet",
+      "path": "data-sources/rankings/foreign/br-name_ranking-2022.parquet"
+    },
+    {
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022/raw/main/README.md",
+      "path": "data-sources/rankings/foreign/br-2022-README.md"
+    }
+  ]
+}

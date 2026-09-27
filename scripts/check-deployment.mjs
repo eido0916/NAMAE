@@ -26,13 +26,16 @@ const actualDatasets = new Set(
   (manifest.datasets ?? []).map((dataset) => `${dataset.country}/${dataset.type}`),
 );
 if (
-  manifest.schemaVersion !== 2 ||
+  manifest.schemaVersion !== 3 ||
   !manifest.dataVersion ||
   !expectedDatasets?.length ||
   expectedDatasets.some((key) => !actualDatasets.has(key))
 )
   throw new Error("Unexpected data manifest");
-for (const entry of [manifest.dictionary, ...manifest.datasets])
+const dataFiles = manifest.datasets.flatMap((dataset) =>
+  dataset.path ? [dataset] : (dataset.chunks ?? []),
+);
+for (const entry of [manifest.dictionary, ...dataFiles])
   await request(entry.path, "HEAD");
 console.log(
   `Healthy: ${base}, data ${manifest.dataVersion}, ${manifest.datasets.length} datasets.`,

@@ -7,9 +7,14 @@ const publicRoot = join(root, "public");
 const manifest = JSON.parse(
   readFileSync(join(publicRoot, "data", "manifest.json"), "utf8"),
 );
-if (manifest.schemaVersion !== 2 || !manifest.dataVersion)
+if (manifest.schemaVersion !== 3 || !manifest.dataVersion)
   throw new Error("Unsupported or missing public data manifest version");
-const entries = [manifest.dictionary, ...manifest.datasets];
+const entries = [
+  manifest.dictionary,
+  ...manifest.datasets.flatMap((dataset) =>
+    dataset.path ? [dataset] : (dataset.chunks ?? []),
+  ),
+];
 for (const entry of entries) {
   const path = join(publicRoot, entry.path.replace(/^\//, ""));
   const content = readFileSync(path);
