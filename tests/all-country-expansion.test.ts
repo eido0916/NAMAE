@@ -2,7 +2,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { gunzipSync } from "node:zlib";
-import { configureEngine, diagnose, clearReferenceDataset } from "../src/lib/engine";
+import { configureEngine, diagnose, clearReferenceDataset, getCohort } from "../src/lib/engine";
+import { canonicalizeNativeName, isNativeName } from "../src/lib/native-names";
 import type { ReferenceDataset } from "../src/lib/types";
 
 test("every enabled country receives before/after counts for both genders and surnames", () => {
@@ -33,20 +34,32 @@ test("Wikidata reference names retain explicit entity and country-relation evide
   }
 });
 
-test("new country surnames fill missing ordinals and preserve valid one-character Korean surnames", () => {
+test("new country surnames use native references and preserve genuine ordinal numbers", () => {
   const index = JSON.parse(readFileSync("src/reference-data/index.json", "utf8"));
   for (const country of ["DE", "CA", "MV", "BD", "SR"]) {
     const file = index.files.find((f: { country: string; type: string }) => f.country === country && f.type === "surname");
     assert.ok(file, country);
     const reference = JSON.parse(readFileSync(file.path, "utf8")) as ReferenceDataset;
+    reference.records = reference.records.map(record => ({ ...record, country, type: "surname" }));
     configureEngine({ references: [reference] });
     try {
       const result = diagnose({ name: "林", type: "surname", destinationCountries: [country] });
+      const nativeReferences = reference.records.map(canonicalizeNativeName).filter(record => isNativeName(country, record.name));
+      if (!nativeReferences.length && !result.matches.length) {
+        assert.ok(result.unavailableCountries?.some(entry => entry.country.code === country), 'unconfirmed native spellings are not fabricated');
+        continue;
+      }
       assert.equal(result.matches.length, 1);
+      assert.ok(isNativeName(country, result.matches[0].record.name));
       // A genuine same ordinal, where available, still takes precedence.
       const match = result.matches[0].record;
-      if (match.rank === undefined) assert.ok(reference.records.some((r) => r.name === match.name));
-      else assert.equal(match.rank, result.record?.rank);
+      if (match.rank === undefined) assert.ok(nativeReferences.some((r) => r.name === match.name));
+      else {
+        const cohort = getCohort({name:'',type:'surname'},country);
+        const distance = cohort.reduce((best, record) => Math.min(best, Math.abs(record.rank - result.record!.rank)), Infinity);
+        assert.equal(Math.abs(match.rank - result.record!.rank), distance);
+        assert.ok(cohort.some(record => record.rank === match.rank && record.name === match.name), 'filtering native spellings must preserve the source ordinal');
+      }
     } finally {
       clearReferenceDataset(country, "surname");
     }

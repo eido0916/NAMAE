@@ -51,3 +51,6 @@ next-env.d.ts
 /.tmp/
 # Downloaded summary workbook, excluded after source inspection.
 /data-sources/rankings/foreign/thelwall-200-countries.xlsx
+
+# Source table images are inspection caches; transcribed facts and URLs are tracked.
+/data-sources/rankings/foreign/chinese-surnames/report-2020-*.jpg

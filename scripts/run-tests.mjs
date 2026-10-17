@@ -15,4 +15,6 @@ await import("../tests/detail-localization.test.mjs");
 await import("../tests/language-expansion.test.ts");
 await import("../tests/source-country.test.ts");
 await import("../tests/rank-alternatives.test.ts");
+await import("../tests/chinese-surnames.test.ts");
+await import("../tests/native-names.test.ts");
 unregister();

@@ -19,12 +19,14 @@ import {
   getDefaultDestinations,
   getInputExamples,
   getNameRecord,
+  getInputNameCandidates,
   getReadingOptions,
   getSurnameRecord,
   hasReferenceName,
 } from "@/lib/engine";
 import { loadDiagnosisData, loadInputData, loadInputReferenceName } from "@/lib/data-loader";
 import { saveResult, shareResult } from "@/lib/share";
+import { formatName } from "@/lib/name-presentation";
 import type { Diagnosis, Gender, NameType } from "@/lib/types";
 import { NameDetailsDialog } from "./name-details";
 import { countryNativeNames, getUiCopy, localizedCountryName, localizeInputError } from "@/lib/ui-copy";
@@ -197,6 +199,10 @@ function NameForm({ initialType }: { initialType: NameType }) {
           ? { gender, ...(reading ? { reading } : {}) }
           : {}),
       };
+      if (getInputNameCandidates(input).length > 1) {
+        setError("同じ表記に複数の名前が対応します。現地表記を選んでください。");
+        return;
+      }
       await loadInputReferenceName(type, name, type === "given_name" ? gender : undefined, sourceCountry);
       if (type === "given_name" && reading) await loadInputReferenceName(type, reading, gender, sourceCountry);
       const givenNameRecord =
@@ -245,6 +251,8 @@ function NameForm({ initialType }: { initialType: NameType }) {
     if (sourceCountry === "JP") return type === "surname" ? ["佐藤", "鈴木", "山田"] : ["じゅん", "れん", "さくら"];
     return dataReady ? getInputExamples(sourceCountry, type, gender === "female" ? "female" : "male") : [];
   }, [sourceCountry, type, gender, dataReady]);
+  const spellingCandidates = useMemo(() => dataReady && !busy
+    ? getInputNameCandidates({sourceCountry, type, gender, name}) : [], [sourceCountry, type, gender, dataReady, name, busy]);
   return (
     <form onSubmit={submit} className="glass form-card" lang={copy.lang}>
       <div className="form-heading">
@@ -294,6 +302,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
       </label>
       <input
         id="name"
+        dir="auto"
         name="name"
         value={name}
         onChange={(e) => {
@@ -308,6 +317,16 @@ function NameForm({ initialType }: { initialType: NameType }) {
         required
         aria-describedby={error ? "form-error" : undefined}
       />
+      {spellingCandidates.length > 1 && <fieldset className="chinese-surname-options" aria-describedby="chinese-surname-help">
+        <legend>{sourceCountry === "CN" ? "请选择姓名的汉字 / Choose the local spelling" : "Choose the local spelling"}</legend>
+        <p id="chinese-surname-help">{sourceCountry === "CN" ? "同一拼音可能对应不同的姓名。请选择正确的汉字。" : "This spelling matches several names. Select yours."}</p>
+        <div>
+          {spellingCandidates.map((record) => <button key={record.name} type="button" disabled={busy}
+            onClick={() => { setName(record.name); setError(""); document.getElementById("name")?.focus(); }}>
+            {formatName(record)} {record.rank !== undefined && <small>#{record.rank}</small>}
+          </button>)}
+        </div>
+      </fieldset>}
       {nameExamples.length > 0 && <div className="examples">
         {copy.try}
         {nameExamples.map((n) => (
@@ -393,7 +412,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
       <button
         className="primary"
         type="submit"
-        disabled={!dataReady || busy || destinationCountries.length === 0}
+        disabled={!dataReady || busy || destinationCountries.length === 0 || spellingCandidates.length > 1}
       >
         {busy || !dataReady
           ? copy.loading
@@ -511,17 +530,18 @@ export function Results() {
             YOUR {result.input.type === "surname" ? "SURNAME" : "NAME"} · {sourceConfig.nameEn.toUpperCase()}{" "}
             <Flag code={sourceCountry} label={sourceConfig.nameJa} />
           </span>
-          <h2>{result.input.name}</h2>
+          <h2 dir="auto">{result.record ? formatName(result.record) : result.input.name}</h2>
           <p>
             {[
               result.input.type === "given_name" ? result.input.gender === "male" ? copy.male : copy.female : "",
               result.input.reading ? `読み：${result.input.reading}` : "",
+              result.record ? `${result.meta.coverageLabel || result.meta.dataYear || ""} · ${result.meta.source}` : "",
             ].filter(Boolean).join(" · ")}
           </p>
         </div>
         <div className="rank">
           <span>
-            {sourceCountry === "JP" ? `${sourceConfig.nameJa}での人気度` : `${countryName(sourceCountry)} · ${copy.rank}`}{" "}
+            {sourceCountry === "JP" ? `${sourceConfig.nameJa}での人気度` : `${countryName(sourceCountry)} · ${result.meta.isOfficial ? copy.rank : copy.referenceRank}`}{" "}
             <small>
               {sourceCountry !== "JP" ? (result.meta.isSample ? copy.sample : "") : result.meta.isSample
                 ? "サンプル"
@@ -647,10 +667,10 @@ export function Results() {
               </span>
               <span className="match-index">0{i + 1}</span>
             </div>
-            <h3>{record.name}</h3>
+            <h3 dir="auto">{formatName(record)}</h3>
             <div className="match-bottom">
               <span>
-                {record.rank === undefined ? evidence ? <>{copy.referenceRank} <b>{evidence.tiedNames > 1 ? "= " : ""}#{evidence.rank}</b></> : copy.dictionary : <>{copy.localRank} <b>#{record.rank}</b></>}
+                {record.rank === undefined ? evidence ? <>{copy.referenceRank} <b>{evidence.tiedNames > 1 ? "= " : ""}#{evidence.rank}</b></> : copy.dictionary : <>{meta.isOfficial ? copy.localRank : copy.referenceRank} <b>#{record.rank}</b></>}
               </span>
               {!evidence && <span>
                 {record.rank === undefined
@@ -672,7 +692,7 @@ export function Results() {
               result.matches.find((m) => m.country.code === country.code)?.meta
                 .isSample
                 ? copy.sample
-                : record.rank === undefined ? copy.dictionary : copy.publicData}
+                : record.rank === undefined ? copy.dictionary : meta.isOfficial ? copy.publicData : copy.referenceRank}
             </p>}
             <span className="match-detail-hint">{copy.details} ↗</span>
             <button type="button" className="match-detail-trigger" aria-haspopup="dialog" aria-label={`${countryName(country.code)} · ${record.name} · ${copy.details}`} onClick={() => setDetailMatch({ country, record, meta })} />

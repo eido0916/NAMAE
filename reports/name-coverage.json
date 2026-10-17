@@ -2,7 +2,7 @@
   "targetPerCategory": 10000,
   "countries": 144,
   "countriesMeetingAllTargets": 8,
-  "totalRecords": 2859720,
+  "totalRecords": 2859440,
   "coverage": [
     {
       "country": "JP",
@@ -965,28 +965,28 @@
       "country": "CN",
       "name": "中国",
       "male": {
-        "names": 135,
-        "withPublishedEvidence": 135,
+        "names": 10,
+        "withPublishedEvidence": 10,
         "estimated": 0,
-        "searchableSpellings": 159,
-        "shortfall": 9865,
-        "source": "https://onomaverse.com/datasets/given-name-frequency"
+        "searchableSpellings": 26,
+        "shortfall": 9990,
+        "source": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm"
       },
       "female": {
-        "names": 131,
-        "withPublishedEvidence": 131,
+        "names": 10,
+        "withPublishedEvidence": 10,
         "estimated": 0,
-        "searchableSpellings": 155,
-        "shortfall": 9869,
-        "source": "https://onomaverse.com/datasets/given-name-frequency"
+        "searchableSpellings": 26,
+        "shortfall": 9990,
+        "source": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm"
       },
       "surname": {
-        "names": 134,
-        "withPublishedEvidence": 134,
+        "names": 100,
+        "withPublishedEvidence": 100,
         "estimated": 0,
-        "searchableSpellings": 154,
-        "shortfall": 9866,
-        "source": "https://onomaverse.com/datasets/surname-frequency"
+        "searchableSpellings": 234,
+        "shortfall": 9900,
+        "source": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm"
       },
       "meetsTarget": false
     },

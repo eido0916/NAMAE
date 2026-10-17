@@ -152,8 +152,6 @@
         "CL/surname",
         "CM/given_name",
         "CM/surname",
-        "CN/given_name",
-        "CN/surname",
         "CO/given_name",
         "CO/surname",
         "CR/given_name",
@@ -412,8 +410,6 @@
         "CH/surname",
         "CL/given_name",
         "CL/surname",
-        "CN/given_name",
-        "CN/surname",
         "CO/given_name",
         "CO/surname",
         "CR/surname",
@@ -1674,6 +1670,30 @@
       "licenseUrl": "https://recordatlas.org/data/",
       "redistributionStatus": "permitted",
       "attribution": "Record Atlas surname corpus (2026). Names and attested countries only. Excludes phonetic guesses, counts and Wiktionary content. Adapted by NAMAE."
+    },
+    {
+      "id": "cn-national-surnames-2020",
+      "name": "公安部户政管理研究中心《二〇二〇年全国姓名报告》表1：2020年百家姓",
+      "url": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm",
+      "datasets": [
+        "CN/surname"
+      ],
+      "licenseName": "公開統計の事実情報（姓と順位）のみ。本文・表画像は公開アプリに含めません。",
+      "licenseUrl": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm",
+      "redistributionStatus": "permitted",
+      "attribution": "出典：中国公安部户政管理研究中心《二〇二〇年全国姓名报告》表1（新華社掲載）。拼音・繁体字別名は検索補助。"
+    },
+    {
+      "id": "cn-national-given-2020",
+      "name": "公安部《二〇二〇年全国姓名报告》表6・表7",
+      "url": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm",
+      "datasets": [
+        "CN/given_name"
+      ],
+      "licenseName": "公開統計の事実情報（名前・人数・順位）のみ。本文・画像は公開アプリに含めません。",
+      "licenseUrl": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm",
+      "redistributionStatus": "permitted",
+      "attribution": "中国公安部户政管理研究中心《二〇二〇年全国姓名报告》表6・表7（新華社掲載）。拼音は検索補助。"
     }
   ]
 }

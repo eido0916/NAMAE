@@ -1,3 +1,4 @@
+import { isNativeName } from "../src/lib/native-name-policy.mjs";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
@@ -48,7 +49,8 @@ function clean(value) {
 function displayName(row) {
   const localized = clean(row["Localized Name"] ?? "");
   const romanized = clean(row["Romanized Name"] ?? "");
-  const name = [romanized, localized].find((value) => value && latinName.test(value));
+  const name = [localized, romanized].find((value) => value && isNativeName(row.Country, value))
+    ?? [romanized, localized].find((value) => value && latinName.test(value));
   if (!name) return undefined;
   const aliases = [localized, romanized]
     .filter((value) => value && value !== name)
@@ -292,9 +294,11 @@ for (const [country, candidates] of byCountry) {
   if (excludedCodes.has(country)) continue;
   const merged = {};
   for (const type of ["given_name", "surname"]) {
+    if (country === "CN") continue; // National ranks are imported independently.
     if (!candidates[type].length) continue;
     const datasetPath = findDatasetPath(country, type);
     const current = recordsFor(datasetPath);
+    if (current && (current.meta.isOfficial || !/Onomaverse|Popular Names by Country/.test(current.meta.source))) continue;
     const result = type === "given_name"
       ? mergeGiven(current, candidates[type])
       : mergeSurnames(current, candidates[type]);

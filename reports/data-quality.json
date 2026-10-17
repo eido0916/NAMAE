@@ -326,14 +326,14 @@
     },
     {
       "key": "CN/given_name",
-      "before": 266,
-      "after": 266,
+      "before": 20,
+      "after": 20,
       "delta": 0
     },
     {
       "key": "CN/surname",
-      "before": 134,
-      "after": 134,
+      "before": 100,
+      "after": 100,
       "delta": 0
     },
     {
@@ -2082,20 +2082,20 @@
     {
       "key": "CN/given_name",
       "file": "src/data/cn/given-name/onomaverse.json",
-      "records": 266,
+      "records": 20,
       "estimated": 0,
       "minRank": 1,
-      "maxRank": 126,
-      "sha256": "eef3924133dfa693687f26e9fd4f1ad0869dae8bb9b026040ab981c6a4049235"
+      "maxRank": 10,
+      "sha256": "bf56a11ab5d790f31239f90af104baca5b763aa2a0ca811981cab9557a0bad3a"
     },
     {
       "key": "CN/surname",
       "file": "src/data/cn/surname/onomaverse.json",
-      "records": 134,
+      "records": 100,
       "estimated": 0,
       "minRank": 1,
-      "maxRank": 134,
-      "sha256": "6f65d0407614ff30dbc99145a9a382e5458daa9c8649f1c99399dc50a8cee3f9"
+      "maxRank": 100,
+      "sha256": "c7cf549b974fd4773a9fb68e1a523fab5bda08be75cdf5c7bfad35cf00c43f09"
     },
     {
       "key": "CO/given_name",

@@ -18,6 +18,13 @@
 .reading-field {
   margin-bottom: 20px;
 }
+.chinese-surname-options { margin: 16px 0 22px; }
+.chinese-surname-options legend { color: var(--accent); font-size: 14px; }
+.chinese-surname-options p { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.chinese-surname-options > div { display: flex; flex-wrap: wrap; gap: 8px; }
+.chinese-surname-options button { padding: 12px 15px; background: #c9ed9d0b; border: 1px solid #c9ed9d55; border-radius: 8px; color: var(--foreground); }
+.chinese-surname-options button:hover, .chinese-surname-options button:focus-visible { border-color: var(--accent); outline-color: var(--accent); }
+.chinese-surname-options small { color: var(--accent); margin-left: 8px; }
 .source-country-field {
   margin: 24px 0;
 }

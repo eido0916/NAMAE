@@ -1,5 +1,7 @@
+import { canonicalizeNativeName, isNativeName, hasRankEvidence } from "./native-names";
 import countries from "@/data/countries.json";
 import { normalizeInputName } from "./reference-lookup.mjs";
+import { findChineseSurnameCandidates } from "./chinese-surnames.mjs";
 import type {
   CountryConfig,
   Dataset,
@@ -10,6 +12,7 @@ import type {
   NameType,
   RankingBasis,
   ReferenceDataset,
+  ReferenceNameRecord,
 } from "./types";
 type DictionaryEntry = {
   gender: string;
@@ -20,6 +23,10 @@ type DictionaryEntry = {
 let datasets: Dataset[] = [];
 let dictionary: DictionaryEntry[] = [];
 const references = new Map<string, ReferenceDataset>();
+const supplementalNames = new Map<string, ReferenceNameRecord[]>();
+function referenceRecords(country: string, type: NameType) {
+  return [...(references.get(country + '/' + type)?.records ?? []), ...(supplementalNames.get(country + '/' + type) ?? [])];
+}
 const rankAlternatives = new Map<string, Dataset>();
 export function clearRankAlternatives(country: string, type: NameType) {
   rankAlternatives.delete(`${country}/${type}`);
@@ -55,7 +62,7 @@ export function configureEngine(data: {
   for (const dataset of data.rankAlternatives ?? [])
     rankAlternatives.set(`${dataset.meta.country}/${dataset.meta.type}`, dataset);
   for (const dataset of data.references ?? [])
-    references.set(`${dataset.meta.country}/${dataset.meta.type}`, dataset);
+    references.set(`${dataset.meta.country}/${dataset.meta.type}`, { ...dataset, records: dataset.records.map(canonicalizeNativeName) });
   if (data.dictionary) {
     dictionary = data.dictionary;
     rebuildReadingIndex();
@@ -67,8 +74,16 @@ export function configureEngine(data: {
         dataset,
       ]),
     );
-    for (const dataset of data.datasets)
-      byKey.set(`${dataset.meta.country}/${dataset.meta.type}`, dataset);
+    for (const dataset of data.datasets) {
+      const records = dataset.records.map(canonicalizeNativeName);
+      const key = dataset.meta.country + '/' + dataset.meta.type;
+      supplementalNames.set(key, records.filter(record => !hasRankEvidence(record, dataset.meta)).map(record => {
+        const { rank: _rank, totalEntries: _total, ...reference } = record;
+        void _rank; void _total;
+        return reference;
+      }));
+      byKey.set(key, { ...dataset, records });
+    }
     datasets = [...byKey.values()];
   }
 }
@@ -79,10 +94,10 @@ export function hasJapaneseReferenceName(input: DiagnosisInput) {
 export function hasReferenceName(input: DiagnosisInput) {
   const country = input.sourceCountry ?? "JP";
   const names = new Set([normalizeName(input.name), ...(country === "JP" && input.reading ? [normalizeName(input.reading)] : [])]);
-  return references.get(`${country}/${input.type}`)?.records.some((record) =>
+  return referenceRecords(country, input.type).some((record) =>
     (input.type === "surname" || record.gender === input.gender) &&
     [record.name, ...(record.aliases ?? [])].some((alias) => names.has(normalizeName(alias))),
-  ) ?? false;
+  );
 }
 export function getReadingOptions(
   name: string,
@@ -104,8 +119,8 @@ export function getInputExamples(country: string, type: NameType, gender: "male"
   const input = { name: "", type, gender, sourceCountry: country };
   const ranked = getCohort(input, country).slice(0, 3).map((record) => record.name);
   if (ranked.length) return ranked;
-  return references.get(`${country}/${type}`)?.records
-    .filter((record) => type === "surname" || record.gender === gender)
+  return referenceRecords(country, type)
+    .filter((record) => isNativeName(country, record.name) && (type === "surname" || record.gender === gender))
     .slice(0, 3).map((record) => record.name) ?? [];
 }
 export function getDataset(country: string, type: NameType): Dataset {
@@ -133,8 +148,10 @@ export function getCohort(
     (country === "JP" && input.type === "given_name"
       ? "overall"
       : undefined);
-  const records = getDataset(country, input.type).records.filter(
+  const dataset = getDataset(country, input.type);
+  const records = dataset.records.filter(
     (record) =>
+      isNativeName(country, record.name) && hasRankEvidence(record, dataset.meta) &&
       (input.type === "surname" || record.gender === input.gender) &&
       (!inferredRankingBasis ||
         record.rankingBasis === inferredRankingBasis),
@@ -178,14 +195,37 @@ export function getNameRecord(
 ): NameRecord | undefined {
   if (country === "JP" && input.type === "given_name")
     return findJapaneseGivenNameRecord(input);
+  if (country === "CN" && input.type === "surname") {
+    const candidates = getChineseSurnameCandidates(input.name);
+    return candidates.length === 1 ? candidates[0] : undefined;
+  }
 
   const normalized = normalizeName(input.name);
   const matchesReading = (r: NameRecord) =>
     [r.name, ...(r.aliases ?? [])].some(
       (alias) => normalizeName(alias) === normalized,
     );
-  const cohortRecord = getCohort(input, country).find(matchesReading);
-  return cohortRecord;
+  const cohort = getCohort(input, country);
+  if (country === "JP") return cohort.find(matchesReading);
+  const exact = cohort.filter(record => normalizeName(record.name) === normalized);
+  const matches = exact.length ? exact : cohort.filter(matchesReading);
+  return new Set(matches.map(record => record.name)).size === 1 ? matches[0] : undefined;
+}
+export function getChineseSurnameCandidates(name: string): NameRecord[] {
+  return findChineseSurnameCandidates(name, getDataset("CN", "surname").records);
+}
+export function getInputNameCandidates(input: DiagnosisInput): (NameRecord | ReferenceNameRecord)[] {
+  const country = input.sourceCountry ?? 'JP';
+  if (country === 'JP') return [];
+  if (country === 'CN' && input.type === 'surname') return getChineseSurnameCandidates(input.name);
+  const normalized = normalizeName(input.name);
+  if (!normalized) return [];
+  const ranked = datasets.find(d => d.meta.country === country && d.meta.type === input.type)?.records ?? [];
+  const matching = [...ranked, ...referenceRecords(country, input.type)].filter(record =>
+    isNativeName(country, record.name) && (input.type === 'surname' || record.gender === input.gender) &&
+    [record.name, ...(record.aliases ?? [])].some(alias => normalizeName(alias) === normalized));
+  const exact = matching.filter(record => normalizeName(record.name) === normalized);
+  return [...new Map((exact.length ? exact : matching).map(record => [record.name, record])).values()];
 }
 export const getSurnameRecord = (name: string, country = "JP") =>
   getNameRecord({ name, type: "surname" }, country);
@@ -261,6 +301,9 @@ export function validateInput(input: DiagnosisInput): string | undefined {
   if (!["given_name", "surname"].includes(input.type))
     return "診断の種類を選んでください。";
   if (!input.name.trim()) return "名前を入力してください。";
+  if (input.sourceCountry === "CN" && input.type === "surname" && getChineseSurnameCandidates(input.name).length > 1)
+    return "同じローマ字の姓が複数あります。漢字表記を選んでください。";
+  if (getInputNameCandidates(input).length > 1) return '同じ表記に複数の名前が対応します。現地表記を選んでください。';
   if (
     input.destinationCountries &&
     (input.destinationCountries.length < 1 || input.destinationCountries.length > 8)
@@ -312,6 +355,13 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
         }
       : { ...input, name: input.name.trim() };
   const record = getNameRecord(clean);
+  if (record && sourceCountry !== "JP") clean.name = record.name;
+  else {
+    const names = referenceRecords(sourceCountry, clean.type).filter(r =>
+      isNativeName(sourceCountry, r.name) && (clean.type === 'surname' || r.gender === clean.gender) &&
+      [r.name, ...(r.aliases ?? [])].some(alias => normalizeName(alias) === normalizeName(clean.name)));
+    if (new Set(names.map(r => r.name)).size === 1) clean.name = names[0].name;
+  }
   const sourceYear = record?.year ?? getCohort(clean, sourceCountry)[0]?.year;
   const recognition = record
     ? clean.type === "given_name" &&
@@ -340,16 +390,17 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
         .filter((r) => r.gender === clean.gender && r.rankingBasis === "overall")
         .flatMap((r) => [r.name, ...(r.aliases ?? [])]).map(normalizeName))
       : undefined;
-    const candidates = reference?.records.filter((r) =>
+    const candidates = referenceRecords(country.code, input.type).filter((r) =>
+      isNativeName(country.code, r.name) &&
       (clean.type === "surname" || r.gender === clean.gender) &&
       (!japaneseNames || [r.name, ...(r.aliases ?? [])].some((name) => japaneseNames.has(normalizeName(name)))),
     ) ?? [];
     const fallback = () => {
-      if (!reference || !candidates.length) return false;
+      if (!candidates.length) return false;
       const counted = candidates.filter((candidate) => candidate.evidenceRank);
       const eligible = counted.length ? counted : candidates;
       const candidate = eligible[hash(`${normalizeName(clean.reading ?? clean.name)}|${clean.gender ?? ""}|${country.code}`) % eligible.length];
-      matches.push({ country, record: candidate, meta: reference.meta });
+      matches.push({ country, record: candidate, meta: reference?.meta ?? getDatasetMetadata(country.code, input.type) });
       return true;
     };
     if (reason) {
@@ -379,7 +430,7 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
     score: calculateRarityScore(record),
     recognition,
     meta: !record && hasReferenceName(clean)
-      ? references.get(`${sourceCountry}/${input.type}`)!.meta
+      ? references.get(`${sourceCountry}/${input.type}`)?.meta ?? getDatasetMetadata(sourceCountry, input.type)
       : getDatasetMetadata(sourceCountry, input.type, sourceYear),
     matches,
     unavailableCountries,

@@ -21,8 +21,8 @@
     "details:backup": "node scripts/backup-name-details.mjs save",
     "details:restore": "node scripts/backup-name-details.mjs restore",
     "details:build": "npm run details:restore && npm run details:import && npm run details:validate && npm run details:export",
-    "test:browser": "playwright test tests/browser.spec.ts tests/name-details.browser.spec.ts tests/europe-browser.spec.ts tests/all-country-browser.spec.ts tests/priority-country-browser.spec.ts tests/observed-rankings.browser.spec.ts tests/source-country.browser.spec.ts tests/mass-name-expansion.browser.spec.ts tests/ranking-followup.browser.spec.ts tests/language-expansion.browser.spec.ts tests/rank-alternatives.browser.spec.ts",
-    "data:build": "npm run data:check && node scripts/validate-reference-data.mjs && npm run data:coverage && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
+    "test:browser": "playwright test tests/browser.spec.ts tests/name-details.browser.spec.ts tests/europe-browser.spec.ts tests/all-country-browser.spec.ts tests/priority-country-browser.spec.ts tests/observed-rankings.browser.spec.ts tests/source-country.browser.spec.ts tests/mass-name-expansion.browser.spec.ts tests/ranking-followup.browser.spec.ts tests/language-expansion.browser.spec.ts tests/rank-alternatives.browser.spec.ts tests/chinese-surnames.browser.spec.ts tests/native-names.browser.spec.ts",
+    "data:build": "node scripts/import-chinese-surnames.mjs && node scripts/import-chinese-given-names.mjs && node scripts/build-native-name-index.mjs && node scripts/audit-native-names.mjs && npm run data:check && node scripts/validate-reference-data.mjs && npm run data:coverage && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
     "data:check": "node scripts/validate-data.mjs",
     "data:accept": "node scripts/validate-data.mjs --accept",
     "data:verify": "node scripts/verify-public-data.mjs",
@@ -58,6 +58,7 @@
     "data:refresh:observed-ranks": "npm run data:collect:observed-ranks && node scripts/import-observed-name-rankings.mjs && node scripts/import-global-reference-names.mjs --observed-priority && node scripts/report-priority-country-expansion.mjs --observed-batch",
     "data:refresh:world-ranks": "node scripts/refresh-world-rankings.mjs",
     "data:refresh:mass": "node scripts/refresh-mass-name-expansion.mjs",
+    "data:native": "node scripts/build-native-name-index.mjs",
     "data:refresh:us-historical": "node scripts/import-us-historical-names.mjs"
   },
   "dependencies": {

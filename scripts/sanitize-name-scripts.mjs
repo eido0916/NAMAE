@@ -38,19 +38,7 @@ for (const { path, dataset } of readDatasets(sourceRoot)) {
     seen.add(key);
     clean.push({ ...record, name });
   }
-  const groups = new Map();
-  for (const record of clean) {
-    const key = `${record.gender ?? ""}|${record.year ?? ""}|${record.rankingBasis ?? ""}`;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(record);
-  }
-  for (const group of groups.values()) {
-    group.sort((a, b) => a.rank - b.rank);
-    group.forEach((record, index) => {
-      record.rank = index + 1;
-      record.totalEntries = group.length;
-    });
-  }
+  // Filtering invalid spellings must never shift published ordinal numbers.
   dataset.records = clean;
   writeFileSync(path, JSON.stringify(dataset));
 }

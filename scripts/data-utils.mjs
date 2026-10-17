@@ -1,3 +1,4 @@
+import { isNativeName } from "../src/lib/native-name-policy.mjs";
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
@@ -44,5 +45,5 @@ export function hasExpectedScript(country, name) {
   if (country === "CN" && /^[\p{Script=Han}·]+$/u.test(name) && /\p{Script=Han}/u.test(name)) return true;
   if (country === "KR") return koreanName.test(name);
   if (country === "JP") return japaneseName.test(name);
-  return latinName.test(name);
+  return isNativeName(country, name) || latinName.test(name);
 }

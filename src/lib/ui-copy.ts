@@ -124,6 +124,8 @@ export function localizedCountryName(code: string, sourceCountry: string) {
   return new Intl.DisplayNames([getUiCopy(sourceCountry).lang], { type: "region" }).of(code) ?? code;
 }
 export function localizeInputError(message: string, country: string) {
+  if (message.includes("現地表記を選んで")) return country === "CN" ? "同一拼音对应多个名字，请选择汉字。" : country === "JP" ? message : "Choose the local spelling that matches your name.";
+  if (country === "CN" && message.includes("同じローマ字")) return "同一拼音对应多个姓氏，请选择汉字。";
   if (country === "JP") return message;
   const copy = getUiCopy(country);
   if (message.includes("性別")) return copy.wrongGender;

@@ -1,4 +1,5 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { isNativeName } from "../src/lib/native-name-policy.mjs";
+import { mkdirSync, readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -161,7 +162,7 @@ function loadLatinTransliterations(valuesByCountry) {
   return aliases;
 }
 
-function withLatinNames(valuesByCountry) {
+function withDisplayNames(valuesByCountry) {
   const aliases = loadLatinTransliterations(valuesByCountry);
   const result = new Map();
   for (const [country, values] of valuesByCountry) {
@@ -169,7 +170,7 @@ function withLatinNames(valuesByCountry) {
       country,
       values.flatMap((value) => {
         const transliterations = [...(aliases.get(value.nameId) ?? [])];
-        const displayName = latinName.test(value.name)
+        const displayName = isNativeName(country, value.name) || latinName.test(value.name)
           ? value.name
           : transliterations.shift();
         if (!displayName) return [];
@@ -222,8 +223,8 @@ function rankedRecords(country, type, values) {
   return records;
 }
 
-const given = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-given-name-frequency.csv"), "given_name"));
-const surnames = withLatinNames(parseCsv(join(sourceRoot, "onomaverse-surname-frequency.csv"), "surname"));
+const given = withDisplayNames(parseCsv(join(sourceRoot, "onomaverse-given-name-frequency.csv"), "given_name"));
+const surnames = withDisplayNames(parseCsv(join(sourceRoot, "onomaverse-surname-frequency.csv"), "surname"));
 const counts = {};
 const generatedCodes = new Set();
 for (const country of Object.keys(countries)) {
@@ -239,7 +240,13 @@ for (const country of Object.keys(countries)) {
   }
   counts[country] = {};
   for (const [type, records] of ranked) {
+    if (country === "CN") continue; // Preserve the verified Chinese national tables.
     const directory = join(outputRoot, country.toLowerCase(), type.replace("_", "-"));
+    // Generic frequencies must never replace a published national table.
+    if (existsSync(directory) && readdirSync(directory).filter(file => file.endsWith('.json')).some(file => {
+      const meta = JSON.parse(readFileSync(join(directory, file), 'utf8')).meta;
+      return meta.isOfficial || !meta.source.includes('Onomaverse');
+    })) continue;
     mkdirSync(directory, { recursive: true });
     writeFileSync(
       join(directory, "onomaverse.json"),
@@ -252,7 +259,7 @@ for (const country of Object.keys(countries)) {
           dataYear: year,
           isOfficial: false,
           isSample: false,
-          notes: "国別の推定人数を降順に並べた頻度順位。非ラテン文字の原表記は公式のラテン文字転写を検索別名として収録。CC BY 4.0。",
+          notes: "国別の推定人数を降順に並べた頻度順位。現地の原表記を優先し、ラテン文字転写は検索別名として扱います。全国人口統計ではなく、この資料内での頻度順位です。CC BY 4.0。",
         },
         records,
       }),

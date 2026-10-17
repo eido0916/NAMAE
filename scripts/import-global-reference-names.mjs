@@ -1,3 +1,4 @@
+import { isNativeName } from "../src/lib/native-name-policy.mjs";
 import { readFileSync, writeFileSync as writeRaw, renameSync, mkdirSync, existsSync, readdirSync, createReadStream } from "node:fs";
 import { createInterface } from "node:readline";
 import { gzipSync, gunzipSync } from "node:zlib";
@@ -34,7 +35,7 @@ function add(country, type, name, gender, sourceId, evidenceRank) {
   if (!codes.has(country)) return;
   name = clean(name);
   // Only actual names are retained; initials and language-expanded country copies are excluded.
-  const native = country === "JP" && /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー々]+$/u.test(name) || country === "KR" && /^[\p{Script=Hangul}]+$/u.test(name) || country === "CN" && /^[\p{Script=Han}·]+$/u.test(name) && /\p{Script=Han}/u.test(name);
+  const native = isNativeName(country, name) && !script.test(name);
   if (name.length < (native ? 1 : 2) || name.length > 80 || (!script.test(name) && !native)) return;
   if (!native && (name.match(/\p{Script=Latin}/gu)?.length ?? 0) < 2) return;
   if (!native && /^(\p{Script=Latin})\1{2,}$/iu.test(name)) return;

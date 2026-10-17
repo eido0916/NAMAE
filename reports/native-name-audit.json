@@ -1,0 +1,3283 @@
+{
+  "policy": "All enabled countries. Source-linked native spellings only. Unresolved spellings excluded from output, never guessed or reranked.",
+  "countries": [
+    {
+      "country": "JP",
+      "name": "日本",
+      "given_name": {
+        "total": 55623,
+        "native": 55623,
+        "unresolved": 0,
+        "examples": [
+          "ふうま",
+          "じん",
+          "たつお"
+        ]
+      },
+      "surname": {
+        "total": 105125,
+        "native": 105125,
+        "unresolved": 0,
+        "examples": [
+          "佐藤",
+          "鈴木",
+          "高橋"
+        ]
+      }
+    },
+    {
+      "country": "US",
+      "name": "アメリカ",
+      "given_name": {
+        "total": 111472,
+        "native": 111472,
+        "unresolved": 0,
+        "examples": [
+          "James",
+          "John",
+          "Robert"
+        ]
+      },
+      "surname": {
+        "total": 162254,
+        "native": 162254,
+        "unresolved": 0,
+        "examples": [
+          "Smith",
+          "Johnson",
+          "Williams"
+        ]
+      }
+    },
+    {
+      "country": "GB",
+      "name": "イギリス",
+      "given_name": {
+        "total": 42085,
+        "native": 42085,
+        "unresolved": 0,
+        "examples": [
+          "Jack",
+          "Thomas",
+          "Oliver"
+        ]
+      },
+      "surname": {
+        "total": 74035,
+        "native": 74035,
+        "unresolved": 0,
+        "examples": [
+          "SMITH",
+          "JONES",
+          "WILLIAMS"
+        ]
+      }
+    },
+    {
+      "country": "FR",
+      "name": "フランス",
+      "given_name": {
+        "total": 51651,
+        "native": 51651,
+        "unresolved": 0,
+        "examples": [
+          "JEAN",
+          "PIERRE",
+          "MICHEL"
+        ]
+      },
+      "surname": {
+        "total": 218982,
+        "native": 218982,
+        "unresolved": 0,
+        "examples": [
+          "MARTIN",
+          "BERNARD",
+          "THOMAS"
+        ]
+      }
+    },
+    {
+      "country": "KR",
+      "name": "韓国",
+      "given_name": {
+        "total": 64797,
+        "native": 64797,
+        "unresolved": 0,
+        "examples": [
+          "서준",
+          "민준",
+          "도윤"
+        ]
+      },
+      "surname": {
+        "total": 100,
+        "native": 100,
+        "unresolved": 0,
+        "examples": [
+          "김",
+          "이",
+          "박"
+        ]
+      }
+    },
+    {
+      "country": "DE",
+      "name": "ドイツ",
+      "given_name": {
+        "total": 1815,
+        "native": 1815,
+        "unresolved": 0,
+        "examples": [
+          "Noah",
+          "Matteo",
+          "Elias"
+        ]
+      },
+      "surname": {
+        "total": 378,
+        "native": 378,
+        "unresolved": 0,
+        "examples": [
+          "Müller",
+          "Schmidt",
+          "Schneider"
+        ]
+      }
+    },
+    {
+      "country": "IT",
+      "name": "イタリア",
+      "given_name": {
+        "total": 120266,
+        "native": 120266,
+        "unresolved": 0,
+        "examples": [
+          "LEONARDO",
+          "EDOARDO",
+          "TOMMASO"
+        ]
+      },
+      "surname": {
+        "total": 2939,
+        "native": 2939,
+        "unresolved": 0,
+        "examples": [
+          "Rossi",
+          "Russo",
+          "Esposito"
+        ]
+      }
+    },
+    {
+      "country": "ES",
+      "name": "スペイン",
+      "given_name": {
+        "total": 63440,
+        "native": 63440,
+        "unresolved": 0,
+        "examples": [
+          "ANTONIO",
+          "MANUEL",
+          "JOSE"
+        ]
+      },
+      "surname": {
+        "total": 86511,
+        "native": 86511,
+        "unresolved": 0,
+        "examples": [
+          "GARCIA",
+          "RODRIGUEZ",
+          "GONZALEZ"
+        ]
+      }
+    },
+    {
+      "country": "PT",
+      "name": "ポルトガル",
+      "given_name": {
+        "total": 403,
+        "native": 403,
+        "unresolved": 0,
+        "examples": [
+          "João",
+          "Ana",
+          "Pedro"
+        ]
+      },
+      "surname": {
+        "total": 228,
+        "native": 228,
+        "unresolved": 0,
+        "examples": [
+          "Silva",
+          "Santos",
+          "Ferreira"
+        ]
+      }
+    },
+    {
+      "country": "NL",
+      "name": "オランダ",
+      "given_name": {
+        "total": 1223,
+        "native": 1223,
+        "unresolved": 0,
+        "examples": [
+          "Jan",
+          "Peter",
+          "Hans"
+        ]
+      },
+      "surname": {
+        "total": 320,
+        "native": 320,
+        "unresolved": 0,
+        "examples": [
+          "De Jong",
+          "De Vries",
+          "Janssen"
+        ]
+      }
+    },
+    {
+      "country": "BE",
+      "name": "ベルギー",
+      "given_name": {
+        "total": 13923,
+        "native": 13923,
+        "unresolved": 0,
+        "examples": [
+          "Marc",
+          "Jean",
+          "Patrick"
+        ]
+      },
+      "surname": {
+        "total": 105899,
+        "native": 105899,
+        "unresolved": 0,
+        "examples": [
+          "Peeters",
+          "Janssens",
+          "Maes"
+        ]
+      }
+    },
+    {
+      "country": "CH",
+      "name": "スイス",
+      "given_name": {
+        "total": 584,
+        "native": 584,
+        "unresolved": 0,
+        "examples": [
+          "Daniel",
+          "Thomas",
+          "Marco"
+        ]
+      },
+      "surname": {
+        "total": 25186,
+        "native": 25186,
+        "unresolved": 0,
+        "examples": [
+          "Müller",
+          "Meier",
+          "Schmid"
+        ]
+      }
+    },
+    {
+      "country": "AT",
+      "name": "オーストリア",
+      "given_name": {
+        "total": 24809,
+        "native": 24809,
+        "unresolved": 0,
+        "examples": [
+          "Michael",
+          "Lukas",
+          "Daniel"
+        ]
+      },
+      "surname": {
+        "total": 146,
+        "native": 146,
+        "unresolved": 0,
+        "examples": [
+          "Gruber",
+          "Huber",
+          "Bauer"
+        ]
+      }
+    },
+    {
+      "country": "IE",
+      "name": "アイルランド",
+      "given_name": {
+        "total": 551,
+        "native": 551,
+        "unresolved": 0,
+        "examples": [
+          "John",
+          "David",
+          "Paul"
+        ]
+      },
+      "surname": {
+        "total": 196,
+        "native": 196,
+        "unresolved": 0,
+        "examples": [
+          "Murphy",
+          "Kelly",
+          "Byrne"
+        ]
+      }
+    },
+    {
+      "country": "CA",
+      "name": "カナダ",
+      "given_name": {
+        "total": 20626,
+        "native": 20626,
+        "unresolved": 0,
+        "examples": [
+          "WILLIAM",
+          "JACOB",
+          "MATTHEW"
+        ]
+      },
+      "surname": {
+        "total": 290,
+        "native": 290,
+        "unresolved": 0,
+        "examples": [
+          "Singh",
+          "Patel",
+          "Smith"
+        ]
+      }
+    },
+    {
+      "country": "BR",
+      "name": "ブラジル",
+      "given_name": {
+        "total": 134315,
+        "native": 134315,
+        "unresolved": 0,
+        "examples": [
+          "jose",
+          "joao",
+          "antonio"
+        ]
+      },
+      "surname": {
+        "total": 201601,
+        "native": 201601,
+        "unresolved": 0,
+        "examples": [
+          "silva",
+          "santos",
+          "oliveira"
+        ]
+      }
+    },
+    {
+      "country": "MX",
+      "name": "メキシコ",
+      "given_name": {
+        "total": 1545,
+        "native": 1545,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Juan",
+          "Luis"
+        ]
+      },
+      "surname": {
+        "total": 766,
+        "native": 766,
+        "unresolved": 0,
+        "examples": [
+          "Hernandez",
+          "Garcia",
+          "Martinez"
+        ]
+      }
+    },
+    {
+      "country": "AR",
+      "name": "アルゼンチン",
+      "given_name": {
+        "total": 556,
+        "native": 556,
+        "unresolved": 0,
+        "examples": [
+          "Juan",
+          "Carlos",
+          "Daniel"
+        ]
+      },
+      "surname": {
+        "total": 326,
+        "native": 326,
+        "unresolved": 0,
+        "examples": [
+          "Gomez",
+          "Lopez",
+          "Rodriguez"
+        ]
+      }
+    },
+    {
+      "country": "CO",
+      "name": "コロンビア",
+      "given_name": {
+        "total": 1791,
+        "native": 1791,
+        "unresolved": 0,
+        "examples": [
+          "Andres",
+          "Juan",
+          "Carlos"
+        ]
+      },
+      "surname": {
+        "total": 940,
+        "native": 940,
+        "unresolved": 0,
+        "examples": [
+          "Rodriguez",
+          "Lopez",
+          "Gomez"
+        ]
+      }
+    },
+    {
+      "country": "CL",
+      "name": "チリ",
+      "given_name": {
+        "total": 204790,
+        "native": 204790,
+        "unresolved": 0,
+        "examples": [
+          "José",
+          "Juan",
+          "Luis"
+        ]
+      },
+      "surname": {
+        "total": 527,
+        "native": 527,
+        "unresolved": 0,
+        "examples": [
+          "Muñoz",
+          "Rojas",
+          "Diaz"
+        ]
+      }
+    },
+    {
+      "country": "PE",
+      "name": "ペルー",
+      "given_name": {
+        "total": 1159,
+        "native": 1159,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Luis",
+          "Carlos"
+        ]
+      },
+      "surname": {
+        "total": 402,
+        "native": 402,
+        "unresolved": 0,
+        "examples": [
+          "Quispe",
+          "Flores",
+          "Rodriguez"
+        ]
+      }
+    },
+    {
+      "country": "ZA",
+      "name": "南アフリカ",
+      "given_name": {
+        "total": 2213,
+        "native": 2213,
+        "unresolved": 0,
+        "examples": [
+          "Mpho",
+          "Thabo",
+          "Lerato"
+        ]
+      },
+      "surname": {
+        "total": 1047,
+        "native": 1047,
+        "unresolved": 0,
+        "examples": [
+          "Ndlovu",
+          "Dlamini",
+          "Khumalo"
+        ]
+      }
+    },
+    {
+      "country": "NG",
+      "name": "ナイジェリア",
+      "given_name": {
+        "total": 1392,
+        "native": 1392,
+        "unresolved": 0,
+        "examples": [
+          "Mohamed",
+          "Ibrahim",
+          "Emmanuel"
+        ]
+      },
+      "surname": {
+        "total": 955,
+        "native": 955,
+        "unresolved": 0,
+        "examples": [
+          "Aliu",
+          "Mohamed",
+          "Ibrahim"
+        ]
+      }
+    },
+    {
+      "country": "IN",
+      "name": "インド",
+      "given_name": {
+        "total": 950,
+        "native": 950,
+        "unresolved": 0,
+        "examples": [
+          "Rahul",
+          "মো",
+          "Ajay"
+        ]
+      },
+      "surname": {
+        "total": 524,
+        "native": 524,
+        "unresolved": 0,
+        "examples": [
+          "Kumar",
+          "Singh",
+          "খান"
+        ]
+      }
+    },
+    {
+      "country": "TR",
+      "name": "トルコ",
+      "given_name": {
+        "total": 2733,
+        "native": 2733,
+        "unresolved": 0,
+        "examples": [
+          "Mohamed",
+          "Mehmet",
+          "Ahmed"
+        ]
+      },
+      "surname": {
+        "total": 1995,
+        "native": 1995,
+        "unresolved": 0,
+        "examples": [
+          "Yilmaz",
+          "Kaya",
+          "Demir"
+        ]
+      }
+    },
+    {
+      "country": "PL",
+      "name": "ポーランド",
+      "given_name": {
+        "total": 77496,
+        "native": 77494,
+        "unresolved": 2,
+        "examples": [
+          "JAN",
+          "STANISŁAW",
+          "PIOTR"
+        ]
+      },
+      "surname": {
+        "total": 598466,
+        "native": 598466,
+        "unresolved": 0,
+        "examples": [
+          "NOWAK",
+          "WÓJCIK",
+          "KOWALCZYK"
+        ]
+      }
+    },
+    {
+      "country": "AE",
+      "name": "アラブ首長国連邦",
+      "given_name": {
+        "total": 1148,
+        "native": 149,
+        "unresolved": 999,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "راشد",
+          "خالد"
+        ]
+      },
+      "surname": {
+        "total": 707,
+        "native": 71,
+        "unresolved": 636,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عباس",
+          "عبدالله"
+        ]
+      }
+    },
+    {
+      "country": "AO",
+      "name": "アンゴラ",
+      "given_name": {
+        "total": 116,
+        "native": 116,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Antonio",
+          "Manuel"
+        ]
+      },
+      "surname": {
+        "total": 62,
+        "native": 62,
+        "unresolved": 0,
+        "examples": [
+          "Manuel",
+          "Silva",
+          "Santos"
+        ]
+      }
+    },
+    {
+      "country": "BD",
+      "name": "バングラデシュ",
+      "given_name": {
+        "total": 520,
+        "native": 4,
+        "unresolved": 516,
+        "examples": [
+          "মো",
+          "মোঃ"
+        ]
+      },
+      "surname": {
+        "total": 393,
+        "native": 7,
+        "unresolved": 386,
+        "examples": [
+          "ইসলাম",
+          "খান",
+          "মন"
+        ]
+      }
+    },
+    {
+      "country": "BG",
+      "name": "ブルガリア",
+      "given_name": {
+        "total": 123,
+        "native": 25,
+        "unresolved": 98,
+        "examples": [
+          "Георгий",
+          "Николай",
+          "Валерий"
+        ]
+      },
+      "surname": {
+        "total": 59,
+        "native": 5,
+        "unresolved": 54,
+        "examples": [
+          "Николаев",
+          "Омарова",
+          "Степанов"
+        ]
+      }
+    },
+    {
+      "country": "BH",
+      "name": "バーレーン",
+      "given_name": {
+        "total": 333,
+        "native": 49,
+        "unresolved": 284,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "خالد",
+          "ابو"
+        ]
+      },
+      "surname": {
+        "total": 202,
+        "native": 24,
+        "unresolved": 178,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "الدوسري"
+        ]
+      }
+    },
+    {
+      "country": "BO",
+      "name": "ボリビア",
+      "given_name": {
+        "total": 593,
+        "native": 593,
+        "unresolved": 0,
+        "examples": [
+          "Juan",
+          "Jose",
+          "Carlos"
+        ]
+      },
+      "surname": {
+        "total": 224,
+        "native": 224,
+        "unresolved": 0,
+        "examples": [
+          "Mamani",
+          "Flores",
+          "Quispe"
+        ]
+      }
+    },
+    {
+      "country": "CM",
+      "name": "カメルーン",
+      "given_name": {
+        "total": 456,
+        "native": 456,
+        "unresolved": 0,
+        "examples": [
+          "Marie",
+          "Emmanuel",
+          "Joseph"
+        ]
+      },
+      "surname": {
+        "total": 138,
+        "native": 138,
+        "unresolved": 0,
+        "examples": [
+          "Nana",
+          "Kengne",
+          "Fotso"
+        ]
+      }
+    },
+    {
+      "country": "CN",
+      "name": "中国",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "奕辰",
+          "宇轩",
+          "浩宇"
+        ]
+      },
+      "surname": {
+        "total": 100,
+        "native": 100,
+        "unresolved": 0,
+        "examples": [
+          "王",
+          "李",
+          "张"
+        ]
+      }
+    },
+    {
+      "country": "CR",
+      "name": "コスタリカ",
+      "given_name": {
+        "total": 481,
+        "native": 481,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Carlos",
+          "Luis"
+        ]
+      },
+      "surname": {
+        "total": 193,
+        "native": 193,
+        "unresolved": 0,
+        "examples": [
+          "Rodriguez",
+          "Vargas",
+          "Jimenez"
+        ]
+      }
+    },
+    {
+      "country": "CZ",
+      "name": "チェコ",
+      "given_name": {
+        "total": 299,
+        "native": 299,
+        "unresolved": 0,
+        "examples": [
+          "Petr",
+          "Martin",
+          "Tomas"
+        ]
+      },
+      "surname": {
+        "total": 90,
+        "native": 90,
+        "unresolved": 0,
+        "examples": [
+          "Novák",
+          "Nováková",
+          "Svoboda"
+        ]
+      }
+    },
+    {
+      "country": "DK",
+      "name": "デンマーク",
+      "given_name": {
+        "total": 364,
+        "native": 364,
+        "unresolved": 0,
+        "examples": [
+          "Michael",
+          "Thomas",
+          "Peter"
+        ]
+      },
+      "surname": {
+        "total": 112,
+        "native": 112,
+        "unresolved": 0,
+        "examples": [
+          "Nielsen",
+          "Hansen",
+          "Jensen"
+        ]
+      }
+    },
+    {
+      "country": "DZ",
+      "name": "アルジェリア",
+      "given_name": {
+        "total": 2036,
+        "native": 293,
+        "unresolved": 1743,
+        "examples": [
+          "امنه",
+          "ﺍﺣﻤﺪ",
+          "عبدو"
+        ]
+      },
+      "surname": {
+        "total": 1290,
+        "native": 158,
+        "unresolved": 1132,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "كريم",
+          "حمزة"
+        ]
+      }
+    },
+    {
+      "country": "EG",
+      "name": "エジプト",
+      "given_name": {
+        "total": 2271,
+        "native": 631,
+        "unresolved": 1640,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ﻣﺤﻤﻮﺩ",
+          "مصطفى"
+        ]
+      },
+      "surname": {
+        "total": 2031,
+        "native": 581,
+        "unresolved": 1450,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "على",
+          "خالد"
+        ]
+      }
+    },
+    {
+      "country": "FI",
+      "name": "フィンランド",
+      "given_name": {
+        "total": 25341,
+        "native": 25341,
+        "unresolved": 0,
+        "examples": [
+          "Juhani",
+          "Olavi",
+          "Tapani"
+        ]
+      },
+      "surname": {
+        "total": 23260,
+        "native": 23260,
+        "unresolved": 0,
+        "examples": [
+          "Korhonen",
+          "Virtanen",
+          "Mäkinen"
+        ]
+      }
+    },
+    {
+      "country": "GH",
+      "name": "ガーナ",
+      "given_name": {
+        "total": 245,
+        "native": 245,
+        "unresolved": 0,
+        "examples": [
+          "Nana",
+          "Emmanuel",
+          "Samuel"
+        ]
+      },
+      "surname": {
+        "total": 112,
+        "native": 112,
+        "unresolved": 0,
+        "examples": [
+          "Mensah",
+          "Owusu",
+          "Gh"
+        ]
+      }
+    },
+    {
+      "country": "GR",
+      "name": "ギリシャ",
+      "given_name": {
+        "total": 250,
+        "native": 13,
+        "unresolved": 237,
+        "examples": [
+          "Δημήτριος",
+          "Νικόλαος",
+          "Βασίλειος"
+        ]
+      },
+      "surname": {
+        "total": 83,
+        "native": 7,
+        "unresolved": 76,
+        "examples": [
+          "Αϊβαλιώτης",
+          "Κοντός",
+          "Κουφός"
+        ]
+      }
+    },
+    {
+      "country": "GT",
+      "name": "グアテマラ",
+      "given_name": {
+        "total": 370,
+        "native": 370,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Carlos",
+          "Luis"
+        ]
+      },
+      "surname": {
+        "total": 151,
+        "native": 151,
+        "unresolved": 0,
+        "examples": [
+          "Lopez",
+          "Perez",
+          "Garcia"
+        ]
+      }
+    },
+    {
+      "country": "HK",
+      "name": "香港",
+      "given_name": {
+        "total": 599,
+        "native": 0,
+        "unresolved": 599,
+        "examples": []
+      },
+      "surname": {
+        "total": 213,
+        "native": 0,
+        "unresolved": 213,
+        "examples": []
+      }
+    },
+    {
+      "country": "IL",
+      "name": "イスラエル",
+      "given_name": {
+        "total": 807,
+        "native": 137,
+        "unresolved": 670,
+        "examples": [
+          "אחמד",
+          "ام",
+          "ﺍﺣﻤﺪ"
+        ]
+      },
+      "surname": {
+        "total": 179,
+        "native": 43,
+        "unresolved": 136,
+        "examples": [
+          "כהן",
+          "לוי",
+          "ﺍﺣﻤﺪ"
+        ]
+      }
+    },
+    {
+      "country": "IQ",
+      "name": "イラク",
+      "given_name": {
+        "total": 1295,
+        "native": 531,
+        "unresolved": 764,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ابو",
+          "حيدر"
+        ]
+      },
+      "surname": {
+        "total": 929,
+        "native": 481,
+        "unresolved": 448,
+        "examples": [
+          "على",
+          "العراقي",
+          "ﺍﺣﻤﺪ"
+        ]
+      }
+    },
+    {
+      "country": "IR",
+      "name": "イラン",
+      "given_name": {
+        "total": 610,
+        "native": 63,
+        "unresolved": 547,
+        "examples": [
+          "مهدي",
+          "محسن",
+          "ﺍﺣﻤﺪ"
+        ]
+      },
+      "surname": {
+        "total": 212,
+        "native": 15,
+        "unresolved": 197,
+        "examples": [
+          "مرادی",
+          "حسینی",
+          "رضا"
+        ]
+      }
+    },
+    {
+      "country": "JO",
+      "name": "ヨルダン",
+      "given_name": {
+        "total": 645,
+        "native": 228,
+        "unresolved": 417,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ﻣﺤﻤﻮﺩ",
+          "ابو"
+        ]
+      },
+      "surname": {
+        "total": 193,
+        "native": 75,
+        "unresolved": 118,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "الزعبي",
+          "المصري"
+        ]
+      }
+    },
+    {
+      "country": "KW",
+      "name": "クウェート",
+      "given_name": {
+        "total": 643,
+        "native": 85,
+        "unresolved": 558,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ﻣﺤﻤﻮﺩ",
+          "فيصل"
+        ]
+      },
+      "surname": {
+        "total": 349,
+        "native": 34,
+        "unresolved": 315,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "خالد"
+        ]
+      }
+    },
+    {
+      "country": "KZ",
+      "name": "カザフスタン",
+      "given_name": {
+        "total": 401,
+        "native": 141,
+        "unresolved": 260,
+        "examples": [
+          "Татьяна",
+          "Наталья",
+          "Александр"
+        ]
+      },
+      "surname": {
+        "total": 91,
+        "native": 37,
+        "unresolved": 54,
+        "examples": [
+          "Ахметова",
+          "Ахметов",
+          "Алиева"
+        ]
+      }
+    },
+    {
+      "country": "LB",
+      "name": "レバノン",
+      "given_name": {
+        "total": 533,
+        "native": 110,
+        "unresolved": 423,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ابو",
+          "ﻣﺤﻤﻮﺩ"
+        ]
+      },
+      "surname": {
+        "total": 265,
+        "native": 69,
+        "unresolved": 196,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "خليل",
+          "عيسي"
+        ]
+      }
+    },
+    {
+      "country": "LU",
+      "name": "ルクセンブルク",
+      "given_name": {
+        "total": 160,
+        "native": 160,
+        "unresolved": 0,
+        "examples": [
+          "Helder",
+          "Elena",
+          "Carolina"
+        ]
+      },
+      "surname": {
+        "total": 98,
+        "native": 98,
+        "unresolved": 0,
+        "examples": [
+          "Faria",
+          "Ma",
+          "Saraiva"
+        ]
+      }
+    },
+    {
+      "country": "LY",
+      "name": "リビア",
+      "given_name": {
+        "total": 689,
+        "native": 289,
+        "unresolved": 400,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ام",
+          "ﻣﺤﻤﻮﺩ"
+        ]
+      },
+      "surname": {
+        "total": 368,
+        "native": 195,
+        "unresolved": 173,
+        "examples": [
+          "على",
+          "ﺍﺣﻤﺪ",
+          "الورفلي"
+        ]
+      }
+    },
+    {
+      "country": "MA",
+      "name": "モロッコ",
+      "given_name": {
+        "total": 2534,
+        "native": 234,
+        "unresolved": 2300,
+        "examples": [
+          "عبدو",
+          "ﺍﺣﻤﺪ",
+          "يوسف"
+        ]
+      },
+      "surname": {
+        "total": 1965,
+        "native": 135,
+        "unresolved": 1830,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "كريم",
+          "يس"
+        ]
+      }
+    },
+    {
+      "country": "MO",
+      "name": "マカオ",
+      "given_name": {
+        "total": 101,
+        "native": 0,
+        "unresolved": 101,
+        "examples": []
+      },
+      "surname": {
+        "total": 56,
+        "native": 0,
+        "unresolved": 56,
+        "examples": []
+      }
+    },
+    {
+      "country": "MU",
+      "name": "モーリシャス",
+      "given_name": {
+        "total": 268,
+        "native": 268,
+        "unresolved": 0,
+        "examples": [
+          "João",
+          "Ana",
+          "Pedro"
+        ]
+      },
+      "surname": {
+        "total": 114,
+        "native": 114,
+        "unresolved": 0,
+        "examples": [
+          "Silva",
+          "Santos",
+          "Ferreira"
+        ]
+      }
+    },
+    {
+      "country": "MY",
+      "name": "マレーシア",
+      "given_name": {
+        "total": 1651,
+        "native": 1651,
+        "unresolved": 0,
+        "examples": [
+          "Mohamed",
+          "Nour",
+          "Mohd"
+        ]
+      },
+      "surname": {
+        "total": 1076,
+        "native": 1076,
+        "unresolved": 0,
+        "examples": [
+          "Tan",
+          "Lee",
+          "Lim"
+        ]
+      }
+    },
+    {
+      "country": "NO",
+      "name": "ノルウェー",
+      "given_name": {
+        "total": 2085,
+        "native": 2085,
+        "unresolved": 0,
+        "examples": [
+          "Jan",
+          "Bjørn",
+          "Per"
+        ]
+      },
+      "surname": {
+        "total": 117807,
+        "native": 117807,
+        "unresolved": 0,
+        "examples": [
+          "Hansen",
+          "Johansen",
+          "Olsen"
+        ]
+      }
+    },
+    {
+      "country": "OM",
+      "name": "オマーン",
+      "given_name": {
+        "total": 819,
+        "native": 145,
+        "unresolved": 674,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "خالد"
+        ]
+      },
+      "surname": {
+        "total": 539,
+        "native": 77,
+        "unresolved": 462,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "البلوشي",
+          "المعمري"
+        ]
+      }
+    },
+    {
+      "country": "PA",
+      "name": "パナマ",
+      "given_name": {
+        "total": 381,
+        "native": 381,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Luis",
+          "Carlos"
+        ]
+      },
+      "surname": {
+        "total": 206,
+        "native": 206,
+        "unresolved": 0,
+        "examples": [
+          "Rodriguez",
+          "Castillo",
+          "Martinez"
+        ]
+      }
+    },
+    {
+      "country": "PH",
+      "name": "フィリピン",
+      "given_name": {
+        "total": 196,
+        "native": 196,
+        "unresolved": 0,
+        "examples": [
+          "Mark",
+          "John",
+          "Michael"
+        ]
+      },
+      "surname": {
+        "total": 138,
+        "native": 138,
+        "unresolved": 0,
+        "examples": [
+          "Asuncion",
+          "Isidro",
+          "Cruz"
+        ]
+      }
+    },
+    {
+      "country": "PS",
+      "name": "パレスチナ",
+      "given_name": {
+        "total": 725,
+        "native": 164,
+        "unresolved": 561,
+        "examples": [
+          "ام",
+          "ابو",
+          "ﻣﺤﻤﻮﺩ"
+        ]
+      },
+      "surname": {
+        "total": 191,
+        "native": 48,
+        "unresolved": 143,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "الحياة",
+          "فلسطين"
+        ]
+      }
+    },
+    {
+      "country": "QA",
+      "name": "カタール",
+      "given_name": {
+        "total": 537,
+        "native": 53,
+        "unresolved": 484,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "خالد",
+          "راشد"
+        ]
+      },
+      "surname": {
+        "total": 294,
+        "native": 20,
+        "unresolved": 274,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "عباس"
+        ]
+      }
+    },
+    {
+      "country": "RU",
+      "name": "ロシア",
+      "given_name": {
+        "total": 636,
+        "native": 129,
+        "unresolved": 507,
+        "examples": [
+          "Александр",
+          "Татьяна",
+          "Наталья"
+        ]
+      },
+      "surname": {
+        "total": 222,
+        "native": 88,
+        "unresolved": 134,
+        "examples": [
+          "Магомедов",
+          "Смирнова",
+          "Попова"
+        ]
+      }
+    },
+    {
+      "country": "SA",
+      "name": "サウジアラビア",
+      "given_name": {
+        "total": 2757,
+        "native": 573,
+        "unresolved": 2184,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ابو",
+          "خالد"
+        ]
+      },
+      "surname": {
+        "total": 2023,
+        "native": 528,
+        "unresolved": 1495,
+        "examples": [
+          "على",
+          "ﺍﺣﻤﺪ",
+          "الحربي"
+        ]
+      }
+    },
+    {
+      "country": "SD",
+      "name": "スーダン",
+      "given_name": {
+        "total": 821,
+        "native": 381,
+        "unresolved": 440,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ام",
+          "عبدالله"
+        ]
+      },
+      "surname": {
+        "total": 449,
+        "native": 246,
+        "unresolved": 203,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "على",
+          "عبدالله"
+        ]
+      }
+    },
+    {
+      "country": "SE",
+      "name": "スウェーデン",
+      "given_name": {
+        "total": 456,
+        "native": 456,
+        "unresolved": 0,
+        "examples": [
+          "Anna",
+          "Johan",
+          "Anders"
+        ]
+      },
+      "surname": {
+        "total": 129,
+        "native": 129,
+        "unresolved": 0,
+        "examples": [
+          "Andersson",
+          "Johansson",
+          "Nilsson"
+        ]
+      }
+    },
+    {
+      "country": "SG",
+      "name": "シンガポール",
+      "given_name": {
+        "total": 627,
+        "native": 627,
+        "unresolved": 0,
+        "examples": [
+          "Md",
+          "Tan",
+          "Mohamed"
+        ]
+      },
+      "surname": {
+        "total": 286,
+        "native": 286,
+        "unresolved": 0,
+        "examples": [
+          "Tan",
+          "Lim",
+          "Lee"
+        ]
+      }
+    },
+    {
+      "country": "SY",
+      "name": "シリア",
+      "given_name": {
+        "total": 1037,
+        "native": 385,
+        "unresolved": 652,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "ﻣﺤﻤﻮﺩ",
+          "ﻋﻠﻲ"
+        ]
+      },
+      "surname": {
+        "total": 611,
+        "native": 278,
+        "unresolved": 333,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "الشام",
+          "سليمان"
+        ]
+      }
+    },
+    {
+      "country": "TN",
+      "name": "チュニジア",
+      "given_name": {
+        "total": 1433,
+        "native": 173,
+        "unresolved": 1260,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "وليد",
+          "كريم"
+        ]
+      },
+      "surname": {
+        "total": 1005,
+        "native": 82,
+        "unresolved": 923,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "على",
+          "منصور"
+        ]
+      }
+    },
+    {
+      "country": "TW",
+      "name": "台湾",
+      "given_name": {
+        "total": 160,
+        "native": 20,
+        "unresolved": 140,
+        "examples": [
+          "家豪",
+          "志明",
+          "俊傑"
+        ]
+      },
+      "surname": {
+        "total": 80,
+        "native": 10,
+        "unresolved": 70,
+        "examples": [
+          "陳",
+          "林",
+          "黃"
+        ]
+      }
+    },
+    {
+      "country": "UY",
+      "name": "ウルグアイ",
+      "given_name": {
+        "total": 420,
+        "native": 420,
+        "unresolved": 0,
+        "examples": [
+          "Carlos",
+          "Juan",
+          "Daniel"
+        ]
+      },
+      "surname": {
+        "total": 146,
+        "native": 146,
+        "unresolved": 0,
+        "examples": [
+          "Rodriguez",
+          "Martinez",
+          "Fernandez"
+        ]
+      }
+    },
+    {
+      "country": "YE",
+      "name": "イエメン",
+      "given_name": {
+        "total": 535,
+        "native": 274,
+        "unresolved": 261,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "خالد"
+        ]
+      },
+      "surname": {
+        "total": 422,
+        "native": 285,
+        "unresolved": 137,
+        "examples": [
+          "على",
+          "ﺍﺣﻤﺪ",
+          "عبدالله"
+        ]
+      }
+    },
+    {
+      "country": "AF",
+      "name": "アフガニスタン",
+      "given_name": {
+        "total": 76,
+        "native": 16,
+        "unresolved": 60,
+        "examples": [
+          "ﺍﺣﻤﺪ",
+          "عبدالله",
+          "حجي"
+        ]
+      },
+      "surname": {
+        "total": 47,
+        "native": 7,
+        "unresolved": 40,
+        "examples": [
+          "نوری",
+          "ﺍﺣﻤﺪ",
+          "مرادی"
+        ]
+      }
+    },
+    {
+      "country": "AL",
+      "name": "アルバニア",
+      "given_name": {
+        "total": 135,
+        "native": 135,
+        "unresolved": 0,
+        "examples": [
+          "Fadil",
+          "Ilir",
+          "Arben"
+        ]
+      },
+      "surname": {
+        "total": 72,
+        "native": 72,
+        "unresolved": 0,
+        "examples": [
+          "Hoxha",
+          "Aliu",
+          "Shehu"
+        ]
+      }
+    },
+    {
+      "country": "AU",
+      "name": "オーストラリア",
+      "given_name": {
+        "total": 27,
+        "native": 27,
+        "unresolved": 0,
+        "examples": [
+          "Conley",
+          "Regan",
+          "Richardson"
+        ]
+      },
+      "surname": {
+        "total": 34,
+        "native": 34,
+        "unresolved": 0,
+        "examples": [
+          "Cox",
+          "Day",
+          "Fletcher"
+        ]
+      }
+    },
+    {
+      "country": "AZ",
+      "name": "アゼルバイジャン",
+      "given_name": {
+        "total": 65,
+        "native": 65,
+        "unresolved": 0,
+        "examples": [
+          "Ayaz",
+          "Nahid",
+          "Nura"
+        ]
+      },
+      "surname": {
+        "total": 17,
+        "native": 17,
+        "unresolved": 0,
+        "examples": [
+          "Memmedov",
+          "Aliyev",
+          "Günay"
+        ]
+      }
+    },
+    {
+      "country": "BF",
+      "name": "ブルキナファソ",
+      "given_name": {
+        "total": 4,
+        "native": 4,
+        "unresolved": 0,
+        "examples": [
+          "Biba",
+          "Ange"
+        ]
+      },
+      "surname": {
+        "total": 1,
+        "native": 1,
+        "unresolved": 0,
+        "examples": [
+          "Mariam"
+        ]
+      }
+    },
+    {
+      "country": "BI",
+      "name": "ブルンジ",
+      "given_name": {
+        "total": 13,
+        "native": 13,
+        "unresolved": 0,
+        "examples": [
+          "Jeanine",
+          "Ange",
+          "Emmanuella"
+        ]
+      },
+      "surname": {
+        "total": 4,
+        "native": 4,
+        "unresolved": 0,
+        "examples": [
+          "Hassan",
+          "Rahma",
+          "Mariam"
+        ]
+      }
+    },
+    {
+      "country": "BN",
+      "name": "ブルネイ",
+      "given_name": {
+        "total": 110,
+        "native": 110,
+        "unresolved": 0,
+        "examples": [
+          "Md",
+          "Rina",
+          "Ct"
+        ]
+      },
+      "surname": {
+        "total": 49,
+        "native": 49,
+        "unresolved": 0,
+        "examples": [
+          "Hassan",
+          "Ma",
+          "Fauzi"
+        ]
+      }
+    },
+    {
+      "country": "BW",
+      "name": "ボツワナ",
+      "given_name": {
+        "total": 63,
+        "native": 63,
+        "unresolved": 0,
+        "examples": [
+          "Lesego",
+          "Kelebogile",
+          "Tshepang"
+        ]
+      },
+      "surname": {
+        "total": 23,
+        "native": 23,
+        "unresolved": 0,
+        "examples": [
+          "Ndaba",
+          "Mogale",
+          "Le"
+        ]
+      }
+    },
+    {
+      "country": "CY",
+      "name": "キプロス",
+      "given_name": {
+        "total": 100,
+        "native": 17,
+        "unresolved": 83,
+        "examples": [
+          "Γεώργιος",
+          "Κωνσταντίνος",
+          "Νικόλαος"
+        ]
+      },
+      "surname": {
+        "total": 40,
+        "native": 0,
+        "unresolved": 40,
+        "examples": []
+      }
+    },
+    {
+      "country": "DJ",
+      "name": "ジブチ",
+      "given_name": {
+        "total": 9,
+        "native": 9,
+        "unresolved": 0,
+        "examples": [
+          "Faysal",
+          "Ayoub",
+          "Abdoo"
+        ]
+      },
+      "surname": {
+        "total": 6,
+        "native": 6,
+        "unresolved": 0,
+        "examples": [
+          "Hassan",
+          "Bachir",
+          "Rahma"
+        ]
+      }
+    },
+    {
+      "country": "EC",
+      "name": "エクアドル",
+      "given_name": {
+        "total": 118,
+        "native": 118,
+        "unresolved": 0,
+        "examples": [
+          "Luis",
+          "Carlos",
+          "Jose"
+        ]
+      },
+      "surname": {
+        "total": 32,
+        "native": 32,
+        "unresolved": 0,
+        "examples": [
+          "Zambrano",
+          "Erazo",
+          "Parra"
+        ]
+      }
+    },
+    {
+      "country": "EE",
+      "name": "エストニア",
+      "given_name": {
+        "total": 56,
+        "native": 56,
+        "unresolved": 0,
+        "examples": [
+          "Elena",
+          "Mart",
+          "Krista"
+        ]
+      },
+      "surname": {
+        "total": 38,
+        "native": 38,
+        "unresolved": 0,
+        "examples": [
+          "Stepanov",
+          "Ma",
+          "Groß"
+        ]
+      }
+    },
+    {
+      "country": "ET",
+      "name": "エチオピア",
+      "given_name": {
+        "total": 11,
+        "native": 0,
+        "unresolved": 11,
+        "examples": []
+      },
+      "surname": {
+        "total": 3,
+        "native": 0,
+        "unresolved": 3,
+        "examples": []
+      }
+    },
+    {
+      "country": "GE",
+      "name": "ジョージア",
+      "given_name": {
+        "total": 52,
+        "native": 18,
+        "unresolved": 34,
+        "examples": [
+          "გაბრიელი",
+          "ანდრია",
+          "დავითი"
+        ]
+      },
+      "surname": {
+        "total": 29,
+        "native": 20,
+        "unresolved": 9,
+        "examples": [
+          "ბერიძე",
+          "მამედოვი",
+          "კაპანაძე"
+        ]
+      }
+    },
+    {
+      "country": "HN",
+      "name": "ホンジュラス",
+      "given_name": {
+        "total": 18,
+        "native": 18,
+        "unresolved": 0,
+        "examples": [
+          "Carolina",
+          "Nery",
+          "Elena"
+        ]
+      },
+      "surname": {
+        "total": 5,
+        "native": 5,
+        "unresolved": 0,
+        "examples": [
+          "Erazo",
+          "Castellano",
+          "Espino"
+        ]
+      }
+    },
+    {
+      "country": "HR",
+      "name": "クロアチア",
+      "given_name": {
+        "total": 221,
+        "native": 221,
+        "unresolved": 0,
+        "examples": [
+          "Ivan",
+          "Marko",
+          "Ana"
+        ]
+      },
+      "surname": {
+        "total": 62,
+        "native": 62,
+        "unresolved": 0,
+        "examples": [
+          "Sever",
+          "Horvat",
+          "Ma"
+        ]
+      }
+    },
+    {
+      "country": "HT",
+      "name": "ハイチ",
+      "given_name": {
+        "total": 31,
+        "native": 31,
+        "unresolved": 0,
+        "examples": [
+          "Manou",
+          "Emmanuella",
+          "Ange"
+        ]
+      },
+      "surname": {
+        "total": 4,
+        "native": 4,
+        "unresolved": 0,
+        "examples": [
+          "Charles",
+          "Raymond",
+          "Chevalier"
+        ]
+      }
+    },
+    {
+      "country": "HU",
+      "name": "ハンガリー",
+      "given_name": {
+        "total": 165,
+        "native": 165,
+        "unresolved": 0,
+        "examples": [
+          "Peter",
+          "László",
+          "Gábor"
+        ]
+      },
+      "surname": {
+        "total": 58,
+        "native": 58,
+        "unresolved": 0,
+        "examples": [
+          "Balogh",
+          "Nagy",
+          "Kovács"
+        ]
+      }
+    },
+    {
+      "country": "ID",
+      "name": "インドネシア",
+      "given_name": {
+        "total": 78,
+        "native": 78,
+        "unresolved": 0,
+        "examples": [
+          "Ishaq",
+          "Ade",
+          "Adhan"
+        ]
+      },
+      "surname": {
+        "total": 27,
+        "native": 27,
+        "unresolved": 0,
+        "examples": [
+          "Fauzi",
+          "Rahma",
+          "Santo"
+        ]
+      }
+    },
+    {
+      "country": "IS",
+      "name": "アイスランド",
+      "given_name": {
+        "total": 42,
+        "native": 42,
+        "unresolved": 0,
+        "examples": [
+          "Krzysztof",
+          "Stella",
+          "Beata"
+        ]
+      },
+      "surname": {
+        "total": 23,
+        "native": 23,
+        "unresolved": 0,
+        "examples": [
+          "Hassan",
+          "Le",
+          "Ma"
+        ]
+      }
+    },
+    {
+      "country": "JM",
+      "name": "ジャマイカ",
+      "given_name": {
+        "total": 91,
+        "native": 91,
+        "unresolved": 0,
+        "examples": [
+          "Anthony",
+          "Andre",
+          "Kevin"
+        ]
+      },
+      "surname": {
+        "total": 55,
+        "native": 55,
+        "unresolved": 0,
+        "examples": [
+          "Brown",
+          "Reid",
+          "Williams"
+        ]
+      }
+    },
+    {
+      "country": "KH",
+      "name": "カンボジア",
+      "given_name": {
+        "total": 2,
+        "native": 0,
+        "unresolved": 2,
+        "examples": []
+      },
+      "surname": {
+        "total": 84,
+        "native": 83,
+        "unresolved": 1,
+        "examples": [
+          "កែវ",
+          "ខាត់",
+          "ខាយ"
+        ]
+      }
+    },
+    {
+      "country": "LT",
+      "name": "リトアニア",
+      "given_name": {
+        "total": 77,
+        "native": 77,
+        "unresolved": 0,
+        "examples": [
+          "Tomas",
+          "Mindaugas",
+          "Andrius"
+        ]
+      },
+      "surname": {
+        "total": 25,
+        "native": 25,
+        "unresolved": 0,
+        "examples": [
+          "Aras",
+          "Ma",
+          "Le"
+        ]
+      }
+    },
+    {
+      "country": "MD",
+      "name": "モルドバ",
+      "given_name": {
+        "total": 38,
+        "native": 38,
+        "unresolved": 0,
+        "examples": [
+          "Dragoș",
+          "Elena",
+          "Marin"
+        ]
+      },
+      "surname": {
+        "total": 23,
+        "native": 23,
+        "unresolved": 0,
+        "examples": [
+          "Popa",
+          "Vasile",
+          "Gori"
+        ]
+      }
+    },
+    {
+      "country": "MT",
+      "name": "マルタ",
+      "given_name": {
+        "total": 103,
+        "native": 103,
+        "unresolved": 0,
+        "examples": [
+          "Joseph",
+          "Elaine",
+          "Elena"
+        ]
+      },
+      "surname": {
+        "total": 45,
+        "native": 45,
+        "unresolved": 0,
+        "examples": [
+          "Borg",
+          "Camilleri",
+          "Vella"
+        ]
+      }
+    },
+    {
+      "country": "MV",
+      "name": "モルディブ",
+      "given_name": {
+        "total": 59,
+        "native": 0,
+        "unresolved": 59,
+        "examples": []
+      },
+      "surname": {
+        "total": 27,
+        "native": 0,
+        "unresolved": 27,
+        "examples": []
+      }
+    },
+    {
+      "country": "PK",
+      "name": "パキスタン",
+      "given_name": {
+        "total": 26,
+        "native": 2,
+        "unresolved": 24,
+        "examples": [
+          "فاطمة",
+          "مريم"
+        ]
+      },
+      "surname": {
+        "total": 3,
+        "native": 0,
+        "unresolved": 3,
+        "examples": []
+      }
+    },
+    {
+      "country": "PR",
+      "name": "プエルトリコ",
+      "given_name": {
+        "total": 79,
+        "native": 79,
+        "unresolved": 0,
+        "examples": [
+          "Jose",
+          "Luis",
+          "Carlos"
+        ]
+      },
+      "surname": {
+        "total": 32,
+        "native": 32,
+        "unresolved": 0,
+        "examples": [
+          "Rivera",
+          "Rodriguez",
+          "Torres"
+        ]
+      }
+    },
+    {
+      "country": "RO",
+      "name": "ルーマニア",
+      "given_name": {
+        "total": 21,
+        "native": 21,
+        "unresolved": 0,
+        "examples": [
+          "Bogdan",
+          "Dragoș",
+          "Ion"
+        ]
+      },
+      "surname": {
+        "total": 13,
+        "native": 13,
+        "unresolved": 0,
+        "examples": [
+          "Balogh",
+          "Popa",
+          "Popescu"
+        ]
+      }
+    },
+    {
+      "country": "RS",
+      "name": "セルビア",
+      "given_name": {
+        "total": 80,
+        "native": 80,
+        "unresolved": 0,
+        "examples": [
+          "Milivoje",
+          "Nikola",
+          "Marko"
+        ]
+      },
+      "surname": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Jana",
+          "Le",
+          "Степанов"
+        ]
+      }
+    },
+    {
+      "country": "SI",
+      "name": "スロベニア",
+      "given_name": {
+        "total": 8687,
+        "native": 8687,
+        "unresolved": 0,
+        "examples": [
+          "Franc",
+          "Marko",
+          "Janez"
+        ]
+      },
+      "surname": {
+        "total": 30412,
+        "native": 30412,
+        "unresolved": 0,
+        "examples": [
+          "Novak",
+          "Horvat",
+          "Kovačič"
+        ]
+      }
+    },
+    {
+      "country": "SK",
+      "name": "スロバキア",
+      "given_name": {
+        "total": 23,
+        "native": 23,
+        "unresolved": 0,
+        "examples": [
+          "Ondřej",
+          "Miloš",
+          "Dominika"
+        ]
+      },
+      "surname": {
+        "total": 21,
+        "native": 21,
+        "unresolved": 0,
+        "examples": [
+          "Balogh",
+          "Horváth",
+          "Kováč"
+        ]
+      }
+    },
+    {
+      "country": "TM",
+      "name": "トルクメニスタン",
+      "given_name": {
+        "total": 8,
+        "native": 8,
+        "unresolved": 0,
+        "examples": [
+          "Atadjan",
+          "Elena",
+          "Polat"
+        ]
+      },
+      "surname": {
+        "total": 3,
+        "native": 3,
+        "unresolved": 0,
+        "examples": [
+          "Atadjanov",
+          "Jana",
+          "Zara"
+        ]
+      }
+    },
+    {
+      "country": "UA",
+      "name": "ウクライナ",
+      "given_name": {
+        "total": 20,
+        "native": 6,
+        "unresolved": 14,
+        "examples": [
+          "Артем",
+          "Анастасия",
+          "София"
+        ]
+      },
+      "surname": {
+        "total": 23,
+        "native": 1,
+        "unresolved": 22,
+        "examples": [
+          "Шевченко"
+        ]
+      }
+    },
+    {
+      "country": "UZ",
+      "name": "ウズベキスタン",
+      "given_name": {
+        "total": 2,
+        "native": 2,
+        "unresolved": 0,
+        "examples": [
+          "Atadjan",
+          "Daniyar"
+        ]
+      },
+      "surname": {
+        "total": 1,
+        "native": 1,
+        "unresolved": 0,
+        "examples": [
+          "Atadjanov"
+        ]
+      }
+    },
+    {
+      "country": "VE",
+      "name": "ベネズエラ",
+      "given_name": {
+        "total": 22,
+        "native": 22,
+        "unresolved": 0,
+        "examples": [
+          "Libardo",
+          "Ferney",
+          "Sebastián"
+        ]
+      },
+      "surname": {
+        "total": 1,
+        "native": 1,
+        "unresolved": 0,
+        "examples": [
+          "Guillen"
+        ]
+      }
+    },
+    {
+      "country": "VN",
+      "name": "ベトナム",
+      "given_name": {
+        "total": 1,
+        "native": 1,
+        "unresolved": 0,
+        "examples": [
+          "Man"
+        ]
+      },
+      "surname": {
+        "total": 43,
+        "native": 43,
+        "unresolved": 0,
+        "examples": [
+          "Ha",
+          "Nguyễn",
+          "Trần"
+        ]
+      }
+    },
+    {
+      "country": "AD",
+      "name": "アンドラ",
+      "given_name": {
+        "total": 11,
+        "native": 11,
+        "unresolved": 0,
+        "examples": [
+          "Iker",
+          "Leo",
+          "Martí"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "AM",
+      "name": "アルメニア",
+      "given_name": {
+        "total": 38,
+        "native": 0,
+        "unresolved": 38,
+        "examples": []
+      },
+      "surname": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Գրիգորյան",
+          "Հարությունյան",
+          "Սարգսյան"
+        ]
+      }
+    },
+    {
+      "country": "AW",
+      "name": "アルバ",
+      "given_name": {
+        "total": 10,
+        "native": 10,
+        "unresolved": 0,
+        "examples": [
+          "Daniel",
+          "Dylan",
+          "Dyllan"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "BA",
+      "name": "ボスニア・ヘルツェゴビナ",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Davud",
+          "Ahmed",
+          "Hamza"
+        ]
+      },
+      "surname": {
+        "total": 44,
+        "native": 44,
+        "unresolved": 0,
+        "examples": [
+          "Ademović",
+          "Adilović",
+          "Ahmetović"
+        ]
+      }
+    },
+    {
+      "country": "BY",
+      "name": "ベラルーシ",
+      "given_name": {
+        "total": 7,
+        "native": 0,
+        "unresolved": 7,
+        "examples": []
+      },
+      "surname": {
+        "total": 5,
+        "native": 5,
+        "unresolved": 0,
+        "examples": [
+          "Иванов",
+          "Козлов",
+          "Ковалёв"
+        ]
+      }
+    },
+    {
+      "country": "FO",
+      "name": "フェロー諸島",
+      "given_name": {
+        "total": 1987,
+        "native": 1987,
+        "unresolved": 0,
+        "examples": [
+          "Hans",
+          "Jógvan",
+          "Jákup"
+        ]
+      },
+      "surname": {
+        "total": 1996,
+        "native": 1996,
+        "unresolved": 0,
+        "examples": [
+          "Joensen",
+          "Hansen",
+          "Jacobsen"
+        ]
+      }
+    },
+    {
+      "country": "GG",
+      "name": "ガーンジー",
+      "given_name": {
+        "total": 18,
+        "native": 18,
+        "unresolved": 0,
+        "examples": [
+          "Luca",
+          "Theodore",
+          "Archie"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "GI",
+      "name": "ジブラルタル",
+      "given_name": {
+        "total": 16,
+        "native": 16,
+        "unresolved": 0,
+        "examples": [
+          "Kai",
+          "Max",
+          "Daniel"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "GL",
+      "name": "グリーンランド",
+      "given_name": {
+        "total": 458,
+        "native": 458,
+        "unresolved": 0,
+        "examples": [
+          "Hans",
+          "Jens",
+          "Karl"
+        ]
+      },
+      "surname": {
+        "total": 262,
+        "native": 262,
+        "unresolved": 0,
+        "examples": [
+          "Petersen",
+          "Olsen",
+          "Jensen"
+        ]
+      }
+    },
+    {
+      "country": "GQ",
+      "name": "赤道ギニア",
+      "given_name": {
+        "total": 9,
+        "native": 9,
+        "unresolved": 0,
+        "examples": [
+          "Manuel",
+          "Juan",
+          "Antonio"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "IM",
+      "name": "マン島",
+      "given_name": {
+        "total": 19,
+        "native": 19,
+        "unresolved": 0,
+        "examples": [
+          "Noah",
+          "Theo",
+          "Theodore"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "JE",
+      "name": "ジャージー",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Arthur",
+          "Noah",
+          "Luca"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "LI",
+      "name": "リヒテンシュタイン",
+      "given_name": {
+        "total": 22,
+        "native": 22,
+        "unresolved": 0,
+        "examples": [
+          "Elias",
+          "Elyas",
+          "Louis"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "LV",
+      "name": "ラトビア",
+      "given_name": {
+        "total": 18,
+        "native": 18,
+        "unresolved": 0,
+        "examples": [
+          "Marks",
+          "Roberts",
+          "Gustavs"
+        ]
+      },
+      "surname": {
+        "total": 15,
+        "native": 15,
+        "unresolved": 0,
+        "examples": [
+          "Bērziņš",
+          "Kalniņš",
+          "Ozoliņš"
+        ]
+      }
+    },
+    {
+      "country": "MC",
+      "name": "モナコ",
+      "given_name": {
+        "total": 10,
+        "native": 10,
+        "unresolved": 0,
+        "examples": [
+          "Leonardo",
+          "Gabriel",
+          "Raphaël"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "ME",
+      "name": "モンテネグロ",
+      "given_name": {
+        "total": 38,
+        "native": 38,
+        "unresolved": 0,
+        "examples": [
+          "Luka",
+          "Nikola",
+          "Lazar"
+        ]
+      },
+      "surname": {
+        "total": 10,
+        "native": 10,
+        "unresolved": 0,
+        "examples": [
+          "Popović",
+          "Marković",
+          "Vujović"
+        ]
+      }
+    },
+    {
+      "country": "MK",
+      "name": "北マケドニア",
+      "given_name": {
+        "total": 37,
+        "native": 18,
+        "unresolved": 19,
+        "examples": [
+          "Лука",
+          "Дамјан",
+          "Михаил"
+        ]
+      },
+      "surname": {
+        "total": 38,
+        "native": 0,
+        "unresolved": 38,
+        "examples": []
+      }
+    },
+    {
+      "country": "ML",
+      "name": "マリ",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Mamadou",
+          "Moussa",
+          "Mahamadou"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "MN",
+      "name": "モンゴル",
+      "given_name": {
+        "total": 7,
+        "native": 0,
+        "unresolved": 7,
+        "examples": []
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "NP",
+      "name": "ネパール",
+      "given_name": {
+        "total": 20,
+        "native": 0,
+        "unresolved": 20,
+        "examples": []
+      },
+      "surname": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "चौधरी",
+          "तामाङ",
+          "गुरुङ"
+        ]
+      }
+    },
+    {
+      "country": "NZ",
+      "name": "ニュージーランド",
+      "given_name": {
+        "total": 40,
+        "native": 40,
+        "unresolved": 0,
+        "examples": [
+          "Nikau",
+          "Oliver",
+          "Ari"
+        ]
+      },
+      "surname": {
+        "total": 10,
+        "native": 10,
+        "unresolved": 0,
+        "examples": [
+          "Singh",
+          "Smith",
+          "Kaur"
+        ]
+      }
+    },
+    {
+      "country": "PF",
+      "name": "仏領ポリネシア",
+      "given_name": {
+        "total": 26,
+        "native": 26,
+        "unresolved": 0,
+        "examples": [
+          "Hiro",
+          "Teiki",
+          "Moana"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "PY",
+      "name": "パラグアイ",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Ramón",
+          "Juan",
+          "José"
+        ]
+      },
+      "surname": {
+        "total": 25,
+        "native": 25,
+        "unresolved": 0,
+        "examples": [
+          "González",
+          "Benítez",
+          "Martínez"
+        ]
+      }
+    },
+    {
+      "country": "SM",
+      "name": "サンマリノ",
+      "given_name": {
+        "total": 5,
+        "native": 5,
+        "unresolved": 0,
+        "examples": [
+          "Tommaso",
+          "Edoardo",
+          "Leonardo"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "SV",
+      "name": "エルサルバドル",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "William",
+          "Liam",
+          "Noah"
+        ]
+      },
+      "surname": {
+        "total": 25,
+        "native": 25,
+        "unresolved": 0,
+        "examples": [
+          "Andersson",
+          "Johansson",
+          "Karlsson"
+        ]
+      }
+    },
+    {
+      "country": "TH",
+      "name": "タイ",
+      "given_name": {
+        "total": 5,
+        "native": 0,
+        "unresolved": 5,
+        "examples": []
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "TJ",
+      "name": "タジキスタン",
+      "given_name": {
+        "total": 10,
+        "native": 0,
+        "unresolved": 10,
+        "examples": []
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "KG",
+      "name": "キルギス",
+      "given_name": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Мухаммад",
+          "Умар",
+          "Али"
+        ]
+      },
+      "surname": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      }
+    },
+    {
+      "country": "LK",
+      "name": "スリランカ",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 50,
+        "native": 0,
+        "unresolved": 50,
+        "examples": []
+      }
+    },
+    {
+      "country": "XK",
+      "name": "コソボ",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 20,
+        "native": 20,
+        "unresolved": 0,
+        "examples": [
+          "Krasniqi",
+          "Gashi",
+          "Berisha"
+        ]
+      }
+    },
+    {
+      "country": "CU",
+      "name": "キューバ",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 30,
+        "native": 30,
+        "unresolved": 0,
+        "examples": [
+          "Rodríguez",
+          "Pérez",
+          "Martinez"
+        ]
+      }
+    },
+    {
+      "country": "DO",
+      "name": "ドミニカ共和国",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 30,
+        "native": 30,
+        "unresolved": 0,
+        "examples": [
+          "Rodríguez",
+          "Pérez",
+          "Martinez"
+        ]
+      }
+    },
+    {
+      "country": "FJ",
+      "name": "フィジー",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 22,
+        "native": 22,
+        "unresolved": 0,
+        "examples": [
+          "Kumar",
+          "Prasad",
+          "Chand"
+        ]
+      }
+    },
+    {
+      "country": "SR",
+      "name": "スリナム",
+      "given_name": {
+        "total": 0,
+        "native": 0,
+        "unresolved": 0,
+        "examples": []
+      },
+      "surname": {
+        "total": 13,
+        "native": 13,
+        "unresolved": 0,
+        "examples": [
+          "Lin",
+          "Pinas",
+          "Wong"
+        ]
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { DatabaseSync } from "node:sqlite";
 import {
   existsSync,
+  cpSync,
   mkdirSync,
   renameSync,
   rmSync,
@@ -138,17 +139,21 @@ const sources = db
 const manifestReferences = [];
 for (const row of db.prepare("SELECT * FROM reference_datasets ORDER BY country, type").all()) {
   const meta = JSON.parse(row.meta_json);
-  const records = db.prepare("SELECT name,gender,source_ids_json,evidence_rank_json FROM reference_entries WHERE country=? AND type=? ORDER BY id").all(row.country, row.type)
-    .map((record) => ({ name: record.name, ...(record.gender ? { gender: record.gender } : {}), sourceIds: JSON.parse(record.source_ids_json), ...(record.evidence_rank_json ? { evidenceRank: JSON.parse(record.evidence_rank_json) } : {}) }));
-  const genders = meta.type === "surname" ? [undefined] : ["male", "female"];
+  const recordCount = db.prepare('SELECT COUNT(*) AS n FROM reference_entries WHERE country=? AND type=?').get(row.country, row.type).n;
+  const genders = meta.type === 'surname' ? [undefined] : ['male', 'female'];
   const chunks = [];
   const lookupGroups = new Map();
-  const lookupBuckets = records.length > 20000 ? Math.min(256, 2 ** Math.ceil(Math.log2(records.length / 1500))) : 0;
+  const lookupBuckets = recordCount > 20000 ? Math.min(256, 2 ** Math.ceil(Math.log2(recordCount / 1500))) : 0;
   for (const gender of genders) {
     for (const evidenceRanked of [true, false]) {
-      const cohort = records.filter((record) => (meta.type === "surname" || record.gender === gender) && Boolean(record.evidenceRank) === evidenceRanked);
-      for (let start = 0; start < cohort.length; start += chunkSize) {
-        const part = cohort.slice(start, start + chunkSize);
+      // Stream large dictionaries. IN alone has over 2.5 million entries;
+      // all().map() retains both SQL rows and objects until the final chunk.
+      const statement = db.prepare('SELECT name,gender,source_ids_json,evidence_rank_json FROM reference_entries WHERE country=? AND type=?' + (gender ? ' AND gender=?' : '') + ' AND evidence_rank_json IS ' + (evidenceRanked ? 'NOT ' : '') + 'NULL ORDER BY id');
+      const parameters = gender ? [row.country, row.type, gender] : [row.country, row.type];
+      let part = [];
+      let start = 0;
+      const flush = () => {
+        if (!part.length) return;
         if (lookupBuckets) for (const record of part) {
           const key = referenceLookupKey(record.name, record.gender);
           const bucket = referenceLookupBucket(key, lookupBuckets);
@@ -157,11 +162,19 @@ for (const row of db.prepare("SELECT * FROM reference_datasets ORDER BY country,
         }
         const content = JSON.stringify({ meta, records: part });
         const sha256 = hash(content);
-        const relativePath = `references/${meta.country.toLowerCase()}/${meta.type}.${gender ?? "all"}.${start}.${sha256.slice(0, 12)}.json`;
-        mkdirSync(dirname(join(temporaryRoot, relativePath)), { recursive: true });
+        const relativePath = 'references/' + meta.country.toLowerCase() + '/' + meta.type + '.' + (gender ?? 'all') + '.' + start + '.' + sha256.slice(0, 12) + '.json';
+        const directory = dirname(join(temporaryRoot, relativePath));
+        if (!existsSync(directory)) mkdirSync(directory, { recursive: true });
         writeFileSync(join(temporaryRoot, relativePath), content);
-        chunks.push({ ...(gender ? { gender } : {}), ...(evidenceRanked ? { evidenceRanked: true } : {}), path: `/data/${relativePath}`, records: part.length, sha256, bytes: Buffer.byteLength(content) });
+        chunks.push({ ...(gender ? { gender } : {}), ...(evidenceRanked ? { evidenceRanked: true } : {}), path: '/data/' + relativePath, records: part.length, sha256, bytes: Buffer.byteLength(content) });
+        start += part.length;
+        part = [];
+      };
+      for (const record of statement.iterate(...parameters)) {
+        part.push({ name: record.name, ...(record.gender ? { gender: record.gender } : {}), sourceIds: JSON.parse(record.source_ids_json), ...(record.evidence_rank_json ? { evidenceRank: JSON.parse(record.evidence_rank_json) } : {}) });
+        if (part.length === chunkSize) flush();
       }
+      flush();
     }
   }
   const lookup = {};
@@ -169,11 +182,11 @@ for (const row of db.prepare("SELECT * FROM reference_datasets ORDER BY country,
     const content = JSON.stringify({ country: meta.country, type: meta.type, entries });
     const sha256 = hash(content);
     const relativePath = `lookup/${meta.country.toLowerCase()}/${meta.type}.${bucket}.${sha256.slice(0, 12)}.json`;
-    mkdirSync(dirname(join(temporaryRoot, relativePath)), { recursive: true });
+    if (!existsSync(dirname(join(temporaryRoot, relativePath)))) mkdirSync(dirname(join(temporaryRoot, relativePath)), { recursive: true });
     writeFileSync(join(temporaryRoot, relativePath), content);
     lookup[bucket] = { path: `/data/${relativePath}`, records: entries.length, sha256, bytes: Buffer.byteLength(content) };
   }
-  manifestReferences.push({ country: meta.country, type: meta.type, records: records.length, chunks, ...(lookupGroups.size ? { lookup, lookupBuckets } : {}) });
+  manifestReferences.push({ country: meta.country, type: meta.type, records: recordCount, chunks, ...(lookupGroups.size ? { lookup, lookupBuckets } : {}) });
 }
 db.close();
 const rankAlternatives = exportJapaneseRankAlternatives(root, temporaryRoot);
@@ -211,6 +224,9 @@ writeFileSync(
   }),
 );
 
+// Name details have their own exporter and manifest. Preserve that independent
+// verified cache when replacing name rankings and reference dictionaries.
+if (existsSync(join(outputRoot, 'name-details'))) cpSync(join(outputRoot, 'name-details'), join(temporaryRoot, 'name-details'), { recursive: true });
 rmSync(backupRoot, { recursive: true, force: true });
 if (existsSync(outputRoot)) renameSync(outputRoot, backupRoot);
 try {
