@@ -27,8 +27,26 @@ export type DatasetMeta = {
   isSample: boolean;
   notes?: string;
   coverageLabel?: string;
+  evidenceRanking?: { sourceUrl: string; asOf: string };
 };
 export type Dataset = { meta: DatasetMeta; records: NameRecord[] };
+export type ReferenceNameRecord = Omit<NameRecord, "rank" | "totalEntries"> & {
+  rank?: undefined;
+  totalEntries?: undefined;
+  sourceIds?: string[];
+  evidenceRank?: {
+    rank: number;
+    totalNames: number;
+    observedPeople: number;
+    totalPeople: number;
+    tiedNames: number;
+    method: "competition";
+    scope: "public_people";
+    sourceId: string;
+    asOf: string;
+  };
+};
+export type ReferenceDataset = { meta: DatasetMeta; records: ReferenceNameRecord[] };
 export type CountryConfig = {
   code: string;
   nameJa: string;
@@ -39,6 +57,7 @@ export type CountryConfig = {
   supportsSurname: boolean;
 };
 export type DiagnosisInput = {
+  sourceCountry?: string;
   name: string;
   type: NameType;
   gender?: Gender;
@@ -52,6 +71,7 @@ export type Diagnosis = {
   score: number;
   recognition: "ranked" | "historical" | "dictionary" | "unrecognized";
   autoDetectedFrom?: NameType;
-  matches: { country: CountryConfig; record: NameRecord; meta: DatasetMeta }[];
+  unavailableCountries?: { country: CountryConfig; reason: string }[];
+  matches: { country: CountryConfig; record: NameRecord | ReferenceNameRecord; meta: DatasetMeta }[];
   meta: DatasetMeta;
 };

@@ -1,0 +1,727 @@
+{
+  "checkedAt": "2026-10-16T13:15:42.140Z",
+  "originalRows": 4970296,
+  "rejected": 1494635,
+  "countries": [
+    {
+      "country": "JP",
+      "male": 2306,
+      "female": 1309
+    },
+    {
+      "country": "US",
+      "male": 42865,
+      "female": 67606
+    },
+    {
+      "country": "GB",
+      "male": 30395,
+      "female": 45297
+    },
+    {
+      "country": "FR",
+      "male": 1278,
+      "female": 1722
+    },
+    {
+      "country": "KR",
+      "male": 1719,
+      "female": 1132
+    },
+    {
+      "country": "DE",
+      "male": 2849,
+      "female": 2600
+    },
+    {
+      "country": "IT",
+      "male": 1484,
+      "female": 1460
+    },
+    {
+      "country": "ES",
+      "male": 26982,
+      "female": 27779
+    },
+    {
+      "country": "PT",
+      "male": 674,
+      "female": 682
+    },
+    {
+      "country": "NL",
+      "male": 1372,
+      "female": 1869
+    },
+    {
+      "country": "BE",
+      "male": 25677,
+      "female": 29779
+    },
+    {
+      "country": "CH",
+      "male": 30041,
+      "female": 36385
+    },
+    {
+      "country": "AT",
+      "male": 1456,
+      "female": 1621
+    },
+    {
+      "country": "IE",
+      "male": 2597,
+      "female": 3468
+    },
+    {
+      "country": "CA",
+      "male": 42573,
+      "female": 63313
+    },
+    {
+      "country": "BR",
+      "male": 209,
+      "female": 238
+    },
+    {
+      "country": "MX",
+      "male": 20,
+      "female": 20
+    },
+    {
+      "country": "AR",
+      "male": 16,
+      "female": 13
+    },
+    {
+      "country": "CO",
+      "male": 22,
+      "female": 16
+    },
+    {
+      "country": "CL",
+      "male": 13,
+      "female": 13
+    },
+    {
+      "country": "PE",
+      "male": 16,
+      "female": 11
+    },
+    {
+      "country": "ZA",
+      "male": 732,
+      "female": 802
+    },
+    {
+      "country": "NG",
+      "male": 721,
+      "female": 788
+    },
+    {
+      "country": "IN",
+      "male": 1390766,
+      "female": 1129601
+    },
+    {
+      "country": "TR",
+      "male": 1296,
+      "female": 1086
+    },
+    {
+      "country": "PL",
+      "male": 1179,
+      "female": 795
+    },
+    {
+      "country": "AE",
+      "male": 1514,
+      "female": 933
+    },
+    {
+      "country": "AO",
+      "male": 5,
+      "female": 2
+    },
+    {
+      "country": "BD",
+      "male": 719,
+      "female": 785
+    },
+    {
+      "country": "BG",
+      "male": 754,
+      "female": 1044
+    },
+    {
+      "country": "BH",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "BO",
+      "male": 1,
+      "female": 0
+    },
+    {
+      "country": "CM",
+      "male": 1184,
+      "female": 1122
+    },
+    {
+      "country": "CN",
+      "male": 82383,
+      "female": 60482
+    },
+    {
+      "country": "CR",
+      "male": 4,
+      "female": 3
+    },
+    {
+      "country": "CZ",
+      "male": 810,
+      "female": 880
+    },
+    {
+      "country": "DK",
+      "male": 550,
+      "female": 689
+    },
+    {
+      "country": "DZ",
+      "male": 1515,
+      "female": 934
+    },
+    {
+      "country": "EG",
+      "male": 1521,
+      "female": 947
+    },
+    {
+      "country": "FI",
+      "male": 414,
+      "female": 482
+    },
+    {
+      "country": "GH",
+      "male": 718,
+      "female": 785
+    },
+    {
+      "country": "GR",
+      "male": 338,
+      "female": 528
+    },
+    {
+      "country": "GT",
+      "male": 2,
+      "female": 1
+    },
+    {
+      "country": "HK",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IL",
+      "male": 651,
+      "female": 565
+    },
+    {
+      "country": "IQ",
+      "male": 1514,
+      "female": 932
+    },
+    {
+      "country": "IR",
+      "male": 1284,
+      "female": 815
+    },
+    {
+      "country": "JO",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "KW",
+      "male": 1512,
+      "female": 932
+    },
+    {
+      "country": "KZ",
+      "male": 410,
+      "female": 471
+    },
+    {
+      "country": "LB",
+      "male": 1512,
+      "female": 932
+    },
+    {
+      "country": "LU",
+      "male": 1620,
+      "female": 1414
+    },
+    {
+      "country": "LY",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "MA",
+      "male": 1516,
+      "female": 933
+    },
+    {
+      "country": "MO",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MU",
+      "male": 1186,
+      "female": 1123
+    },
+    {
+      "country": "MY",
+      "male": 12,
+      "female": 13
+    },
+    {
+      "country": "NO",
+      "male": 1061,
+      "female": 1210
+    },
+    {
+      "country": "OM",
+      "male": 1514,
+      "female": 934
+    },
+    {
+      "country": "PA",
+      "male": 2,
+      "female": 1
+    },
+    {
+      "country": "PH",
+      "male": 743,
+      "female": 812
+    },
+    {
+      "country": "PS",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "QA",
+      "male": 1513,
+      "female": 933
+    },
+    {
+      "country": "RU",
+      "male": 1068,
+      "female": 967
+    },
+    {
+      "country": "SA",
+      "male": 1515,
+      "female": 932
+    },
+    {
+      "country": "SD",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "SE",
+      "male": 14680,
+      "female": 16540
+    },
+    {
+      "country": "SG",
+      "male": 4,
+      "female": 4
+    },
+    {
+      "country": "SY",
+      "male": 1513,
+      "female": 932
+    },
+    {
+      "country": "TN",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "TW",
+      "male": 10,
+      "female": 10
+    },
+    {
+      "country": "UY",
+      "male": 17,
+      "female": 14
+    },
+    {
+      "country": "YE",
+      "male": 1512,
+      "female": 932
+    },
+    {
+      "country": "AF",
+      "male": 1273,
+      "female": 804
+    },
+    {
+      "country": "AL",
+      "male": 1068,
+      "female": 764
+    },
+    {
+      "country": "AU",
+      "male": 26357,
+      "female": 42071
+    },
+    {
+      "country": "AZ",
+      "male": 712,
+      "female": 598
+    },
+    {
+      "country": "BF",
+      "male": 655,
+      "female": 513
+    },
+    {
+      "country": "BI",
+      "male": 1183,
+      "female": 1122
+    },
+    {
+      "country": "BN",
+      "male": 0,
+      "female": 1
+    },
+    {
+      "country": "BW",
+      "male": 718,
+      "female": 787
+    },
+    {
+      "country": "CY",
+      "male": 716,
+      "female": 787
+    },
+    {
+      "country": "DJ",
+      "male": 658,
+      "female": 514
+    },
+    {
+      "country": "EC",
+      "male": 4,
+      "female": 3
+    },
+    {
+      "country": "EE",
+      "male": 548,
+      "female": 614
+    },
+    {
+      "country": "ET",
+      "male": 2,
+      "female": 1
+    },
+    {
+      "country": "GE",
+      "male": 171,
+      "female": 128
+    },
+    {
+      "country": "HN",
+      "male": 2,
+      "female": 2
+    },
+    {
+      "country": "HR",
+      "male": 593,
+      "female": 548
+    },
+    {
+      "country": "HT",
+      "male": 662,
+      "female": 525
+    },
+    {
+      "country": "HU",
+      "male": 396,
+      "female": 453
+    },
+    {
+      "country": "ID",
+      "male": 20,
+      "female": 4
+    },
+    {
+      "country": "IS",
+      "male": 1022,
+      "female": 1065
+    },
+    {
+      "country": "JM",
+      "male": 720,
+      "female": 791
+    },
+    {
+      "country": "KH",
+      "male": 1,
+      "female": 0
+    },
+    {
+      "country": "LT",
+      "male": 923,
+      "female": 817
+    },
+    {
+      "country": "MD",
+      "male": 862,
+      "female": 775
+    },
+    {
+      "country": "MT",
+      "male": 901,
+      "female": 902
+    },
+    {
+      "country": "MV",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PK",
+      "male": 13,
+      "female": 13
+    },
+    {
+      "country": "PR",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "RO",
+      "male": 836,
+      "female": 1331
+    },
+    {
+      "country": "RS",
+      "male": 1150,
+      "female": 1153
+    },
+    {
+      "country": "SI",
+      "male": 453,
+      "female": 376
+    },
+    {
+      "country": "SK",
+      "male": 500,
+      "female": 541
+    },
+    {
+      "country": "TM",
+      "male": 5,
+      "female": 0
+    },
+    {
+      "country": "UA",
+      "male": 335,
+      "female": 317
+    },
+    {
+      "country": "UZ",
+      "male": 400,
+      "female": 459
+    },
+    {
+      "country": "VE",
+      "male": 14,
+      "female": 12
+    },
+    {
+      "country": "VN",
+      "male": 111,
+      "female": 71
+    },
+    {
+      "country": "AD",
+      "male": 13,
+      "female": 11
+    },
+    {
+      "country": "AM",
+      "male": 510,
+      "female": 395
+    },
+    {
+      "country": "AW",
+      "male": 5,
+      "female": 5
+    },
+    {
+      "country": "BA",
+      "male": 776,
+      "female": 586
+    },
+    {
+      "country": "BY",
+      "male": 870,
+      "female": 775
+    },
+    {
+      "country": "FO",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GG",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GI",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GL",
+      "male": 10,
+      "female": 10
+    },
+    {
+      "country": "GQ",
+      "male": 7,
+      "female": 7
+    },
+    {
+      "country": "IM",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "JE",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LI",
+      "male": 1112,
+      "female": 979
+    },
+    {
+      "country": "LV",
+      "male": 388,
+      "female": 453
+    },
+    {
+      "country": "MC",
+      "male": 662,
+      "female": 518
+    },
+    {
+      "country": "ME",
+      "male": 1114,
+      "female": 1052
+    },
+    {
+      "country": "MK",
+      "male": 643,
+      "female": 444
+    },
+    {
+      "country": "ML",
+      "male": 666,
+      "female": 525
+    },
+    {
+      "country": "MN",
+      "male": 7,
+      "female": 7
+    },
+    {
+      "country": "NP",
+      "male": 12,
+      "female": 11
+    },
+    {
+      "country": "NZ",
+      "male": 939,
+      "female": 1057
+    },
+    {
+      "country": "PF",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PY",
+      "male": 14,
+      "female": 14
+    },
+    {
+      "country": "SM",
+      "male": 338,
+      "female": 279
+    },
+    {
+      "country": "SV",
+      "male": 2,
+      "female": 3
+    },
+    {
+      "country": "TH",
+      "male": 12,
+      "female": 10
+    },
+    {
+      "country": "TJ",
+      "male": 6,
+      "female": 6
+    },
+    {
+      "country": "KG",
+      "male": 2,
+      "female": 0
+    },
+    {
+      "country": "LK",
+      "male": 863,
+      "female": 571
+    },
+    {
+      "country": "XK",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CU",
+      "male": 0,
+      "female": 8
+    },
+    {
+      "country": "DO",
+      "male": 1,
+      "female": 2
+    },
+    {
+      "country": "FJ",
+      "male": 718,
+      "female": 785
+    },
+    {
+      "country": "SR",
+      "male": 0,
+      "female": 0
+    }
+  ]
+}

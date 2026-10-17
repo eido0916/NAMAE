@@ -36,6 +36,8 @@ import {
   getReadingOptions,
   validateInput,
   getCohort,
+  setDatasetUnavailable,
+  clearReferenceDataset,
 } from "../src/lib/engine";
 
 configureEngine({
@@ -239,4 +241,45 @@ test("invalid inputs are rejected", () => {
   assert.ok(validateInput({ name: "あ".repeat(31), type: "surname" }));
   assert.ok(validateInput({ name: "じゅん", type: "given_name" }));
   assert.throws(() => calculateRankPercentile(0, 10));
+});
+
+test("one unavailable destination does not prevent other results or reuse stale data", () => {
+  setDatasetUnavailable("US", "given_name", "読み込み失敗");
+  try {
+    const result = diagnose({ name: "じゅん", type: "given_name", gender: "male", destinationCountries: ["US", "FR"] });
+    assert.deepEqual(result.matches.map((match) => match.country.code), ["FR"]);
+    assert.equal(result.unavailableCountries?.[0].country.code, "US");
+  } finally {
+    setDatasetUnavailable("US", "given_name");
+  }
+  assert.equal(diagnose({ name: "じゅん", type: "given_name", gender: "male", destinationCountries: ["US"] }).matches.length, 1);
+});
+
+test("missing gender data in a destination is isolated", () => {
+  const result = diagnose({ name: "さくら", type: "given_name", gender: "female", destinationCountries: ["VN", "US"] });
+  assert.equal(result.matches[0].country.code, "US");
+  assert.equal(result.unavailableCountries?.[0].country.code, "VN");
+});
+
+test("spaces and name separators are normalized for dictionary lookup", () => {
+  assert.equal(getNameRecord({ name: " J U N ", type: "given_name", gender: "male" })?.rank, 365);
+});
+
+test("Japan output references require a matching Japanese name and gender, not just a translated label", () => {
+  const reference = loadJson<import("../src/lib/types").ReferenceDataset>("../src/reference-data/jp/given_name.json");
+  const mikko = reference.records.find((r) => r.name === "ミッコ" && r.gender === "male");
+  assert.ok(mikko, "retain the original observation as a regression fixture");
+  const input = { sourceCountry: "US", name: "UnlistedName", type: "given_name" as const, gender: "male" as const, destinationCountries: ["JP"] };
+  try {
+    configureEngine({ references: [{ meta: reference.meta, records: [mikko] }] });
+    const result = diagnose(input);
+    assert.equal(result.matches.length, 1);
+    assert.notEqual(result.matches[0].record.name, "ミッコ");
+    assert.ok(result.matches[0].record.rank, "use the independently available Japanese name dataset");
+    // Katakana itself is valid: accept a name attested in the same male cohort.
+    configureEngine({ references: [{ meta: reference.meta, records: [mikko, { ...mikko, name: "ハルト" }] }] });
+    assert.equal(diagnose(input).matches[0].record.name, "ハルト");
+  } finally {
+    clearReferenceDataset("JP", "given_name");
+  }
 });

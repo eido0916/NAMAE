@@ -8,6 +8,8 @@ import {
   writeFileSync,
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
+import { referenceLookupBucket, referenceLookupKey } from "../src/lib/reference-lookup.mjs";
+import { exportJapaneseRankAlternatives } from "./japanese-rank-alternatives.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const databasePath = join(root, "data", "namae.sqlite");
@@ -133,11 +135,53 @@ const sources = db
     redistributionStatus: row.redistribution_status,
     attribution: row.attribution,
   }));
+const manifestReferences = [];
+for (const row of db.prepare("SELECT * FROM reference_datasets ORDER BY country, type").all()) {
+  const meta = JSON.parse(row.meta_json);
+  const records = db.prepare("SELECT name,gender,source_ids_json,evidence_rank_json FROM reference_entries WHERE country=? AND type=? ORDER BY id").all(row.country, row.type)
+    .map((record) => ({ name: record.name, ...(record.gender ? { gender: record.gender } : {}), sourceIds: JSON.parse(record.source_ids_json), ...(record.evidence_rank_json ? { evidenceRank: JSON.parse(record.evidence_rank_json) } : {}) }));
+  const genders = meta.type === "surname" ? [undefined] : ["male", "female"];
+  const chunks = [];
+  const lookupGroups = new Map();
+  const lookupBuckets = records.length > 20000 ? Math.min(256, 2 ** Math.ceil(Math.log2(records.length / 1500))) : 0;
+  for (const gender of genders) {
+    for (const evidenceRanked of [true, false]) {
+      const cohort = records.filter((record) => (meta.type === "surname" || record.gender === gender) && Boolean(record.evidenceRank) === evidenceRanked);
+      for (let start = 0; start < cohort.length; start += chunkSize) {
+        const part = cohort.slice(start, start + chunkSize);
+        if (lookupBuckets) for (const record of part) {
+          const key = referenceLookupKey(record.name, record.gender);
+          const bucket = referenceLookupBucket(key, lookupBuckets);
+          if (!lookupGroups.has(bucket)) lookupGroups.set(bucket, []);
+          lookupGroups.get(bucket).push([key, chunks.length]);
+        }
+        const content = JSON.stringify({ meta, records: part });
+        const sha256 = hash(content);
+        const relativePath = `references/${meta.country.toLowerCase()}/${meta.type}.${gender ?? "all"}.${start}.${sha256.slice(0, 12)}.json`;
+        mkdirSync(dirname(join(temporaryRoot, relativePath)), { recursive: true });
+        writeFileSync(join(temporaryRoot, relativePath), content);
+        chunks.push({ ...(gender ? { gender } : {}), ...(evidenceRanked ? { evidenceRanked: true } : {}), path: `/data/${relativePath}`, records: part.length, sha256, bytes: Buffer.byteLength(content) });
+      }
+    }
+  }
+  const lookup = {};
+  for (const [bucket, entries] of lookupGroups) {
+    const content = JSON.stringify({ country: meta.country, type: meta.type, entries });
+    const sha256 = hash(content);
+    const relativePath = `lookup/${meta.country.toLowerCase()}/${meta.type}.${bucket}.${sha256.slice(0, 12)}.json`;
+    mkdirSync(dirname(join(temporaryRoot, relativePath)), { recursive: true });
+    writeFileSync(join(temporaryRoot, relativePath), content);
+    lookup[bucket] = { path: `/data/${relativePath}`, records: entries.length, sha256, bytes: Buffer.byteLength(content) };
+  }
+  manifestReferences.push({ country: meta.country, type: meta.type, records: records.length, chunks, ...(lookupGroups.size ? { lookup, lookupBuckets } : {}) });
+}
 db.close();
+const rankAlternatives = exportJapaneseRankAlternatives(root, temporaryRoot);
 
 const dataVersion = hash(
   JSON.stringify({
     dictionaryHash,
+    rankAlternatives,
     datasets: manifestDatasets.map(({ country, type, sha256, chunks }) => ({
       country,
       type,
@@ -145,12 +189,13 @@ const dataVersion = hash(
       chunks: chunks?.map(({ sha256: chunkHash }) => chunkHash),
     })),
     sources,
+    references: manifestReferences,
   }),
 ).slice(0, 16);
 writeFileSync(
   join(temporaryRoot, "manifest.json"),
   JSON.stringify({
-    schemaVersion: 3,
+    schemaVersion: 4,
     dataVersion,
     countries,
     sources,
@@ -161,6 +206,8 @@ writeFileSync(
       bytes: Buffer.byteLength(dictionaryContent),
     },
     datasets: manifestDatasets,
+    references: manifestReferences,
+    rankAlternatives,
   }),
 );
 

@@ -1,0 +1,183 @@
+{
+  "checkedAt": "2026-10-16T23:08:48.706Z",
+  "additionalPrimaryRankedNames": 22078,
+  "us": [
+    {
+      "gender": "male",
+      "before": 35590,
+      "after": 42567,
+      "added": 6977
+    },
+    {
+      "gender": "female",
+      "before": 53804,
+      "after": 68905,
+      "added": 15101
+    }
+  ],
+  "additionalReferenceRanksInSixCountries": 16309,
+  "netAdditionalReferenceRanks": 14137,
+  "countries": [
+    {
+      "country": "US",
+      "counts": {
+        "male": 52369,
+        "female": 75199,
+        "surname": 199436
+      },
+      "addedNames": {
+        "male": 11,
+        "female": 10,
+        "surname": 0
+      },
+      "referenceRanks": {
+        "male": 5625,
+        "female": 2397,
+        "surname": 24334
+      },
+      "addedReferenceRanks": {
+        "male": -1317,
+        "female": -855,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SE",
+      "counts": {
+        "male": 15573,
+        "female": 17016,
+        "surname": 19223
+      },
+      "addedNames": {
+        "male": 43,
+        "female": 21,
+        "surname": 683
+      },
+      "referenceRanks": {
+        "male": 3232,
+        "female": 2307,
+        "surname": 19094
+      },
+      "addedReferenceRanks": {
+        "male": 132,
+        "female": 80,
+        "surname": 683
+      }
+    },
+    {
+      "country": "FI",
+      "counts": {
+        "male": 11388,
+        "female": 14476,
+        "surname": 27834
+      },
+      "addedNames": {
+        "male": 62,
+        "female": 21,
+        "surname": 458
+      },
+      "referenceRanks": {
+        "male": 363,
+        "female": 132,
+        "surname": 4117
+      },
+      "addedReferenceRanks": {
+        "male": 62,
+        "female": 21,
+        "surname": 461
+      }
+    },
+    {
+      "country": "DK",
+      "counts": {
+        "male": 2559,
+        "female": 1846,
+        "surname": 292583
+      },
+      "addedNames": {
+        "male": 31,
+        "female": 18,
+        "surname": 24
+      },
+      "referenceRanks": {
+        "male": 2259,
+        "female": 1493,
+        "surname": 12365
+      },
+      "addedReferenceRanks": {
+        "male": 131,
+        "female": 68,
+        "surname": 517
+      }
+    },
+    {
+      "country": "NO",
+      "counts": {
+        "male": 2764,
+        "female": 2218,
+        "surname": 322447
+      },
+      "addedNames": {
+        "male": 89,
+        "female": 52,
+        "surname": 167
+      },
+      "referenceRanks": {
+        "male": 1680,
+        "female": 990,
+        "surname": 3543
+      },
+      "addedReferenceRanks": {
+        "male": 89,
+        "female": 53,
+        "surname": 235
+      }
+    },
+    {
+      "country": "PL",
+      "counts": {
+        "male": 48585,
+        "female": 30524,
+        "surname": 615130
+      },
+      "addedNames": {
+        "male": 463,
+        "female": 155,
+        "surname": 5949
+      },
+      "referenceRanks": {
+        "male": 638,
+        "female": 210,
+        "surname": 7708
+      },
+      "addedReferenceRanks": {
+        "male": 467,
+        "female": 156,
+        "surname": 5978
+      }
+    },
+    {
+      "country": "AT",
+      "counts": {
+        "male": 13319,
+        "female": 14000,
+        "surname": 22830
+      },
+      "addedNames": {
+        "male": 412,
+        "female": 213,
+        "surname": 6498
+      },
+      "referenceRanks": {
+        "male": 1035,
+        "female": 614,
+        "surname": 22670
+      },
+      "addedReferenceRanks": {
+        "male": 439,
+        "female": 239,
+        "surname": 6498
+      }
+    }
+  ]
+}

@@ -996,7 +996,7 @@
     "flag": "🇦🇩",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "AM",
@@ -1014,7 +1014,7 @@
     "flag": "🇦🇼",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "BA",
@@ -1050,7 +1050,7 @@
     "flag": "🇬🇬",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "GI",
@@ -1059,7 +1059,7 @@
     "flag": "🇬🇮",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "GL",
@@ -1068,7 +1068,7 @@
     "flag": "🇬🇱",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "GQ",
@@ -1077,7 +1077,7 @@
     "flag": "🇬🇶",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "IM",
@@ -1086,7 +1086,7 @@
     "flag": "🇮🇲",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "JE",
@@ -1095,7 +1095,7 @@
     "flag": "🇯🇪",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "LI",
@@ -1104,7 +1104,7 @@
     "flag": "🇱🇮",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "LV",
@@ -1122,7 +1122,7 @@
     "flag": "🇲🇨",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "ME",
@@ -1149,7 +1149,7 @@
     "flag": "🇲🇱",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "MN",
@@ -1158,7 +1158,7 @@
     "flag": "🇲🇳",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "NP",
@@ -1185,7 +1185,7 @@
     "flag": "🇵🇫",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "PY",
@@ -1203,7 +1203,7 @@
     "flag": "🇸🇲",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "SV",
@@ -1221,7 +1221,7 @@
     "flag": "🇹🇭",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "TJ",
@@ -1230,7 +1230,7 @@
     "flag": "🇹🇯",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "KG",
@@ -1239,7 +1239,7 @@
     "flag": "🇰🇬",
     "enabled": true,
     "supportsGivenName": true,
-    "supportsSurname": false
+    "supportsSurname": true
   },
   {
     "code": "LK",
@@ -1247,7 +1247,7 @@
     "nameEn": "Sri Lanka",
     "flag": "🇱🇰",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   },
   {
@@ -1256,7 +1256,7 @@
     "nameEn": "Kosovo",
     "flag": "🇽🇰",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   },
   {
@@ -1265,7 +1265,7 @@
     "nameEn": "Cuba",
     "flag": "🇨🇺",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   },
   {
@@ -1274,7 +1274,7 @@
     "nameEn": "Dominican Republic",
     "flag": "🇩🇴",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   },
   {
@@ -1283,7 +1283,7 @@
     "nameEn": "Fiji",
     "flag": "🇫🇯",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   },
   {
@@ -1292,7 +1292,7 @@
     "nameEn": "Suriname",
     "flag": "🇸🇷",
     "enabled": true,
-    "supportsGivenName": false,
+    "supportsGivenName": true,
     "supportsSurname": true
   }
 ]

@@ -26,6 +26,7 @@
 .DS_Store
 *.pem
 data/namae.sqlite
+data/name-details.sqlite*
 
 # debug
 npm-debug.log*
@@ -45,3 +46,6 @@ yarn-error.log*
 next-env.d.ts
 
 /tmp/
+/.tmp/
+# Downloaded summary workbook, excluded after source inspection.
+/data-sources/rankings/foreign/thelwall-200-countries.xlsx

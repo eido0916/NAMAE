@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, join } from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import JSZip from 'jszip';
@@ -60,5 +60,6 @@ for(const file of readdirSync(join(root,'data-sources/rankings')).filter(x=>/^us
   const [name,sex,count]=line.split(',');if(['M','F'].includes(sex))usRows.push([name,Number(count),sex==='M'?'male':'female']);
  }
 }
-save('US','given_name',usRows,meta('U.S. Social Security Administration','https://www.ssa.gov/oact/babynames/limits.html',2020,'1989–2020年・米国出生登録累計','ローカルに収録する32年分の公開件数を男女別に合算。各年5件未満の名前は非公開。'));
+if(existsSync(join(cache,'us-ssa-all-data.txt.gz'))) await import('./import-us-historical-names.mjs');
+else save('US','given_name',usRows,meta('U.S. Social Security Administration','https://www.ssa.gov/oact/babynames/limits.html',2020,'1989–2020年・米国出生登録累計','ローカルに収録する32年分の公開件数を男女別に合算。各年5件未満の名前は非公開。'));
 writeFileSync(join(root,'reports/official-import.json'),JSON.stringify(audit,null,2)+'\n');

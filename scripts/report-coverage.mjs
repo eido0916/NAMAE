@@ -1,4 +1,5 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
+import { writeDataFile as writeFileSync } from './write-data-file.mjs';
 import { readDatasets } from './data-utils.mjs';
 const target=10000;
 const datasets=readDatasets('src/data');

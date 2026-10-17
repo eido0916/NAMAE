@@ -1,0 +1,64 @@
+[
+  {
+    "country": "BE",
+    "type": "given_name",
+    "before": 947,
+    "after": 13923,
+    "male": 6648,
+    "female": 7275,
+    "sourceUrl": "https://statbel.fgov.be/nl/open-data?category=23"
+  },
+  {
+    "country": "BE",
+    "type": "surname",
+    "before": 215,
+    "after": 105899,
+    "male": 0,
+    "female": 0,
+    "sourceUrl": "https://statbel.fgov.be/nl/open-data?category=23"
+  },
+  {
+    "country": "NO",
+    "type": "given_name",
+    "before": 257,
+    "after": 2085,
+    "male": 987,
+    "female": 1098,
+    "sourceUrl": "https://www.ssb.no/befolkning/navn/statistikk/navn"
+  },
+  {
+    "country": "NO",
+    "type": "surname",
+    "before": 102,
+    "after": 117807,
+    "male": 0,
+    "female": 0,
+    "sourceUrl": "https://www.ssb.no/befolkning/navn/statistikk/navn"
+  },
+  {
+    "country": "CH",
+    "type": "surname",
+    "before": 189,
+    "after": 25186,
+    "male": 0,
+    "female": 0,
+    "sourceUrl": "https://opendata.swiss/de/dataset/nachnamen-der-standigen-wohnbevolkerung-nach-gemeinde3"
+  },
+  {
+    "country": "AT",
+    "type": "given_name",
+    "before": 457,
+    "after": 24809,
+    "male": 11856,
+    "female": 12953,
+    "sourceUrl": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGDEXT_VORNAMEN_1"
+  },
+  {
+    "country": "GB",
+    "type": "surname",
+    "before": 856,
+    "after": 74035,
+    "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/adhocs/3674babysurnamesbirthsregisteredineachyearenglandandwales1996to2025",
+    "publishedAnnualCells": 716015
+  }
+]

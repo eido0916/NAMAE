@@ -6,14 +6,15 @@ import {
   rmSync,
 } from "node:fs";
 import { dirname, join, resolve } from "node:path";
-import { readDatasets } from "./data-utils.mjs";
+import { collectDatasetFiles, iterateReferenceDatasets } from "./data-utils.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const sourceRoot = join(root, "src", "data");
 const output = join(root, "data", "namae.sqlite");
 const temporary = `${output}.tmp`;
 
-const datasets = readDatasets(sourceRoot).map(({ dataset }) => dataset);
+const datasetPaths = collectDatasetFiles(sourceRoot);
+let rankingCount = 0;
 const dictionary = JSON.parse(
   readFileSync(join(sourceRoot, "dictionary", "names.json"), "utf8"),
 );
@@ -73,6 +74,21 @@ db.exec(`
     reading TEXT NOT NULL,
     aliases_json TEXT NOT NULL
   );
+  CREATE TABLE reference_datasets (
+    country TEXT NOT NULL,
+    type TEXT NOT NULL,
+    meta_json TEXT NOT NULL,
+    PRIMARY KEY (country, type)
+  );
+  CREATE TABLE reference_entries (
+    id INTEGER PRIMARY KEY,
+    country TEXT NOT NULL,
+    type TEXT NOT NULL,
+    gender TEXT,
+    name TEXT NOT NULL,
+    source_ids_json TEXT NOT NULL,
+    evidence_rank_json TEXT
+  );
   CREATE TABLE sources (
     id TEXT PRIMARY KEY,
     name TEXT NOT NULL,
@@ -88,14 +104,13 @@ db.exec(`
     PRIMARY KEY (source_id, dataset_key),
     FOREIGN KEY (source_id) REFERENCES sources(id)
   );
-  CREATE INDEX ranking_lookup ON ranking_entries(country, type, gender, year, ranking_basis, rank);
-  CREATE INDEX ranking_name ON ranking_entries(country, type, name);
-  CREATE INDEX dictionary_reading ON dictionary_entries(gender, reading);
 `);
 
 const insertCountry = db.prepare(
   "INSERT INTO countries VALUES (?, ?, ?, ?, ?, ?, ?)",
 );
+const insertReferenceMeta = db.prepare("INSERT INTO reference_datasets VALUES (?,?,?)");
+const insertReference = db.prepare("INSERT INTO reference_entries (country,type,gender,name,source_ids_json,evidence_rank_json) VALUES (?,?,?,?,?,?)");
 const insertDataset = db.prepare(
   "INSERT INTO datasets VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
 );
@@ -112,6 +127,13 @@ const insertSourceDataset = db.prepare(
 
 db.exec("BEGIN");
 try {
+  for (const { dataset } of iterateReferenceDatasets(join(root, "src/reference-data"))) {
+    insertReferenceMeta.run(dataset.meta.country, dataset.meta.type, JSON.stringify(dataset.meta));
+    for (const record of dataset.records) {
+      if (record.rank !== undefined) throw new Error("Reference dictionaries must not invent ranks");
+      insertReference.run(record.country, record.type, record.gender ?? null, record.name, JSON.stringify(record.sourceIds), record.evidenceRank ? JSON.stringify(record.evidenceRank) : null);
+    }
+  }
   for (const country of countries)
     insertCountry.run(
       country.code,
@@ -122,7 +144,9 @@ try {
       Number(country.supportsGivenName),
       Number(country.supportsSurname),
     );
-  for (const dataset of datasets) {
+  for (const datasetPath of datasetPaths) {
+    const dataset = JSON.parse(readFileSync(datasetPath, "utf8"));
+    rankingCount += dataset.records.length;
     const meta = dataset.meta;
     insertDataset.run(
       meta.country,
@@ -174,17 +198,26 @@ try {
     for (const datasetKey of source.datasets)
       insertSourceDataset.run(source.id, datasetKey);
   }
-  db.exec("COMMIT");
+  // Bulk-load first. Maintaining multi-column indexes during millions of
+  // individual inserts makes expanded national datasets unnecessarily slow.
+  db.exec(`
+    CREATE INDEX reference_lookup ON reference_entries(country, type, gender);
+    CREATE INDEX ranking_lookup ON ranking_entries(country, type, gender, year, ranking_basis, rank);
+    CREATE INDEX ranking_name ON ranking_entries(country, type, name);
+    CREATE INDEX dictionary_reading ON dictionary_entries(gender, reading);
+    COMMIT;
+  `);
 } catch (error) {
   db.exec("ROLLBACK");
   db.close();
   rmSync(temporary, { force: true });
   throw error;
 }
-db.exec("VACUUM");
+// The database is built from scratch, so there are no deleted pages to
+// reclaim. VACUUM would require another full database of temporary disk space.
 db.close();
 rmSync(output, { force: true });
 renameSync(temporary, output);
 console.log(
-  `Built ${output} with ${datasets.length} datasets, ${datasets.reduce((sum, dataset) => sum + dataset.records.length, 0)} rankings, and ${dictionary.length} dictionary entries.`,
+  `Built ${output} with ${datasetPaths.length} datasets, ${rankingCount} rankings, and ${dictionary.length} dictionary entries.`,
 );

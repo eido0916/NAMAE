@@ -1,0 +1,383 @@
+{
+  "readings": [
+    {
+      "country": "KR",
+      "name": "서준",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ソジュン",
+      "source": "https://www.wikidata.org/wiki/Q16256574",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "US",
+      "name": "Emma",
+      "type": "given_name",
+      "language": "en",
+      "reading": "エマ",
+      "source": "https://www.wikidata.org/wiki/Q541194",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "GB",
+      "name": "Emma",
+      "type": "given_name",
+      "language": "en",
+      "reading": "エマ",
+      "source": "https://www.wikidata.org/wiki/Q541194",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "FR",
+      "name": "Emma",
+      "type": "given_name",
+      "language": "fr",
+      "reading": "エマ",
+      "source": "https://www.wikidata.org/wiki/Q541194",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "DE",
+      "name": "Emma",
+      "type": "given_name",
+      "language": "de",
+      "reading": "エマ",
+      "source": "https://www.wikidata.org/wiki/Q541194",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "US",
+      "name": "Oliver",
+      "type": "given_name",
+      "language": "en",
+      "reading": "オリバー",
+      "source": "https://ja.wikipedia.org/wiki/オリヴァー",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "GB",
+      "name": "Oliver",
+      "type": "given_name",
+      "language": "en",
+      "reading": "オリバー",
+      "source": "https://ja.wikipedia.org/wiki/オリヴァー",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "서윤",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ソユン",
+      "source": "https://www.wikidata.org/wiki/Q7451449",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "민준",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ミンジュン",
+      "source": "https://www.wikidata.org/wiki/Q6862481",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "서연",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ソヨン",
+      "source": "https://www.wikidata.org/wiki/Q7451448",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "도윤",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ドユン",
+      "source": "https://www.wikidata.org/wiki/Q69507862",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "지우",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ジウ",
+      "source": "https://www.wikidata.org/wiki/Q6191272",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "하윤",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ハユン",
+      "source": "https://www.wikidata.org/wiki/Q24970115",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "하준",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ハジュン",
+      "source": "https://www.wikidata.org/wiki/Q24970113",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "시우",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "シウ",
+      "source": "https://www.wikidata.org/wiki/Q16256640",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "하은",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ハウン",
+      "source": "https://www.wikidata.org/wiki/Q5636351",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "서현",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ソヒョン",
+      "source": "https://www.wikidata.org/wiki/Q7451447",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "예준",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "イェジュン",
+      "source": "https://www.wikidata.org/wiki/Q8050731",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "민서",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ミンソ",
+      "source": "https://www.wikidata.org/wiki/Q6862492",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "주원",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ジュウォン",
+      "source": "https://www.wikidata.org/wiki/Q16277445",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "도현",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ドヒョン",
+      "source": "https://www.wikidata.org/wiki/Q5285887",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "윤서",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ユンソ",
+      "source": "https://www.wikidata.org/wiki/Q8061171",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "지후",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ジフ",
+      "source": "https://www.wikidata.org/wiki/Q6191256",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "수아",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "スア",
+      "source": "https://www.wikidata.org/wiki/Q16256674",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "준서",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ジュンソ",
+      "source": "https://www.wikidata.org/wiki/Q6311415",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "선우",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ソンウ",
+      "source": "https://www.wikidata.org/wiki/Q27342491",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "채원",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "チェウォン",
+      "source": "https://www.wikidata.org/wiki/Q28698566",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "우진",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ウジン",
+      "source": "https://www.wikidata.org/wiki/Q8032116",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    },
+    {
+      "country": "KR",
+      "name": "하린",
+      "type": "given_name",
+      "language": "ko",
+      "reading": "ハリン",
+      "source": "https://www.wikidata.org/wiki/Q69509931",
+      "reviewedBy": "codex:source-check:2026-10-15"
+    }
+  ],
+  "entities": [
+    {
+      "id": "Q3244512",
+      "kind": "character",
+      "name": "ハリー・ポッター",
+      "work": "ハリー・ポッター",
+      "description": "『ハリー・ポッター』シリーズの主人公。",
+      "source": "https://www.wikidata.org/wiki/Q3244512"
+    },
+    {
+      "id": "Q228598",
+      "kind": "person",
+      "name": "エマ・ロバーツ",
+      "description": "アメリカ合衆国の女優、歌手",
+      "source": "https://www.wikidata.org/wiki/Q228598",
+      "nationalities": [
+        {
+          "id": "Q30",
+          "name": "アメリカ合衆国"
+        }
+      ],
+      "occupations": [
+        "俳優",
+        "テレビ俳優",
+        "映画俳優",
+        "声優"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Emma_Robert_2016_Comic_Con.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Nerve — dominick D",
+        "source": "https://commons.wikimedia.org/wiki/File:Emma_Robert_2016_Comic_Con.jpg"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "country": "GB",
+      "name": "Harry",
+      "type": "given_name",
+      "language": "en",
+      "entityId": "Q3244512",
+      "status": "verified",
+      "confidence": 1,
+      "reviewedBy": "codex:source-check:2026-10-15",
+      "priority": 100,
+      "evidence": {
+        "property": "P735",
+        "source": "https://www.wikidata.org/wiki/Q3244512#P735",
+        "reason": "given name Harry を出典の構造化項目で確認"
+      }
+    },
+    {
+      "country": "US",
+      "name": "Harry",
+      "type": "given_name",
+      "language": "en",
+      "entityId": "Q3244512",
+      "status": "verified",
+      "confidence": 1,
+      "reviewedBy": "codex:source-check:2026-10-15",
+      "priority": 100,
+      "evidence": {
+        "property": "P735",
+        "source": "https://www.wikidata.org/wiki/Q3244512#P735",
+        "reason": "given name Harry を出典の構造化項目で確認"
+      }
+    },
+    {
+      "country": "GB",
+      "name": "Potter",
+      "type": "surname",
+      "language": "en",
+      "entityId": "Q3244512",
+      "status": "verified",
+      "confidence": 1,
+      "reviewedBy": "codex:source-check:2026-10-15",
+      "priority": 100,
+      "evidence": {
+        "property": "P734",
+        "source": "https://www.wikidata.org/wiki/Q3244512#P734",
+        "reason": "family name Potter を出典の構造化項目で確認"
+      }
+    },
+    {
+      "country": "US",
+      "name": "Potter",
+      "type": "surname",
+      "language": "en",
+      "entityId": "Q3244512",
+      "status": "verified",
+      "confidence": 1,
+      "reviewedBy": "codex:source-check:2026-10-15",
+      "priority": 100,
+      "evidence": {
+        "property": "P734",
+        "source": "https://www.wikidata.org/wiki/Q3244512#P734",
+        "reason": "family name Potter を出典の構造化項目で確認"
+      }
+    },
+    {
+      "country": "US",
+      "name": "Emma",
+      "type": "given_name",
+      "language": "en",
+      "entityId": "Q228598",
+      "status": "verified",
+      "confidence": 1,
+      "reviewedBy": "codex:source-check:2026-10-15",
+      "priority": 100001,
+      "evidence": {
+        "property": "P735",
+        "nameItem": "Q541194",
+        "source": "https://www.wikidata.org/wiki/Q228598#P735",
+        "reason": "Emma Rose Roberts の第1の名 Emma（Q541194）と米国籍（Q30）を構造化項目で確認。検索に同綴りの複数項目があるため、この人物との関係だけを個別承認。"
+      }
+    }
+  ]
+}

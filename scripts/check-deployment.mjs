@@ -23,10 +23,10 @@ const expectedDatasets = manifest.countries
     return types;
   });
 const actualDatasets = new Set(
-  (manifest.datasets ?? []).map((dataset) => `${dataset.country}/${dataset.type}`),
+  [...(manifest.datasets ?? []), ...(manifest.references ?? [])].map((dataset) => `${dataset.country}/${dataset.type}`),
 );
 if (
-  manifest.schemaVersion !== 3 ||
+  manifest.schemaVersion !== 4 ||
   !manifest.dataVersion ||
   !expectedDatasets?.length ||
   expectedDatasets.some((key) => !actualDatasets.has(key))
@@ -35,7 +35,7 @@ if (
 const dataFiles = manifest.datasets.flatMap((dataset) =>
   dataset.path ? [dataset] : (dataset.chunks ?? []),
 );
-for (const entry of [manifest.dictionary, ...dataFiles])
+for (const entry of [manifest.dictionary, ...dataFiles, ...manifest.references.flatMap((dataset) => dataset.chunks), ...manifest.references.flatMap((dataset) => Object.values(dataset.lookup ?? {}))])
   await request(entry.path, "HEAD");
 console.log(
   `Healthy: ${base}, data ${manifest.dataVersion}, ${manifest.datasets.length} datasets.`,

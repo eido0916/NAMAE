@@ -1,0 +1,5486 @@
+{
+  "checkedAt": "2026-10-15T14:37:30.013Z",
+  "checkedCountries": 144,
+  "expandedCountries": 144,
+  "allBandsExpandedCountries": 144,
+  "added": {
+    "male": 106938,
+    "female": 64346,
+    "surname": 448646
+  },
+  "nameEntities": 542517,
+  "audit": [
+    {
+      "country": "JP",
+      "name": "日本",
+      "male": {
+        "before": 23977,
+        "after": 24699,
+        "added": 722,
+        "ranked": 23780,
+        "reference": 919,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 31906,
+        "after": 32123,
+        "added": 217,
+        "ranked": 31843,
+        "reference": 280,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 105125,
+        "after": 105918,
+        "added": 793,
+        "ranked": 105125,
+        "reference": 793,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "JP",
+        "male": 6864,
+        "female": 2574,
+        "surname": 9885,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "US",
+      "name": "アメリカ",
+      "male": {
+        "before": 43721,
+        "after": 49381,
+        "added": 5660,
+        "ranked": 35590,
+        "reference": 13791,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 69280,
+        "after": 71769,
+        "added": 2489,
+        "ranked": 53804,
+        "reference": 17965,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 176122,
+        "after": 199442,
+        "added": 23320,
+        "ranked": 162254,
+        "reference": 37188,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "US",
+        "male": 14490,
+        "female": 9743,
+        "surname": 83700,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GB",
+      "name": "イギリス",
+      "male": {
+        "before": 21499,
+        "after": 24797,
+        "added": 3298,
+        "ranked": 18080,
+        "reference": 6717,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 29121,
+        "after": 30286,
+        "added": 1165,
+        "ranked": 24005,
+        "reference": 6281,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 74038,
+        "after": 81546,
+        "added": 7508,
+        "ranked": 74035,
+        "reference": 7511,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GB",
+        "male": 6583,
+        "female": 3844,
+        "surname": 25304,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "FR",
+      "name": "フランス",
+      "male": {
+        "before": 23657,
+        "after": 26084,
+        "added": 2427,
+        "ranked": 23648,
+        "reference": 2436,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 28021,
+        "after": 28818,
+        "added": 797,
+        "ranked": 28003,
+        "reference": 815,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 226124,
+        "after": 252650,
+        "added": 26526,
+        "ranked": 218982,
+        "reference": 33668,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "FR",
+        "male": 6424,
+        "female": 3942,
+        "surname": 81122,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "KR",
+      "name": "韓国",
+      "male": {
+        "before": 36816,
+        "after": 37413,
+        "added": 597,
+        "ranked": 36103,
+        "reference": 1310,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 29281,
+        "after": 29700,
+        "added": 419,
+        "ranked": 28694,
+        "reference": 1006,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 100,
+        "after": 392,
+        "added": 292,
+        "ranked": 100,
+        "reference": 292,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "KR",
+        "male": 4589,
+        "female": 1962,
+        "surname": 432,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "DE",
+      "name": "ドイツ",
+      "male": {
+        "before": 2683,
+        "after": 7047,
+        "added": 4364,
+        "ranked": 905,
+        "reference": 6142,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 2571,
+        "after": 5261,
+        "added": 2690,
+        "ranked": 910,
+        "reference": 4351,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 383,
+        "after": 55635,
+        "added": 55252,
+        "ranked": 378,
+        "reference": 55257,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "DE",
+        "male": 5790,
+        "female": 3958,
+        "surname": 55493,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IT",
+      "name": "イタリア",
+      "male": {
+        "before": 62096,
+        "after": 63480,
+        "added": 1384,
+        "ranked": 61427,
+        "reference": 2053,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 59457,
+        "after": 60113,
+        "added": 656,
+        "ranked": 58839,
+        "reference": 1274,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 31748,
+        "after": 55670,
+        "added": 23922,
+        "ranked": 2939,
+        "reference": 52731,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IT",
+        "male": 3533,
+        "female": 2226,
+        "surname": 35516,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ES",
+      "name": "スペイン",
+      "male": {
+        "before": 31172,
+        "after": 32496,
+        "added": 1324,
+        "ranked": 31119,
+        "reference": 1377,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 32366,
+        "after": 33051,
+        "added": 685,
+        "ranked": 32321,
+        "reference": 730,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 89567,
+        "after": 94505,
+        "added": 4938,
+        "ranked": 86511,
+        "reference": 7994,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ES",
+        "male": 3328,
+        "female": 2260,
+        "surname": 16596,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PT",
+      "name": "ポルトガル",
+      "male": {
+        "before": 608,
+        "after": 1458,
+        "added": 850,
+        "ranked": 189,
+        "reference": 1269,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 651,
+        "after": 1174,
+        "added": 523,
+        "ranked": 214,
+        "reference": 960,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 228,
+        "after": 2264,
+        "added": 2036,
+        "ranked": 228,
+        "reference": 2036,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PT",
+        "male": 1127,
+        "female": 762,
+        "surname": 2187,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "NL",
+      "name": "オランダ",
+      "male": {
+        "before": 1663,
+        "after": 5180,
+        "added": 3517,
+        "ranked": 625,
+        "reference": 4555,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 2073,
+        "after": 4472,
+        "added": 2399,
+        "ranked": 598,
+        "reference": 3874,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 320,
+        "after": 17383,
+        "added": 17063,
+        "ranked": 320,
+        "reference": 17063,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "NL",
+        "male": 4601,
+        "female": 3525,
+        "surname": 17234,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BE",
+      "name": "ベルギー",
+      "male": {
+        "before": 6679,
+        "after": 7689,
+        "added": 1010,
+        "ranked": 6648,
+        "reference": 1041,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 7327,
+        "after": 7790,
+        "added": 463,
+        "ranked": 7275,
+        "reference": 515,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 108352,
+        "after": 111194,
+        "added": 2842,
+        "ranked": 105899,
+        "reference": 5295,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BE",
+        "male": 2855,
+        "female": 2079,
+        "surname": 12233,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CH",
+      "name": "スイス",
+      "male": {
+        "before": 1207,
+        "after": 3655,
+        "added": 2448,
+        "ranked": 304,
+        "reference": 3351,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1518,
+        "after": 2726,
+        "added": 1208,
+        "ranked": 280,
+        "reference": 2446,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 25188,
+        "after": 32066,
+        "added": 6878,
+        "ranked": 25186,
+        "reference": 6880,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CH",
+        "male": 3334,
+        "female": 2082,
+        "surname": 14294,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AT",
+      "name": "オーストリア",
+      "male": {
+        "before": 12014,
+        "after": 12579,
+        "added": 565,
+        "ranked": 11856,
+        "reference": 723,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 13245,
+        "after": 13570,
+        "added": 325,
+        "ranked": 12953,
+        "reference": 617,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 162,
+        "after": 16333,
+        "added": 16171,
+        "ranked": 146,
+        "reference": 16187,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AT",
+        "male": 2071,
+        "female": 1651,
+        "surname": 16228,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IE",
+      "name": "アイルランド",
+      "male": {
+        "before": 513,
+        "after": 1407,
+        "added": 894,
+        "ranked": 270,
+        "reference": 1137,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 652,
+        "after": 1196,
+        "added": 544,
+        "ranked": 281,
+        "reference": 915,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1029,
+        "after": 4118,
+        "added": 3089,
+        "ranked": 196,
+        "reference": 3922,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IE",
+        "male": 1209,
+        "female": 906,
+        "surname": 3854,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CA",
+      "name": "カナダ",
+      "male": {
+        "before": 36536,
+        "after": 39786,
+        "added": 3250,
+        "ranked": 8672,
+        "reference": 31114,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 53591,
+        "after": 54959,
+        "added": 1368,
+        "ranked": 11954,
+        "reference": 43005,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 292,
+        "after": 30870,
+        "added": 30578,
+        "ranked": 290,
+        "reference": 30580,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CA",
+        "male": 7042,
+        "female": 4622,
+        "surname": 30748,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BR",
+      "name": "ブラジル",
+      "male": {
+        "before": 60954,
+        "after": 61906,
+        "added": 952,
+        "ranked": 60954,
+        "reference": 952,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 73361,
+        "after": 73814,
+        "added": 453,
+        "ranked": 73361,
+        "reference": 453,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 201602,
+        "after": 203164,
+        "added": 1562,
+        "ranked": 201601,
+        "reference": 1563,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BR",
+        "male": 3276,
+        "female": 2109,
+        "surname": 7931,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MX",
+      "name": "メキシコ",
+      "male": {
+        "before": 685,
+        "after": 1900,
+        "added": 1215,
+        "ranked": 684,
+        "reference": 1216,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 866,
+        "after": 1786,
+        "added": 920,
+        "ranked": 861,
+        "reference": 925,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 766,
+        "after": 4568,
+        "added": 3802,
+        "ranked": 766,
+        "reference": 3802,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MX",
+        "male": 1640,
+        "female": 1400,
+        "surname": 4351,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AR",
+      "name": "アルゼンチン",
+      "male": {
+        "before": 253,
+        "after": 1905,
+        "added": 1652,
+        "ranked": 253,
+        "reference": 1652,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 305,
+        "after": 1274,
+        "added": 969,
+        "ranked": 303,
+        "reference": 971,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 342,
+        "after": 10927,
+        "added": 10585,
+        "ranked": 326,
+        "reference": 10601,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AR",
+        "male": 1823,
+        "female": 1166,
+        "surname": 10825,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CO",
+      "name": "コロンビア",
+      "male": {
+        "before": 845,
+        "after": 1651,
+        "added": 806,
+        "ranked": 845,
+        "reference": 806,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 948,
+        "after": 1322,
+        "added": 374,
+        "ranked": 946,
+        "reference": 376,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 940,
+        "after": 2279,
+        "added": 1339,
+        "ranked": 940,
+        "reference": 1339,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CO",
+        "male": 1222,
+        "female": 696,
+        "surname": 1951,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CL",
+      "name": "チリ",
+      "male": {
+        "before": 76449,
+        "after": 76628,
+        "added": 179,
+        "ranked": 76449,
+        "reference": 179,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 128341,
+        "after": 128411,
+        "added": 70,
+        "ranked": 128341,
+        "reference": 70,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 527,
+        "after": 3262,
+        "added": 2735,
+        "ranked": 527,
+        "reference": 2735,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CL",
+        "male": 1086,
+        "female": 743,
+        "surname": 3094,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PE",
+      "name": "ペルー",
+      "male": {
+        "before": 570,
+        "after": 2215,
+        "added": 1645,
+        "ranked": 569,
+        "reference": 1646,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 591,
+        "after": 2219,
+        "added": 1628,
+        "ranked": 590,
+        "reference": 1629,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 402,
+        "after": 6077,
+        "added": 5675,
+        "ranked": 402,
+        "reference": 5675,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PE",
+        "male": 2054,
+        "female": 2044,
+        "surname": 5964,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ZA",
+      "name": "南アフリカ",
+      "male": {
+        "before": 1073,
+        "after": 2366,
+        "added": 1293,
+        "ranked": 1065,
+        "reference": 1301,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1152,
+        "after": 2066,
+        "added": 914,
+        "ranked": 1148,
+        "reference": 918,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1130,
+        "after": 4845,
+        "added": 3715,
+        "ranked": 1047,
+        "reference": 3798,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ZA",
+        "male": 1815,
+        "female": 1379,
+        "surname": 4161,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "NG",
+      "name": "ナイジェリア",
+      "male": {
+        "before": 831,
+        "after": 2073,
+        "added": 1242,
+        "ranked": 829,
+        "reference": 1244,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 564,
+        "after": 1276,
+        "added": 712,
+        "ranked": 563,
+        "reference": 713,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 955,
+        "after": 3336,
+        "added": 2381,
+        "ranked": 955,
+        "reference": 2381,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "NG",
+        "male": 1805,
+        "female": 1043,
+        "surname": 2910,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IN",
+      "name": "インド",
+      "male": {
+        "before": 2518,
+        "after": 4312,
+        "added": 1794,
+        "ranked": 660,
+        "reference": 3652,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 809,
+        "after": 1924,
+        "added": 1115,
+        "ranked": 290,
+        "reference": 1634,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 525,
+        "after": 3470,
+        "added": 2945,
+        "ranked": 524,
+        "reference": 2946,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IN",
+        "male": 2331,
+        "female": 1454,
+        "surname": 3285,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TR",
+      "name": "トルコ",
+      "male": {
+        "before": 1949,
+        "after": 3057,
+        "added": 1108,
+        "ranked": 1457,
+        "reference": 1600,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1713,
+        "after": 2387,
+        "added": 674,
+        "ranked": 1276,
+        "reference": 1111,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1996,
+        "after": 6837,
+        "added": 4841,
+        "ranked": 1995,
+        "reference": 4842,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TR",
+        "male": 2033,
+        "female": 1295,
+        "surname": 6312,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PL",
+      "name": "ポーランド",
+      "male": {
+        "before": 47434,
+        "after": 47611,
+        "added": 177,
+        "ranked": 47406,
+        "reference": 205,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 30109,
+        "after": 30169,
+        "added": 60,
+        "ranked": 30090,
+        "reference": 79,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 607527,
+        "after": 609182,
+        "added": 1655,
+        "ranked": 598466,
+        "reference": 10716,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PL",
+        "male": 1642,
+        "female": 1028,
+        "surname": 33471,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AE",
+      "name": "アラブ首長国連邦",
+      "male": {
+        "before": 816,
+        "after": 910,
+        "added": 94,
+        "ranked": 814,
+        "reference": 96,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 335,
+        "after": 397,
+        "added": 62,
+        "ranked": 334,
+        "reference": 63,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 707,
+        "after": 831,
+        "added": 124,
+        "ranked": 707,
+        "reference": 124,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AE",
+        "male": 162,
+        "female": 85,
+        "surname": 151,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AO",
+      "name": "アンゴラ",
+      "male": {
+        "before": 64,
+        "after": 375,
+        "added": 311,
+        "ranked": 62,
+        "reference": 313,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 55,
+        "after": 280,
+        "added": 225,
+        "ranked": 54,
+        "reference": 226,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 62,
+        "after": 440,
+        "added": 378,
+        "ranked": 62,
+        "reference": 378,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AO",
+        "male": 328,
+        "female": 231,
+        "surname": 396,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BD",
+      "name": "バングラデシュ",
+      "male": {
+        "before": 359,
+        "after": 669,
+        "added": 310,
+        "ranked": 359,
+        "reference": 310,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 161,
+        "after": 383,
+        "added": 222,
+        "ranked": 161,
+        "reference": 222,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 393,
+        "after": 642,
+        "added": 249,
+        "ranked": 393,
+        "reference": 249,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BD",
+        "male": 428,
+        "female": 251,
+        "surname": 392,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BG",
+      "name": "ブルガリア",
+      "male": {
+        "before": 793,
+        "after": 1336,
+        "added": 543,
+        "ranked": 68,
+        "reference": 1268,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1081,
+        "after": 1364,
+        "added": 283,
+        "ranked": 55,
+        "reference": 1309,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 59,
+        "after": 1320,
+        "added": 1261,
+        "ranked": 59,
+        "reference": 1261,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BG",
+        "male": 819,
+        "female": 548,
+        "surname": 1291,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BH",
+      "name": "バーレーン",
+      "male": {
+        "before": 188,
+        "after": 303,
+        "added": 115,
+        "ranked": 188,
+        "reference": 115,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 147,
+        "after": 211,
+        "added": 64,
+        "ranked": 145,
+        "reference": 66,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 202,
+        "after": 293,
+        "added": 91,
+        "ranked": 202,
+        "reference": 91,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BH",
+        "male": 145,
+        "female": 72,
+        "surname": 108,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BO",
+      "name": "ボリビア",
+      "male": {
+        "before": 306,
+        "after": 680,
+        "added": 374,
+        "ranked": 306,
+        "reference": 374,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 287,
+        "after": 476,
+        "added": 189,
+        "ranked": 287,
+        "reference": 189,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 231,
+        "after": 944,
+        "added": 713,
+        "ranked": 224,
+        "reference": 720,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BO",
+        "male": 545,
+        "female": 324,
+        "surname": 834,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CM",
+      "name": "カメルーン",
+      "male": {
+        "before": 233,
+        "after": 808,
+        "added": 575,
+        "ranked": 231,
+        "reference": 577,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 225,
+        "after": 659,
+        "added": 434,
+        "ranked": 225,
+        "reference": 434,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 138,
+        "after": 868,
+        "added": 730,
+        "ranked": 138,
+        "reference": 730,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CM",
+        "male": 713,
+        "female": 551,
+        "surname": 770,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CN",
+      "name": "中国",
+      "male": {
+        "before": 164,
+        "after": 2174,
+        "added": 2010,
+        "ranked": 135,
+        "reference": 2039,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 160,
+        "after": 1450,
+        "added": 1290,
+        "ranked": 131,
+        "reference": 1319,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 134,
+        "after": 899,
+        "added": 765,
+        "ranked": 134,
+        "reference": 765,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CN",
+        "male": 2063,
+        "female": 1352,
+        "surname": 813,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CR",
+      "name": "コスタリカ",
+      "male": {
+        "before": 244,
+        "after": 692,
+        "added": 448,
+        "ranked": 242,
+        "reference": 450,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 241,
+        "after": 447,
+        "added": 206,
+        "ranked": 239,
+        "reference": 208,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 193,
+        "after": 727,
+        "added": 534,
+        "ranked": 193,
+        "reference": 534,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CR",
+        "male": 572,
+        "female": 301,
+        "surname": 631,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CZ",
+      "name": "チェコ",
+      "male": {
+        "before": 290,
+        "after": 884,
+        "added": 594,
+        "ranked": 141,
+        "reference": 743,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 376,
+        "after": 857,
+        "added": 481,
+        "ranked": 158,
+        "reference": 699,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 91,
+        "after": 9772,
+        "added": 9681,
+        "ranked": 90,
+        "reference": 9682,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CZ",
+        "male": 756,
+        "female": 679,
+        "surname": 9714,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "DK",
+      "name": "デンマーク",
+      "male": {
+        "before": 628,
+        "after": 1777,
+        "added": 1149,
+        "ranked": 187,
+        "reference": 1590,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 760,
+        "after": 1332,
+        "added": 572,
+        "ranked": 177,
+        "reference": 1155,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 290181,
+        "after": 291516,
+        "added": 1335,
+        "ranked": 112,
+        "reference": 291404,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "DK",
+        "male": 1577,
+        "female": 1027,
+        "surname": 7944,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "DZ",
+      "name": "アルジェリア",
+      "male": {
+        "before": 1087,
+        "after": 1360,
+        "added": 273,
+        "ranked": 1087,
+        "reference": 273,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 949,
+        "after": 1149,
+        "added": 200,
+        "ranked": 949,
+        "reference": 200,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1290,
+        "after": 2034,
+        "added": 744,
+        "ranked": 1290,
+        "reference": 744,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "DZ",
+        "male": 527,
+        "female": 340,
+        "surname": 952,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "EG",
+      "name": "エジプト",
+      "male": {
+        "before": 1203,
+        "after": 1634,
+        "added": 431,
+        "ranked": 1201,
+        "reference": 433,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1076,
+        "after": 1355,
+        "added": 279,
+        "ranked": 1070,
+        "reference": 285,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 2031,
+        "after": 2683,
+        "added": 652,
+        "ranked": 2031,
+        "reference": 652,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "EG",
+        "male": 713,
+        "female": 501,
+        "surname": 1068,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "FI",
+      "name": "フィンランド",
+      "male": {
+        "before": 11026,
+        "after": 11336,
+        "added": 310,
+        "ranked": 11013,
+        "reference": 323,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 14347,
+        "after": 14457,
+        "added": 110,
+        "ranked": 14328,
+        "reference": 129,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23733,
+        "after": 27376,
+        "added": 3643,
+        "ranked": 23260,
+        "reference": 4116,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "FI",
+        "male": 2107,
+        "female": 1559,
+        "surname": 12674,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GH",
+      "name": "ガーナ",
+      "male": {
+        "before": 130,
+        "after": 730,
+        "added": 600,
+        "ranked": 127,
+        "reference": 603,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 119,
+        "after": 512,
+        "added": 393,
+        "ranked": 118,
+        "reference": 394,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 112,
+        "after": 1047,
+        "added": 935,
+        "ranked": 112,
+        "reference": 935,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GH",
+        "male": 669,
+        "female": 450,
+        "surname": 976,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GR",
+      "name": "ギリシャ",
+      "male": {
+        "before": 401,
+        "after": 1137,
+        "added": 736,
+        "ranked": 136,
+        "reference": 1001,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 579,
+        "after": 1078,
+        "added": 499,
+        "ranked": 114,
+        "reference": 964,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 84,
+        "after": 2109,
+        "added": 2025,
+        "ranked": 83,
+        "reference": 2026,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GR",
+        "male": 912,
+        "female": 704,
+        "surname": 2029,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GT",
+      "name": "グアテマラ",
+      "male": {
+        "before": 199,
+        "after": 506,
+        "added": 307,
+        "ranked": 199,
+        "reference": 307,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 171,
+        "after": 371,
+        "added": 200,
+        "ranked": 171,
+        "reference": 200,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 151,
+        "after": 624,
+        "added": 473,
+        "ranked": 151,
+        "reference": 473,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GT",
+        "male": 407,
+        "female": 262,
+        "surname": 552,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "HK",
+      "name": "香港",
+      "male": {
+        "before": 309,
+        "after": 417,
+        "added": 108,
+        "ranked": 309,
+        "reference": 108,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 290,
+        "after": 503,
+        "added": 213,
+        "ranked": 290,
+        "reference": 213,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 217,
+        "after": 347,
+        "added": 130,
+        "ranked": 213,
+        "reference": 134,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "HK",
+        "male": 195,
+        "female": 312,
+        "surname": 199,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IL",
+      "name": "イスラエル",
+      "male": {
+        "before": 832,
+        "after": 2093,
+        "added": 1261,
+        "ranked": 413,
+        "reference": 1680,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 793,
+        "after": 1710,
+        "added": 917,
+        "ranked": 394,
+        "reference": 1316,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 179,
+        "after": 6441,
+        "added": 6262,
+        "ranked": 179,
+        "reference": 6262,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IL",
+        "male": 1724,
+        "female": 1297,
+        "surname": 6324,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IQ",
+      "name": "イラク",
+      "male": {
+        "before": 820,
+        "after": 1187,
+        "added": 367,
+        "ranked": 820,
+        "reference": 367,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 475,
+        "after": 613,
+        "added": 138,
+        "ranked": 475,
+        "reference": 138,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 929,
+        "after": 1224,
+        "added": 295,
+        "ranked": 929,
+        "reference": 295,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IQ",
+        "male": 580,
+        "female": 203,
+        "surname": 401,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IR",
+      "name": "イラン",
+      "male": {
+        "before": 1440,
+        "after": 1933,
+        "added": 493,
+        "ranked": 345,
+        "reference": 1588,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1025,
+        "after": 1319,
+        "added": 294,
+        "ranked": 265,
+        "reference": 1054,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 212,
+        "after": 1781,
+        "added": 1569,
+        "ranked": 212,
+        "reference": 1569,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IR",
+        "male": 791,
+        "female": 453,
+        "surname": 1655,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "JO",
+      "name": "ヨルダン",
+      "male": {
+        "before": 370,
+        "after": 617,
+        "added": 247,
+        "ranked": 369,
+        "reference": 248,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 279,
+        "after": 390,
+        "added": 111,
+        "ranked": 276,
+        "reference": 114,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 193,
+        "after": 515,
+        "added": 322,
+        "ranked": 193,
+        "reference": 322,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "JO",
+        "male": 360,
+        "female": 162,
+        "surname": 351,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "KW",
+      "name": "クウェート",
+      "male": {
+        "before": 390,
+        "after": 470,
+        "added": 80,
+        "ranked": 390,
+        "reference": 80,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 253,
+        "after": 303,
+        "added": 50,
+        "ranked": 253,
+        "reference": 50,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 349,
+        "after": 457,
+        "added": 108,
+        "ranked": 349,
+        "reference": 108,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "KW",
+        "male": 140,
+        "female": 69,
+        "surname": 120,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "KZ",
+      "name": "カザフスタン",
+      "male": {
+        "before": 487,
+        "after": 723,
+        "added": 236,
+        "ranked": 195,
+        "reference": 528,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 554,
+        "after": 663,
+        "added": 109,
+        "ranked": 206,
+        "reference": 457,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 91,
+        "after": 1125,
+        "added": 1034,
+        "ranked": 91,
+        "reference": 1034,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "KZ",
+        "male": 387,
+        "female": 260,
+        "surname": 1062,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LB",
+      "name": "レバノン",
+      "male": {
+        "before": 278,
+        "after": 802,
+        "added": 524,
+        "ranked": 278,
+        "reference": 524,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 256,
+        "after": 576,
+        "added": 320,
+        "ranked": 255,
+        "reference": 321,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 265,
+        "after": 965,
+        "added": 700,
+        "ranked": 265,
+        "reference": 700,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LB",
+        "male": 618,
+        "female": 398,
+        "surname": 807,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LU",
+      "name": "ルクセンブルク",
+      "male": {
+        "before": 322,
+        "after": 839,
+        "added": 517,
+        "ranked": 82,
+        "reference": 757,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 391,
+        "after": 739,
+        "added": 348,
+        "ranked": 78,
+        "reference": 661,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 98,
+        "after": 2757,
+        "added": 2659,
+        "ranked": 98,
+        "reference": 2659,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LU",
+        "male": 694,
+        "female": 537,
+        "surname": 2694,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LY",
+      "name": "リビア",
+      "male": {
+        "before": 413,
+        "after": 488,
+        "added": 75,
+        "ranked": 413,
+        "reference": 75,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 276,
+        "after": 311,
+        "added": 35,
+        "ranked": 276,
+        "reference": 35,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 368,
+        "after": 428,
+        "added": 60,
+        "ranked": 368,
+        "reference": 60,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LY",
+        "male": 150,
+        "female": 45,
+        "surname": 76,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MA",
+      "name": "モロッコ",
+      "male": {
+        "before": 1326,
+        "after": 1607,
+        "added": 281,
+        "ranked": 1324,
+        "reference": 283,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1212,
+        "after": 1350,
+        "added": 138,
+        "ranked": 1210,
+        "reference": 140,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1965,
+        "after": 2602,
+        "added": 637,
+        "ranked": 1965,
+        "reference": 637,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MA",
+        "male": 517,
+        "female": 303,
+        "surname": 877,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MO",
+      "name": "マカオ",
+      "male": {
+        "before": 52,
+        "after": 134,
+        "added": 82,
+        "ranked": 52,
+        "reference": 82,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 49,
+        "after": 76,
+        "added": 27,
+        "ranked": 49,
+        "reference": 27,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 56,
+        "after": 142,
+        "added": 86,
+        "ranked": 56,
+        "reference": 86,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MO",
+        "male": 82,
+        "female": 27,
+        "surname": 93,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MU",
+      "name": "モーリシャス",
+      "male": {
+        "before": 136,
+        "after": 411,
+        "added": 275,
+        "ranked": 134,
+        "reference": 277,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 135,
+        "after": 326,
+        "added": 191,
+        "ranked": 134,
+        "reference": 192,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 114,
+        "after": 389,
+        "added": 275,
+        "ranked": 114,
+        "reference": 275,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MU",
+        "male": 287,
+        "female": 194,
+        "surname": 276,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MY",
+      "name": "マレーシア",
+      "male": {
+        "before": 879,
+        "after": 1649,
+        "added": 770,
+        "ranked": 876,
+        "reference": 773,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 779,
+        "after": 1175,
+        "added": 396,
+        "ranked": 775,
+        "reference": 400,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1076,
+        "after": 1554,
+        "added": 478,
+        "ranked": 1076,
+        "reference": 478,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MY",
+        "male": 1074,
+        "female": 593,
+        "surname": 756,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "NO",
+      "name": "ノルウェー",
+      "male": {
+        "before": 1123,
+        "after": 2656,
+        "added": 1533,
+        "ranked": 987,
+        "reference": 1669,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1253,
+        "after": 2126,
+        "added": 873,
+        "ranked": 1098,
+        "reference": 1028,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 319761,
+        "after": 322280,
+        "added": 2519,
+        "ranked": 117807,
+        "reference": 204473,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "NO",
+        "male": 2320,
+        "female": 1704,
+        "surname": 20202,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "OM",
+      "name": "オマーン",
+      "male": {
+        "before": 570,
+        "after": 606,
+        "added": 36,
+        "ranked": 569,
+        "reference": 37,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 252,
+        "after": 269,
+        "added": 17,
+        "ranked": 250,
+        "reference": 19,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 539,
+        "after": 561,
+        "added": 22,
+        "ranked": 539,
+        "reference": 22,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "OM",
+        "male": 85,
+        "female": 23,
+        "surname": 26,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PA",
+      "name": "パナマ",
+      "male": {
+        "before": 207,
+        "after": 589,
+        "added": 382,
+        "ranked": 207,
+        "reference": 382,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 175,
+        "after": 403,
+        "added": 228,
+        "ranked": 174,
+        "reference": 229,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 206,
+        "after": 877,
+        "added": 671,
+        "ranked": 206,
+        "reference": 671,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PA",
+        "male": 494,
+        "female": 288,
+        "surname": 770,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PH",
+      "name": "フィリピン",
+      "male": {
+        "before": 114,
+        "after": 1387,
+        "added": 1273,
+        "ranked": 102,
+        "reference": 1285,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 105,
+        "after": 1070,
+        "added": 965,
+        "ranked": 94,
+        "reference": 976,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 138,
+        "after": 2310,
+        "added": 2172,
+        "ranked": 138,
+        "reference": 2172,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PH",
+        "male": 1315,
+        "female": 1000,
+        "surname": 2233,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PS",
+      "name": "パレスチナ",
+      "male": {
+        "before": 402,
+        "after": 791,
+        "added": 389,
+        "ranked": 402,
+        "reference": 389,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 323,
+        "after": 500,
+        "added": 177,
+        "ranked": 323,
+        "reference": 177,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 191,
+        "after": 680,
+        "added": 489,
+        "ranked": 191,
+        "reference": 489,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PS",
+        "male": 493,
+        "female": 234,
+        "surname": 531,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "QA",
+      "name": "カタール",
+      "male": {
+        "before": 333,
+        "after": 442,
+        "added": 109,
+        "ranked": 332,
+        "reference": 110,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 206,
+        "after": 241,
+        "added": 35,
+        "ranked": 205,
+        "reference": 36,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 294,
+        "after": 398,
+        "added": 104,
+        "ranked": 294,
+        "reference": 104,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "QA",
+        "male": 153,
+        "female": 37,
+        "surname": 111,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "RU",
+      "name": "ロシア",
+      "male": {
+        "before": 433,
+        "after": 1627,
+        "added": 1194,
+        "ranked": 316,
+        "reference": 1311,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 466,
+        "after": 1060,
+        "added": 594,
+        "ranked": 320,
+        "reference": 740,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 229,
+        "after": 8873,
+        "added": 8644,
+        "ranked": 222,
+        "reference": 8651,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "RU",
+        "male": 1449,
+        "female": 835,
+        "surname": 8751,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SA",
+      "name": "サウジアラビア",
+      "male": {
+        "before": 1990,
+        "after": 2101,
+        "added": 111,
+        "ranked": 1989,
+        "reference": 112,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 768,
+        "after": 821,
+        "added": 53,
+        "ranked": 768,
+        "reference": 53,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 2023,
+        "after": 2226,
+        "added": 203,
+        "ranked": 2023,
+        "reference": 203,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SA",
+        "male": 306,
+        "female": 122,
+        "surname": 296,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SD",
+      "name": "スーダン",
+      "male": {
+        "before": 486,
+        "after": 611,
+        "added": 125,
+        "ranked": 486,
+        "reference": 125,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 337,
+        "after": 399,
+        "added": 62,
+        "ranked": 335,
+        "reference": 64,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 449,
+        "after": 569,
+        "added": 120,
+        "ranked": 449,
+        "reference": 120,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SD",
+        "male": 219,
+        "female": 96,
+        "surname": 187,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SE",
+      "name": "スウェーデン",
+      "male": {
+        "before": 883,
+        "after": 3514,
+        "added": 2631,
+        "ranked": 234,
+        "reference": 3280,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1011,
+        "after": 2703,
+        "added": 1692,
+        "ranked": 222,
+        "reference": 2481,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 129,
+        "after": 18535,
+        "added": 18406,
+        "ranked": 129,
+        "reference": 18406,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SE",
+        "male": 3236,
+        "female": 2342,
+        "surname": 18437,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SG",
+      "name": "シンガポール",
+      "male": {
+        "before": 349,
+        "after": 749,
+        "added": 400,
+        "ranked": 346,
+        "reference": 403,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 284,
+        "after": 584,
+        "added": 300,
+        "ranked": 281,
+        "reference": 303,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 286,
+        "after": 632,
+        "added": 346,
+        "ranked": 286,
+        "reference": 346,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SG",
+        "male": 515,
+        "female": 381,
+        "surname": 439,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SY",
+      "name": "シリア",
+      "male": {
+        "before": 574,
+        "after": 977,
+        "added": 403,
+        "ranked": 574,
+        "reference": 403,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 463,
+        "after": 594,
+        "added": 131,
+        "ranked": 463,
+        "reference": 131,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 611,
+        "after": 1137,
+        "added": 526,
+        "ranked": 611,
+        "reference": 526,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SY",
+        "male": 588,
+        "female": 223,
+        "surname": 648,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TN",
+      "name": "チュニジア",
+      "male": {
+        "before": 735,
+        "after": 1023,
+        "added": 288,
+        "ranked": 735,
+        "reference": 288,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 698,
+        "after": 840,
+        "added": 142,
+        "ranked": 698,
+        "reference": 142,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1005,
+        "after": 1472,
+        "added": 467,
+        "ranked": 1005,
+        "reference": 467,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TN",
+        "male": 488,
+        "female": 306,
+        "surname": 734,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TW",
+      "name": "台湾",
+      "male": {
+        "before": 90,
+        "after": 1148,
+        "added": 1058,
+        "ranked": 85,
+        "reference": 1063,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 80,
+        "after": 765,
+        "added": 685,
+        "ranked": 75,
+        "reference": 690,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 80,
+        "after": 503,
+        "added": 423,
+        "ranked": 80,
+        "reference": 423,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TW",
+        "male": 1069,
+        "female": 691,
+        "surname": 453,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "UY",
+      "name": "ウルグアイ",
+      "male": {
+        "before": 204,
+        "after": 1197,
+        "added": 993,
+        "ranked": 204,
+        "reference": 993,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 218,
+        "after": 817,
+        "added": 599,
+        "ranked": 216,
+        "reference": 601,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 180,
+        "after": 4174,
+        "added": 3994,
+        "ranked": 146,
+        "reference": 4028,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "UY",
+        "male": 1117,
+        "female": 721,
+        "surname": 4086,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "YE",
+      "name": "イエメン",
+      "male": {
+        "before": 365,
+        "after": 457,
+        "added": 92,
+        "ranked": 365,
+        "reference": 92,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 170,
+        "after": 222,
+        "added": 52,
+        "ranked": 170,
+        "reference": 52,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 422,
+        "after": 515,
+        "added": 93,
+        "ranked": 422,
+        "reference": 93,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "YE",
+        "male": 168,
+        "female": 57,
+        "surname": 128,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AF",
+      "name": "アフガニスタン",
+      "male": {
+        "before": 48,
+        "after": 305,
+        "added": 257,
+        "ranked": 45,
+        "reference": 260,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 31,
+        "after": 159,
+        "added": 128,
+        "ranked": 31,
+        "reference": 128,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 47,
+        "after": 333,
+        "added": 286,
+        "ranked": 47,
+        "reference": 286,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AF",
+        "male": 273,
+        "female": 130,
+        "surname": 306,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AL",
+      "name": "アルバニア",
+      "male": {
+        "before": 1064,
+        "after": 1538,
+        "added": 474,
+        "ranked": 85,
+        "reference": 1453,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 783,
+        "after": 1010,
+        "added": 227,
+        "ranked": 50,
+        "reference": 960,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 73,
+        "after": 1312,
+        "added": 1239,
+        "ranked": 72,
+        "reference": 1240,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AL",
+        "male": 956,
+        "female": 437,
+        "surname": 1279,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AU",
+      "name": "オーストラリア",
+      "male": {
+        "before": 40,
+        "after": 3518,
+        "added": 3478,
+        "ranked": 15,
+        "reference": 3503,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 25,
+        "after": 2563,
+        "added": 2538,
+        "ranked": 12,
+        "reference": 2551,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 62,
+        "after": 14472,
+        "added": 14410,
+        "ranked": 34,
+        "reference": 14438,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AU",
+        "male": 3516,
+        "female": 2562,
+        "surname": 14454,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AZ",
+      "name": "アゼルバイジャン",
+      "male": {
+        "before": 411,
+        "after": 791,
+        "added": 380,
+        "ranked": 31,
+        "reference": 760,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 385,
+        "after": 531,
+        "added": 146,
+        "ranked": 34,
+        "reference": 497,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 17,
+        "after": 557,
+        "added": 540,
+        "ranked": 17,
+        "reference": 540,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AZ",
+        "male": 583,
+        "female": 264,
+        "surname": 551,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BF",
+      "name": "ブルキナファソ",
+      "male": {
+        "before": 2,
+        "after": 380,
+        "added": 378,
+        "ranked": 2,
+        "reference": 378,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 3,
+        "after": 210,
+        "added": 207,
+        "ranked": 2,
+        "reference": 208,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1,
+        "after": 214,
+        "added": 213,
+        "ranked": 1,
+        "reference": 213,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BF",
+        "male": 379,
+        "female": 207,
+        "surname": 213,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BI",
+      "name": "ブルンジ",
+      "male": {
+        "before": 7,
+        "after": 274,
+        "added": 267,
+        "ranked": 7,
+        "reference": 267,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 6,
+        "after": 115,
+        "added": 109,
+        "ranked": 6,
+        "reference": 109,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 4,
+        "after": 117,
+        "added": 113,
+        "ranked": 4,
+        "reference": 113,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BI",
+        "male": 269,
+        "female": 111,
+        "surname": 113,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BN",
+      "name": "ブルネイ",
+      "male": {
+        "before": 57,
+        "after": 118,
+        "added": 61,
+        "ranked": 57,
+        "reference": 61,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 54,
+        "after": 82,
+        "added": 28,
+        "ranked": 53,
+        "reference": 29,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 49,
+        "after": 93,
+        "added": 44,
+        "ranked": 49,
+        "reference": 44,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BN",
+        "male": 62,
+        "female": 28,
+        "surname": 45,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BW",
+      "name": "ボツワナ",
+      "male": {
+        "before": 36,
+        "after": 234,
+        "added": 198,
+        "ranked": 34,
+        "reference": 200,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 31,
+        "after": 163,
+        "added": 132,
+        "ranked": 29,
+        "reference": 134,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23,
+        "after": 182,
+        "added": 159,
+        "ranked": 23,
+        "reference": 159,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BW",
+        "male": 198,
+        "female": 133,
+        "surname": 160,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CY",
+      "name": "キプロス",
+      "male": {
+        "before": 50,
+        "after": 427,
+        "added": 377,
+        "ranked": 50,
+        "reference": 377,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 51,
+        "after": 243,
+        "added": 192,
+        "ranked": 50,
+        "reference": 193,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 40,
+        "after": 911,
+        "added": 871,
+        "ranked": 40,
+        "reference": 871,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CY",
+        "male": 387,
+        "female": 205,
+        "surname": 872,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "DJ",
+      "name": "ジブチ",
+      "male": {
+        "before": 9,
+        "after": 41,
+        "added": 32,
+        "ranked": 6,
+        "reference": 35,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 4,
+        "after": 22,
+        "added": 18,
+        "ranked": 3,
+        "reference": 19,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 6,
+        "after": 25,
+        "added": 19,
+        "ranked": 6,
+        "reference": 19,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "DJ",
+        "male": 34,
+        "female": 18,
+        "surname": 20,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "EC",
+      "name": "エクアドル",
+      "male": {
+        "before": 65,
+        "after": 732,
+        "added": 667,
+        "ranked": 63,
+        "reference": 669,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 56,
+        "after": 529,
+        "added": 473,
+        "ranked": 55,
+        "reference": 474,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 32,
+        "after": 1158,
+        "added": 1126,
+        "ranked": 32,
+        "reference": 1126,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "EC",
+        "male": 688,
+        "female": 483,
+        "surname": 1134,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "EE",
+      "name": "エストニア",
+      "male": {
+        "before": 552,
+        "after": 2133,
+        "added": 1581,
+        "ranked": 28,
+        "reference": 2105,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 614,
+        "after": 1886,
+        "added": 1272,
+        "ranked": 28,
+        "reference": 1858,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 38,
+        "after": 13643,
+        "added": 13605,
+        "ranked": 38,
+        "reference": 13605,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "EE",
+        "male": 2022,
+        "female": 1729,
+        "surname": 13630,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ET",
+      "name": "エチオピア",
+      "male": {
+        "before": 7,
+        "after": 178,
+        "added": 171,
+        "ranked": 5,
+        "reference": 173,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 7,
+        "after": 127,
+        "added": 120,
+        "ranked": 6,
+        "reference": 121,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 3,
+        "after": 265,
+        "added": 262,
+        "ranked": 3,
+        "reference": 262,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ET",
+        "male": 172,
+        "female": 120,
+        "surname": 263,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GE",
+      "name": "ジョージア",
+      "male": {
+        "before": 189,
+        "after": 504,
+        "added": 315,
+        "ranked": 26,
+        "reference": 478,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 144,
+        "after": 268,
+        "added": 124,
+        "ranked": 26,
+        "reference": 242,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 29,
+        "after": 2243,
+        "added": 2214,
+        "ranked": 29,
+        "reference": 2214,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GE",
+        "male": 450,
+        "female": 200,
+        "surname": 2231,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "HN",
+      "name": "ホンジュラス",
+      "male": {
+        "before": 11,
+        "after": 415,
+        "added": 404,
+        "ranked": 9,
+        "reference": 406,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 11,
+        "after": 186,
+        "added": 175,
+        "ranked": 9,
+        "reference": 177,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 5,
+        "after": 397,
+        "added": 392,
+        "ranked": 5,
+        "reference": 392,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "HN",
+        "male": 406,
+        "female": 177,
+        "surname": 393,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "HR",
+      "name": "クロアチア",
+      "male": {
+        "before": 506,
+        "after": 985,
+        "added": 479,
+        "ranked": 109,
+        "reference": 876,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 476,
+        "after": 759,
+        "added": 283,
+        "ranked": 112,
+        "reference": 647,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 224,
+        "after": 2883,
+        "added": 2659,
+        "ranked": 62,
+        "reference": 2821,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "HR",
+        "male": 737,
+        "female": 492,
+        "surname": 2730,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "HT",
+      "name": "ハイチ",
+      "male": {
+        "before": 14,
+        "after": 535,
+        "added": 521,
+        "ranked": 14,
+        "reference": 521,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 19,
+        "after": 307,
+        "added": 288,
+        "ranked": 17,
+        "reference": 290,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 4,
+        "after": 784,
+        "added": 780,
+        "ranked": 4,
+        "reference": 780,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "HT",
+        "male": 529,
+        "female": 294,
+        "surname": 784,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "HU",
+      "name": "ハンガリー",
+      "male": {
+        "before": 224,
+        "after": 1655,
+        "added": 1431,
+        "ranked": 86,
+        "reference": 1569,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 260,
+        "after": 1112,
+        "added": 852,
+        "ranked": 79,
+        "reference": 1033,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 59,
+        "after": 11417,
+        "added": 11358,
+        "ranked": 58,
+        "reference": 11359,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "HU",
+        "male": 1552,
+        "female": 1014,
+        "surname": 11393,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ID",
+      "name": "インドネシア",
+      "male": {
+        "before": 61,
+        "after": 1715,
+        "added": 1654,
+        "ranked": 42,
+        "reference": 1673,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 40,
+        "after": 1505,
+        "added": 1465,
+        "ranked": 36,
+        "reference": 1469,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 27,
+        "after": 2144,
+        "added": 2117,
+        "ranked": 27,
+        "reference": 2117,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ID",
+        "male": 1671,
+        "female": 1484,
+        "surname": 2125,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IS",
+      "name": "アイスランド",
+      "male": {
+        "before": 664,
+        "after": 1064,
+        "added": 400,
+        "ranked": 22,
+        "reference": 1042,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 650,
+        "after": 840,
+        "added": 190,
+        "ranked": 20,
+        "reference": 820,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23,
+        "after": 498,
+        "added": 475,
+        "ranked": 23,
+        "reference": 475,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IS",
+        "male": 614,
+        "female": 326,
+        "surname": 492,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "JM",
+      "name": "ジャマイカ",
+      "male": {
+        "before": 60,
+        "after": 744,
+        "added": 684,
+        "ranked": 53,
+        "reference": 691,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 44,
+        "after": 505,
+        "added": 461,
+        "ranked": 38,
+        "reference": 467,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 55,
+        "after": 986,
+        "added": 931,
+        "ranked": 55,
+        "reference": 931,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "JM",
+        "male": 713,
+        "female": 468,
+        "surname": 961,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "KH",
+      "name": "カンボジア",
+      "male": {
+        "before": 2,
+        "after": 81,
+        "added": 79,
+        "ranked": 1,
+        "reference": 80,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1,
+        "after": 34,
+        "added": 33,
+        "ranked": 1,
+        "reference": 33,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 84,
+        "after": 185,
+        "added": 101,
+        "ranked": 84,
+        "reference": 101,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "KH",
+        "male": 79,
+        "female": 33,
+        "surname": 115,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LT",
+      "name": "リトアニア",
+      "male": {
+        "before": 528,
+        "after": 984,
+        "added": 456,
+        "ranked": 38,
+        "reference": 946,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 364,
+        "after": 682,
+        "added": 318,
+        "ranked": 39,
+        "reference": 643,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 25,
+        "after": 2125,
+        "added": 2100,
+        "ranked": 25,
+        "reference": 2100,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LT",
+        "male": 748,
+        "female": 475,
+        "surname": 2110,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MD",
+      "name": "モルドバ",
+      "male": {
+        "before": 200,
+        "after": 338,
+        "added": 138,
+        "ranked": 19,
+        "reference": 319,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 224,
+        "after": 304,
+        "added": 80,
+        "ranked": 19,
+        "reference": 285,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23,
+        "after": 523,
+        "added": 500,
+        "ranked": 23,
+        "reference": 500,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MD",
+        "male": 258,
+        "female": 182,
+        "surname": 512,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MT",
+      "name": "マルタ",
+      "male": {
+        "before": 381,
+        "after": 628,
+        "added": 247,
+        "ranked": 55,
+        "reference": 573,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 277,
+        "after": 493,
+        "added": 216,
+        "ranked": 48,
+        "reference": 445,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 45,
+        "after": 511,
+        "added": 466,
+        "ranked": 45,
+        "reference": 466,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MT",
+        "male": 459,
+        "female": 343,
+        "surname": 478,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MV",
+      "name": "モルディブ",
+      "male": {
+        "before": 33,
+        "after": 75,
+        "added": 42,
+        "ranked": 33,
+        "reference": 42,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 26,
+        "after": 63,
+        "added": 37,
+        "ranked": 26,
+        "reference": 37,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 27,
+        "after": 87,
+        "added": 60,
+        "ranked": 27,
+        "reference": 60,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MV",
+        "male": 45,
+        "female": 37,
+        "surname": 64,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PK",
+      "name": "パキスタン",
+      "male": {
+        "before": 19,
+        "after": 668,
+        "added": 649,
+        "ranked": 16,
+        "reference": 652,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 15,
+        "after": 351,
+        "added": 336,
+        "ranked": 10,
+        "reference": 341,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 3,
+        "after": 639,
+        "added": 636,
+        "ranked": 3,
+        "reference": 636,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PK",
+        "male": 663,
+        "female": 347,
+        "surname": 638,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PR",
+      "name": "プエルトリコ",
+      "male": {
+        "before": 39,
+        "after": 614,
+        "added": 575,
+        "ranked": 39,
+        "reference": 575,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 40,
+        "after": 407,
+        "added": 367,
+        "ranked": 40,
+        "reference": 367,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 34,
+        "after": 926,
+        "added": 892,
+        "ranked": 32,
+        "reference": 894,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PR",
+        "male": 585,
+        "female": 375,
+        "surname": 897,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "RO",
+      "name": "ルーマニア",
+      "male": {
+        "before": 747,
+        "after": 1826,
+        "added": 1079,
+        "ranked": 11,
+        "reference": 1815,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1230,
+        "after": 1800,
+        "added": 570,
+        "ranked": 10,
+        "reference": 1790,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 13,
+        "after": 5113,
+        "added": 5100,
+        "ranked": 13,
+        "reference": 5100,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "RO",
+        "male": 1393,
+        "female": 888,
+        "surname": 5113,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "RS",
+      "name": "セルビア",
+      "male": {
+        "before": 406,
+        "after": 900,
+        "added": 494,
+        "ranked": 44,
+        "reference": 856,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 372,
+        "after": 632,
+        "added": 260,
+        "ranked": 36,
+        "reference": 596,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 21,
+        "after": 1754,
+        "added": 1733,
+        "ranked": 20,
+        "reference": 1734,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "RS",
+        "male": 694,
+        "female": 411,
+        "surname": 1744,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SI",
+      "name": "スロベニア",
+      "male": {
+        "before": 382,
+        "after": 5165,
+        "added": 4783,
+        "ranked": 4252,
+        "reference": 913,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 326,
+        "after": 5043,
+        "added": 4717,
+        "ranked": 4435,
+        "reference": 608,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 28368,
+        "after": 35573,
+        "added": 7205,
+        "ranked": 30412,
+        "reference": 5161,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SI",
+        "male": 899,
+        "female": 637,
+        "surname": 7271,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SK",
+      "name": "スロバキア",
+      "male": {
+        "before": 229,
+        "after": 533,
+        "added": 304,
+        "ranked": 12,
+        "reference": 521,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 254,
+        "after": 516,
+        "added": 262,
+        "ranked": 11,
+        "reference": 505,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 21,
+        "after": 3118,
+        "added": 3097,
+        "ranked": 21,
+        "reference": 3097,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SK",
+        "male": 446,
+        "female": 405,
+        "surname": 3117,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TM",
+      "name": "トルクメニスタン",
+      "male": {
+        "before": 9,
+        "after": 94,
+        "added": 85,
+        "ranked": 4,
+        "reference": 90,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 4,
+        "after": 30,
+        "added": 26,
+        "ranked": 4,
+        "reference": 26,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 3,
+        "after": 72,
+        "added": 69,
+        "ranked": 3,
+        "reference": 69,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TM",
+        "male": 86,
+        "female": 26,
+        "surname": 69,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "UA",
+      "name": "ウクライナ",
+      "male": {
+        "before": 265,
+        "after": 875,
+        "added": 610,
+        "ranked": 10,
+        "reference": 865,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 272,
+        "after": 616,
+        "added": 344,
+        "ranked": 10,
+        "reference": 606,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 24,
+        "after": 5406,
+        "added": 5382,
+        "ranked": 23,
+        "reference": 5383,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "UA",
+        "male": 778,
+        "female": 517,
+        "surname": 5403,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "UZ",
+      "name": "ウズベキスタン",
+      "male": {
+        "before": 4,
+        "after": 273,
+        "added": 269,
+        "ranked": 2,
+        "reference": 271,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 0,
+        "after": 168,
+        "added": 168,
+        "ranked": 0,
+        "reference": 168,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1,
+        "after": 438,
+        "added": 437,
+        "ranked": 1,
+        "reference": 437,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "UZ",
+        "male": 269,
+        "female": 168,
+        "surname": 437,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "VE",
+      "name": "ベネズエラ",
+      "male": {
+        "before": 16,
+        "after": 1122,
+        "added": 1106,
+        "ranked": 12,
+        "reference": 1110,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 12,
+        "after": 798,
+        "added": 786,
+        "ranked": 10,
+        "reference": 788,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1,
+        "after": 2038,
+        "added": 2037,
+        "ranked": 1,
+        "reference": 2037,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "VE",
+        "male": 1115,
+        "female": 798,
+        "surname": 2038,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "VN",
+      "name": "ベトナム",
+      "male": {
+        "before": 100,
+        "after": 441,
+        "added": 341,
+        "ranked": 1,
+        "reference": 440,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 59,
+        "after": 232,
+        "added": 173,
+        "ranked": 0,
+        "reference": 232,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 43,
+        "after": 257,
+        "added": 214,
+        "ranked": 43,
+        "reference": 214,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "VN",
+        "male": 362,
+        "female": 194,
+        "surname": 250,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AD",
+      "name": "アンドラ",
+      "male": {
+        "before": 16,
+        "after": 188,
+        "added": 172,
+        "ranked": 7,
+        "reference": 181,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 13,
+        "after": 153,
+        "added": 140,
+        "ranked": 4,
+        "reference": 149,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 327,
+        "added": 327,
+        "ranked": 0,
+        "reference": 327,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AD",
+        "male": 184,
+        "female": 147,
+        "surname": 327,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AM",
+      "name": "アルメニア",
+      "male": {
+        "before": 367,
+        "after": 580,
+        "added": 213,
+        "ranked": 19,
+        "reference": 561,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 296,
+        "after": 385,
+        "added": 89,
+        "ranked": 19,
+        "reference": 366,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 20,
+        "after": 428,
+        "added": 408,
+        "ranked": 20,
+        "reference": 408,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AM",
+        "male": 394,
+        "female": 211,
+        "surname": 428,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "AW",
+      "name": "アルバ",
+      "male": {
+        "before": 5,
+        "after": 128,
+        "added": 123,
+        "ranked": 5,
+        "reference": 123,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 5,
+        "after": 48,
+        "added": 43,
+        "ranked": 5,
+        "reference": 43,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 93,
+        "added": 93,
+        "ranked": 0,
+        "reference": 93,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "AW",
+        "male": 125,
+        "female": 45,
+        "surname": 93,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BA",
+      "name": "ボスニア・ヘルツェゴビナ",
+      "male": {
+        "before": 688,
+        "after": 900,
+        "added": 212,
+        "ranked": 10,
+        "reference": 890,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 530,
+        "after": 632,
+        "added": 102,
+        "ranked": 10,
+        "reference": 622,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 44,
+        "after": 846,
+        "added": 802,
+        "ranked": 44,
+        "reference": 802,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BA",
+        "male": 497,
+        "female": 232,
+        "surname": 837,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "BY",
+      "name": "ベラルーシ",
+      "male": {
+        "before": 253,
+        "after": 530,
+        "added": 277,
+        "ranked": 3,
+        "reference": 527,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 261,
+        "after": 415,
+        "added": 154,
+        "ranked": 4,
+        "reference": 411,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 5,
+        "after": 1890,
+        "added": 1885,
+        "ranked": 5,
+        "reference": 1885,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "BY",
+        "male": 403,
+        "female": 269,
+        "surname": 1886,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "FO",
+      "name": "フェロー諸島",
+      "male": {
+        "before": 956,
+        "after": 991,
+        "added": 35,
+        "ranked": 956,
+        "reference": 35,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1031,
+        "after": 1040,
+        "added": 9,
+        "ranked": 1031,
+        "reference": 9,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 1996,
+        "after": 2038,
+        "added": 42,
+        "ranked": 1996,
+        "reference": 42,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "FO",
+        "male": 244,
+        "female": 90,
+        "surname": 195,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GG",
+      "name": "ガーンジー",
+      "male": {
+        "before": 11,
+        "after": 147,
+        "added": 136,
+        "ranked": 11,
+        "reference": 136,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 7,
+        "after": 70,
+        "added": 63,
+        "ranked": 7,
+        "reference": 63,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 195,
+        "added": 195,
+        "ranked": 0,
+        "reference": 195,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GG",
+        "male": 141,
+        "female": 65,
+        "surname": 195,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GI",
+      "name": "ジブラルタル",
+      "male": {
+        "before": 8,
+        "after": 71,
+        "added": 63,
+        "ranked": 8,
+        "reference": 63,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 8,
+        "after": 30,
+        "added": 22,
+        "ranked": 8,
+        "reference": 22,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 62,
+        "added": 62,
+        "ranked": 0,
+        "reference": 62,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GI",
+        "male": 64,
+        "female": 22,
+        "surname": 62,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GL",
+      "name": "グリーンランド",
+      "male": {
+        "before": 227,
+        "after": 298,
+        "added": 71,
+        "ranked": 227,
+        "reference": 71,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 231,
+        "after": 269,
+        "added": 38,
+        "ranked": 231,
+        "reference": 38,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 262,
+        "after": 334,
+        "added": 72,
+        "ranked": 262,
+        "reference": 72,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GL",
+        "male": 182,
+        "female": 97,
+        "surname": 168,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "GQ",
+      "name": "赤道ギニア",
+      "male": {
+        "before": 7,
+        "after": 256,
+        "added": 249,
+        "ranked": 4,
+        "reference": 252,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 7,
+        "after": 113,
+        "added": 106,
+        "ranked": 5,
+        "reference": 108,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 195,
+        "added": 195,
+        "ranked": 0,
+        "reference": 195,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "GQ",
+        "male": 255,
+        "female": 109,
+        "surname": 195,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "IM",
+      "name": "マン島",
+      "male": {
+        "before": 9,
+        "after": 139,
+        "added": 130,
+        "ranked": 9,
+        "reference": 130,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 10,
+        "after": 63,
+        "added": 53,
+        "ranked": 10,
+        "reference": 53,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 180,
+        "added": 180,
+        "ranked": 0,
+        "reference": 180,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "IM",
+        "male": 134,
+        "female": 54,
+        "surname": 180,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "JE",
+      "name": "ジャージー",
+      "male": {
+        "before": 10,
+        "after": 192,
+        "added": 182,
+        "ranked": 10,
+        "reference": 182,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 10,
+        "after": 77,
+        "added": 67,
+        "ranked": 10,
+        "reference": 67,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 262,
+        "added": 262,
+        "ranked": 0,
+        "reference": 262,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "JE",
+        "male": 186,
+        "female": 69,
+        "surname": 262,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LI",
+      "name": "リヒテンシュタイン",
+      "male": {
+        "before": 33,
+        "after": 295,
+        "added": 262,
+        "ranked": 14,
+        "reference": 281,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 16,
+        "after": 175,
+        "added": 159,
+        "ranked": 8,
+        "reference": 167,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 287,
+        "added": 287,
+        "ranked": 0,
+        "reference": 287,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LI",
+        "male": 280,
+        "female": 166,
+        "surname": 287,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LV",
+      "name": "ラトビア",
+      "male": {
+        "before": 318,
+        "after": 848,
+        "added": 530,
+        "ranked": 9,
+        "reference": 839,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 376,
+        "after": 703,
+        "added": 327,
+        "ranked": 9,
+        "reference": 694,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 15,
+        "after": 2293,
+        "added": 2278,
+        "ranked": 15,
+        "reference": 2278,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LV",
+        "male": 723,
+        "female": 550,
+        "surname": 2292,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MC",
+      "name": "モナコ",
+      "male": {
+        "before": 12,
+        "after": 166,
+        "added": 154,
+        "ranked": 5,
+        "reference": 161,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 10,
+        "after": 80,
+        "added": 70,
+        "ranked": 5,
+        "reference": 75,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 187,
+        "added": 187,
+        "ranked": 0,
+        "reference": 187,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MC",
+        "male": 160,
+        "female": 73,
+        "surname": 187,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ME",
+      "name": "モンテネグロ",
+      "male": {
+        "before": 363,
+        "after": 494,
+        "added": 131,
+        "ranked": 18,
+        "reference": 476,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 269,
+        "after": 318,
+        "added": 49,
+        "ranked": 20,
+        "reference": 298,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 10,
+        "after": 327,
+        "added": 317,
+        "ranked": 10,
+        "reference": 317,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ME",
+        "male": 251,
+        "female": 106,
+        "surname": 326,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MK",
+      "name": "北マケドニア",
+      "male": {
+        "before": 505,
+        "after": 707,
+        "added": 202,
+        "ranked": 18,
+        "reference": 689,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 356,
+        "after": 463,
+        "added": 107,
+        "ranked": 19,
+        "reference": 444,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 38,
+        "after": 416,
+        "added": 378,
+        "ranked": 38,
+        "reference": 378,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MK",
+        "male": 362,
+        "female": 211,
+        "surname": 393,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "ML",
+      "name": "マリ",
+      "male": {
+        "before": 11,
+        "after": 265,
+        "added": 254,
+        "ranked": 10,
+        "reference": 255,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 12,
+        "after": 115,
+        "added": 103,
+        "ranked": 10,
+        "reference": 105,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 215,
+        "added": 215,
+        "ranked": 0,
+        "reference": 215,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "ML",
+        "male": 265,
+        "female": 113,
+        "surname": 215,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "MN",
+      "name": "モンゴル",
+      "male": {
+        "before": 6,
+        "after": 88,
+        "added": 82,
+        "ranked": 2,
+        "reference": 86,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 7,
+        "after": 38,
+        "added": 31,
+        "ranked": 5,
+        "reference": 33,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 93,
+        "added": 93,
+        "ranked": 0,
+        "reference": 93,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "MN",
+        "male": 82,
+        "female": 32,
+        "surname": 93,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "NP",
+      "name": "ネパール",
+      "male": {
+        "before": 12,
+        "after": 220,
+        "added": 208,
+        "ranked": 10,
+        "reference": 210,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 11,
+        "after": 146,
+        "added": 135,
+        "ranked": 10,
+        "reference": 136,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 20,
+        "after": 167,
+        "added": 147,
+        "ranked": 20,
+        "reference": 147,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "NP",
+        "male": 218,
+        "female": 140,
+        "surname": 163,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "NZ",
+      "name": "ニュージーランド",
+      "male": {
+        "before": 33,
+        "after": 2731,
+        "added": 2698,
+        "ranked": 20,
+        "reference": 2711,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 32,
+        "after": 2064,
+        "added": 2032,
+        "ranked": 20,
+        "reference": 2044,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 10,
+        "after": 8540,
+        "added": 8530,
+        "ranked": 10,
+        "reference": 8530,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "NZ",
+        "male": 2722,
+        "female": 2056,
+        "surname": 8540,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PF",
+      "name": "仏領ポリネシア",
+      "male": {
+        "before": 12,
+        "after": 137,
+        "added": 125,
+        "ranked": 12,
+        "reference": 125,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 14,
+        "after": 61,
+        "added": 47,
+        "ranked": 14,
+        "reference": 47,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 184,
+        "added": 184,
+        "ranked": 0,
+        "reference": 184,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PF",
+        "male": 129,
+        "female": 50,
+        "surname": 184,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "PY",
+      "name": "パラグアイ",
+      "male": {
+        "before": 14,
+        "after": 566,
+        "added": 552,
+        "ranked": 10,
+        "reference": 556,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 14,
+        "after": 271,
+        "added": 257,
+        "ranked": 10,
+        "reference": 261,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 26,
+        "after": 688,
+        "added": 662,
+        "ranked": 25,
+        "reference": 663,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "PY",
+        "male": 566,
+        "female": 267,
+        "surname": 685,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SM",
+      "name": "サンマリノ",
+      "male": {
+        "before": 5,
+        "after": 314,
+        "added": 309,
+        "ranked": 3,
+        "reference": 311,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 3,
+        "after": 67,
+        "added": 64,
+        "ranked": 2,
+        "reference": 65,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 501,
+        "added": 501,
+        "ranked": 0,
+        "reference": 501,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SM",
+        "male": 314,
+        "female": 64,
+        "surname": 501,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SV",
+      "name": "エルサルバドル",
+      "male": {
+        "before": 12,
+        "after": 418,
+        "added": 406,
+        "ranked": 10,
+        "reference": 408,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 13,
+        "after": 254,
+        "added": 241,
+        "ranked": 10,
+        "reference": 244,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 25,
+        "after": 572,
+        "added": 547,
+        "ranked": 25,
+        "reference": 547,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SV",
+        "male": 413,
+        "female": 245,
+        "surname": 552,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TH",
+      "name": "タイ",
+      "male": {
+        "before": 12,
+        "after": 612,
+        "added": 600,
+        "ranked": 5,
+        "reference": 607,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 9,
+        "after": 575,
+        "added": 566,
+        "ranked": 0,
+        "reference": 575,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 1027,
+        "added": 1027,
+        "ranked": 0,
+        "reference": 1027,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TH",
+        "male": 602,
+        "female": 566,
+        "surname": 1027,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "TJ",
+      "name": "タジキスタン",
+      "male": {
+        "before": 6,
+        "after": 120,
+        "added": 114,
+        "ranked": 4,
+        "reference": 116,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 6,
+        "after": 50,
+        "added": 44,
+        "ranked": 6,
+        "reference": 44,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 113,
+        "added": 113,
+        "ranked": 0,
+        "reference": 113,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "TJ",
+        "male": 116,
+        "female": 44,
+        "surname": 113,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "KG",
+      "name": "キルギス",
+      "male": {
+        "before": 12,
+        "after": 159,
+        "added": 147,
+        "ranked": 10,
+        "reference": 149,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 10,
+        "after": 79,
+        "added": 69,
+        "ranked": 10,
+        "reference": 69,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 0,
+        "after": 206,
+        "added": 206,
+        "ranked": 0,
+        "reference": 206,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "KG",
+        "male": 149,
+        "female": 70,
+        "surname": 206,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "LK",
+      "name": "スリランカ",
+      "male": {
+        "before": 2,
+        "after": 439,
+        "added": 437,
+        "ranked": 0,
+        "reference": 439,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 3,
+        "after": 163,
+        "added": 160,
+        "ranked": 0,
+        "reference": 163,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 50,
+        "after": 345,
+        "added": 295,
+        "ranked": 50,
+        "reference": 295,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "LK",
+        "male": 437,
+        "female": 161,
+        "surname": 330,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "XK",
+      "name": "コソボ",
+      "male": {
+        "before": 0,
+        "after": 238,
+        "added": 238,
+        "ranked": 0,
+        "reference": 238,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 0,
+        "after": 105,
+        "added": 105,
+        "ranked": 0,
+        "reference": 105,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 20,
+        "after": 238,
+        "added": 218,
+        "ranked": 20,
+        "reference": 218,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "XK",
+        "male": 238,
+        "female": 105,
+        "surname": 228,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "CU",
+      "name": "キューバ",
+      "male": {
+        "before": 0,
+        "after": 850,
+        "added": 850,
+        "ranked": 0,
+        "reference": 850,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 5,
+        "after": 595,
+        "added": 590,
+        "ranked": 0,
+        "reference": 595,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 31,
+        "after": 1611,
+        "added": 1580,
+        "ranked": 30,
+        "reference": 1581,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "CU",
+        "male": 850,
+        "female": 592,
+        "surname": 1607,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "DO",
+      "name": "ドミニカ共和国",
+      "male": {
+        "before": 1,
+        "after": 696,
+        "added": 695,
+        "ranked": 0,
+        "reference": 696,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 2,
+        "after": 378,
+        "added": 376,
+        "ranked": 0,
+        "reference": 378,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 30,
+        "after": 841,
+        "added": 811,
+        "ranked": 30,
+        "reference": 811,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "DO",
+        "male": 696,
+        "female": 377,
+        "surname": 839,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "FJ",
+      "name": "フィジー",
+      "male": {
+        "before": 2,
+        "after": 252,
+        "added": 250,
+        "ranked": 0,
+        "reference": 252,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 0,
+        "after": 100,
+        "added": 100,
+        "ranked": 0,
+        "reference": 100,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23,
+        "after": 361,
+        "added": 338,
+        "ranked": 22,
+        "reference": 339,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "FJ",
+        "male": 250,
+        "female": 100,
+        "surname": 350,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    },
+    {
+      "country": "SR",
+      "name": "スリナム",
+      "male": {
+        "before": 0,
+        "after": 479,
+        "added": 479,
+        "ranked": 0,
+        "reference": 479,
+        "remainingReason": null
+      },
+      "female": {
+        "before": 0,
+        "after": 269,
+        "added": 269,
+        "ranked": 0,
+        "reference": 269,
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 13,
+        "after": 790,
+        "added": 777,
+        "ranked": 13,
+        "reference": 777,
+        "remainingReason": null
+      },
+      "sourceCandidates": {
+        "country": "SR",
+        "male": 479,
+        "female": 269,
+        "surname": 785,
+        "missing": []
+      },
+      "collectionFailures": [],
+      "expanded": true,
+      "allBandsExpanded": true
+    }
+  ]
+}

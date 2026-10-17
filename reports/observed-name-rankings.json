@@ -1,0 +1,475 @@
+{
+  "checkedAt": "2026-10-16T07:11:36.533Z",
+  "countries": 39,
+  "rows": [
+    {
+      "country": "MV",
+      "type": "given_name",
+      "namesWithEvidenceRank": 84,
+      "sourcePersonNamePairs": 258
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "namesWithEvidenceRank": 66,
+      "sourcePersonNamePairs": 128
+    },
+    {
+      "country": "AW",
+      "type": "given_name",
+      "namesWithEvidenceRank": 176,
+      "sourcePersonNamePairs": 201
+    },
+    {
+      "country": "AW",
+      "type": "surname",
+      "namesWithEvidenceRank": 97,
+      "sourcePersonNamePairs": 128
+    },
+    {
+      "country": "MN",
+      "type": "given_name",
+      "namesWithEvidenceRank": 162,
+      "sourcePersonNamePairs": 226
+    },
+    {
+      "country": "MN",
+      "type": "surname",
+      "namesWithEvidenceRank": 123,
+      "sourcePersonNamePairs": 165
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "namesWithEvidenceRank": 115,
+      "sourcePersonNamePairs": 178
+    },
+    {
+      "country": "BN",
+      "type": "surname",
+      "namesWithEvidenceRank": 64,
+      "sourcePersonNamePairs": 81
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "namesWithEvidenceRank": 117,
+      "sourcePersonNamePairs": 146
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "namesWithEvidenceRank": 108,
+      "sourcePersonNamePairs": 219
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "namesWithEvidenceRank": 161,
+      "sourcePersonNamePairs": 186
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "namesWithEvidenceRank": 153,
+      "sourcePersonNamePairs": 211
+    },
+    {
+      "country": "PF",
+      "type": "given_name",
+      "namesWithEvidenceRank": 192,
+      "sourcePersonNamePairs": 267
+    },
+    {
+      "country": "PF",
+      "type": "surname",
+      "namesWithEvidenceRank": 204,
+      "sourcePersonNamePairs": 240
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "namesWithEvidenceRank": 211,
+      "sourcePersonNamePairs": 445
+    },
+    {
+      "country": "TM",
+      "type": "surname",
+      "namesWithEvidenceRank": 193,
+      "sourcePersonNamePairs": 253
+    },
+    {
+      "country": "IM",
+      "type": "given_name",
+      "namesWithEvidenceRank": 209,
+      "sourcePersonNamePairs": 404
+    },
+    {
+      "country": "IM",
+      "type": "surname",
+      "namesWithEvidenceRank": 208,
+      "sourcePersonNamePairs": 298
+    },
+    {
+      "country": "GG",
+      "type": "given_name",
+      "namesWithEvidenceRank": 236,
+      "sourcePersonNamePairs": 403
+    },
+    {
+      "country": "GG",
+      "type": "surname",
+      "namesWithEvidenceRank": 216,
+      "sourcePersonNamePairs": 262
+    },
+    {
+      "country": "GI",
+      "type": "given_name",
+      "namesWithEvidenceRank": 241,
+      "sourcePersonNamePairs": 402
+    },
+    {
+      "country": "GI",
+      "type": "surname",
+      "namesWithEvidenceRank": 219,
+      "sourcePersonNamePairs": 256
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "namesWithEvidenceRank": 277,
+      "sourcePersonNamePairs": 517
+    },
+    {
+      "country": "TJ",
+      "type": "surname",
+      "namesWithEvidenceRank": 266,
+      "sourcePersonNamePairs": 383
+    },
+    {
+      "country": "NP",
+      "type": "given_name",
+      "namesWithEvidenceRank": 394,
+      "sourcePersonNamePairs": 807
+    },
+    {
+      "country": "NP",
+      "type": "surname",
+      "namesWithEvidenceRank": 186,
+      "sourcePersonNamePairs": 491
+    },
+    {
+      "country": "JE",
+      "type": "given_name",
+      "namesWithEvidenceRank": 292,
+      "sourcePersonNamePairs": 560
+    },
+    {
+      "country": "JE",
+      "type": "surname",
+      "namesWithEvidenceRank": 297,
+      "sourcePersonNamePairs": 360
+    },
+    {
+      "country": "GQ",
+      "type": "given_name",
+      "namesWithEvidenceRank": 395,
+      "sourcePersonNamePairs": 708
+    },
+    {
+      "country": "GQ",
+      "type": "surname",
+      "namesWithEvidenceRank": 214,
+      "sourcePersonNamePairs": 452
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "namesWithEvidenceRank": 335,
+      "sourcePersonNamePairs": 841
+    },
+    {
+      "country": "KG",
+      "type": "surname",
+      "namesWithEvidenceRank": 400,
+      "sourcePersonNamePairs": 629
+    },
+    {
+      "country": "AD",
+      "type": "given_name",
+      "namesWithEvidenceRank": 390,
+      "sourcePersonNamePairs": 880
+    },
+    {
+      "country": "AD",
+      "type": "surname",
+      "namesWithEvidenceRank": 373,
+      "sourcePersonNamePairs": 545
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "namesWithEvidenceRank": 451,
+      "sourcePersonNamePairs": 757
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "namesWithEvidenceRank": 400,
+      "sourcePersonNamePairs": 635
+    },
+    {
+      "country": "GL",
+      "type": "given_name",
+      "namesWithEvidenceRank": 285,
+      "sourcePersonNamePairs": 691
+    },
+    {
+      "country": "GL",
+      "type": "surname",
+      "namesWithEvidenceRank": 173,
+      "sourcePersonNamePairs": 500
+    },
+    {
+      "country": "LK",
+      "type": "given_name",
+      "namesWithEvidenceRank": 798,
+      "sourcePersonNamePairs": 1979
+    },
+    {
+      "country": "LK",
+      "type": "surname",
+      "namesWithEvidenceRank": 536,
+      "sourcePersonNamePairs": 927
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "namesWithEvidenceRank": 618,
+      "sourcePersonNamePairs": 1579
+    },
+    {
+      "country": "HN",
+      "type": "surname",
+      "namesWithEvidenceRank": 418,
+      "sourcePersonNamePairs": 936
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "namesWithEvidenceRank": 243,
+      "sourcePersonNamePairs": 639
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "namesWithEvidenceRank": 140,
+      "sourcePersonNamePairs": 174
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "namesWithEvidenceRank": 678,
+      "sourcePersonNamePairs": 1740
+    },
+    {
+      "country": "AO",
+      "type": "surname",
+      "namesWithEvidenceRank": 479,
+      "sourcePersonNamePairs": 1042
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "namesWithEvidenceRank": 562,
+      "sourcePersonNamePairs": 873
+    },
+    {
+      "country": "MU",
+      "type": "surname",
+      "namesWithEvidenceRank": 382,
+      "sourcePersonNamePairs": 496
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "namesWithEvidenceRank": 799,
+      "sourcePersonNamePairs": 4228
+    },
+    {
+      "country": "MD",
+      "type": "surname",
+      "namesWithEvidenceRank": 1083,
+      "sourcePersonNamePairs": 1973
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "namesWithEvidenceRank": 321,
+      "sourcePersonNamePairs": 1193
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "namesWithEvidenceRank": 183,
+      "sourcePersonNamePairs": 257
+    },
+    {
+      "country": "XK",
+      "type": "given_name",
+      "namesWithEvidenceRank": 706,
+      "sourcePersonNamePairs": 1269
+    },
+    {
+      "country": "XK",
+      "type": "surname",
+      "namesWithEvidenceRank": 487,
+      "sourcePersonNamePairs": 880
+    },
+    {
+      "country": "SV",
+      "type": "given_name",
+      "namesWithEvidenceRank": 707,
+      "sourcePersonNamePairs": 2126
+    },
+    {
+      "country": "SV",
+      "type": "surname",
+      "namesWithEvidenceRank": 592,
+      "sourcePersonNamePairs": 1377
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "namesWithEvidenceRank": 1217,
+      "sourcePersonNamePairs": 2717
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "namesWithEvidenceRank": 551,
+      "sourcePersonNamePairs": 3472
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "namesWithEvidenceRank": 74,
+      "sourcePersonNamePairs": 132
+    },
+    {
+      "country": "DJ",
+      "type": "surname",
+      "namesWithEvidenceRank": 31,
+      "sourcePersonNamePairs": 43
+    },
+    {
+      "country": "SR",
+      "type": "given_name",
+      "namesWithEvidenceRank": 953,
+      "sourcePersonNamePairs": 2268
+    },
+    {
+      "country": "SR",
+      "type": "surname",
+      "namesWithEvidenceRank": 959,
+      "sourcePersonNamePairs": 1515
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "namesWithEvidenceRank": 884,
+      "sourcePersonNamePairs": 2872
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "namesWithEvidenceRank": 1084,
+      "sourcePersonNamePairs": 1915
+    },
+    {
+      "country": "ML",
+      "type": "given_name",
+      "namesWithEvidenceRank": 427,
+      "sourcePersonNamePairs": 1387
+    },
+    {
+      "country": "ML",
+      "type": "surname",
+      "namesWithEvidenceRank": 255,
+      "sourcePersonNamePairs": 1366
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "namesWithEvidenceRank": 620,
+      "sourcePersonNamePairs": 1285
+    },
+    {
+      "country": "BF",
+      "type": "surname",
+      "namesWithEvidenceRank": 237,
+      "sourcePersonNamePairs": 806
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "namesWithEvidenceRank": 356,
+      "sourcePersonNamePairs": 531
+    },
+    {
+      "country": "BW",
+      "type": "surname",
+      "namesWithEvidenceRank": 182,
+      "sourcePersonNamePairs": 235
+    },
+    {
+      "country": "LI",
+      "type": "given_name",
+      "namesWithEvidenceRank": 471,
+      "sourcePersonNamePairs": 1166
+    },
+    {
+      "country": "LI",
+      "type": "surname",
+      "namesWithEvidenceRank": 312,
+      "sourcePersonNamePairs": 882
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "namesWithEvidenceRank": 414,
+      "sourcePersonNamePairs": 657
+    },
+    {
+      "country": "BI",
+      "type": "surname",
+      "namesWithEvidenceRank": 140,
+      "sourcePersonNamePairs": 255
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "namesWithEvidenceRank": 274,
+      "sourcePersonNamePairs": 694
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "namesWithEvidenceRank": 145,
+      "sourcePersonNamePairs": 187
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "namesWithEvidenceRank": 6906,
+      "sourcePersonNamePairs": 30462
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "namesWithEvidenceRank": 671,
+      "sourcePersonNamePairs": 36146
+    }
+  ],
+  "totalEvidenceNames": 35578
+}

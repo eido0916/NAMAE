@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { mkdirSync, readFileSync, existsSync } from "node:fs";
+import { writeDataFile as writeFileSync } from "./write-data-file.mjs";
 import { join, relative, resolve } from "node:path";
 import { hasExpectedScript, readDatasets } from "./data-utils.mjs";
 

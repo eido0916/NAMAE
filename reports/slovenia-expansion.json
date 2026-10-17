@@ -1,0 +1,18 @@
+[
+  {
+    "country": "SI",
+    "type": "given_name",
+    "before": 8687,
+    "after": 8687,
+    "male": 4252,
+    "female": 4435
+  },
+  {
+    "country": "SI",
+    "type": "surname",
+    "before": 30412,
+    "after": 30412,
+    "male": 0,
+    "female": 0
+  }
+]

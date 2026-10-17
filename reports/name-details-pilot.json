@@ -1,0 +1,103 @@
+{
+  "updatedAt": "2026-10-15T06:13:07.667Z",
+  "processed": 400,
+  "summary": [
+    {
+      "country": "US",
+      "jobs": [
+        {
+          "state": "complete",
+          "count": 56
+        },
+        {
+          "state": "pending",
+          "count": 44
+        }
+      ],
+      "relations": [
+        {
+          "status": "pending",
+          "count": 137
+        },
+        {
+          "status": "verified",
+          "count": 673
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "jobs": [
+        {
+          "state": "complete",
+          "count": 88
+        },
+        {
+          "state": "pending",
+          "count": 12
+        }
+      ],
+      "relations": [
+        {
+          "status": "pending",
+          "count": 132
+        },
+        {
+          "status": "verified",
+          "count": 1058
+        }
+      ]
+    },
+    {
+      "country": "KR",
+      "jobs": [
+        {
+          "state": "complete",
+          "count": 86
+        },
+        {
+          "state": "missing",
+          "count": 2
+        },
+        {
+          "state": "pending",
+          "count": 12
+        }
+      ],
+      "relations": [
+        {
+          "status": "pending",
+          "count": 57
+        },
+        {
+          "status": "verified",
+          "count": 805
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "jobs": [
+        {
+          "state": "complete",
+          "count": 71
+        },
+        {
+          "state": "pending",
+          "count": 29
+        }
+      ],
+      "relations": [
+        {
+          "status": "pending",
+          "count": 1010
+        },
+        {
+          "status": "verified",
+          "count": 766
+        }
+      ]
+    }
+  ],
+  "reviewRequired": "Automatic checks verify the structured name relationship, not every biographical fact. Audit pending/verified candidates before expanding."
+}

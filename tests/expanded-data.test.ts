@@ -33,6 +33,7 @@ test('surname comparisons reach rank 10,000 in the expanded official datasets',(
  const result=diagnose({name:source.name,type:'surname',destinationCountries:['BR','ES','FI','FR','PL','US']});
  assert.equal(result.matches.length,6);
  for(const m of result.matches){
+  assert.ok(m.record.rank!==undefined);
   const available=all.find(d=>d.meta.country===m.country.code&&d.meta.type==='surname')!.records;
   const distance=available.reduce((best,r)=>Math.min(best,Math.abs(r.rank-10000)),Infinity);
   assert.equal(Math.abs(m.record.rank-10000),distance,m.country.code);
@@ -47,4 +48,16 @@ test('published Japanese readings are included even when the original dictionary
 });
 test('kana-only Japanese dictionary entries are searchable',()=>{
  assert.ok(getNameRecord({name:'あーみん',type:'given_name',gender:'female'}));
+});
+test('Canada uses published cumulative counts and covers rare female names',()=>{
+ const dataset=all.find(d=>d.meta.country==='CA'&&d.meta.type==='given_name')!;
+ assert.match(dataset.meta.coverageLabel??'',/1991/);
+ for(const gender of ['male','female']){
+  const rows=dataset.records.filter(r=>r.gender===gender);
+  assert.ok(rows.length>(gender==='male'?8000:11000));
+  rows.forEach((r,i)=>{assert.equal(r.rank,i+1);assert.ok((r.count??0)>0);if(i)assert.ok(rows[i-1].count!>=r.count!);});
+ }
+ const source=all.find(d=>d.meta.country==='JP'&&d.meta.type==='given_name')!.records.find(r=>r.gender==='female'&&r.rank===10000)!;
+ const result=diagnose({name:source.name,type:'given_name',gender:'female',destinationCountries:['CA']});
+ assert.equal(result.matches[0].record.rank,10000);
 });
