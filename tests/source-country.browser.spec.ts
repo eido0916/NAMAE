@@ -1,4 +1,5 @@
 import { test, expect as baseExpect, type Page } from "@playwright/test";
+import { getUiCopy } from "../src/lib/ui-copy";
 const expect = baseExpect.configure({ timeout: 30000 });
 test.describe.configure({ timeout: 120000 });
 async function chooseCountry(page: Page, country: string) {
@@ -114,7 +115,7 @@ test("144 countries can be searched by local, English and Japanese names with ke
   await chooseCountry(page, "Italia");
   await expect(page.locator('.form-card button[type="submit"]')).toBeEnabled();
   await page.locator(".examples button").first().click();
-  await page.getByRole("button", { name: "Find my world names" }).click();
+  await page.getByRole("button", { name: getUiCopy("IT").submitName }).click();
   await expect(page.locator(".original")).toContainText("ITALY");
   await expect(page.locator(".rank strong")).toHaveText(/#\d+/);
   await page.goto("http://localhost:3000");
