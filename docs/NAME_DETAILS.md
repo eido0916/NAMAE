@@ -121,7 +121,8 @@ DBから公開JSONへ出す対象は `name_entities.status='verified'` と確認
   "entities": [{
     "id": "manual:your-character", "kind": "character", "name": "出典にある名前",
     "work": "出典にある登場作品", "description": "出典で確認した短い紹介",
-    "source": "https://example.org/replace-with-real-source"
+    "source": "https://example.org/replace-with-real-source",
+    "updatedAt": "2026-10-17T00:00:00.000Z"
   }],
   "relations": [{
     "country": "US", "name": "Emma", "type": "given_name", "language": "en",

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { resolve, sep } from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -8,6 +8,27 @@ import { openDetails, normalize, transaction } from '../scripts/name-details/db.
 import { evaluateName, Wikidata, ids, wikipediaLinks } from '../scripts/name-details/wikidata.mjs';
 import { exportDetails } from '../scripts/export-name-details.mjs';
 import { detailKey, detailBucket } from '../src/lib/name-detail-key.mjs';
+
+test('editorial reimports preserve the recorded publication timestamp', () => {
+  const base = resolve(tmpdir());
+  const directory = mkdtempSync(resolve(base, 'namae-editorial-timestamp-'));
+  const database = resolve(directory, 'details.sqlite');
+  const input = resolve(directory, 'editorial.json');
+  const updatedAt = '2026-10-15T00:00:00.000Z';
+  const data = { entities: [{ id: 'manual:fixture', kind: 'character', name: 'Fixture', source: 'https://example.org/fixture', updatedAt }] };
+  try {
+    writeFileSync(input, JSON.stringify(data));
+    for (let attempt = 0; attempt < 2; attempt++) {
+      execFileSync(process.execPath, [resolve('scripts/import-name-details.mjs'), input], { env: { ...process.env, NAMAE_DETAILS_DB: database } });
+      const db = openDetails(database);
+      try { assert.equal(db.prepare('SELECT updated_at FROM entities').get().updated_at, updatedAt); }
+      finally { db.close(); }
+    }
+  } finally {
+    assert.ok(resolve(directory).startsWith(base + sep) && directory.includes('namae-editorial-timestamp-'));
+    rmSync(directory, { recursive: true, force: true });
+  }
+});
 
 test('matching preserves spelling, scripts, accents and compound-name boundaries', () => {
   assert.equal(normalize(' Ｅｍｍａ  '), detailKey('Emma'));

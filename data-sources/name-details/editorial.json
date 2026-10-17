@@ -269,7 +269,8 @@
       "name": "ハリー・ポッター",
       "work": "ハリー・ポッター",
       "description": "『ハリー・ポッター』シリーズの主人公。",
-      "source": "https://www.wikidata.org/wiki/Q3244512"
+      "source": "https://www.wikidata.org/wiki/Q3244512",
+      "updatedAt": "2026-10-17T01:28:37.582Z"
     },
     {
       "id": "Q228598",
@@ -294,7 +295,8 @@
         "license": "CC BY-SA 2.0",
         "credit": "Nerve — dominick D",
         "source": "https://commons.wikimedia.org/wiki/File:Emma_Robert_2016_Comic_Con.jpg"
-      }
+      },
+      "updatedAt": "2026-10-17T01:28:37.590Z"
     }
   ],
   "relations": [
