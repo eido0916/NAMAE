@@ -16,6 +16,8 @@
 # next.js
 /.next/
 /out/
+/public/.data-next/
+/public/.data-previous/
 /test-results/
 /playwright-report/
 
