@@ -22,11 +22,11 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm test
       - run: npm run lint
       - run: npm run build
       - name: Generated data is committed and reproducible
         run: git diff --exit-code -- data/quality-baseline.json public/data reports
+      - run: npm test
       - name: Install browser
         run: npx playwright install --with-deps chromium
       - name: Start static site
