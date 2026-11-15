@@ -1,5 +1,6 @@
-import { isNativeName } from "../src/lib/native-name-policy.mjs";
-import { mkdirSync, readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
+import { sourceDisplayName } from "./onomaverse-native.mjs";
+import { writeDataFile as writeFileSync } from "./write-data-file.mjs";
+import { mkdirSync, readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -169,16 +170,8 @@ function withDisplayNames(valuesByCountry) {
     result.set(
       country,
       values.flatMap((value) => {
-        const transliterations = [...(aliases.get(value.nameId) ?? [])];
-        const displayName = isNativeName(country, value.name) || latinName.test(value.name)
-          ? value.name
-          : transliterations.shift();
-        if (!displayName) return [];
-        const allAliases = transliterations.filter(
-          (alias) => alias.toLocaleLowerCase() !== displayName.toLocaleLowerCase(),
-        );
-        if (!latinName.test(value.name)) allAliases.unshift(value.name);
-        return [{ ...value, name: displayName, aliases: [...new Set(allAliases)] }];
+        const record = sourceDisplayName(country, value, aliases.get(value.nameId) ?? []);
+        return record ? [record] : [];
       }),
     );
   }
@@ -247,6 +240,18 @@ for (const country of Object.keys(countries)) {
       const meta = JSON.parse(readFileSync(join(directory, file), 'utf8')).meta;
       return meta.isOfficial || !meta.source.includes('Onomaverse');
     })) continue;
+    // Preserve dictionary-only inputs already supported by this dataset. Their
+    // absent bearer counts keep them out of rank matching (hasRankEvidence).
+    // Reimporting frequencies must not remove previously searchable names.
+    const output = join(directory, "onomaverse.json");
+    if (existsSync(output)) {
+      const previous = JSON.parse(readFileSync(output, "utf8"));
+      const known = new Set(records.map(record => `${record.gender ?? ''}|${record.name.normalize('NFKC').toLowerCase()}`));
+      for (const record of previous.records.filter(record => !(record.count > 0))) {
+        const key = `${record.gender ?? ''}|${record.name.normalize('NFKC').toLowerCase()}`;
+        if (!known.has(key)) { records.push(record); known.add(key); }
+      }
+    }
     mkdirSync(directory, { recursive: true });
     writeFileSync(
       join(directory, "onomaverse.json"),
@@ -259,7 +264,7 @@ for (const country of Object.keys(countries)) {
           dataYear: year,
           isOfficial: false,
           isSample: false,
-          notes: "国別の推定人数を降順に並べた頻度順位。現地の原表記を優先し、ラテン文字転写は検索別名として扱います。全国人口統計ではなく、この資料内での頻度順位です。CC BY 4.0。",
+          notes: "国別の推定人数を降順に並べた頻度順位。現地の原表記を優先し、ラテン文字転写は検索別名として扱います。互換文字の同一表記は重複を除き、人数は合算しません。人数のない旧収録項目は検索用に保持し、順位候補から除外します。全国人口統計ではなく、この資料内での頻度順位です。CC BY 4.0。",
         },
         records,
       }),

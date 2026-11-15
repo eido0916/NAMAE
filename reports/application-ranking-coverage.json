@@ -1,0 +1,6815 @@
+{
+  "populationYear": 2024,
+  "coverage": [
+    {
+      "country": "AD",
+      "type": "given_name",
+      "gender": "male",
+      "names": 223,
+      "target": 300,
+      "shortfall": 77,
+      "evidence": {
+        "public_people": 223
+      }
+    },
+    {
+      "country": "AD",
+      "type": "given_name",
+      "gender": "female",
+      "names": 167,
+      "target": 300,
+      "shortfall": 133,
+      "evidence": {
+        "public_people": 167
+      }
+    },
+    {
+      "country": "AD",
+      "type": "surname",
+      "names": 373,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 373
+      }
+    },
+    {
+      "country": "AE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 135,
+      "target": 7500,
+      "shortfall": 7365,
+      "evidence": {
+        "country_frequency": 33,
+        "public_people": 102
+      }
+    },
+    {
+      "country": "AE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 87,
+      "target": 7500,
+      "shortfall": 7413,
+      "evidence": {
+        "country_frequency": 23,
+        "public_people": 64
+      }
+    },
+    {
+      "country": "AE",
+      "type": "surname",
+      "names": 116,
+      "target": 7500,
+      "shortfall": 7384,
+      "evidence": {
+        "country_frequency": 37,
+        "public_people": 79
+      }
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "names": 262,
+      "target": 7500,
+      "shortfall": 7238,
+      "evidence": {
+        "public_people": 198,
+        "country_frequency": 5,
+        "country_association": 59
+      }
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "female",
+      "names": 84,
+      "target": 7500,
+      "shortfall": 7416,
+      "evidence": {
+        "public_people": 67,
+        "country_frequency": 3,
+        "country_association": 14
+      }
+    },
+    {
+      "country": "AF",
+      "type": "surname",
+      "names": 173,
+      "target": 7500,
+      "shortfall": 7327,
+      "evidence": {
+        "public_people": 135,
+        "country_frequency": 14,
+        "country_association": 24
+      }
+    },
+    {
+      "country": "AL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 997,
+      "target": 3000,
+      "shortfall": 2003,
+      "evidence": {
+        "country_frequency": 75,
+        "public_people": 922
+      }
+    },
+    {
+      "country": "AL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 473,
+      "target": 3000,
+      "shortfall": 2527,
+      "evidence": {
+        "country_frequency": 41,
+        "public_people": 432
+      }
+    },
+    {
+      "country": "AL",
+      "type": "surname",
+      "names": 1301,
+      "target": 3000,
+      "shortfall": 1699,
+      "evidence": {
+        "country_frequency": 36,
+        "public_people": 1265
+      }
+    },
+    {
+      "country": "AM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 182,
+      "target": 3000,
+      "shortfall": 2818,
+      "evidence": {
+        "public_people": 182
+      }
+    },
+    {
+      "country": "AM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 86,
+      "target": 3000,
+      "shortfall": 2914,
+      "evidence": {
+        "public_people": 86
+      }
+    },
+    {
+      "country": "AM",
+      "type": "surname",
+      "names": 191,
+      "target": 3000,
+      "shortfall": 2809,
+      "evidence": {
+        "public_people": 191
+      }
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 455,
+      "target": 7500,
+      "shortfall": 7045,
+      "evidence": {
+        "country_frequency": 62,
+        "public_people": 393
+      }
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 315,
+      "target": 7500,
+      "shortfall": 7185,
+      "evidence": {
+        "country_frequency": 54,
+        "public_people": 261
+      }
+    },
+    {
+      "country": "AO",
+      "type": "surname",
+      "names": 521,
+      "target": 7500,
+      "shortfall": 6979,
+      "evidence": {
+        "country_frequency": 62,
+        "public_people": 459
+      }
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1885,
+      "target": 7500,
+      "shortfall": 5615,
+      "evidence": {
+        "country_frequency": 248,
+        "public_people": 1637
+      }
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1264,
+      "target": 7500,
+      "shortfall": 6236,
+      "evidence": {
+        "country_frequency": 297,
+        "public_people": 967
+      }
+    },
+    {
+      "country": "AR",
+      "type": "surname",
+      "names": 10915,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 277,
+        "public_people": 10638
+      }
+    },
+    {
+      "country": "AT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 12891,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 11856,
+        "public_people": 1035
+      }
+    },
+    {
+      "country": "AT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 13566,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 12953,
+        "public_people": 613
+      }
+    },
+    {
+      "country": "AT",
+      "type": "surname",
+      "names": 22812,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 121,
+        "public_people": 22691
+      }
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 22835,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 21583,
+        "country_frequency": 3,
+        "public_people": 1249
+      }
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 33675,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 33204,
+        "public_people": 471
+      }
+    },
+    {
+      "country": "AU",
+      "type": "surname",
+      "names": 14454,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 14,
+        "public_people": 14440
+      }
+    },
+    {
+      "country": "AW",
+      "type": "given_name",
+      "gender": "male",
+      "names": 128,
+      "target": 1000,
+      "shortfall": 872,
+      "evidence": {
+        "public_people": 128
+      }
+    },
+    {
+      "country": "AW",
+      "type": "given_name",
+      "gender": "female",
+      "names": 48,
+      "target": 1000,
+      "shortfall": 952,
+      "evidence": {
+        "public_people": 48
+      }
+    },
+    {
+      "country": "AW",
+      "type": "surname",
+      "names": 97,
+      "target": 1000,
+      "shortfall": 903,
+      "evidence": {
+        "public_people": 97
+      }
+    },
+    {
+      "country": "AZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 593,
+      "target": 7500,
+      "shortfall": 6907,
+      "evidence": {
+        "country_frequency": 13,
+        "public_people": 580
+      }
+    },
+    {
+      "country": "AZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 273,
+      "target": 7500,
+      "shortfall": 7227,
+      "evidence": {
+        "country_frequency": 14,
+        "public_people": 259
+      }
+    },
+    {
+      "country": "AZ",
+      "type": "surname",
+      "names": 557,
+      "target": 7500,
+      "shortfall": 6943,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 548
+      }
+    },
+    {
+      "country": "BA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 496,
+      "target": 3000,
+      "shortfall": 2504,
+      "evidence": {
+        "public_people": 496
+      }
+    },
+    {
+      "country": "BA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 232,
+      "target": 3000,
+      "shortfall": 2768,
+      "evidence": {
+        "public_people": 232
+      }
+    },
+    {
+      "country": "BA",
+      "type": "surname",
+      "names": 837,
+      "target": 3000,
+      "shortfall": 2163,
+      "evidence": {
+        "public_people": 837
+      }
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "names": 198,
+      "target": 20000,
+      "shortfall": 19802,
+      "evidence": {
+        "country_frequency": 7,
+        "public_people": 191
+      }
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "female",
+      "names": 90,
+      "target": 20000,
+      "shortfall": 19910,
+      "evidence": {
+        "public_people": 89,
+        "country_frequency": 1
+      }
+    },
+    {
+      "country": "BD",
+      "type": "surname",
+      "names": 145,
+      "target": 20000,
+      "shortfall": 19855,
+      "evidence": {
+        "country_frequency": 28,
+        "public_people": 117
+      }
+    },
+    {
+      "country": "BE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 7648,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 6648,
+        "public_people": 1000
+      }
+    },
+    {
+      "country": "BE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 7738,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 7275,
+        "public_people": 463
+      }
+    },
+    {
+      "country": "BE",
+      "type": "surname",
+      "names": 108723,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 105864,
+        "public_people": 2859
+      }
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "gender": "male",
+      "names": 406,
+      "target": 7500,
+      "shortfall": 7094,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 404
+      }
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "gender": "female",
+      "names": 215,
+      "target": 7500,
+      "shortfall": 7285,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 213
+      }
+    },
+    {
+      "country": "BF",
+      "type": "surname",
+      "names": 238,
+      "target": 7500,
+      "shortfall": 7262,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 237
+      }
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 385,
+      "target": 3000,
+      "shortfall": 2615,
+      "evidence": {
+        "public_people": 381,
+        "country_frequency": 4
+      }
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 223,
+      "target": 3000,
+      "shortfall": 2777,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 221
+      }
+    },
+    {
+      "country": "BG",
+      "type": "surname",
+      "names": 675,
+      "target": 3000,
+      "shortfall": 2325,
+      "evidence": {
+        "public_people": 671,
+        "country_frequency": 4
+      }
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 160,
+      "target": 3000,
+      "shortfall": 2840,
+      "evidence": {
+        "country_frequency": 17,
+        "public_people": 143
+      }
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 88,
+      "target": 3000,
+      "shortfall": 2912,
+      "evidence": {
+        "country_frequency": 14,
+        "public_people": 74
+      }
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "names": 88,
+      "target": 3000,
+      "shortfall": 2912,
+      "evidence": {
+        "country_frequency": 14,
+        "public_people": 74
+      }
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "gender": "male",
+      "names": 295,
+      "target": 7500,
+      "shortfall": 7205,
+      "evidence": {
+        "country_frequency": 7,
+        "public_people": 288
+      }
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "gender": "female",
+      "names": 128,
+      "target": 7500,
+      "shortfall": 7372,
+      "evidence": {
+        "country_frequency": 6,
+        "public_people": 122
+      }
+    },
+    {
+      "country": "BI",
+      "type": "surname",
+      "names": 144,
+      "target": 7500,
+      "shortfall": 7356,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 140
+      }
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 135,
+      "target": 1000,
+      "shortfall": 865,
+      "evidence": {
+        "country_frequency": 57,
+        "public_people": 78
+      }
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 88,
+      "target": 1000,
+      "shortfall": 912,
+      "evidence": {
+        "country_frequency": 53,
+        "public_people": 35
+      }
+    },
+    {
+      "country": "BN",
+      "type": "surname",
+      "names": 112,
+      "target": 1000,
+      "shortfall": 888,
+      "evidence": {
+        "country_frequency": 49,
+        "public_people": 63
+      }
+    },
+    {
+      "country": "BO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 677,
+      "target": 7500,
+      "shortfall": 6823,
+      "evidence": {
+        "country_frequency": 303,
+        "public_people": 374
+      }
+    },
+    {
+      "country": "BO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 474,
+      "target": 7500,
+      "shortfall": 7026,
+      "evidence": {
+        "country_frequency": 287,
+        "public_people": 187
+      }
+    },
+    {
+      "country": "BO",
+      "type": "surname",
+      "names": 937,
+      "target": 7500,
+      "shortfall": 6563,
+      "evidence": {
+        "country_frequency": 224,
+        "public_people": 713
+      }
+    },
+    {
+      "country": "BR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 61965,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 60954,
+        "public_people": 1011
+      }
+    },
+    {
+      "country": "BR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 73831,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 73361,
+        "public_people": 470
+      }
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "names": 203413,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 201596,
+        "public_people": 1817
+      }
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "gender": "male",
+      "names": 246,
+      "target": 3000,
+      "shortfall": 2754,
+      "evidence": {
+        "country_frequency": 34,
+        "public_people": 212
+      }
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "gender": "female",
+      "names": 172,
+      "target": 3000,
+      "shortfall": 2828,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 143
+      }
+    },
+    {
+      "country": "BW",
+      "type": "surname",
+      "names": 204,
+      "target": 3000,
+      "shortfall": 2796,
+      "evidence": {
+        "country_frequency": 23,
+        "public_people": 181
+      }
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 295,
+      "target": 3000,
+      "shortfall": 2705,
+      "evidence": {
+        "public_people": 295
+      }
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 188,
+      "target": 3000,
+      "shortfall": 2812,
+      "evidence": {
+        "public_people": 188
+      }
+    },
+    {
+      "country": "BY",
+      "type": "surname",
+      "names": 1362,
+      "target": 3000,
+      "shortfall": 1638,
+      "evidence": {
+        "public_people": 1362
+      }
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 12913,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 8668,
+        "public_people": 4245
+      }
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 13879,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 11952,
+        "public_people": 1927
+      }
+    },
+    {
+      "country": "CA",
+      "type": "surname",
+      "names": 30869,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 289,
+        "public_people": 30580
+      }
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 22875,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 22104,
+        "country_frequency": 84,
+        "public_people": 687
+      }
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 25919,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 25642,
+        "country_frequency": 77,
+        "public_people": 200
+      }
+    },
+    {
+      "country": "CH",
+      "type": "surname",
+      "names": 32063,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 25186,
+        "public_people": 6877
+      }
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 76607,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 76437,
+        "public_people": 170
+      }
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 128401,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 128334,
+        "public_people": 67
+      }
+    },
+    {
+      "country": "CL",
+      "type": "surname",
+      "names": 3260,
+      "target": 7500,
+      "shortfall": 4240,
+      "evidence": {
+        "country_frequency": 497,
+        "public_people": 2763
+      }
+    },
+    {
+      "country": "CM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 805,
+      "target": 7500,
+      "shortfall": 6695,
+      "evidence": {
+        "country_frequency": 231,
+        "public_people": 574
+      }
+    },
+    {
+      "country": "CM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 660,
+      "target": 7500,
+      "shortfall": 6840,
+      "evidence": {
+        "country_frequency": 225,
+        "public_people": 435
+      }
+    },
+    {
+      "country": "CM",
+      "type": "surname",
+      "names": 868,
+      "target": 7500,
+      "shortfall": 6632,
+      "evidence": {
+        "country_frequency": 138,
+        "public_people": 730
+      }
+    },
+    {
+      "country": "CN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2686,
+      "target": 20000,
+      "shortfall": 17314,
+      "evidence": {
+        "published": 16,
+        "public_people": 2427,
+        "country_association": 243
+      }
+    },
+    {
+      "country": "CN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1483,
+      "target": 20000,
+      "shortfall": 18517,
+      "evidence": {
+        "published": 13,
+        "public_people": 1337,
+        "country_association": 133
+      }
+    },
+    {
+      "country": "CN",
+      "type": "surname",
+      "names": 1493,
+      "target": 2500,
+      "shortfall": 1007,
+      "evidence": {
+        "published": 100,
+        "public_people": 1300,
+        "country_association": 93
+      }
+    },
+    {
+      "country": "CO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1644,
+      "target": 10000,
+      "shortfall": 8356,
+      "evidence": {
+        "country_frequency": 841,
+        "public_people": 803
+      }
+    },
+    {
+      "country": "CO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1315,
+      "target": 10000,
+      "shortfall": 8685,
+      "evidence": {
+        "country_frequency": 944,
+        "public_people": 371
+      }
+    },
+    {
+      "country": "CO",
+      "type": "surname",
+      "names": 2278,
+      "target": 10000,
+      "shortfall": 7722,
+      "evidence": {
+        "country_frequency": 928,
+        "public_people": 1350
+      }
+    },
+    {
+      "country": "CR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 688,
+      "target": 3000,
+      "shortfall": 2312,
+      "evidence": {
+        "country_frequency": 242,
+        "public_people": 446
+      }
+    },
+    {
+      "country": "CR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 445,
+      "target": 3000,
+      "shortfall": 2555,
+      "evidence": {
+        "country_frequency": 239,
+        "public_people": 206
+      }
+    },
+    {
+      "country": "CR",
+      "type": "surname",
+      "names": 726,
+      "target": 3000,
+      "shortfall": 2274,
+      "evidence": {
+        "country_frequency": 183,
+        "public_people": 543
+      }
+    },
+    {
+      "country": "CU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 839,
+      "target": 7500,
+      "shortfall": 6661,
+      "evidence": {
+        "public_people": 839
+      }
+    },
+    {
+      "country": "CU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 587,
+      "target": 7500,
+      "shortfall": 6913,
+      "evidence": {
+        "public_people": 587
+      }
+    },
+    {
+      "country": "CU",
+      "type": "surname",
+      "names": 1607,
+      "target": 7500,
+      "shortfall": 5893,
+      "evidence": {
+        "public_people": 1607
+      }
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 365,
+      "target": 3000,
+      "shortfall": 2635,
+      "evidence": {
+        "public_people": 365
+      }
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 144,
+      "target": 3000,
+      "shortfall": 2856,
+      "evidence": {
+        "public_people": 144
+      }
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "names": 693,
+      "target": 3000,
+      "shortfall": 2307,
+      "evidence": {
+        "public_people": 693
+      }
+    },
+    {
+      "country": "CZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 814,
+      "target": 7500,
+      "shortfall": 6686,
+      "evidence": {
+        "country_frequency": 138,
+        "public_people": 676
+      }
+    },
+    {
+      "country": "CZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 738,
+      "target": 7500,
+      "shortfall": 6762,
+      "evidence": {
+        "country_frequency": 151,
+        "public_people": 587
+      }
+    },
+    {
+      "country": "CZ",
+      "type": "surname",
+      "names": 9773,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 90,
+        "public_people": 9683
+      }
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 10107,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 5232,
+        "public_people": 4875
+      }
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 8156,
+      "target": 10000,
+      "shortfall": 1844,
+      "evidence": {
+        "published": 5393,
+        "public_people": 2763
+      }
+    },
+    {
+      "country": "DE",
+      "type": "surname",
+      "names": 76265,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 378,
+        "public_people": 75887
+      }
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 56,
+      "target": 3000,
+      "shortfall": 2944,
+      "evidence": {
+        "country_frequency": 6,
+        "public_people": 50
+      }
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 27,
+      "target": 3000,
+      "shortfall": 2973,
+      "evidence": {
+        "country_frequency": 3,
+        "public_people": 24
+      }
+    },
+    {
+      "country": "DJ",
+      "type": "surname",
+      "names": 36,
+      "target": 3000,
+      "shortfall": 2964,
+      "evidence": {
+        "country_frequency": 6,
+        "public_people": 30
+      }
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2495,
+      "target": 3000,
+      "shortfall": 505,
+      "evidence": {
+        "country_frequency": 178,
+        "public_people": 2269,
+        "country_association": 48
+      }
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1699,
+      "target": 3000,
+      "shortfall": 1301,
+      "evidence": {
+        "country_frequency": 165,
+        "public_people": 1505,
+        "country_association": 29
+      }
+    },
+    {
+      "country": "DK",
+      "type": "surname",
+      "names": 12841,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 111,
+        "public_people": 12364,
+        "country_association": 366
+      }
+    },
+    {
+      "country": "DO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 695,
+      "target": 7500,
+      "shortfall": 6805,
+      "evidence": {
+        "public_people": 695
+      }
+    },
+    {
+      "country": "DO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 375,
+      "target": 7500,
+      "shortfall": 7125,
+      "evidence": {
+        "public_people": 375
+      }
+    },
+    {
+      "country": "DO",
+      "type": "surname",
+      "names": 840,
+      "target": 7500,
+      "shortfall": 6660,
+      "evidence": {
+        "public_people": 840
+      }
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 410,
+      "target": 7500,
+      "shortfall": 7090,
+      "evidence": {
+        "country_frequency": 179,
+        "public_people": 231
+      }
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 305,
+      "target": 7500,
+      "shortfall": 7195,
+      "evidence": {
+        "country_frequency": 120,
+        "public_people": 185
+      }
+    },
+    {
+      "country": "DZ",
+      "type": "surname",
+      "names": 428,
+      "target": 7500,
+      "shortfall": 7072,
+      "evidence": {
+        "country_frequency": 172,
+        "public_people": 256
+      }
+    },
+    {
+      "country": "EC",
+      "type": "given_name",
+      "gender": "male",
+      "names": 724,
+      "target": 7500,
+      "shortfall": 6776,
+      "evidence": {
+        "country_frequency": 56,
+        "public_people": 668
+      }
+    },
+    {
+      "country": "EC",
+      "type": "given_name",
+      "gender": "female",
+      "names": 521,
+      "target": 7500,
+      "shortfall": 6979,
+      "evidence": {
+        "country_frequency": 45,
+        "public_people": 476
+      }
+    },
+    {
+      "country": "EC",
+      "type": "surname",
+      "names": 1158,
+      "target": 7500,
+      "shortfall": 6342,
+      "evidence": {
+        "country_frequency": 32,
+        "public_people": 1126
+      }
+    },
+    {
+      "country": "EE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2031,
+      "target": 3000,
+      "shortfall": 969,
+      "evidence": {
+        "country_frequency": 18,
+        "public_people": 2013
+      }
+    },
+    {
+      "country": "EE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1739,
+      "target": 3000,
+      "shortfall": 1261,
+      "evidence": {
+        "country_frequency": 18,
+        "public_people": 1721
+      }
+    },
+    {
+      "country": "EE",
+      "type": "surname",
+      "names": 13753,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 17,
+        "public_people": 13736
+      }
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1242,
+      "target": 20000,
+      "shortfall": 18758,
+      "evidence": {
+        "country_frequency": 910,
+        "public_people": 332
+      }
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 819,
+      "target": 20000,
+      "shortfall": 19181,
+      "evidence": {
+        "country_frequency": 534,
+        "public_people": 285
+      }
+    },
+    {
+      "country": "EG",
+      "type": "surname",
+      "names": 2169,
+      "target": 20000,
+      "shortfall": 17831,
+      "evidence": {
+        "country_frequency": 1842,
+        "public_people": 327
+      }
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "male",
+      "names": 32956,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 31119,
+        "public_people": 1837
+      }
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "female",
+      "names": 33402,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 32321,
+        "public_people": 1081
+      }
+    },
+    {
+      "country": "ES",
+      "type": "surname",
+      "names": 92558,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 86511,
+        "public_people": 6047
+      }
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "gender": "male",
+      "names": 5,
+      "target": 20000,
+      "shortfall": 19995,
+      "evidence": {
+        "public_people": 5
+      }
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "gender": "female",
+      "names": 3,
+      "target": 20000,
+      "shortfall": 19997,
+      "evidence": {
+        "public_people": 3
+      }
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "names": 2,
+      "target": 20000,
+      "shortfall": 19998,
+      "evidence": {
+        "public_people": 2
+      }
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "male",
+      "names": 11352,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 10989,
+        "public_people": 363
+      }
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "names": 14441,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 14309,
+        "public_people": 132
+      }
+    },
+    {
+      "country": "FI",
+      "type": "surname",
+      "names": 27377,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 23260,
+        "public_people": 4117
+      }
+    },
+    {
+      "country": "FJ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 319,
+      "target": 1000,
+      "shortfall": 681,
+      "evidence": {
+        "public_people": 246,
+        "country_association": 73
+      }
+    },
+    {
+      "country": "FJ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 124,
+      "target": 1000,
+      "shortfall": 876,
+      "evidence": {
+        "public_people": 100,
+        "country_association": 24
+      }
+    },
+    {
+      "country": "FJ",
+      "type": "surname",
+      "names": 446,
+      "target": 1000,
+      "shortfall": 554,
+      "evidence": {
+        "public_people": 350,
+        "country_association": 96
+      }
+    },
+    {
+      "country": "FO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 992,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "published": 956,
+        "public_people": 36
+      }
+    },
+    {
+      "country": "FO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1040,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "published": 1031,
+        "public_people": 9
+      }
+    },
+    {
+      "country": "FO",
+      "type": "surname",
+      "names": 2041,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "published": 1996,
+        "public_people": 45
+      }
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 26058,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 23648,
+        "public_people": 2410
+      }
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 28791,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 28003,
+        "public_people": 788
+      }
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "names": 246332,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 218948,
+        "public_people": 27384
+      }
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "names": 21592,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 18161,
+        "public_people": 3431
+      }
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "female",
+      "names": 25386,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 24185,
+        "public_people": 1201
+      }
+    },
+    {
+      "country": "GB",
+      "type": "surname",
+      "names": 81545,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 74035,
+        "public_people": 7510
+      }
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 255,
+      "target": 3000,
+      "shortfall": 2745,
+      "evidence": {
+        "public_people": 255
+      }
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 110,
+      "target": 3000,
+      "shortfall": 2890,
+      "evidence": {
+        "public_people": 110
+      }
+    },
+    {
+      "country": "GE",
+      "type": "surname",
+      "names": 2068,
+      "target": 3000,
+      "shortfall": 932,
+      "evidence": {
+        "public_people": 2068
+      }
+    },
+    {
+      "country": "GG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 158,
+      "target": 300,
+      "shortfall": 142,
+      "evidence": {
+        "public_people": 158
+      }
+    },
+    {
+      "country": "GG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 78,
+      "target": 300,
+      "shortfall": 222,
+      "evidence": {
+        "public_people": 78
+      }
+    },
+    {
+      "country": "GG",
+      "type": "surname",
+      "names": 216,
+      "target": 300,
+      "shortfall": 84,
+      "evidence": {
+        "public_people": 216
+      }
+    },
+    {
+      "country": "GH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 721,
+      "target": 7500,
+      "shortfall": 6779,
+      "evidence": {
+        "country_frequency": 127,
+        "public_people": 594
+      }
+    },
+    {
+      "country": "GH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 512,
+      "target": 7500,
+      "shortfall": 6988,
+      "evidence": {
+        "country_frequency": 118,
+        "public_people": 394
+      }
+    },
+    {
+      "country": "GH",
+      "type": "surname",
+      "names": 1047,
+      "target": 7500,
+      "shortfall": 6453,
+      "evidence": {
+        "country_frequency": 112,
+        "public_people": 935
+      }
+    },
+    {
+      "country": "GI",
+      "type": "given_name",
+      "gender": "male",
+      "names": 183,
+      "target": 300,
+      "shortfall": 117,
+      "evidence": {
+        "public_people": 183
+      }
+    },
+    {
+      "country": "GI",
+      "type": "given_name",
+      "gender": "female",
+      "names": 57,
+      "target": 300,
+      "shortfall": 243,
+      "evidence": {
+        "public_people": 57
+      }
+    },
+    {
+      "country": "GI",
+      "type": "surname",
+      "names": 219,
+      "target": 300,
+      "shortfall": 81,
+      "evidence": {
+        "public_people": 219
+      }
+    },
+    {
+      "country": "GL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 301,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "published": 227,
+        "public_people": 74
+      }
+    },
+    {
+      "country": "GL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 270,
+      "target": 300,
+      "shortfall": 30,
+      "evidence": {
+        "published": 231,
+        "public_people": 39
+      }
+    },
+    {
+      "country": "GL",
+      "type": "surname",
+      "names": 339,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "published": 262,
+        "public_people": 77
+      }
+    },
+    {
+      "country": "GQ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 278,
+      "target": 3000,
+      "shortfall": 2722,
+      "evidence": {
+        "public_people": 278
+      }
+    },
+    {
+      "country": "GQ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 117,
+      "target": 3000,
+      "shortfall": 2883,
+      "evidence": {
+        "public_people": 117
+      }
+    },
+    {
+      "country": "GQ",
+      "type": "surname",
+      "names": 214,
+      "target": 3000,
+      "shortfall": 2786,
+      "evidence": {
+        "public_people": 214
+      }
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 546,
+      "target": 7500,
+      "shortfall": 6954,
+      "evidence": {
+        "public_people": 542,
+        "country_frequency": 4
+      }
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 380,
+      "target": 7500,
+      "shortfall": 7120,
+      "evidence": {
+        "public_people": 380
+      }
+    },
+    {
+      "country": "GR",
+      "type": "surname",
+      "names": 1079,
+      "target": 7500,
+      "shortfall": 6421,
+      "evidence": {
+        "public_people": 1079
+      }
+    },
+    {
+      "country": "GT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 502,
+      "target": 7500,
+      "shortfall": 6998,
+      "evidence": {
+        "country_frequency": 199,
+        "public_people": 303
+      }
+    },
+    {
+      "country": "GT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 370,
+      "target": 7500,
+      "shortfall": 7130,
+      "evidence": {
+        "country_frequency": 171,
+        "public_people": 199
+      }
+    },
+    {
+      "country": "GT",
+      "type": "surname",
+      "names": 623,
+      "target": 7500,
+      "shortfall": 6877,
+      "evidence": {
+        "country_frequency": 136,
+        "public_people": 487
+      }
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 475,
+      "target": 3000,
+      "shortfall": 2525,
+      "evidence": {
+        "public_people": 475
+      }
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 469,
+      "target": 3000,
+      "shortfall": 2531,
+      "evidence": {
+        "public_people": 469
+      }
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "names": 406,
+      "target": 3000,
+      "shortfall": 2594,
+      "evidence": {
+        "public_people": 406
+      }
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 439,
+      "target": 7500,
+      "shortfall": 7061,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 430
+      }
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 191,
+      "target": 7500,
+      "shortfall": 7309,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 182
+      }
+    },
+    {
+      "country": "HN",
+      "type": "surname",
+      "names": 422,
+      "target": 7500,
+      "shortfall": 7078,
+      "evidence": {
+        "country_frequency": 5,
+        "public_people": 417
+      }
+    },
+    {
+      "country": "HR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 777,
+      "target": 3000,
+      "shortfall": 2223,
+      "evidence": {
+        "country_frequency": 106,
+        "public_people": 671
+      }
+    },
+    {
+      "country": "HR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 524,
+      "target": 3000,
+      "shortfall": 2476,
+      "evidence": {
+        "country_frequency": 110,
+        "public_people": 414
+      }
+    },
+    {
+      "country": "HR",
+      "type": "surname",
+      "names": 2761,
+      "target": 3000,
+      "shortfall": 239,
+      "evidence": {
+        "country_frequency": 33,
+        "public_people": 2728
+      }
+    },
+    {
+      "country": "HT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 526,
+      "target": 7500,
+      "shortfall": 6974,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 522
+      }
+    },
+    {
+      "country": "HT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 296,
+      "target": 7500,
+      "shortfall": 7204,
+      "evidence": {
+        "country_frequency": 5,
+        "public_people": 291
+      }
+    },
+    {
+      "country": "HT",
+      "type": "surname",
+      "names": 784,
+      "target": 7500,
+      "shortfall": 6716,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 780
+      }
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1570,
+      "target": 3000,
+      "shortfall": 1430,
+      "evidence": {
+        "country_frequency": 77,
+        "public_people": 1493
+      }
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1043,
+      "target": 3000,
+      "shortfall": 1957,
+      "evidence": {
+        "country_frequency": 70,
+        "public_people": 973
+      }
+    },
+    {
+      "country": "HU",
+      "type": "surname",
+      "names": 11396,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 44,
+        "public_people": 11352
+      }
+    },
+    {
+      "country": "ID",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2206,
+      "target": 20000,
+      "shortfall": 17794,
+      "evidence": {
+        "country_frequency": 42,
+        "public_people": 2085,
+        "country_association": 79
+      }
+    },
+    {
+      "country": "ID",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1727,
+      "target": 20000,
+      "shortfall": 18273,
+      "evidence": {
+        "country_frequency": 36,
+        "public_people": 1655,
+        "country_association": 36
+      }
+    },
+    {
+      "country": "ID",
+      "type": "surname",
+      "names": 3466,
+      "target": 20000,
+      "shortfall": 16534,
+      "evidence": {
+        "country_frequency": 27,
+        "public_people": 3396,
+        "country_association": 43
+      }
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 3442,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 2841,
+        "country_frequency": 117,
+        "public_people": 484
+      }
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 4043,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 3759,
+        "country_frequency": 106,
+        "public_people": 178
+      }
+    },
+    {
+      "country": "IE",
+      "type": "surname",
+      "names": 4096,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 908,
+        "country_frequency": 111,
+        "public_people": 3077
+      }
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 10026,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 9577,
+        "country_frequency": 45,
+        "public_people": 404
+      }
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 12990,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 12692,
+        "country_frequency": 38,
+        "public_people": 260
+      }
+    },
+    {
+      "country": "IL",
+      "type": "surname",
+      "names": 2730,
+      "target": 7500,
+      "shortfall": 4770,
+      "evidence": {
+        "country_frequency": 44,
+        "public_people": 2686
+      }
+    },
+    {
+      "country": "IM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 146,
+      "target": 300,
+      "shortfall": 154,
+      "evidence": {
+        "public_people": 146
+      }
+    },
+    {
+      "country": "IM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 61,
+      "target": 300,
+      "shortfall": 239,
+      "evidence": {
+        "public_people": 61
+      }
+    },
+    {
+      "country": "IM",
+      "type": "surname",
+      "names": 208,
+      "target": 300,
+      "shortfall": 92,
+      "evidence": {
+        "public_people": 208
+      }
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 3507,
+      "target": 20000,
+      "shortfall": 16493,
+      "evidence": {
+        "country_frequency": 654,
+        "public_people": 2613,
+        "country_association": 240
+      }
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2051,
+      "target": 20000,
+      "shortfall": 17949,
+      "evidence": {
+        "country_frequency": 283,
+        "public_people": 1549,
+        "country_association": 219
+      }
+    },
+    {
+      "country": "IN",
+      "type": "surname",
+      "names": 5238,
+      "target": 20000,
+      "shortfall": 14762,
+      "evidence": {
+        "country_frequency": 527,
+        "public_people": 4379,
+        "country_association": 332
+      }
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 984,
+      "target": 7500,
+      "shortfall": 6516,
+      "evidence": {
+        "country_frequency": 684,
+        "public_people": 300
+      }
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 485,
+      "target": 7500,
+      "shortfall": 7015,
+      "evidence": {
+        "country_frequency": 334,
+        "public_people": 151
+      }
+    },
+    {
+      "country": "IQ",
+      "type": "surname",
+      "names": 1182,
+      "target": 7500,
+      "shortfall": 6318,
+      "evidence": {
+        "country_frequency": 1022,
+        "public_people": 160
+      }
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 335,
+      "target": 10000,
+      "shortfall": 9665,
+      "evidence": {
+        "country_frequency": 36,
+        "public_people": 299
+      }
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 131,
+      "target": 10000,
+      "shortfall": 9869,
+      "evidence": {
+        "country_frequency": 17,
+        "public_people": 114
+      }
+    },
+    {
+      "country": "IR",
+      "type": "surname",
+      "names": 415,
+      "target": 10000,
+      "shortfall": 9585,
+      "evidence": {
+        "public_people": 394,
+        "country_frequency": 21
+      }
+    },
+    {
+      "country": "IS",
+      "type": "given_name",
+      "gender": "male",
+      "names": 618,
+      "target": 1000,
+      "shortfall": 382,
+      "evidence": {
+        "country_frequency": 11,
+        "public_people": 607
+      }
+    },
+    {
+      "country": "IS",
+      "type": "given_name",
+      "gender": "female",
+      "names": 332,
+      "target": 1000,
+      "shortfall": 668,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 323
+      }
+    },
+    {
+      "country": "IS",
+      "type": "surname",
+      "names": 496,
+      "target": 1000,
+      "shortfall": 504,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 492
+      }
+    },
+    {
+      "country": "IT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 63190,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 60189,
+        "public_people": 3001
+      }
+    },
+    {
+      "country": "IT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 58904,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 57767,
+        "public_people": 1137
+      }
+    },
+    {
+      "country": "IT",
+      "type": "surname",
+      "names": 44392,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 2935,
+        "public_people": 41457
+      }
+    },
+    {
+      "country": "JE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 205,
+      "target": 1000,
+      "shortfall": 795,
+      "evidence": {
+        "public_people": 205
+      }
+    },
+    {
+      "country": "JE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 87,
+      "target": 1000,
+      "shortfall": 913,
+      "evidence": {
+        "public_people": 87
+      }
+    },
+    {
+      "country": "JE",
+      "type": "surname",
+      "names": 297,
+      "target": 1000,
+      "shortfall": 703,
+      "evidence": {
+        "public_people": 297
+      }
+    },
+    {
+      "country": "JM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 727,
+      "target": 3000,
+      "shortfall": 2273,
+      "evidence": {
+        "country_frequency": 45,
+        "public_people": 682
+      }
+    },
+    {
+      "country": "JM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 486,
+      "target": 3000,
+      "shortfall": 2514,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 457
+      }
+    },
+    {
+      "country": "JM",
+      "type": "surname",
+      "names": 987,
+      "target": 3000,
+      "shortfall": 2013,
+      "evidence": {
+        "country_frequency": 55,
+        "public_people": 932
+      }
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 390,
+      "target": 7500,
+      "shortfall": 7110,
+      "evidence": {
+        "country_frequency": 167,
+        "public_people": 223
+      }
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 218,
+      "target": 7500,
+      "shortfall": 7282,
+      "evidence": {
+        "country_frequency": 105,
+        "public_people": 113
+      }
+    },
+    {
+      "country": "JO",
+      "type": "surname",
+      "names": 386,
+      "target": 7500,
+      "shortfall": 7114,
+      "evidence": {
+        "public_people": 254,
+        "country_frequency": 132
+      }
+    },
+    {
+      "country": "JP",
+      "type": "given_name",
+      "gender": "male",
+      "names": 7372,
+      "target": 20000,
+      "shortfall": 12628,
+      "evidence": {
+        "published": 1133,
+        "public_people": 6179,
+        "country_association": 60
+      }
+    },
+    {
+      "country": "JP",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2970,
+      "target": 20000,
+      "shortfall": 17030,
+      "evidence": {
+        "published": 816,
+        "public_people": 2121,
+        "country_association": 33
+      }
+    },
+    {
+      "country": "JP",
+      "type": "surname",
+      "names": 9749,
+      "target": 20000,
+      "shortfall": 10251,
+      "evidence": {
+        "published": 1999,
+        "public_people": 7706,
+        "country_association": 44
+      }
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 164,
+      "target": 3000,
+      "shortfall": 2836,
+      "evidence": {
+        "public_people": 164
+      }
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 82,
+      "target": 3000,
+      "shortfall": 2918,
+      "evidence": {
+        "public_people": 82
+      }
+    },
+    {
+      "country": "KG",
+      "type": "surname",
+      "names": 333,
+      "target": 3000,
+      "shortfall": 2667,
+      "evidence": {
+        "public_people": 333
+      }
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 3,
+      "target": 7500,
+      "shortfall": 7497,
+      "evidence": {
+        "public_people": 3
+      }
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1,
+      "target": 7500,
+      "shortfall": 7499,
+      "evidence": {
+        "public_people": 1
+      }
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "names": 5,
+      "target": 7500,
+      "shortfall": 7495,
+      "evidence": {
+        "public_people": 5
+      }
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 36460,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 36103,
+        "public_people": 356,
+        "country_association": 1
+      }
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 28916,
+      "target": 10000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 33,
+        "country_frequency": 28660,
+        "public_people": 223
+      }
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "names": 296,
+      "target": 350,
+      "shortfall": 54,
+      "evidence": {
+        "published": 188,
+        "country_frequency": 1,
+        "public_people": 107
+      }
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "gender": "male",
+      "names": 140,
+      "target": 3000,
+      "shortfall": 2860,
+      "evidence": {
+        "country_frequency": 7,
+        "public_people": 133
+      }
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "gender": "female",
+      "names": 69,
+      "target": 3000,
+      "shortfall": 2931,
+      "evidence": {
+        "country_frequency": 5,
+        "public_people": 64
+      }
+    },
+    {
+      "country": "KW",
+      "type": "surname",
+      "names": 130,
+      "target": 3000,
+      "shortfall": 2870,
+      "evidence": {
+        "country_frequency": 11,
+        "public_people": 119
+      }
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 364,
+      "target": 7500,
+      "shortfall": 7136,
+      "evidence": {
+        "country_frequency": 148,
+        "public_people": 216
+      }
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 280,
+      "target": 7500,
+      "shortfall": 7220,
+      "evidence": {
+        "country_frequency": 150,
+        "public_people": 130
+      }
+    },
+    {
+      "country": "KZ",
+      "type": "surname",
+      "names": 828,
+      "target": 7500,
+      "shortfall": 6672,
+      "evidence": {
+        "public_people": 748,
+        "country_frequency": 80
+      }
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "male",
+      "names": 495,
+      "target": 3000,
+      "shortfall": 2505,
+      "evidence": {
+        "public_people": 452,
+        "country_frequency": 43
+      }
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "female",
+      "names": 329,
+      "target": 3000,
+      "shortfall": 2671,
+      "evidence": {
+        "public_people": 297,
+        "country_frequency": 32
+      }
+    },
+    {
+      "country": "LB",
+      "type": "surname",
+      "names": 476,
+      "target": 3000,
+      "shortfall": 2524,
+      "evidence": {
+        "public_people": 427,
+        "country_frequency": 49
+      }
+    },
+    {
+      "country": "LI",
+      "type": "given_name",
+      "gender": "male",
+      "names": 291,
+      "target": 300,
+      "shortfall": 9,
+      "evidence": {
+        "public_people": 291
+      }
+    },
+    {
+      "country": "LI",
+      "type": "given_name",
+      "gender": "female",
+      "names": 180,
+      "target": 300,
+      "shortfall": 120,
+      "evidence": {
+        "public_people": 180
+      }
+    },
+    {
+      "country": "LI",
+      "type": "surname",
+      "names": 312,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 312
+      }
+    },
+    {
+      "country": "LK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 84,
+      "target": 7500,
+      "shortfall": 7416,
+      "evidence": {
+        "public_people": 84
+      }
+    },
+    {
+      "country": "LK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 30,
+      "target": 7500,
+      "shortfall": 7470,
+      "evidence": {
+        "public_people": 30
+      }
+    },
+    {
+      "country": "LK",
+      "type": "surname",
+      "names": 33,
+      "target": 7500,
+      "shortfall": 7467,
+      "evidence": {
+        "public_people": 33
+      }
+    },
+    {
+      "country": "LT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 762,
+      "target": 3000,
+      "shortfall": 2238,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 733
+      }
+    },
+    {
+      "country": "LT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 488,
+      "target": 3000,
+      "shortfall": 2512,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 459
+      }
+    },
+    {
+      "country": "LT",
+      "type": "surname",
+      "names": 2124,
+      "target": 3000,
+      "shortfall": 876,
+      "evidence": {
+        "country_frequency": 15,
+        "public_people": 2109
+      }
+    },
+    {
+      "country": "LU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 764,
+      "target": 1000,
+      "shortfall": 236,
+      "evidence": {
+        "country_frequency": 75,
+        "public_people": 689
+      }
+    },
+    {
+      "country": "LU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 602,
+      "target": 1000,
+      "shortfall": 398,
+      "evidence": {
+        "country_frequency": 71,
+        "public_people": 531
+      }
+    },
+    {
+      "country": "LU",
+      "type": "surname",
+      "names": 2757,
+      "target": 1000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 68,
+        "public_people": 2689
+      }
+    },
+    {
+      "country": "LV",
+      "type": "given_name",
+      "gender": "male",
+      "names": 720,
+      "target": 3000,
+      "shortfall": 2280,
+      "evidence": {
+        "public_people": 720
+      }
+    },
+    {
+      "country": "LV",
+      "type": "given_name",
+      "gender": "female",
+      "names": 548,
+      "target": 3000,
+      "shortfall": 2452,
+      "evidence": {
+        "public_people": 548
+      }
+    },
+    {
+      "country": "LV",
+      "type": "surname",
+      "names": 2293,
+      "target": 3000,
+      "shortfall": 707,
+      "evidence": {
+        "public_people": 2293
+      }
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 319,
+      "target": 3000,
+      "shortfall": 2681,
+      "evidence": {
+        "country_frequency": 262,
+        "public_people": 57
+      }
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 177,
+      "target": 3000,
+      "shortfall": 2823,
+      "evidence": {
+        "country_frequency": 148,
+        "public_people": 29
+      }
+    },
+    {
+      "country": "LY",
+      "type": "surname",
+      "names": 349,
+      "target": 3000,
+      "shortfall": 2651,
+      "evidence": {
+        "country_frequency": 318,
+        "public_people": 31
+      }
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 358,
+      "target": 7500,
+      "shortfall": 7142,
+      "evidence": {
+        "country_frequency": 36,
+        "public_people": 322
+      }
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 226,
+      "target": 7500,
+      "shortfall": 7274,
+      "evidence": {
+        "country_frequency": 24,
+        "public_people": 202
+      }
+    },
+    {
+      "country": "MA",
+      "type": "surname",
+      "names": 331,
+      "target": 7500,
+      "shortfall": 7169,
+      "evidence": {
+        "country_frequency": 28,
+        "public_people": 303
+      }
+    },
+    {
+      "country": "MC",
+      "type": "given_name",
+      "gender": "male",
+      "names": 318,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 160,
+        "country_association": 158
+      }
+    },
+    {
+      "country": "MC",
+      "type": "given_name",
+      "gender": "female",
+      "names": 137,
+      "target": 300,
+      "shortfall": 163,
+      "evidence": {
+        "public_people": 73,
+        "country_association": 64
+      }
+    },
+    {
+      "country": "MC",
+      "type": "surname",
+      "names": 417,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 187,
+        "country_association": 230
+      }
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "gender": "male",
+      "names": 530,
+      "target": 3000,
+      "shortfall": 2470,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 521
+      }
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "gender": "female",
+      "names": 275,
+      "target": 3000,
+      "shortfall": 2725,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 266
+      }
+    },
+    {
+      "country": "MD",
+      "type": "surname",
+      "names": 1091,
+      "target": 3000,
+      "shortfall": 1909,
+      "evidence": {
+        "country_frequency": 9,
+        "public_people": 1082
+      }
+    },
+    {
+      "country": "ME",
+      "type": "given_name",
+      "gender": "male",
+      "names": 459,
+      "target": 1000,
+      "shortfall": 541,
+      "evidence": {
+        "public_people": 251,
+        "country_association": 208
+      }
+    },
+    {
+      "country": "ME",
+      "type": "given_name",
+      "gender": "female",
+      "names": 147,
+      "target": 1000,
+      "shortfall": 853,
+      "evidence": {
+        "public_people": 106,
+        "country_association": 41
+      }
+    },
+    {
+      "country": "ME",
+      "type": "surname",
+      "names": 516,
+      "target": 1000,
+      "shortfall": 484,
+      "evidence": {
+        "public_people": 326,
+        "country_association": 190
+      }
+    },
+    {
+      "country": "MK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 126,
+      "target": 3000,
+      "shortfall": 2874,
+      "evidence": {
+        "public_people": 126
+      }
+    },
+    {
+      "country": "MK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 73,
+      "target": 3000,
+      "shortfall": 2927,
+      "evidence": {
+        "public_people": 73
+      }
+    },
+    {
+      "country": "MK",
+      "type": "surname",
+      "names": 96,
+      "target": 3000,
+      "shortfall": 2904,
+      "evidence": {
+        "public_people": 96
+      }
+    },
+    {
+      "country": "ML",
+      "type": "given_name",
+      "gender": "male",
+      "names": 303,
+      "target": 7500,
+      "shortfall": 7197,
+      "evidence": {
+        "public_people": 303
+      }
+    },
+    {
+      "country": "ML",
+      "type": "given_name",
+      "gender": "female",
+      "names": 123,
+      "target": 7500,
+      "shortfall": 7377,
+      "evidence": {
+        "public_people": 123
+      }
+    },
+    {
+      "country": "ML",
+      "type": "surname",
+      "names": 255,
+      "target": 7500,
+      "shortfall": 7245,
+      "evidence": {
+        "public_people": 255
+      }
+    },
+    {
+      "country": "MN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 30,
+      "target": 3000,
+      "shortfall": 2970,
+      "evidence": {
+        "public_people": 30
+      }
+    },
+    {
+      "country": "MN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 12,
+      "target": 3000,
+      "shortfall": 2988,
+      "evidence": {
+        "public_people": 12
+      }
+    },
+    {
+      "country": "MN",
+      "type": "surname",
+      "names": 38,
+      "target": 3000,
+      "shortfall": 2962,
+      "evidence": {
+        "public_people": 38
+      }
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 66,
+      "target": 1000,
+      "shortfall": 934,
+      "evidence": {
+        "public_people": 66
+      }
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 21,
+      "target": 1000,
+      "shortfall": 979,
+      "evidence": {
+        "public_people": 21
+      }
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "names": 98,
+      "target": 1000,
+      "shortfall": 902,
+      "evidence": {
+        "public_people": 98
+      }
+    },
+    {
+      "country": "MT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 489,
+      "target": 1000,
+      "shortfall": 511,
+      "evidence": {
+        "country_frequency": 51,
+        "public_people": 438
+      }
+    },
+    {
+      "country": "MT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 364,
+      "target": 1000,
+      "shortfall": 636,
+      "evidence": {
+        "country_frequency": 44,
+        "public_people": 320
+      }
+    },
+    {
+      "country": "MT",
+      "type": "surname",
+      "names": 511,
+      "target": 1000,
+      "shortfall": 489,
+      "evidence": {
+        "country_frequency": 39,
+        "public_people": 472
+      }
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 452,
+      "target": 3000,
+      "shortfall": 2548,
+      "evidence": {
+        "country_frequency": 134,
+        "public_people": 318
+      }
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 342,
+      "target": 3000,
+      "shortfall": 2658,
+      "evidence": {
+        "country_frequency": 134,
+        "public_people": 208
+      }
+    },
+    {
+      "country": "MU",
+      "type": "surname",
+      "names": 494,
+      "target": 3000,
+      "shortfall": 2506,
+      "evidence": {
+        "country_frequency": 114,
+        "public_people": 380
+      }
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "gender": "male",
+      "names": 0,
+      "target": 1000,
+      "shortfall": 1000,
+      "evidence": {}
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "gender": "female",
+      "names": 0,
+      "target": 1000,
+      "shortfall": 1000,
+      "evidence": {}
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "names": 0,
+      "target": 1000,
+      "shortfall": 1000,
+      "evidence": {}
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2064,
+      "target": 20000,
+      "shortfall": 17936,
+      "evidence": {
+        "country_frequency": 680,
+        "public_people": 1350,
+        "country_association": 34
+      }
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1901,
+      "target": 20000,
+      "shortfall": 18099,
+      "evidence": {
+        "country_frequency": 858,
+        "public_people": 1004,
+        "country_association": 39
+      }
+    },
+    {
+      "country": "MX",
+      "type": "surname",
+      "names": 5138,
+      "target": 20000,
+      "shortfall": 14862,
+      "evidence": {
+        "country_frequency": 735,
+        "public_people": 4304,
+        "country_association": 99
+      }
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1727,
+      "target": 7500,
+      "shortfall": 5773,
+      "evidence": {
+        "country_frequency": 878,
+        "public_people": 849
+      }
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1219,
+      "target": 7500,
+      "shortfall": 6281,
+      "evidence": {
+        "country_frequency": 776,
+        "public_people": 443
+      }
+    },
+    {
+      "country": "MY",
+      "type": "surname",
+      "names": 1708,
+      "target": 7500,
+      "shortfall": 5792,
+      "evidence": {
+        "country_frequency": 1080,
+        "public_people": 628
+      }
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2056,
+      "target": 20000,
+      "shortfall": 17944,
+      "evidence": {
+        "country_frequency": 829,
+        "public_people": 1227
+      }
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1274,
+      "target": 20000,
+      "shortfall": 18726,
+      "evidence": {
+        "country_frequency": 563,
+        "public_people": 711
+      }
+    },
+    {
+      "country": "NG",
+      "type": "surname",
+      "names": 3335,
+      "target": 20000,
+      "shortfall": 16665,
+      "evidence": {
+        "country_frequency": 955,
+        "public_people": 2380
+      }
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 5458,
+      "target": 7500,
+      "shortfall": 2042,
+      "evidence": {
+        "country_frequency": 623,
+        "public_people": 4835
+      }
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 4137,
+      "target": 7500,
+      "shortfall": 3363,
+      "evidence": {
+        "country_frequency": 593,
+        "public_people": 3544
+      }
+    },
+    {
+      "country": "NL",
+      "type": "surname",
+      "names": 21702,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 320,
+        "public_people": 21382
+      }
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2667,
+      "target": 3000,
+      "shortfall": 333,
+      "evidence": {
+        "published": 987,
+        "public_people": 1680
+      }
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2088,
+      "target": 3000,
+      "shortfall": 912,
+      "evidence": {
+        "published": 1098,
+        "public_people": 990
+      }
+    },
+    {
+      "country": "NO",
+      "type": "surname",
+      "names": 121350,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 117807,
+        "public_people": 3543
+      }
+    },
+    {
+      "country": "NP",
+      "type": "given_name",
+      "gender": "male",
+      "names": 23,
+      "target": 7500,
+      "shortfall": 7477,
+      "evidence": {
+        "public_people": 23
+      }
+    },
+    {
+      "country": "NP",
+      "type": "given_name",
+      "gender": "female",
+      "names": 17,
+      "target": 7500,
+      "shortfall": 7483,
+      "evidence": {
+        "public_people": 17
+      }
+    },
+    {
+      "country": "NP",
+      "type": "surname",
+      "names": 64,
+      "target": 7500,
+      "shortfall": 7436,
+      "evidence": {
+        "public_people": 64
+      }
+    },
+    {
+      "country": "NZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2700,
+      "target": 3000,
+      "shortfall": 300,
+      "evidence": {
+        "public_people": 2700
+      }
+    },
+    {
+      "country": "NZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2036,
+      "target": 3000,
+      "shortfall": 964,
+      "evidence": {
+        "public_people": 2036
+      }
+    },
+    {
+      "country": "NZ",
+      "type": "surname",
+      "names": 8540,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 8540
+      }
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 139,
+      "target": 3000,
+      "shortfall": 2861,
+      "evidence": {
+        "country_frequency": 90,
+        "public_people": 49
+      }
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 63,
+      "target": 3000,
+      "shortfall": 2937,
+      "evidence": {
+        "country_frequency": 51,
+        "public_people": 12
+      }
+    },
+    {
+      "country": "OM",
+      "type": "surname",
+      "names": 116,
+      "target": 3000,
+      "shortfall": 2884,
+      "evidence": {
+        "country_frequency": 103,
+        "public_people": 13
+      }
+    },
+    {
+      "country": "PA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 582,
+      "target": 3000,
+      "shortfall": 2418,
+      "evidence": {
+        "country_frequency": 200,
+        "public_people": 382
+      }
+    },
+    {
+      "country": "PA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 401,
+      "target": 3000,
+      "shortfall": 2599,
+      "evidence": {
+        "country_frequency": 165,
+        "public_people": 236
+      }
+    },
+    {
+      "country": "PA",
+      "type": "surname",
+      "names": 877,
+      "target": 3000,
+      "shortfall": 2123,
+      "evidence": {
+        "country_frequency": 206,
+        "public_people": 671
+      }
+    },
+    {
+      "country": "PE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2206,
+      "target": 7500,
+      "shortfall": 5294,
+      "evidence": {
+        "country_frequency": 565,
+        "public_people": 1641
+      }
+    },
+    {
+      "country": "PE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2219,
+      "target": 7500,
+      "shortfall": 5281,
+      "evidence": {
+        "country_frequency": 587,
+        "public_people": 1632
+      }
+    },
+    {
+      "country": "PE",
+      "type": "surname",
+      "names": 6076,
+      "target": 7500,
+      "shortfall": 1424,
+      "evidence": {
+        "country_frequency": 387,
+        "public_people": 5689
+      }
+    },
+    {
+      "country": "PF",
+      "type": "given_name",
+      "gender": "male",
+      "names": 136,
+      "target": 1000,
+      "shortfall": 864,
+      "evidence": {
+        "public_people": 136
+      }
+    },
+    {
+      "country": "PF",
+      "type": "given_name",
+      "gender": "female",
+      "names": 54,
+      "target": 1000,
+      "shortfall": 946,
+      "evidence": {
+        "public_people": 54
+      }
+    },
+    {
+      "country": "PF",
+      "type": "surname",
+      "names": 204,
+      "target": 1000,
+      "shortfall": 796,
+      "evidence": {
+        "public_people": 204
+      }
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1488,
+      "target": 20000,
+      "shortfall": 18512,
+      "evidence": {
+        "country_frequency": 93,
+        "public_people": 1391,
+        "country_association": 4
+      }
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 1117,
+      "target": 20000,
+      "shortfall": 18883,
+      "evidence": {
+        "country_frequency": 86,
+        "public_people": 1026,
+        "country_association": 5
+      }
+    },
+    {
+      "country": "PH",
+      "type": "surname",
+      "names": 2680,
+      "target": 20000,
+      "shortfall": 17320,
+      "evidence": {
+        "country_frequency": 103,
+        "public_people": 2561,
+        "country_association": 16
+      }
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 422,
+      "target": 20000,
+      "shortfall": 19578,
+      "evidence": {
+        "public_people": 422
+      }
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 186,
+      "target": 20000,
+      "shortfall": 19814,
+      "evidence": {
+        "public_people": 186
+      }
+    },
+    {
+      "country": "PK",
+      "type": "surname",
+      "names": 290,
+      "target": 20000,
+      "shortfall": 19710,
+      "evidence": {
+        "public_people": 290
+      }
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "names": 48034,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 47396,
+        "public_people": 638
+      }
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "female",
+      "names": 30299,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 30089,
+        "public_people": 210
+      }
+    },
+    {
+      "country": "PL",
+      "type": "surname",
+      "names": 606129,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 598423,
+        "public_people": 7705,
+        "country_association": 1
+      }
+    },
+    {
+      "country": "PR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 617,
+      "target": 3000,
+      "shortfall": 2383,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 588
+      }
+    },
+    {
+      "country": "PR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 409,
+      "target": 3000,
+      "shortfall": 2591,
+      "evidence": {
+        "country_frequency": 30,
+        "public_people": 379
+      }
+    },
+    {
+      "country": "PR",
+      "type": "surname",
+      "names": 954,
+      "target": 3000,
+      "shortfall": 2046,
+      "evidence": {
+        "country_frequency": 32,
+        "public_people": 922
+      }
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "gender": "male",
+      "names": 477,
+      "target": 3000,
+      "shortfall": 2523,
+      "evidence": {
+        "public_people": 366,
+        "country_frequency": 111
+      }
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "gender": "female",
+      "names": 281,
+      "target": 3000,
+      "shortfall": 2719,
+      "evidence": {
+        "country_frequency": 87,
+        "public_people": 194
+      }
+    },
+    {
+      "country": "PS",
+      "type": "surname",
+      "names": 450,
+      "target": 3000,
+      "shortfall": 2550,
+      "evidence": {
+        "public_people": 399,
+        "country_frequency": 51
+      }
+    },
+    {
+      "country": "PT",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1453,
+      "target": 7500,
+      "shortfall": 6047,
+      "evidence": {
+        "country_frequency": 186,
+        "public_people": 1267
+      }
+    },
+    {
+      "country": "PT",
+      "type": "given_name",
+      "gender": "female",
+      "names": 940,
+      "target": 7500,
+      "shortfall": 6560,
+      "evidence": {
+        "country_frequency": 211,
+        "public_people": 729
+      }
+    },
+    {
+      "country": "PT",
+      "type": "surname",
+      "names": 2656,
+      "target": 7500,
+      "shortfall": 4844,
+      "evidence": {
+        "country_frequency": 227,
+        "public_people": 2429
+      }
+    },
+    {
+      "country": "PY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 565,
+      "target": 3000,
+      "shortfall": 2435,
+      "evidence": {
+        "public_people": 565
+      }
+    },
+    {
+      "country": "PY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 267,
+      "target": 3000,
+      "shortfall": 2733,
+      "evidence": {
+        "public_people": 267
+      }
+    },
+    {
+      "country": "PY",
+      "type": "surname",
+      "names": 686,
+      "target": 3000,
+      "shortfall": 2314,
+      "evidence": {
+        "public_people": 686
+      }
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 152,
+      "target": 3000,
+      "shortfall": 2848,
+      "evidence": {
+        "country_frequency": 5,
+        "public_people": 147
+      }
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 45,
+      "target": 3000,
+      "shortfall": 2955,
+      "evidence": {
+        "country_frequency": 5,
+        "public_people": 40
+      }
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "names": 91,
+      "target": 3000,
+      "shortfall": 2909,
+      "evidence": {
+        "country_frequency": 3,
+        "public_people": 88
+      }
+    },
+    {
+      "country": "RO",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1379,
+      "target": 7500,
+      "shortfall": 6121,
+      "evidence": {
+        "country_frequency": 3,
+        "public_people": 1376
+      }
+    },
+    {
+      "country": "RO",
+      "type": "given_name",
+      "gender": "female",
+      "names": 886,
+      "target": 7500,
+      "shortfall": 6614,
+      "evidence": {
+        "public_people": 886
+      }
+    },
+    {
+      "country": "RO",
+      "type": "surname",
+      "names": 5109,
+      "target": 7500,
+      "shortfall": 2391,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 5108
+      }
+    },
+    {
+      "country": "RS",
+      "type": "given_name",
+      "gender": "male",
+      "names": 705,
+      "target": 3000,
+      "shortfall": 2295,
+      "evidence": {
+        "country_frequency": 34,
+        "public_people": 671
+      }
+    },
+    {
+      "country": "RS",
+      "type": "given_name",
+      "gender": "female",
+      "names": 427,
+      "target": 3000,
+      "shortfall": 2573,
+      "evidence": {
+        "country_frequency": 23,
+        "public_people": 404
+      }
+    },
+    {
+      "country": "RS",
+      "type": "surname",
+      "names": 1756,
+      "target": 3000,
+      "shortfall": 1244,
+      "evidence": {
+        "country_frequency": 10,
+        "public_people": 1746
+      }
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1755,
+      "target": 20000,
+      "shortfall": 18245,
+      "evidence": {
+        "country_frequency": 158,
+        "public_people": 1597
+      }
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "names": 869,
+      "target": 20000,
+      "shortfall": 19131,
+      "evidence": {
+        "country_frequency": 122,
+        "public_people": 747
+      }
+    },
+    {
+      "country": "RU",
+      "type": "surname",
+      "names": 9763,
+      "target": 20000,
+      "shortfall": 10237,
+      "evidence": {
+        "public_people": 9055,
+        "country_frequency": 708
+      }
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 660,
+      "target": 7500,
+      "shortfall": 6840,
+      "evidence": {
+        "country_frequency": 561,
+        "public_people": 99
+      }
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 338,
+      "target": 7500,
+      "shortfall": 7162,
+      "evidence": {
+        "country_frequency": 280,
+        "public_people": 58
+      }
+    },
+    {
+      "country": "SA",
+      "type": "surname",
+      "names": 1000,
+      "target": 7500,
+      "shortfall": 6500,
+      "evidence": {
+        "country_frequency": 854,
+        "public_people": 146
+      }
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "gender": "male",
+      "names": 524,
+      "target": 10000,
+      "shortfall": 9476,
+      "evidence": {
+        "country_frequency": 426,
+        "public_people": 98
+      }
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "gender": "female",
+      "names": 295,
+      "target": 10000,
+      "shortfall": 9705,
+      "evidence": {
+        "country_frequency": 238,
+        "public_people": 57
+      }
+    },
+    {
+      "country": "SD",
+      "type": "surname",
+      "names": 552,
+      "target": 10000,
+      "shortfall": 9448,
+      "evidence": {
+        "country_frequency": 509,
+        "public_people": 43
+      }
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 8128,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 6308,
+        "country_frequency": 109,
+        "public_people": 1711
+      }
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 8124,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 7000,
+        "country_frequency": 93,
+        "public_people": 1031
+      }
+    },
+    {
+      "country": "SE",
+      "type": "surname",
+      "names": 19223,
+      "target": 7500,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 129,
+        "public_people": 19094
+      }
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "gender": "male",
+      "names": 731,
+      "target": 3000,
+      "shortfall": 2269,
+      "evidence": {
+        "country_frequency": 346,
+        "public_people": 385
+      }
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "gender": "female",
+      "names": 577,
+      "target": 3000,
+      "shortfall": 2423,
+      "evidence": {
+        "country_frequency": 281,
+        "public_people": 296
+      }
+    },
+    {
+      "country": "SG",
+      "type": "surname",
+      "names": 632,
+      "target": 3000,
+      "shortfall": 2368,
+      "evidence": {
+        "country_frequency": 286,
+        "public_people": 346
+      }
+    },
+    {
+      "country": "SI",
+      "type": "given_name",
+      "gender": "male",
+      "names": 4376,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 4252,
+        "public_people": 124
+      }
+    },
+    {
+      "country": "SI",
+      "type": "given_name",
+      "gender": "female",
+      "names": 4497,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 4435,
+        "public_people": 62
+      }
+    },
+    {
+      "country": "SI",
+      "type": "surname",
+      "names": 31124,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 30412,
+        "public_people": 712
+      }
+    },
+    {
+      "country": "SK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 447,
+      "target": 3000,
+      "shortfall": 2553,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 445
+      }
+    },
+    {
+      "country": "SK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 404,
+      "target": 3000,
+      "shortfall": 2596,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 403
+      }
+    },
+    {
+      "country": "SK",
+      "type": "surname",
+      "names": 3116,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 3115
+      }
+    },
+    {
+      "country": "SM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 326,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 313,
+        "country_association": 13
+      }
+    },
+    {
+      "country": "SM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 71,
+      "target": 300,
+      "shortfall": 229,
+      "evidence": {
+        "public_people": 64,
+        "country_association": 7
+      }
+    },
+    {
+      "country": "SM",
+      "type": "surname",
+      "names": 524,
+      "target": 300,
+      "shortfall": 0,
+      "evidence": {
+        "public_people": 501,
+        "country_association": 23
+      }
+    },
+    {
+      "country": "SR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 613,
+      "target": 1000,
+      "shortfall": 387,
+      "evidence": {
+        "public_people": 613
+      }
+    },
+    {
+      "country": "SR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 332,
+      "target": 1000,
+      "shortfall": 668,
+      "evidence": {
+        "public_people": 332
+      }
+    },
+    {
+      "country": "SR",
+      "type": "surname",
+      "names": 959,
+      "target": 1000,
+      "shortfall": 41,
+      "evidence": {
+        "public_people": 959
+      }
+    },
+    {
+      "country": "SV",
+      "type": "given_name",
+      "gender": "male",
+      "names": 443,
+      "target": 3000,
+      "shortfall": 2557,
+      "evidence": {
+        "public_people": 443
+      }
+    },
+    {
+      "country": "SV",
+      "type": "given_name",
+      "gender": "female",
+      "names": 262,
+      "target": 3000,
+      "shortfall": 2738,
+      "evidence": {
+        "public_people": 262
+      }
+    },
+    {
+      "country": "SV",
+      "type": "surname",
+      "names": 592,
+      "target": 3000,
+      "shortfall": 2408,
+      "evidence": {
+        "public_people": 592
+      }
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 707,
+      "target": 7500,
+      "shortfall": 6793,
+      "evidence": {
+        "country_frequency": 358,
+        "public_people": 349
+      }
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 385,
+      "target": 7500,
+      "shortfall": 7115,
+      "evidence": {
+        "country_frequency": 259,
+        "public_people": 126
+      }
+    },
+    {
+      "country": "SY",
+      "type": "surname",
+      "names": 897,
+      "target": 7500,
+      "shortfall": 6603,
+      "evidence": {
+        "public_people": 400,
+        "country_frequency": 497
+      }
+    },
+    {
+      "country": "TH",
+      "type": "given_name",
+      "gender": "male",
+      "names": 7144,
+      "target": 10000,
+      "shortfall": 2856,
+      "evidence": {
+        "public_people": 35,
+        "name_corpus": 7109
+      }
+    },
+    {
+      "country": "TH",
+      "type": "given_name",
+      "gender": "female",
+      "names": 5105,
+      "target": 10000,
+      "shortfall": 4895,
+      "evidence": {
+        "public_people": 14,
+        "name_corpus": 5091
+      }
+    },
+    {
+      "country": "TH",
+      "type": "surname",
+      "names": 9869,
+      "target": 10000,
+      "shortfall": 131,
+      "evidence": {
+        "public_people": 37,
+        "country_association": 1,
+        "name_corpus": 9831
+      }
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 164,
+      "target": 7500,
+      "shortfall": 7336,
+      "evidence": {
+        "public_people": 164
+      }
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 62,
+      "target": 7500,
+      "shortfall": 7438,
+      "evidence": {
+        "public_people": 62
+      }
+    },
+    {
+      "country": "TJ",
+      "type": "surname",
+      "names": 213,
+      "target": 7500,
+      "shortfall": 7287,
+      "evidence": {
+        "public_people": 213
+      }
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "gender": "male",
+      "names": 164,
+      "target": 3000,
+      "shortfall": 2836,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 160
+      }
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "gender": "female",
+      "names": 55,
+      "target": 3000,
+      "shortfall": 2945,
+      "evidence": {
+        "country_frequency": 4,
+        "public_people": 51
+      }
+    },
+    {
+      "country": "TM",
+      "type": "surname",
+      "names": 196,
+      "target": 3000,
+      "shortfall": 2804,
+      "evidence": {
+        "country_frequency": 3,
+        "public_people": 193
+      }
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 321,
+      "target": 7500,
+      "shortfall": 7179,
+      "evidence": {
+        "country_frequency": 26,
+        "public_people": 295
+      }
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 218,
+      "target": 7500,
+      "shortfall": 7282,
+      "evidence": {
+        "country_frequency": 22,
+        "public_people": 196
+      }
+    },
+    {
+      "country": "TN",
+      "type": "surname",
+      "names": 270,
+      "target": 7500,
+      "shortfall": 7230,
+      "evidence": {
+        "country_frequency": 29,
+        "public_people": 241
+      }
+    },
+    {
+      "country": "TR",
+      "type": "given_name",
+      "gender": "male",
+      "names": 3523,
+      "target": 10000,
+      "shortfall": 6477,
+      "evidence": {
+        "country_frequency": 1457,
+        "public_people": 2066
+      }
+    },
+    {
+      "country": "TR",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2251,
+      "target": 10000,
+      "shortfall": 7749,
+      "evidence": {
+        "country_frequency": 1275,
+        "public_people": 976
+      }
+    },
+    {
+      "country": "TR",
+      "type": "surname",
+      "names": 7780,
+      "target": 10000,
+      "shortfall": 2220,
+      "evidence": {
+        "country_frequency": 1987,
+        "public_people": 5793
+      }
+    },
+    {
+      "country": "TW",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1075,
+      "target": 7500,
+      "shortfall": 6425,
+      "evidence": {
+        "published": 130,
+        "public_people": 919,
+        "country_association": 26
+      }
+    },
+    {
+      "country": "TW",
+      "type": "given_name",
+      "gender": "female",
+      "names": 686,
+      "target": 7500,
+      "shortfall": 6814,
+      "evidence": {
+        "published": 137,
+        "public_people": 534,
+        "country_association": 15
+      }
+    },
+    {
+      "country": "TW",
+      "type": "surname",
+      "names": 2848,
+      "target": 2500,
+      "shortfall": 0,
+      "evidence": {
+        "published": 2708,
+        "public_people": 136,
+        "country_association": 4
+      }
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 441,
+      "target": 7500,
+      "shortfall": 7059,
+      "evidence": {
+        "public_people": 441
+      }
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 283,
+      "target": 7500,
+      "shortfall": 7217,
+      "evidence": {
+        "public_people": 283
+      }
+    },
+    {
+      "country": "UA",
+      "type": "surname",
+      "names": 3667,
+      "target": 7500,
+      "shortfall": 3833,
+      "evidence": {
+        "public_people": 3667
+      }
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "names": 51655,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 46446,
+        "public_people": 5209
+      }
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "names": 75830,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 73718,
+        "public_people": 2112
+      }
+    },
+    {
+      "country": "US",
+      "type": "surname",
+      "names": 186584,
+      "target": 20000,
+      "shortfall": 0,
+      "evidence": {
+        "published": 162253,
+        "public_people": 24331
+      }
+    },
+    {
+      "country": "UY",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1179,
+      "target": 3000,
+      "shortfall": 1821,
+      "evidence": {
+        "country_frequency": 203,
+        "public_people": 976
+      }
+    },
+    {
+      "country": "UY",
+      "type": "given_name",
+      "gender": "female",
+      "names": 813,
+      "target": 3000,
+      "shortfall": 2187,
+      "evidence": {
+        "country_frequency": 211,
+        "public_people": 602
+      }
+    },
+    {
+      "country": "UY",
+      "type": "surname",
+      "names": 4155,
+      "target": 3000,
+      "shortfall": 0,
+      "evidence": {
+        "country_frequency": 146,
+        "public_people": 4009
+      }
+    },
+    {
+      "country": "UZ",
+      "type": "given_name",
+      "gender": "male",
+      "names": 503,
+      "target": 7500,
+      "shortfall": 6997,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 269,
+        "country_association": 232
+      }
+    },
+    {
+      "country": "UZ",
+      "type": "given_name",
+      "gender": "female",
+      "names": 251,
+      "target": 7500,
+      "shortfall": 7249,
+      "evidence": {
+        "public_people": 168,
+        "country_association": 83
+      }
+    },
+    {
+      "country": "UZ",
+      "type": "surname",
+      "names": 855,
+      "target": 7500,
+      "shortfall": 6645,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 438,
+        "country_association": 416
+      }
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 1111,
+      "target": 7500,
+      "shortfall": 6389,
+      "evidence": {
+        "country_frequency": 2,
+        "public_people": 1109
+      }
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 792,
+      "target": 7500,
+      "shortfall": 6708,
+      "evidence": {
+        "public_people": 792
+      }
+    },
+    {
+      "country": "VE",
+      "type": "surname",
+      "names": 2036,
+      "target": 7500,
+      "shortfall": 5464,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 2035
+      }
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "male",
+      "names": 555,
+      "target": 20000,
+      "shortfall": 19445,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 535,
+        "country_association": 19
+      }
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "female",
+      "names": 307,
+      "target": 20000,
+      "shortfall": 19693,
+      "evidence": {
+        "public_people": 301,
+        "country_association": 6
+      }
+    },
+    {
+      "country": "VN",
+      "type": "surname",
+      "names": 516,
+      "target": 20000,
+      "shortfall": 19484,
+      "evidence": {
+        "country_frequency": 1,
+        "public_people": 493,
+        "country_association": 22
+      }
+    },
+    {
+      "country": "XK",
+      "type": "given_name",
+      "gender": "male",
+      "names": 523,
+      "target": 3000,
+      "shortfall": 2477,
+      "evidence": {
+        "public_people": 523
+      }
+    },
+    {
+      "country": "XK",
+      "type": "given_name",
+      "gender": "female",
+      "names": 183,
+      "target": 3000,
+      "shortfall": 2817,
+      "evidence": {
+        "public_people": 183
+      }
+    },
+    {
+      "country": "XK",
+      "type": "surname",
+      "names": 487,
+      "target": 3000,
+      "shortfall": 2513,
+      "evidence": {
+        "public_people": 487
+      }
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "names": 440,
+      "target": 7500,
+      "shortfall": 7060,
+      "evidence": {
+        "country_frequency": 330,
+        "public_people": 110
+      }
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "female",
+      "names": 179,
+      "target": 7500,
+      "shortfall": 7321,
+      "evidence": {
+        "country_frequency": 125,
+        "public_people": 54
+      }
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "names": 610,
+      "target": 7500,
+      "shortfall": 6890,
+      "evidence": {
+        "country_frequency": 553,
+        "public_people": 57
+      }
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "gender": "male",
+      "names": 2551,
+      "target": 10000,
+      "shortfall": 7449,
+      "evidence": {
+        "country_frequency": 1061,
+        "public_people": 1490
+      }
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "gender": "female",
+      "names": 2187,
+      "target": 10000,
+      "shortfall": 7813,
+      "evidence": {
+        "country_frequency": 1144,
+        "public_people": 1043
+      }
+    },
+    {
+      "country": "ZA",
+      "type": "surname",
+      "names": 5535,
+      "target": 10000,
+      "shortfall": 4465,
+      "evidence": {
+        "country_frequency": 1047,
+        "public_people": 4488
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "country": "AE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1600
+    },
+    {
+      "country": "AE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 636
+    },
+    {
+      "country": "AE",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1372
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 86
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 60
+    },
+    {
+      "country": "AF",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 88
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "South Australia — birth registrations 1944–2013",
+      "reason": "placeholder",
+      "name": "Un-Named",
+      "rows": 1
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "South Australia — birth registrations 1944–2013",
+      "reason": "invalid_display_name",
+      "rows": 29
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "female",
+      "source": "South Australia — birth registrations 1944–2013",
+      "reason": "invalid_display_name",
+      "rows": 12
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "female",
+      "source": "South Australia — birth registrations 1944–2013",
+      "reason": "placeholder",
+      "name": "Un-Named",
+      "rows": 1
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 718
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 322
+    },
+    {
+      "country": "BD",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 786
+    },
+    {
+      "country": "BE",
+      "type": "surname",
+      "source": "Statbel — population names by municipality",
+      "reason": "invalid_display_name",
+      "rows": 68
+    },
+    {
+      "country": "BE",
+      "type": "surname",
+      "source": "Statbel — population names by municipality",
+      "reason": "placeholder",
+      "name": "Unbekannt",
+      "rows": 2
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 120
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 86
+    },
+    {
+      "country": "BG",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 108
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 358
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 274
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 386
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "xxxx",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "xxxxx",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "xxxxxx",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "invalid_display_name",
+      "rows": 4
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "UNNAMED",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "INFANT",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "MALE",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "OLIVIERXXXXXXXXXXXXX",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "UNNAMED",
+      "rows": 2
+    },
+    {
+      "country": "CA",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Statistics Canada — Table 17-10-0147-01",
+      "reason": "placeholder",
+      "name": "UN-NAMED",
+      "rows": 2
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "guaguas / Registro Civil de Chile",
+      "reason": "invalid_display_name",
+      "rows": 24
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "guaguas / Registro Civil de Chile",
+      "reason": "invalid_display_name",
+      "rows": 14
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 86
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 80
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 80
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "BerlinOnline / LABO — Berlin birth registrations",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "BerlinOnline / LABO — Berlin birth registrations",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2032
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1824
+    },
+    {
+      "country": "DZ",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2442
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1858
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1836
+    },
+    {
+      "country": "EG",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 3160
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 10
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 12
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 6
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "reason": "invalid_display_name",
+      "rows": 48
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "reason": "invalid_display_name",
+      "rows": 38
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "source": "Insee — Fichier des noms",
+      "reason": "invalid_display_name",
+      "rows": 66
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "source": "Insee — Fichier des noms",
+      "reason": "placeholder",
+      "name": "UNBEKANNT",
+      "rows": 2
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Office for National Statistics",
+      "reason": "invalid_display_name",
+      "rows": 52
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "National Records of Scotland — births 1974–2025",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 5
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 5
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Office for National Statistics",
+      "reason": "invalid_display_name",
+      "rows": 126
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 34
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 34
+    },
+    {
+      "country": "GE",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 18
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 262
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 212
+    },
+    {
+      "country": "GR",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 152
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 618
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 580
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 426
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Central Statistics Office — Irish Babies’ Names 1964–2025",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Israel CBS / babynamesIL — birth names 1949–2024",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 752
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Israel CBS / babynamesIL — birth names 1949–2024",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 706
+    },
+    {
+      "country": "IL",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 300
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship and name records",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1122
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 646
+    },
+    {
+      "country": "IQ",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1002
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 652
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 500
+    },
+    {
+      "country": "IR",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 414
+    },
+    {
+      "country": "IT",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Istat — Conta nomi",
+      "reason": "invalid_display_name",
+      "rows": 2476
+    },
+    {
+      "country": "IT",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Istat — Conta nomi",
+      "reason": "invalid_display_name",
+      "rows": 2144
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 554
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 444
+    },
+    {
+      "country": "JO",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 252
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "gender": "female",
+      "source": "아기이름 — 전체 이름 순위",
+      "reason": "placeholder",
+      "name": "미상",
+      "rows": 2
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 770
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 492
+    },
+    {
+      "country": "KW",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 676
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 252
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 288
+    },
+    {
+      "country": "KZ",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 108
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 518
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 486
+    },
+    {
+      "country": "LB",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 468
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 512
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 382
+    },
+    {
+      "country": "LY",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 382
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2616
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2394
+    },
+    {
+      "country": "MA",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 3896
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 104
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 98
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 112
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 66
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 52
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 54
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1064
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 456
+    },
+    {
+      "country": "OM",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 982
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship and name records",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 12
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "PK",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 6
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "reason": "invalid_display_name",
+      "rows": 20
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "PL",
+      "type": "surname",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "reason": "invalid_display_name",
+      "rows": 86
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 692
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 564
+    },
+    {
+      "country": "PS",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 314
+    },
+    {
+      "country": "PY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "PY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 658
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 402
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 582
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 516
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 530
+    },
+    {
+      "country": "RU",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 276
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 3566
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1336
+    },
+    {
+      "country": "SA",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 3206
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 588
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 452
+    },
+    {
+      "country": "SD",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 460
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Statistics Sweden — newborn given names 1998–2022",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 818
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 750
+    },
+    {
+      "country": "SY",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 752
+    },
+    {
+      "country": "TH",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Thai Names Corpus (CC BY-SA 4.0)",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1442
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1370
+    },
+    {
+      "country": "TN",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 1972
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "UA",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 6
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Infant",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Male",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Unnamed",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Child",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Newborn",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Female",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Male",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Ref",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Blank",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Female",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 7
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "placeholder",
+      "name": "Person",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 7
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "placeholder",
+      "name": "Person",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Infant",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Female",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Unnamed",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Child",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Newborn",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Female",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Ref",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Male",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Census Bureau — 2020 first names by sex",
+      "reason": "placeholder",
+      "name": "Blank",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "placeholder",
+      "name": "Baby",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "US",
+      "type": "surname",
+      "source": "U.S. Census Bureau 2010 Census Surname Data",
+      "reason": "placeholder",
+      "name": "All other names",
+      "rows": 2
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 366
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "placeholder",
+      "name": "Unknown",
+      "rows": 2
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 232
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 304
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    }
+  ]
+}

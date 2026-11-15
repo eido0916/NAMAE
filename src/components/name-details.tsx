@@ -6,7 +6,7 @@ import { loadNameDetails, collectNameDetails, type NameDetails, type DetailEntit
 import { nameReadingHint } from '@/lib/name-reading.mjs';
 import { getDetailCopy, getDetailReadingCopy, detailUiLanguage } from '@/lib/detail-copy';
 import { localizedCountryName } from '@/lib/ui-copy';
-import type { CountryConfig, NameType } from '@/lib/types';
+import type { CountryConfig, NameRecord, NameType } from '@/lib/types';
 
 function licenseLink(license: string) {
   const match = /^CC (BY(?:-SA)?) (2\.0|2\.5|3\.0|4\.0)$/.exec(license);
@@ -19,7 +19,7 @@ function Entity({ entity, sourceCountry }: { entity: DetailEntity; sourceCountry
   const localized = entity.localizations?.[language] ?? (entity.localized?.language === language ? entity.localized : undefined);
   entity = localized ? { ...entity, ...localized } : entity;
   return <article className="detail-entity">
-    {entity.image && <figure>
+    {entity.image && process.env.NEXT_PUBLIC_NAMAE_RELEASE !== '1' && <figure>
       <Image unoptimized src={entity.image.url} alt={entity.name} width={96} height={112} loading="lazy" referrerPolicy="no-referrer" onError={(event) => { event.currentTarget.hidden = true; }} />
       <figcaption><a href={entity.image.source} target="_blank" rel="noopener noreferrer">{entity.image.credit}</a> · <a href={licenseLink(entity.image.license) ?? entity.image.source} target="_blank" rel="noopener noreferrer">{entity.image.license}</a></figcaption>
     </figure>}
@@ -35,8 +35,8 @@ function Entity({ entity, sourceCountry }: { entity: DetailEntity; sourceCountry
     </div>
   </article>;
 }
-export function NameDetailsDialog({ country, sourceCountry, name, type, close }: {
-  country: CountryConfig; sourceCountry: string; name: string; type: NameType; close: () => void;
+export function NameDetailsDialog({ country, sourceCountry, name, type, usageEvidence, close }: {
+  country: CountryConfig; sourceCountry: string; name: string; type: NameType; usageEvidence?: NameRecord["usageEvidence"]; close: () => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const copy = getDetailCopy(sourceCountry);
@@ -48,6 +48,7 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, close }:
   const [attempt, setAttempt] = useState(0);
   const [lookup, setLookup] = useState<NameDetails['lookup']>();
   const hint = nameReadingHint(country.code, name);
+  const staticRelease = process.env.NEXT_PUBLIC_NAMAE_RELEASE === '1';
   useEffect(() => {
     const element = dialog.current!;
     const focused = document.activeElement as HTMLElement | null;
@@ -83,11 +84,11 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, close }:
       let saved: NameDetails | undefined;
       try {saved=await loadNameDetails(country.code,type,name);if(active) setDetails(saved);}
       catch {if(active) setError(copy.error);}
-      if(active && !saved?.people.length) {setLookup({state:'queued'});void collect();}
+      if(active && !staticRelease && !saved?.people.length) {setLookup({state:'queued'});void collect();}
     }
     void start();
     return () => {active=false;controller.abort();clearTimeout(timer);};
-  }, [country.code, name, type, attempt, copy]);
+  }, [country.code, name, type, attempt, copy, staticRelease]);
   return <dialog lang={language} ref={dialog} className="name-detail-dialog glass" aria-labelledby="name-detail-title" onCancel={close} onClick={(event) => { if (event.target === event.currentTarget) {
     const rect = event.currentTarget.getBoundingClientRect();
     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) close();
@@ -95,6 +96,14 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, close }:
     <div className="detail-toolbar"><span className="eyebrow">WORLD NAME STORIES</span><button type="button" className="detail-close" onClick={close} aria-label={copy.close} autoFocus>×</button></div>
     <p className="detail-country"><Image className="country-flag" src={`/flags/${country.code}.svg`} alt={`${countryName} ${copy.flag}`} width={32} height={32} unoptimized /> {countryName} <small>{country.nameEn}</small></p>
     <h2 id="name-detail-title">{name}</h2>
+    {usageEvidence && <p className="detail-meta">
+      {usageEvidence.url
+        ? <a href={usageEvidence.url} target="_blank" rel="noopener noreferrer">{usageEvidence.source} ↗</a>
+        : usageEvidence.source}
+    </p>}
+    {usageEvidence && <p className="detail-meta">
+      <a href={`/sources/#corrections`}>{sourceCountry === "JP" ? "データの誤りを報告する方法" : "How to report a data issue"}</a>
+    </p>}
     {language === 'ja' && details?.reading ? <p className="detail-reading">{readingCopy.reading}: {details.reading.text} <a href={details.reading.source} target="_blank" rel="noopener noreferrer" aria-label={copy.source}>↗</a></p>
       : language === 'ja' && hint ? <p className="detail-reading">{readingCopy.hint}: {hint.text}</p>
       : (details || error) && <p className="detail-reading">{readingCopy.missing}</p>}

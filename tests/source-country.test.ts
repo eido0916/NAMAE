@@ -66,11 +66,15 @@ test("source country controls lookup, destinations and surname metadata", async 
       await loadDiagnosisData(input.type, ["JP"], record?.rank, input.gender, input.name, country);
       const result = diagnose(input);
       assert.equal(result.meta.country, country);
-      assert.ok(result.matches.some((match) => match.country.code === "JP"));
       if (country === "XK") {
+        assert.deepEqual(result.matches, []);
+        assert.ok(result.unavailableCountries?.some(entry => entry.country.code === "JP"));
         assert.equal(result.recognition, "dictionary");
         assert.equal(result.record, undefined, "public-people evidence ranks must not become source popularity ranks");
-      } else assert.ok(result.record, `${country} must use its ranking`);
+      } else {
+        assert.ok(result.record, `${country} must use its ranking`);
+        assert.ok(result.matches.some((match) => match.country.code === "JP"));
+      }
     }
     for (const country of getCountryConfig()) {
       assert.ok(sourceCountryCodes.includes(country.code));

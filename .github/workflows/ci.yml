@@ -34,14 +34,70 @@ jobs:
       - name: Wait for static site
         run: for i in {1..30}; do curl --fail --silent http://localhost:3000/ >/dev/null && exit 0; sleep 1; done; cat /tmp/namae-server.log; exit 1
       - run: npm run test:browser
-      - name: Enforce source redistribution review on production
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: npm run licenses:check
       - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: data-quality-and-browser-results
           path: |
             reports/
+            test-results/
+          if-no-files-found: ignore
+
+  release-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PORT: '3001'
+      NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3001
+      NAMAE_PREVIEW_URL: http://127.0.0.1:3001
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          lfs: true
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Generate the public build inputs
+        run: |
+          npm run data:build
+          npm run details:build
+      - name: Build the public release
+        id: build
+        run: |
+          npm run build:release -- --preview 2>&1 | tee "$RUNNER_TEMP/namae-release-build.log"
+          release_dir=$(sed -n 's/^Static release: //p' "$RUNNER_TEMP/namae-release-build.log")
+          test -f "$release_dir/data/manifest.json"
+          printf 'directory=%s\n' "$release_dir" >> "$GITHUB_OUTPUT"
+      - name: Verify public release source metadata
+        env:
+          NAMAE_STATIC_DIR: ${{ steps.build.outputs.directory }}
+        run: npm run licenses:check -- "$NAMAE_STATIC_DIR"
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Verify the public release through HTTP and the browser
+        env:
+          NAMAE_STATIC_DIR: ${{ steps.build.outputs.directory }}
+        run: |
+          node scripts/serve.mjs > "$RUNNER_TEMP/namae-release-server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          curl --fail --silent --show-error --retry 30 --retry-connrefused --retry-delay 1 \
+            --max-time 3 --output /dev/null "$NAMAE_PREVIEW_URL/"
+          node scripts/check-deployment.mjs "$NAMAE_PREVIEW_URL"
+          npx playwright test tests/release.browser.spec.ts
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: public-release-verification
+          path: |
+            .tmp/release-*/quality-audit.json
+            .tmp/release-*/out/data/coverage.json
+            ${{ runner.temp }}/namae-release-build.log
+            ${{ runner.temp }}/namae-release-server.log
             test-results/
           if-no-files-found: ignore

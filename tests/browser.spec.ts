@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { readFile } from "node:fs/promises";
-test("deep Italian and Korean ranks and corpus reference ranks are distinguished", async ({ page }) => {
+test("country results show their real source ranks rather than dictionary suggestions", async ({ page }) => {
   await page.goto("http://localhost:3000/name");
   await page.locator("#name").fill("ああす");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
@@ -12,9 +12,9 @@ test("deep Italian and Korean ranks and corpus reference ranks are distinguished
   await expect(page.getByRole("article").filter({ hasText: "South Korea" })).toContainText(`#${rank}`);
   await page.locator(".result-country-options label").filter({ hasText: "ボツワナ" }).click();
   const dictionary = page.getByRole("article").filter({ hasText: "Botswana" });
-  await expect(dictionary).toContainText("資料内参考順位");
+  await expect(dictionary).toContainText("#34");
   await expect(dictionary).not.toContainText("順位の根拠");
-  await expect(dictionary.locator(".match-bottom > span")).toHaveCount(1);
+  await expect(dictionary.locator(".match-bottom > span")).toHaveCount(2);
   await expect(dictionary).not.toContainText("#undefined");
 });
 

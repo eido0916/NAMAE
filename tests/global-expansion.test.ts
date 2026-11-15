@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { configureEngine, clearReferenceDataset, diagnose, setDatasetUnavailable, getNameRecord } from "../src/lib/engine";
+import { configureEngine, clearReferenceDataset, diagnose, setDatasetUnavailable, getCohort, getNameRecord } from "../src/lib/engine";
 import type { ReferenceDataset } from "../src/lib/types";
 
 test("Japanese dictionary additions are recognized without an invented popularity rank", () => {
@@ -18,18 +18,22 @@ test("Japanese dictionary additions are recognized without an invented popularit
   }
 });
 
-test("a country-specific dictionary fills a missing ordinal without inventing a rank", () => {
+test("source-ranked names take precedence over dictionary suggestions and unavailable files stay unavailable", () => {
   const reference = JSON.parse(readFileSync("src/reference-data/bw/given_name.json", "utf8")) as ReferenceDataset;
   configureEngine({ references: [reference] });
   try {
     const result = diagnose({ name: "じゅん", type: "given_name", gender: "male", destinationCountries: ["BW"] });
-    assert.equal(result.matches.length, 1);
-    assert.equal(result.matches[0].record.rank, undefined);
-    assert.equal(result.matches[0].record.totalEntries, undefined);
-    assert.ok(reference.records.some((r) => r.name === result.matches[0].record.name && r.gender === "male"));
+    const match = result.matches[0];
+    const source = result.record!;
+    const cohort = getCohort(result.input, "BW");
+    const distance = (rank: number, total: number) => Math.abs(rank / total - source.rank / source.totalEntries);
+    const nearest = cohort.reduce((best, record) => Math.min(best, distance(record.rank, record.totalEntries)), Infinity);
+    assert.equal(match.equivalentRank, source.rank);
+    assert.equal(distance(match.record.rank!, match.record.totalEntries!), nearest);
+    assert.ok(cohort.some(record => record.name === match.record.name && record.rank === match.record.rank));
     assert.deepEqual(diagnose(result.input), result);
     setDatasetUnavailable("BW", "given_name", "ranked file unavailable");
-    assert.equal(diagnose(result.input).matches[0].record.rank, undefined);
+    assert.deepEqual(diagnose(result.input).matches, []);
   } finally {
     setDatasetUnavailable("BW", "given_name");
     clearReferenceDataset("BW", "given_name");

@@ -1,3 +1,4 @@
+export type RankingScope = "published" | "public_people" | "app";
 export type NameType = "given_name" | "surname";
 export type Gender = "male" | "female" | "unknown";
 export type MatchingMode = "exactRank" | "normalizedRank" | "populationShare";
@@ -16,8 +17,12 @@ export type NameRecord = {
   dataYear?: number;
   rankingBasis?: RankingBasis;
   isEstimated?: boolean;
+  applicationRank?: boolean;
+  usageEvidence?: { kind: "published" | "country_frequency" | "public_people" | "country_association" | "name_corpus"; source: string; url?: string };
+  observation?: { totalPeople: number; tiedNames: number; asOf: string; sourceId: string };
 };
 export type DatasetMeta = {
+  rankingScope?: RankingScope;
   country: string;
   type: NameType;
   source: string;
@@ -57,6 +62,7 @@ export type CountryConfig = {
   supportsSurname: boolean;
 };
 export type DiagnosisInput = {
+  rankingScope?: RankingScope;
   sourceCountry?: string;
   name: string;
   type: NameType;
@@ -72,6 +78,6 @@ export type Diagnosis = {
   recognition: "ranked" | "historical" | "dictionary" | "unrecognized";
   autoDetectedFrom?: NameType;
   unavailableCountries?: { country: CountryConfig; reason: string }[];
-  matches: { country: CountryConfig; record: NameRecord | ReferenceNameRecord; meta: DatasetMeta }[];
+  matches: { country: CountryConfig; record: NameRecord | ReferenceNameRecord; meta: DatasetMeta; equivalentRank?: number }[];
   meta: DatasetMeta;
 };

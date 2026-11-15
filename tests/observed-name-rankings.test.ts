@@ -28,14 +28,14 @@ test("observed surname ranks accept real one-character Hangul and do not import 
   assert.equal(buildObservedRanks(input, { Q10: { en: "علي" } }, "FR", "surname").length, 0);
 });
 
-test("counted references take priority over rank-free references while a genuine same ordinal wins", () => {
+test("public-person references never replace missing population ranks while exact ranks remain available", () => {
   const ref = { meta: { country: "DE", type: "surname", source: "Observed test", sourceUrl: "https://www.wikidata.org", dataYear: 2026, isOfficial: false, isSample: false }, records: [{ country: "DE", type: "surname", name: "Counted", sourceIds: ["wikidata-observed-name-counts"], evidenceRank: { rank: 1, totalNames: 1, observedPeople: 2, totalPeople: 2, tiedNames: 1, method: "competition", scope: "public_people", sourceId: "wikidata-observed-name-counts", asOf: "2026-10-16" } }, { country: "DE", type: "surname", name: "NoCounts", sourceIds: ["test"] }] } as ReferenceDataset;
   const japan = JSON.parse(readFileSync("src/data/jp/surname/sample.json", "utf8"));
   configureEngine({ references: [ref] });
   try {
     const deep = diagnose({ name: japan.records.find((r: { rank: number }) => r.rank === 10000).name, type: "surname", destinationCountries: ["DE"] });
-    assert.equal(deep.matches[0].record.name, "Counted");
-    assert.equal(deep.matches[0].record.rank, undefined);
+    assert.ok(deep.matches[0].record.rank !== undefined);
+    assert.notEqual(deep.matches[0].record.name, "Counted");
     const exact = diagnose({ name: "佐藤", type: "surname", destinationCountries: ["DE"] });
     assert.equal(exact.matches[0].record.rank, 1);
     assert.notEqual(exact.matches[0].record.name, "Counted");

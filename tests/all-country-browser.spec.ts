@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
-test("deep surname inputs receive clearly identified country dictionary candidates", async ({ page }) => {
+test("deep surname inputs retain source ranks and leave missing datasets unavailable", async ({ page }) => {
   test.setTimeout(90000);
   const japan = JSON.parse(readFileSync("src/data/jp/surname/sample.json", "utf8"));
   const source = japan.records.find((r: { rank: number }) => r.rank === 10000);
@@ -11,14 +11,14 @@ test("deep surname inputs receive clearly identified country dictionary candidat
   await expect(page.locator(".rank strong")).toHaveText("#10000", { timeout: 20000 });
   for (const country of ["Germany", "South Korea"]) {
     const card = page.getByRole("article").filter({ hasText: country });
-    await expect(card).toContainText(/人気順位のない名前辞書|資料内参考順位/, { timeout: 20000 });
+    await expect(card).toContainText(/#\d+|データなし/, { timeout: 20000 });
     await expect(card).not.toContainText("#undefined");
   }
   await page.locator(".result-country-picker summary").click();
   for (const [label, country] of [["バングラデシュ", "Bangladesh"], ["モルディブ", "Maldives"], ["スリナム", "Suriname"]]) {
     await page.locator(".result-country-options label").filter({ hasText: label }).click();
     const card = page.getByRole("article").filter({ hasText: country });
-    await expect(card).toContainText(/資料内参考順位|名前辞書/, { timeout: 20000 });
+    await expect(card).toContainText(/#\d+|データなし/, { timeout: 20000 });
     await expect(card).not.toContainText("データを読み込めませんでした");
   }
 });
@@ -35,7 +35,7 @@ test("countries formerly missing given-name datasets work for male and female in
     for (const [label, country] of [["キューバ", "Cuba"], ["ドミニカ共和国", "Dominican Republic"], ["フィジー", "Fiji"]]) {
       await page.locator(".result-country-options label").filter({ hasText: label }).click();
       const card = page.getByRole("article").filter({ hasText: country });
-      await expect(card).toContainText(/資料内参考順位|名前辞書/, { timeout: 20000 });
+      await expect(card).toContainText(/#\d+|データなし/, { timeout: 20000 });
       await expect(card).not.toContainText("データを読み込めませんでした");
     }
   }

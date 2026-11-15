@@ -19,7 +19,7 @@ test("the smallest country collections load candidates for both genders and deep
     for (const [label, country] of [["ジブチ", "Djibouti"], ["ジブラルタル", "Gibraltar"], ["トルクメニスタン", "Turkmenistan"]]) {
       await page.locator(".result-country-options label").filter({ hasText: label }).click();
       const card = page.getByRole("article").filter({ hasText: country });
-      await expect(card).toContainText(/資料内参考順位|名前辞書/, { timeout: 20000 });
+      await expect(card).toContainText(/#\d+|データなし/, { timeout: 20000 });
       await expect(card).not.toContainText("データを読み込めませんでした");
       await expect(card).not.toContainText("#undefined");
     }

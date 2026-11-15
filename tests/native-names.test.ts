@@ -38,9 +38,9 @@ test('Chinese given-name examples use source-provided Han rather than English na
   assert.ok(examples.length > 0); assert.ok(examples.every(name => /\p{Script=Han}/u.test(name)),examples.join(','));
   const cohorts=getCohort({name:'',type:'given_name',gender:'male'},'CN');
   assert.ok(cohorts.every(r=>isNativeName('CN',r.name)));
-  assert.equal(cohorts[0].name,'奕辰');
+  assert.equal(cohorts[0].name,'沐宸');
   assert.equal(cohorts[0].rank,1);
-  assert.equal(cohorts[0].count,14620);
+  assert.equal(cohorts[0].count,22958);
   assert.equal(chinese.meta.isOfficial,true);
   assert.match(chinese.meta.coverageLabel!,/newborns/);
   assert.deepEqual(getInputNameCandidates({sourceCountry:'CN',type:'given_name',gender:'male',name:'Yichen'}).map(r=>r.name),['奕辰','亦辰','亦宸']);

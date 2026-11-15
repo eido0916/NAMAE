@@ -3,7 +3,7 @@
     "https://github.com/sigpwned/popular-names-by-country-dataset",
     "https://onomaverse.com/datasets/name-transliterations"
   ],
-  "entries": 22479,
-  "ambiguous": 1193,
+  "entries": 22375,
+  "ambiguous": 1190,
   "policy": "Only source-linked spellings; ambiguous mappings are not resolved; no generated transliteration."
 }

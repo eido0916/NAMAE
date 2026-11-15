@@ -11,6 +11,7 @@ import type {
   NameRecord,
   NameType,
   RankingBasis,
+  RankingScope,
   ReferenceDataset,
   ReferenceNameRecord,
 } from "./types";
@@ -21,6 +22,8 @@ type DictionaryEntry = {
 };
 
 let datasets: Dataset[] = [];
+const appDatasets = new Map<string, Dataset>();
+const observedDatasets = new Map<string, Dataset>();
 let dictionary: DictionaryEntry[] = [];
 const references = new Map<string, ReferenceDataset>();
 const supplementalNames = new Map<string, ReferenceNameRecord[]>();
@@ -55,10 +58,15 @@ function rebuildReadingIndex() {
 
 export function configureEngine(data: {
   datasets?: Dataset[];
+  observedDatasets?: Dataset[];
+  appDatasets?: Dataset[];
   dictionary?: DictionaryEntry[];
   references?: ReferenceDataset[];
   rankAlternatives?: Dataset[];
 }) {
+  for (const dataset of data.appDatasets ?? []) appDatasets.set(dataset.meta.country + '/' + dataset.meta.type, dataset);
+  for (const dataset of data.observedDatasets ?? [])
+    observedDatasets.set(dataset.meta.country + '/' + dataset.meta.type, dataset);
   for (const dataset of data.rankAlternatives ?? [])
     rankAlternatives.set(`${dataset.meta.country}/${dataset.meta.type}`, dataset);
   for (const dataset of data.references ?? [])
@@ -92,6 +100,7 @@ export function hasJapaneseReferenceName(input: DiagnosisInput) {
   return hasReferenceName(input);
 }
 export function hasReferenceName(input: DiagnosisInput) {
+  if (input.rankingScope === 'public_people' || input.rankingScope === 'app') return false;
   const country = input.sourceCountry ?? "JP";
   const names = new Set([normalizeName(input.name), ...(country === "JP" && input.reading ? [normalizeName(input.reading)] : [])]);
   return referenceRecords(country, input.type).some((record) =>
@@ -115,15 +124,25 @@ export const sourceCountryCodes = getCountryConfig().map((country) => country.co
 export function getDefaultDestinations(sourceCountry = "JP") {
   return ["JP", "US", "GB", "FR", "KR", "DE"].filter((code) => code !== sourceCountry).slice(0, 5);
 }
-export function getInputExamples(country: string, type: NameType, gender: "male" | "female") {
-  const input = { name: "", type, gender, sourceCountry: country };
+export function getInputExamples(country: string, type: NameType, gender: "male" | "female", rankingScope?: RankingScope) {
+  const input = { name: "", type, gender, sourceCountry: country, rankingScope };
   const ranked = getCohort(input, country).slice(0, 3).map((record) => record.name);
-  if (ranked.length) return ranked;
+  if (ranked.length || rankingScope === 'public_people') return ranked;
   return referenceRecords(country, type)
     .filter((record) => isNativeName(country, record.name) && (type === "surname" || record.gender === gender))
     .slice(0, 3).map((record) => record.name) ?? [];
 }
-export function getDataset(country: string, type: NameType): Dataset {
+export function getDataset(country: string, type: NameType, rankingScope?: RankingScope): Dataset {
+  if (rankingScope === 'app') {
+    const dataset = appDatasets.get(country + '/' + type);
+    if (!dataset) throw Error('対応データがありません');
+    return dataset;
+  }
+  if (rankingScope === 'public_people') {
+    const dataset = observedDatasets.get(country + '/' + type);
+    if (!dataset) throw Error('公開人物の順位データがありません');
+    return dataset;
+  }
   const d = (datasets as Dataset[]).find(
     (d) => d.meta.country === country && d.meta.type === type,
   );
@@ -134,8 +153,16 @@ export function getDatasetMetadata(
   country: string,
   type: NameType,
   year?: number,
+  rankingScope?: RankingScope,
 ) {
-  const d = getDataset(country, type);
+  const d = getDataset(country, type, rankingScope);
+  if (rankingScope === 'public_people' || rankingScope === 'app') return d.meta;
+  if (country === 'CN' && type === 'given_name' && (year === 2020 || year === 2021)) {
+    return { ...d.meta, dataYear: year,
+      source: '公安部《全国姓名报告》' + year + '年新生儿名字',
+      sourceUrl: year === 2020 ? 'https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm' : d.meta.sourceUrl,
+      coverageLabel: year + ' 新生儿 / newborns · 男女別 Top 10' };
+  }
   return { ...d.meta, dataYear: year ?? d.meta.dataYear };
 }
 export function getCohort(
@@ -143,12 +170,13 @@ export function getCohort(
   country: string,
   rankingBasis?: RankingBasis,
 ): NameRecord[] {
+  if (input.rankingScope === 'app') return getDataset(country, input.type, 'app').records.filter(record => input.type === 'surname' || record.gender === input.gender);
   const inferredRankingBasis =
     rankingBasis ??
-    (country === "JP" && input.type === "given_name"
+    (country === "JP" && input.type === "given_name" && input.rankingScope !== "public_people"
       ? "overall"
       : undefined);
-  const dataset = getDataset(country, input.type);
+  const dataset = getDataset(country, input.type, input.rankingScope);
   const records = dataset.records.filter(
     (record) =>
       isNativeName(country, record.name) && hasRankEvidence(record, dataset.meta) &&
@@ -193,9 +221,19 @@ export function getNameRecord(
   input: DiagnosisInput,
   country = input.sourceCountry ?? "JP",
 ): NameRecord | undefined {
-  if (country === "JP" && input.type === "given_name")
+  if (input.rankingScope === 'app') {
+    const cohort = getCohort(input, country);
+    const normalized = normalizeName(input.name);
+    const exact = cohort.find(row => normalizeName(row.name) === normalized);
+    if (exact) return exact;
+    const keys = new Set([normalized, ...(country === 'JP' && input.reading ? [normalizeName(input.reading)] : [])]);
+    const matches = country === 'CN' && input.type === 'surname' ? findChineseSurnameCandidates(input.name, cohort) : cohort.filter(row => [row.name, ...(row.aliases ?? [])].some(alias => keys.has(normalizeName(alias))));
+    if (matches.length === 1) return matches[0];
+    return undefined;
+  }
+  if (input.rankingScope !== 'public_people' && country === "JP" && input.type === "given_name")
     return findJapaneseGivenNameRecord(input);
-  if (country === "CN" && input.type === "surname") {
+  if (input.rankingScope !== 'public_people' && country === "CN" && input.type === "surname") {
     const candidates = getChineseSurnameCandidates(input.name);
     return candidates.length === 1 ? candidates[0] : undefined;
   }
@@ -205,9 +243,22 @@ export function getNameRecord(
     [r.name, ...(r.aliases ?? [])].some(
       (alias) => normalizeName(alias) === normalized,
     );
-  const cohort = getCohort(input, country);
-  if (country === "JP") return cohort.find(matchesReading);
+  let cohort = getCohort(input, country);
+  // Search older published tables only when no year was requested.
+  if (input.year === undefined && input.type === 'given_name' && !cohort.some(matchesReading)) {
+    const dataset = getDataset(country, input.type, input.rankingScope);
+    cohort = dataset.records.filter(record =>
+      isNativeName(country, record.name) && hasRankEvidence(record, dataset.meta) &&
+      record.gender === input.gender && matchesReading(record))
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+  }
+  if (country === "JP" && input.rankingScope !== 'public_people') return cohort.find(matchesReading);
   const exact = cohort.filter(record => normalizeName(record.name) === normalized);
+  if (!exact.length && input.year === undefined) {
+    const candidates = getDataset(country, input.type, input.rankingScope).records.filter(record =>
+      isNativeName(country, record.name) && (input.type === 'surname' || record.gender === input.gender) && matchesReading(record));
+    if (new Set(candidates.map(record => record.name)).size > 1) return undefined;
+  }
   const matches = exact.length ? exact : cohort.filter(matchesReading);
   return new Set(matches.map(record => record.name)).size === 1 ? matches[0] : undefined;
 }
@@ -216,19 +267,27 @@ export function getChineseSurnameCandidates(name: string): NameRecord[] {
 }
 export function getInputNameCandidates(input: DiagnosisInput): (NameRecord | ReferenceNameRecord)[] {
   const country = input.sourceCountry ?? 'JP';
-  if (country === 'JP') return [];
-  if (country === 'CN' && input.type === 'surname') return getChineseSurnameCandidates(input.name);
+  if (input.rankingScope === 'app') {
+    const records = appDatasets.get(country + '/' + input.type)?.records ?? [];
+    if (country === 'CN' && input.type === 'surname') return findChineseSurnameCandidates(input.name, records);
+    const normalized = normalizeName(input.name);
+    const matching = records.filter(row => (input.type === 'surname' || row.gender === input.gender) && [row.name, ...(row.aliases ?? [])].some(alias => normalizeName(alias) === normalized));
+    const exact = matching.filter(row => normalizeName(row.name) === normalized);
+    return exact.length ? exact : matching;
+  }
+  if (country === 'JP' && input.rankingScope !== 'public_people') return [];
+  if (country === 'CN' && input.type === 'surname' && input.rankingScope !== 'public_people') return getChineseSurnameCandidates(input.name);
   const normalized = normalizeName(input.name);
   if (!normalized) return [];
-  const ranked = datasets.find(d => d.meta.country === country && d.meta.type === input.type)?.records ?? [];
-  const matching = [...ranked, ...referenceRecords(country, input.type)].filter(record =>
+  const ranked = input.rankingScope === 'public_people' ? observedDatasets.get(country + '/' + input.type)?.records ?? [] : datasets.find(d => d.meta.country === country && d.meta.type === input.type)?.records ?? [];
+  const matching = [...ranked, ...(input.rankingScope === 'public_people' ? [] : referenceRecords(country, input.type))].filter(record =>
     isNativeName(country, record.name) && (input.type === 'surname' || record.gender === input.gender) &&
     [record.name, ...(record.aliases ?? [])].some(alias => normalizeName(alias) === normalized));
   const exact = matching.filter(record => normalizeName(record.name) === normalized);
   return [...new Map((exact.length ? exact : matching).map(record => [record.name, record])).values()];
 }
-export const getSurnameRecord = (name: string, country = "JP") =>
-  getNameRecord({ name, type: "surname" }, country);
+export const getSurnameRecord = (name: string, country = "JP", rankingScope?: RankingScope) =>
+  getNameRecord({ name, type: "surname", rankingScope }, country);
 export function calculateRankPercentile(rank: number, totalEntries: number) {
   if (
     !Number.isFinite(rank) ||
@@ -296,12 +355,13 @@ export const findClosestEquivalentSurname = (
 ) =>
   findClosestEquivalentName({ name, type: "surname" }, country, source, mode);
 export function validateInput(input: DiagnosisInput): string | undefined {
+  if (input.rankingScope && !["published", "public_people", "app"].includes(input.rankingScope)) return "ランキングの集計を選んでください。";
   if (!sourceCountryCodes.includes(input.sourceCountry ?? "JP"))
     return "入力する名前の国・地域を選んでください。";
   if (!["given_name", "surname"].includes(input.type))
     return "診断の種類を選んでください。";
   if (!input.name.trim()) return "名前を入力してください。";
-  if (input.sourceCountry === "CN" && input.type === "surname" && getChineseSurnameCandidates(input.name).length > 1)
+  if (!input.rankingScope && input.sourceCountry === "CN" && input.type === "surname" && getChineseSurnameCandidates(input.name).length > 1)
     return "同じローマ字の姓が複数あります。漢字表記を選んでください。";
   if (getInputNameCandidates(input).length > 1) return '同じ表記に複数の名前が対応します。現地表記を選んでください。';
   if (
@@ -323,7 +383,7 @@ export function validateInput(input: DiagnosisInput): string | undefined {
     const otherGender = input.gender === "male" ? "female" : "male";
     if (!getNameRecord(input) && !hasReferenceName(input) && getNameRecord({ ...input, gender: otherGender }))
       return `この名前は${otherGender === "male" ? "男性" : "女性"}のデータに収録されています。${(input.sourceCountry ?? "JP") === "JP" ? "ランキングの性別を変更するか、読み方を入力してください。" : "ランキングの性別を変更してください。"}`;
-    if (input.sourceCountry && input.sourceCountry !== "JP") return;
+    if (input.rankingScope === "public_people" || (input.sourceCountry && input.sourceCountry !== "JP")) return;
     const readings = getReadingOptions(input.name, input.gender);
     if (
       readings.length > 1 &&
@@ -348,6 +408,7 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
       ? {
           name: input.name.trim(),
           type: input.type,
+          ...(input.rankingScope ? { rankingScope: input.rankingScope } : {}),
           ...(input.sourceCountry ? { sourceCountry } : {}),
           ...(input.destinationCountries
             ? { destinationCountries: input.destinationCountries }
@@ -356,7 +417,7 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
       : { ...input, name: input.name.trim() };
   const record = getNameRecord(clean);
   if (record && sourceCountry !== "JP") clean.name = record.name;
-  else {
+  else if (input.rankingScope !== "public_people" && input.rankingScope !== "app") {
     const names = referenceRecords(sourceCountry, clean.type).filter(r =>
       isNativeName(sourceCountry, r.name) && (clean.type === 'surname' || r.gender === clean.gender) &&
       [r.name, ...(r.aliases ?? [])].some(alias => normalizeName(alias) === normalizeName(clean.name)));
@@ -369,7 +430,7 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
       clean.year !== undefined && record.year !== clean.year
       ? "historical"
       : "ranked"
-    : hasReferenceName(clean) || (sourceCountry === "JP" && clean.type === "given_name" &&
+    : hasReferenceName(clean) || (input.rankingScope !== "public_people" && sourceCountry === "JP" && clean.type === "given_name" &&
         getReadingOptions(clean.name, clean.gender).length > 0)
       ? "dictionary"
       : "unrecognized";
@@ -379,49 +440,35 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
     c.code !== sourceCountry &&
     (clean.destinationCountries?.includes(c.code) ?? getDefaultDestinations(sourceCountry).includes(c.code)),
   )) {
+    if (!record) {
+      unavailableCountries.push({ country, reason: "入力した名前の順位データがありません。" });
+      continue;
+    }
     const reason = unavailableDatasets.get(`${country.code}/${input.type}`);
-    const reference = references.get(`${country.code}/${input.type}`);
-    // A Japanese label on an internationally named resident is not evidence of a
-    // Japanese given name. Require the same gender and spelling in the Japanese
-    // name dataset before using a public-person reference as an output candidate.
-    // Keep reference lookup intact for people entering their own names.
-    const japaneseNames = country.code === "JP" && clean.type === "given_name"
-      ? new Set((datasets.find((d) => d.meta.country === "JP" && d.meta.type === "given_name")?.records ?? [])
-        .filter((r) => r.gender === clean.gender && r.rankingBasis === "overall")
-        .flatMap((r) => [r.name, ...(r.aliases ?? [])]).map(normalizeName))
-      : undefined;
-    const candidates = referenceRecords(country.code, input.type).filter((r) =>
-      isNativeName(country.code, r.name) &&
-      (clean.type === "surname" || r.gender === clean.gender) &&
-      (!japaneseNames || [r.name, ...(r.aliases ?? [])].some((name) => japaneseNames.has(normalizeName(name)))),
-    ) ?? [];
-    const fallback = () => {
-      if (!candidates.length) return false;
-      const counted = candidates.filter((candidate) => candidate.evidenceRank);
-      const eligible = counted.length ? counted : candidates;
-      const candidate = eligible[hash(`${normalizeName(clean.reading ?? clean.name)}|${clean.gender ?? ""}|${country.code}`) % eligible.length];
-      matches.push({ country, record: candidate, meta: reference?.meta ?? getDatasetMetadata(country.code, input.type) });
-      return true;
-    };
     if (reason) {
-      if (!fallback()) unavailableCountries.push({ country, reason });
+      unavailableCountries.push({ country, reason });
       continue;
     }
     try {
-      const match = findClosestEquivalentName(clean, country.code, record);
-      if (record && match.rank !== record.rank) {
+      const exact = getCohort(clean, country.code).find(row => row.rank === record.rank);
+      if (!exact && input.rankingScope !== "public_people" && input.rankingScope !== "app") {
         const alternative = rankAlternatives.get(`${country.code}/${input.type}`);
-        const exact = alternative?.records.find((r) => r.rank === record.rank &&
+        const alternateMatch = alternative?.records.find((r) => r.rank === record.rank &&
           (clean.type === "surname" || r.gender === clean.gender));
-        if (exact && alternative) {
-          matches.push({ country, record: exact, meta: { ...alternative.meta, dataYear: exact.dataYear ?? exact.year ?? alternative.meta.dataYear } });
+        if (alternateMatch && alternative) {
+          matches.push({ country, record: alternateMatch, meta: { ...alternative.meta, dataYear: alternateMatch.dataYear ?? alternateMatch.year ?? alternative.meta.dataYear } });
           continue;
         }
       }
-      if ((!record || match.rank !== record.rank) && fallback()) continue;
-      matches.push({ country, record: match, meta: getDatasetMetadata(country.code, input.type, match.year) });
+      const match = exact ?? findClosestEquivalentName(clean, country.code, record, "normalizedRank");
+      matches.push({
+        country,
+        record: match,
+        meta: getDatasetMetadata(country.code, input.type, match.year, input.rankingScope),
+        ...(!exact && { equivalentRank: record.rank }),
+      });
     } catch {
-      if (!fallback()) unavailableCountries.push({ country, reason: "この診断条件の名前データは未収録です。" });
+      unavailableCountries.push({ country, reason: "この診断条件の名前データは未収録です。" });
     }
   }
   return {
@@ -430,8 +477,8 @@ export function diagnose(input: DiagnosisInput): Diagnosis {
     score: calculateRarityScore(record),
     recognition,
     meta: !record && hasReferenceName(clean)
-      ? references.get(`${sourceCountry}/${input.type}`)?.meta ?? getDatasetMetadata(sourceCountry, input.type)
-      : getDatasetMetadata(sourceCountry, input.type, sourceYear),
+      ? references.get(`${sourceCountry}/${input.type}`)?.meta ?? getDatasetMetadata(sourceCountry, input.type, undefined, input.rankingScope)
+      : getDatasetMetadata(sourceCountry, input.type, sourceYear, input.rankingScope),
     matches,
     unavailableCountries,
   };

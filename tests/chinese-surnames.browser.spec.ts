@@ -2,7 +2,7 @@ import { test, expect as baseExpect } from "@playwright/test";
 const expect = baseExpect.configure({ timeout: 30000 });
 test.describe.configure({ timeout: 120000 });
 
-test("Chinese surname aliases ask for Han selection and show the correct national rank", async ({ page }) => {
+test("Chinese surname aliases ask for Han selection and preserve familiar positions in the app ranking", async ({ page }) => {
   await page.goto("http://localhost:3000/surname/");
   await page.locator(".country-select-trigger").click();
   await page.locator(".country-select").getByRole("combobox").fill("中国");
@@ -19,8 +19,8 @@ test("Chinese surname aliases ask for Han selection and show the correct nationa
   await submit.click();
   await expect(page.locator(".original h2")).toHaveText("李（Lǐ）");
   await expect(page.locator(".rank strong")).toHaveText("#2");
-  await expect(page.locator(".rarity b")).toContainText("2");
-  await expect(page.locator(".original")).toContainText("2020");
+  await expect(page.locator(".estimated-ranking-note")).toBeVisible();
+  await expect(page.locator(".ranking-context")).toHaveCount(0);
   const download = page.waitForEvent("download");
   await page.getByRole("button", { name: /保存图片/ }).click();
   expect((await download).suggestedFilename()).toBe("namae-story.png");

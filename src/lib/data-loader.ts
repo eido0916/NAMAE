@@ -1,7 +1,8 @@
-import { configureEngine, setDatasetUnavailable, clearReferenceDataset, clearRankAlternatives, hash, getCohort, getDefaultDestinations, getNameRecord, hasReferenceName } from "./engine";
+import { calculateRankPercentile, configureEngine, setDatasetUnavailable, clearReferenceDataset, clearRankAlternatives, hash, getCohort, getDefaultDestinations, getNameRecord, hasReferenceName } from "./engine";
 import { referenceLookupBucket, referenceLookupKey } from "./reference-lookup.mjs";
+import { normalizePinyin } from "./chinese-surnames.mjs";
 import { reportOperationalError } from "./monitoring";
-import type { CountryConfig, Dataset, Gender, NameType, ReferenceDataset } from "./types";
+import type { CountryConfig, Dataset, Gender, NameType, ReferenceDataset, RankingScope } from "./types";
 
 type DictionaryEntry = { gender: string; reading: string; aliases: string[] };
 type DataFile = { path: string; records: number; sha256: string; bytes: number };
@@ -14,16 +15,61 @@ type ManifestDataset = {
   sha256?: string;
   bytes?: number;
   chunks?: DataChunk[];
+  inputLookup?: { directory: string; count: number; buckets: string[] };
 };
 type Manifest = {
   schemaVersion: number;
   dataVersion: string;
   countries: CountryConfig[];
-  dictionary: DataFile;
+  dictionary?: DataFile;
   datasets: ManifestDataset[];
+  observedRankings?: ManifestDataset[];
+  appRankings?: ManifestDataset[];
   rankAlternatives?: (DataFile & { country: string; type: NameType })[];
   references: { country: string; type: NameType; records: number; chunks: (DataFile & { gender?: Gender; evidenceRanked?: boolean })[]; lookup?: Record<string, DataFile>; lookupBuckets?: number }[];
 };
+
+export async function loadAppCoverage() {
+  const entries = (await getManifest()).appRankings ?? [];
+  return Object.fromEntries(entries.flatMap(entry => (entry.type === "surname" ? [undefined] : ["male", "female"]).map(gender => [
+    [entry.country, entry.type, gender ?? ""].join("/"),
+    (entry.chunks ?? []).filter(chunk => chunk.gender === gender).reduce((count, chunk) => count + chunk.records, 0),
+  ])));
+}
+
+export async function loadAppInputName(input: { sourceCountry?: string; type: NameType; name: string; reading?: string }) {
+  const country = input.sourceCountry ?? "JP";
+  const { type, name, reading } = input;
+  const entry = (await getManifest()).appRankings?.find(row => row.country === country && row.type === type);
+  const lookup = entry?.inputLookup;
+  if (!entry?.chunks || !lookup) return;
+  // Search both cohorts so the engine can still detect a name in the other cohort.
+  const spellings = [name, ...(reading ? [reading] : [])];
+  if (country === "CN" && type === "surname") spellings.push(normalizePinyin(name));
+  const keys = new Set((type === "surname" ? [undefined] : ["male", "female"]).flatMap(gender =>
+    spellings.map(value => referenceLookupKey(value, gender))));
+  const paths = new Set([...keys].map(key => referenceLookupBucket(key, lookup.count)).filter(bucket => lookup.buckets.includes(bucket)));
+  const indices = new Set<number>();
+  await Promise.all([...paths].map(async bucket => {
+    const path = lookup.directory + "/" + bucket + ".json";
+    let pending = lookupPromises.get(path);
+    if (!pending) {
+      pending = fetchJson<ReferenceLookup>(path).catch(error => { lookupPromises.delete(path); throw error; });
+      lookupPromises.set(path, pending);
+    }
+    const data = await pending;
+    if (data.country !== country || data.type !== type) throw Error("名前検索データの形式が一致しません。");
+    for (const [key, index] of data.entries) if (keys.has(key)) indices.add(index);
+  }));
+  const files = [...indices].sort((a, b) => a - b).map(index => {
+    const file = entry.chunks?.[index];
+    if (!file) throw Error("名前検索データの参照先が一致しません。");
+    return file;
+  });
+  const parts = await Promise.all(files.map(file => fetchScopedDataset(file, country, type, "app")));
+  const first = parts[0] ?? await fetchScopedDataset(entry.chunks[0], country, type, "app");
+  configureEngine({ appDatasets: [{ meta: first.meta, records: parts.flatMap(part => part.records) }] });
+}
 
 let manifestPromise: Promise<Manifest> | undefined;
 let dictionaryPromise: Promise<DictionaryEntry[]> | undefined;
@@ -82,13 +128,7 @@ function selectDataFile(entry: ManifestDataset, targetRank?: number, gender?: Ge
   );
 }
 
-async function loadDataset(country: string, type: NameType, targetRank?: number, gender?: Gender) {
-  const manifest = await getManifest();
-  const entry = manifest.datasets.find(
-    (dataset) => dataset.country === country && dataset.type === type,
-  );
-  if (!entry) throw new Error(`対応データがありません: ${country}/${type}`);
-  const file = selectDataFile(entry, targetRank, gender);
+async function fetchPublishedDataset(file: DataFile) {
   let pending = datasetPromises.get(file.path);
   if (!pending) {
     pending = fetchJson<Dataset>(file.path).then((dataset) => ({
@@ -99,19 +139,110 @@ async function loadDataset(country: string, type: NameType, targetRank?: number,
         type: dataset.meta.type,
         dataYear: record.dataYear ?? dataset.meta.dataYear,
       })),
-    }));
-    pending = pending.catch((error) => {
+    })).catch((error) => {
       datasetPromises.delete(file.path);
       throw error;
     });
     datasetPromises.set(file.path, pending);
   }
-  const dataset = await pending;
+  return pending;
+}
+
+async function loadDataset(country: string, type: NameType, targetRank?: number, gender?: Gender) {
+  const manifest = await getManifest();
+  const entry = manifest.datasets.find(
+    (dataset) => dataset.country === country && dataset.type === type,
+  );
+  if (!entry) throw new Error(`対応データがありません: ${country}/${type}`);
+  const dataset = await fetchPublishedDataset(selectDataFile(entry, targetRank, gender));
   configureEngine({ datasets: [dataset] });
   return dataset;
 }
 
-export async function loadInputData(type: NameType, sourceCountry = "JP") {
+function fetchScopedDataset(file: DataFile, country: string, type: NameType, scope: 'public_people' | 'app') {
+  let pending = datasetPromises.get(file.path);
+  if (!pending) {
+    pending = fetchJson<Dataset>(file.path).then(dataset => {
+      if (dataset.meta.rankingScope !== scope || dataset.meta.country !== country || dataset.meta.type !== type)
+        throw new Error('公開人物の順位データの形式が一致しません');
+      return dataset;
+    }).catch(error => { datasetPromises.delete(file.path); throw error; });
+    datasetPromises.set(file.path, pending);
+  }
+  return pending;
+}
+
+const observedInputPromises = new Map<string, Promise<Dataset>>();
+async function loadObservedDataset(country: string, type: NameType, targetRank?: number, gender?: Gender, full = false, scope: 'public_people' | 'app' = 'public_people') {
+  const manifest = await getManifest();
+  const entry = (scope === 'app' ? manifest.appRankings : manifest.observedRankings)?.find(row => row.country === country && row.type === type);
+  if (!entry) throw new Error('公開人物の順位データがありません');
+  const load = (file: DataFile) => fetchScopedDataset(file, country, type, scope);
+  let dataset: Dataset;
+  if (full) {
+    const key = scope + '/' + country + '/' + type;
+    let pending = observedInputPromises.get(key);
+    if (!pending) {
+      pending = (async () => {
+        const parts: Dataset[] = [];
+        const files = entry.chunks ?? [];
+        for (let offset = 0; offset < files.length; offset += 6)
+          parts.push(...await Promise.all(files.slice(offset, offset + 6).map(load)));
+        if (!parts.length) throw new Error('公開人物の順位データがありません');
+        return { meta: parts[0].meta, records: parts.flatMap(part => part.records) };
+      })().catch(error => { observedInputPromises.delete(key); throw error; });
+      observedInputPromises.set(key, pending);
+    }
+    dataset = await pending;
+  } else dataset = await load(selectDataFile(entry, targetRank, gender));
+  configureEngine(scope === 'app' ? { appDatasets: [dataset] } : { observedDatasets: [dataset] });
+  return dataset;
+}
+
+async function loadPercentileChunks(
+  entry: ManifestDataset,
+  initial: Dataset,
+  targetRank: number,
+  gender: Gender | undefined,
+  percentile: number,
+  destinationTotals: number[],
+  load: (file: DataFile) => Promise<Dataset>,
+): Promise<Dataset> {
+  if (!entry.chunks || !destinationTotals.length) return initial;
+  const firstPath = selectDataFile(entry, targetRank, gender).path;
+  const chunks = entry.chunks.filter(chunk => chunk.records > 0 && (entry.type === "surname" || chunk.gender === gender));
+  const additional = new Set<DataChunk>();
+  for (const total of new Set(destinationTotals)) {
+    const rank = total * percentile;
+    const lower = chunks.findLast(chunk => chunk.minRank <= rank);
+    const upper = chunks.find(chunk => chunk.maxRank >= rank);
+    if (lower && lower.path !== firstPath) additional.add(lower);
+    if (upper && upper.path !== firstPath) additional.add(upper);
+  }
+  if (!additional.size) return initial;
+  const parts = await Promise.all([...additional].map(load));
+  return { ...initial, records: [...initial.records, ...parts.flatMap(part => part.records)] };
+}
+
+export async function loadInputData(type: NameType, sourceCountry = "JP", rankingScope?: RankingScope) {
+  if (rankingScope === 'app') {
+    const manifest = await getManifest();
+    const entry = manifest.appRankings?.find(row => row.country === sourceCountry && row.type === type);
+    if (entry?.inputLookup) {
+      const first = entry.chunks?.filter(chunk => chunk.minRank <= 1) ?? [];
+      const parts = await Promise.all(first.map(file => fetchScopedDataset(file, sourceCountry, type, "app")));
+      if (!parts.length) throw Error("名前データを読み込めませんでした。");
+      configureEngine({ appDatasets: [{ meta: parts[0].meta, records: parts.flatMap(part => part.records) }] });
+      return;
+    }
+    await loadObservedDataset(sourceCountry, type, undefined, undefined, true, 'app');
+    if (sourceCountry === 'JP' && type === 'given_name' && manifest.dictionary) {
+      dictionaryPromise ??= fetchJson<DictionaryEntry[]>(manifest.dictionary.path).catch(error => { dictionaryPromise = undefined; throw error; });
+      configureEngine({ dictionary: await dictionaryPromise });
+    }
+    return;
+  }
+  if (rankingScope === 'public_people') { await loadObservedDataset(sourceCountry, type, undefined, undefined, true); return; }
   const manifest = await getManifest();
   if (sourceCountry !== "JP") {
     const key = `${sourceCountry}/${type}`;
@@ -167,7 +298,7 @@ export async function loadInputData(type: NameType, sourceCountry = "JP") {
     return;
   }
   const work: Promise<unknown>[] = [loadDataset("JP", type)];
-  if (type === "given_name") {
+  if (type === "given_name" && manifest.dictionary) {
     dictionaryPromise ??= fetchJson<DictionaryEntry[]>(manifest.dictionary.path).catch((error) => {
       dictionaryPromise = undefined;
       throw error;
@@ -187,7 +318,8 @@ export async function loadInputData(type: NameType, sourceCountry = "JP") {
   await Promise.all(work);
 }
 
-export async function loadInputReferenceName(type: NameType, inputName: string, gender?: Gender, sourceCountry = "JP") {
+export async function loadInputReferenceName(type: NameType, inputName: string, gender?: Gender, sourceCountry = "JP", rankingScope?: RankingScope) {
+  if (rankingScope === "public_people" || rankingScope === "app") return;
   if (!inputName.trim()) return;
   const input = { name: inputName, type, gender, sourceCountry };
   if (getNameRecord(input) || hasReferenceName(input)) return;
@@ -235,10 +367,38 @@ export async function loadDiagnosisData(
   gender?: Gender,
   inputName = "",
   sourceCountry = "JP",
+  rankingScope?: RankingScope,
+  sourceTotalEntries?: number,
 ) {
-  await loadInputData(type, sourceCountry);
-  await loadInputReferenceName(type, inputName, gender, sourceCountry);
   const manifest = await getManifest();
+  if (rankingScope !== "app" ||
+      !manifest.appRankings?.find(entry => entry.country === sourceCountry && entry.type === type)?.inputLookup)
+    await loadInputData(type, sourceCountry, rankingScope);
+  if (rankingScope === "app" && targetRank === undefined) return;
+  await loadInputReferenceName(type, inputName, gender, sourceCountry, rankingScope);
+  const comparison = { name: inputName, type, gender, sourceCountry, rankingScope };
+  const sourceRecord = targetRank && sourceTotalEntries === undefined ? getNameRecord(comparison) : undefined;
+  const total = sourceTotalEntries ?? (sourceRecord?.rank === targetRank ? sourceRecord?.totalEntries : undefined);
+  const percentile = targetRank && total ? calculateRankPercentile(targetRank, total) : undefined;
+  if (rankingScope === "public_people" || rankingScope === "app") {
+    await Promise.all((countries ?? getDefaultDestinations(sourceCountry)).filter(country => country !== sourceCountry).map(async country => {
+      try {
+        const dataset = await loadObservedDataset(country, type, targetRank, gender, false, rankingScope);
+        const entries = rankingScope === "app" ? manifest.appRankings : manifest.observedRankings;
+        const entry = entries?.find(row => row.country === country && row.type === type);
+        const cohort = getCohort(comparison, country);
+        if (entry && targetRank && percentile !== undefined && !cohort.some(record => record.rank === targetRank)) {
+          const withPercentile = await loadPercentileChunks(entry, dataset, targetRank, gender, percentile,
+            cohort.map(record => record.totalEntries), file => fetchScopedDataset(file, country, type, rankingScope));
+          configureEngine(rankingScope === "app" ? { appDatasets: [withPercentile] } : { observedDatasets: [withPercentile] });
+        }
+        setDatasetUnavailable(country, type);
+      } catch {
+        setDatasetUnavailable(country, type, "公開人物の順位データを読み込めませんでした。");
+      }
+    }));
+    return;
+  }
   const destinations = countries ?? getDefaultDestinations(sourceCountry);
   await Promise.all(destinations.filter((country) => country !== sourceCountry).map(async (country) => {
     clearReferenceDataset(country, type);
@@ -248,10 +408,10 @@ export async function loadDiagnosisData(
       setDatasetUnavailable(country, type, "この診断条件の名前データは未収録です。");
     } else {
       try {
-        await loadDataset(country, type, targetRank, gender);
+        const dataset = await loadDataset(country, type, targetRank, gender);
         setDatasetUnavailable(country, type);
-        // An exact ordinal needs no dictionary fallback or extra request.
-        if (targetRank && getCohort({ name: inputName, type, gender }, country).some((record) => record.rank === targetRank)) return;
+        const cohort = getCohort(comparison, country);
+        if (targetRank && cohort.some((record) => record.rank === targetRank)) return;
         const alternateFile = targetRank && manifest.rankAlternatives?.find((file) => file.country === country && file.type === type);
         if (alternateFile) {
           try {
@@ -263,6 +423,12 @@ export async function loadDiagnosisData(
           } catch {
             // Independent annual data is optional; preserve the available result.
           }
+        }
+        if (targetRank && percentile !== undefined && cohort.length) {
+          const withPercentile = await loadPercentileChunks(entry, dataset, targetRank, gender, percentile,
+            cohort.map(record => record.totalEntries), fetchPublishedDataset);
+          configureEngine({ datasets: [withPercentile] });
+          return;
         }
       } catch {
         setDatasetUnavailable(country, type, "データを読み込めませんでした。国を選び直すと再試行できます。");

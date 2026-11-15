@@ -1,3 +1,5 @@
+import { exportApplicationRankings } from './export-application-rankings.mjs';
+import { exportObservedRankings } from './export-observed-rankings.mjs';
 import { createHash } from "node:crypto";
 import { DatabaseSync } from "node:sqlite";
 import {
@@ -189,11 +191,15 @@ for (const row of db.prepare("SELECT * FROM reference_datasets ORDER BY country,
   manifestReferences.push({ country: meta.country, type: meta.type, records: recordCount, chunks, ...(lookupGroups.size ? { lookup, lookupBuckets } : {}) });
 }
 db.close();
+const observedRankings = exportObservedRankings(root, temporaryRoot);
+const appRankings = await exportApplicationRankings(root, temporaryRoot, { datasets: manifestDatasets, observedRankings });
 const rankAlternatives = exportJapaneseRankAlternatives(root, temporaryRoot);
 
 const dataVersion = hash(
   JSON.stringify({
     dictionaryHash,
+    observedRankings,
+    appRankings,
     rankAlternatives,
     datasets: manifestDatasets.map(({ country, type, sha256, chunks }) => ({
       country,
@@ -221,6 +227,8 @@ writeFileSync(
     datasets: manifestDatasets,
     references: manifestReferences,
     rankAlternatives,
+    observedRankings,
+    appRankings,
   }),
 );
 

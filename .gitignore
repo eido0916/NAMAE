@@ -18,6 +18,8 @@
 /out/
 /public/.data-next/
 /public/.data-previous/
+/public/data/app/
+/public/data/observed/
 /test-results/
 /playwright-report/
 

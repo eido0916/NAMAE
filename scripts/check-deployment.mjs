@@ -22,9 +22,8 @@ const expectedDatasets = manifest.countries
     if (country.supportsSurname) types.push(`${country.code}/surname`);
     return types;
   });
-const actualDatasets = new Set(
-  [...(manifest.datasets ?? []), ...(manifest.references ?? [])].map((dataset) => `${dataset.country}/${dataset.type}`),
-);
+const app = manifest.appRankings ?? [];
+const actualDatasets = new Set(app.map(dataset => `${dataset.country}/${dataset.type}`));
 if (
   manifest.schemaVersion !== 4 ||
   !manifest.dataVersion ||
@@ -32,11 +31,15 @@ if (
   expectedDatasets.some((key) => !actualDatasets.has(key))
 )
   throw new Error("Unexpected data manifest");
-const dataFiles = manifest.datasets.flatMap((dataset) =>
-  dataset.path ? [dataset] : (dataset.chunks ?? []),
-);
-for (const entry of [manifest.dictionary, ...dataFiles, ...manifest.references.flatMap((dataset) => dataset.chunks), ...manifest.references.flatMap((dataset) => Object.values(dataset.lookup ?? {}))])
-  await request(entry.path, "HEAD");
+const representatives = new Set(["JP", "US", "CN", "KR", "IN", "PL", "GL"]);
+const dataFiles = app.filter(entry => representatives.has(entry.country)).flatMap(entry => {
+  const files = [entry.chunks[0]?.path, entry.chunks.at(-1)?.path];
+  if (entry.inputLookup?.buckets.length) files.push(`${entry.inputLookup.directory}/${entry.inputLookup.buckets[0]}.json`);
+  return files.filter(Boolean);
+});
+const details = await (await request("/data/name-details/manifest.json")).json();
+const detail = Object.values(details.shards ?? {})[0];
+await Promise.all([...new Set([...dataFiles, ...(detail ? [detail] : [])])].map(path => request(path, "HEAD")));
 console.log(
-  `Healthy: ${base}, data ${manifest.dataVersion}, ${manifest.datasets.length} datasets.`,
+  `Healthy: ${base}, data ${manifest.dataVersion}, ${app.length} application datasets.`,
 );

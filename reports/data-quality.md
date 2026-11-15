@@ -2,7 +2,7 @@
 
 - 結果: OK
 - データセット: 266
-- 順位レコード: 2,859,440
+- 順位レコード: 2,871,272
 - 要確認の出典: 7
 
 ## 件数差分
@@ -10,10 +10,10 @@
 | データ | 前回 | 今回 | 差分 |
 |---|---:|---:|---:|
 | AD/given_name | 11 | 11 | +0 |
-| AE/given_name | 1148 | 1148 | +0 |
-| AE/surname | 707 | 707 | +0 |
-| AF/given_name | 76 | 76 | +0 |
-| AF/surname | 47 | 47 | +0 |
+| AE/given_name | 1148 | 1183 | +35 |
+| AE/surname | 707 | 723 | +16 |
+| AF/given_name | 76 | 81 | +5 |
+| AF/surname | 47 | 58 | +11 |
 | AL/given_name | 135 | 135 | +0 |
 | AL/surname | 72 | 72 | +0 |
 | AM/given_name | 38 | 38 | +0 |
@@ -31,16 +31,16 @@
 | AZ/surname | 17 | 17 | +0 |
 | BA/given_name | 20 | 20 | +0 |
 | BA/surname | 44 | 44 | +0 |
-| BD/given_name | 520 | 520 | +0 |
-| BD/surname | 393 | 393 | +0 |
+| BD/given_name | 520 | 528 | +8 |
+| BD/surname | 393 | 421 | +28 |
 | BE/given_name | 13923 | 13923 | +0 |
 | BE/surname | 105899 | 105899 | +0 |
 | BF/given_name | 4 | 4 | +0 |
 | BF/surname | 1 | 1 | +0 |
-| BG/given_name | 123 | 123 | +0 |
+| BG/given_name | 123 | 126 | +3 |
 | BG/surname | 59 | 59 | +0 |
-| BH/given_name | 333 | 333 | +0 |
-| BH/surname | 202 | 202 | +0 |
+| BH/given_name | 333 | 347 | +14 |
+| BH/surname | 202 | 207 | +5 |
 | BI/given_name | 13 | 13 | +0 |
 | BI/surname | 4 | 4 | +0 |
 | BN/given_name | 110 | 110 | +0 |
@@ -61,7 +61,7 @@
 | CL/surname | 527 | 527 | +0 |
 | CM/given_name | 456 | 456 | +0 |
 | CM/surname | 138 | 138 | +0 |
-| CN/given_name | 20 | 20 | +0 |
+| CN/given_name | 20 | 40 | +20 |
 | CN/surname | 100 | 100 | +0 |
 | CO/given_name | 1791 | 1791 | +0 |
 | CO/surname | 940 | 940 | +0 |
@@ -79,14 +79,14 @@
 | DK/given_name | 364 | 364 | +0 |
 | DK/surname | 112 | 112 | +0 |
 | DO/surname | 30 | 30 | +0 |
-| DZ/given_name | 2036 | 2036 | +0 |
-| DZ/surname | 1290 | 1290 | +0 |
+| DZ/given_name | 2036 | 2229 | +193 |
+| DZ/surname | 1290 | 1393 | +103 |
 | EC/given_name | 118 | 118 | +0 |
 | EC/surname | 32 | 32 | +0 |
 | EE/given_name | 56 | 56 | +0 |
 | EE/surname | 38 | 38 | +0 |
-| EG/given_name | 2271 | 2271 | +0 |
-| EG/surname | 2031 | 2031 | +0 |
+| EG/given_name | 2271 | 3304 | +1033 |
+| EG/surname | 2031 | 3422 | +1391 |
 | ES/given_name | 63440 | 63440 | +0 |
 | ES/surname | 86511 | 86511 | +0 |
 | ET/given_name | 11 | 11 | +0 |
@@ -109,7 +109,7 @@
 | GL/given_name | 458 | 458 | +0 |
 | GL/surname | 262 | 262 | +0 |
 | GQ/given_name | 9 | 9 | +0 |
-| GR/given_name | 250 | 250 | +0 |
+| GR/given_name | 250 | 254 | +4 |
 | GR/surname | 83 | 83 | +0 |
 | GT/given_name | 370 | 370 | +0 |
 | GT/surname | 151 | 151 | +0 |
@@ -127,15 +127,15 @@
 | ID/surname | 27 | 27 | +0 |
 | IE/given_name | 551 | 551 | +0 |
 | IE/surname | 196 | 196 | +0 |
-| IL/given_name | 807 | 807 | +0 |
-| IL/surname | 179 | 179 | +0 |
+| IL/given_name | 807 | 1069 | +262 |
+| IL/surname | 179 | 208 | +29 |
 | IM/given_name | 19 | 19 | +0 |
-| IN/given_name | 950 | 950 | +0 |
-| IN/surname | 524 | 524 | +0 |
-| IQ/given_name | 1295 | 1295 | +0 |
-| IQ/surname | 929 | 929 | +0 |
-| IR/given_name | 610 | 610 | +0 |
-| IR/surname | 212 | 212 | +0 |
+| IN/given_name | 950 | 952 | +2 |
+| IN/surname | 524 | 527 | +3 |
+| IQ/given_name | 1295 | 1905 | +610 |
+| IQ/surname | 929 | 1523 | +594 |
+| IR/given_name | 610 | 645 | +35 |
+| IR/surname | 212 | 228 | +16 |
 | IS/given_name | 42 | 42 | +0 |
 | IS/surname | 23 | 23 | +0 |
 | IT/given_name | 120266 | 120266 | +0 |
@@ -143,8 +143,8 @@
 | JE/given_name | 20 | 20 | +0 |
 | JM/given_name | 91 | 91 | +0 |
 | JM/surname | 55 | 55 | +0 |
-| JO/given_name | 645 | 645 | +0 |
-| JO/surname | 193 | 193 | +0 |
+| JO/given_name | 645 | 779 | +134 |
+| JO/surname | 193 | 258 | +65 |
 | JP/given_name | 55623 | 55623 | +0 |
 | JP/surname | 105125 | 105125 | +0 |
 | KG/given_name | 20 | 20 | +0 |
@@ -152,12 +152,12 @@
 | KH/surname | 84 | 84 | +0 |
 | KR/given_name | 64797 | 64797 | +0 |
 | KR/surname | 100 | 100 | +0 |
-| KW/given_name | 643 | 643 | +0 |
+| KW/given_name | 643 | 648 | +5 |
 | KW/surname | 349 | 349 | +0 |
-| KZ/given_name | 401 | 401 | +0 |
-| KZ/surname | 91 | 91 | +0 |
-| LB/given_name | 533 | 533 | +0 |
-| LB/surname | 265 | 265 | +0 |
+| KZ/given_name | 401 | 584 | +183 |
+| KZ/surname | 91 | 152 | +61 |
+| LB/given_name | 533 | 580 | +47 |
+| LB/surname | 265 | 283 | +18 |
 | LI/given_name | 22 | 22 | +0 |
 | LK/surname | 50 | 50 | +0 |
 | LT/given_name | 77 | 77 | +0 |
@@ -166,10 +166,10 @@
 | LU/surname | 98 | 98 | +0 |
 | LV/given_name | 18 | 18 | +0 |
 | LV/surname | 15 | 15 | +0 |
-| LY/given_name | 689 | 689 | +0 |
-| LY/surname | 368 | 368 | +0 |
-| MA/given_name | 2534 | 2534 | +0 |
-| MA/surname | 1965 | 1965 | +0 |
+| LY/given_name | 689 | 865 | +176 |
+| LY/surname | 368 | 509 | +141 |
+| MA/given_name | 2534 | 2571 | +37 |
+| MA/surname | 1965 | 1976 | +11 |
 | MC/given_name | 10 | 10 | +0 |
 | MD/given_name | 38 | 38 | +0 |
 | MD/surname | 23 | 23 | +0 |
@@ -189,8 +189,8 @@
 | MV/surname | 27 | 27 | +0 |
 | MX/given_name | 1545 | 1545 | +0 |
 | MX/surname | 766 | 766 | +0 |
-| MY/given_name | 1651 | 1651 | +0 |
-| MY/surname | 1076 | 1076 | +0 |
+| MY/given_name | 1651 | 1658 | +7 |
+| MY/surname | 1076 | 1080 | +4 |
 | NG/given_name | 1392 | 1392 | +0 |
 | NG/surname | 955 | 955 | +0 |
 | NL/given_name | 1223 | 1223 | +0 |
@@ -201,8 +201,8 @@
 | NP/surname | 20 | 20 | +0 |
 | NZ/given_name | 40 | 40 | +0 |
 | NZ/surname | 10 | 10 | +0 |
-| OM/given_name | 819 | 819 | +0 |
-| OM/surname | 539 | 539 | +0 |
+| OM/given_name | 819 | 901 | +82 |
+| OM/surname | 539 | 594 | +55 |
 | PA/given_name | 381 | 381 | +0 |
 | PA/surname | 206 | 206 | +0 |
 | PE/given_name | 1159 | 1159 | +0 |
@@ -216,24 +216,24 @@
 | PL/surname | 598466 | 598466 | +0 |
 | PR/given_name | 79 | 79 | +0 |
 | PR/surname | 32 | 32 | +0 |
-| PS/given_name | 725 | 725 | +0 |
-| PS/surname | 191 | 191 | +0 |
+| PS/given_name | 725 | 826 | +101 |
+| PS/surname | 191 | 208 | +17 |
 | PT/given_name | 403 | 403 | +0 |
 | PT/surname | 228 | 228 | +0 |
 | PY/given_name | 20 | 20 | +0 |
 | PY/surname | 25 | 25 | +0 |
-| QA/given_name | 537 | 537 | +0 |
+| QA/given_name | 537 | 540 | +3 |
 | QA/surname | 294 | 294 | +0 |
 | RO/given_name | 21 | 21 | +0 |
 | RO/surname | 13 | 13 | +0 |
 | RS/given_name | 80 | 80 | +0 |
 | RS/surname | 20 | 20 | +0 |
-| RU/given_name | 636 | 636 | +0 |
-| RU/surname | 222 | 222 | +0 |
-| SA/given_name | 2757 | 2757 | +0 |
-| SA/surname | 2023 | 2023 | +0 |
-| SD/given_name | 821 | 821 | +0 |
-| SD/surname | 449 | 449 | +0 |
+| RU/given_name | 636 | 812 | +176 |
+| RU/surname | 222 | 854 | +632 |
+| SA/given_name | 2757 | 3295 | +538 |
+| SA/surname | 2023 | 2457 | +434 |
+| SD/given_name | 821 | 1185 | +364 |
+| SD/surname | 449 | 739 | +290 |
 | SE/given_name | 456 | 456 | +0 |
 | SE/surname | 129 | 129 | +0 |
 | SG/given_name | 627 | 627 | +0 |
@@ -246,18 +246,18 @@
 | SR/surname | 13 | 13 | +0 |
 | SV/given_name | 20 | 20 | +0 |
 | SV/surname | 25 | 25 | +0 |
-| SY/given_name | 1037 | 1037 | +0 |
-| SY/surname | 611 | 611 | +0 |
+| SY/given_name | 1037 | 1402 | +365 |
+| SY/surname | 611 | 873 | +262 |
 | TH/given_name | 5 | 5 | +0 |
 | TJ/given_name | 10 | 10 | +0 |
 | TM/given_name | 8 | 8 | +0 |
 | TM/surname | 3 | 3 | +0 |
-| TN/given_name | 1433 | 1433 | +0 |
-| TN/surname | 1005 | 1005 | +0 |
+| TN/given_name | 1433 | 1456 | +23 |
+| TN/surname | 1005 | 1015 | +10 |
 | TR/given_name | 2733 | 2733 | +0 |
 | TR/surname | 1995 | 1995 | +0 |
-| TW/given_name | 160 | 160 | +0 |
-| TW/surname | 80 | 80 | +0 |
+| TW/given_name | 160 | 200 | +40 |
+| TW/surname | 80 | 2708 | +2628 |
 | UA/given_name | 20 | 20 | +0 |
 | UA/surname | 23 | 23 | +0 |
 | US/given_name | 89394 | 111472 | +22078 |
@@ -271,8 +271,8 @@
 | VN/given_name | 1 | 1 | +0 |
 | VN/surname | 43 | 43 | +0 |
 | XK/surname | 20 | 20 | +0 |
-| YE/given_name | 535 | 535 | +0 |
-| YE/surname | 422 | 422 | +0 |
+| YE/given_name | 535 | 755 | +220 |
+| YE/surname | 422 | 705 | +283 |
 | ZA/given_name | 2213 | 2213 | +0 |
 | ZA/surname | 1047 | 1047 | +0 |
 

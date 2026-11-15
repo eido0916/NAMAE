@@ -1,0 +1,3789 @@
+{
+  "policy": "Distinct native spellings with positive source frequency counts. Given names count separately for each gender. No dictionary positions or public-person observations are promoted to population ranks. National sources retain priority.",
+  "countriesExpanded": 29,
+  "categoriesExpanded": 54,
+  "addedGivenNames": 3982,
+  "addedSurnames": 6889,
+  "rows": [
+    {
+      "country": "AE",
+      "type": "given_name",
+      "before": {
+        "male": 90,
+        "female": 44,
+        "surname": 0
+      },
+      "after": {
+        "male": 100,
+        "female": 52,
+        "surname": 0
+      },
+      "delta": {
+        "male": 10,
+        "female": 8,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 68
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 81
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 13
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "before": {
+        "male": 9,
+        "female": 6,
+        "surname": 0
+      },
+      "after": {
+        "male": 10,
+        "female": 7,
+        "surname": 0
+      },
+      "delta": {
+        "male": 1,
+        "female": 1,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AF",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 6
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 17
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 11
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AL",
+      "type": "given_name",
+      "before": {
+        "male": 75,
+        "female": 41,
+        "surname": 0
+      },
+      "after": {
+        "male": 75,
+        "female": 41,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AL",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 36
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 36
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "before": {
+        "male": 62,
+        "female": 54,
+        "surname": 0
+      },
+      "after": {
+        "male": 62,
+        "female": 54,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 62
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 62
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "before": {
+        "male": 248,
+        "female": 297,
+        "surname": 0
+      },
+      "after": {
+        "male": 248,
+        "female": 297,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 277
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 277
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 121
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 121
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "before": {
+        "male": 5,
+        "female": 2,
+        "surname": 0
+      },
+      "after": {
+        "male": 5,
+        "female": 2,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AU",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 14
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 14
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "AZ",
+      "type": "given_name",
+      "before": {
+        "male": 13,
+        "female": 14,
+        "surname": 0
+      },
+      "after": {
+        "male": 13,
+        "female": 14,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "AZ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "before": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      },
+      "after": {
+        "male": 7,
+        "female": 3,
+        "surname": 0
+      },
+      "delta": {
+        "male": 5,
+        "female": 1,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BD",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 7
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 28
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 21
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "before": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      },
+      "after": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BF",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "before": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      },
+      "after": {
+        "male": 7,
+        "female": 4,
+        "surname": 0
+      },
+      "delta": {
+        "male": 3,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BG",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "before": {
+        "male": 27,
+        "female": 21,
+        "surname": 0
+      },
+      "after": {
+        "male": 31,
+        "female": 25,
+        "surname": 0
+      },
+      "delta": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 22
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 25
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 3
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "before": {
+        "male": 7,
+        "female": 6,
+        "surname": 0
+      },
+      "after": {
+        "male": 7,
+        "female": 6,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BI",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "before": {
+        "male": 57,
+        "female": 53,
+        "surname": 0
+      },
+      "after": {
+        "male": 57,
+        "female": 53,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BN",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 49
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 49
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BO",
+      "type": "given_name",
+      "before": {
+        "male": 303,
+        "female": 287,
+        "surname": 0
+      },
+      "after": {
+        "male": 303,
+        "female": 287,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 224
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 224
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "before": {
+        "male": 34,
+        "female": 29,
+        "surname": 0
+      },
+      "after": {
+        "male": 34,
+        "female": 29,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "BW",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 23
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 23
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 289
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 289
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "before": {
+        "male": 296,
+        "female": 271,
+        "surname": 0
+      },
+      "after": {
+        "male": 296,
+        "female": 271,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CL",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 497
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 497
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CM",
+      "type": "given_name",
+      "before": {
+        "male": 231,
+        "female": 225,
+        "surname": 0
+      },
+      "after": {
+        "male": 231,
+        "female": 225,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CM",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 138
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 138
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CO",
+      "type": "given_name",
+      "before": {
+        "male": 841,
+        "female": 944,
+        "surname": 0
+      },
+      "after": {
+        "male": 841,
+        "female": 944,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 928
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 928
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CR",
+      "type": "given_name",
+      "before": {
+        "male": 242,
+        "female": 239,
+        "surname": 0
+      },
+      "after": {
+        "male": 242,
+        "female": 239,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 183
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 183
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "CZ",
+      "type": "given_name",
+      "before": {
+        "male": 138,
+        "female": 151,
+        "surname": 0
+      },
+      "after": {
+        "male": 138,
+        "female": 151,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "CZ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 90
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 90
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "DE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 378
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 378
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "before": {
+        "male": 6,
+        "female": 3,
+        "surname": 0
+      },
+      "after": {
+        "male": 6,
+        "female": 3,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "DJ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 6
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 6
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "before": {
+        "male": 178,
+        "female": 165,
+        "surname": 0
+      },
+      "after": {
+        "male": 178,
+        "female": 165,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "DK",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 111
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 111
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "before": {
+        "male": 152,
+        "female": 108,
+        "surname": 0
+      },
+      "after": {
+        "male": 228,
+        "female": 172,
+        "surname": 0
+      },
+      "delta": {
+        "male": 76,
+        "female": 64,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "DZ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 144
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 223
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 79
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "EC",
+      "type": "given_name",
+      "before": {
+        "male": 56,
+        "female": 45,
+        "surname": 0
+      },
+      "after": {
+        "male": 56,
+        "female": 45,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "EC",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "EE",
+      "type": "given_name",
+      "before": {
+        "male": 18,
+        "female": 18,
+        "surname": 0
+      },
+      "after": {
+        "male": 18,
+        "female": 18,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "EE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 17
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 17
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "before": {
+        "male": 358,
+        "female": 238,
+        "surname": 0
+      },
+      "after": {
+        "male": 926,
+        "female": 549,
+        "surname": 0
+      },
+      "delta": {
+        "male": 568,
+        "female": 311,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "EG",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 546
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1848
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 1302
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "GE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "GH",
+      "type": "given_name",
+      "before": {
+        "male": 127,
+        "female": 118,
+        "surname": 0
+      },
+      "after": {
+        "male": 127,
+        "female": 118,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "GH",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 112
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 112
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 4,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 4,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "GR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "GT",
+      "type": "given_name",
+      "before": {
+        "male": 199,
+        "female": 171,
+        "surname": 0
+      },
+      "after": {
+        "male": 199,
+        "female": 171,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "GT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 136
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 136
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "before": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      },
+      "after": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "HN",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 5
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 5
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "HR",
+      "type": "given_name",
+      "before": {
+        "male": 106,
+        "female": 110,
+        "surname": 0
+      },
+      "after": {
+        "male": 106,
+        "female": 110,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "HR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 33
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 33
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "HT",
+      "type": "given_name",
+      "before": {
+        "male": 4,
+        "female": 5,
+        "surname": 0
+      },
+      "after": {
+        "male": 4,
+        "female": 5,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "HT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "before": {
+        "male": 77,
+        "female": 70,
+        "surname": 0
+      },
+      "after": {
+        "male": 77,
+        "female": 70,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "HU",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 44
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 44
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "ID",
+      "type": "given_name",
+      "before": {
+        "male": 42,
+        "female": 36,
+        "surname": 0
+      },
+      "after": {
+        "male": 42,
+        "female": 36,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "ID",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 27
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 27
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "before": {
+        "male": 264,
+        "female": 275,
+        "surname": 0
+      },
+      "after": {
+        "male": 264,
+        "female": 275,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 185
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 185
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "before": {
+        "male": 73,
+        "female": 55,
+        "surname": 0
+      },
+      "after": {
+        "male": 184,
+        "female": 173,
+        "surname": 0
+      },
+      "delta": {
+        "male": 111,
+        "female": 118,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IL",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 28
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 52
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 24
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "before": {
+        "male": 652,
+        "female": 282,
+        "surname": 0
+      },
+      "after": {
+        "male": 653,
+        "female": 283,
+        "surname": 0
+      },
+      "delta": {
+        "male": 1,
+        "female": 1,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IN",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 523
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 526
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 3
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "before": {
+        "male": 324,
+        "female": 192,
+        "surname": 0
+      },
+      "after": {
+        "male": 693,
+        "female": 348,
+        "surname": 0
+      },
+      "delta": {
+        "male": 369,
+        "female": 156,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IQ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 470
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1032
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 562
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "before": {
+        "male": 38,
+        "female": 23,
+        "surname": 0
+      },
+      "after": {
+        "male": 53,
+        "female": 30,
+        "surname": 0
+      },
+      "delta": {
+        "male": 15,
+        "female": 7,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 15
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 29
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 14
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IS",
+      "type": "given_name",
+      "before": {
+        "male": 11,
+        "female": 9,
+        "surname": 0
+      },
+      "after": {
+        "male": 11,
+        "female": 9,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "IS",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "IT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 2934
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 2934
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "JM",
+      "type": "given_name",
+      "before": {
+        "male": 45,
+        "female": 29,
+        "surname": 0
+      },
+      "after": {
+        "male": 45,
+        "female": 29,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "JM",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 55
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 55
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "before": {
+        "male": 129,
+        "female": 93,
+        "surname": 0
+      },
+      "after": {
+        "male": 181,
+        "female": 128,
+        "surname": 0
+      },
+      "delta": {
+        "male": 52,
+        "female": 35,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "JO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 73
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 137
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 64
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 100
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 100
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://koreanlastnames.com/most-common-korean-last-names/"
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "before": {
+        "male": 52,
+        "female": 32,
+        "surname": 0
+      },
+      "after": {
+        "male": 54,
+        "female": 34,
+        "surname": 0
+      },
+      "delta": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "KW",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "before": {
+        "male": 62,
+        "female": 59,
+        "surname": 0
+      },
+      "after": {
+        "male": 148,
+        "female": 152,
+        "surname": 0
+      },
+      "delta": {
+        "male": 86,
+        "female": 93,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "KZ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 19
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 80
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 61
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "before": {
+        "male": 56,
+        "female": 50,
+        "surname": 0
+      },
+      "after": {
+        "male": 71,
+        "female": 65,
+        "surname": 0
+      },
+      "delta": {
+        "male": 15,
+        "female": 15,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "LB",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 62
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 75
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 13
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "LT",
+      "type": "given_name",
+      "before": {
+        "male": 29,
+        "female": 29,
+        "surname": 0
+      },
+      "after": {
+        "male": 29,
+        "female": 29,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "LT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 15
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 15
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "LU",
+      "type": "given_name",
+      "before": {
+        "male": 75,
+        "female": 71,
+        "surname": 0
+      },
+      "after": {
+        "male": 75,
+        "female": 71,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "LU",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 68
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 68
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "before": {
+        "male": 184,
+        "female": 101,
+        "surname": 0
+      },
+      "after": {
+        "male": 270,
+        "female": 161,
+        "surname": 0
+      },
+      "delta": {
+        "male": 86,
+        "female": 60,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "LY",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 190
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 323
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 133
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "before": {
+        "male": 118,
+        "female": 96,
+        "surname": 0
+      },
+      "after": {
+        "male": 137,
+        "female": 109,
+        "surname": 0
+      },
+      "delta": {
+        "male": 19,
+        "female": 13,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 123
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 132
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "before": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      },
+      "after": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MD",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MT",
+      "type": "given_name",
+      "before": {
+        "male": 51,
+        "female": 44,
+        "surname": 0
+      },
+      "after": {
+        "male": 51,
+        "female": 44,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 39
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 39
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "before": {
+        "male": 134,
+        "female": 134,
+        "surname": 0
+      },
+      "after": {
+        "male": 134,
+        "female": 134,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MU",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 114
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 114
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "before": {
+        "male": 680,
+        "female": 858,
+        "surname": 0
+      },
+      "after": {
+        "male": 680,
+        "female": 858,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MX",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 735
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 735
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "before": {
+        "male": 870,
+        "female": 771,
+        "surname": 0
+      },
+      "after": {
+        "male": 873,
+        "female": 773,
+        "surname": 0
+      },
+      "delta": {
+        "male": 3,
+        "female": 2,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "MY",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1071
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1073
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 2
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "before": {
+        "male": 829,
+        "female": 563,
+        "surname": 0
+      },
+      "after": {
+        "male": 829,
+        "female": 563,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "NG",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 955
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 955
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "before": {
+        "male": 623,
+        "female": 593,
+        "surname": 0
+      },
+      "after": {
+        "male": 623,
+        "female": 593,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "NL",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 320
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 320
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "before": {
+        "male": 96,
+        "female": 46,
+        "surname": 0
+      },
+      "after": {
+        "male": 130,
+        "female": 69,
+        "surname": 0
+      },
+      "delta": {
+        "male": 34,
+        "female": 23,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "OM",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 75
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 126
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 51
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PA",
+      "type": "given_name",
+      "before": {
+        "male": 200,
+        "female": 165,
+        "surname": 0
+      },
+      "after": {
+        "male": 200,
+        "female": 165,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 206
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 206
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PE",
+      "type": "given_name",
+      "before": {
+        "male": 565,
+        "female": 587,
+        "surname": 0
+      },
+      "after": {
+        "male": 565,
+        "female": 587,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 387
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 387
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "before": {
+        "male": 93,
+        "female": 86,
+        "surname": 0
+      },
+      "after": {
+        "male": 93,
+        "female": 86,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PH",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 103
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 103
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 1,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 1,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PK",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PR",
+      "type": "given_name",
+      "before": {
+        "male": 29,
+        "female": 30,
+        "surname": 0
+      },
+      "after": {
+        "male": 29,
+        "female": 30,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "before": {
+        "male": 90,
+        "female": 71,
+        "surname": 0
+      },
+      "after": {
+        "male": 126,
+        "female": 101,
+        "surname": 0
+      },
+      "delta": {
+        "male": 36,
+        "female": 30,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PS",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 46
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 58
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 12
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "PT",
+      "type": "given_name",
+      "before": {
+        "male": 186,
+        "female": 211,
+        "surname": 0
+      },
+      "after": {
+        "male": 186,
+        "female": 211,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "PT",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 227
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 227
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "before": {
+        "male": 33,
+        "female": 19,
+        "surname": 0
+      },
+      "after": {
+        "male": 34,
+        "female": 20,
+        "surname": 0
+      },
+      "delta": {
+        "male": 1,
+        "female": 1,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 18
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 18
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "RO",
+      "type": "given_name",
+      "before": {
+        "male": 3,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 3,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "RO",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "RS",
+      "type": "given_name",
+      "before": {
+        "male": 34,
+        "female": 23,
+        "surname": 0
+      },
+      "after": {
+        "male": 34,
+        "female": 23,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "RS",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 10
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 10
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "before": {
+        "male": 65,
+        "female": 52,
+        "surname": 0
+      },
+      "after": {
+        "male": 159,
+        "female": 125,
+        "surname": 0
+      },
+      "delta": {
+        "male": 94,
+        "female": 73,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "RU",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 79
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 708
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 629
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "before": {
+        "male": 346,
+        "female": 183,
+        "surname": 0
+      },
+      "after": {
+        "male": 584,
+        "female": 305,
+        "surname": 0
+      },
+      "delta": {
+        "male": 238,
+        "female": 122,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 504
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 877
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 373
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "before": {
+        "male": 232,
+        "female": 141,
+        "surname": 0
+      },
+      "after": {
+        "male": 437,
+        "female": 248,
+        "surname": 0
+      },
+      "delta": {
+        "male": 205,
+        "female": 107,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SD",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 239
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 514
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 275
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "before": {
+        "male": 234,
+        "female": 222,
+        "surname": 0
+      },
+      "after": {
+        "male": 234,
+        "female": 222,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 129
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 129
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "before": {
+        "male": 346,
+        "female": 281,
+        "surname": 0
+      },
+      "after": {
+        "male": 346,
+        "female": 281,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SG",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 286
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 286
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SK",
+      "type": "given_name",
+      "before": {
+        "male": 2,
+        "female": 1,
+        "surname": 0
+      },
+      "after": {
+        "male": 2,
+        "female": 1,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SK",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "before": {
+        "male": 221,
+        "female": 150,
+        "surname": 0
+      },
+      "after": {
+        "male": 375,
+        "female": 276,
+        "surname": 0
+      },
+      "delta": {
+        "male": 154,
+        "female": 126,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "SY",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 263
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 504
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 241
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "before": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      },
+      "after": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "TM",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 3
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 3
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "before": {
+        "male": 89,
+        "female": 70,
+        "surname": 0
+      },
+      "after": {
+        "male": 98,
+        "female": 76,
+        "surname": 0
+      },
+      "delta": {
+        "male": 9,
+        "female": 6,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "TN",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 76
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 84
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 8
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "TR",
+      "type": "given_name",
+      "before": {
+        "male": 1457,
+        "female": 1275,
+        "surname": 0
+      },
+      "after": {
+        "male": 1457,
+        "female": 1275,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "TR",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1987
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1987
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "TW",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 100,
+        "female": 100,
+        "surname": 0
+      },
+      "delta": {
+        "male": 100,
+        "female": 100,
+        "surname": 0
+      },
+      "source": "https://www.ris.gov.tw/documents/data/5/2/112namestat.pdf"
+    },
+    {
+      "country": "TW",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 2708
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 2708
+      },
+      "source": "https://data.gov.tw/dataset/126774"
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "UA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "UY",
+      "type": "given_name",
+      "before": {
+        "male": 203,
+        "female": 211,
+        "surname": 0
+      },
+      "after": {
+        "male": 203,
+        "female": 211,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "UY",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 146
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 146
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "UZ",
+      "type": "given_name",
+      "before": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "UZ",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "before": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "VE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "before": {
+        "male": 1,
+        "female": 0,
+        "surname": 0
+      },
+      "after": {
+        "male": 1,
+        "female": 0,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "VN",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "before": {
+        "male": 202,
+        "female": 69,
+        "surname": 0
+      },
+      "after": {
+        "male": 338,
+        "female": 135,
+        "surname": 0
+      },
+      "delta": {
+        "male": 136,
+        "female": 66,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 282
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 560
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 278
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "before": {
+        "male": 1061,
+        "female": 1144,
+        "surname": 0
+      },
+      "after": {
+        "male": 1061,
+        "female": 1144,
+        "surname": 0
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/given-name-frequency"
+    },
+    {
+      "country": "ZA",
+      "type": "surname",
+      "before": {
+        "male": 0,
+        "female": 0,
+        "surname": 1047
+      },
+      "after": {
+        "male": 0,
+        "female": 0,
+        "surname": 1047
+      },
+      "delta": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      },
+      "source": "https://onomaverse.com/datasets/surname-frequency"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import { mkdirSync, readFileSync, existsSync } from "node:fs";
 import { writeDataFile as writeFileSync } from "./write-data-file.mjs";
 import { join, relative, resolve } from "node:path";
 import { hasExpectedScript, readDatasets } from "./data-utils.mjs";
+import { nativeNameKey } from '../src/lib/native-name-policy.mjs';
 
 const root = resolve(import.meta.dirname, "..");
 const sourceRoot = join(root, "src", "data");
@@ -50,7 +51,7 @@ for (const { path, dataset } of readDatasets(sourceRoot)) {
       errors.push(`${label}: totalEntriesがrank未満です`);
     if (meta.type === "given_name" && !["male", "female"].includes(record.gender))
       errors.push(`${label}: 下の名前にgenderがありません`);
-    const nameKey = `${record.gender ?? ""}|${record.year ?? ""}|${record.rankingBasis ?? ""}|${record.name.normalize("NFKC").toLocaleLowerCase()}`;
+    const nameKey = `${record.gender ?? ""}|${record.year ?? ""}|${record.rankingBasis ?? ""}|${nativeNameKey(record.name)}`;
     if (names.has(nameKey)) duplicateNames.add(nameKey);
     names.add(nameKey);
     if (record.isEstimated) estimated += 1;
