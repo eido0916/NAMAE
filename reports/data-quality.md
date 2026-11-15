@@ -3,7 +3,7 @@
 - 結果: OK
 - データセット: 266
 - 順位レコード: 2,871,272
-- 要確認の出典: 7
+- 要確認の出典: 6
 
 ## 件数差分
 
@@ -281,7 +281,6 @@
 - ベビーカレンダー 名前ランキング: 公開前に再配布条件の確認が必要です
 - 明治安田 名前ランキング: 公開前に再配布条件の確認が必要です
 - ENAMDICT/JMnedict Japanese Proper Names Dictionary: 公開前に再配布条件の確認が必要です
-- U.S. Social Security Administration Baby Names: 公開前に再配布条件の確認が必要です
 - Beliebte Vornamen Top 500: 公開前に再配布条件の確認が必要です
 - 아기이름 연도별 이름 순위: 公開前に再配布条件の確認が必要です
 - Korean Last Names: 公開前に再配布条件の確認が必要です
