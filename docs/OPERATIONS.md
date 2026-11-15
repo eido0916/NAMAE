@@ -18,6 +18,8 @@
 
 `develop` と `main` への push、および両ブランチへの Pull Request では、GitHub Actions の `release-preview` ジョブが同じ公開用ビルドを実行します。生成された成果物をランナー内で配信し、HTTP の確認と公開版専用のブラウザーテストを実行します。監査結果、収録数、ビルドログ、テスト結果は Actions の `public-release-verification` から取得できます。外部プレビューを配置したら、その URL でも同じ HTTP チェックとブラウザーテストを実行します。
 
+`verify` ジョブは通常ビルド、単体テスト、生成データの再現性を確認します。`npm run test:browser` には旧ランキング・辞書表示を前提とするテストもあり、現行の公開画面との照合には `tests/release.browser.spec.ts` を使用します。
+
 新規チェックアウトでは `npm ci` の後に `npm run data:build` と `npm run details:build` を実行して公開用ビルドの入力を生成します。GitHub Actions も同じ順番で実行します。`public/data/app/` と `public/data/observed/` は生成先です。追跡済みのマニフェストとデータは CI の差分チェックで再現性を確認します。
 
 公開用ビルドの `out/data/coverage.json` に、国・地域ごとの男性名、女性名、姓の収録数、目標、不足件数を出力します。人口を基準に各リスト300〜20,000件を暫定目標とし、中国・台湾・韓国の姓には表記の集中を踏まえた個別目標を設けています。スイスの名は、2025年の住民統計の掲載人数を上位1万表記で概ね95%以上カバーできることから、男女それぞれ1万件を目標とします。データを更新したら、`shortfall` で不足、`excluded` で集計ラベルや使用できない表記の除外を確認できます。
@@ -45,7 +47,7 @@
 3. `npm run data:check`を実行し、`reports/data-quality.md`の件数差分、文字体系、警告を確認する。
 4. 意図した変更なら`npm run data:accept`で品質基準を更新する。
 5. `npm run data:build`でSQLiteとハッシュ付き公開JSONを生成する。
-6. `npm test && npm run lint && npm run build && npm run test:browser`を実行する。
+6. `npm run build`、`npm test`、`npm run lint` を実行し、公開用ビルドのブラウザーテストも実行する。
 7. 原本、整形データ、品質基準、公開JSONを同じコミットに含める。SQLiteはOS差によるバイナリ差分を避けるためGit管理せず、各ビルドで再生成する。
 
 10%以上の件数減少、文字体系の混入、空データ、国・種別の不一致は品質検査で停止する。公開JSONは一時ディレクトリで生成してから入れ替えるため、生成途中のファイルは公開対象にならない。

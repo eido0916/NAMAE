@@ -27,20 +27,11 @@ jobs:
       - name: Generated data is committed and reproducible
         run: git diff --exit-code -- data/quality-baseline.json public/data reports
       - run: npm test
-      - name: Install browser
-        run: npx playwright install --with-deps chromium
-      - name: Start static site
-        run: npm start > /tmp/namae-server.log 2>&1 &
-      - name: Wait for static site
-        run: for i in {1..30}; do curl --fail --silent http://localhost:3000/ >/dev/null && exit 0; sleep 1; done; cat /tmp/namae-server.log; exit 1
-      - run: npm run test:browser
       - uses: actions/upload-artifact@v7
         if: always()
         with:
-          name: data-quality-and-browser-results
-          path: |
-            reports/
-            test-results/
+          name: data-quality-reports
+          path: reports/
           if-no-files-found: ignore
 
   release-preview:
