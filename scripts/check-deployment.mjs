@@ -3,13 +3,19 @@ if (!base) throw new Error("SITE_URL is required");
 const allFiles = process.argv.includes("--all");
 
 async function request(path, method = "GET") {
-  const response = await fetch(`${base}${path}`, {
-    method,
-    redirect: "follow",
-    signal: AbortSignal.timeout(15000),
-  });
-  if (!response.ok) throw new Error(`${method} ${path}: ${response.status}`);
-  return response;
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    const response = await fetch(`${base}${path}`, {
+      method,
+      redirect: "follow",
+      signal: AbortSignal.timeout(15000),
+    });
+    if (response.ok) return response;
+    if (![429, 502, 503, 504].includes(response.status) || attempt === 4)
+      throw new Error(`${method} ${path}: ${response.status}`);
+    await response.body?.cancel();
+    await new Promise(resolve => setTimeout(resolve, 500 * 2 ** attempt));
+  }
+  throw new Error(`${method} ${path}: retry limit exceeded`);
 }
 
 const home = await (await request("/")).text();

@@ -6,11 +6,17 @@ import { once } from 'node:events';
 
 test('full deployment verification detects a missing middle chunk outside the representative countries', async () => {
   let missing = true;
+  let transientFailures = 1;
   const checked = [];
   const server = createServer((request, response) => {
     checked.push(request.url);
     if (request.url === '/data/app/zm/middle.json' && missing) {
       response.writeHead(404).end();
+      return;
+    }
+    if (request.url === '/data/app/zm/middle.json' && transientFailures > 0) {
+      transientFailures -= 1;
+      response.writeHead(503).end();
       return;
     }
     const routes = {
@@ -54,6 +60,7 @@ test('full deployment verification detects a missing middle chunk outside the re
     assert.equal(success.code, 0, success.output);
     for (const file of ['/data/app/zm/middle.json', '/data/app-lookup/zm/01.json', '/data/name-details/second.json'])
       assert.ok(checked.includes(file), file);
+    assert.equal(checked.filter(file => file === '/data/app/zm/middle.json').length, 2);
   } finally {
     server.closeAllConnections();
     await new Promise(resolve => server.close(resolve));
