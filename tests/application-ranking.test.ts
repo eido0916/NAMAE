@@ -133,11 +133,12 @@ test('short destination rankings use the source percentile and retain the actual
 test('the loader fetches the percentile chunk when it differs from the last destination chunk', async () => {
   const manifest = JSON.parse(readFileSync('public/data/manifest.json', 'utf8'));
   const rankings: { country: string; type: string; chunks: { gender: string; path: string; minRank: number; maxRank: number }[] }[] = manifest.appRankings;
-  const sourceChunk = rankings.find(row => row.country === 'US' && row.type === 'given_name')!
-    .chunks.find(chunk => chunk.gender === 'male' && chunk.minRank === 12001)!;
-  const source = (JSON.parse(readFileSync('public' + sourceChunk.path, 'utf8')) as Dataset).records[0];
   const china = rankings.find(row => row.country === 'CN' && row.type === 'given_name')!
     .chunks.filter(chunk => chunk.gender === 'male');
+  const sourceChunk = rankings.find(row => row.country === 'US' && row.type === 'given_name')!
+    .chunks.find(chunk => chunk.gender === 'male' && chunk.minRank > china.at(-1)!.maxRank)!;
+  assert.ok(sourceChunk, 'The source rank must exceed the destination list length');
+  const source = (JSON.parse(readFileSync('public' + sourceChunk.path, 'utf8')) as Dataset).records[0];
   const expectedRank = Math.round(source.rank / source.totalEntries * china.at(-1)!.maxRank);
   assert.ok(expectedRank < china.at(-1)!.minRank);
 
@@ -151,7 +152,8 @@ test('the loader fetches the percentile chunk when it differs from the last dest
     const input = { name: source.name, type: 'given_name', gender: 'male', sourceCountry: 'US', rankingScope: 'app' } as const;
     await loadDiagnosisData(input.type, ['CN'], source.rank, input.gender, input.name, input.sourceCountry, input.rankingScope, source.totalEntries);
     const match = diagnose({ ...input, destinationCountries: ['CN'] }).matches[0];
-    assert.ok(requested.includes(china[0].path));
+    const percentileChunk = china.find(chunk => chunk.minRank <= expectedRank && chunk.maxRank >= expectedRank)!;
+    assert.ok(requested.includes(percentileChunk.path));
     assert.equal(match.record.rank, expectedRank);
     assert.equal(match.equivalentRank, source.rank);
   } finally {
