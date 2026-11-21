@@ -25,7 +25,7 @@ export function isNativeName(country, name) {
   return patterns.get(key).test(name.normalize('NFKC')) && /\p{L}/u.test(name);
 }
 /** @param {string} name */
-export const nativeNameKey = name => name.normalize('NFKC').trim().toLowerCase();
+export const nativeNameKey = name => name.replace(/[^\p{Script=Han}]+/gu, part => part.normalize('NFKC')).trim().toLowerCase();
 
 /**
  * Only use explicitly linked source spellings. Never reverse-transliterate or

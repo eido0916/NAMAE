@@ -557,8 +557,8 @@
       "country": "IN",
       "name": "インド",
       "given_name": {
-        "total": 950,
-        "native": 950,
+        "total": 952,
+        "native": 952,
         "unresolved": 0,
         "examples": [
           "Rahul",
@@ -567,8 +567,8 @@
         ]
       },
       "surname": {
-        "total": 524,
-        "native": 524,
+        "total": 527,
+        "native": 527,
         "unresolved": 0,
         "examples": [
           "Kumar",
@@ -629,18 +629,18 @@
       "country": "AE",
       "name": "アラブ首長国連邦",
       "given_name": {
-        "total": 1148,
-        "native": 149,
-        "unresolved": 999,
+        "total": 1183,
+        "native": 178,
+        "unresolved": 1005,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "راشد",
-          "خالد"
+          "محمد",
+          "راشد"
         ]
       },
       "surname": {
-        "total": 707,
-        "native": 71,
+        "total": 723,
+        "native": 87,
         "unresolved": 636,
         "examples": [
           "ﺍﺣﻤﺪ",
@@ -677,17 +677,18 @@
       "country": "BD",
       "name": "バングラデシュ",
       "given_name": {
-        "total": 520,
-        "native": 4,
+        "total": 528,
+        "native": 12,
         "unresolved": 516,
         "examples": [
           "মো",
-          "মোঃ"
+          "মোঃ",
+          "নীল"
         ]
       },
       "surname": {
-        "total": 393,
-        "native": 7,
+        "total": 421,
+        "native": 35,
         "unresolved": 386,
         "examples": [
           "ইসলাম",
@@ -700,13 +701,13 @@
       "country": "BG",
       "name": "ブルガリア",
       "given_name": {
-        "total": 123,
-        "native": 25,
+        "total": 126,
+        "native": 28,
         "unresolved": 98,
         "examples": [
           "Георгий",
-          "Николай",
-          "Валерий"
+          "Димитър",
+          "Николай"
         ]
       },
       "surname": {
@@ -724,23 +725,23 @@
       "country": "BH",
       "name": "バーレーン",
       "given_name": {
-        "total": 333,
-        "native": 49,
-        "unresolved": 284,
+        "total": 347,
+        "native": 60,
+        "unresolved": 287,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "خالد",
-          "ابو"
+          "محمد",
+          "علي"
         ]
       },
       "surname": {
-        "total": 202,
-        "native": 24,
+        "total": 207,
+        "native": 29,
         "unresolved": 178,
         "examples": [
           "ﺍﺣﻤﺪ",
           "عبدالله",
-          "الدوسري"
+          "محمد"
         ]
       }
     },
@@ -796,8 +797,8 @@
       "country": "CN",
       "name": "中国",
       "given_name": {
-        "total": 20,
-        "native": 20,
+        "total": 40,
+        "native": 40,
         "unresolved": 0,
         "examples": [
           "奕辰",
@@ -892,9 +893,9 @@
       "country": "DZ",
       "name": "アルジェリア",
       "given_name": {
-        "total": 2036,
-        "native": 293,
-        "unresolved": 1743,
+        "total": 2229,
+        "native": 477,
+        "unresolved": 1752,
         "examples": [
           "امنه",
           "ﺍﺣﻤﺪ",
@@ -902,13 +903,13 @@
         ]
       },
       "surname": {
-        "total": 1290,
-        "native": 158,
-        "unresolved": 1132,
+        "total": 1393,
+        "native": 259,
+        "unresolved": 1134,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "كريم",
-          "حمزة"
+          "محمد",
+          "كريم"
         ]
       }
     },
@@ -916,23 +917,23 @@
       "country": "EG",
       "name": "エジプト",
       "given_name": {
-        "total": 2271,
-        "native": 631,
-        "unresolved": 1640,
+        "total": 3304,
+        "native": 1666,
+        "unresolved": 1638,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "ﻣﺤﻤﻮﺩ",
-          "مصطفى"
+          "محمد",
+          "احمد"
         ]
       },
       "surname": {
-        "total": 2031,
-        "native": 581,
-        "unresolved": 1450,
+        "total": 3422,
+        "native": 1994,
+        "unresolved": 1428,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "على",
-          "خالد"
+          "محمد",
+          "احمد"
         ]
       }
     },
@@ -988,13 +989,13 @@
       "country": "GR",
       "name": "ギリシャ",
       "given_name": {
-        "total": 250,
-        "native": 13,
+        "total": 254,
+        "native": 17,
         "unresolved": 237,
         "examples": [
-          "Δημήτριος",
-          "Νικόλαος",
-          "Βασίλειος"
+          "Γιώργος",
+          "Γιάννης",
+          "Δημήτρης"
         ]
       },
       "surname": {
@@ -1052,18 +1053,18 @@
       "country": "IL",
       "name": "イスラエル",
       "given_name": {
-        "total": 807,
-        "native": 137,
-        "unresolved": 670,
+        "total": 1069,
+        "native": 392,
+        "unresolved": 677,
         "examples": [
-          "אחמד",
+          "محمد",
           "ام",
           "ﺍﺣﻤﺪ"
         ]
       },
       "surname": {
-        "total": 179,
-        "native": 43,
+        "total": 208,
+        "native": 72,
         "unresolved": 136,
         "examples": [
           "כהן",
@@ -1076,22 +1077,22 @@
       "country": "IQ",
       "name": "イラク",
       "given_name": {
-        "total": 1295,
-        "native": 531,
-        "unresolved": 764,
+        "total": 1905,
+        "native": 1136,
+        "unresolved": 769,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "ابو",
-          "حيدر"
+          "علي",
+          "محمد"
         ]
       },
       "surname": {
-        "total": 929,
-        "native": 481,
-        "unresolved": 448,
+        "total": 1523,
+        "native": 1077,
+        "unresolved": 446,
         "examples": [
-          "على",
           "العراقي",
+          "علي",
           "ﺍﺣﻤﺪ"
         ]
       }
@@ -1100,9 +1101,9 @@
       "country": "IR",
       "name": "イラン",
       "given_name": {
-        "total": 610,
-        "native": 63,
-        "unresolved": 547,
+        "total": 645,
+        "native": 95,
+        "unresolved": 550,
         "examples": [
           "مهدي",
           "محسن",
@@ -1110,13 +1111,13 @@
         ]
       },
       "surname": {
-        "total": 212,
-        "native": 15,
+        "total": 228,
+        "native": 31,
         "unresolved": 197,
         "examples": [
           "مرادی",
-          "حسینی",
-          "رضا"
+          "محمدی",
+          "حسینی"
         ]
       }
     },
@@ -1124,23 +1125,23 @@
       "country": "JO",
       "name": "ヨルダン",
       "given_name": {
-        "total": 645,
-        "native": 228,
-        "unresolved": 417,
+        "total": 779,
+        "native": 356,
+        "unresolved": 423,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "ﻣﺤﻤﻮﺩ",
-          "ابو"
+          "محمد",
+          "احمد"
         ]
       },
       "surname": {
-        "total": 193,
-        "native": 75,
-        "unresolved": 118,
+        "total": 258,
+        "native": 141,
+        "unresolved": 117,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "الزعبي",
-          "المصري"
+          "محمد",
+          "احمد"
         ]
       }
     },
@@ -1148,8 +1149,8 @@
       "country": "KW",
       "name": "クウェート",
       "given_name": {
-        "total": 643,
-        "native": 85,
+        "total": 648,
+        "native": 90,
         "unresolved": 558,
         "examples": [
           "ﺍﺣﻤﺪ",
@@ -1172,8 +1173,8 @@
       "country": "KZ",
       "name": "カザフスタン",
       "given_name": {
-        "total": 401,
-        "native": 141,
+        "total": 584,
+        "native": 324,
         "unresolved": 260,
         "examples": [
           "Татьяна",
@@ -1182,13 +1183,13 @@
         ]
       },
       "surname": {
-        "total": 91,
-        "native": 37,
+        "total": 152,
+        "native": 98,
         "unresolved": 54,
         "examples": [
           "Ахметова",
           "Ахметов",
-          "Алиева"
+          "Оспанова"
         ]
       }
     },
@@ -1196,23 +1197,23 @@
       "country": "LB",
       "name": "レバノン",
       "given_name": {
-        "total": 533,
-        "native": 110,
-        "unresolved": 423,
+        "total": 580,
+        "native": 150,
+        "unresolved": 430,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "ابو",
-          "ﻣﺤﻤﻮﺩ"
+          "محمد",
+          "ابو"
         ]
       },
       "surname": {
-        "total": 265,
-        "native": 69,
+        "total": 283,
+        "native": 87,
         "unresolved": 196,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "خليل",
-          "عيسي"
+          "محمد",
+          "علي"
         ]
       }
     },
@@ -1244,23 +1245,23 @@
       "country": "LY",
       "name": "リビア",
       "given_name": {
-        "total": 689,
-        "native": 289,
-        "unresolved": 400,
+        "total": 865,
+        "native": 461,
+        "unresolved": 404,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "ام",
-          "ﻣﺤﻤﻮﺩ"
+          "ام"
         ]
       },
       "surname": {
-        "total": 368,
-        "native": 195,
-        "unresolved": 173,
+        "total": 509,
+        "native": 335,
+        "unresolved": 174,
         "examples": [
-          "على",
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "الورفلي"
+          "علي"
         ]
       }
     },
@@ -1268,8 +1269,8 @@
       "country": "MA",
       "name": "モロッコ",
       "given_name": {
-        "total": 2534,
-        "native": 234,
+        "total": 2571,
+        "native": 271,
         "unresolved": 2300,
         "examples": [
           "عبدو",
@@ -1278,8 +1279,8 @@
         ]
       },
       "surname": {
-        "total": 1965,
-        "native": 135,
+        "total": 1976,
+        "native": 146,
         "unresolved": 1830,
         "examples": [
           "ﺍﺣﻤﺪ",
@@ -1332,8 +1333,8 @@
       "country": "MY",
       "name": "マレーシア",
       "given_name": {
-        "total": 1651,
-        "native": 1651,
+        "total": 1658,
+        "native": 1658,
         "unresolved": 0,
         "examples": [
           "Mohamed",
@@ -1342,8 +1343,8 @@
         ]
       },
       "surname": {
-        "total": 1076,
-        "native": 1076,
+        "total": 1080,
+        "native": 1080,
         "unresolved": 0,
         "examples": [
           "Tan",
@@ -1380,18 +1381,18 @@
       "country": "OM",
       "name": "オマーン",
       "given_name": {
-        "total": 819,
-        "native": 145,
-        "unresolved": 674,
+        "total": 901,
+        "native": 221,
+        "unresolved": 680,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "عبدالله",
-          "خالد"
+          "محمد",
+          "احمد"
         ]
       },
       "surname": {
-        "total": 539,
-        "native": 77,
+        "total": 594,
+        "native": 132,
         "unresolved": 462,
         "examples": [
           "ﺍﺣﻤﺪ",
@@ -1452,23 +1453,23 @@
       "country": "PS",
       "name": "パレスチナ",
       "given_name": {
-        "total": 725,
-        "native": 164,
-        "unresolved": 561,
+        "total": 826,
+        "native": 258,
+        "unresolved": 568,
         "examples": [
+          "محمد",
           "ام",
-          "ابو",
-          "ﻣﺤﻤﻮﺩ"
+          "احمد"
         ]
       },
       "surname": {
-        "total": 191,
-        "native": 48,
+        "total": 208,
+        "native": 65,
         "unresolved": 143,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "الحياة",
-          "فلسطين"
+          "محمد",
+          "احمد"
         ]
       }
     },
@@ -1476,8 +1477,8 @@
       "country": "QA",
       "name": "カタール",
       "given_name": {
-        "total": 537,
-        "native": 53,
+        "total": 540,
+        "native": 56,
         "unresolved": 484,
         "examples": [
           "ﺍﺣﻤﺪ",
@@ -1500,8 +1501,8 @@
       "country": "RU",
       "name": "ロシア",
       "given_name": {
-        "total": 636,
-        "native": 129,
+        "total": 812,
+        "native": 305,
         "unresolved": 507,
         "examples": [
           "Александр",
@@ -1510,8 +1511,8 @@
         ]
       },
       "surname": {
-        "total": 222,
-        "native": 88,
+        "total": 854,
+        "native": 720,
         "unresolved": 134,
         "examples": [
           "Магомедов",
@@ -1524,22 +1525,22 @@
       "country": "SA",
       "name": "サウジアラビア",
       "given_name": {
-        "total": 2757,
-        "native": 573,
-        "unresolved": 2184,
+        "total": 3295,
+        "native": 1110,
+        "unresolved": 2185,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "ابو",
-          "خالد"
+          "احمد"
         ]
       },
       "surname": {
-        "total": 2023,
-        "native": 528,
-        "unresolved": 1495,
+        "total": 2457,
+        "native": 970,
+        "unresolved": 1487,
         "examples": [
-          "على",
           "ﺍﺣﻤﺪ",
+          "محمد",
           "الحربي"
         ]
       }
@@ -1548,23 +1549,23 @@
       "country": "SD",
       "name": "スーダン",
       "given_name": {
-        "total": 821,
-        "native": 381,
-        "unresolved": 440,
+        "total": 1185,
+        "native": 743,
+        "unresolved": 442,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "ام",
-          "عبدالله"
+          "احمد"
         ]
       },
       "surname": {
-        "total": 449,
-        "native": 246,
-        "unresolved": 203,
+        "total": 739,
+        "native": 539,
+        "unresolved": 200,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "على",
-          "عبدالله"
+          "احمد"
         ]
       }
     },
@@ -1620,23 +1621,23 @@
       "country": "SY",
       "name": "シリア",
       "given_name": {
-        "total": 1037,
-        "native": 385,
-        "unresolved": 652,
+        "total": 1402,
+        "native": 748,
+        "unresolved": 654,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "ﻣﺤﻤﻮﺩ",
-          "ﻋﻠﻲ"
+          "ابو"
         ]
       },
       "surname": {
-        "total": 611,
-        "native": 278,
-        "unresolved": 333,
+        "total": 873,
+        "native": 545,
+        "unresolved": 328,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "الشام",
-          "سليمان"
+          "علي"
         ]
       }
     },
@@ -1644,9 +1645,9 @@
       "country": "TN",
       "name": "チュニジア",
       "given_name": {
-        "total": 1433,
-        "native": 173,
-        "unresolved": 1260,
+        "total": 1456,
+        "native": 195,
+        "unresolved": 1261,
         "examples": [
           "ﺍﺣﻤﺪ",
           "وليد",
@@ -1654,13 +1655,13 @@
         ]
       },
       "surname": {
-        "total": 1005,
-        "native": 82,
-        "unresolved": 923,
+        "total": 1015,
+        "native": 91,
+        "unresolved": 924,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "على",
-          "منصور"
+          "منصور",
+          "يوسف"
         ]
       }
     },
@@ -1668,19 +1669,19 @@
       "country": "TW",
       "name": "台湾",
       "given_name": {
-        "total": 160,
-        "native": 20,
-        "unresolved": 140,
+        "total": 200,
+        "native": 200,
+        "unresolved": 0,
         "examples": [
           "家豪",
           "志明",
-          "俊傑"
+          "建宏"
         ]
       },
       "surname": {
-        "total": 80,
-        "native": 10,
-        "unresolved": 70,
+        "total": 2708,
+        "native": 2708,
+        "unresolved": 0,
         "examples": [
           "陳",
           "林",
@@ -1716,23 +1717,23 @@
       "country": "YE",
       "name": "イエメン",
       "given_name": {
-        "total": 535,
-        "native": 274,
-        "unresolved": 261,
+        "total": 755,
+        "native": 492,
+        "unresolved": 263,
         "examples": [
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "عبدالله",
-          "خالد"
+          "ابو"
         ]
       },
       "surname": {
-        "total": 422,
-        "native": 285,
-        "unresolved": 137,
+        "total": 705,
+        "native": 567,
+        "unresolved": 138,
         "examples": [
-          "على",
+          "محمد",
           "ﺍﺣﻤﺪ",
-          "عبدالله"
+          "علي"
         ]
       }
     },
@@ -1740,23 +1741,23 @@
       "country": "AF",
       "name": "アフガニスタン",
       "given_name": {
-        "total": 76,
-        "native": 16,
-        "unresolved": 60,
+        "total": 81,
+        "native": 20,
+        "unresolved": 61,
         "examples": [
           "ﺍﺣﻤﺪ",
-          "عبدالله",
+          "محمد",
           "حجي"
         ]
       },
       "surname": {
-        "total": 47,
-        "native": 7,
+        "total": 58,
+        "native": 18,
         "unresolved": 40,
         "examples": [
-          "نوری",
-          "ﺍﺣﻤﺪ",
-          "مرادی"
+          "محمدی",
+          "احمدی",
+          "تنها"
         ]
       }
     },

@@ -4,5 +4,5 @@ import type { NameRecord, ReferenceNameRecord } from './types';
 
 // Keep cards, spelling choices, share text and saved images consistent.
 export function formatName(record: NameRecord | ReferenceNameRecord) {
-  return formatChineseSurname(canonicalizeNativeName(record));
+  return formatChineseSurname(record.observation || ("applicationRank" in record && record.applicationRank) ? record : canonicalizeNativeName(record));
 }

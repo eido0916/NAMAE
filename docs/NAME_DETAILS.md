@@ -163,6 +163,8 @@ npm.cmd run details:build
 
 スナップショットは `data-sources/name-details/collected.json`。空のDBにだけ復元し、既存データがある場合は全体をスキップします。名前IDの衝突による誤関連を防ぐため、既存DBへの部分マージはしません。`details:build` も最初にこの復元を実行し、新しいチェックアウトで収集済みデータを再現します。SQLiteファイル自体をバックアップする場合は収集プロセス停止後にWALも考慮してください。ランキングのビルドは詳細DBを消しません。GitではSQLiteを除外し、可搬スナップショットと公開JSONを保存します。
 
+公開データの再現に使う追加分は、名前の項目と、Wikidata の名（P735）または姓（P734）で照合済みの関係、その関係に使う人物・作品情報と各言語のラベルです。Wikipedia の URL は Wikidata のサイトリンクを参照先として使っています。
+
 定期更新は既存CI／Windowsタスクスケジューラから、`details:collect -- --type all --max-jobs 100 --refresh-days 30` → `details:review` → 内容確認 → `details:backup` → `details:build` → サイトビルドを順に実行できます。スケジュール登録・外部公開は今回自動実行しません。大量ジョブは複数回に分けます。
 
 環境変数は収集用 `WIKIDATA_USER_AGENT`（必須）、`WIKIDATA_INTERVAL_MS`（省略時1200）、`NAMAE_DETAILS_DB`（省略時 `data/name-details.sqlite`）。これらは `NEXT_PUBLIC_` を付けず、ブラウザーに渡しません。シェルから渡してください。スクリプトは `.env` を自動ロードしません。

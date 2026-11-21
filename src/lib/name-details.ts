@@ -19,7 +19,7 @@ const empty: NameDetails = { people: [], characters: [] };
 let manifest: Promise<Manifest> | undefined;
 const cache = new Map<string, Promise<Record<string, NameDetails>>>();
 const liveCache = new Map<string, NameDetails>();
-let liveAvailable = true;
+let liveAvailable = process.env.NEXT_PUBLIC_NAMAE_RELEASE !== '1';
 
 export async function collectNameDetails(country: string, type: NameType, name: string, signal: AbortSignal): Promise<NameDetails | undefined> {
   const key=JSON.stringify([country,type,detailKey(name)]);

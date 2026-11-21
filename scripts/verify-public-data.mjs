@@ -15,6 +15,8 @@ const entries = [
   ...manifest.datasets.flatMap((dataset) =>
     dataset.path ? [dataset] : (dataset.chunks ?? []),
   ),
+  ...(manifest.appRankings ?? []).flatMap((dataset) => dataset.chunks),
+  ...(manifest.observedRankings ?? []).flatMap((dataset) => dataset.chunks),
   ...manifest.references.flatMap((dataset) => dataset.chunks),
   ...manifest.references.flatMap((dataset) => Object.values(dataset.lookup ?? {})),
 ];

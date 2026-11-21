@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
-test("China supplies evidence-ranked male, female and family-name results", async ({ page }) => {
+test("China keeps real native names and published ranks when identical ordinals are unavailable", async ({ page }) => {
   test.setTimeout(120000);
   const japan = JSON.parse(readFileSync("src/data/jp/surname/sample.json", "utf8"));
   for (const [path, name, gender, submit] of [["/name", "ああす", "男性", "世界の名前を見る"], ["/name", "さゆき", "女性", "世界の名前を見る"], ["/surname", japan.records.find((r: { rank: number }) => r.rank === 10000).name, "", "世界の苗字を見る"]]) {
@@ -13,7 +13,9 @@ test("China supplies evidence-ranked male, female and family-name results", asyn
     await page.locator(".result-country-picker summary").click();
     await page.locator(".result-country-options label").filter({ hasText: "中国" }).click();
     const card = page.getByRole("article").filter({ hasText: "China" });
-    await expect(card).toContainText("資料内参考順位", { timeout: 20000 });
+    await expect(card.locator(".match-bottom b")).toHaveText(path === "/surname" ? "#100" : "#10", { timeout: 20000 });
+    await expect(card.locator("h3")).toHaveText(/\p{Script=Han}/u);
+    await expect(card.locator(".ranking-context")).toHaveCount(1);
     await expect(card).not.toContainText("日本と同じ順位");
     await expect(card.locator(".rank-evidence")).toHaveCount(0);
   }
@@ -22,7 +24,7 @@ test("China supplies evidence-ranked male, female and family-name results", asyn
   await china.screenshot({ path: "test-results/china-reference-ranking.png", animations: "disabled" });
 });
 
-test("small-country reference ranks stay concise without claiming Japanese rank equivalence", async ({ page }) => {
+test("small-country results retain source ranks or clearly show missing datasets", async ({ page }) => {
   test.setTimeout(120000);
   const japan = JSON.parse(readFileSync("src/data/jp/surname/sample.json", "utf8"));
   for (const [path, name, gender, submit] of [["/name", "ああす", "男性", "世界の名前を見る"], ["/name", "さゆき", "女性", "世界の名前を見る"], ["/surname", japan.records.find((r: { rank: number }) => r.rank === 10000).name, "", "世界の苗字を見る"]]) {
@@ -35,8 +37,10 @@ test("small-country reference ranks stay concise without claiming Japanese rank 
     for (const [label, country] of [["モルディブ", "Maldives"], ["カンボジア", "Cambodia"], ["モンゴル", "Mongolia"]]) {
       await page.locator(".result-country-options label").filter({ hasText: label }).click();
       const card = page.getByRole("article").filter({ hasText: country });
-      await expect(card).toContainText("資料内参考順位", { timeout: 20000 });
-      await expect(card.locator(".match-source")).toHaveCount(0);
+      await expect(card).toContainText(/#\d+|データなし/, { timeout: 20000 });
+      await expect(card.locator(".match-source")).toHaveCount(1);
+      if (await card.locator("h3").textContent() === "データなし") await expect(card.locator(".match-detail-trigger")).toHaveCount(0);
+      else await expect(card.locator(".ranking-context")).toHaveCount(1);
       await expect(card).not.toContainText("日本と同じ順位");
       await expect(card.locator(".rank-evidence")).toHaveCount(0);
       await expect(page.getByRole("dialog")).toHaveCount(0);

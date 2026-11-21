@@ -1,5 +1,6 @@
 const base = (process.env.SITE_URL || process.argv[2] || "").replace(/\/$/, "");
 if (!base) throw new Error("SITE_URL is required");
+const allFiles = process.argv.includes("--all");
 
 async function request(path, method = "GET") {
   const response = await fetch(`${base}${path}`, {
@@ -22,9 +23,8 @@ const expectedDatasets = manifest.countries
     if (country.supportsSurname) types.push(`${country.code}/surname`);
     return types;
   });
-const actualDatasets = new Set(
-  [...(manifest.datasets ?? []), ...(manifest.references ?? [])].map((dataset) => `${dataset.country}/${dataset.type}`),
-);
+const app = manifest.appRankings ?? [];
+const actualDatasets = new Set(app.map(dataset => `${dataset.country}/${dataset.type}`));
 if (
   manifest.schemaVersion !== 4 ||
   !manifest.dataVersion ||
@@ -32,11 +32,23 @@ if (
   expectedDatasets.some((key) => !actualDatasets.has(key))
 )
   throw new Error("Unexpected data manifest");
-const dataFiles = manifest.datasets.flatMap((dataset) =>
-  dataset.path ? [dataset] : (dataset.chunks ?? []),
-);
-for (const entry of [manifest.dictionary, ...dataFiles, ...manifest.references.flatMap((dataset) => dataset.chunks), ...manifest.references.flatMap((dataset) => Object.values(dataset.lookup ?? {}))])
-  await request(entry.path, "HEAD");
+const representatives = new Set(["JP", "US", "CN", "KR", "IN", "PL", "GL"]);
+const dataFiles = app.filter(entry => allFiles || representatives.has(entry.country)).flatMap(entry => {
+  const files = allFiles ? entry.chunks.map(chunk => chunk.path) : [entry.chunks[0]?.path, entry.chunks.at(-1)?.path];
+  const buckets = allFiles ? entry.inputLookup?.buckets ?? [] : entry.inputLookup?.buckets.slice(0, 1) ?? [];
+  for (const bucket of buckets) files.push(`${entry.inputLookup.directory}/${bucket}.json`);
+  return files.filter(Boolean);
+});
+const details = await (await request("/data/name-details/manifest.json")).json();
+const detailFiles = Object.values(details.shards ?? {});
+const files = [...new Set([...dataFiles, ...(allFiles ? detailFiles : detailFiles.slice(0, 1))])];
+let nextFile = 0;
+await Promise.all(Array.from({ length: Math.min(8, files.length) }, async () => {
+  while (nextFile < files.length) {
+    const path = files[nextFile++];
+    await request(path, "HEAD");
+  }
+}));
 console.log(
-  `Healthy: ${base}, data ${manifest.dataVersion}, ${manifest.datasets.length} datasets.`,
+  `Healthy: ${base}, data ${manifest.dataVersion}, ${app.length} application datasets, ${files.length} files checked.`,
 );

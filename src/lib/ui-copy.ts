@@ -78,7 +78,7 @@ const ja: UiCopy = {
   countries: "表示する国", changeCountries: "国を追加・変更", addCountry: "国を追加", countryHint: "最大8か国まで選べます。チェックした国のランキングを表示します。",
   rank: "人気度", estimated: "推定", unknown: "公開順位なし", sample: "サンプル", sameRank: "入力元と同じ順位",
   nearRank: "近い順位", reference: "参考候補", localRank: "現地ランキング", referenceRank: "資料内参考順位", dictionary: "名前辞書",
-  publicData: "公開データ", details: "読み方・名前の詳細を見る", rankSource: "順位の出典", originalSource: "原本を見る", noData: "データ未対応",
+  publicData: "公開データ", details: "読み方・名前の詳細を見る", rankSource: "順位の出典", originalSource: "原本を見る", noData: "データなし",
   rarityScale: "一般的 ← → 珍しい", rankCount: "件の中での順位", survey: "調査", unknownYear: "年度不明",
   noRankNotice: "公開順位がないため、参考候補を表示しています。",
   surnameNotice: "下の名前の対象ランキングになく、苗字データに一致したため、苗字として診断しました。",
@@ -122,6 +122,17 @@ export function getUiCopy(country = "JP"): UiCopy {
 }
 export function localizedCountryName(code: string, sourceCountry: string) {
   return new Intl.DisplayNames([getUiCopy(sourceCountry).lang], { type: "region" }).of(code) ?? code;
+}
+export function formatEquivalentRank(rank: number, lang: string) {
+  const labels: Record<string, string> = {
+    ja: `#${rank}相当`,
+    fr: `Équivalent au rang #${rank}`,
+    ko: `#${rank}에 해당`,
+    de: `Entspricht #${rank}`,
+    zh: `相当于 #${rank}`,
+    "zh-Hant": `相當於 #${rank}`,
+  };
+  return labels[lang] ?? `Equivalent to #${rank}`;
 }
 export function localizeInputError(message: string, country: string) {
   if (message.includes("現地表記を選んで")) return country === "CN" ? "同一拼音对应多个名字，请选择汉字。" : country === "JP" ? message : "Choose the local spelling that matches your name.";

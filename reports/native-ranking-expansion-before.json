@@ -1,0 +1,1708 @@
+{
+  "description": "Before importing the primary-script frequency rows on 2026-10-18. Distinct native names with positive source counts, counted separately by gender.",
+  "rows": [
+    {
+      "country": "AE",
+      "type": "given_name",
+      "counts": {
+        "male": 90,
+        "female": 44,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 68
+      }
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "counts": {
+        "male": 9,
+        "female": 6,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AF",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 6
+      }
+    },
+    {
+      "country": "AL",
+      "type": "given_name",
+      "counts": {
+        "male": 75,
+        "female": 41,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AL",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 36
+      }
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "counts": {
+        "male": 62,
+        "female": 54,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 62
+      }
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "counts": {
+        "male": 248,
+        "female": 297,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 277
+      }
+    },
+    {
+      "country": "AT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 121
+      }
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "counts": {
+        "male": 5,
+        "female": 2,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AU",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 14
+      }
+    },
+    {
+      "country": "AZ",
+      "type": "given_name",
+      "counts": {
+        "male": 13,
+        "female": 14,
+        "surname": 0
+      }
+    },
+    {
+      "country": "AZ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      }
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "counts": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BD",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 7
+      }
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "counts": {
+        "male": 2,
+        "female": 2,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BF",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "counts": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BG",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      }
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "counts": {
+        "male": 27,
+        "female": 21,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 22
+      }
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "counts": {
+        "male": 7,
+        "female": 6,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BI",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      }
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "counts": {
+        "male": 57,
+        "female": 53,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BN",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 49
+      }
+    },
+    {
+      "country": "BO",
+      "type": "given_name",
+      "counts": {
+        "male": 303,
+        "female": 287,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 224
+      }
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "counts": {
+        "male": 34,
+        "female": 29,
+        "surname": 0
+      }
+    },
+    {
+      "country": "BW",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 23
+      }
+    },
+    {
+      "country": "CA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 289
+      }
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "counts": {
+        "male": 296,
+        "female": 271,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CL",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 497
+      }
+    },
+    {
+      "country": "CM",
+      "type": "given_name",
+      "counts": {
+        "male": 231,
+        "female": 225,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CM",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 138
+      }
+    },
+    {
+      "country": "CO",
+      "type": "given_name",
+      "counts": {
+        "male": 841,
+        "female": 944,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 928
+      }
+    },
+    {
+      "country": "CR",
+      "type": "given_name",
+      "counts": {
+        "male": 242,
+        "female": 239,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 183
+      }
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CZ",
+      "type": "given_name",
+      "counts": {
+        "male": 138,
+        "female": 151,
+        "surname": 0
+      }
+    },
+    {
+      "country": "CZ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 90
+      }
+    },
+    {
+      "country": "DE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 378
+      }
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "counts": {
+        "male": 6,
+        "female": 3,
+        "surname": 0
+      }
+    },
+    {
+      "country": "DJ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 6
+      }
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "counts": {
+        "male": 178,
+        "female": 165,
+        "surname": 0
+      }
+    },
+    {
+      "country": "DK",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 111
+      }
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "counts": {
+        "male": 152,
+        "female": 108,
+        "surname": 0
+      }
+    },
+    {
+      "country": "DZ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 144
+      }
+    },
+    {
+      "country": "EC",
+      "type": "given_name",
+      "counts": {
+        "male": 56,
+        "female": 45,
+        "surname": 0
+      }
+    },
+    {
+      "country": "EC",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      }
+    },
+    {
+      "country": "EE",
+      "type": "given_name",
+      "counts": {
+        "male": 18,
+        "female": 18,
+        "surname": 0
+      }
+    },
+    {
+      "country": "EE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 17
+      }
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "counts": {
+        "male": 358,
+        "female": 238,
+        "surname": 0
+      }
+    },
+    {
+      "country": "EG",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 546
+      }
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GH",
+      "type": "given_name",
+      "counts": {
+        "male": 127,
+        "female": 118,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GH",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 112
+      }
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GT",
+      "type": "given_name",
+      "counts": {
+        "male": 199,
+        "female": 171,
+        "surname": 0
+      }
+    },
+    {
+      "country": "GT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 136
+      }
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "counts": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HN",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 5
+      }
+    },
+    {
+      "country": "HR",
+      "type": "given_name",
+      "counts": {
+        "male": 106,
+        "female": 110,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 33
+      }
+    },
+    {
+      "country": "HT",
+      "type": "given_name",
+      "counts": {
+        "male": 4,
+        "female": 5,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      }
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "counts": {
+        "male": 77,
+        "female": 70,
+        "surname": 0
+      }
+    },
+    {
+      "country": "HU",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 44
+      }
+    },
+    {
+      "country": "ID",
+      "type": "given_name",
+      "counts": {
+        "male": 42,
+        "female": 36,
+        "surname": 0
+      }
+    },
+    {
+      "country": "ID",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 27
+      }
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "counts": {
+        "male": 264,
+        "female": 275,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 185
+      }
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "counts": {
+        "male": 73,
+        "female": 55,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IL",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 28
+      }
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "counts": {
+        "male": 652,
+        "female": 282,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IN",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 523
+      }
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "counts": {
+        "male": 324,
+        "female": 192,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IQ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 470
+      }
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "counts": {
+        "male": 38,
+        "female": 23,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 15
+      }
+    },
+    {
+      "country": "IS",
+      "type": "given_name",
+      "counts": {
+        "male": 11,
+        "female": 9,
+        "surname": 0
+      }
+    },
+    {
+      "country": "IS",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 4
+      }
+    },
+    {
+      "country": "IT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 2934
+      }
+    },
+    {
+      "country": "JM",
+      "type": "given_name",
+      "counts": {
+        "male": 45,
+        "female": 29,
+        "surname": 0
+      }
+    },
+    {
+      "country": "JM",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 55
+      }
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "counts": {
+        "male": 129,
+        "female": 93,
+        "surname": 0
+      }
+    },
+    {
+      "country": "JO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 73
+      }
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 100
+      }
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "counts": {
+        "male": 52,
+        "female": 32,
+        "surname": 0
+      }
+    },
+    {
+      "country": "KW",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      }
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "counts": {
+        "male": 62,
+        "female": 59,
+        "surname": 0
+      }
+    },
+    {
+      "country": "KZ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 19
+      }
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "counts": {
+        "male": 56,
+        "female": 50,
+        "surname": 0
+      }
+    },
+    {
+      "country": "LB",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 62
+      }
+    },
+    {
+      "country": "LT",
+      "type": "given_name",
+      "counts": {
+        "male": 29,
+        "female": 29,
+        "surname": 0
+      }
+    },
+    {
+      "country": "LT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 15
+      }
+    },
+    {
+      "country": "LU",
+      "type": "given_name",
+      "counts": {
+        "male": 75,
+        "female": 71,
+        "surname": 0
+      }
+    },
+    {
+      "country": "LU",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 68
+      }
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "counts": {
+        "male": 184,
+        "female": 101,
+        "surname": 0
+      }
+    },
+    {
+      "country": "LY",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 190
+      }
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "counts": {
+        "male": 118,
+        "female": 96,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 123
+      }
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "counts": {
+        "male": 9,
+        "female": 9,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MD",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 9
+      }
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MT",
+      "type": "given_name",
+      "counts": {
+        "male": 51,
+        "female": 44,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 39
+      }
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "counts": {
+        "male": 134,
+        "female": 134,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MU",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 114
+      }
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "counts": {
+        "male": 680,
+        "female": 858,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MX",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 735
+      }
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "counts": {
+        "male": 870,
+        "female": 771,
+        "surname": 0
+      }
+    },
+    {
+      "country": "MY",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1071
+      }
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "counts": {
+        "male": 829,
+        "female": 563,
+        "surname": 0
+      }
+    },
+    {
+      "country": "NG",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 955
+      }
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "counts": {
+        "male": 623,
+        "female": 593,
+        "surname": 0
+      }
+    },
+    {
+      "country": "NL",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 320
+      }
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "counts": {
+        "male": 96,
+        "female": 46,
+        "surname": 0
+      }
+    },
+    {
+      "country": "OM",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 75
+      }
+    },
+    {
+      "country": "PA",
+      "type": "given_name",
+      "counts": {
+        "male": 200,
+        "female": 165,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 206
+      }
+    },
+    {
+      "country": "PE",
+      "type": "given_name",
+      "counts": {
+        "male": 565,
+        "female": 587,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 387
+      }
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "counts": {
+        "male": 93,
+        "female": 86,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PH",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 103
+      }
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 1,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PK",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PR",
+      "type": "given_name",
+      "counts": {
+        "male": 29,
+        "female": 30,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 32
+      }
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "counts": {
+        "male": 90,
+        "female": 71,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PS",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 46
+      }
+    },
+    {
+      "country": "PT",
+      "type": "given_name",
+      "counts": {
+        "male": 186,
+        "female": 211,
+        "surname": 0
+      }
+    },
+    {
+      "country": "PT",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 227
+      }
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "counts": {
+        "male": 33,
+        "female": 19,
+        "surname": 0
+      }
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 18
+      }
+    },
+    {
+      "country": "RO",
+      "type": "given_name",
+      "counts": {
+        "male": 3,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "RO",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "RS",
+      "type": "given_name",
+      "counts": {
+        "male": 34,
+        "female": 23,
+        "surname": 0
+      }
+    },
+    {
+      "country": "RS",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 10
+      }
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "counts": {
+        "male": 65,
+        "female": 52,
+        "surname": 0
+      }
+    },
+    {
+      "country": "RU",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 79
+      }
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "counts": {
+        "male": 346,
+        "female": 183,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 504
+      }
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "counts": {
+        "male": 232,
+        "female": 141,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SD",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 239
+      }
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "counts": {
+        "male": 234,
+        "female": 222,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 129
+      }
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "counts": {
+        "male": 346,
+        "female": 281,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SG",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 286
+      }
+    },
+    {
+      "country": "SK",
+      "type": "given_name",
+      "counts": {
+        "male": 2,
+        "female": 1,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SK",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "counts": {
+        "male": 221,
+        "female": 150,
+        "surname": 0
+      }
+    },
+    {
+      "country": "SY",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 263
+      }
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "counts": {
+        "male": 4,
+        "female": 4,
+        "surname": 0
+      }
+    },
+    {
+      "country": "TM",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 3
+      }
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "counts": {
+        "male": 89,
+        "female": 70,
+        "surname": 0
+      }
+    },
+    {
+      "country": "TN",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 76
+      }
+    },
+    {
+      "country": "TR",
+      "type": "given_name",
+      "counts": {
+        "male": 1457,
+        "female": 1275,
+        "surname": 0
+      }
+    },
+    {
+      "country": "TR",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1987
+      }
+    },
+    {
+      "country": "TW",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "TW",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "UA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "UY",
+      "type": "given_name",
+      "counts": {
+        "male": 203,
+        "female": 211,
+        "surname": 0
+      }
+    },
+    {
+      "country": "UY",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 146
+      }
+    },
+    {
+      "country": "UZ",
+      "type": "given_name",
+      "counts": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "UZ",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "counts": {
+        "male": 2,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "VE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "counts": {
+        "male": 1,
+        "female": 0,
+        "surname": 0
+      }
+    },
+    {
+      "country": "VN",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1
+      }
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "counts": {
+        "male": 202,
+        "female": 69,
+        "surname": 0
+      }
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 282
+      }
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "counts": {
+        "male": 1061,
+        "female": 1144,
+        "surname": 0
+      }
+    },
+    {
+      "country": "ZA",
+      "type": "surname",
+      "counts": {
+        "male": 0,
+        "female": 0,
+        "surname": 1047
+      }
+    }
+  ],
+  "baseCommit": "93789505728a811cade52e0cf36964b6a4efb88f",
+  "sourceRelease": "Onomaverse v2026.06"
+}

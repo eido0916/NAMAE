@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import type { Dataset } from '../src/lib/types';
-import { configureEngine, diagnose, getNameRecord } from '../src/lib/engine';
+import { configureEngine, diagnose, getCohort, getNameRecord } from '../src/lib/engine';
 import { readDatasets } from '../scripts/data-utils.mjs';
 const all=readDatasets('src/data').map((x: {dataset: Dataset})=>x.dataset) as Dataset[];
 const dictionary=JSON.parse(readFileSync('src/data/dictionary/names.json','utf8'));
@@ -28,15 +28,22 @@ test('rare Japanese names match the exact requested rank in expanded countries f
   for(const m of result.matches)assert.equal(m.record.rank,10000,m.country.code);
  }
 });
-test('surname comparisons reach rank 10,000 in the expanded official datasets',()=>{
+test('surname comparisons prefer rank 10,000 and use list position for missing ranks',()=>{
  const source=all.find(d=>d.meta.country==='JP'&&d.meta.type==='surname')!.records.find(r=>r.rank===10000)!;
  const result=diagnose({name:source.name,type:'surname',destinationCountries:['BR','ES','FI','FR','PL','US']});
  assert.equal(result.matches.length,6);
  for(const m of result.matches){
   assert.ok(m.record.rank!==undefined);
-  const available=all.find(d=>d.meta.country===m.country.code&&d.meta.type==='surname')!.records;
-  const distance=available.reduce((best,r)=>Math.min(best,Math.abs(r.rank-10000)),Infinity);
-  assert.equal(Math.abs(m.record.rank-10000),distance,m.country.code);
+  const available=getCohort(result.input,m.country.code);
+  if(available.some(r=>r.rank===source.rank)){
+   assert.equal(m.record.rank,source.rank,m.country.code);
+   assert.equal(m.equivalentRank,undefined);
+  }else{
+   const distance=(rank:number,total:number)=>Math.abs(rank/total-source.rank/source.totalEntries);
+   const nearest=available.reduce((best,r)=>Math.min(best,distance(r.rank,r.totalEntries)),Infinity);
+   assert.equal(distance(m.record.rank,m.record.totalEntries!),nearest,m.country.code);
+   assert.equal(m.equivalentRank,source.rank);
+  }
  }
 });
 test('published Japanese readings are included even when the original dictionary omitted their gender',()=>{

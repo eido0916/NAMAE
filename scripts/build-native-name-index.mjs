@@ -11,7 +11,10 @@ const wanted = new Set();
 const wantedByAlias = new Map();
 for (const path of collectDatasetFiles('src/data')) {
   const dataset = JSON.parse(readFileSync(path, 'utf8'));
-  for (const record of dataset.records) if (!isNativeName(record.country, record.name) || (/Onomaverse|Popular Names by Country/.test(dataset.meta.source) && /^[\x00-\x7f]+$/.test(record.name)))
+  // Frequency rows now retain their native spelling. Keep indexing their
+  // source-provided Latin aliases too, so previous spellings remain usable.
+  for (const record of dataset.records) if (!isNativeName(record.country, record.name) || (/Onomaverse|Popular Names by Country/.test(dataset.meta.source) && /^[\x00-\x7f]+$/.test(record.name)) ||
+    (dataset.meta.source.includes('Onomaverse') && record.count > 0 && isNativeName(record.country, record.name) && !isNativeName(record.country, 'LatinAlias')))
     for (const alias of [record.name, ...(record.aliases ?? [])]) {
       wanted.add(record.country + '/' + record.type + '/' + nativeNameKey(alias));
       const key = record.type + '/' + nativeNameKey(alias);

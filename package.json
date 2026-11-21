@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run data:build && npm run details:build && next build",
+    "build:release": "node scripts/build-release.mjs",
     "start": "node scripts/serve.mjs",
     "lint": "eslint src scripts tests eslint.config.mjs next.config.ts",
     "test": "node scripts/run-tests.mjs && npm run test:details",
@@ -21,11 +22,11 @@
     "details:backup": "node scripts/backup-name-details.mjs save",
     "details:restore": "node scripts/backup-name-details.mjs restore",
     "details:build": "npm run details:restore && npm run details:import && npm run details:validate && npm run details:export",
-    "test:browser": "playwright test tests/browser.spec.ts tests/name-details.browser.spec.ts tests/europe-browser.spec.ts tests/all-country-browser.spec.ts tests/priority-country-browser.spec.ts tests/observed-rankings.browser.spec.ts tests/source-country.browser.spec.ts tests/mass-name-expansion.browser.spec.ts tests/ranking-followup.browser.spec.ts tests/language-expansion.browser.spec.ts tests/rank-alternatives.browser.spec.ts tests/chinese-surnames.browser.spec.ts tests/native-names.browser.spec.ts",
-    "data:build": "node scripts/import-chinese-surnames.mjs && node scripts/import-chinese-given-names.mjs && node scripts/build-native-name-index.mjs && node scripts/audit-native-names.mjs && npm run data:check && node scripts/validate-reference-data.mjs && npm run data:coverage && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
+    "test:browser": "playwright test tests/browser.spec.ts tests/name-details.browser.spec.ts tests/europe-browser.spec.ts tests/all-country-browser.spec.ts tests/priority-country-browser.spec.ts tests/observed-rankings.browser.spec.ts tests/source-country.browser.spec.ts tests/mass-name-expansion.browser.spec.ts tests/ranking-followup.browser.spec.ts tests/language-expansion.browser.spec.ts tests/rank-alternatives.browser.spec.ts tests/chinese-surnames.browser.spec.ts tests/native-names.browser.spec.ts tests/native-ranking-expansion.browser.spec.ts tests/official-asian-expansion.browser.spec.ts tests/public-people-ranking.browser.spec.ts",
+    "data:build": "node scripts/import-chinese-surnames.mjs && node scripts/import-chinese-given-names.mjs && node scripts/import-taiwan-official.mjs && node scripts/build-native-name-index.mjs && node scripts/audit-native-names.mjs && node scripts/report-native-ranking-expansion.mjs && npm run data:check && node scripts/validate-reference-data.mjs && npm run data:coverage && node scripts/build-name-database.mjs && node scripts/export-public-data.mjs && npm run data:verify",
     "data:check": "node scripts/validate-data.mjs",
     "data:accept": "node scripts/validate-data.mjs --accept",
-    "data:verify": "node scripts/verify-public-data.mjs",
+    "data:verify": "node scripts/verify-public-data.mjs && node scripts/verify-observed-rankings.mjs && node scripts/verify-application-rankings.mjs",
     "data:sanitize": "node scripts/sanitize-name-scripts.mjs",
     "licenses:check": "node scripts/check-licenses.mjs",
     "health:check": "node scripts/check-deployment.mjs",
@@ -59,7 +60,11 @@
     "data:refresh:world-ranks": "node scripts/refresh-world-rankings.mjs",
     "data:refresh:mass": "node scripts/refresh-mass-name-expansion.mjs",
     "data:native": "node scripts/build-native-name-index.mjs",
-    "data:refresh:us-historical": "node scripts/import-us-historical-names.mjs"
+    "data:refresh:us-historical": "node scripts/import-us-historical-names.mjs",
+    "data:refresh:taiwan": "node scripts/import-taiwan-official.mjs",
+    "data:collect:native-observations": "node scripts/collect-native-observed-labels.mjs",
+    "data:export:public-people": "node scripts/export-observed-rankings.mjs",
+    "data:export:app": "node scripts/export-application-rankings.mjs"
   },
   "dependencies": {
     "jszip": "^3.10.1",

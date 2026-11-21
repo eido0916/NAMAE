@@ -22,9 +22,24 @@
         "JP/given_name"
       ],
       "licenseName": "利用条件の個別確認が必要",
-      "licenseUrl": "https://www.meijiyasuda.co.jp/terms/",
+      "licenseUrl": "https://www.meijiyasuda.co.jp/attention/",
       "redistributionStatus": "review_required",
       "attribution": "出典：明治安田 名前ランキング"
+    },
+    {
+      "id": "jp-funabashi-birth-names",
+      "name": "船橋市 — 出生児の名前統計",
+      "url": "https://www.city.funabashi.lg.jp/shisei/kouhou/004/01/p147132.html",
+      "datasetUrls": [
+        "https://www.city.funabashi.lg.jp/shisei/kouhou/004/01/p147132_d/fil/osirase7.pdf",
+        "https://www.city.funabashi.lg.jp/shisei/kouhou/004/01/p137073_d/fil/namaerankingu.pdf",
+        "https://www.city.funabashi.lg.jp/shisei/kouhou/004/01/p126896_d/fil/oshirase7.pdf"
+      ],
+      "datasets": ["JP/given_name"],
+      "licenseName": "Published statistical facts",
+      "licenseUrl": "https://www.city.funabashi.lg.jp/shisei/jouhoukoukai/005/p053764_d/fil/opendata_guideline.pdf",
+      "redistributionStatus": "permitted",
+      "attribution": "船橋市「子どもの名前ベスト10」2023〜2025年度。実際に届け出られた表記と読みの組を収録。掲載人数・順位は地域の集計であり、全国の人数や順位には転用していません。"
     },
     {
       "id": "japanese-personal-name-dataset",
@@ -71,9 +86,9 @@
       "datasets": [
         "US/given_name"
       ],
-      "licenseName": "米国政府公開データ・再配布条件の確認が必要",
-      "licenseUrl": "https://www.ssa.gov/oact/babynames/limits.html",
-      "redistributionStatus": "review_required",
+      "licenseName": "CC0 1.0 — official national aggregate dataset",
+      "licenseUrl": "https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data",
+      "redistributionStatus": "permitted",
       "attribution": "Source: U.S. Social Security Administration",
       "mirrorUrl": "https://raw.githubusercontent.com/hackerb9/ssa-baby-names/0b1a1316457d55447d1a1f7bfe57ee15e53cc2f0/alldata.txt",
       "coverage": "1880–2020年・米国出生登録累計",
@@ -301,8 +316,6 @@
         "TN/surname",
         "TR/given_name",
         "TR/surname",
-        "TW/given_name",
-        "TW/surname",
         "UA/given_name",
         "UA/surname",
         "UY/given_name",
@@ -540,8 +553,6 @@
         "TN/given_name",
         "TR/given_name",
         "TR/surname",
-        "TW/given_name",
-        "TW/surname",
         "UA/given_name",
         "UA/surname",
         "UY/given_name",
@@ -597,6 +608,7 @@
       "id": "pesel-names",
       "name": "Poland Ministry of Digital Affairs PESEL",
       "url": "https://dane.gov.pl/pl/dataset/1501",
+      "datasetUrls": ["https://dane.gov.pl/pl/dataset/1681"],
       "datasets": [
         "PL/given_name",
         "PL/surname"
@@ -1694,6 +1706,173 @@
       "licenseUrl": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm",
       "redistributionStatus": "permitted",
       "attribution": "中国公安部户政管理研究中心《二〇二〇年全国姓名报告》表6・表7（新華社掲載）。拼音は検索補助。"
+    },
+    {
+      "id": "cn-national-given-2021",
+      "name": "公安部《全国姓名报告》2021年新生儿名字",
+      "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html",
+      "datasets": [
+        "CN/given_name"
+      ],
+      "licenseName": "公開統計の事実情報（名前・人数・順位）のみ。本文・画像は公開アプリに含めません。",
+      "licenseUrl": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html",
+      "redistributionStatus": "permitted",
+      "attribution": "中国公安部户政管理研究中心《全国姓名报告》2021年。拼音は検索補助。"
+    },
+    {
+      "id": "us-census-first-names-2020",
+      "name": "U.S. Census Bureau — 2020 first names by sex",
+      "url": "https://www.census.gov/topics/population/genealogy/data/2020_names.html",
+      "datasets": ["US/given_name"],
+      "licenseName": "U.S. federal government public-domain statistical data",
+      "licenseUrl": "https://www.census.gov/about/policies/open-gov/open-data.html",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: U.S. Census Bureau, Frequently Occurring First Names in the 2020 Census by Sex. NAMAE uses published adjusted counts of at least 100 for the corresponding sex."
+    },
+    {
+      "id": "kr-supreme-court-birth-names-2024",
+      "name": "대한민국 대법원 — 상위 출생신고 이름 현황",
+      "url": "https://stfamily.scourt.go.kr/st/StFrrStatcsView.do?pgmId=090000000025",
+      "datasets": ["KR/given_name"],
+      "licenseName": "Supreme Court public material policy / published statistical facts",
+      "licenseUrl": "https://stfamily.scourt.go.kr/sm/SmBottomCopyProtecPolic.do",
+      "redistributionStatus": "permitted",
+      "attribution": "출처: 대한민국 대법원 전자가족관계등록시스템, 상위 출생신고 이름 현황, 2024년 시도별 여성 이름. NAMAE uses the published spellings as evidence of use. No regional count is displayed as a national count."
+    },
+    {
+      "id": "kr-kosis-surname-totals-2015",
+      "name": "KOSIS — 2015 census surname totals",
+      "url": "https://kosis.kr/statisticsList/mass/mass_list_e.jsp?org_id=101&tbl_id=DT_1IN15SC",
+      "datasetUrls": ["https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1IN15SD"],
+      "datasets": ["KR/surname"],
+      "licenseName": "KOSIS public data policy",
+      "licenseUrl": "https://kosis.kr/eng/aboutKosis/policyPublicData.do",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: KOSIS, Population and Housing Census 2015, DT_1IN15SD. NAMAE groups national surname totals by Hangul and retains the published Hanja as aliases."
+    },
+    {
+      "id": "south-australia-birth-names-1944-2013",
+      "name": "South Australia — Popular Baby Names",
+      "url": "https://data.sa.gov.au/data/dataset/popular-baby-names",
+      "datasets": [
+        "AU/given_name"
+      ],
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: South Australian Attorney-General’s Department, Popular Baby Names. NAMAE aggregates the published counts for South Australian birth registrations 1944–2013 and converts display capitalization."
+    },
+    {
+      "id": "nrs-birth-names-1974-2025",
+      "name": "National Records of Scotland — Babies’ First Names",
+      "url": "https://www.nrscotland.gov.uk/publications/babies-first-names-2025/",
+      "datasets": [
+        "GB/given_name"
+      ],
+      "licenseName": "Open Government Licence v3.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "redistributionStatus": "permitted",
+      "attribution": "Contains public sector information from National Records of Scotland licensed under the Open Government Licence v3.0. Published counts from Scottish birth registrations 1974–2025 are aggregated for UK name coverage."
+    },
+    {
+      "id": "cso-irish-birth-names",
+      "name": "Central Statistics Office — Irish Babies’ Names",
+      "url": "https://www.cso.ie/en/statistics/birthsdeathsandmarriages/irishbabiesnames/",
+      "datasets": [
+        "IE/given_name",
+        "IE/surname"
+      ],
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://www.cso.ie/en/aboutus/whoweare/copyrightpolicy/",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: Central Statistics Office, Ireland. NAMAE aggregates published annual counts from VSA50 and VSA60 (1964–2025) and VSA110 (2023–2025). Suppressed counts are omitted."
+    },
+    {
+      "id": "tw-household-registration-2023",
+      "name": "內政部戶政司 — 112年全國姓名統計分析",
+      "url": "https://data.gov.tw/dataset/126774",
+      "datasetUrls": ["https://www.ris.gov.tw/documents/data/5/2/112namestat.pdf"],
+      "datasets": [
+        "TW/surname",
+        "TW/given_name"
+      ],
+      "licenseName": "政府資料開放授權條款-第1版 / published statistical facts",
+      "licenseUrl": "https://data.gov.tw/license",
+      "redistributionStatus": "permitted",
+      "attribution": "來源：內政部戶政司，2023年6月30日。姓氏CSV按年齡階級合計；名字為全國姓名統計分析表五十一及五十六之事實數據。正文及表格圖片不隨應用程式發佈。"
+    },
+    {
+      "id": "thai-names-corpus",
+      "name": "Thai Names Corpus — Korkeat Wannapat and contributors",
+      "url": "https://github.com/korkeatw/thai-names-corpus",
+      "datasets": ["TH/given_name", "TH/surname"],
+      "licenseName": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Thai Names Corpus by Korkeat Wannapat and contributors, CC BY-SA 4.0. NAMAE filters spellings, deduplicates and orders the entries with other source data. The adapted entries identified by this source are also CC BY-SA 4.0. The source documents usage but gives no national frequency."
+    },
+    {
+      "id": "berlin-registered-first-names",
+      "name": "BerlinOnline / LABO — Berlin birth registrations",
+      "url": "https://github.com/berlin/haeufige-vornamen-berlin",
+      "datasets": ["DE/given_name"],
+      "licenseName": "CC BY 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/",
+      "redistributionStatus": "permitted",
+      "attribution": "BerlinOnline GmbH, auf Basis von Daten des Berliner Landesamtes für Bürger- und Ordnungsangelegenheiten (LABO), https://github.com/berlin/haeufige-vornamen-berlin. NAMAE aggregates 2012–2023 counts and selects first-position names where position is published."
+    },
+    {
+      "id": "sweden-scb-tab5665",
+      "name": "Statistics Sweden — newborn given names 1998–2022",
+      "url": "https://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001Nyfodda",
+      "datasets": ["SE/given_name"],
+      "licenseName": "Statistics Sweden open data",
+      "licenseUrl": "https://www.scb.se/en/About-us/about-the-website-and-terms-of-use/",
+      "redistributionStatus": "permitted",
+      "attribution": "NAMAE adaptation of Statistics Sweden's TAB5665. Annual counts are combined and suppressed cells are omitted."
+    },
+    {
+      "id": "switzerland-fso-resident-first-names",
+      "name": "Swiss Federal Statistical Office — resident first names, 2025",
+      "url": "https://statistik.admin.ch/en/asset/36752506",
+      "datasetUrls": ["https://statistik.admin.ch/en/asset/36752513"],
+      "datasets": ["CH/given_name"],
+      "licenseName": "OPEN-BY",
+      "licenseUrl": "https://www.bfs.admin.ch/bfs/en/home/fso/swiss-federal-statistical-office/terms-of-use.html",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: Swiss Federal Statistical Office, STATPOP, 2025. NAMAE sums counts across birth cohorts and retains names with at least five residents in the published data."
+    },
+    {
+      "id": "israel-cbs-babynamesil",
+      "name": "Israel CBS / Aviezer Lifshitz — babynamesIL",
+      "url": "https://aviezerl.github.io/babynamesIL/",
+      "datasets": ["IL/given_name"],
+      "licenseName": "CC0",
+      "licenseUrl": "https://github.com/aviezerl/babynamesIL/blob/63b88aac07e49a81bec5da9b9303b39439f7604c/DESCRIPTION",
+      "redistributionStatus": "permitted",
+      "attribution": "Birth-name totals from Israel Central Bureau of Statistics, prepared by Aviezer Lifshitz (babynamesIL). NAMAE combines the published sectors for each name and sex."
+    },
+    {
+      "id": "chinese-gender-shareholder-given-names",
+      "name": "Chinese Gender — counts of given names in shareholder records",
+      "url": "https://doi.org/10.7910/DVN/UAARYY",
+      "datasetUrls": ["https://dataverse.harvard.edu/api/access/datafile/10803450"],
+      "datasets": ["CN/given_name"],
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Dongbo Shi and Sherry Tong Tong, Chinese Gender, Harvard Dataverse, DOI 10.7910/DVN/UAARYY. The aggregate sample covers shareholders in Chinese company records through 2018. The sampled counts describe this population. NAMAE retains up to 25,000 one- or two-character Han spellings per sex with at least 30 observations, excluding administrative labels."
+    },
+    {
+      "id": "naampy-indian-electoral-roll-given-names",
+      "name": "Naampy — counts of given names in historical Indian electoral rolls",
+      "url": "https://doi.org/10.7910/DVN/WZGJBM",
+      "datasetUrls": ["https://dataverse.harvard.edu/api/access/datafile/6292042"],
+      "datasets": ["IN/given_name"],
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Gaurav Sood et al., naampy, Harvard Dataverse, DOI 10.7910/DVN/WZGJBM. NAMAE aggregates retained native-script spellings across the source's published state and birth-year groups. It requires at least 50 records for the recorded sex, at least 90% of the retained female and male counts, and at least five records in three separately reported groups. Counts reflect the historical electoral-roll sample."
     }
   ]
 }

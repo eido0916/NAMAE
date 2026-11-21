@@ -1,6 +1,8 @@
+import { nativeNameKey } from './native-name-policy.mjs';
+
 /** @param {string} name @returns {string} */
 export function normalizeInputName(name) {
-  return name.normalize("NFKC").trim().replace(/[\s・'’]/g, "").toLowerCase()
+  return nativeNameKey(name).replace(/[\s・'’]/g, "")
     .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 96));
 }
 

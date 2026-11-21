@@ -935,12 +935,15 @@ footer {
 }
 .match-bottom {
   display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid var(--line);
   padding-top: 16px;
   font-size: 12px;
   color: var(--muted);
 }
+.match-bottom small { display: block; }
 .match-bottom b {
   color: var(--accent);
   font-size: 14px;
@@ -1241,3 +1244,20 @@ footer {
 }
 
 .source-notes { display: block; margin-top: 0.4rem; line-height: 1.7; }
+
+.ranking-context { position: relative; z-index: 1; margin-top: 14px; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.ranking-context summary { cursor: pointer; color: var(--accent); padding: 6px 0; }
+.ranking-context dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; }
+.ranking-context dd { margin: 0; }
+.ranking-context p { font-size: 12px; line-height: 1.7; }
+.ranking-context a { text-decoration: underline; }
+
+.ranking-scope-field { margin-block: 20px; min-width: 0; }
+.ranking-scope-field select { width: 100%; min-width: 0; padding: 12px; color: var(--foreground); background: #171d18; border: 1px solid #3b473d; border-radius: 10px; font: inherit; }
+.ranking-scope-field option { color: #f5f6ee; background: #171d18; }
+.ranking-scope-field p { color: var(--muted); font-size: 12px; line-height: 1.6; margin-block: 8px 0; }
+.observed-rank-label { color: var(--accent); font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+.public-people-notice { line-height: 1.7; overflow-wrap: anywhere; }
+
+/* Long native names and large ranking totals must fit narrow result cards. */
+.original > div { min-width: 0; overflow-wrap: anywhere; }
