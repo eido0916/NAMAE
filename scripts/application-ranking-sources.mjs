@@ -196,6 +196,27 @@ async function asianSources(root, foreign) {
       sources.set(key, existing);
     }
   }
+  for (const [country, fileId, minimum, source, sourceUrl] of [
+    ['CN', 10803450, 30, 'Chinese Gender — aggregate counts in shareholder records through 2018', 'https://doi.org/10.7910/DVN/UAARYY'],
+    ['IN', 6292042, 50, 'Naampy — aggregate counts in historical electoral rolls', 'https://doi.org/10.7910/DVN/WZGJBM'],
+  ]) {
+    const snapshot = readGzip(join(directory, `${country}-given-name-counts-${fileId}.json.gz`));
+    const records = ['female', 'male'].flatMap(gender => {
+      const rows = snapshot[gender];
+      if (snapshot.country !== country || snapshot.fileId !== fileId || rows?.length < 20_000 || rows?.length > 25_000 ||
+          !Array.isArray(rows) || new Set(rows.map(([name]) => name)).size !== rows.length)
+        throw Error(`Incomplete aggregate given-name snapshot: ${country}/${gender}`);
+      return rows.map(([name, count], index) => {
+        if (!isUsableRankingName(country, name, 'given_name') || !Number.isSafeInteger(count) || count < minimum ||
+            (index > 0 && rows[index - 1][1] < count)) throw Error(`Invalid aggregate given-name row: ${country}/${gender}`);
+        return { name, count, gender };
+      });
+    });
+    const key = country + '/given_name';
+    const existing = sources.get(key) ?? [];
+    existing.push({ kind: 'country_frequency', meta: { source, sourceUrl }, records });
+    sources.set(key, existing);
+  }
   return sources;
 }
 

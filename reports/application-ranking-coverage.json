@@ -941,26 +941,28 @@
       "country": "CN",
       "type": "given_name",
       "gender": "male",
-      "names": 2686,
+      "names": 26781,
       "target": 20000,
-      "shortfall": 17314,
+      "shortfall": 0,
       "evidence": {
         "published": 16,
         "public_people": 2427,
-        "country_association": 243
+        "country_association": 243,
+        "country_frequency": 24095
       }
     },
     {
       "country": "CN",
       "type": "given_name",
       "gender": "female",
-      "names": 1483,
+      "names": 25877,
       "target": 20000,
-      "shortfall": 18517,
+      "shortfall": 0,
       "evidence": {
         "published": 13,
         "public_people": 1337,
-        "country_association": 133
+        "country_association": 133,
+        "country_frequency": 24394
       }
     },
     {
@@ -2253,11 +2255,11 @@
       "country": "IN",
       "type": "given_name",
       "gender": "male",
-      "names": 3507,
+      "names": 26083,
       "target": 20000,
-      "shortfall": 16493,
+      "shortfall": 0,
       "evidence": {
-        "country_frequency": 654,
+        "country_frequency": 23230,
         "public_people": 2613,
         "country_association": 240
       }
@@ -2266,11 +2268,11 @@
       "country": "IN",
       "type": "given_name",
       "gender": "female",
-      "names": 2051,
+      "names": 25521,
       "target": 20000,
-      "shortfall": 17949,
+      "shortfall": 0,
       "evidence": {
-        "country_frequency": 283,
+        "country_frequency": 23753,
         "public_people": 1549,
         "country_association": 219
       }

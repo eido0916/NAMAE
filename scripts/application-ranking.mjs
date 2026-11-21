@@ -69,10 +69,16 @@ export function buildApplicationRanking(primary, observed, supplements = [], rej
       if (row.observation && row.count > 0)
         add(row, 'public_people', observedSource);
     }
-    for (const dataset of supplements.filter(dataset => dataset.kind === 'country_association'))
-      for (const row of dataset.records) add(row, dataset.kind, dataset.meta);
-    for (const dataset of supplements.filter(dataset => dataset.kind === 'name_corpus'))
-      for (const row of dataset.records) add(row, dataset.kind, dataset.meta);
+    for (const kind of ['country_association', 'name_corpus'])
+      for (const dataset of supplements.filter(dataset => dataset.kind === kind))
+        for (const row of dataset.records) add(row, kind, dataset.meta);
+    const frequencies = supplements.filter(dataset => dataset.kind === 'country_frequency');
+    if (frequencies.length) {
+      const linkedSpellings = new Set([...all.values()].flatMap(row => (row.aliases ?? []).map(nativeNameKey)));
+      for (const dataset of frequencies)
+        for (const row of dataset.records)
+          if (!linkedSpellings.has(nativeNameKey(row.name))) add(row, dataset.kind, dataset.meta);
+    }
     const values = [...all.values()];
     const slots = new Map();
     const waiting = [];

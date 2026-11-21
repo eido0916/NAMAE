@@ -1851,6 +1851,28 @@
       "licenseUrl": "https://github.com/aviezerl/babynamesIL/blob/63b88aac07e49a81bec5da9b9303b39439f7604c/DESCRIPTION",
       "redistributionStatus": "permitted",
       "attribution": "Birth-name totals from Israel Central Bureau of Statistics, prepared by Aviezer Lifshitz (babynamesIL). NAMAE combines the published sectors for each name and sex."
+    },
+    {
+      "id": "chinese-gender-shareholder-given-names",
+      "name": "Chinese Gender — counts of given names in shareholder records",
+      "url": "https://doi.org/10.7910/DVN/UAARYY",
+      "datasetUrls": ["https://dataverse.harvard.edu/api/access/datafile/10803450"],
+      "datasets": ["CN/given_name"],
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Dongbo Shi and Sherry Tong Tong, Chinese Gender, Harvard Dataverse, DOI 10.7910/DVN/UAARYY. The aggregate sample covers shareholders in Chinese company records through 2018. The sampled counts describe this population. NAMAE retains up to 25,000 one- or two-character Han spellings per sex with at least 30 observations, excluding administrative labels."
+    },
+    {
+      "id": "naampy-indian-electoral-roll-given-names",
+      "name": "Naampy — counts of given names in historical Indian electoral rolls",
+      "url": "https://doi.org/10.7910/DVN/WZGJBM",
+      "datasetUrls": ["https://dataverse.harvard.edu/api/access/datafile/6292042"],
+      "datasets": ["IN/given_name"],
+      "licenseName": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Gaurav Sood et al., naampy, Harvard Dataverse, DOI 10.7910/DVN/WZGJBM. NAMAE aggregates retained native-script spellings across the source's published state and birth-year groups. It requires at least 50 records for the recorded sex, at least 90% of the retained female and male counts, and at least five records in three separately reported groups. Counts reflect the historical electoral-roll sample."
     }
   ]
 }

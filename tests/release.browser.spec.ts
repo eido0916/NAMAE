@@ -104,6 +104,24 @@ test("female name search handles decomposed Vietnamese accents and attested Indi
   }
 });
 
+test("Chinese and Indian female names from aggregate records are searchable with their source", async ({ page }) => {
+  for (const [country, name, source] of [
+    ["China", "丽娟", "shareholder records through 2018"],
+    ["India", "सुनीता", "historical electoral rolls"],
+  ]) {
+    await page.goto(base + "/name/");
+    await page.locator(".country-select-trigger").click();
+    await page.locator(".country-select").getByRole("combobox").fill(country);
+    await page.getByRole("option").filter({ hasText: country }).first().click();
+    await page.locator('.gender-options label:has(input[value="female"])').click();
+    await page.locator("#name").fill(name);
+    await page.locator(".form-card button[type=submit]").click();
+    await expect(page.locator(".original h2")).toHaveText(name);
+    await expect(page.locator(".rank strong")).toHaveText(/^#\d+$/);
+    await expect(page.locator(".original")).toContainText(source);
+  }
+});
+
 test("static release finds names, compares list positions and saves an image", async ({ page }) => {
   test.setTimeout(120000);
   const fetched: string[] = [];
