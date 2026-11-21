@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/base-path';
 import { loadNameDetails, collectNameDetails, type NameDetails, type DetailEntity } from '@/lib/name-details';
 import { nameReadingHint } from '@/lib/name-reading.mjs';
 import { getDetailCopy, getDetailReadingCopy, detailUiLanguage } from '@/lib/detail-copy';
@@ -94,7 +95,7 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, usageEvi
     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) close();
   } }}>
     <div className="detail-toolbar"><span className="eyebrow">WORLD NAME STORIES</span><button type="button" className="detail-close" onClick={close} aria-label={copy.close} autoFocus>×</button></div>
-    <p className="detail-country"><Image className="country-flag" src={`/flags/${country.code}.svg`} alt={`${countryName} ${copy.flag}`} width={32} height={32} unoptimized /> {countryName} <small>{country.nameEn}</small></p>
+    <p className="detail-country"><Image className="country-flag" src={withBasePath(`/flags/${country.code}.svg`)} alt={`${countryName} ${copy.flag}`} width={32} height={32} unoptimized /> {countryName} <small>{country.nameEn}</small></p>
     <h2 id="name-detail-title">{name}</h2>
     {usageEvidence && <p className="detail-meta">
       {usageEvidence.url

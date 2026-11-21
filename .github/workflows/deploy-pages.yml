@@ -1,0 +1,77 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NEXT_PUBLIC_SITE_URL: https://eido0916.github.io/NAMAE/
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          lfs: true
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Generate public data
+        run: |
+          npm run data:build
+          npm run details:build
+      - name: Build public release
+        id: release
+        shell: bash
+        run: |
+          npm run build:release 2>&1 | tee "$RUNNER_TEMP/namae-release-build.log"
+          release_dir=$(sed -n 's/^Static release: //p' "$RUNNER_TEMP/namae-release-build.log")
+          test -f "$release_dir/data/manifest.json"
+          : > "$release_dir/.nojekyll"
+          printf 'directory=%s\n' "$release_dir" >> "$GITHUB_OUTPUT"
+      - name: Verify source licenses
+        env:
+          NAMAE_STATIC_DIR: ${{ steps.release.outputs.directory }}
+        run: npm run licenses:check -- "$NAMAE_STATIC_DIR"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.release.outputs.directory }}
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Verify every published asset
+        run: node scripts/check-deployment.mjs "https://eido0916.github.io/NAMAE" --all

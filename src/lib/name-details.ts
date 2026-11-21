@@ -1,5 +1,6 @@
 import { detailBucket, detailKey } from './name-detail-key.mjs';
 import type { NameType } from './types';
+import { withBasePath } from './base-path';
 
 export type DetailEntity = {
   id: string; name: string; registeredNames?: string[]; nationalities: string[]; occupations: string[];
@@ -25,7 +26,7 @@ export async function collectNameDetails(country: string, type: NameType, name: 
   const key=JSON.stringify([country,type,detailKey(name)]);
   if(liveCache.has(key)) return liveCache.get(key);
   if(!liveAvailable) return;
-  const response=await fetch('/api/name-details',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({country,type,name}),signal});
+  const response=await fetch(withBasePath('/api/name-details'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({country,type,name}),signal});
   if([404,405,501].includes(response.status)) {liveAvailable=false;return;}
   if(!response.ok && response.status!==503) throw Error('人物情報の収集に失敗しました。');
   const data=await response.json() as NameDetails;
@@ -43,7 +44,7 @@ async function json<T>(url: string): Promise<T> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);
   try {
-    const response = await fetch(url, { signal: controller.signal });
+    const response = await fetch(withBasePath(url), { signal: controller.signal });
     if (!response.ok) throw Error('詳細情報を取得できませんでした。');
     return await response.json();
   } finally { clearTimeout(timeout); }
