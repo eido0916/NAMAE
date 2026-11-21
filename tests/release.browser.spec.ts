@@ -29,8 +29,12 @@ test("reviewed abbreviations and administrative labels have no name rank", async
     await page.getByRole("option").filter({ hasText: country }).first().click();
     await page.locator("#name").fill(name);
     await page.locator(".form-card button[type=submit]").click();
-    await expect(page.locator(".rank strong")).toBeVisible();
-    await expect(page.locator(".rank strong")).not.toHaveText(/^#/);
+    if (name.includes('.')) {
+      await expect(page.locator('.form-card [role="alert"]')).toBeVisible();
+    } else {
+      await expect(page.locator(".rank strong")).toBeVisible();
+      await expect(page.locator(".rank strong")).not.toHaveText(/^#/);
+    }
     await expect(page.locator(".match-card-interactive")).toHaveCount(0);
   }
 });
