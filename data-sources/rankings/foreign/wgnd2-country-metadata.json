@@ -1,0 +1,431 @@
+{
+  "retrievedAt": "2026-10-15T23:07:03.727Z",
+  "downloadUrl": "https://dataverse.harvard.edu/api/access/datafile/4750348",
+  "metadataUrl": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/MSEGSJ",
+  "sha256": "693a0a495978cf63857ecbab3953587d259b5b13227fd54e87509aff11fc35bf",
+  "license": {
+    "name": "CC0 1.0",
+    "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+    "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+    "rightsIdentifier": "CC0-1.0",
+    "rightsIdentifierScheme": "SPDX",
+    "schemeUri": "https://spdx.org/licenses/",
+    "languageCode": "en"
+  },
+  "file": {
+    "id": 4750348,
+    "persistentId": "",
+    "filename": "wgnd_2_0_name-gender-code.tab",
+    "contentType": "text/tab-separated-values",
+    "friendlyType": "Tab-Delimited",
+    "filesize": 116081236,
+    "description": "WGND 2.0 name-gender-code contains 4,970,296 unique name-code-gender observations. It refers primarily to the unique combinations of name-code pairs. However, the inclusion of gender frequencies results in 633,201 name-code duplicated pairs, due to more than one gender found for the pair name-code. The resulting dataset contains 4,148,968 unique names, covering 195 countries and territories.",
+    "storageIdentifier": "s3://dvn-cloud:179adbeadc1-75a48c192d57",
+    "originalFileFormat": "text/csv",
+    "originalFormatLabel": "Comma Separated Values",
+    "originalFileSize": 91229769,
+    "originalFileName": "wgnd_2_0_name-gender-code.csv",
+    "UNF": "UNF:6:yPJf5PfIq7RjWF/yOJpNqw==",
+    "rootDataFileId": -1,
+    "md5": "c35e61bddfa2841fb89aa793dcd9b9f9",
+    "checksum": {
+      "type": "MD5",
+      "value": "c35e61bddfa2841fb89aa793dcd9b9f9"
+    },
+    "tabularData": true,
+    "creationDate": "2021-05-27",
+    "publicationDate": "2021-06-03",
+    "lastUpdateTime": "2023-03-21T14:54:42Z",
+    "fileAccessRequest": false
+  },
+  "metadata": {
+    "status": "OK",
+    "data": {
+      "id": 4750347,
+      "identifier": "DVN/MSEGSJ",
+      "persistentUrl": "https://doi.org/10.7910/DVN/MSEGSJ",
+      "protocol": "doi",
+      "authority": "10.7910",
+      "separator": "/",
+      "publisher": "Harvard Dataverse",
+      "publicationDate": "2021-06-03",
+      "storageIdentifier": "s3://10.7910/DVN/MSEGSJ",
+      "effectiveDatasetFileCountLimit": 1000,
+      "datasetFileUploadsAvailable": 994,
+      "datasetType": "dataset",
+      "locks": [],
+      "latestVersion": {
+        "id": 268165,
+        "datasetId": 4750347,
+        "datasetPersistentId": "doi:10.7910/DVN/MSEGSJ",
+        "datasetType": "dataset",
+        "storageIdentifier": "s3://10.7910/DVN/MSEGSJ",
+        "versionNumber": 1,
+        "internalVersionNumber": 5,
+        "versionMinorNumber": 1,
+        "versionState": "RELEASED",
+        "latestVersionPublishingState": "RELEASED",
+        "deaccessionLink": "",
+        "UNF": "UNF:6:5rI3h1mXzd6zkVhHurelLw==",
+        "lastUpdateTime": "2023-03-21T14:54:42Z",
+        "releaseTime": "2023-03-21T14:54:42Z",
+        "createTime": "2021-08-27T14:37:41Z",
+        "publicationDate": "2021-06-03",
+        "citationDate": "2021-06-03",
+        "effectiveDatasetFileCountLimit": 1000,
+        "datasetFileUploadsAvailable": 994,
+        "license": {
+          "name": "CC0 1.0",
+          "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+          "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+          "rightsIdentifier": "CC0-1.0",
+          "rightsIdentifierScheme": "SPDX",
+          "schemeUri": "https://spdx.org/licenses/",
+          "languageCode": "en"
+        },
+        "fileAccessRequest": false,
+        "metadataBlocks": {
+          "citation": {
+            "displayName": "Citation Metadata",
+            "name": "citation",
+            "fields": [
+              {
+                "typeName": "title",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "WGND 2.0"
+              },
+              {
+                "typeName": "alternativeURL",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "https://github.com/IES-platform/r4r_gender"
+              },
+              {
+                "typeName": "author",
+                "multiple": true,
+                "typeClass": "compound",
+                "value": [
+                  {
+                    "authorName": {
+                      "typeName": "authorName",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Raffo, Julio"
+                    },
+                    "authorAffiliation": {
+                      "typeName": "authorAffiliation",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Innovation Economics Section, WIPO"
+                    }
+                  }
+                ]
+              },
+              {
+                "typeName": "datasetContact",
+                "multiple": true,
+                "typeClass": "compound",
+                "value": [
+                  {
+                    "datasetContactName": {
+                      "typeName": "datasetContactName",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Raffo, Julio"
+                    },
+                    "datasetContactAffiliation": {
+                      "typeName": "datasetContactAffiliation",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Innovation Economy Section, WIPO"
+                    },
+                    "datasetContactEmail": {
+                      "typeName": "datasetContactEmail",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "julio.raffo@wipo.int"
+                    }
+                  }
+                ]
+              },
+              {
+                "typeName": "dsDescription",
+                "multiple": true,
+                "typeClass": "compound",
+                "value": [
+                  {
+                    "dsDescriptionValue": {
+                      "typeName": "dsDescriptionValue",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "This paper revisits the first World Gender Name Dictionary (WGND 1.0), allowing to disambiguate the gender in data naming physical persons (Lax Martínez et al., 2016). We discuss its advantages and limitations and propose an expansion based on updated data and additional sources. By including more than 26 million records linking given names and 195 different countries and territories, the resulting WGND 2.0 substantially increases the international coverage of its processor. As a result, it is particularly designed to be applied to intellectual property unit-record data naming inventors, designers, individual applicants and other creators disclosed in these data."
+                    }
+                  }
+                ]
+              },
+              {
+                "typeName": "subject",
+                "multiple": true,
+                "typeClass": "controlledVocabulary",
+                "value": [
+                  "Social Sciences"
+                ]
+              },
+              {
+                "typeName": "keyword",
+                "multiple": true,
+                "typeClass": "compound",
+                "value": [
+                  {
+                    "keywordValue": {
+                      "typeName": "keywordValue",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "gender"
+                    }
+                  }
+                ]
+              },
+              {
+                "typeName": "publication",
+                "multiple": true,
+                "typeClass": "compound",
+                "value": [
+                  {
+                    "publicationCitation": {
+                      "typeName": "publicationCitation",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Expanding the World Gender-Name Dictionary: WGND 2.0\nEconomic Research Working Paper No. 64\n\nAuthor(s): Gema Lax Martínez, Helena Saenz de Juano-i-Ribes, Deyun Yin, Bruno Le Feuvre, Intan Hamdan-Livramento, Kaori Saito, Julio Raffo | Publication year: 2021"
+                    },
+                    "publicationIDType": {
+                      "typeName": "publicationIDType",
+                      "multiple": false,
+                      "typeClass": "controlledVocabulary",
+                      "value": "url"
+                    },
+                    "publicationIDNumber": {
+                      "typeName": "publicationIDNumber",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "Working Paper"
+                    },
+                    "publicationURL": {
+                      "typeName": "publicationURL",
+                      "multiple": false,
+                      "typeClass": "primitive",
+                      "value": "https://www.wipo.int/publications/en/details.jsp?id=4554&plang=EN"
+                    }
+                  }
+                ]
+              },
+              {
+                "typeName": "depositor",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Raffo, Julio"
+              },
+              {
+                "typeName": "dateOfDeposit",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "2021-05-27"
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "description": "WGND 2.0 code-langcode contains 261 unique code-langcode observations. It permits the conversion from 193 different countries or territories (code) to 96 different “macrolanguages” (langcode).",
+            "label": "wgnd_2_0_code-langcode.tab",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750349,
+              "persistentId": "",
+              "filename": "wgnd_2_0_code-langcode.tab",
+              "contentType": "text/tab-separated-values",
+              "friendlyType": "Tab-Delimited",
+              "filesize": 2624,
+              "description": "WGND 2.0 code-langcode contains 261 unique code-langcode observations. It permits the conversion from 193 different countries or territories (code) to 96 different “macrolanguages” (langcode).",
+              "storageIdentifier": "s3://dvn-cloud:179adbeab55-d9ade5b87afd",
+              "originalFileFormat": "text/csv",
+              "originalFormatLabel": "Comma Separated Values",
+              "originalFileSize": 1842,
+              "originalFileName": "wgnd_2_0_code-langcode.csv",
+              "UNF": "UNF:6:zGfNpDo5jm7gExJYf1isYA==",
+              "rootDataFileId": -1,
+              "md5": "bd1f1d9c8ed2ac1f534f965e99bf6904",
+              "checksum": {
+                "type": "MD5",
+                "value": "bd1f1d9c8ed2ac1f534f965e99bf6904"
+              },
+              "tabularData": true,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          },
+          {
+            "description": "WGND 2.0 name-gender-code (Language expansion) contains 26,043,223 unique name-code-gender observations. It refers to the expansion of the non-conflicting name-code pairs to all countries and territories speaking the same languages. The expansion is based in propagating the results in WGND 2.0 name-gender-langcode to all known places speaking those languages using the WGND 2.0 code-langcode list. The resulting dataset contains 3,505,319 unique names, covering 191 countries and territories.",
+            "label": "wgnd_2_0_name-gender-code_langexp.csv",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750350,
+              "persistentId": "",
+              "filename": "wgnd_2_0_name-gender-code_langexp.csv",
+              "contentType": "text/csv",
+              "friendlyType": "Comma Separated Values",
+              "filesize": 391678471,
+              "description": "WGND 2.0 name-gender-code (Language expansion) contains 26,043,223 unique name-code-gender observations. It refers to the expansion of the non-conflicting name-code pairs to all countries and territories speaking the same languages. The expansion is based in propagating the results in WGND 2.0 name-gender-langcode to all known places speaking those languages using the WGND 2.0 code-langcode list. The resulting dataset contains 3,505,319 unique names, covering 191 countries and territories.",
+              "storageIdentifier": "s3://dvn-cloud:179adbeb7e7-f4c094cebe81",
+              "rootDataFileId": -1,
+              "md5": "be9b283e9e8307e7899cc8a8deb6b3a3",
+              "checksum": {
+                "type": "MD5",
+                "value": "be9b283e9e8307e7899cc8a8deb6b3a3"
+              },
+              "tabularData": false,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          },
+          {
+            "description": "WGND 2.0 name-gender-code contains 4,970,296 unique name-code-gender observations. It refers primarily to the unique combinations of name-code pairs. However, the inclusion of gender frequencies results in 633,201 name-code duplicated pairs, due to more than one gender found for the pair name-code. The resulting dataset contains 4,148,968 unique names, covering 195 countries and territories.",
+            "label": "wgnd_2_0_name-gender-code.tab",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750348,
+              "persistentId": "",
+              "filename": "wgnd_2_0_name-gender-code.tab",
+              "contentType": "text/tab-separated-values",
+              "friendlyType": "Tab-Delimited",
+              "filesize": 116081236,
+              "description": "WGND 2.0 name-gender-code contains 4,970,296 unique name-code-gender observations. It refers primarily to the unique combinations of name-code pairs. However, the inclusion of gender frequencies results in 633,201 name-code duplicated pairs, due to more than one gender found for the pair name-code. The resulting dataset contains 4,148,968 unique names, covering 195 countries and territories.",
+              "storageIdentifier": "s3://dvn-cloud:179adbeadc1-75a48c192d57",
+              "originalFileFormat": "text/csv",
+              "originalFormatLabel": "Comma Separated Values",
+              "originalFileSize": 91229769,
+              "originalFileName": "wgnd_2_0_name-gender-code.csv",
+              "UNF": "UNF:6:yPJf5PfIq7RjWF/yOJpNqw==",
+              "rootDataFileId": -1,
+              "md5": "c35e61bddfa2841fb89aa793dcd9b9f9",
+              "checksum": {
+                "type": "MD5",
+                "value": "c35e61bddfa2841fb89aa793dcd9b9f9"
+              },
+              "tabularData": true,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          },
+          {
+            "description": "WGND 2.0 name-gender-langcode contains 21,831,043 unique name-gender-langcode observations. It refers to the transformation of the non-conflicting name-code pairs in WGND 2.0 name-gender-code to all territories speaking the same language. The transformation uses the WGND 2.0 code-langcode list. Conflicting name-gender within each language are ignored. The resulting dataset contains 3,505,319 names covering 94 different languages.",
+            "label": "wgnd_2_0_name-gender-langcode.csv",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750353,
+              "persistentId": "",
+              "filename": "wgnd_2_0_name-gender-langcode.csv",
+              "contentType": "text/csv",
+              "friendlyType": "Comma Separated Values",
+              "filesize": 372274310,
+              "description": "WGND 2.0 name-gender-langcode contains 21,831,043 unique name-gender-langcode observations. It refers to the transformation of the non-conflicting name-code pairs in WGND 2.0 name-gender-code to all territories speaking the same language. The transformation uses the WGND 2.0 code-langcode list. Conflicting name-gender within each language are ignored. The resulting dataset contains 3,505,319 names covering 94 different languages.",
+              "storageIdentifier": "s3://dvn-cloud:179adbec717-8d305a8a0365",
+              "rootDataFileId": -1,
+              "md5": "b11551765eac1724117b1e2e68addf18",
+              "checksum": {
+                "type": "MD5",
+                "value": "b11551765eac1724117b1e2e68addf18"
+              },
+              "tabularData": false,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          },
+          {
+            "description": "WGND 2.0 name-gender (_i.e._ No code) contains 3,491,141 unique name observations. This file is based on WGND 2.0 name-gender-code but it omits all known conflicting names across sources, geography and gender.",
+            "label": "wgnd_2_0_name-gender_nocode.tab",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750351,
+              "persistentId": "",
+              "filename": "wgnd_2_0_name-gender_nocode.tab",
+              "contentType": "text/tab-separated-values",
+              "friendlyType": "Tab-Delimited",
+              "filesize": 56962284,
+              "description": "WGND 2.0 name-gender (_i.e._ No code) contains 3,491,141 unique name observations. This file is based on WGND 2.0 name-gender-code but it omits all known conflicting names across sources, geography and gender.",
+              "storageIdentifier": "s3://dvn-cloud:179adbecf0b-095cb245ebc4",
+              "originalFileFormat": "text/csv",
+              "originalFormatLabel": "Comma Separated Values",
+              "originalFileSize": 46488874,
+              "originalFileName": "wgnd_2_0_name-gender_nocode.csv",
+              "UNF": "UNF:6:RfKuR553SzO6Sl5Y0O+L0w==",
+              "rootDataFileId": -1,
+              "md5": "1f89ce84b6270e9c74a93f566980c651",
+              "checksum": {
+                "type": "MD5",
+                "value": "1f89ce84b6270e9c74a93f566980c651"
+              },
+              "tabularData": true,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          },
+          {
+            "description": "WGND 2.0 source contains 5,016,972 unique name-code-gender-src observations. This is the base file referring to the information from each specific group of sources.\n Whenever available, the file includes the frequencies for each name-code-gender per source.",
+            "label": "wgnd_2_0_sources.tab",
+            "restricted": false,
+            "version": 1,
+            "datasetVersionId": 268165,
+            "dataFile": {
+              "id": 4750352,
+              "persistentId": "",
+              "filename": "wgnd_2_0_sources.tab",
+              "contentType": "text/tab-separated-values",
+              "friendlyType": "Tab-Delimited",
+              "filesize": 172973556,
+              "description": "WGND 2.0 source contains 5,016,972 unique name-code-gender-src observations. This is the base file referring to the information from each specific group of sources.\n Whenever available, the file includes the frequencies for each name-code-gender per source.",
+              "storageIdentifier": "s3://dvn-cloud:179adbed2ad-0a962c34ca8a",
+              "originalFileFormat": "text/csv",
+              "originalFormatLabel": "Comma Separated Values",
+              "originalFileSize": 137854765,
+              "originalFileName": "wgnd_2_0_sources.csv",
+              "UNF": "UNF:6:GVzG3jcO9ZpmwvCRcpc2hw==",
+              "rootDataFileId": -1,
+              "md5": "dca1a4548196fed0c597f63a4a64dc38",
+              "checksum": {
+                "type": "MD5",
+                "value": "dca1a4548196fed0c597f63a4a64dc38"
+              },
+              "tabularData": true,
+              "creationDate": "2021-05-27",
+              "publicationDate": "2021-06-03",
+              "lastUpdateTime": "2023-03-21T14:54:42Z",
+              "fileAccessRequest": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

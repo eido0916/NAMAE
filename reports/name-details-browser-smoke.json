@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Emma",
+    "type": "given_name",
+    "sourceInput": "みお",
+    "readingOrCharacterDisplayed": true,
+    "externalApiRequests": 0
+  },
+  {
+    "name": "Harry",
+    "type": "given_name",
+    "sourceInput": "せいた",
+    "readingOrCharacterDisplayed": true,
+    "externalApiRequests": 0
+  },
+  {
+    "name": "Potter",
+    "type": "surname",
+    "sourceInput": "平岡",
+    "readingOrCharacterDisplayed": true,
+    "externalApiRequests": 0
+  }
+]

@@ -1,22 +1,16 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-function Flag({ code, label }: { code: string; label: string }) {
-  return (
-    <Image
-      className="country-flag"
-      src={`/flags/${code}.svg`}
-      width={36}
-      height={36}
-      alt={label}
-      unoptimized
-    />
-  );
-}
+import { CountryFlag as Flag } from "./country-flag";
+import { estimatedRankingNote } from "@/lib/estimated-ranking-copy";
+import { appRankNote, formatListPosition, usageEvidenceLabel } from "@/lib/app-ranking-copy";
+import { CountryPicker } from "./country-picker";
 import { useRouter } from "next/navigation";
 import {
   createContext,
   useContext,
+  useEffect,
+  useMemo,
+  useRef,
   useState,
   type ReactNode,
   type FormEvent,
@@ -24,47 +18,71 @@ import {
 import {
   diagnose,
   getCountryConfig,
+  getDefaultDestinations,
+  getInputExamples,
   getNameRecord,
+  getInputNameCandidates,
   getReadingOptions,
   getSurnameRecord,
+  hasReferenceName,
 } from "@/lib/engine";
+import { loadAppCoverage, loadAppInputName, loadDiagnosisData, loadInputData, loadInputReferenceName } from "@/lib/data-loader";
 import { saveResult, shareResult } from "@/lib/share";
-import type { Diagnosis, Gender, NameType } from "@/lib/types";
+import { formatName } from "@/lib/name-presentation";
+import type { Diagnosis, DiagnosisInput, Gender, NameType, RankingScope } from "@/lib/types";
+import { NameDetailsDialog } from "./name-details";
+import { countryNativeNames, formatEquivalentRank, getUiCopy, localizedCountryName, localizeInputError } from "@/lib/ui-copy";
+import { getRankingScopeCopy } from "@/lib/ranking-scope-copy";
 const ResultContext = createContext<{
   result: Diagnosis | null;
   setResult: (value: Diagnosis) => void;
-}>({ result: null, setResult: () => {} });
+  sourceCountry: string;
+  setSourceCountry: (country: string) => void;
+}>({ result: null, setResult: () => {}, sourceCountry: "JP", setSourceCountry: () => {} });
 export function DiagnosisProvider({ children }: { children: ReactNode }) {
   const [result, setResult] = useState<Diagnosis | null>(null);
+  const [sourceCountry, setSourceCountry] = useState("JP");
+  useEffect(() => {
+    document.documentElement.lang = getUiCopy(sourceCountry).lang;
+  }, [sourceCountry]);
   return (
-    <ResultContext.Provider value={{ result, setResult }}>
+    <ResultContext.Provider value={{ result, setResult, sourceCountry, setSourceCountry }}>
       {children}
     </ResultContext.Provider>
   );
 }
 export function Header() {
+  const { sourceCountry } = useContext(ResultContext);
+  const copy = getUiCopy(sourceCountry);
   return (
     <header>
       <Link className="wordmark" href="/" aria-label="NAMAE ホーム">
-        NAMAE<span>®</span>
+        NAMAE
       </Link>
       <span className="header-note">SAME YOU. ANOTHER WORLD.</span>
       <Link className="header-link" href="/#how">
-        NAMAEについて ↗
+        {copy.about} ↗
       </Link>
     </header>
   );
 }
 export function Footer() {
+  const { sourceCountry } = useContext(ResultContext);
+  const copy = getUiCopy(sourceCountry);
   return (
     <footer>
       <Link className="wordmark small" href="/">
-        NAMAE<span>®</span>
+        NAMAE
       </Link>
-      <span>ひとつの名前から、世界が広がる。</span>
+      <span>{copy.tagline}</span>
       <span>
         © {new Date().getFullYear()} NAMAE ·{" "}
         <a href="/flags/ATTRIBUTION.txt">Flags: Twemoji / CC BY 4.0</a>
+      </span>
+      <span className="footer-links">
+        <Link href="/sources">{copy.sources}</Link>
+        <Link href="/privacy">{copy.privacy}</Link>
+        <Link href="/legal">{copy.legal}</Link>
       </span>
     </footer>
   );
@@ -74,6 +92,8 @@ export function Home({
 }: {
   initialType?: NameType;
 }) {
+  const { sourceCountry } = useContext(ResultContext);
+  const copy = getUiCopy(sourceCountry);
   return (
     <>
       <main className="home">
@@ -82,19 +102,15 @@ export function Home({
             <span className="live-dot" /> YOUR PARALLEL NAME
           </div>
           <h1>
-            もし海外で
-            <br />
-            生まれていたら、
-            <br />
-            あなたは<span className="accent">何という名前？</span>
+            {copy.hero}<br /><span className="accent">{copy.heroAccent}</span>
           </h1>
           <div className="countries">
-            {getCountryConfig().map((c) => (
+            {getCountryConfig().slice(0, 6).map((c) => (
               <span key={c.code} title={c.nameJa}>
                 <Flag code={c.code} label={c.nameJa} />
               </span>
             ))}
-            <span className="country-count">6 COUNTRIES</span>
+            <span className="country-count">{getCountryConfig().length} COUNTRIES</span>
           </div>
         </section>
         <section className="form-column">
@@ -103,78 +119,130 @@ export function Home({
             <span>01 — 02</span>
           </div>
           <NameForm initialType={initialType} />
-          <p className="privacy">♧ 入力情報は保存・送信されません</p>
+          <p className="privacy">♧ {copy.privacyNote}</p>
         </section>
       </main>
       <section id="how" className="how">
         <div>
           <span className="eyebrow">HOW IT WORKS</span>
           <h2>
-            名前で見つける、
-            <br />
-            もうひとつの世界。
+            {copy.howTitle}
           </h2>
         </div>
         <div>
           <span className="step-number">01</span>
-          <h3>あなたの名前を教えて</h3>
+          <h3>{copy.step1}</h3>
           <p className="record-meta">
-            下の名前、または苗字を入力。
-            <br />
-            登録なし、無料で楽しめます。
+            {copy.step1Body}
           </p>
         </div>
         <div>
           <span className="step-number">02</span>
-          <h3>同じ人気度でつながる</h3>
+          <h3>{copy.step2}</h3>
           <p>
-            各国のランキングから、
-            <br />
-            同じ順位の名前を探します。
+            {copy.step2Body}
           </p>
         </div>
         <div>
           <span className="step-number">03</span>
-          <h3>世界のあなたをシェア</h3>
+          <h3>{copy.step3}</h3>
           <p>
-            結果をストーリーサイズで保存。
-            <br />
-            友達の名前も、見てみよう。
+            {copy.step3Body}
           </p>
         </div>
       </section>
       <p className="data-note">
-        日本・米国の公開データで診断。その他の国はサンプルです。出典と対象年は結果で確認できます。
+        {copy.dataNote}
       </p>
     </>
   );
 }
 function NameForm({ initialType }: { initialType: NameType }) {
+  const { sourceCountry, setSourceCountry, setResult } = useContext(ResultContext);
+  const rankingScope: RankingScope = "app";
+  const copy = getUiCopy(sourceCountry);
   const [type, setType] = useState(initialType);
   const [name, setName] = useState("");
   const [gender, setGender] = useState<Gender>("male");
-  const [year, setYear] = useState("2007");
   const [reading, setReading] = useState("");
   const [error, setError] = useState("");
-  const { setResult } = useContext(ResultContext);
+  const [busy, setBusy] = useState(false);
+  const [dataReady, setDataReady] = useState(false);
+  const [coverage, setCoverage] = useState<Record<string, number>>({});
+  const [submittedCandidates, setSubmittedCandidates] = useState<ReturnType<typeof getInputNameCandidates>>([]);
+  const [dataError, setDataError] = useState("");
+  const [loadAttempt, setLoadAttempt] = useState(0);
+  const destinationCountries = getDefaultDestinations(sourceCountry);
   const router = useRouter();
-  function submit(e: FormEvent<HTMLFormElement>) {
+  useEffect(() => { void loadAppCoverage().then(setCoverage).catch(() => {}); }, []);
+  useEffect(() => {
+    let active = true;
+    loadInputData(type, sourceCountry, rankingScope)
+      .then(() => active && setDataReady(true))
+      .catch((error: unknown) => {
+        if (active)
+          setDataError(
+            error instanceof Error
+              ? error.message
+              : "診断データを読み込めませんでした。",
+          );
+      });
+    return () => {
+      active = false;
+    };
+  }, [type, sourceCountry, rankingScope, loadAttempt]);
+  async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setBusy(true);
     try {
-      const input = {
+      setError("");
+      await loadInputData(type, sourceCountry, rankingScope);
+      const input: DiagnosisInput = {
+        sourceCountry,
+        rankingScope,
         name,
         type,
+        destinationCountries,
         ...(type === "given_name"
-          ? { gender, year: Number(year), ...(reading ? { reading } : {}) }
+          ? { gender, ...(reading ? { reading } : {}) }
           : {}),
       };
-      const surnameRecord =
+      await loadAppInputName(input);
+      const candidates = getInputNameCandidates(input);
+      if (candidates.length > 1) {
+        setSubmittedCandidates(candidates);
+        setError("同じ表記に複数の名前が対応します。現地表記を選んでください。");
+        return;
+      }
+      await loadInputReferenceName(type, name, type === "given_name" ? gender : undefined, sourceCountry, rankingScope);
+      if (type === "given_name" && reading) await loadInputReferenceName(type, reading, gender, sourceCountry, rankingScope);
+      const givenNameRecord =
+        type === "given_name" ? getNameRecord(input) : undefined;
+      let surnameRecord: ReturnType<typeof getSurnameRecord>;
+      if (
         type === "given_name" &&
-        !getNameRecord(input) &&
-        getSurnameRecord(name);
+        !givenNameRecord && !hasReferenceName(input)
+      ) {
+        await loadInputData("surname", sourceCountry, rankingScope);
+        await loadAppInputName({ ...input, type: "surname", reading: undefined });
+        surnameRecord = getSurnameRecord(name, sourceCountry, rankingScope);
+      }
+      const sourceRecord =
+        surnameRecord ??
+        (type === "surname" ? getSurnameRecord(name, sourceCountry, rankingScope) : givenNameRecord);
+      await loadDiagnosisData(
+        surnameRecord ? "surname" : type,
+        destinationCountries,
+        sourceRecord?.rank,
+        sourceRecord?.gender ?? gender,
+        reading || name,
+        sourceCountry,
+        input.rankingScope,
+        sourceRecord?.totalEntries,
+      );
       const result = surnameRecord
         ? {
-            ...diagnose({ name, type: "surname" }),
+            ...diagnose({ name, type: "surname", sourceCountry, destinationCountries, rankingScope }),
             autoDetectedFrom: "given_name" as const,
           }
         : diagnose(input);
@@ -186,80 +254,128 @@ function NameForm({ initialType }: { initialType: NameType }) {
           ? e.message
           : "診断できませんでした。もう一度お試しください。",
       );
+    } finally {
+      setBusy(false);
     }
   }
   const surname = type === "surname";
-  const readings = surname ? [] : getReadingOptions(name, gender);
-  const needsReading =
-    !surname && (/\p{Script=Han}/u.test(name) || readings.length > 1);
+  const readings = surname || sourceCountry !== "JP" ? [] : getReadingOptions(name, gender);
+  const needsReading = !surname && sourceCountry === "JP" && rankingScope === "app";
+  const nameExamples = useMemo(() => {
+    if (sourceCountry === "JP" && process.env.NEXT_PUBLIC_NAMAE_RELEASE !== "1")
+      return type === "surname" ? ["佐藤", "鈴木", "山田"] : ["じゅん", "れん", "さくら"];
+    return dataReady ? getInputExamples(sourceCountry, type, gender === "female" ? "female" : "male", rankingScope) : [];
+  }, [sourceCountry, type, gender, dataReady, rankingScope]);
+  const spellingCandidates = busy ? [] : submittedCandidates.length || process.env.NEXT_PUBLIC_NAMAE_RELEASE === "1"
+    ? submittedCandidates : dataReady ? getInputNameCandidates({sourceCountry, type, gender, name, rankingScope}) : [];
+  const availableNames = coverage[[sourceCountry, type, type === "surname" ? "" : gender].join("/")];
   return (
-    <form onSubmit={submit} className="glass form-card">
+    <form onSubmit={submit} className="glass form-card" lang={copy.lang}>
       <div className="form-heading">
         <span className="mini-star">✳</span>
       </div>
-      <h2>世界のあなたに、会いにいこう。</h2>
-      <p className="muted">まずは、何を診断しますか？</p>
-      <div className="tabs" aria-label="診断の種類">
+      <h2>{copy.title}</h2>
+      <p className="muted">{copy.intro}</p>
+      <fieldset className="source-country-field" id="source-country" aria-describedby="source-country-help">
+        <legend className="field-label source-country-legend">
+          <span className="globe-symbol" aria-hidden="true">🌐</span>
+          <span lang="en">Country / Region</span>
+        </legend>
+        <CountryPicker value={sourceCountry} disabled={busy} onChange={(code) => {
+          setSubmittedCandidates([]);
+          setSourceCountry(code);
+          setReading("");
+          setError("");
+          setDataError("");
+          setDataReady(false);
+        }} />
+        <p id="source-country-help">{copy.countryHelp}</p>
+      </fieldset>
+      <div className="tabs" aria-label={`${copy.given} / ${copy.surname}`}>
         {(["given_name", "surname"] as const).map((t) => (
           <button
             type="button"
             key={t}
+            disabled={busy}
             aria-pressed={type === t}
             className={type === t ? "selected" : ""}
             onClick={() => {
-              setType(t);
+              if (t !== type) {
+                setType(t);
+                setSubmittedCandidates([]);
+                setDataReady(false);
+                setDataError("");
+              }
               setError("");
             }}
           >
-            {t === "given_name" ? "下の名前" : "苗字"}{" "}
+            {t === "given_name" ? copy.given : copy.surname}{" "}
             <span>{type === t ? "↗" : ""}</span>
           </button>
         ))}
       </div>
       <label className="field-label" htmlFor="name">
-        あなたの{surname ? "苗字" : "名前"}
-        <span>漢字・ひらがな・カタカナ・英字</span>
+        {surname ? copy.surnameLabel : copy.nameLabel}
+        <span>{sourceCountry === "JP" ? "漢字・ひらがな・カタカナ・英字" : copy.scriptHint}</span>
       </label>
       <input
         id="name"
+        dir="auto"
         name="name"
         value={name}
         onChange={(e) => {
           setName(e.target.value);
+          setSubmittedCandidates([]);
           setReading("");
           setError("");
         }}
-        placeholder={surname ? "例：佐藤" : "例：はると"}
+        placeholder={sourceCountry === "JP" ? (surname ? "例：佐藤" : "例：はると") : nameExamples.length ? `${copy.example}${nameExamples[0]}` : surname ? copy.surnameLabel : copy.nameLabel}
+        disabled={busy}
         maxLength={30}
         autoComplete="off"
         required
         aria-describedby={error ? "form-error" : undefined}
       />
-      <div className="examples">
-        試してみる：
-        {(surname
-          ? ["佐藤", "鈴木", "山田"]
-          : ["はると", "ゆい", "さくら"]
-        ).map((n) => (
+      {availableNames !== undefined && <p className="record-meta">
+        {availableNames ? `${availableNames.toLocaleString(copy.lang)} ${copy.rankCount}` : copy.noData}
+      </p>}
+      {spellingCandidates.length > 1 && <fieldset className="chinese-surname-options" aria-describedby="chinese-surname-help">
+        <legend>{sourceCountry === "CN" ? "请选择姓名的汉字 / Choose the local spelling" : "Choose the local spelling"}</legend>
+        <p id="chinese-surname-help">{sourceCountry === "CN" ? "同一拼音可能对应不同的姓名。请选择正确的汉字。" : "This spelling matches several names. Select yours."}</p>
+        <div>
+          {spellingCandidates.map((record) => <button key={record.name} type="button" disabled={busy}
+            onClick={() => { setName(record.name); setSubmittedCandidates([]); setError(""); document.getElementById("name")?.focus(); }}>
+            {formatName(record)} {record.rank !== undefined && <small>#{record.rank}</small>}
+          </button>)}
+        </div>
+      </fieldset>}
+      {nameExamples.length > 0 && <div className="examples">
+        {copy.try}
+        {nameExamples.map((n) => (
           <button
             key={n}
             type="button"
+            disabled={busy}
             onClick={() => {
               setName(n);
+              setSubmittedCandidates([]);
               setReading("");
-              if (n === "ゆい" || n === "さくら") setGender("female");
-              else if (!surname) setGender("male");
+              if (rankingScope === "app") {
+                if (n === "ゆい" || n === "さくら") setGender("female");
+                else if (!surname && sourceCountry === "JP") setGender("male");
+              }
               setError("");
             }}
           >
             {n}
           </button>
         ))}
-      </div>
+      </div>}
       {needsReading && (
         <div className="reading-field">
           <label className="field-label" htmlFor="reading">
             名前の読み方
+            <span>任意・見つからない場合は読みを入力</span>
           </label>
           <input
             id="reading"
@@ -267,7 +383,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
             placeholder="例：はると（候補からも選べます）"
             value={reading}
             maxLength={30}
-            onChange={(e) => setReading(e.target.value)}
+            onChange={(e) => { setReading(e.target.value); setSubmittedCandidates([]); }}
           />
           <datalist id="reading-options">
             {readings.map((r) => (
@@ -277,64 +393,121 @@ function NameForm({ initialType }: { initialType: NameType }) {
         </div>
       )}
       {!surname && (
-        <div className="field-grid">
-          <fieldset>
-            <legend className="field-label">ランキングの性別</legend>
-            <div className="gender-options">
-              {(["male", "female"] as const).map((g) => (
-                <label key={g}>
-                  <input
-                    type="radio"
-                    name="gender"
-                    value={g}
-                    checked={gender === g}
-                    onChange={() => {
-                      setGender(g);
-                      setReading("");
-                    }}
-                  />
-                  <span>{g === "male" ? "男性" : "女性"}</span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <div>
-            <label className="field-label" htmlFor="year">
-              生まれ年
-            </label>
-            <select
-              id="year"
-              value={year}
-              onChange={(e) => setYear(e.target.value)}
-            >
-              {Array.from(
-                { length: new Date().getFullYear() - 1919 },
-                (_, i) => new Date().getFullYear() - i,
-              ).map((y) => (
-                <option key={y} value={y}>
-                  {y}年
-                </option>
-              ))}
-            </select>
+        <fieldset>
+          <legend className="field-label">{copy.gender}</legend>
+          <div className="gender-options">
+            {(["male", "female"] as const).map((g) => (
+              <label key={g}>
+                <input
+                  type="radio"
+                  name="gender"
+                  value={g}
+                  disabled={busy}
+                  checked={gender === g}
+                  onChange={() => {
+                    setGender(g);
+                    setSubmittedCandidates([]);
+                    setReading("");
+                  }}
+                />
+                <span>{g === "male" ? copy.male : copy.female}</span>
+              </label>
+            ))}
           </div>
+        </fieldset>
+      )}
+      {(error || dataError) && (
+        <div className="form-error-row">
+          <p id="form-error" role="alert" className="error">
+            {error ? localizeInputError(error, sourceCountry) : copy.dataError}
+          </p>
+          {dataError && (
+            <button
+              className="retry-data"
+              type="button"
+              onClick={() => {
+                setDataError("");
+                setLoadAttempt((attempt) => attempt + 1);
+              }}
+            >
+              {copy.retry} ↻
+            </button>
+          )}
         </div>
       )}
-      {error && (
-        <p id="form-error" role="alert" className="error">
-          {error}
-        </p>
-      )}
-      <button className="primary" type="submit">
-        世界の{surname ? "苗字" : "名前"}を見る <span>↗</span>
+      <button
+        className="primary"
+        type="submit"
+        disabled={!dataReady || busy || destinationCountries.length === 0 || spellingCandidates.length > 1}
+      >
+        {busy || !dataReady
+          ? copy.loading
+          : surname ? copy.submitSurname : copy.submitName} {dataReady && !busy && <span>↗</span>}
       </button>
-      <p className="form-caption">Same popularity. Different country.</p>
+      <p className="form-caption">Same rank. Different country.</p>
     </form>
   );
 }
 export function Results() {
-  const { result } = useContext(ResultContext);
+  const countryPickerRef = useRef<HTMLDetailsElement>(null);
+  const [detailMatch, setDetailMatch] = useState<Diagnosis["matches"][number] | null>(null);
+  const { result, setResult } = useContext(ResultContext);
   const [status, setStatus] = useState("");
   const [busy, setBusy] = useState(false);
+  const [countryUpdateBusy, setCountryUpdateBusy] = useState(false);
+  const [countryUpdateError, setCountryUpdateError] = useState("");
+  const sourceCountry = result?.input.sourceCountry ?? "JP";
+  const sourceConfig = getCountryConfig(sourceCountry)[0];
+  const copy = getUiCopy(sourceCountry);
+  const scopeCopy = getRankingScopeCopy(copy.lang);
+  const publicPeople = result?.meta.rankingScope === "public_people";
+  const appRanking = result?.meta.rankingScope === "app";
+  const countryName = (code: string) => localizedCountryName(code, sourceCountry);
+  const selectedCountries = result
+    ? (result.input.destinationCountries?.filter((code) => code !== sourceCountry) ??
+      result.matches.map(({ country }) => country.code))
+    : [];
+
+  async function updateDestinationCountries(nextCountries: string[]) {
+    if (!result || countryUpdateBusy) return;
+    if (nextCountries.length < 1) {
+      setCountryUpdateError(copy.countryHint);
+      return;
+    }
+    if (nextCountries.length > 8) return;
+    setCountryUpdateBusy(true);
+    setCountryUpdateError("");
+    try {
+      await loadDiagnosisData(
+        result.input.type,
+        nextCountries,
+        result.record?.rank,
+        result.input.gender,
+        result.input.reading ?? result.input.name,
+        sourceCountry,
+        result.input.rankingScope,
+        result.record?.totalEntries,
+      );
+      const nextResult = diagnose({
+        ...result.input,
+        destinationCountries: nextCountries,
+      });
+      setResult(
+        result.autoDetectedFrom
+          ? { ...nextResult, autoDetectedFrom: result.autoDetectedFrom }
+          : nextResult,
+      );
+    } catch (error) {
+      setCountryUpdateError(
+        sourceCountry !== "JP" ? copy.dataError : error instanceof Error
+          ? error.message
+          : "国別データを読み込めませんでした。",
+      );
+    } finally {
+      setCountryUpdateBusy(false);
+    }
+  }
+
   if (!result)
     return (
       <main className="empty glass">
@@ -354,14 +527,13 @@ export function Results() {
     if (!result) return;
     setBusy(true);
     try {
-      setStatus(
-        await (kind === "save" ? saveResult(result) : shareResult(result)),
-      );
+      const message = await (kind === "save" ? saveResult(result) : shareResult(result));
+      setStatus(sourceCountry === "JP" ? message : kind === "save" ? copy.saved : copy.shared);
     } catch (e) {
       setStatus(
         e instanceof Error && e.name === "AbortError"
-          ? "共有をキャンセルしました。"
-          : "処理できませんでした。画像保存をもう一度お試しください。",
+          ? copy.shareCancelled
+          : copy.actionError,
       );
     } finally {
       setBusy(false);
@@ -371,44 +543,49 @@ export function Results() {
     <main className="results">
       <div className="result-heading">
         <span className="eyebrow">YOUR PARALLEL NAME</span>
-        <h1>世界には、こんなあなたがいる。</h1>
+        <h1>{copy.resultTitle}</h1>
       </div>
+      {publicPeople && <p className="mode-notice public-people-notice" role="status">{scopeCopy.hint}</p>}
+      {!result.record && (
+        <p className="mode-notice" role="status">
+          {copy.noData}
+        </p>
+      )}
       {result.autoDetectedFrom && (
         <p className="mode-notice" role="status">
-          「{result.input.name}」は下の名前の対象ランキングになく、苗字データに一致したため、苗字として診断しました。
+          {result.input.name} — {copy.surnameNotice}
         </p>
       )}
       <section className="glass original">
         <div>
           <span className="eyebrow">
-            YOUR {result.input.type === "surname" ? "SURNAME" : "NAME"} · JAPAN{" "}
-            <Flag code="JP" label="日本" />
+            YOUR {result.input.type === "surname" ? "SURNAME" : "NAME"} · {sourceConfig.nameEn.toUpperCase()}{" "}
+            <Flag code={sourceCountry} label={sourceConfig.nameJa} />
           </span>
-          <h2>{result.input.name}</h2>
+          <h2 dir="auto">{result.record ? formatName(result.record) : result.input.name}</h2>
           <p>
-            {result.input.type === "given_name"
-              ? `${result.input.year}年生まれ · ${result.input.gender === "male" ? "男性" : "女性"} · `
-              : ""}
-            {result.meta.dataYear
-              ? `${result.meta.dataYear}年の調査を使用`
-              : "調査年度不明のデータを使用"}
-            {result.input.reading ? ` · 読み：${result.input.reading}` : ""}
+            {[
+              result.input.type === "given_name" ? result.input.gender === "male" ? copy.male : copy.female : "",
+              result.input.reading ? `読み：${result.input.reading}` : "",
+
+            ].filter(Boolean).join(" · ")}
           </p>
-          {result.recognition === "historical" && (
-            <p className="historical-note">
-              選択年では公開順位がないため、最も近い
-              {result.record?.year}年の
-              {result.record?.rankingBasis === "spelling" ? "漢字表記" : "読み方"}
-              順位を参考表示
-            </p>
-          )}
+          {publicPeople && <p className="observed-rank-label">{scopeCopy.rank}</p>}
+          <p className="estimated-ranking-note">{appRanking ? appRankNote(copy.lang) : estimatedRankingNote(copy.lang)}</p>
+          {result.record?.usageEvidence && <p className="record-meta">
+            {usageEvidenceLabel(result.record.usageEvidence, copy.lang)} · {result.record.usageEvidence.source}
+          </p>}
         </div>
         <div className="rank">
           <span>
-            日本ランキング{" "}
-            <small>
-              {result.meta.isSample
+            {publicPeople ? scopeCopy.rank : sourceCountry === "JP" ? `${sourceConfig.nameJa}のアプリ内順位` : `${countryName(sourceCountry)} · ${copy.rank}`}{" "}
+            <small hidden={result.meta.rankingScope === "app"}>
+              {publicPeople ? "" : sourceCountry !== "JP" ? (result.meta.isSample ? copy.sample : "") : result.meta.isSample
                 ? "サンプル"
+                : result.record?.rankingBasis === "overall"
+                  ? result.record.isEstimated
+                    ? "総合推定順位"
+                    : "読み方順位"
                 : result.record?.rankingBasis === "spelling"
                   ? "漢字表記順位"
                   : result.record?.rankingBasis === "reading"
@@ -418,47 +595,102 @@ export function Results() {
           </span>
           <strong>
             {result.record
-              ? `#${result.record.rank}`
-              : result.recognition === "dictionary"
-                ? "公開順位なし"
-                : "データ未収録"}
+              ? `${result.record.observation && result.record.observation.tiedNames > 1 ? "= " : ""}#${result.record.rank}`
+              : result.recognition === "dictionary" && result.meta.rankingScope !== "app"
+                ? copy.unknown
+                : sourceCountry === "JP" ? "データ未収録" : copy.noData}
           </strong>
           <small>
             {result.record
-              ? `収録 ${result.record.totalEntries}件の中での順位`
+              ? `${result.record.totalEntries.toLocaleString(copy.lang)} ${copy.rankCount}`
               : result.recognition === "dictionary"
-                ? "名前辞書には収録されています"
-                : "入力表記・読みをご確認ください"}
+                ? copy.noData
+                : copy.noData}
           </small>
         </div>
         <div className="rarity">
           <span>
-            Rarity Score <small>推定</small>
+            {publicPeople ? scopeCopy.observed : appRanking ? (copy.lang === "ja" ? "リスト内の位置" : "List position") : <>Rarity Score <small>{copy.estimated}</small></>}
           </span>
           <b>
-            {result.record ? result.score : "—"}
-            <small>{result.record ? " / 100" : " 算出不可"}</small>
+            {publicPeople ? result.record?.count?.toLocaleString(copy.lang) ?? "—" : result.record ? (appRanking ? formatListPosition(result.record.rank, result.record.totalEntries, copy.lang) : result.score) : "—"}
+            <small>{publicPeople ? result.record?.observation ? ` / ${result.record.observation.totalPeople.toLocaleString(copy.lang)}` : "" : result.record ? (appRanking ? "" : " / 100") : sourceCountry === "JP" ? " 算出不可" : " —"}</small>
           </b>
           <div className="meter">
-            <span style={{ width: `${result.record ? result.score : 0}%` }} />
+            <span style={{ width: `${publicPeople && result.record?.observation ? 100 * (result.record.count ?? 0) / result.record.observation.totalPeople : result.record ? result.score : 0}%` }} />
           </div>
-          <small>一般的 ← → 珍しい</small>
+          <small>{publicPeople ? scopeCopy.people : appRanking ? "" : copy.rarityScale}</small>
         </div>
       </section>
       <div className="result-subtitle">
         <h2>
-          もし
-          {result.input.type === "surname"
-            ? "海外の苗字だったら"
-            : "海外で生まれていたら"}
-          …
+          {publicPeople ? scopeCopy.observed : sourceCountry === "JP" ? (result.input.type === "surname" ? "もし海外の苗字だったら…" : "もし海外で生まれていたら…") : copy.step2}
         </h2>
-        <span>IF YOU WERE BORN IN…</span>
+        <span>{publicPeople ? "PUBLIC PEOPLE · AROUND THE WORLD" : "IF YOU WERE BORN IN…"}</span>
       </div>
+      <details className="result-country-picker" ref={countryPickerRef} id="result-country-picker">
+        <summary>
+          <span>
+            {copy.countries} <small>{selectedCountries.length}/8</small>
+          </span>
+          <span className="result-country-summary">
+            {selectedCountries
+              .map((code) => countryName(code))
+              .filter(Boolean)
+              .join("・")}{" "}
+            <b>{copy.changeCountries} ＋</b>
+          </span>
+        </summary>
+        <div className="result-country-options" aria-busy={countryUpdateBusy}>
+          {getCountryConfig()
+            .filter((country) => {
+              if (country.code === sourceCountry) return false;
+              return result.input.type === "surname"
+                ? country.supportsSurname
+                : country.supportsGivenName;
+            })
+            .map((country) => {
+              const checked = selectedCountries.includes(country.code);
+              const disabled =
+                !checked && (selectedCountries.length >= 8 || countryUpdateBusy);
+              return (
+                <label key={country.code}>
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    disabled={disabled}
+                    onChange={() => {
+                      const nextCountries = checked
+                        ? selectedCountries.filter((code) => code !== country.code)
+                        : [...selectedCountries, country.code];
+                      void updateDestinationCountries(nextCountries);
+                    }}
+                  />
+                  <span>
+                    <Flag code={country.code} label={countryName(country.code)} />
+                    {countryName(country.code)}
+                  </span>
+                </label>
+              );
+            })}
+        </div>
+        <p className="result-country-hint">
+          {countryUpdateBusy
+            ? copy.loading
+            : copy.countryHint}
+        </p>
+        {countryUpdateError && (
+          <p className="error" role="alert">
+            {countryUpdateError}
+          </p>
+        )}
+      </details>
       <div className="match-grid">
-        {result.matches.map(({ country, record }, i) => (
+        {result.matches.map(({ country, record, meta, equivalentRank }, i) => {
+          const evidence = record.rank === undefined ? record.evidenceRank : undefined;
+          return (
           <article
-            className="glass match-card"
+            className="glass match-card match-card-interactive"
             key={country.code}
             style={{ animationDelay: `${i * 65}ms` }}
           >
@@ -468,33 +700,66 @@ export function Results() {
               </span>
               <span>
                 {country.nameEn}
-                <small>{country.nameJa}</small>
+                <small>{copy.lang === "en" ? countryNativeNames[country.code] ?? country.code : countryName(country.code)}</small>
               </span>
               <span className="match-index">0{i + 1}</span>
             </div>
-            <h3>{record.name}</h3>
+            <h3 dir="auto">{formatName(record)}</h3>
+            {meta.rankingScope === "public_people" && <p className="observed-rank-label">{scopeCopy.rank}</p>}
             <div className="match-bottom">
               <span>
-                現地ランキング <b>#{record.rank}</b>
+                {record.rank === undefined ? evidence ? <>{copy.rank} <b>{evidence.tiedNames > 1 ? "= " : ""}#{evidence.rank}</b></> : copy.noData : <>{meta.isOfficial ? copy.localRank : copy.rank} <b>{record.observation && record.observation.tiedNames > 1 ? "= " : ""}#{record.rank}</b></>}
               </span>
-              <span>
-                {record.rank === result.record?.rank
-                  ? "同じ順位"
+              {result.record && !evidence && <span>
+                {equivalentRank !== undefined
+                  ? <>{formatEquivalentRank(equivalentRank, copy.lang)}<small>{copy.lang === "ja" ? "リスト内で近い位置" : "Similar list position"}</small></>
+                  : record.rank === undefined
+                  ? copy.reference
                   : result.record
-                    ? "同順位未収録・参考候補"
-                    : "順位不明・参考候補"}
-              </span>
+                  ? record.rank === result.record.rank
+                    ? publicPeople ? `#${result.record.rank} = #${record.rank}` : sourceCountry === "JP" ? `${sourceConfig.nameJa}と同じ順位` : copy.sameRank
+                    : `#${result.record.rank} → #${record.rank}`
+                  : copy.reference}
+              </span>}
             </div>
-            <p className="match-source">
-              {record.year ? `${record.year}年 · ` : ""}
-              {getCountryConfig(country.code) &&
-              result.matches.find((m) => m.country.code === country.code)?.meta
-                .isSample
-                ? "サンプル"
-                : "公開データ"}
-            </p>
+            {record.usageEvidence && <p className="record-meta">{usageEvidenceLabel(record.usageEvidence, copy.lang)}</p>}
+
+
+            <span className="match-detail-hint">{copy.details} ↗</span>
+            <button type="button" className="match-detail-trigger" aria-haspopup="dialog" aria-label={`${countryName(country.code)} · ${record.name} · ${copy.details}`} onClick={() => setDetailMatch({ country, record, meta })} />
+          </article>
+          );
+        })}
+        {detailMatch && <NameDetailsDialog key={`${sourceCountry}/${detailMatch.country.code}/${detailMatch.record.type}/${detailMatch.record.name}`} country={detailMatch.country} sourceCountry={sourceCountry} name={detailMatch.record.name} type={detailMatch.record.type} usageEvidence={detailMatch.record.usageEvidence} close={() => setDetailMatch(null)} />}
+        {result.unavailableCountries?.map(({ country, reason }) => (
+          <article className="glass match-card" key={country.code}>
+            <div className="match-top">
+              <Flag code={country.code} label={country.nameJa} />
+              <span>{country.nameEn}<small>{countryName(country.code)}</small></span>
+            </div>
+            <h3>{copy.noData}</h3>
+            <p className="match-source">{sourceCountry === "JP" ? reason : copy.noData}</p>
           </article>
         ))}
+        {selectedCountries.length < 8 && (
+          <button
+            type="button"
+            className="glass match-card add-country-card"
+            aria-controls="result-country-picker"
+            disabled={countryUpdateBusy}
+            onClick={() => {
+              const picker = countryPickerRef.current;
+              if (!picker) return;
+              picker.open = true;
+              picker.querySelector("summary")?.focus({ preventScroll: true });
+              picker.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
+            <span className="add-country-icon" aria-hidden="true">＋</span>
+            <strong>{copy.addCountry}</strong>
+            <span className="add-country-count">{selectedCountries.length} / 8</span>
+          </button>
+        )}
       </div>
       <div className="result-actions">
         <button
@@ -502,54 +767,22 @@ export function Results() {
           disabled={busy}
           onClick={() => action("save")}
         >
-          ↓ 結果を画像保存
+          ↓ {copy.save}
         </button>
         <button
           className="secondary"
           disabled={busy}
           onClick={() => action("share")}
         >
-          ↗ シェア
+          ↗ {copy.share}
         </button>
         <Link className="again" href="/">
-          もう一度診断 ↻
+          {copy.again} ↻
         </Link>
       </div>
       <p className="status" role="status">
-        {status || "ストーリーにぴったりの9:16画像で保存できます。"}
+        {status || copy.saveHint}
       </p>
-      <details className="data-details">
-        <summary>
-          診断のしくみ・データについて <span>＋</span>
-        </summary>
-        <p>
-          日本の下の名前は明治安田の保険加入者を対象にした漢字表記・読み方調査、米国はSSA公開データを使用します。漢字を入力した場合は漢字表記順位を優先し、表記順位がなければ読み方順位を使います。選択年に順位がない場合は、その表記または読みがランキングに入った最も近い年を参考表示します。日本の苗字は公開辞書の推定人数順で、調査年度は不明です。その他の国と米国の苗字はサンプルです。
-        </p>
-        <p>
-          日本と同じ順位を優先します。同順位が未収録の場合は最も近い順位を参考候補として表示し、順位が一致したとは扱いません。Rarity
-          Scoreは収録ランキング内の相対位置に基づく補助値で、人口割合ではありません。順位不明の場合は算出しません。
-        </p>
-        <p>
-          名前辞書は男性5,578読み・女性3,294読み、苗字は1,999件を収録しています。読み・表記の照合に使用し、辞書にあるだけでは順位を付けません。漢字に複数の読みがある場合は入力時に選択できます。
-        </p>
-        {[result.meta, ...result.matches.map((m) => m.meta)].map((meta) => (
-          <p key={meta.country}>
-            {getCountryConfig(meta.country)[0]?.nameJa}：
-            {meta.sourceUrl ? (
-              <a href={meta.sourceUrl} target="_blank" rel="noreferrer">
-                {meta.source} ↗
-              </a>
-            ) : (
-              meta.source
-            )}{" "}
-            / {meta.dataYear || "年度不明"} /{" "}
-            {meta.isSample ? "サンプル" : "公開データ"}
-          </p>
-        ))}
-        <p>
-          入力情報はメモリ内だけで処理し、サーバー・外部AIへ送信しません。シェア操作をした場合のみ、選択した共有先に結果を渡します。
-        </p>
-      </details>
     </main>
   );
 }

@@ -1,7 +1,8 @@
+export type RankingScope = "published" | "public_people" | "app";
 export type NameType = "given_name" | "surname";
 export type Gender = "male" | "female" | "unknown";
 export type MatchingMode = "exactRank" | "normalizedRank" | "populationShare";
-export type RankingBasis = "reading" | "spelling";
+export type RankingBasis = "reading" | "spelling" | "overall";
 export type NameRecord = {
   country: string;
   type: NameType;
@@ -15,8 +16,13 @@ export type NameRecord = {
   share?: number;
   dataYear?: number;
   rankingBasis?: RankingBasis;
+  isEstimated?: boolean;
+  applicationRank?: boolean;
+  usageEvidence?: { kind: "published" | "country_frequency" | "public_people" | "country_association" | "name_corpus"; source: string; url?: string };
+  observation?: { totalPeople: number; tiedNames: number; asOf: string; sourceId: string };
 };
 export type DatasetMeta = {
+  rankingScope?: RankingScope;
   country: string;
   type: NameType;
   source: string;
@@ -25,8 +31,27 @@ export type DatasetMeta = {
   isOfficial: boolean;
   isSample: boolean;
   notes?: string;
+  coverageLabel?: string;
+  evidenceRanking?: { sourceUrl: string; asOf: string };
 };
 export type Dataset = { meta: DatasetMeta; records: NameRecord[] };
+export type ReferenceNameRecord = Omit<NameRecord, "rank" | "totalEntries"> & {
+  rank?: undefined;
+  totalEntries?: undefined;
+  sourceIds?: string[];
+  evidenceRank?: {
+    rank: number;
+    totalNames: number;
+    observedPeople: number;
+    totalPeople: number;
+    tiedNames: number;
+    method: "competition";
+    scope: "public_people";
+    sourceId: string;
+    asOf: string;
+  };
+};
+export type ReferenceDataset = { meta: DatasetMeta; records: ReferenceNameRecord[] };
 export type CountryConfig = {
   code: string;
   nameJa: string;
@@ -37,11 +62,14 @@ export type CountryConfig = {
   supportsSurname: boolean;
 };
 export type DiagnosisInput = {
+  rankingScope?: RankingScope;
+  sourceCountry?: string;
   name: string;
   type: NameType;
   gender?: Gender;
   year?: number;
   reading?: string;
+  destinationCountries?: string[];
 };
 export type Diagnosis = {
   input: DiagnosisInput;
@@ -49,6 +77,7 @@ export type Diagnosis = {
   score: number;
   recognition: "ranked" | "historical" | "dictionary" | "unrecognized";
   autoDetectedFrom?: NameType;
-  matches: { country: CountryConfig; record: NameRecord; meta: DatasetMeta }[];
+  unavailableCountries?: { country: CountryConfig; reason: string }[];
+  matches: { country: CountryConfig; record: NameRecord | ReferenceNameRecord; meta: DatasetMeta; equivalentRank?: number }[];
   meta: DatasetMeta;
 };

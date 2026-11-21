@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-15T23:07:47.714Z",
+  "originalRows": 4970296,
+  "rejected": 611,
+  "countries": [
+    {
+      "country": "DJ",
+      "male": 658,
+      "female": 514
+    },
+    {
+      "country": "GI",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TM",
+      "male": 5,
+      "female": 0
+    },
+    {
+      "country": "MN",
+      "male": 7,
+      "female": 7
+    },
+    {
+      "country": "MV",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AW",
+      "male": 5,
+      "female": 5
+    },
+    {
+      "country": "TJ",
+      "male": 6,
+      "female": 6
+    },
+    {
+      "country": "BN",
+      "male": 0,
+      "female": 1
+    },
+    {
+      "country": "KH",
+      "male": 1,
+      "female": 0
+    },
+    {
+      "country": "MO",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IM",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PF",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GG",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MC",
+      "male": 662,
+      "female": 518
+    },
+    {
+      "country": "KG",
+      "male": 2,
+      "female": 0
+    },
+    {
+      "country": "BI",
+      "male": 1183,
+      "female": 1122
+    },
+    {
+      "country": "JE",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NP",
+      "male": 12,
+      "female": 11
+    },
+    {
+      "country": "GQ",
+      "male": 7,
+      "female": 7
+    },
+    {
+      "country": "ET",
+      "male": 2,
+      "female": 1
+    },
+    {
+      "country": "BW",
+      "male": 718,
+      "female": 787
+    },
+    {
+      "country": "XK",
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ML",
+      "male": 666,
+      "female": 525
+    },
+    {
+      "country": "AD",
+      "male": 13,
+      "female": 11
+    },
+    {
+      "country": "FJ",
+      "male": 718,
+      "female": 785
+    },
+    {
+      "country": "LI",
+      "male": 1112,
+      "female": 979
+    },
+    {
+      "country": "AF",
+      "male": 1273,
+      "female": 804
+    },
+    {
+      "country": "BF",
+      "male": 655,
+      "female": 513
+    },
+    {
+      "country": "BH",
+      "male": 1512,
+      "female": 934
+    },
+    {
+      "country": "UZ",
+      "male": 400,
+      "female": 459
+    },
+    {
+      "country": "SM",
+      "male": 338,
+      "female": 279
+    },
+    {
+      "country": "VN",
+      "male": 111,
+      "female": 71
+    },
+    {
+      "country": "ME",
+      "male": 1114,
+      "female": 1052
+    }
+  ]
+}

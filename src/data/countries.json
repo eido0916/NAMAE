@@ -52,5 +52,1247 @@
     "enabled": true,
     "supportsGivenName": true,
     "supportsSurname": true
+  },
+  {
+    "code": "IT",
+    "nameJa": "イタリア",
+    "nameEn": "Italy",
+    "flag": "🇮🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ES",
+    "nameJa": "スペイン",
+    "nameEn": "Spain",
+    "flag": "🇪🇸",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PT",
+    "nameJa": "ポルトガル",
+    "nameEn": "Portugal",
+    "flag": "🇵🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "NL",
+    "nameJa": "オランダ",
+    "nameEn": "Netherlands",
+    "flag": "🇳🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BE",
+    "nameJa": "ベルギー",
+    "nameEn": "Belgium",
+    "flag": "🇧🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CH",
+    "nameJa": "スイス",
+    "nameEn": "Switzerland",
+    "flag": "🇨🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AT",
+    "nameJa": "オーストリア",
+    "nameEn": "Austria",
+    "flag": "🇦🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IE",
+    "nameJa": "アイルランド",
+    "nameEn": "Ireland",
+    "flag": "🇮🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CA",
+    "nameJa": "カナダ",
+    "nameEn": "Canada",
+    "flag": "🇨🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BR",
+    "nameJa": "ブラジル",
+    "nameEn": "Brazil",
+    "flag": "🇧🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MX",
+    "nameJa": "メキシコ",
+    "nameEn": "Mexico",
+    "flag": "🇲🇽",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AR",
+    "nameJa": "アルゼンチン",
+    "nameEn": "Argentina",
+    "flag": "🇦🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CO",
+    "nameJa": "コロンビア",
+    "nameEn": "Colombia",
+    "flag": "🇨🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CL",
+    "nameJa": "チリ",
+    "nameEn": "Chile",
+    "flag": "🇨🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PE",
+    "nameJa": "ペルー",
+    "nameEn": "Peru",
+    "flag": "🇵🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ZA",
+    "nameJa": "南アフリカ",
+    "nameEn": "South Africa",
+    "flag": "🇿🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "NG",
+    "nameJa": "ナイジェリア",
+    "nameEn": "Nigeria",
+    "flag": "🇳🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IN",
+    "nameJa": "インド",
+    "nameEn": "India",
+    "flag": "🇮🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TR",
+    "nameJa": "トルコ",
+    "nameEn": "Türkiye",
+    "flag": "🇹🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PL",
+    "nameJa": "ポーランド",
+    "nameEn": "Poland",
+    "flag": "🇵🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AE",
+    "nameJa": "アラブ首長国連邦",
+    "nameEn": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AO",
+    "nameJa": "アンゴラ",
+    "nameEn": "Angola",
+    "flag": "🇦🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BD",
+    "nameJa": "バングラデシュ",
+    "nameEn": "Bangladesh",
+    "flag": "🇧🇩",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BG",
+    "nameJa": "ブルガリア",
+    "nameEn": "Bulgaria",
+    "flag": "🇧🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BH",
+    "nameJa": "バーレーン",
+    "nameEn": "Bahrain",
+    "flag": "🇧🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BO",
+    "nameJa": "ボリビア",
+    "nameEn": "Bolivia",
+    "flag": "🇧🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CM",
+    "nameJa": "カメルーン",
+    "nameEn": "Cameroon",
+    "flag": "🇨🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CN",
+    "nameJa": "中国",
+    "nameEn": "China",
+    "flag": "🇨🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CR",
+    "nameJa": "コスタリカ",
+    "nameEn": "Costa Rica",
+    "flag": "🇨🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CZ",
+    "nameJa": "チェコ",
+    "nameEn": "Czechia",
+    "flag": "🇨🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "DK",
+    "nameJa": "デンマーク",
+    "nameEn": "Denmark",
+    "flag": "🇩🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "DZ",
+    "nameJa": "アルジェリア",
+    "nameEn": "Algeria",
+    "flag": "🇩🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "EG",
+    "nameJa": "エジプト",
+    "nameEn": "Egypt",
+    "flag": "🇪🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "FI",
+    "nameJa": "フィンランド",
+    "nameEn": "Finland",
+    "flag": "🇫🇮",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GH",
+    "nameJa": "ガーナ",
+    "nameEn": "Ghana",
+    "flag": "🇬🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GR",
+    "nameJa": "ギリシャ",
+    "nameEn": "Greece",
+    "flag": "🇬🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GT",
+    "nameJa": "グアテマラ",
+    "nameEn": "Guatemala",
+    "flag": "🇬🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "HK",
+    "nameJa": "香港",
+    "nameEn": "Hong Kong",
+    "flag": "🇭🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IL",
+    "nameJa": "イスラエル",
+    "nameEn": "Israel",
+    "flag": "🇮🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IQ",
+    "nameJa": "イラク",
+    "nameEn": "Iraq",
+    "flag": "🇮🇶",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IR",
+    "nameJa": "イラン",
+    "nameEn": "Iran",
+    "flag": "🇮🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "JO",
+    "nameJa": "ヨルダン",
+    "nameEn": "Jordan",
+    "flag": "🇯🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "KW",
+    "nameJa": "クウェート",
+    "nameEn": "Kuwait",
+    "flag": "🇰🇼",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "KZ",
+    "nameJa": "カザフスタン",
+    "nameEn": "Kazakhstan",
+    "flag": "🇰🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LB",
+    "nameJa": "レバノン",
+    "nameEn": "Lebanon",
+    "flag": "🇱🇧",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LU",
+    "nameJa": "ルクセンブルク",
+    "nameEn": "Luxembourg",
+    "flag": "🇱🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LY",
+    "nameJa": "リビア",
+    "nameEn": "Libya",
+    "flag": "🇱🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MA",
+    "nameJa": "モロッコ",
+    "nameEn": "Morocco",
+    "flag": "🇲🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MO",
+    "nameJa": "マカオ",
+    "nameEn": "Macao",
+    "flag": "🇲🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MU",
+    "nameJa": "モーリシャス",
+    "nameEn": "Mauritius",
+    "flag": "🇲🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MY",
+    "nameJa": "マレーシア",
+    "nameEn": "Malaysia",
+    "flag": "🇲🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "NO",
+    "nameJa": "ノルウェー",
+    "nameEn": "Norway",
+    "flag": "🇳🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "OM",
+    "nameJa": "オマーン",
+    "nameEn": "Oman",
+    "flag": "🇴🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PA",
+    "nameJa": "パナマ",
+    "nameEn": "Panama",
+    "flag": "🇵🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PH",
+    "nameJa": "フィリピン",
+    "nameEn": "Philippines",
+    "flag": "🇵🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PS",
+    "nameJa": "パレスチナ",
+    "nameEn": "Palestine",
+    "flag": "🇵🇸",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "QA",
+    "nameJa": "カタール",
+    "nameEn": "Qatar",
+    "flag": "🇶🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "RU",
+    "nameJa": "ロシア",
+    "nameEn": "Russia",
+    "flag": "🇷🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SA",
+    "nameJa": "サウジアラビア",
+    "nameEn": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SD",
+    "nameJa": "スーダン",
+    "nameEn": "Sudan",
+    "flag": "🇸🇩",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SE",
+    "nameJa": "スウェーデン",
+    "nameEn": "Sweden",
+    "flag": "🇸🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SG",
+    "nameJa": "シンガポール",
+    "nameEn": "Singapore",
+    "flag": "🇸🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SY",
+    "nameJa": "シリア",
+    "nameEn": "Syria",
+    "flag": "🇸🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TN",
+    "nameJa": "チュニジア",
+    "nameEn": "Tunisia",
+    "flag": "🇹🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TW",
+    "nameJa": "台湾",
+    "nameEn": "Taiwan",
+    "flag": "🇹🇼",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "UY",
+    "nameJa": "ウルグアイ",
+    "nameEn": "Uruguay",
+    "flag": "🇺🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "YE",
+    "nameJa": "イエメン",
+    "nameEn": "Yemen",
+    "flag": "🇾🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AF",
+    "nameJa": "アフガニスタン",
+    "nameEn": "Afghanistan",
+    "flag": "🇦🇫",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AL",
+    "nameJa": "アルバニア",
+    "nameEn": "Albania",
+    "flag": "🇦🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AU",
+    "nameJa": "オーストラリア",
+    "nameEn": "Australia",
+    "flag": "🇦🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AZ",
+    "nameJa": "アゼルバイジャン",
+    "nameEn": "Azerbaijan",
+    "flag": "🇦🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BF",
+    "nameJa": "ブルキナファソ",
+    "nameEn": "Burkina Faso",
+    "flag": "🇧🇫",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BI",
+    "nameJa": "ブルンジ",
+    "nameEn": "Burundi",
+    "flag": "🇧🇮",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BN",
+    "nameJa": "ブルネイ",
+    "nameEn": "Brunei",
+    "flag": "🇧🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BW",
+    "nameJa": "ボツワナ",
+    "nameEn": "Botswana",
+    "flag": "🇧🇼",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CY",
+    "nameJa": "キプロス",
+    "nameEn": "Cyprus",
+    "flag": "🇨🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "DJ",
+    "nameJa": "ジブチ",
+    "nameEn": "Djibouti",
+    "flag": "🇩🇯",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "EC",
+    "nameJa": "エクアドル",
+    "nameEn": "Ecuador",
+    "flag": "🇪🇨",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "EE",
+    "nameJa": "エストニア",
+    "nameEn": "Estonia",
+    "flag": "🇪🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ET",
+    "nameJa": "エチオピア",
+    "nameEn": "Ethiopia",
+    "flag": "🇪🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GE",
+    "nameJa": "ジョージア",
+    "nameEn": "Georgia",
+    "flag": "🇬🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "HN",
+    "nameJa": "ホンジュラス",
+    "nameEn": "Honduras",
+    "flag": "🇭🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "HR",
+    "nameJa": "クロアチア",
+    "nameEn": "Croatia",
+    "flag": "🇭🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "HT",
+    "nameJa": "ハイチ",
+    "nameEn": "Haiti",
+    "flag": "🇭🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "HU",
+    "nameJa": "ハンガリー",
+    "nameEn": "Hungary",
+    "flag": "🇭🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ID",
+    "nameJa": "インドネシア",
+    "nameEn": "Indonesia",
+    "flag": "🇮🇩",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IS",
+    "nameJa": "アイスランド",
+    "nameEn": "Iceland",
+    "flag": "🇮🇸",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "JM",
+    "nameJa": "ジャマイカ",
+    "nameEn": "Jamaica",
+    "flag": "🇯🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "KH",
+    "nameJa": "カンボジア",
+    "nameEn": "Cambodia",
+    "flag": "🇰🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LT",
+    "nameJa": "リトアニア",
+    "nameEn": "Lithuania",
+    "flag": "🇱🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MD",
+    "nameJa": "モルドバ",
+    "nameEn": "Moldova",
+    "flag": "🇲🇩",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MT",
+    "nameJa": "マルタ",
+    "nameEn": "Malta",
+    "flag": "🇲🇹",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MV",
+    "nameJa": "モルディブ",
+    "nameEn": "Maldives",
+    "flag": "🇲🇻",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PK",
+    "nameJa": "パキスタン",
+    "nameEn": "Pakistan",
+    "flag": "🇵🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PR",
+    "nameJa": "プエルトリコ",
+    "nameEn": "Puerto Rico",
+    "flag": "🇵🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "RO",
+    "nameJa": "ルーマニア",
+    "nameEn": "Romania",
+    "flag": "🇷🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "RS",
+    "nameJa": "セルビア",
+    "nameEn": "Serbia",
+    "flag": "🇷🇸",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SI",
+    "nameJa": "スロベニア",
+    "nameEn": "Slovenia",
+    "flag": "🇸🇮",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SK",
+    "nameJa": "スロバキア",
+    "nameEn": "Slovakia",
+    "flag": "🇸🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TM",
+    "nameJa": "トルクメニスタン",
+    "nameEn": "Turkmenistan",
+    "flag": "🇹🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "UA",
+    "nameJa": "ウクライナ",
+    "nameEn": "Ukraine",
+    "flag": "🇺🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "UZ",
+    "nameJa": "ウズベキスタン",
+    "nameEn": "Uzbekistan",
+    "flag": "🇺🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "VE",
+    "nameJa": "ベネズエラ",
+    "nameEn": "Venezuela",
+    "flag": "🇻🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "VN",
+    "nameJa": "ベトナム",
+    "nameEn": "Vietnam",
+    "flag": "🇻🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AD",
+    "nameJa": "アンドラ",
+    "nameEn": "Andorra",
+    "flag": "🇦🇩",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AM",
+    "nameJa": "アルメニア",
+    "nameEn": "Armenia",
+    "flag": "🇦🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "AW",
+    "nameJa": "アルバ",
+    "nameEn": "Aruba",
+    "flag": "🇦🇼",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BA",
+    "nameJa": "ボスニア・ヘルツェゴビナ",
+    "nameEn": "Bosnia & Herzegovina",
+    "flag": "🇧🇦",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "BY",
+    "nameJa": "ベラルーシ",
+    "nameEn": "Belarus",
+    "flag": "🇧🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "FO",
+    "nameJa": "フェロー諸島",
+    "nameEn": "Faroe Islands",
+    "flag": "🇫🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GG",
+    "nameJa": "ガーンジー",
+    "nameEn": "Guernsey",
+    "flag": "🇬🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GI",
+    "nameJa": "ジブラルタル",
+    "nameEn": "Gibraltar",
+    "flag": "🇬🇮",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GL",
+    "nameJa": "グリーンランド",
+    "nameEn": "Greenland",
+    "flag": "🇬🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "GQ",
+    "nameJa": "赤道ギニア",
+    "nameEn": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "IM",
+    "nameJa": "マン島",
+    "nameEn": "Isle of Man",
+    "flag": "🇮🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "JE",
+    "nameJa": "ジャージー",
+    "nameEn": "Jersey",
+    "flag": "🇯🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LI",
+    "nameJa": "リヒテンシュタイン",
+    "nameEn": "Liechtenstein",
+    "flag": "🇱🇮",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LV",
+    "nameJa": "ラトビア",
+    "nameEn": "Latvia",
+    "flag": "🇱🇻",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MC",
+    "nameJa": "モナコ",
+    "nameEn": "Monaco",
+    "flag": "🇲🇨",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ME",
+    "nameJa": "モンテネグロ",
+    "nameEn": "Montenegro",
+    "flag": "🇲🇪",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MK",
+    "nameJa": "北マケドニア",
+    "nameEn": "North Macedonia",
+    "flag": "🇲🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "ML",
+    "nameJa": "マリ",
+    "nameEn": "Mali",
+    "flag": "🇲🇱",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "MN",
+    "nameJa": "モンゴル",
+    "nameEn": "Mongolia",
+    "flag": "🇲🇳",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "NP",
+    "nameJa": "ネパール",
+    "nameEn": "Nepal",
+    "flag": "🇳🇵",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "NZ",
+    "nameJa": "ニュージーランド",
+    "nameEn": "New Zealand",
+    "flag": "🇳🇿",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PF",
+    "nameJa": "仏領ポリネシア",
+    "nameEn": "French Polynesia",
+    "flag": "🇵🇫",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "PY",
+    "nameJa": "パラグアイ",
+    "nameEn": "Paraguay",
+    "flag": "🇵🇾",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SM",
+    "nameJa": "サンマリノ",
+    "nameEn": "San Marino",
+    "flag": "🇸🇲",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SV",
+    "nameJa": "エルサルバドル",
+    "nameEn": "El Salvador",
+    "flag": "🇸🇻",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TH",
+    "nameJa": "タイ",
+    "nameEn": "Thailand",
+    "flag": "🇹🇭",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "TJ",
+    "nameJa": "タジキスタン",
+    "nameEn": "Tajikistan",
+    "flag": "🇹🇯",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "KG",
+    "nameJa": "キルギス",
+    "nameEn": "Kyrgyzstan",
+    "flag": "🇰🇬",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "LK",
+    "nameJa": "スリランカ",
+    "nameEn": "Sri Lanka",
+    "flag": "🇱🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "XK",
+    "nameJa": "コソボ",
+    "nameEn": "Kosovo",
+    "flag": "🇽🇰",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "CU",
+    "nameJa": "キューバ",
+    "nameEn": "Cuba",
+    "flag": "🇨🇺",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "DO",
+    "nameJa": "ドミニカ共和国",
+    "nameEn": "Dominican Republic",
+    "flag": "🇩🇴",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "FJ",
+    "nameJa": "フィジー",
+    "nameEn": "Fiji",
+    "flag": "🇫🇯",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
+  },
+  {
+    "code": "SR",
+    "nameJa": "スリナム",
+    "nameEn": "Suriname",
+    "flag": "🇸🇷",
+    "enabled": true,
+    "supportsGivenName": true,
+    "supportsSurname": true
   }
 ]

@@ -16,6 +16,10 @@
 # next.js
 /.next/
 /out/
+/public/.data-next/
+/public/.data-previous/
+/public/data/app/
+/public/data/observed/
 /test-results/
 /playwright-report/
 
@@ -25,6 +29,8 @@
 # misc
 .DS_Store
 *.pem
+data/namae.sqlite
+data/name-details.sqlite*
 
 # debug
 npm-debug.log*
@@ -42,3 +48,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/tmp/
+/.tmp/
+# Downloaded summary workbook, excluded after source inspection.
+/data-sources/rankings/foreign/thelwall-200-countries.xlsx
+
+# Source table images are inspection caches; transcribed facts and URLs are tracked.
+/data-sources/rankings/foreign/chinese-surnames/report-2020-*.jpg

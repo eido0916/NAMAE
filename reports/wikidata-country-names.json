@@ -1,0 +1,1015 @@
+{
+  "checkedCountries": 144,
+  "nameEntities": 542811,
+  "rejectedNonEntities": 1767,
+  "countries": [
+    {
+      "country": "JP",
+      "male": 6864,
+      "female": 2574,
+      "surname": 9885,
+      "missing": []
+    },
+    {
+      "country": "US",
+      "male": 14490,
+      "female": 9743,
+      "surname": 83700,
+      "missing": []
+    },
+    {
+      "country": "GB",
+      "male": 6583,
+      "female": 3844,
+      "surname": 25304,
+      "missing": []
+    },
+    {
+      "country": "FR",
+      "male": 6424,
+      "female": 3942,
+      "surname": 81122,
+      "missing": []
+    },
+    {
+      "country": "KR",
+      "male": 4589,
+      "female": 1962,
+      "surname": 432,
+      "missing": []
+    },
+    {
+      "country": "DE",
+      "male": 5790,
+      "female": 3958,
+      "surname": 55493,
+      "missing": []
+    },
+    {
+      "country": "IT",
+      "male": 3533,
+      "female": 2226,
+      "surname": 35516,
+      "missing": []
+    },
+    {
+      "country": "ES",
+      "male": 3328,
+      "female": 2260,
+      "surname": 16596,
+      "missing": []
+    },
+    {
+      "country": "PT",
+      "male": 1127,
+      "female": 762,
+      "surname": 2187,
+      "missing": []
+    },
+    {
+      "country": "NL",
+      "male": 4601,
+      "female": 3525,
+      "surname": 17234,
+      "missing": []
+    },
+    {
+      "country": "BE",
+      "male": 2855,
+      "female": 2079,
+      "surname": 12233,
+      "missing": []
+    },
+    {
+      "country": "CH",
+      "male": 3334,
+      "female": 2082,
+      "surname": 14294,
+      "missing": []
+    },
+    {
+      "country": "AT",
+      "male": 2071,
+      "female": 1651,
+      "surname": 16228,
+      "missing": []
+    },
+    {
+      "country": "IE",
+      "male": 1209,
+      "female": 906,
+      "surname": 3854,
+      "missing": []
+    },
+    {
+      "country": "CA",
+      "male": 7042,
+      "female": 4622,
+      "surname": 30748,
+      "missing": []
+    },
+    {
+      "country": "BR",
+      "male": 3276,
+      "female": 2109,
+      "surname": 7931,
+      "missing": []
+    },
+    {
+      "country": "MX",
+      "male": 1640,
+      "female": 1400,
+      "surname": 4351,
+      "missing": []
+    },
+    {
+      "country": "AR",
+      "male": 1823,
+      "female": 1166,
+      "surname": 10825,
+      "missing": []
+    },
+    {
+      "country": "CO",
+      "male": 1222,
+      "female": 696,
+      "surname": 1951,
+      "missing": []
+    },
+    {
+      "country": "CL",
+      "male": 1086,
+      "female": 743,
+      "surname": 3094,
+      "missing": []
+    },
+    {
+      "country": "PE",
+      "male": 2054,
+      "female": 2044,
+      "surname": 5964,
+      "missing": []
+    },
+    {
+      "country": "ZA",
+      "male": 1815,
+      "female": 1379,
+      "surname": 4161,
+      "missing": []
+    },
+    {
+      "country": "NG",
+      "male": 1805,
+      "female": 1043,
+      "surname": 2910,
+      "missing": []
+    },
+    {
+      "country": "IN",
+      "male": 2331,
+      "female": 1454,
+      "surname": 3285,
+      "missing": []
+    },
+    {
+      "country": "TR",
+      "male": 2033,
+      "female": 1295,
+      "surname": 6312,
+      "missing": []
+    },
+    {
+      "country": "PL",
+      "male": 1642,
+      "female": 1028,
+      "surname": 33471,
+      "missing": []
+    },
+    {
+      "country": "AE",
+      "male": 162,
+      "female": 85,
+      "surname": 151,
+      "missing": []
+    },
+    {
+      "country": "AO",
+      "male": 328,
+      "female": 231,
+      "surname": 396,
+      "missing": []
+    },
+    {
+      "country": "BD",
+      "male": 428,
+      "female": 251,
+      "surname": 392,
+      "missing": []
+    },
+    {
+      "country": "BG",
+      "male": 819,
+      "female": 548,
+      "surname": 1291,
+      "missing": []
+    },
+    {
+      "country": "BH",
+      "male": 180,
+      "female": 94,
+      "surname": 145,
+      "missing": []
+    },
+    {
+      "country": "BO",
+      "male": 545,
+      "female": 324,
+      "surname": 834,
+      "missing": []
+    },
+    {
+      "country": "CM",
+      "male": 713,
+      "female": 551,
+      "surname": 770,
+      "missing": []
+    },
+    {
+      "country": "CN",
+      "male": 2063,
+      "female": 1352,
+      "surname": 813,
+      "missing": []
+    },
+    {
+      "country": "CR",
+      "male": 572,
+      "female": 301,
+      "surname": 631,
+      "missing": []
+    },
+    {
+      "country": "CZ",
+      "male": 756,
+      "female": 679,
+      "surname": 9714,
+      "missing": []
+    },
+    {
+      "country": "DK",
+      "male": 1577,
+      "female": 1027,
+      "surname": 7944,
+      "missing": []
+    },
+    {
+      "country": "DZ",
+      "male": 527,
+      "female": 340,
+      "surname": 952,
+      "missing": []
+    },
+    {
+      "country": "EG",
+      "male": 713,
+      "female": 501,
+      "surname": 1068,
+      "missing": []
+    },
+    {
+      "country": "FI",
+      "male": 2107,
+      "female": 1559,
+      "surname": 12674,
+      "missing": []
+    },
+    {
+      "country": "GH",
+      "male": 669,
+      "female": 450,
+      "surname": 976,
+      "missing": []
+    },
+    {
+      "country": "GR",
+      "male": 912,
+      "female": 704,
+      "surname": 2029,
+      "missing": []
+    },
+    {
+      "country": "GT",
+      "male": 407,
+      "female": 262,
+      "surname": 552,
+      "missing": []
+    },
+    {
+      "country": "HK",
+      "male": 195,
+      "female": 312,
+      "surname": 199,
+      "missing": []
+    },
+    {
+      "country": "IL",
+      "male": 1724,
+      "female": 1297,
+      "surname": 6324,
+      "missing": []
+    },
+    {
+      "country": "IQ",
+      "male": 580,
+      "female": 203,
+      "surname": 401,
+      "missing": []
+    },
+    {
+      "country": "IR",
+      "male": 791,
+      "female": 453,
+      "surname": 1655,
+      "missing": []
+    },
+    {
+      "country": "JO",
+      "male": 360,
+      "female": 162,
+      "surname": 351,
+      "missing": []
+    },
+    {
+      "country": "KW",
+      "male": 140,
+      "female": 69,
+      "surname": 120,
+      "missing": []
+    },
+    {
+      "country": "KZ",
+      "male": 387,
+      "female": 260,
+      "surname": 1062,
+      "missing": []
+    },
+    {
+      "country": "LB",
+      "male": 618,
+      "female": 398,
+      "surname": 807,
+      "missing": []
+    },
+    {
+      "country": "LU",
+      "male": 694,
+      "female": 537,
+      "surname": 2694,
+      "missing": []
+    },
+    {
+      "country": "LY",
+      "male": 150,
+      "female": 45,
+      "surname": 76,
+      "missing": []
+    },
+    {
+      "country": "MA",
+      "male": 517,
+      "female": 303,
+      "surname": 877,
+      "missing": []
+    },
+    {
+      "country": "MO",
+      "male": 90,
+      "female": 27,
+      "surname": 108,
+      "missing": []
+    },
+    {
+      "country": "MU",
+      "male": 287,
+      "female": 194,
+      "surname": 276,
+      "missing": []
+    },
+    {
+      "country": "MY",
+      "male": 1074,
+      "female": 593,
+      "surname": 756,
+      "missing": []
+    },
+    {
+      "country": "NO",
+      "male": 2320,
+      "female": 1704,
+      "surname": 20202,
+      "missing": []
+    },
+    {
+      "country": "OM",
+      "male": 85,
+      "female": 23,
+      "surname": 26,
+      "missing": []
+    },
+    {
+      "country": "PA",
+      "male": 494,
+      "female": 288,
+      "surname": 770,
+      "missing": []
+    },
+    {
+      "country": "PH",
+      "male": 1315,
+      "female": 1000,
+      "surname": 2233,
+      "missing": []
+    },
+    {
+      "country": "PS",
+      "male": 493,
+      "female": 234,
+      "surname": 531,
+      "missing": []
+    },
+    {
+      "country": "QA",
+      "male": 153,
+      "female": 37,
+      "surname": 111,
+      "missing": []
+    },
+    {
+      "country": "RU",
+      "male": 1449,
+      "female": 835,
+      "surname": 8751,
+      "missing": []
+    },
+    {
+      "country": "SA",
+      "male": 306,
+      "female": 122,
+      "surname": 296,
+      "missing": []
+    },
+    {
+      "country": "SD",
+      "male": 219,
+      "female": 96,
+      "surname": 187,
+      "missing": []
+    },
+    {
+      "country": "SE",
+      "male": 3236,
+      "female": 2342,
+      "surname": 18437,
+      "missing": []
+    },
+    {
+      "country": "SG",
+      "male": 515,
+      "female": 381,
+      "surname": 439,
+      "missing": []
+    },
+    {
+      "country": "SY",
+      "male": 588,
+      "female": 223,
+      "surname": 648,
+      "missing": []
+    },
+    {
+      "country": "TN",
+      "male": 488,
+      "female": 306,
+      "surname": 734,
+      "missing": []
+    },
+    {
+      "country": "TW",
+      "male": 1069,
+      "female": 691,
+      "surname": 453,
+      "missing": []
+    },
+    {
+      "country": "UY",
+      "male": 1117,
+      "female": 721,
+      "surname": 4086,
+      "missing": []
+    },
+    {
+      "country": "YE",
+      "male": 168,
+      "female": 57,
+      "surname": 128,
+      "missing": []
+    },
+    {
+      "country": "AF",
+      "male": 356,
+      "female": 160,
+      "surname": 376,
+      "missing": []
+    },
+    {
+      "country": "AL",
+      "male": 956,
+      "female": 437,
+      "surname": 1279,
+      "missing": []
+    },
+    {
+      "country": "AU",
+      "male": 3516,
+      "female": 2562,
+      "surname": 14454,
+      "missing": []
+    },
+    {
+      "country": "AZ",
+      "male": 583,
+      "female": 264,
+      "surname": 551,
+      "missing": []
+    },
+    {
+      "country": "BF",
+      "male": 405,
+      "female": 215,
+      "surname": 237,
+      "missing": []
+    },
+    {
+      "country": "BI",
+      "male": 290,
+      "female": 124,
+      "surname": 140,
+      "missing": []
+    },
+    {
+      "country": "BN",
+      "male": 80,
+      "female": 35,
+      "surname": 64,
+      "missing": []
+    },
+    {
+      "country": "BW",
+      "male": 213,
+      "female": 143,
+      "surname": 182,
+      "missing": []
+    },
+    {
+      "country": "CY",
+      "male": 387,
+      "female": 205,
+      "surname": 872,
+      "missing": []
+    },
+    {
+      "country": "DJ",
+      "male": 50,
+      "female": 24,
+      "surname": 31,
+      "missing": []
+    },
+    {
+      "country": "EC",
+      "male": 688,
+      "female": 483,
+      "surname": 1134,
+      "missing": []
+    },
+    {
+      "country": "EE",
+      "male": 2022,
+      "female": 1729,
+      "surname": 13630,
+      "missing": []
+    },
+    {
+      "country": "ET",
+      "male": 277,
+      "female": 174,
+      "surname": 400,
+      "missing": []
+    },
+    {
+      "country": "GE",
+      "male": 450,
+      "female": 200,
+      "surname": 2231,
+      "missing": []
+    },
+    {
+      "country": "HN",
+      "male": 406,
+      "female": 177,
+      "surname": 393,
+      "missing": []
+    },
+    {
+      "country": "HR",
+      "male": 737,
+      "female": 492,
+      "surname": 2730,
+      "missing": []
+    },
+    {
+      "country": "HT",
+      "male": 529,
+      "female": 294,
+      "surname": 784,
+      "missing": []
+    },
+    {
+      "country": "HU",
+      "male": 1552,
+      "female": 1014,
+      "surname": 11393,
+      "missing": []
+    },
+    {
+      "country": "ID",
+      "male": 1671,
+      "female": 1484,
+      "surname": 2125,
+      "missing": []
+    },
+    {
+      "country": "IS",
+      "male": 614,
+      "female": 326,
+      "surname": 492,
+      "missing": []
+    },
+    {
+      "country": "JM",
+      "male": 713,
+      "female": 468,
+      "surname": 961,
+      "missing": []
+    },
+    {
+      "country": "KH",
+      "male": 114,
+      "female": 47,
+      "surname": 153,
+      "missing": []
+    },
+    {
+      "country": "LT",
+      "male": 748,
+      "female": 475,
+      "surname": 2110,
+      "missing": []
+    },
+    {
+      "country": "MD",
+      "male": 258,
+      "female": 182,
+      "surname": 512,
+      "missing": []
+    },
+    {
+      "country": "MT",
+      "male": 459,
+      "female": 343,
+      "surname": 478,
+      "missing": []
+    },
+    {
+      "country": "MV",
+      "male": 45,
+      "female": 39,
+      "surname": 66,
+      "missing": []
+    },
+    {
+      "country": "PK",
+      "male": 663,
+      "female": 347,
+      "surname": 638,
+      "missing": []
+    },
+    {
+      "country": "PR",
+      "male": 585,
+      "female": 375,
+      "surname": 897,
+      "missing": []
+    },
+    {
+      "country": "RO",
+      "male": 1393,
+      "female": 888,
+      "surname": 5113,
+      "missing": []
+    },
+    {
+      "country": "RS",
+      "male": 694,
+      "female": 411,
+      "surname": 1744,
+      "missing": []
+    },
+    {
+      "country": "SI",
+      "male": 899,
+      "female": 637,
+      "surname": 7271,
+      "missing": []
+    },
+    {
+      "country": "SK",
+      "male": 446,
+      "female": 405,
+      "surname": 3117,
+      "missing": []
+    },
+    {
+      "country": "TM",
+      "male": 160,
+      "female": 51,
+      "surname": 192,
+      "missing": []
+    },
+    {
+      "country": "UA",
+      "male": 778,
+      "female": 517,
+      "surname": 5403,
+      "missing": []
+    },
+    {
+      "country": "UZ",
+      "male": 501,
+      "female": 251,
+      "surname": 854,
+      "missing": []
+    },
+    {
+      "country": "VE",
+      "male": 1115,
+      "female": 798,
+      "surname": 2038,
+      "missing": []
+    },
+    {
+      "country": "VN",
+      "male": 542,
+      "female": 303,
+      "surname": 493,
+      "missing": []
+    },
+    {
+      "country": "AD",
+      "male": 223,
+      "female": 167,
+      "surname": 373,
+      "missing": []
+    },
+    {
+      "country": "AM",
+      "male": 394,
+      "female": 211,
+      "surname": 428,
+      "missing": []
+    },
+    {
+      "country": "AW",
+      "male": 128,
+      "female": 47,
+      "surname": 97,
+      "missing": []
+    },
+    {
+      "country": "BA",
+      "male": 497,
+      "female": 232,
+      "surname": 837,
+      "missing": []
+    },
+    {
+      "country": "BY",
+      "male": 403,
+      "female": 269,
+      "surname": 1886,
+      "missing": []
+    },
+    {
+      "country": "FO",
+      "male": 244,
+      "female": 90,
+      "surname": 195,
+      "missing": []
+    },
+    {
+      "country": "GG",
+      "male": 158,
+      "female": 78,
+      "surname": 216,
+      "missing": []
+    },
+    {
+      "country": "GI",
+      "male": 184,
+      "female": 57,
+      "surname": 219,
+      "missing": []
+    },
+    {
+      "country": "GL",
+      "male": 182,
+      "female": 97,
+      "surname": 168,
+      "missing": []
+    },
+    {
+      "country": "GQ",
+      "male": 278,
+      "female": 117,
+      "surname": 214,
+      "missing": []
+    },
+    {
+      "country": "IM",
+      "male": 148,
+      "female": 61,
+      "surname": 208,
+      "missing": []
+    },
+    {
+      "country": "JE",
+      "male": 205,
+      "female": 87,
+      "surname": 297,
+      "missing": []
+    },
+    {
+      "country": "LI",
+      "male": 291,
+      "female": 180,
+      "surname": 312,
+      "missing": []
+    },
+    {
+      "country": "LV",
+      "male": 723,
+      "female": 550,
+      "surname": 2292,
+      "missing": []
+    },
+    {
+      "country": "MC",
+      "male": 318,
+      "female": 137,
+      "surname": 417,
+      "missing": []
+    },
+    {
+      "country": "ME",
+      "male": 460,
+      "female": 147,
+      "surname": 516,
+      "missing": []
+    },
+    {
+      "country": "MK",
+      "male": 362,
+      "female": 211,
+      "surname": 393,
+      "missing": []
+    },
+    {
+      "country": "ML",
+      "male": 304,
+      "female": 123,
+      "surname": 255,
+      "missing": []
+    },
+    {
+      "country": "MN",
+      "male": 118,
+      "female": 44,
+      "surname": 123,
+      "missing": []
+    },
+    {
+      "country": "NP",
+      "male": 235,
+      "female": 159,
+      "surname": 186,
+      "missing": []
+    },
+    {
+      "country": "NZ",
+      "male": 2722,
+      "female": 2056,
+      "surname": 8540,
+      "missing": []
+    },
+    {
+      "country": "PF",
+      "male": 137,
+      "female": 54,
+      "surname": 202,
+      "missing": []
+    },
+    {
+      "country": "PY",
+      "male": 566,
+      "female": 267,
+      "surname": 685,
+      "missing": []
+    },
+    {
+      "country": "SM",
+      "male": 327,
+      "female": 71,
+      "surname": 524,
+      "missing": []
+    },
+    {
+      "country": "SV",
+      "male": 413,
+      "female": 245,
+      "surname": 552,
+      "missing": []
+    },
+    {
+      "country": "TH",
+      "male": 602,
+      "female": 566,
+      "surname": 1027,
+      "missing": []
+    },
+    {
+      "country": "TJ",
+      "male": 208,
+      "female": 69,
+      "surname": 266,
+      "missing": []
+    },
+    {
+      "country": "KG",
+      "male": 233,
+      "female": 101,
+      "surname": 400,
+      "missing": []
+    },
+    {
+      "country": "LK",
+      "male": 437,
+      "female": 161,
+      "surname": 330,
+      "missing": []
+    },
+    {
+      "country": "XK",
+      "male": 523,
+      "female": 183,
+      "surname": 487,
+      "missing": []
+    },
+    {
+      "country": "CU",
+      "male": 850,
+      "female": 592,
+      "surname": 1607,
+      "missing": []
+    },
+    {
+      "country": "DO",
+      "male": 696,
+      "female": 377,
+      "surname": 839,
+      "missing": []
+    },
+    {
+      "country": "FJ",
+      "male": 327,
+      "female": 124,
+      "surname": 446,
+      "missing": []
+    },
+    {
+      "country": "SR",
+      "male": 479,
+      "female": 269,
+      "surname": 785,
+      "missing": []
+    }
+  ]
+}

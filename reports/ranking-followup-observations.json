@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-16T23:00:05.618Z",
+  "countries": 6,
+  "rows": [
+    {
+      "country": "SE",
+      "type": "given_name",
+      "namesWithEvidenceRank": 5793,
+      "sourcePersonNamePairs": 134800
+    },
+    {
+      "country": "SE",
+      "type": "surname",
+      "namesWithEvidenceRank": 19125,
+      "sourcePersonNamePairs": 91718
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "namesWithEvidenceRank": 3881,
+      "sourcePersonNamePairs": 80140
+    },
+    {
+      "country": "FI",
+      "type": "surname",
+      "namesWithEvidenceRank": 13252,
+      "sourcePersonNamePairs": 63138
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "namesWithEvidenceRank": 3940,
+      "sourcePersonNamePairs": 65380
+    },
+    {
+      "country": "DK",
+      "type": "surname",
+      "namesWithEvidenceRank": 12399,
+      "sourcePersonNamePairs": 53533
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "namesWithEvidenceRank": 4189,
+      "sourcePersonNamePairs": 72567
+    },
+    {
+      "country": "NO",
+      "type": "surname",
+      "namesWithEvidenceRank": 20649,
+      "sourcePersonNamePairs": 73337
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "namesWithEvidenceRank": 4662,
+      "sourcePersonNamePairs": 213812
+    },
+    {
+      "country": "PL",
+      "type": "surname",
+      "namesWithEvidenceRank": 46082,
+      "sourcePersonNamePairs": 155144
+    },
+    {
+      "country": "AT",
+      "type": "given_name",
+      "namesWithEvidenceRank": 4848,
+      "sourcePersonNamePairs": 105058
+    },
+    {
+      "country": "AT",
+      "type": "surname",
+      "namesWithEvidenceRank": 22732,
+      "sourcePersonNamePairs": 75965
+    }
+  ],
+  "totalEvidenceNames": 161552
+}

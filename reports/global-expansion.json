@@ -1,0 +1,5047 @@
+{
+  "checkedCountries": 144,
+  "expandedCountries": 144,
+  "referenceNames": 1335436,
+  "audit": [
+    {
+      "country": "JP",
+      "name": "日本",
+      "male": {
+        "before": 23780,
+        "ranked": 23780,
+        "maxRank": 23777,
+        "referenceOnly": 919,
+        "totalNames": 24699,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 31843,
+        "ranked": 31843,
+        "maxRank": 31843,
+        "referenceOnly": 280,
+        "totalNames": 32123,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 105125,
+        "ranked": 105125,
+        "maxRank": 105125,
+        "referenceOnly": 793,
+        "totalNames": 105918,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "US",
+      "name": "アメリカ",
+      "male": {
+        "before": 35590,
+        "ranked": 35590,
+        "maxRank": 35590,
+        "referenceOnly": 13791,
+        "totalNames": 49381,
+        "source": "https://www.ssa.gov/oact/babynames/limits.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 53804,
+        "ranked": 53804,
+        "maxRank": 53804,
+        "referenceOnly": 17965,
+        "totalNames": 71769,
+        "source": "https://www.ssa.gov/oact/babynames/limits.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 162254,
+        "ranked": 162254,
+        "maxRank": 162254,
+        "referenceOnly": 37188,
+        "totalNames": 199442,
+        "source": "https://www.census.gov/topics/population/genealogy/data/2010_surnames.html",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "GB",
+      "name": "イギリス",
+      "male": {
+        "before": 18080,
+        "ranked": 18080,
+        "maxRank": 18080,
+        "referenceOnly": 6717,
+        "totalNames": 24797,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 24005,
+        "ranked": 24005,
+        "maxRank": 24005,
+        "referenceOnly": 6281,
+        "totalNames": 30286,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 856,
+        "ranked": 74035,
+        "maxRank": 74035,
+        "referenceOnly": 7511,
+        "totalNames": 81546,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/adhocs/3674babysurnamesbirthsregisteredineachyearenglandandwales1996to2025",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "FR",
+      "name": "フランス",
+      "male": {
+        "before": 23648,
+        "ranked": 23648,
+        "maxRank": 23648,
+        "referenceOnly": 2436,
+        "totalNames": 26084,
+        "source": "https://www.insee.fr/fr/statistiques/8894961",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 28003,
+        "ranked": 28003,
+        "maxRank": 28003,
+        "referenceOnly": 815,
+        "totalNames": 28818,
+        "source": "https://www.insee.fr/fr/statistiques/8894961",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 218982,
+        "ranked": 218982,
+        "maxRank": 218982,
+        "referenceOnly": 33668,
+        "totalNames": 252650,
+        "source": "https://www.insee.fr/fr/statistiques/3536630",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "KR",
+      "name": "韓国",
+      "male": {
+        "before": 2000,
+        "ranked": 36103,
+        "maxRank": 36103,
+        "referenceOnly": 1310,
+        "totalNames": 37413,
+        "source": "https://baby-name.kr/ranking/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 2000,
+        "ranked": 28694,
+        "maxRank": 28694,
+        "referenceOnly": 1006,
+        "totalNames": 29700,
+        "source": "https://baby-name.kr/ranking/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 100,
+        "ranked": 100,
+        "maxRank": 100,
+        "referenceOnly": 292,
+        "totalNames": 392,
+        "source": "https://koreanlastnames.com/most-common-korean-last-names/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "DE",
+      "name": "ドイツ",
+      "male": {
+        "before": 905,
+        "ranked": 905,
+        "maxRank": 905,
+        "referenceOnly": 6142,
+        "totalNames": 7047,
+        "source": "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 910,
+        "ranked": 910,
+        "maxRank": 910,
+        "referenceOnly": 4351,
+        "totalNames": 5261,
+        "source": "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 378,
+        "ranked": 378,
+        "maxRank": 378,
+        "referenceOnly": 55257,
+        "totalNames": 55635,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "IT",
+      "name": "イタリア",
+      "male": {
+        "before": 1142,
+        "ranked": 61427,
+        "maxRank": 61427,
+        "referenceOnly": 2053,
+        "totalNames": 63480,
+        "source": "https://www.istat.it/dati/calcolatori/contanomi/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 1201,
+        "ranked": 58839,
+        "maxRank": 58839,
+        "referenceOnly": 1274,
+        "totalNames": 60113,
+        "source": "https://www.istat.it/dati/calcolatori/contanomi/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 2939,
+        "ranked": 2939,
+        "maxRank": 2939,
+        "referenceOnly": 52731,
+        "totalNames": 55670,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "ES",
+      "name": "スペイン",
+      "male": {
+        "before": 31119,
+        "ranked": 31119,
+        "maxRank": 31119,
+        "referenceOnly": 1377,
+        "totalNames": 32496,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 32321,
+        "ranked": 32321,
+        "maxRank": 32321,
+        "referenceOnly": 730,
+        "totalNames": 33051,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 86511,
+        "ranked": 86511,
+        "maxRank": 86511,
+        "referenceOnly": 7994,
+        "totalNames": 94505,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "PT",
+      "name": "ポルトガル",
+      "male": {
+        "before": 189,
+        "ranked": 189,
+        "maxRank": 189,
+        "referenceOnly": 1269,
+        "totalNames": 1458,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 214,
+        "ranked": 214,
+        "maxRank": 214,
+        "referenceOnly": 960,
+        "totalNames": 1174,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 228,
+        "ranked": 228,
+        "maxRank": 228,
+        "referenceOnly": 2036,
+        "totalNames": 2264,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "NL",
+      "name": "オランダ",
+      "male": {
+        "before": 625,
+        "ranked": 625,
+        "maxRank": 625,
+        "referenceOnly": 4555,
+        "totalNames": 5180,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 598,
+        "ranked": 598,
+        "maxRank": 598,
+        "referenceOnly": 3874,
+        "totalNames": 4472,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 320,
+        "ranked": 320,
+        "maxRank": 320,
+        "referenceOnly": 17063,
+        "totalNames": 17383,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "BE",
+      "name": "ベルギー",
+      "male": {
+        "before": 482,
+        "ranked": 6648,
+        "maxRank": 6648,
+        "referenceOnly": 1041,
+        "totalNames": 7689,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 465,
+        "ranked": 7275,
+        "maxRank": 7275,
+        "referenceOnly": 515,
+        "totalNames": 7790,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 215,
+        "ranked": 105899,
+        "maxRank": 105899,
+        "referenceOnly": 5295,
+        "totalNames": 111194,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "CH",
+      "name": "スイス",
+      "male": {
+        "before": 304,
+        "ranked": 304,
+        "maxRank": 304,
+        "referenceOnly": 3351,
+        "totalNames": 3655,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 280,
+        "ranked": 280,
+        "maxRank": 280,
+        "referenceOnly": 2446,
+        "totalNames": 2726,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 189,
+        "ranked": 25186,
+        "maxRank": 25186,
+        "referenceOnly": 6880,
+        "totalNames": 32066,
+        "source": "https://opendata.swiss/de/dataset/nachnamen-der-standigen-wohnbevolkerung-nach-gemeinde3",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "AT",
+      "name": "オーストリア",
+      "male": {
+        "before": 229,
+        "ranked": 11856,
+        "maxRank": 11856,
+        "referenceOnly": 723,
+        "totalNames": 12579,
+        "source": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGDEXT_VORNAMEN_1",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 228,
+        "ranked": 12953,
+        "maxRank": 12953,
+        "referenceOnly": 617,
+        "totalNames": 13570,
+        "source": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGDEXT_VORNAMEN_1",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 146,
+        "ranked": 146,
+        "maxRank": 146,
+        "referenceOnly": 16187,
+        "totalNames": 16333,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "IE",
+      "name": "アイルランド",
+      "male": {
+        "before": 270,
+        "ranked": 270,
+        "maxRank": 270,
+        "referenceOnly": 1137,
+        "totalNames": 1407,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 281,
+        "ranked": 281,
+        "maxRank": 281,
+        "referenceOnly": 915,
+        "totalNames": 1196,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 196,
+        "ranked": 196,
+        "maxRank": 196,
+        "referenceOnly": 3922,
+        "totalNames": 4118,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CA",
+      "name": "カナダ",
+      "male": {
+        "before": 8672,
+        "ranked": 8672,
+        "maxRank": 8672,
+        "referenceOnly": 31114,
+        "totalNames": 39786,
+        "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014701",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 11954,
+        "ranked": 11954,
+        "maxRank": 11954,
+        "referenceOnly": 43005,
+        "totalNames": 54959,
+        "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014701",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 290,
+        "ranked": 290,
+        "maxRank": 290,
+        "referenceOnly": 30580,
+        "totalNames": 30870,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "BR",
+      "name": "ブラジル",
+      "male": {
+        "before": 60954,
+        "ranked": 60954,
+        "maxRank": 60954,
+        "referenceOnly": 952,
+        "totalNames": 61906,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 73361,
+        "ranked": 73361,
+        "maxRank": 73361,
+        "referenceOnly": 453,
+        "totalNames": 73814,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 201601,
+        "ranked": 201601,
+        "maxRank": 201601,
+        "referenceOnly": 1563,
+        "totalNames": 203164,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "MX",
+      "name": "メキシコ",
+      "male": {
+        "before": 684,
+        "ranked": 684,
+        "maxRank": 684,
+        "referenceOnly": 1216,
+        "totalNames": 1900,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 861,
+        "ranked": 861,
+        "maxRank": 861,
+        "referenceOnly": 925,
+        "totalNames": 1786,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 766,
+        "ranked": 766,
+        "maxRank": 766,
+        "referenceOnly": 3802,
+        "totalNames": 4568,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AR",
+      "name": "アルゼンチン",
+      "male": {
+        "before": 253,
+        "ranked": 253,
+        "maxRank": 253,
+        "referenceOnly": 1652,
+        "totalNames": 1905,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 303,
+        "ranked": 303,
+        "maxRank": 303,
+        "referenceOnly": 971,
+        "totalNames": 1274,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 326,
+        "ranked": 326,
+        "maxRank": 326,
+        "referenceOnly": 10601,
+        "totalNames": 10927,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "CO",
+      "name": "コロンビア",
+      "male": {
+        "before": 845,
+        "ranked": 845,
+        "maxRank": 845,
+        "referenceOnly": 806,
+        "totalNames": 1651,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 946,
+        "ranked": 946,
+        "maxRank": 946,
+        "referenceOnly": 376,
+        "totalNames": 1322,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 940,
+        "ranked": 940,
+        "maxRank": 940,
+        "referenceOnly": 1339,
+        "totalNames": 2279,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CL",
+      "name": "チリ",
+      "male": {
+        "before": 431,
+        "ranked": 76449,
+        "maxRank": 76449,
+        "referenceOnly": 179,
+        "totalNames": 76628,
+        "source": "https://github.com/rivaquiroga/guaguas",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 491,
+        "ranked": 128341,
+        "maxRank": 128341,
+        "referenceOnly": 70,
+        "totalNames": 128411,
+        "source": "https://github.com/rivaquiroga/guaguas",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 527,
+        "ranked": 527,
+        "maxRank": 527,
+        "referenceOnly": 2735,
+        "totalNames": 3262,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PE",
+      "name": "ペルー",
+      "male": {
+        "before": 569,
+        "ranked": 569,
+        "maxRank": 569,
+        "referenceOnly": 1646,
+        "totalNames": 2215,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 590,
+        "ranked": 590,
+        "maxRank": 590,
+        "referenceOnly": 1629,
+        "totalNames": 2219,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 402,
+        "ranked": 402,
+        "maxRank": 402,
+        "referenceOnly": 5675,
+        "totalNames": 6077,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "ZA",
+      "name": "南アフリカ",
+      "male": {
+        "before": 1065,
+        "ranked": 1065,
+        "maxRank": 1065,
+        "referenceOnly": 1301,
+        "totalNames": 2366,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 1148,
+        "ranked": 1148,
+        "maxRank": 1148,
+        "referenceOnly": 918,
+        "totalNames": 2066,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1047,
+        "ranked": 1047,
+        "maxRank": 1047,
+        "referenceOnly": 3798,
+        "totalNames": 4845,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "NG",
+      "name": "ナイジェリア",
+      "male": {
+        "before": 829,
+        "ranked": 829,
+        "maxRank": 829,
+        "referenceOnly": 1244,
+        "totalNames": 2073,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 563,
+        "ranked": 563,
+        "maxRank": 563,
+        "referenceOnly": 713,
+        "totalNames": 1276,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 955,
+        "ranked": 955,
+        "maxRank": 955,
+        "referenceOnly": 2381,
+        "totalNames": 3336,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IN",
+      "name": "インド",
+      "male": {
+        "before": 660,
+        "ranked": 660,
+        "maxRank": 660,
+        "referenceOnly": 3652,
+        "totalNames": 4312,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 290,
+        "ranked": 290,
+        "maxRank": 290,
+        "referenceOnly": 1634,
+        "totalNames": 1924,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 524,
+        "ranked": 524,
+        "maxRank": 524,
+        "referenceOnly": 2946,
+        "totalNames": 3470,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TR",
+      "name": "トルコ",
+      "male": {
+        "before": 1457,
+        "ranked": 1457,
+        "maxRank": 1457,
+        "referenceOnly": 1600,
+        "totalNames": 3057,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 1276,
+        "ranked": 1276,
+        "maxRank": 1276,
+        "referenceOnly": 1111,
+        "totalNames": 2387,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1995,
+        "ranked": 1995,
+        "maxRank": 1995,
+        "referenceOnly": 4842,
+        "totalNames": 6837,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PL",
+      "name": "ポーランド",
+      "male": {
+        "before": 47406,
+        "ranked": 47406,
+        "maxRank": 47406,
+        "referenceOnly": 205,
+        "totalNames": 47611,
+        "source": "https://dane.gov.pl/pl/dataset/1501",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 30090,
+        "ranked": 30090,
+        "maxRank": 30090,
+        "referenceOnly": 79,
+        "totalNames": 30169,
+        "source": "https://dane.gov.pl/pl/dataset/1501",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 598466,
+        "ranked": 598466,
+        "maxRank": 598466,
+        "referenceOnly": 10716,
+        "totalNames": 609182,
+        "source": "https://dane.gov.pl/pl/dataset/1681",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "AE",
+      "name": "アラブ首長国連邦",
+      "male": {
+        "before": 814,
+        "ranked": 814,
+        "maxRank": 811,
+        "referenceOnly": 96,
+        "totalNames": 910,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 334,
+        "ranked": 334,
+        "maxRank": 328,
+        "referenceOnly": 63,
+        "totalNames": 397,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 707,
+        "ranked": 707,
+        "maxRank": 707,
+        "referenceOnly": 124,
+        "totalNames": 831,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AO",
+      "name": "アンゴラ",
+      "male": {
+        "before": 62,
+        "ranked": 62,
+        "maxRank": 62,
+        "referenceOnly": 313,
+        "totalNames": 375,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 54,
+        "ranked": 54,
+        "maxRank": 54,
+        "referenceOnly": 226,
+        "totalNames": 280,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 62,
+        "ranked": 62,
+        "maxRank": 62,
+        "referenceOnly": 378,
+        "totalNames": 440,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BD",
+      "name": "バングラデシュ",
+      "male": {
+        "before": 359,
+        "ranked": 359,
+        "maxRank": 359,
+        "referenceOnly": 310,
+        "totalNames": 669,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 161,
+        "ranked": 161,
+        "maxRank": 161,
+        "referenceOnly": 222,
+        "totalNames": 383,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 393,
+        "ranked": 393,
+        "maxRank": 393,
+        "referenceOnly": 249,
+        "totalNames": 642,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BG",
+      "name": "ブルガリア",
+      "male": {
+        "before": 68,
+        "ranked": 68,
+        "maxRank": 68,
+        "referenceOnly": 1268,
+        "totalNames": 1336,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 55,
+        "ranked": 55,
+        "maxRank": 55,
+        "referenceOnly": 1309,
+        "totalNames": 1364,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 59,
+        "ranked": 59,
+        "maxRank": 59,
+        "referenceOnly": 1261,
+        "totalNames": 1320,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BH",
+      "name": "バーレーン",
+      "male": {
+        "before": 188,
+        "ranked": 188,
+        "maxRank": 188,
+        "referenceOnly": 1515,
+        "totalNames": 1703,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 145,
+        "ranked": 145,
+        "maxRank": 145,
+        "referenceOnly": 964,
+        "totalNames": 1109,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 202,
+        "ranked": 202,
+        "maxRank": 202,
+        "referenceOnly": 127,
+        "totalNames": 329,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BO",
+      "name": "ボリビア",
+      "male": {
+        "before": 306,
+        "ranked": 306,
+        "maxRank": 306,
+        "referenceOnly": 374,
+        "totalNames": 680,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 287,
+        "ranked": 287,
+        "maxRank": 287,
+        "referenceOnly": 189,
+        "totalNames": 476,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 224,
+        "ranked": 224,
+        "maxRank": 224,
+        "referenceOnly": 720,
+        "totalNames": 944,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CM",
+      "name": "カメルーン",
+      "male": {
+        "before": 231,
+        "ranked": 231,
+        "maxRank": 231,
+        "referenceOnly": 577,
+        "totalNames": 808,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 225,
+        "ranked": 225,
+        "maxRank": 225,
+        "referenceOnly": 434,
+        "totalNames": 659,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 138,
+        "ranked": 138,
+        "maxRank": 138,
+        "referenceOnly": 730,
+        "totalNames": 868,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CN",
+      "name": "中国",
+      "male": {
+        "before": 135,
+        "ranked": 135,
+        "maxRank": 126,
+        "referenceOnly": 2039,
+        "totalNames": 2174,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 131,
+        "ranked": 131,
+        "maxRank": 123,
+        "referenceOnly": 1319,
+        "totalNames": 1450,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 134,
+        "ranked": 134,
+        "maxRank": 134,
+        "referenceOnly": 765,
+        "totalNames": 899,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CR",
+      "name": "コスタリカ",
+      "male": {
+        "before": 242,
+        "ranked": 242,
+        "maxRank": 242,
+        "referenceOnly": 450,
+        "totalNames": 692,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 239,
+        "ranked": 239,
+        "maxRank": 239,
+        "referenceOnly": 208,
+        "totalNames": 447,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 193,
+        "ranked": 193,
+        "maxRank": 193,
+        "referenceOnly": 534,
+        "totalNames": 727,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CZ",
+      "name": "チェコ",
+      "male": {
+        "before": 141,
+        "ranked": 141,
+        "maxRank": 141,
+        "referenceOnly": 743,
+        "totalNames": 884,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 158,
+        "ranked": 158,
+        "maxRank": 158,
+        "referenceOnly": 699,
+        "totalNames": 857,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 90,
+        "ranked": 90,
+        "maxRank": 90,
+        "referenceOnly": 9682,
+        "totalNames": 9772,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "DK",
+      "name": "デンマーク",
+      "male": {
+        "before": 187,
+        "ranked": 187,
+        "maxRank": 187,
+        "referenceOnly": 1590,
+        "totalNames": 1777,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 177,
+        "ranked": 177,
+        "maxRank": 177,
+        "referenceOnly": 1155,
+        "totalNames": 1332,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 112,
+        "ranked": 112,
+        "maxRank": 112,
+        "referenceOnly": 291404,
+        "totalNames": 291516,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "DZ",
+      "name": "アルジェリア",
+      "male": {
+        "before": 1087,
+        "ranked": 1087,
+        "maxRank": 1087,
+        "referenceOnly": 273,
+        "totalNames": 1360,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 949,
+        "ranked": 949,
+        "maxRank": 949,
+        "referenceOnly": 200,
+        "totalNames": 1149,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1290,
+        "ranked": 1290,
+        "maxRank": 1290,
+        "referenceOnly": 744,
+        "totalNames": 2034,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "EG",
+      "name": "エジプト",
+      "male": {
+        "before": 1201,
+        "ranked": 1201,
+        "maxRank": 1201,
+        "referenceOnly": 433,
+        "totalNames": 1634,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 1070,
+        "ranked": 1070,
+        "maxRank": 1070,
+        "referenceOnly": 285,
+        "totalNames": 1355,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 2031,
+        "ranked": 2031,
+        "maxRank": 2031,
+        "referenceOnly": 652,
+        "totalNames": 2683,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "FI",
+      "name": "フィンランド",
+      "male": {
+        "before": 11013,
+        "ranked": 11013,
+        "maxRank": 11013,
+        "referenceOnly": 323,
+        "totalNames": 11336,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "female": {
+        "before": 14328,
+        "ranked": 14328,
+        "maxRank": 14328,
+        "referenceOnly": 129,
+        "totalNames": 14457,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "surname": {
+        "before": 23260,
+        "ranked": 23260,
+        "maxRank": 23260,
+        "referenceOnly": 4116,
+        "totalNames": 27376,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "GH",
+      "name": "ガーナ",
+      "male": {
+        "before": 127,
+        "ranked": 127,
+        "maxRank": 127,
+        "referenceOnly": 603,
+        "totalNames": 730,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 118,
+        "ranked": 118,
+        "maxRank": 118,
+        "referenceOnly": 394,
+        "totalNames": 512,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 112,
+        "ranked": 112,
+        "maxRank": 112,
+        "referenceOnly": 935,
+        "totalNames": 1047,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GR",
+      "name": "ギリシャ",
+      "male": {
+        "before": 136,
+        "ranked": 136,
+        "maxRank": 136,
+        "referenceOnly": 1001,
+        "totalNames": 1137,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 114,
+        "ranked": 114,
+        "maxRank": 114,
+        "referenceOnly": 964,
+        "totalNames": 1078,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 83,
+        "ranked": 83,
+        "maxRank": 83,
+        "referenceOnly": 2026,
+        "totalNames": 2109,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GT",
+      "name": "グアテマラ",
+      "male": {
+        "before": 199,
+        "ranked": 199,
+        "maxRank": 199,
+        "referenceOnly": 307,
+        "totalNames": 506,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 171,
+        "ranked": 171,
+        "maxRank": 171,
+        "referenceOnly": 200,
+        "totalNames": 371,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 151,
+        "ranked": 151,
+        "maxRank": 151,
+        "referenceOnly": 473,
+        "totalNames": 624,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "HK",
+      "name": "香港",
+      "male": {
+        "before": 309,
+        "ranked": 309,
+        "maxRank": 309,
+        "referenceOnly": 108,
+        "totalNames": 417,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 290,
+        "ranked": 290,
+        "maxRank": 290,
+        "referenceOnly": 213,
+        "totalNames": 503,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 213,
+        "ranked": 213,
+        "maxRank": 213,
+        "referenceOnly": 134,
+        "totalNames": 347,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IL",
+      "name": "イスラエル",
+      "male": {
+        "before": 413,
+        "ranked": 413,
+        "maxRank": 404,
+        "referenceOnly": 1680,
+        "totalNames": 2093,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 394,
+        "ranked": 394,
+        "maxRank": 375,
+        "referenceOnly": 1316,
+        "totalNames": 1710,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 179,
+        "ranked": 179,
+        "maxRank": 179,
+        "referenceOnly": 6262,
+        "totalNames": 6441,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IQ",
+      "name": "イラク",
+      "male": {
+        "before": 820,
+        "ranked": 820,
+        "maxRank": 820,
+        "referenceOnly": 367,
+        "totalNames": 1187,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 475,
+        "ranked": 475,
+        "maxRank": 475,
+        "referenceOnly": 138,
+        "totalNames": 613,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 929,
+        "ranked": 929,
+        "maxRank": 929,
+        "referenceOnly": 295,
+        "totalNames": 1224,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IR",
+      "name": "イラン",
+      "male": {
+        "before": 345,
+        "ranked": 345,
+        "maxRank": 345,
+        "referenceOnly": 1588,
+        "totalNames": 1933,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 265,
+        "ranked": 265,
+        "maxRank": 265,
+        "referenceOnly": 1054,
+        "totalNames": 1319,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 212,
+        "ranked": 212,
+        "maxRank": 212,
+        "referenceOnly": 1569,
+        "totalNames": 1781,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "JO",
+      "name": "ヨルダン",
+      "male": {
+        "before": 369,
+        "ranked": 369,
+        "maxRank": 369,
+        "referenceOnly": 248,
+        "totalNames": 617,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 276,
+        "ranked": 276,
+        "maxRank": 276,
+        "referenceOnly": 114,
+        "totalNames": 390,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 193,
+        "ranked": 193,
+        "maxRank": 193,
+        "referenceOnly": 322,
+        "totalNames": 515,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "KW",
+      "name": "クウェート",
+      "male": {
+        "before": 390,
+        "ranked": 390,
+        "maxRank": 390,
+        "referenceOnly": 80,
+        "totalNames": 470,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 253,
+        "ranked": 253,
+        "maxRank": 253,
+        "referenceOnly": 50,
+        "totalNames": 303,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 349,
+        "ranked": 349,
+        "maxRank": 349,
+        "referenceOnly": 108,
+        "totalNames": 457,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "KZ",
+      "name": "カザフスタン",
+      "male": {
+        "before": 195,
+        "ranked": 195,
+        "maxRank": 195,
+        "referenceOnly": 528,
+        "totalNames": 723,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 206,
+        "ranked": 206,
+        "maxRank": 206,
+        "referenceOnly": 457,
+        "totalNames": 663,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 91,
+        "ranked": 91,
+        "maxRank": 91,
+        "referenceOnly": 1034,
+        "totalNames": 1125,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LB",
+      "name": "レバノン",
+      "male": {
+        "before": 278,
+        "ranked": 278,
+        "maxRank": 278,
+        "referenceOnly": 524,
+        "totalNames": 802,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 255,
+        "ranked": 255,
+        "maxRank": 255,
+        "referenceOnly": 321,
+        "totalNames": 576,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 265,
+        "ranked": 265,
+        "maxRank": 265,
+        "referenceOnly": 700,
+        "totalNames": 965,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LU",
+      "name": "ルクセンブルク",
+      "male": {
+        "before": 82,
+        "ranked": 82,
+        "maxRank": 82,
+        "referenceOnly": 757,
+        "totalNames": 839,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 78,
+        "ranked": 78,
+        "maxRank": 78,
+        "referenceOnly": 661,
+        "totalNames": 739,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 98,
+        "ranked": 98,
+        "maxRank": 98,
+        "referenceOnly": 2659,
+        "totalNames": 2757,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LY",
+      "name": "リビア",
+      "male": {
+        "before": 413,
+        "ranked": 413,
+        "maxRank": 413,
+        "referenceOnly": 75,
+        "totalNames": 488,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 276,
+        "ranked": 276,
+        "maxRank": 276,
+        "referenceOnly": 35,
+        "totalNames": 311,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 368,
+        "ranked": 368,
+        "maxRank": 368,
+        "referenceOnly": 60,
+        "totalNames": 428,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MA",
+      "name": "モロッコ",
+      "male": {
+        "before": 1324,
+        "ranked": 1324,
+        "maxRank": 1324,
+        "referenceOnly": 283,
+        "totalNames": 1607,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 1210,
+        "ranked": 1210,
+        "maxRank": 1210,
+        "referenceOnly": 140,
+        "totalNames": 1350,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1965,
+        "ranked": 1965,
+        "maxRank": 1965,
+        "referenceOnly": 637,
+        "totalNames": 2602,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MO",
+      "name": "マカオ",
+      "male": {
+        "before": 52,
+        "ranked": 52,
+        "maxRank": 52,
+        "referenceOnly": 90,
+        "totalNames": 142,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 49,
+        "ranked": 49,
+        "maxRank": 49,
+        "referenceOnly": 27,
+        "totalNames": 76,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 56,
+        "ranked": 56,
+        "maxRank": 56,
+        "referenceOnly": 101,
+        "totalNames": 157,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MU",
+      "name": "モーリシャス",
+      "male": {
+        "before": 134,
+        "ranked": 134,
+        "maxRank": 134,
+        "referenceOnly": 277,
+        "totalNames": 411,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 134,
+        "ranked": 134,
+        "maxRank": 134,
+        "referenceOnly": 192,
+        "totalNames": 326,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 114,
+        "ranked": 114,
+        "maxRank": 114,
+        "referenceOnly": 275,
+        "totalNames": 389,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MY",
+      "name": "マレーシア",
+      "male": {
+        "before": 876,
+        "ranked": 876,
+        "maxRank": 876,
+        "referenceOnly": 773,
+        "totalNames": 1649,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 775,
+        "ranked": 775,
+        "maxRank": 775,
+        "referenceOnly": 400,
+        "totalNames": 1175,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1076,
+        "ranked": 1076,
+        "maxRank": 1076,
+        "referenceOnly": 478,
+        "totalNames": 1554,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "NO",
+      "name": "ノルウェー",
+      "male": {
+        "before": 140,
+        "ranked": 987,
+        "maxRank": 987,
+        "referenceOnly": 1669,
+        "totalNames": 2656,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 117,
+        "ranked": 1098,
+        "maxRank": 1098,
+        "referenceOnly": 1028,
+        "totalNames": 2126,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 102,
+        "ranked": 117807,
+        "maxRank": 117807,
+        "referenceOnly": 204473,
+        "totalNames": 322280,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "OM",
+      "name": "オマーン",
+      "male": {
+        "before": 569,
+        "ranked": 569,
+        "maxRank": 569,
+        "referenceOnly": 37,
+        "totalNames": 606,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 250,
+        "ranked": 250,
+        "maxRank": 250,
+        "referenceOnly": 19,
+        "totalNames": 269,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 539,
+        "ranked": 539,
+        "maxRank": 539,
+        "referenceOnly": 22,
+        "totalNames": 561,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PA",
+      "name": "パナマ",
+      "male": {
+        "before": 207,
+        "ranked": 207,
+        "maxRank": 207,
+        "referenceOnly": 382,
+        "totalNames": 589,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 174,
+        "ranked": 174,
+        "maxRank": 174,
+        "referenceOnly": 229,
+        "totalNames": 403,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 206,
+        "ranked": 206,
+        "maxRank": 206,
+        "referenceOnly": 671,
+        "totalNames": 877,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PH",
+      "name": "フィリピン",
+      "male": {
+        "before": 102,
+        "ranked": 102,
+        "maxRank": 102,
+        "referenceOnly": 1285,
+        "totalNames": 1387,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 94,
+        "ranked": 94,
+        "maxRank": 94,
+        "referenceOnly": 976,
+        "totalNames": 1070,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 138,
+        "ranked": 138,
+        "maxRank": 138,
+        "referenceOnly": 2172,
+        "totalNames": 2310,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PS",
+      "name": "パレスチナ",
+      "male": {
+        "before": 402,
+        "ranked": 402,
+        "maxRank": 402,
+        "referenceOnly": 389,
+        "totalNames": 791,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 323,
+        "ranked": 323,
+        "maxRank": 323,
+        "referenceOnly": 177,
+        "totalNames": 500,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 191,
+        "ranked": 191,
+        "maxRank": 191,
+        "referenceOnly": 489,
+        "totalNames": 680,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "QA",
+      "name": "カタール",
+      "male": {
+        "before": 332,
+        "ranked": 332,
+        "maxRank": 332,
+        "referenceOnly": 110,
+        "totalNames": 442,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 205,
+        "ranked": 205,
+        "maxRank": 205,
+        "referenceOnly": 36,
+        "totalNames": 241,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 294,
+        "ranked": 294,
+        "maxRank": 294,
+        "referenceOnly": 104,
+        "totalNames": 398,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "RU",
+      "name": "ロシア",
+      "male": {
+        "before": 316,
+        "ranked": 316,
+        "maxRank": 313,
+        "referenceOnly": 1311,
+        "totalNames": 1627,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 320,
+        "ranked": 320,
+        "maxRank": 314,
+        "referenceOnly": 740,
+        "totalNames": 1060,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 222,
+        "ranked": 222,
+        "maxRank": 222,
+        "referenceOnly": 8651,
+        "totalNames": 8873,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SA",
+      "name": "サウジアラビア",
+      "male": {
+        "before": 1989,
+        "ranked": 1989,
+        "maxRank": 1989,
+        "referenceOnly": 112,
+        "totalNames": 2101,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 768,
+        "ranked": 768,
+        "maxRank": 768,
+        "referenceOnly": 53,
+        "totalNames": 821,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 2023,
+        "ranked": 2023,
+        "maxRank": 2023,
+        "referenceOnly": 203,
+        "totalNames": 2226,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SD",
+      "name": "スーダン",
+      "male": {
+        "before": 486,
+        "ranked": 486,
+        "maxRank": 486,
+        "referenceOnly": 125,
+        "totalNames": 611,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 335,
+        "ranked": 335,
+        "maxRank": 335,
+        "referenceOnly": 64,
+        "totalNames": 399,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 449,
+        "ranked": 449,
+        "maxRank": 449,
+        "referenceOnly": 120,
+        "totalNames": 569,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SE",
+      "name": "スウェーデン",
+      "male": {
+        "before": 234,
+        "ranked": 234,
+        "maxRank": 234,
+        "referenceOnly": 3280,
+        "totalNames": 3514,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 222,
+        "ranked": 222,
+        "maxRank": 222,
+        "referenceOnly": 2481,
+        "totalNames": 2703,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 129,
+        "ranked": 129,
+        "maxRank": 129,
+        "referenceOnly": 18406,
+        "totalNames": 18535,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "SG",
+      "name": "シンガポール",
+      "male": {
+        "before": 346,
+        "ranked": 346,
+        "maxRank": 346,
+        "referenceOnly": 403,
+        "totalNames": 749,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 281,
+        "ranked": 281,
+        "maxRank": 281,
+        "referenceOnly": 303,
+        "totalNames": 584,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 286,
+        "ranked": 286,
+        "maxRank": 286,
+        "referenceOnly": 346,
+        "totalNames": 632,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SY",
+      "name": "シリア",
+      "male": {
+        "before": 574,
+        "ranked": 574,
+        "maxRank": 574,
+        "referenceOnly": 403,
+        "totalNames": 977,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 463,
+        "ranked": 463,
+        "maxRank": 463,
+        "referenceOnly": 131,
+        "totalNames": 594,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 611,
+        "ranked": 611,
+        "maxRank": 611,
+        "referenceOnly": 526,
+        "totalNames": 1137,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TN",
+      "name": "チュニジア",
+      "male": {
+        "before": 735,
+        "ranked": 735,
+        "maxRank": 735,
+        "referenceOnly": 288,
+        "totalNames": 1023,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 698,
+        "ranked": 698,
+        "maxRank": 698,
+        "referenceOnly": 142,
+        "totalNames": 840,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1005,
+        "ranked": 1005,
+        "maxRank": 1005,
+        "referenceOnly": 467,
+        "totalNames": 1472,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TW",
+      "name": "台湾",
+      "male": {
+        "before": 85,
+        "ranked": 85,
+        "maxRank": 85,
+        "referenceOnly": 1063,
+        "totalNames": 1148,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 75,
+        "ranked": 75,
+        "maxRank": 75,
+        "referenceOnly": 690,
+        "totalNames": 765,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 80,
+        "ranked": 80,
+        "maxRank": 80,
+        "referenceOnly": 423,
+        "totalNames": 503,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "UY",
+      "name": "ウルグアイ",
+      "male": {
+        "before": 204,
+        "ranked": 204,
+        "maxRank": 204,
+        "referenceOnly": 993,
+        "totalNames": 1197,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 216,
+        "ranked": 216,
+        "maxRank": 216,
+        "referenceOnly": 601,
+        "totalNames": 817,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 146,
+        "ranked": 146,
+        "maxRank": 146,
+        "referenceOnly": 4028,
+        "totalNames": 4174,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "YE",
+      "name": "イエメン",
+      "male": {
+        "before": 365,
+        "ranked": 365,
+        "maxRank": 365,
+        "referenceOnly": 92,
+        "totalNames": 457,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 170,
+        "ranked": 170,
+        "maxRank": 170,
+        "referenceOnly": 52,
+        "totalNames": 222,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 422,
+        "ranked": 422,
+        "maxRank": 422,
+        "referenceOnly": 93,
+        "totalNames": 515,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AF",
+      "name": "アフガニスタン",
+      "male": {
+        "before": 45,
+        "ranked": 45,
+        "maxRank": 45,
+        "referenceOnly": 1440,
+        "totalNames": 1485,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 31,
+        "ranked": 31,
+        "maxRank": 31,
+        "referenceOnly": 880,
+        "totalNames": 911,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 47,
+        "ranked": 47,
+        "maxRank": 47,
+        "referenceOnly": 354,
+        "totalNames": 401,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AL",
+      "name": "アルバニア",
+      "male": {
+        "before": 85,
+        "ranked": 85,
+        "maxRank": 85,
+        "referenceOnly": 1453,
+        "totalNames": 1538,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 50,
+        "ranked": 50,
+        "maxRank": 50,
+        "referenceOnly": 960,
+        "totalNames": 1010,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 72,
+        "ranked": 72,
+        "maxRank": 72,
+        "referenceOnly": 1240,
+        "totalNames": 1312,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AU",
+      "name": "オーストラリア",
+      "male": {
+        "before": 15,
+        "ranked": 15,
+        "maxRank": 15,
+        "referenceOnly": 3503,
+        "totalNames": 3518,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 12,
+        "ranked": 12,
+        "maxRank": 12,
+        "referenceOnly": 2551,
+        "totalNames": 2563,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 34,
+        "ranked": 34,
+        "maxRank": 34,
+        "referenceOnly": 14438,
+        "totalNames": 14472,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "AZ",
+      "name": "アゼルバイジャン",
+      "male": {
+        "before": 31,
+        "ranked": 31,
+        "maxRank": 18,
+        "referenceOnly": 760,
+        "totalNames": 791,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 34,
+        "ranked": 34,
+        "maxRank": 20,
+        "referenceOnly": 497,
+        "totalNames": 531,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 17,
+        "ranked": 17,
+        "maxRank": 17,
+        "referenceOnly": 540,
+        "totalNames": 557,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BF",
+      "name": "ブルキナファソ",
+      "male": {
+        "before": 2,
+        "ranked": 2,
+        "maxRank": 2,
+        "referenceOnly": 925,
+        "totalNames": 927,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 2,
+        "ranked": 2,
+        "maxRank": 2,
+        "referenceOnly": 643,
+        "totalNames": 645,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 237,
+        "totalNames": 238,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BI",
+      "name": "ブルンジ",
+      "male": {
+        "before": 7,
+        "ranked": 7,
+        "maxRank": 7,
+        "referenceOnly": 1340,
+        "totalNames": 1347,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 6,
+        "ranked": 6,
+        "maxRank": 6,
+        "referenceOnly": 1186,
+        "totalNames": 1192,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 140,
+        "totalNames": 144,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BN",
+      "name": "ブルネイ",
+      "male": {
+        "before": 57,
+        "ranked": 57,
+        "maxRank": 57,
+        "referenceOnly": 79,
+        "totalNames": 136,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 53,
+        "ranked": 53,
+        "maxRank": 53,
+        "referenceOnly": 36,
+        "totalNames": 89,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 49,
+        "ranked": 49,
+        "maxRank": 49,
+        "referenceOnly": 63,
+        "totalNames": 112,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BW",
+      "name": "ボツワナ",
+      "male": {
+        "before": 34,
+        "ranked": 34,
+        "maxRank": 34,
+        "referenceOnly": 841,
+        "totalNames": 875,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 29,
+        "ranked": 29,
+        "maxRank": 29,
+        "referenceOnly": 867,
+        "totalNames": 896,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 23,
+        "ranked": 23,
+        "maxRank": 23,
+        "referenceOnly": 181,
+        "totalNames": 204,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CY",
+      "name": "キプロス",
+      "male": {
+        "before": 50,
+        "ranked": 50,
+        "maxRank": 50,
+        "referenceOnly": 377,
+        "totalNames": 427,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 50,
+        "ranked": 50,
+        "maxRank": 50,
+        "referenceOnly": 193,
+        "totalNames": 243,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 40,
+        "ranked": 40,
+        "maxRank": 40,
+        "referenceOnly": 871,
+        "totalNames": 911,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "DJ",
+      "name": "ジブチ",
+      "male": {
+        "before": 6,
+        "ranked": 6,
+        "maxRank": 6,
+        "referenceOnly": 697,
+        "totalNames": 703,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 535,
+        "totalNames": 538,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 6,
+        "ranked": 6,
+        "maxRank": 6,
+        "referenceOnly": 30,
+        "totalNames": 36,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "EC",
+      "name": "エクアドル",
+      "male": {
+        "before": 63,
+        "ranked": 63,
+        "maxRank": 63,
+        "referenceOnly": 669,
+        "totalNames": 732,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 55,
+        "ranked": 55,
+        "maxRank": 55,
+        "referenceOnly": 474,
+        "totalNames": 529,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 32,
+        "ranked": 32,
+        "maxRank": 32,
+        "referenceOnly": 1126,
+        "totalNames": 1158,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "EE",
+      "name": "エストニア",
+      "male": {
+        "before": 28,
+        "ranked": 28,
+        "maxRank": 28,
+        "referenceOnly": 2105,
+        "totalNames": 2133,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 28,
+        "ranked": 28,
+        "maxRank": 28,
+        "referenceOnly": 1858,
+        "totalNames": 1886,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 38,
+        "ranked": 38,
+        "maxRank": 38,
+        "referenceOnly": 13605,
+        "totalNames": 13643,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "ET",
+      "name": "エチオピア",
+      "male": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 278,
+        "totalNames": 283,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 6,
+        "ranked": 6,
+        "maxRank": 6,
+        "referenceOnly": 175,
+        "totalNames": 181,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 399,
+        "totalNames": 402,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GE",
+      "name": "ジョージア",
+      "male": {
+        "before": 26,
+        "ranked": 26,
+        "maxRank": 26,
+        "referenceOnly": 478,
+        "totalNames": 504,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 26,
+        "ranked": 26,
+        "maxRank": 26,
+        "referenceOnly": 242,
+        "totalNames": 268,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 29,
+        "ranked": 29,
+        "maxRank": 29,
+        "referenceOnly": 2214,
+        "totalNames": 2243,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "HN",
+      "name": "ホンジュラス",
+      "male": {
+        "before": 9,
+        "ranked": 9,
+        "maxRank": 9,
+        "referenceOnly": 406,
+        "totalNames": 415,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 9,
+        "ranked": 9,
+        "maxRank": 9,
+        "referenceOnly": 177,
+        "totalNames": 186,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 392,
+        "totalNames": 397,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "HR",
+      "name": "クロアチア",
+      "male": {
+        "before": 109,
+        "ranked": 109,
+        "maxRank": 109,
+        "referenceOnly": 876,
+        "totalNames": 985,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 112,
+        "ranked": 112,
+        "maxRank": 112,
+        "referenceOnly": 647,
+        "totalNames": 759,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 62,
+        "ranked": 62,
+        "maxRank": 62,
+        "referenceOnly": 2821,
+        "totalNames": 2883,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "HT",
+      "name": "ハイチ",
+      "male": {
+        "before": 14,
+        "ranked": 14,
+        "maxRank": 14,
+        "referenceOnly": 521,
+        "totalNames": 535,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 17,
+        "ranked": 17,
+        "maxRank": 17,
+        "referenceOnly": 290,
+        "totalNames": 307,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 780,
+        "totalNames": 784,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "HU",
+      "name": "ハンガリー",
+      "male": {
+        "before": 86,
+        "ranked": 86,
+        "maxRank": 86,
+        "referenceOnly": 1569,
+        "totalNames": 1655,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 79,
+        "ranked": 79,
+        "maxRank": 79,
+        "referenceOnly": 1033,
+        "totalNames": 1112,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 58,
+        "ranked": 58,
+        "maxRank": 58,
+        "referenceOnly": 11359,
+        "totalNames": 11417,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "ID",
+      "name": "インドネシア",
+      "male": {
+        "before": 42,
+        "ranked": 42,
+        "maxRank": 42,
+        "referenceOnly": 1673,
+        "totalNames": 1715,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 36,
+        "ranked": 36,
+        "maxRank": 36,
+        "referenceOnly": 1469,
+        "totalNames": 1505,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 27,
+        "ranked": 27,
+        "maxRank": 27,
+        "referenceOnly": 2117,
+        "totalNames": 2144,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IS",
+      "name": "アイスランド",
+      "male": {
+        "before": 22,
+        "ranked": 22,
+        "maxRank": 22,
+        "referenceOnly": 1042,
+        "totalNames": 1064,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 820,
+        "totalNames": 840,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 23,
+        "ranked": 23,
+        "maxRank": 23,
+        "referenceOnly": 475,
+        "totalNames": 498,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "JM",
+      "name": "ジャマイカ",
+      "male": {
+        "before": 53,
+        "ranked": 53,
+        "maxRank": 53,
+        "referenceOnly": 691,
+        "totalNames": 744,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 38,
+        "ranked": 38,
+        "maxRank": 38,
+        "referenceOnly": 467,
+        "totalNames": 505,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 55,
+        "ranked": 55,
+        "maxRank": 55,
+        "referenceOnly": 931,
+        "totalNames": 986,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "KH",
+      "name": "カンボジア",
+      "male": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 115,
+        "totalNames": 116,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 47,
+        "totalNames": 48,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 84,
+        "ranked": 84,
+        "maxRank": 84,
+        "referenceOnly": 139,
+        "totalNames": 223,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LT",
+      "name": "リトアニア",
+      "male": {
+        "before": 38,
+        "ranked": 38,
+        "maxRank": 38,
+        "referenceOnly": 946,
+        "totalNames": 984,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 39,
+        "ranked": 39,
+        "maxRank": 39,
+        "referenceOnly": 643,
+        "totalNames": 682,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 25,
+        "ranked": 25,
+        "maxRank": 25,
+        "referenceOnly": 2100,
+        "totalNames": 2125,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MD",
+      "name": "モルドバ",
+      "male": {
+        "before": 19,
+        "ranked": 19,
+        "maxRank": 19,
+        "referenceOnly": 319,
+        "totalNames": 338,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 19,
+        "ranked": 19,
+        "maxRank": 19,
+        "referenceOnly": 285,
+        "totalNames": 304,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 23,
+        "ranked": 23,
+        "maxRank": 23,
+        "referenceOnly": 500,
+        "totalNames": 523,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MT",
+      "name": "マルタ",
+      "male": {
+        "before": 55,
+        "ranked": 55,
+        "maxRank": 55,
+        "referenceOnly": 573,
+        "totalNames": 628,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 48,
+        "ranked": 48,
+        "maxRank": 48,
+        "referenceOnly": 445,
+        "totalNames": 493,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 45,
+        "ranked": 45,
+        "maxRank": 45,
+        "referenceOnly": 466,
+        "totalNames": 511,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MV",
+      "name": "モルディブ",
+      "male": {
+        "before": 33,
+        "ranked": 33,
+        "maxRank": 33,
+        "referenceOnly": 42,
+        "totalNames": 75,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 26,
+        "ranked": 26,
+        "maxRank": 26,
+        "referenceOnly": 39,
+        "totalNames": 65,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 27,
+        "ranked": 27,
+        "maxRank": 27,
+        "referenceOnly": 62,
+        "totalNames": 89,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PK",
+      "name": "パキスタン",
+      "male": {
+        "before": 16,
+        "ranked": 16,
+        "maxRank": 16,
+        "referenceOnly": 652,
+        "totalNames": 668,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 341,
+        "totalNames": 351,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 636,
+        "totalNames": 639,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PR",
+      "name": "プエルトリコ",
+      "male": {
+        "before": 39,
+        "ranked": 39,
+        "maxRank": 39,
+        "referenceOnly": 575,
+        "totalNames": 614,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 40,
+        "ranked": 40,
+        "maxRank": 40,
+        "referenceOnly": 367,
+        "totalNames": 407,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 32,
+        "ranked": 32,
+        "maxRank": 32,
+        "referenceOnly": 894,
+        "totalNames": 926,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "RO",
+      "name": "ルーマニア",
+      "male": {
+        "before": 11,
+        "ranked": 11,
+        "maxRank": 11,
+        "referenceOnly": 1815,
+        "totalNames": 1826,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 1790,
+        "totalNames": 1800,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 13,
+        "ranked": 13,
+        "maxRank": 13,
+        "referenceOnly": 5100,
+        "totalNames": 5113,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "RS",
+      "name": "セルビア",
+      "male": {
+        "before": 44,
+        "ranked": 44,
+        "maxRank": 44,
+        "referenceOnly": 856,
+        "totalNames": 900,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 36,
+        "ranked": 36,
+        "maxRank": 36,
+        "referenceOnly": 596,
+        "totalNames": 632,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 1734,
+        "totalNames": 1754,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SI",
+      "name": "スロベニア",
+      "male": {
+        "before": 48,
+        "ranked": 4252,
+        "maxRank": 4252,
+        "referenceOnly": 913,
+        "totalNames": 5165,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1005S.px",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 41,
+        "ranked": 4435,
+        "maxRank": 4435,
+        "referenceOnly": 608,
+        "totalNames": 5043,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1005S.px",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 50,
+        "ranked": 30412,
+        "maxRank": 30412,
+        "referenceOnly": 5161,
+        "totalNames": 35573,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1015S.px",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": null
+      },
+      "expanded": true
+    },
+    {
+      "country": "SK",
+      "name": "スロバキア",
+      "male": {
+        "before": 12,
+        "ranked": 12,
+        "maxRank": 12,
+        "referenceOnly": 521,
+        "totalNames": 533,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 11,
+        "ranked": 11,
+        "maxRank": 11,
+        "referenceOnly": 505,
+        "totalNames": 516,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 21,
+        "ranked": 21,
+        "maxRank": 21,
+        "referenceOnly": 3097,
+        "totalNames": 3118,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TM",
+      "name": "トルクメニスタン",
+      "male": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 164,
+        "totalNames": 168,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 51,
+        "totalNames": 55,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 192,
+        "totalNames": 195,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "UA",
+      "name": "ウクライナ",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 865,
+        "totalNames": 875,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 606,
+        "totalNames": 616,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 23,
+        "ranked": 23,
+        "maxRank": 23,
+        "referenceOnly": 5383,
+        "totalNames": 5406,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "UZ",
+      "name": "ウズベキスタン",
+      "male": {
+        "before": 2,
+        "ranked": 2,
+        "maxRank": 2,
+        "referenceOnly": 757,
+        "totalNames": 759,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 595,
+        "totalNames": 595,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 854,
+        "totalNames": 855,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "VE",
+      "name": "ベネズエラ",
+      "male": {
+        "before": 12,
+        "ranked": 12,
+        "maxRank": 12,
+        "referenceOnly": 1110,
+        "totalNames": 1122,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 788,
+        "totalNames": 798,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 2037,
+        "totalNames": 2038,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "VN",
+      "name": "ベトナム",
+      "male": {
+        "before": 1,
+        "ranked": 1,
+        "maxRank": 1,
+        "referenceOnly": 619,
+        "totalNames": 620,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 349,
+        "totalNames": 349,
+        "source": "https://onomaverse.com/datasets/given-name-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 43,
+        "ranked": 43,
+        "maxRank": 43,
+        "referenceOnly": 457,
+        "totalNames": 500,
+        "source": "https://onomaverse.com/datasets/surname-frequency",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AD",
+      "name": "アンドラ",
+      "male": {
+        "before": 7,
+        "ranked": 7,
+        "maxRank": 7,
+        "referenceOnly": 220,
+        "totalNames": 227,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 168,
+        "totalNames": 172,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 373,
+        "totalNames": 373,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AM",
+      "name": "アルメニア",
+      "male": {
+        "before": 19,
+        "ranked": 19,
+        "maxRank": 19,
+        "referenceOnly": 561,
+        "totalNames": 580,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 19,
+        "ranked": 19,
+        "maxRank": 19,
+        "referenceOnly": 366,
+        "totalNames": 385,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 408,
+        "totalNames": 428,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "AW",
+      "name": "アルバ",
+      "male": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 126,
+        "totalNames": 131,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 45,
+        "totalNames": 50,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 97,
+        "totalNames": 97,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BA",
+      "name": "ボスニア・ヘルツェゴビナ",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 890,
+        "totalNames": 900,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 622,
+        "totalNames": 632,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 44,
+        "ranked": 44,
+        "maxRank": 44,
+        "referenceOnly": 802,
+        "totalNames": 846,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "BY",
+      "name": "ベラルーシ",
+      "male": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 527,
+        "totalNames": 530,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 411,
+        "totalNames": 415,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 1885,
+        "totalNames": 1890,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "FO",
+      "name": "フェロー諸島",
+      "male": {
+        "before": 10,
+        "ranked": 956,
+        "maxRank": 956,
+        "referenceOnly": 35,
+        "totalNames": 991,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 12,
+        "ranked": 1031,
+        "maxRank": 1031,
+        "referenceOnly": 9,
+        "totalNames": 1040,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 20,
+        "ranked": 1996,
+        "maxRank": 1996,
+        "referenceOnly": 42,
+        "totalNames": 2038,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GG",
+      "name": "ガーンジー",
+      "male": {
+        "before": 11,
+        "ranked": 11,
+        "maxRank": 11,
+        "referenceOnly": 153,
+        "totalNames": 164,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 7,
+        "ranked": 7,
+        "maxRank": 7,
+        "referenceOnly": 76,
+        "totalNames": 83,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 216,
+        "totalNames": 216,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GI",
+      "name": "ジブラルタル",
+      "male": {
+        "before": 8,
+        "ranked": 8,
+        "maxRank": 8,
+        "referenceOnly": 181,
+        "totalNames": 189,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 8,
+        "ranked": 8,
+        "maxRank": 8,
+        "referenceOnly": 56,
+        "totalNames": 64,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 219,
+        "totalNames": 219,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GL",
+      "name": "グリーンランド",
+      "male": {
+        "before": 16,
+        "ranked": 227,
+        "maxRank": 227,
+        "referenceOnly": 71,
+        "totalNames": 298,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 12,
+        "ranked": 231,
+        "maxRank": 231,
+        "referenceOnly": 38,
+        "totalNames": 269,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 262,
+        "maxRank": 262,
+        "referenceOnly": 72,
+        "totalNames": 334,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "GQ",
+      "name": "赤道ギニア",
+      "male": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 275,
+        "totalNames": 279,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 116,
+        "totalNames": 121,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 214,
+        "totalNames": 214,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "IM",
+      "name": "マン島",
+      "male": {
+        "before": 9,
+        "ranked": 9,
+        "maxRank": 9,
+        "referenceOnly": 144,
+        "totalNames": 153,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 60,
+        "totalNames": 70,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 208,
+        "totalNames": 208,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "JE",
+      "name": "ジャージー",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 201,
+        "totalNames": 211,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 84,
+        "totalNames": 94,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 297,
+        "totalNames": 297,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LI",
+      "name": "リヒテンシュタイン",
+      "male": {
+        "before": 14,
+        "ranked": 14,
+        "maxRank": 14,
+        "referenceOnly": 1215,
+        "totalNames": 1229,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 8,
+        "ranked": 8,
+        "maxRank": 8,
+        "referenceOnly": 1046,
+        "totalNames": 1054,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 312,
+        "totalNames": 312,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LV",
+      "name": "ラトビア",
+      "male": {
+        "before": 9,
+        "ranked": 9,
+        "maxRank": 9,
+        "referenceOnly": 839,
+        "totalNames": 848,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 9,
+        "ranked": 9,
+        "maxRank": 9,
+        "referenceOnly": 694,
+        "totalNames": 703,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 15,
+        "ranked": 15,
+        "maxRank": 15,
+        "referenceOnly": 2278,
+        "totalNames": 2293,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MC",
+      "name": "モナコ",
+      "male": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 876,
+        "totalNames": 881,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 600,
+        "totalNames": 605,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 417,
+        "totalNames": 417,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "ME",
+      "name": "モンテネグロ",
+      "male": {
+        "before": 18,
+        "ranked": 18,
+        "maxRank": 18,
+        "referenceOnly": 1331,
+        "totalNames": 1349,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 1097,
+        "totalNames": 1117,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 507,
+        "totalNames": 517,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MK",
+      "name": "北マケドニア",
+      "male": {
+        "before": 18,
+        "ranked": 18,
+        "maxRank": 18,
+        "referenceOnly": 689,
+        "totalNames": 707,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 19,
+        "ranked": 19,
+        "maxRank": 19,
+        "referenceOnly": 444,
+        "totalNames": 463,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 38,
+        "ranked": 38,
+        "maxRank": 38,
+        "referenceOnly": 378,
+        "totalNames": 416,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "ML",
+      "name": "マリ",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 891,
+        "totalNames": 901,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 603,
+        "totalNames": 613,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 255,
+        "totalNames": 255,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "MN",
+      "name": "モンゴル",
+      "male": {
+        "before": 2,
+        "ranked": 2,
+        "maxRank": 2,
+        "referenceOnly": 125,
+        "totalNames": 127,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 45,
+        "totalNames": 50,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 123,
+        "totalNames": 123,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "NP",
+      "name": "ネパール",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 227,
+        "totalNames": 237,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 155,
+        "totalNames": 165,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 170,
+        "totalNames": 190,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "NZ",
+      "name": "ニュージーランド",
+      "male": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 2711,
+        "totalNames": 2731,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 2044,
+        "totalNames": 2064,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 8530,
+        "totalNames": 8540,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PF",
+      "name": "仏領ポリネシア",
+      "male": {
+        "before": 12,
+        "ranked": 12,
+        "maxRank": 12,
+        "referenceOnly": 133,
+        "totalNames": 145,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 14,
+        "ranked": 14,
+        "maxRank": 14,
+        "referenceOnly": 51,
+        "totalNames": 65,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 202,
+        "totalNames": 202,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "PY",
+      "name": "パラグアイ",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 556,
+        "totalNames": 566,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 261,
+        "totalNames": 271,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 25,
+        "ranked": 25,
+        "maxRank": 25,
+        "referenceOnly": 663,
+        "totalNames": 688,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SM",
+      "name": "サンマリノ",
+      "male": {
+        "before": 3,
+        "ranked": 3,
+        "maxRank": 3,
+        "referenceOnly": 517,
+        "totalNames": 520,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 2,
+        "ranked": 2,
+        "maxRank": 2,
+        "referenceOnly": 306,
+        "totalNames": 308,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 524,
+        "totalNames": 524,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SV",
+      "name": "エルサルバドル",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 408,
+        "totalNames": 418,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 244,
+        "totalNames": 254,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 25,
+        "ranked": 25,
+        "maxRank": 25,
+        "referenceOnly": 547,
+        "totalNames": 572,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TH",
+      "name": "タイ",
+      "male": {
+        "before": 5,
+        "ranked": 5,
+        "maxRank": 5,
+        "referenceOnly": 607,
+        "totalNames": 612,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 575,
+        "totalNames": 575,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 1027,
+        "totalNames": 1027,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "TJ",
+      "name": "タジキスタン",
+      "male": {
+        "before": 4,
+        "ranked": 4,
+        "maxRank": 4,
+        "referenceOnly": 208,
+        "totalNames": 212,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 6,
+        "ranked": 6,
+        "maxRank": 6,
+        "referenceOnly": 69,
+        "totalNames": 75,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 266,
+        "totalNames": 266,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "KG",
+      "name": "キルギス",
+      "male": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 231,
+        "totalNames": 241,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 10,
+        "ranked": 10,
+        "maxRank": 10,
+        "referenceOnly": 100,
+        "totalNames": 110,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 400,
+        "totalNames": 400,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "LK",
+      "name": "スリランカ",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 439,
+        "totalNames": 439,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 163,
+        "totalNames": 163,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 50,
+        "ranked": 50,
+        "maxRank": 50,
+        "referenceOnly": 295,
+        "totalNames": 345,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "XK",
+      "name": "コソボ",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 523,
+        "totalNames": 523,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 183,
+        "totalNames": 183,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 20,
+        "ranked": 20,
+        "maxRank": 20,
+        "referenceOnly": 477,
+        "totalNames": 497,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "CU",
+      "name": "キューバ",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 850,
+        "totalNames": 850,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 595,
+        "totalNames": 595,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 30,
+        "ranked": 30,
+        "maxRank": 30,
+        "referenceOnly": 1581,
+        "totalNames": 1611,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "DO",
+      "name": "ドミニカ共和国",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 696,
+        "totalNames": 696,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 378,
+        "totalNames": 378,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 30,
+        "ranked": 30,
+        "maxRank": 30,
+        "referenceOnly": 811,
+        "totalNames": 841,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "FJ",
+      "name": "フィジー",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 932,
+        "totalNames": 932,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 865,
+        "totalNames": 865,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 22,
+        "ranked": 22,
+        "maxRank": 22,
+        "referenceOnly": 434,
+        "totalNames": 456,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    },
+    {
+      "country": "SR",
+      "name": "スリナム",
+      "male": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 479,
+        "totalNames": 479,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "female": {
+        "before": 0,
+        "ranked": 0,
+        "maxRank": 0,
+        "referenceOnly": 269,
+        "totalNames": 269,
+        "source": null,
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "surname": {
+        "before": 13,
+        "ranked": 13,
+        "maxRank": 13,
+        "referenceOnly": 777,
+        "totalNames": 790,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset",
+        "referenceSource": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "remainingReason": "今回採用した共通原本と取得済みの国別原本では、この区分が1万件に届きません。言語だけを根拠に他国の名前を複製したり、未確認の順位を追加しません。"
+      },
+      "expanded": true
+    }
+  ]
+}

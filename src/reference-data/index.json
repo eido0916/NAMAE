@@ -1,0 +1,2468 @@
+{
+  "files": [
+    {
+      "country": "CA",
+      "type": "given_name",
+      "path": "src/reference-data/ca/given_name.json",
+      "records": 92568,
+      "male": 38069,
+      "female": 54499
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "path": "src/reference-data/gb/given_name.json",
+      "records": 41758,
+      "male": 17004,
+      "female": 24754
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "path": "src/reference-data/nl/given_name.json",
+      "records": 9477,
+      "male": 5205,
+      "female": 4272
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "path": "src/reference-data/de/given_name.json",
+      "records": 13549,
+      "male": 7979,
+      "female": 5570
+    },
+    {
+      "country": "BE",
+      "type": "given_name",
+      "path": "src/reference-data/be/given_name.json",
+      "records": 42201,
+      "male": 19499,
+      "female": 22702
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "path": "src/reference-data/ch/given_name.json",
+      "records": 66712,
+      "male": 30381,
+      "female": 36331
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "path": "src/reference-data/es/given_name.json",
+      "records": 4543,
+      "male": 2642,
+      "female": 1901
+    },
+    {
+      "country": "IE",
+      "type": "given_name",
+      "path": "src/reference-data/ie/given_name.json",
+      "records": 6381,
+      "male": 2915,
+      "female": 3466
+    },
+    {
+      "country": "IT",
+      "type": "given_name",
+      "path": "src/reference-data/it/given_name.json",
+      "records": 4899,
+      "male": 3308,
+      "female": 1591
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "path": "src/reference-data/fr/given_name.json",
+      "records": 3491,
+      "male": 2602,
+      "female": 889
+    },
+    {
+      "country": "PT",
+      "type": "given_name",
+      "path": "src/reference-data/pt/given_name.json",
+      "records": 2694,
+      "male": 1577,
+      "female": 1117
+    },
+    {
+      "country": "KR",
+      "type": "given_name",
+      "path": "src/reference-data/kr/given_name.json",
+      "records": 4281,
+      "male": 2523,
+      "female": 1758
+    },
+    {
+      "country": "JP",
+      "type": "given_name",
+      "path": "src/reference-data/jp/given_name.json",
+      "records": 2511,
+      "male": 1889,
+      "female": 622
+    },
+    {
+      "country": "BR",
+      "type": "given_name",
+      "path": "src/reference-data/br/given_name.json",
+      "records": 1500,
+      "male": 1017,
+      "female": 483
+    },
+    {
+      "country": "BE",
+      "type": "surname",
+      "path": "src/reference-data/be/surname.json",
+      "records": 5294,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ES",
+      "type": "surname",
+      "path": "src/reference-data/es/surname.json",
+      "records": 8930,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "path": "src/reference-data/fr/surname.json",
+      "records": 33667,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IT",
+      "type": "surname",
+      "path": "src/reference-data/it/surname.json",
+      "records": 60385,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IE",
+      "type": "surname",
+      "path": "src/reference-data/ie/surname.json",
+      "records": 3922,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GB",
+      "type": "surname",
+      "path": "src/reference-data/gb/surname.json",
+      "records": 7514,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "path": "src/reference-data/br/surname.json",
+      "records": 1820,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CA",
+      "type": "surname",
+      "path": "src/reference-data/ca/surname.json",
+      "records": 30581,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CH",
+      "type": "surname",
+      "path": "src/reference-data/ch/surname.json",
+      "records": 6879,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "DE",
+      "type": "surname",
+      "path": "src/reference-data/de/surname.json",
+      "records": 75903,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "JP",
+      "type": "surname",
+      "path": "src/reference-data/jp/surname.json",
+      "records": 1323,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KR",
+      "type": "surname",
+      "path": "src/reference-data/kr/surname.json",
+      "records": 529,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NL",
+      "type": "surname",
+      "path": "src/reference-data/nl/surname.json",
+      "records": 21389,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PT",
+      "type": "surname",
+      "path": "src/reference-data/pt/surname.json",
+      "records": 2428,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "path": "src/reference-data/in/given_name.json",
+      "records": 2521562,
+      "male": 1391594,
+      "female": 1129968
+    },
+    {
+      "country": "TR",
+      "type": "given_name",
+      "path": "src/reference-data/tr/given_name.json",
+      "records": 3939,
+      "male": 2496,
+      "female": 1443
+    },
+    {
+      "country": "ZA",
+      "type": "given_name",
+      "path": "src/reference-data/za/given_name.json",
+      "records": 3227,
+      "male": 1792,
+      "female": 1435
+    },
+    {
+      "country": "AE",
+      "type": "given_name",
+      "path": "src/reference-data/ae/given_name.json",
+      "records": 2187,
+      "male": 1278,
+      "female": 909
+    },
+    {
+      "country": "PE",
+      "type": "given_name",
+      "path": "src/reference-data/pe/given_name.json",
+      "records": 3267,
+      "male": 1638,
+      "female": 1629
+    },
+    {
+      "country": "BG",
+      "type": "given_name",
+      "path": "src/reference-data/bg/given_name.json",
+      "records": 2576,
+      "male": 1268,
+      "female": 1308
+    },
+    {
+      "country": "NG",
+      "type": "given_name",
+      "path": "src/reference-data/ng/given_name.json",
+      "records": 2927,
+      "male": 1648,
+      "female": 1279
+    },
+    {
+      "country": "CL",
+      "type": "given_name",
+      "path": "src/reference-data/cl/given_name.json",
+      "records": 238,
+      "male": 171,
+      "female": 67
+    },
+    {
+      "country": "AO",
+      "type": "given_name",
+      "path": "src/reference-data/ao/given_name.json",
+      "records": 656,
+      "male": 394,
+      "female": 262
+    },
+    {
+      "country": "AR",
+      "type": "given_name",
+      "path": "src/reference-data/ar/given_name.json",
+      "records": 2597,
+      "male": 1635,
+      "female": 962
+    },
+    {
+      "country": "CO",
+      "type": "given_name",
+      "path": "src/reference-data/co/given_name.json",
+      "records": 1172,
+      "male": 800,
+      "female": 372
+    },
+    {
+      "country": "MX",
+      "type": "given_name",
+      "path": "src/reference-data/mx/given_name.json",
+      "records": 2353,
+      "male": 1349,
+      "female": 1004
+    },
+    {
+      "country": "BH",
+      "type": "given_name",
+      "path": "src/reference-data/bh/given_name.json",
+      "records": 2479,
+      "male": 1515,
+      "female": 964
+    },
+    {
+      "country": "BO",
+      "type": "given_name",
+      "path": "src/reference-data/bo/given_name.json",
+      "records": 559,
+      "male": 372,
+      "female": 187
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "path": "src/reference-data/bd/given_name.json",
+      "records": 1955,
+      "male": 983,
+      "female": 972
+    },
+    {
+      "country": "ZA",
+      "type": "surname",
+      "path": "src/reference-data/za/surname.json",
+      "records": 4545,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BO",
+      "type": "surname",
+      "path": "src/reference-data/bo/surname.json",
+      "records": 720,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AR",
+      "type": "surname",
+      "path": "src/reference-data/ar/surname.json",
+      "records": 10603,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TR",
+      "type": "surname",
+      "path": "src/reference-data/tr/surname.json",
+      "records": 5784,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IN",
+      "type": "surname",
+      "path": "src/reference-data/in/surname.json",
+      "records": 4379,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AE",
+      "type": "surname",
+      "path": "src/reference-data/ae/surname.json",
+      "records": 124,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AO",
+      "type": "surname",
+      "path": "src/reference-data/ao/surname.json",
+      "records": 459,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BD",
+      "type": "surname",
+      "path": "src/reference-data/bd/surname.json",
+      "records": 249,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BG",
+      "type": "surname",
+      "path": "src/reference-data/bg/surname.json",
+      "records": 1262,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BH",
+      "type": "surname",
+      "path": "src/reference-data/bh/surname.json",
+      "records": 127,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CL",
+      "type": "surname",
+      "path": "src/reference-data/cl/surname.json",
+      "records": 2735,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CO",
+      "type": "surname",
+      "path": "src/reference-data/co/surname.json",
+      "records": 1338,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MX",
+      "type": "surname",
+      "path": "src/reference-data/mx/surname.json",
+      "records": 4274,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NG",
+      "type": "surname",
+      "path": "src/reference-data/ng/surname.json",
+      "records": 2382,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PE",
+      "type": "surname",
+      "path": "src/reference-data/pe/surname.json",
+      "records": 5675,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IR",
+      "type": "given_name",
+      "path": "src/reference-data/ir/given_name.json",
+      "records": 3066,
+      "male": 1897,
+      "female": 1169
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "path": "src/reference-data/il/given_name.json",
+      "records": 3065,
+      "male": 1724,
+      "female": 1341
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "path": "src/reference-data/eg/given_name.json",
+      "records": 2475,
+      "male": 1493,
+      "female": 982
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "path": "src/reference-data/dz/given_name.json",
+      "records": 2381,
+      "male": 1450,
+      "female": 931
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "path": "src/reference-data/jo/given_name.json",
+      "records": 2370,
+      "male": 1449,
+      "female": 921
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "path": "src/reference-data/iq/given_name.json",
+      "records": 2356,
+      "male": 1441,
+      "female": 915
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "path": "src/reference-data/gr/given_name.json",
+      "records": 1994,
+      "male": 1012,
+      "female": 982
+    },
+    {
+      "country": "CZ",
+      "type": "given_name",
+      "path": "src/reference-data/cz/given_name.json",
+      "records": 2336,
+      "male": 1195,
+      "female": 1141
+    },
+    {
+      "country": "CN",
+      "type": "given_name",
+      "path": "src/reference-data/cn/given_name.json",
+      "records": 150022,
+      "male": 86898,
+      "female": 63124
+    },
+    {
+      "country": "GH",
+      "type": "given_name",
+      "path": "src/reference-data/gh/given_name.json",
+      "records": 2102,
+      "male": 1098,
+      "female": 1004
+    },
+    {
+      "country": "CM",
+      "type": "given_name",
+      "path": "src/reference-data/cm/given_name.json",
+      "records": 2758,
+      "male": 1467,
+      "female": 1291
+    },
+    {
+      "country": "GT",
+      "type": "given_name",
+      "path": "src/reference-data/gt/given_name.json",
+      "records": 502,
+      "male": 303,
+      "female": 199
+    },
+    {
+      "country": "CR",
+      "type": "given_name",
+      "path": "src/reference-data/cr/given_name.json",
+      "records": 654,
+      "male": 447,
+      "female": 207
+    },
+    {
+      "country": "GR",
+      "type": "surname",
+      "path": "src/reference-data/gr/surname.json",
+      "records": 2026,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "HK",
+      "type": "surname",
+      "path": "src/reference-data/hk/surname.json",
+      "records": 450,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CZ",
+      "type": "surname",
+      "path": "src/reference-data/cz/surname.json",
+      "records": 9684,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CM",
+      "type": "surname",
+      "path": "src/reference-data/cm/surname.json",
+      "records": 730,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CN",
+      "type": "surname",
+      "path": "src/reference-data/cn/surname.json",
+      "records": 2608,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CR",
+      "type": "surname",
+      "path": "src/reference-data/cr/surname.json",
+      "records": 534,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "DZ",
+      "type": "surname",
+      "path": "src/reference-data/dz/surname.json",
+      "records": 744,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "EG",
+      "type": "surname",
+      "path": "src/reference-data/eg/surname.json",
+      "records": 653,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GH",
+      "type": "surname",
+      "path": "src/reference-data/gh/surname.json",
+      "records": 935,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GT",
+      "type": "surname",
+      "path": "src/reference-data/gt/surname.json",
+      "records": 473,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "HK",
+      "type": "given_name",
+      "path": "src/reference-data/hk/given_name.json",
+      "records": 948,
+      "male": 475,
+      "female": 473
+    },
+    {
+      "country": "IL",
+      "type": "surname",
+      "path": "src/reference-data/il/surname.json",
+      "records": 6264,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IQ",
+      "type": "surname",
+      "path": "src/reference-data/iq/surname.json",
+      "records": 295,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IR",
+      "type": "surname",
+      "path": "src/reference-data/ir/surname.json",
+      "records": 1961,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "JO",
+      "type": "surname",
+      "path": "src/reference-data/jo/surname.json",
+      "records": 322,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "path": "src/reference-data/kz/given_name.json",
+      "records": 984,
+      "male": 526,
+      "female": 458
+    },
+    {
+      "country": "LY",
+      "type": "given_name",
+      "path": "src/reference-data/ly/given_name.json",
+      "records": 2241,
+      "male": 1350,
+      "female": 891
+    },
+    {
+      "country": "MA",
+      "type": "given_name",
+      "path": "src/reference-data/ma/given_name.json",
+      "records": 2327,
+      "male": 1478,
+      "female": 849
+    },
+    {
+      "country": "OM",
+      "type": "given_name",
+      "path": "src/reference-data/om/given_name.json",
+      "records": 2199,
+      "male": 1290,
+      "female": 909
+    },
+    {
+      "country": "QA",
+      "type": "given_name",
+      "path": "src/reference-data/qa/given_name.json",
+      "records": 2419,
+      "male": 1486,
+      "female": 933
+    },
+    {
+      "country": "LU",
+      "type": "given_name",
+      "path": "src/reference-data/lu/given_name.json",
+      "records": 3554,
+      "male": 1945,
+      "female": 1609
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "path": "src/reference-data/my/given_name.json",
+      "records": 1296,
+      "male": 850,
+      "female": 446
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "path": "src/reference-data/ru/given_name.json",
+      "records": 5408,
+      "male": 3441,
+      "female": 1967
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "path": "src/reference-data/ph/given_name.json",
+      "records": 3319,
+      "male": 1789,
+      "female": 1530
+    },
+    {
+      "country": "PA",
+      "type": "given_name",
+      "path": "src/reference-data/pa/given_name.json",
+      "records": 610,
+      "male": 381,
+      "female": 229
+    },
+    {
+      "country": "MU",
+      "type": "given_name",
+      "path": "src/reference-data/mu/given_name.json",
+      "records": 2589,
+      "male": 1359,
+      "female": 1230
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "path": "src/reference-data/lb/given_name.json",
+      "records": 2879,
+      "male": 1772,
+      "female": 1107
+    },
+    {
+      "country": "RU",
+      "type": "surname",
+      "path": "src/reference-data/ru/surname.json",
+      "records": 16612,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KW",
+      "type": "given_name",
+      "path": "src/reference-data/kw/given_name.json",
+      "records": 2309,
+      "male": 1403,
+      "female": 906
+    },
+    {
+      "country": "KW",
+      "type": "surname",
+      "path": "src/reference-data/kw/surname.json",
+      "records": 108,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KZ",
+      "type": "surname",
+      "path": "src/reference-data/kz/surname.json",
+      "records": 1034,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LB",
+      "type": "surname",
+      "path": "src/reference-data/lb/surname.json",
+      "records": 701,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LU",
+      "type": "surname",
+      "path": "src/reference-data/lu/surname.json",
+      "records": 2659,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LY",
+      "type": "surname",
+      "path": "src/reference-data/ly/surname.json",
+      "records": 60,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MA",
+      "type": "surname",
+      "path": "src/reference-data/ma/surname.json",
+      "records": 639,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MO",
+      "type": "given_name",
+      "path": "src/reference-data/mo/given_name.json",
+      "records": 117,
+      "male": 90,
+      "female": 27
+    },
+    {
+      "country": "MO",
+      "type": "surname",
+      "path": "src/reference-data/mo/surname.json",
+      "records": 101,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MU",
+      "type": "surname",
+      "path": "src/reference-data/mu/surname.json",
+      "records": 380,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MY",
+      "type": "surname",
+      "path": "src/reference-data/my/surname.json",
+      "records": 628,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "OM",
+      "type": "surname",
+      "path": "src/reference-data/om/surname.json",
+      "records": 22,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PA",
+      "type": "surname",
+      "path": "src/reference-data/pa/surname.json",
+      "records": 671,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PH",
+      "type": "surname",
+      "path": "src/reference-data/ph/surname.json",
+      "records": 2531,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PS",
+      "type": "given_name",
+      "path": "src/reference-data/ps/given_name.json",
+      "records": 566,
+      "male": 389,
+      "female": 177
+    },
+    {
+      "country": "PS",
+      "type": "surname",
+      "path": "src/reference-data/ps/surname.json",
+      "records": 489,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "QA",
+      "type": "surname",
+      "path": "src/reference-data/qa/surname.json",
+      "records": 131,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AZ",
+      "type": "given_name",
+      "path": "src/reference-data/az/given_name.json",
+      "records": 1747,
+      "male": 1037,
+      "female": 710
+    },
+    {
+      "country": "AL",
+      "type": "given_name",
+      "path": "src/reference-data/al/given_name.json",
+      "records": 2458,
+      "male": 1478,
+      "female": 980
+    },
+    {
+      "country": "SA",
+      "type": "given_name",
+      "path": "src/reference-data/sa/given_name.json",
+      "records": 1810,
+      "male": 1018,
+      "female": 792
+    },
+    {
+      "country": "UY",
+      "type": "given_name",
+      "path": "src/reference-data/uy/given_name.json",
+      "records": 1574,
+      "male": 975,
+      "female": 599
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "path": "src/reference-data/au/given_name.json",
+      "records": 70027,
+      "male": 27543,
+      "female": 42484
+    },
+    {
+      "country": "SD",
+      "type": "given_name",
+      "path": "src/reference-data/sd/given_name.json",
+      "records": 2258,
+      "male": 1384,
+      "female": 874
+    },
+    {
+      "country": "TN",
+      "type": "given_name",
+      "path": "src/reference-data/tn/given_name.json",
+      "records": 2398,
+      "male": 1506,
+      "female": 892
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "path": "src/reference-data/af/given_name.json",
+      "records": 2317,
+      "male": 1437,
+      "female": 880
+    },
+    {
+      "country": "TW",
+      "type": "given_name",
+      "path": "src/reference-data/tw/given_name.json",
+      "records": 1921,
+      "male": 1171,
+      "female": 750
+    },
+    {
+      "country": "SG",
+      "type": "given_name",
+      "path": "src/reference-data/sg/given_name.json",
+      "records": 686,
+      "male": 388,
+      "female": 298
+    },
+    {
+      "country": "SY",
+      "type": "given_name",
+      "path": "src/reference-data/sy/given_name.json",
+      "records": 2403,
+      "male": 1521,
+      "female": 882
+    },
+    {
+      "country": "BF",
+      "type": "given_name",
+      "path": "src/reference-data/bf/given_name.json",
+      "records": 1566,
+      "male": 925,
+      "female": 641
+    },
+    {
+      "country": "BN",
+      "type": "given_name",
+      "path": "src/reference-data/bn/given_name.json",
+      "records": 114,
+      "male": 78,
+      "female": 36
+    },
+    {
+      "country": "UY",
+      "type": "surname",
+      "path": "src/reference-data/uy/surname.json",
+      "records": 4028,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AU",
+      "type": "surname",
+      "path": "src/reference-data/au/surname.json",
+      "records": 14438,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AL",
+      "type": "surname",
+      "path": "src/reference-data/al/surname.json",
+      "records": 1240,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AF",
+      "type": "surname",
+      "path": "src/reference-data/af/surname.json",
+      "records": 354,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AZ",
+      "type": "surname",
+      "path": "src/reference-data/az/surname.json",
+      "records": 540,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BF",
+      "type": "surname",
+      "path": "src/reference-data/bf/surname.json",
+      "records": 237,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BI",
+      "type": "given_name",
+      "path": "src/reference-data/bi/given_name.json",
+      "records": 2526,
+      "male": 1340,
+      "female": 1186
+    },
+    {
+      "country": "BI",
+      "type": "surname",
+      "path": "src/reference-data/bi/surname.json",
+      "records": 140,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BN",
+      "type": "surname",
+      "path": "src/reference-data/bn/surname.json",
+      "records": 63,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SA",
+      "type": "surname",
+      "path": "src/reference-data/sa/surname.json",
+      "records": 205,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SD",
+      "type": "surname",
+      "path": "src/reference-data/sd/surname.json",
+      "records": 120,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SG",
+      "type": "surname",
+      "path": "src/reference-data/sg/surname.json",
+      "records": 346,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SY",
+      "type": "surname",
+      "path": "src/reference-data/sy/surname.json",
+      "records": 526,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TN",
+      "type": "surname",
+      "path": "src/reference-data/tn/surname.json",
+      "records": 467,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TW",
+      "type": "surname",
+      "path": "src/reference-data/tw/surname.json",
+      "records": 577,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "path": "src/reference-data/ye/given_name.json",
+      "records": 2329,
+      "male": 1390,
+      "female": 939
+    },
+    {
+      "country": "YE",
+      "type": "surname",
+      "path": "src/reference-data/ye/surname.json",
+      "records": 144,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "EE",
+      "type": "given_name",
+      "path": "src/reference-data/ee/given_name.json",
+      "records": 3968,
+      "male": 2104,
+      "female": 1864
+    },
+    {
+      "country": "IS",
+      "type": "given_name",
+      "path": "src/reference-data/is/given_name.json",
+      "records": 2360,
+      "male": 1203,
+      "female": 1157
+    },
+    {
+      "country": "DJ",
+      "type": "given_name",
+      "path": "src/reference-data/dj/given_name.json",
+      "records": 1232,
+      "male": 697,
+      "female": 535
+    },
+    {
+      "country": "HR",
+      "type": "given_name",
+      "path": "src/reference-data/hr/given_name.json",
+      "records": 1660,
+      "male": 941,
+      "female": 719
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "path": "src/reference-data/hu/given_name.json",
+      "records": 2740,
+      "male": 1614,
+      "female": 1126
+    },
+    {
+      "country": "LT",
+      "type": "given_name",
+      "path": "src/reference-data/lt/given_name.json",
+      "records": 2279,
+      "male": 1292,
+      "female": 987
+    },
+    {
+      "country": "GE",
+      "type": "given_name",
+      "path": "src/reference-data/ge/given_name.json",
+      "records": 720,
+      "male": 477,
+      "female": 243
+    },
+    {
+      "country": "ID",
+      "type": "given_name",
+      "path": "src/reference-data/id/given_name.json",
+      "records": 3752,
+      "male": 2095,
+      "female": 1657
+    },
+    {
+      "country": "JM",
+      "type": "given_name",
+      "path": "src/reference-data/jm/given_name.json",
+      "records": 2245,
+      "male": 1157,
+      "female": 1088
+    },
+    {
+      "country": "HT",
+      "type": "given_name",
+      "path": "src/reference-data/ht/given_name.json",
+      "records": 1717,
+      "male": 1020,
+      "female": 697
+    },
+    {
+      "country": "HN",
+      "type": "given_name",
+      "path": "src/reference-data/hn/given_name.json",
+      "records": 615,
+      "male": 432,
+      "female": 183
+    },
+    {
+      "country": "BW",
+      "type": "given_name",
+      "path": "src/reference-data/bw/given_name.json",
+      "records": 1707,
+      "male": 840,
+      "female": 867
+    },
+    {
+      "country": "CY",
+      "type": "given_name",
+      "path": "src/reference-data/cy/given_name.json",
+      "records": 2211,
+      "male": 1225,
+      "female": 986
+    },
+    {
+      "country": "EC",
+      "type": "given_name",
+      "path": "src/reference-data/ec/given_name.json",
+      "records": 1139,
+      "male": 666,
+      "female": 473
+    },
+    {
+      "country": "ET",
+      "type": "given_name",
+      "path": "src/reference-data/et/given_name.json",
+      "records": 450,
+      "male": 277,
+      "female": 173
+    },
+    {
+      "country": "KH",
+      "type": "given_name",
+      "path": "src/reference-data/kh/given_name.json",
+      "records": 160,
+      "male": 113,
+      "female": 47
+    },
+    {
+      "country": "HR",
+      "type": "surname",
+      "path": "src/reference-data/hr/surname.json",
+      "records": 2821,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "HU",
+      "type": "surname",
+      "path": "src/reference-data/hu/surname.json",
+      "records": 11341,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BW",
+      "type": "surname",
+      "path": "src/reference-data/bw/surname.json",
+      "records": 181,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "CY",
+      "type": "surname",
+      "path": "src/reference-data/cy/surname.json",
+      "records": 1083,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "DJ",
+      "type": "surname",
+      "path": "src/reference-data/dj/surname.json",
+      "records": 30,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "EC",
+      "type": "surname",
+      "path": "src/reference-data/ec/surname.json",
+      "records": 1126,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "EE",
+      "type": "surname",
+      "path": "src/reference-data/ee/surname.json",
+      "records": 13715,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ET",
+      "type": "surname",
+      "path": "src/reference-data/et/surname.json",
+      "records": 399,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GE",
+      "type": "surname",
+      "path": "src/reference-data/ge/surname.json",
+      "records": 2214,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "HN",
+      "type": "surname",
+      "path": "src/reference-data/hn/surname.json",
+      "records": 417,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "HT",
+      "type": "surname",
+      "path": "src/reference-data/ht/surname.json",
+      "records": 780,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ID",
+      "type": "surname",
+      "path": "src/reference-data/id/surname.json",
+      "records": 3396,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IS",
+      "type": "surname",
+      "path": "src/reference-data/is/surname.json",
+      "records": 475,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "JM",
+      "type": "surname",
+      "path": "src/reference-data/jm/surname.json",
+      "records": 932,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KH",
+      "type": "surname",
+      "path": "src/reference-data/kh/surname.json",
+      "records": 139,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LT",
+      "type": "surname",
+      "path": "src/reference-data/lt/surname.json",
+      "records": 2099,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "path": "src/reference-data/pk/given_name.json",
+      "records": 978,
+      "male": 639,
+      "female": 339
+    },
+    {
+      "country": "MT",
+      "type": "given_name",
+      "path": "src/reference-data/mt/given_name.json",
+      "records": 2093,
+      "male": 1074,
+      "female": 1019
+    },
+    {
+      "country": "AM",
+      "type": "given_name",
+      "path": "src/reference-data/am/given_name.json",
+      "records": 1154,
+      "male": 695,
+      "female": 459
+    },
+    {
+      "country": "RS",
+      "type": "given_name",
+      "path": "src/reference-data/rs/given_name.json",
+      "records": 2845,
+      "male": 1520,
+      "female": 1325
+    },
+    {
+      "country": "RO",
+      "type": "given_name",
+      "path": "src/reference-data/ro/given_name.json",
+      "records": 3740,
+      "male": 1865,
+      "female": 1875
+    },
+    {
+      "country": "MD",
+      "type": "given_name",
+      "path": "src/reference-data/md/given_name.json",
+      "records": 2050,
+      "male": 1167,
+      "female": 883
+    },
+    {
+      "country": "SK",
+      "type": "given_name",
+      "path": "src/reference-data/sk/given_name.json",
+      "records": 1426,
+      "male": 714,
+      "female": 712
+    },
+    {
+      "country": "SI",
+      "type": "given_name",
+      "path": "src/reference-data/si/given_name.json",
+      "records": 1537,
+      "male": 924,
+      "female": 613
+    },
+    {
+      "country": "AD",
+      "type": "given_name",
+      "path": "src/reference-data/ad/given_name.json",
+      "records": 388,
+      "male": 220,
+      "female": 168
+    },
+    {
+      "country": "UA",
+      "type": "given_name",
+      "path": "src/reference-data/ua/given_name.json",
+      "records": 1552,
+      "male": 910,
+      "female": 642
+    },
+    {
+      "country": "VE",
+      "type": "given_name",
+      "path": "src/reference-data/ve/given_name.json",
+      "records": 1887,
+      "male": 1105,
+      "female": 782
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "path": "src/reference-data/vn/given_name.json",
+      "records": 959,
+      "male": 612,
+      "female": 347
+    },
+    {
+      "country": "TM",
+      "type": "given_name",
+      "path": "src/reference-data/tm/given_name.json",
+      "records": 215,
+      "male": 164,
+      "female": 51
+    },
+    {
+      "country": "UZ",
+      "type": "given_name",
+      "path": "src/reference-data/uz/given_name.json",
+      "records": 1352,
+      "male": 757,
+      "female": 595
+    },
+    {
+      "country": "SI",
+      "type": "surname",
+      "path": "src/reference-data/si/surname.json",
+      "records": 5161,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PR",
+      "type": "surname",
+      "path": "src/reference-data/pr/surname.json",
+      "records": 924,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "RS",
+      "type": "surname",
+      "path": "src/reference-data/rs/surname.json",
+      "records": 1736,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "UA",
+      "type": "surname",
+      "path": "src/reference-data/ua/surname.json",
+      "records": 5385,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AD",
+      "type": "surname",
+      "path": "src/reference-data/ad/surname.json",
+      "records": 373,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AM",
+      "type": "surname",
+      "path": "src/reference-data/am/surname.json",
+      "records": 409,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MD",
+      "type": "surname",
+      "path": "src/reference-data/md/surname.json",
+      "records": 1071,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MT",
+      "type": "surname",
+      "path": "src/reference-data/mt/surname.json",
+      "records": 466,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MV",
+      "type": "given_name",
+      "path": "src/reference-data/mv/given_name.json",
+      "records": 81,
+      "male": 42,
+      "female": 39
+    },
+    {
+      "country": "MV",
+      "type": "surname",
+      "path": "src/reference-data/mv/surname.json",
+      "records": 62,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PK",
+      "type": "surname",
+      "path": "src/reference-data/pk/surname.json",
+      "records": 636,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PR",
+      "type": "given_name",
+      "path": "src/reference-data/pr/given_name.json",
+      "records": 959,
+      "male": 583,
+      "female": 376
+    },
+    {
+      "country": "RO",
+      "type": "surname",
+      "path": "src/reference-data/ro/surname.json",
+      "records": 5096,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SK",
+      "type": "surname",
+      "path": "src/reference-data/sk/surname.json",
+      "records": 3096,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TM",
+      "type": "surname",
+      "path": "src/reference-data/tm/surname.json",
+      "records": 193,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "UZ",
+      "type": "surname",
+      "path": "src/reference-data/uz/surname.json",
+      "records": 854,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "VE",
+      "type": "surname",
+      "path": "src/reference-data/ve/surname.json",
+      "records": 2036,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "VN",
+      "type": "surname",
+      "path": "src/reference-data/vn/surname.json",
+      "records": 457,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LV",
+      "type": "given_name",
+      "path": "src/reference-data/lv/given_name.json",
+      "records": 1570,
+      "male": 849,
+      "female": 721
+    },
+    {
+      "country": "BA",
+      "type": "given_name",
+      "path": "src/reference-data/ba/given_name.json",
+      "records": 1630,
+      "male": 955,
+      "female": 675
+    },
+    {
+      "country": "ML",
+      "type": "given_name",
+      "path": "src/reference-data/ml/given_name.json",
+      "records": 1493,
+      "male": 890,
+      "female": 603
+    },
+    {
+      "country": "ME",
+      "type": "given_name",
+      "path": "src/reference-data/me/given_name.json",
+      "records": 2427,
+      "male": 1330,
+      "female": 1097
+    },
+    {
+      "country": "MK",
+      "type": "given_name",
+      "path": "src/reference-data/mk/given_name.json",
+      "records": 1324,
+      "male": 801,
+      "female": 523
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "path": "src/reference-data/by/given_name.json",
+      "records": 2010,
+      "male": 1106,
+      "female": 904
+    },
+    {
+      "country": "LI",
+      "type": "given_name",
+      "path": "src/reference-data/li/given_name.json",
+      "records": 2261,
+      "male": 1215,
+      "female": 1046
+    },
+    {
+      "country": "AW",
+      "type": "given_name",
+      "path": "src/reference-data/aw/given_name.json",
+      "records": 172,
+      "male": 126,
+      "female": 46
+    },
+    {
+      "country": "GQ",
+      "type": "given_name",
+      "path": "src/reference-data/gq/given_name.json",
+      "records": 391,
+      "male": 275,
+      "female": 116
+    },
+    {
+      "country": "GL",
+      "type": "given_name",
+      "path": "src/reference-data/gl/given_name.json",
+      "records": 113,
+      "male": 74,
+      "female": 39
+    },
+    {
+      "country": "MC",
+      "type": "given_name",
+      "path": "src/reference-data/mc/given_name.json",
+      "records": 1476,
+      "male": 876,
+      "female": 600
+    },
+    {
+      "country": "AW",
+      "type": "surname",
+      "path": "src/reference-data/aw/surname.json",
+      "records": 97,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BA",
+      "type": "surname",
+      "path": "src/reference-data/ba/surname.json",
+      "records": 802,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "BY",
+      "type": "surname",
+      "path": "src/reference-data/by/surname.json",
+      "records": 1886,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "FO",
+      "type": "given_name",
+      "path": "src/reference-data/fo/given_name.json",
+      "records": 45,
+      "male": 36,
+      "female": 9
+    },
+    {
+      "country": "FO",
+      "type": "surname",
+      "path": "src/reference-data/fo/surname.json",
+      "records": 45,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GG",
+      "type": "given_name",
+      "path": "src/reference-data/gg/given_name.json",
+      "records": 229,
+      "male": 153,
+      "female": 76
+    },
+    {
+      "country": "GG",
+      "type": "surname",
+      "path": "src/reference-data/gg/surname.json",
+      "records": 216,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GI",
+      "type": "given_name",
+      "path": "src/reference-data/gi/given_name.json",
+      "records": 236,
+      "male": 180,
+      "female": 56
+    },
+    {
+      "country": "GI",
+      "type": "surname",
+      "path": "src/reference-data/gi/surname.json",
+      "records": 219,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GL",
+      "type": "surname",
+      "path": "src/reference-data/gl/surname.json",
+      "records": 77,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "GQ",
+      "type": "surname",
+      "path": "src/reference-data/gq/surname.json",
+      "records": 214,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "IM",
+      "type": "given_name",
+      "path": "src/reference-data/im/given_name.json",
+      "records": 202,
+      "male": 142,
+      "female": 60
+    },
+    {
+      "country": "IM",
+      "type": "surname",
+      "path": "src/reference-data/im/surname.json",
+      "records": 208,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "JE",
+      "type": "given_name",
+      "path": "src/reference-data/je/given_name.json",
+      "records": 285,
+      "male": 201,
+      "female": 84
+    },
+    {
+      "country": "JE",
+      "type": "surname",
+      "path": "src/reference-data/je/surname.json",
+      "records": 297,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LI",
+      "type": "surname",
+      "path": "src/reference-data/li/surname.json",
+      "records": 312,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LV",
+      "type": "surname",
+      "path": "src/reference-data/lv/surname.json",
+      "records": 2279,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MC",
+      "type": "surname",
+      "path": "src/reference-data/mc/surname.json",
+      "records": 417,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ME",
+      "type": "surname",
+      "path": "src/reference-data/me/surname.json",
+      "records": 507,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MK",
+      "type": "surname",
+      "path": "src/reference-data/mk/surname.json",
+      "records": 378,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "ML",
+      "type": "surname",
+      "path": "src/reference-data/ml/surname.json",
+      "records": 255,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NP",
+      "type": "given_name",
+      "path": "src/reference-data/np/given_name.json",
+      "records": 373,
+      "male": 218,
+      "female": 155
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "path": "src/reference-data/tj/given_name.json",
+      "records": 276,
+      "male": 207,
+      "female": 69
+    },
+    {
+      "country": "FJ",
+      "type": "given_name",
+      "path": "src/reference-data/fj/given_name.json",
+      "records": 1789,
+      "male": 924,
+      "female": 865
+    },
+    {
+      "country": "TH",
+      "type": "given_name",
+      "path": "src/reference-data/th/given_name.json",
+      "records": 1317,
+      "male": 687,
+      "female": 630
+    },
+    {
+      "country": "CU",
+      "type": "given_name",
+      "path": "src/reference-data/cu/given_name.json",
+      "records": 1429,
+      "male": 839,
+      "female": 590
+    },
+    {
+      "country": "NZ",
+      "type": "given_name",
+      "path": "src/reference-data/nz/given_name.json",
+      "records": 5429,
+      "male": 2997,
+      "female": 2432
+    },
+    {
+      "country": "SV",
+      "type": "given_name",
+      "path": "src/reference-data/sv/given_name.json",
+      "records": 699,
+      "male": 438,
+      "female": 261
+    },
+    {
+      "country": "PY",
+      "type": "given_name",
+      "path": "src/reference-data/py/given_name.json",
+      "records": 817,
+      "male": 556,
+      "female": 261
+    },
+    {
+      "country": "MN",
+      "type": "given_name",
+      "path": "src/reference-data/mn/given_name.json",
+      "records": 169,
+      "male": 124,
+      "female": 45
+    },
+    {
+      "country": "SM",
+      "type": "given_name",
+      "path": "src/reference-data/sm/given_name.json",
+      "records": 822,
+      "male": 516,
+      "female": 306
+    },
+    {
+      "country": "LK",
+      "type": "given_name",
+      "path": "src/reference-data/lk/given_name.json",
+      "records": 2116,
+      "male": 1348,
+      "female": 768
+    },
+    {
+      "country": "DO",
+      "type": "given_name",
+      "path": "src/reference-data/do/given_name.json",
+      "records": 1071,
+      "male": 695,
+      "female": 376
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "path": "src/reference-data/kg/given_name.json",
+      "records": 331,
+      "male": 231,
+      "female": 100
+    },
+    {
+      "country": "CU",
+      "type": "surname",
+      "path": "src/reference-data/cu/surname.json",
+      "records": 1581,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PY",
+      "type": "surname",
+      "path": "src/reference-data/py/surname.json",
+      "records": 664,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "FJ",
+      "type": "surname",
+      "path": "src/reference-data/fj/surname.json",
+      "records": 434,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "DO",
+      "type": "surname",
+      "path": "src/reference-data/do/surname.json",
+      "records": 812,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "KG",
+      "type": "surname",
+      "path": "src/reference-data/kg/surname.json",
+      "records": 400,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "LK",
+      "type": "surname",
+      "path": "src/reference-data/lk/surname.json",
+      "records": 500,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "MN",
+      "type": "surname",
+      "path": "src/reference-data/mn/surname.json",
+      "records": 123,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NP",
+      "type": "surname",
+      "path": "src/reference-data/np/surname.json",
+      "records": 170,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "NZ",
+      "type": "surname",
+      "path": "src/reference-data/nz/surname.json",
+      "records": 8530,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PF",
+      "type": "given_name",
+      "path": "src/reference-data/pf/given_name.json",
+      "records": 183,
+      "male": 132,
+      "female": 51
+    },
+    {
+      "country": "PF",
+      "type": "surname",
+      "path": "src/reference-data/pf/surname.json",
+      "records": 204,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SM",
+      "type": "surname",
+      "path": "src/reference-data/sm/surname.json",
+      "records": 524,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SR",
+      "type": "given_name",
+      "path": "src/reference-data/sr/given_name.json",
+      "records": 945,
+      "male": 613,
+      "female": 332
+    },
+    {
+      "country": "SR",
+      "type": "surname",
+      "path": "src/reference-data/sr/surname.json",
+      "records": 949,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SV",
+      "type": "surname",
+      "path": "src/reference-data/sv/surname.json",
+      "records": 587,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TH",
+      "type": "surname",
+      "path": "src/reference-data/th/surname.json",
+      "records": 1172,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "TJ",
+      "type": "surname",
+      "path": "src/reference-data/tj/surname.json",
+      "records": 266,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "XK",
+      "type": "given_name",
+      "path": "src/reference-data/xk/given_name.json",
+      "records": 706,
+      "male": 523,
+      "female": 183
+    },
+    {
+      "country": "XK",
+      "type": "surname",
+      "path": "src/reference-data/xk/surname.json",
+      "records": 477,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "path": "src/reference-data/us/given_name.json",
+      "records": 16096,
+      "male": 9802,
+      "female": 6294
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "path": "src/reference-data/fi/given_name.json",
+      "records": 523,
+      "male": 375,
+      "female": 148
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "path": "src/reference-data/no/given_name.json",
+      "records": 2897,
+      "male": 1777,
+      "female": 1120
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "path": "src/reference-data/se/given_name.json",
+      "records": 32133,
+      "male": 15339,
+      "female": 16794
+    },
+    {
+      "country": "AT",
+      "type": "given_name",
+      "path": "src/reference-data/at/given_name.json",
+      "records": 2510,
+      "male": 1463,
+      "female": 1047
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "path": "src/reference-data/pl/given_name.json",
+      "records": 1613,
+      "male": 1179,
+      "female": 434
+    },
+    {
+      "country": "NO",
+      "type": "surname",
+      "path": "src/reference-data/no/surname.json",
+      "records": 204640,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "US",
+      "type": "surname",
+      "path": "src/reference-data/us/surname.json",
+      "records": 37182,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "PL",
+      "type": "surname",
+      "path": "src/reference-data/pl/surname.json",
+      "records": 16664,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "FI",
+      "type": "surname",
+      "path": "src/reference-data/fi/surname.json",
+      "records": 4574,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "AT",
+      "type": "surname",
+      "path": "src/reference-data/at/surname.json",
+      "records": 22684,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "SE",
+      "type": "surname",
+      "path": "src/reference-data/se/surname.json",
+      "records": 19094,
+      "male": 0,
+      "female": 0
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "path": "src/reference-data/dk/given_name.json",
+      "records": 4041,
+      "male": 2372,
+      "female": 1669
+    },
+    {
+      "country": "DK",
+      "type": "surname",
+      "path": "src/reference-data/dk/surname.json",
+      "records": 292471,
+      "male": 0,
+      "female": 0
+    }
+  ],
+  "checkedCountries": [
+    "JP",
+    "US",
+    "GB",
+    "FR",
+    "KR",
+    "DE",
+    "IT",
+    "ES",
+    "PT",
+    "NL",
+    "BE",
+    "CH",
+    "AT",
+    "IE",
+    "CA",
+    "BR",
+    "MX",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "ZA",
+    "NG",
+    "IN",
+    "TR",
+    "PL",
+    "AE",
+    "AO",
+    "BD",
+    "BG",
+    "BH",
+    "BO",
+    "CM",
+    "CN",
+    "CR",
+    "CZ",
+    "DK",
+    "DZ",
+    "EG",
+    "FI",
+    "GH",
+    "GR",
+    "GT",
+    "HK",
+    "IL",
+    "IQ",
+    "IR",
+    "JO",
+    "KW",
+    "KZ",
+    "LB",
+    "LU",
+    "LY",
+    "MA",
+    "MO",
+    "MU",
+    "MY",
+    "NO",
+    "OM",
+    "PA",
+    "PH",
+    "PS",
+    "QA",
+    "RU",
+    "SA",
+    "SD",
+    "SE",
+    "SG",
+    "SY",
+    "TN",
+    "TW",
+    "UY",
+    "YE",
+    "AF",
+    "AL",
+    "AU",
+    "AZ",
+    "BF",
+    "BI",
+    "BN",
+    "BW",
+    "CY",
+    "DJ",
+    "EC",
+    "EE",
+    "ET",
+    "GE",
+    "HN",
+    "HR",
+    "HT",
+    "HU",
+    "ID",
+    "IS",
+    "JM",
+    "KH",
+    "LT",
+    "MD",
+    "MT",
+    "MV",
+    "PK",
+    "PR",
+    "RO",
+    "RS",
+    "SI",
+    "SK",
+    "TM",
+    "UA",
+    "UZ",
+    "VE",
+    "VN",
+    "AD",
+    "AM",
+    "AW",
+    "BA",
+    "BY",
+    "FO",
+    "GG",
+    "GI",
+    "GL",
+    "GQ",
+    "IM",
+    "JE",
+    "LI",
+    "LV",
+    "MC",
+    "ME",
+    "MK",
+    "ML",
+    "MN",
+    "NP",
+    "NZ",
+    "PF",
+    "PY",
+    "SM",
+    "SV",
+    "TH",
+    "TJ",
+    "KG",
+    "LK",
+    "XK",
+    "CU",
+    "DO",
+    "FJ",
+    "SR"
+  ],
+  "rejectedSources": [
+    {
+      "source": "Thelwall 200-country workbook",
+      "reason": "名前の全件表ではなく分位点の要約表のため不採用"
+    },
+    {
+      "source": "WGND language-expanded file",
+      "reason": "同じ言語の他国へ複製された行を含むため不採用"
+    },
+    {
+      "source": "prijmeni.eu world_surnames.csv",
+      "reason": "公開ページは準備中でダウンロード原本なし"
+    }
+  ]
+}

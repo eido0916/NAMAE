@@ -1,0 +1,10 @@
+{
+  "countries": 143,
+  "countriesWithNames": 143,
+  "names": 57030,
+  "types": [
+    "given_name",
+    "surname"
+  ],
+  "networkRequests": 0
+}

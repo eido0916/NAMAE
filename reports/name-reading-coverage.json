@@ -1,0 +1,1014 @@
+{
+  "checkedAt": "2026-10-15T12:59:53.820Z",
+  "method": "Up to 500 unique given names and 500 surnames per foreign country. Hints are not pronunciation accuracy measurements; reviewed DB readings are not counted here.",
+  "networkRequests": 0,
+  "totals": {
+    "names": 57030,
+    "conventional": 1625,
+    "estimated": 55136,
+    "unsupported": 269
+  },
+  "countries": [
+    {
+      "country": "US",
+      "names": 1000,
+      "conventional": 194,
+      "estimated": 806,
+      "unsupported": 0
+    },
+    {
+      "country": "GB",
+      "names": 1000,
+      "conventional": 204,
+      "estimated": 796,
+      "unsupported": 0
+    },
+    {
+      "country": "FR",
+      "names": 1000,
+      "conventional": 138,
+      "estimated": 862,
+      "unsupported": 0
+    },
+    {
+      "country": "KR",
+      "names": 600,
+      "conventional": 0,
+      "estimated": 600,
+      "unsupported": 0
+    },
+    {
+      "country": "DE",
+      "names": 878,
+      "conventional": 123,
+      "estimated": 748,
+      "unsupported": 7
+    },
+    {
+      "country": "IT",
+      "names": 1000,
+      "conventional": 52,
+      "estimated": 948,
+      "unsupported": 0
+    },
+    {
+      "country": "ES",
+      "names": 1000,
+      "conventional": 77,
+      "estimated": 923,
+      "unsupported": 0
+    },
+    {
+      "country": "PT",
+      "names": 541,
+      "conventional": 36,
+      "estimated": 504,
+      "unsupported": 1
+    },
+    {
+      "country": "NL",
+      "names": 820,
+      "conventional": 20,
+      "estimated": 792,
+      "unsupported": 8
+    },
+    {
+      "country": "BE",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "CH",
+      "names": 908,
+      "conventional": 0,
+      "estimated": 907,
+      "unsupported": 1
+    },
+    {
+      "country": "AT",
+      "names": 646,
+      "conventional": 109,
+      "estimated": 531,
+      "unsupported": 6
+    },
+    {
+      "country": "IE",
+      "names": 605,
+      "conventional": 89,
+      "estimated": 514,
+      "unsupported": 2
+    },
+    {
+      "country": "CA",
+      "names": 790,
+      "conventional": 0,
+      "estimated": 786,
+      "unsupported": 4
+    },
+    {
+      "country": "BR",
+      "names": 1000,
+      "conventional": 29,
+      "estimated": 971,
+      "unsupported": 0
+    },
+    {
+      "country": "MX",
+      "names": 1000,
+      "conventional": 51,
+      "estimated": 949,
+      "unsupported": 0
+    },
+    {
+      "country": "AR",
+      "names": 777,
+      "conventional": 39,
+      "estimated": 737,
+      "unsupported": 1
+    },
+    {
+      "country": "CO",
+      "names": 1000,
+      "conventional": 43,
+      "estimated": 957,
+      "unsupported": 0
+    },
+    {
+      "country": "CL",
+      "names": 1000,
+      "conventional": 40,
+      "estimated": 959,
+      "unsupported": 1
+    },
+    {
+      "country": "PE",
+      "names": 902,
+      "conventional": 53,
+      "estimated": 848,
+      "unsupported": 1
+    },
+    {
+      "country": "ZA",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "NG",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "IN",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "TR",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "PL",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "AE",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "AO",
+      "names": 131,
+      "conventional": 14,
+      "estimated": 116,
+      "unsupported": 1
+    },
+    {
+      "country": "BD",
+      "names": 798,
+      "conventional": 0,
+      "estimated": 798,
+      "unsupported": 0
+    },
+    {
+      "country": "BG",
+      "names": 145,
+      "conventional": 0,
+      "estimated": 141,
+      "unsupported": 4
+    },
+    {
+      "country": "BH",
+      "names": 400,
+      "conventional": 0,
+      "estimated": 397,
+      "unsupported": 3
+    },
+    {
+      "country": "BO",
+      "names": 719,
+      "conventional": 36,
+      "estimated": 682,
+      "unsupported": 1
+    },
+    {
+      "country": "CM",
+      "names": 492,
+      "conventional": 0,
+      "estimated": 491,
+      "unsupported": 1
+    },
+    {
+      "country": "CN",
+      "names": 299,
+      "conventional": 0,
+      "estimated": 299,
+      "unsupported": 0
+    },
+    {
+      "country": "CR",
+      "names": 553,
+      "conventional": 32,
+      "estimated": 519,
+      "unsupported": 2
+    },
+    {
+      "country": "CZ",
+      "names": 323,
+      "conventional": 0,
+      "estimated": 319,
+      "unsupported": 4
+    },
+    {
+      "country": "DK",
+      "names": 361,
+      "conventional": 0,
+      "estimated": 355,
+      "unsupported": 6
+    },
+    {
+      "country": "DZ",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "EG",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "FI",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "GH",
+      "names": 298,
+      "conventional": 0,
+      "estimated": 298,
+      "unsupported": 0
+    },
+    {
+      "country": "GR",
+      "names": 245,
+      "conventional": 0,
+      "estimated": 243,
+      "unsupported": 2
+    },
+    {
+      "country": "GT",
+      "names": 437,
+      "conventional": 29,
+      "estimated": 408,
+      "unsupported": 0
+    },
+    {
+      "country": "HK",
+      "names": 634,
+      "conventional": 0,
+      "estimated": 632,
+      "unsupported": 2
+    },
+    {
+      "country": "IL",
+      "names": 679,
+      "conventional": 0,
+      "estimated": 677,
+      "unsupported": 2
+    },
+    {
+      "country": "IQ",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "IR",
+      "names": 688,
+      "conventional": 0,
+      "estimated": 685,
+      "unsupported": 3
+    },
+    {
+      "country": "JO",
+      "names": 633,
+      "conventional": 0,
+      "estimated": 633,
+      "unsupported": 0
+    },
+    {
+      "country": "KW",
+      "names": 777,
+      "conventional": 0,
+      "estimated": 773,
+      "unsupported": 4
+    },
+    {
+      "country": "KZ",
+      "names": 411,
+      "conventional": 0,
+      "estimated": 409,
+      "unsupported": 2
+    },
+    {
+      "country": "LB",
+      "names": 605,
+      "conventional": 0,
+      "estimated": 605,
+      "unsupported": 0
+    },
+    {
+      "country": "LU",
+      "names": 193,
+      "conventional": 0,
+      "estimated": 191,
+      "unsupported": 2
+    },
+    {
+      "country": "LY",
+      "names": 828,
+      "conventional": 0,
+      "estimated": 826,
+      "unsupported": 2
+    },
+    {
+      "country": "MA",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "MO",
+      "names": 111,
+      "conventional": 0,
+      "estimated": 111,
+      "unsupported": 0
+    },
+    {
+      "country": "MU",
+      "names": 292,
+      "conventional": 0,
+      "estimated": 291,
+      "unsupported": 1
+    },
+    {
+      "country": "MY",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "NO",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "OM",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "PA",
+      "names": 497,
+      "conventional": 29,
+      "estimated": 467,
+      "unsupported": 1
+    },
+    {
+      "country": "PH",
+      "names": 260,
+      "conventional": 0,
+      "estimated": 258,
+      "unsupported": 2
+    },
+    {
+      "country": "PS",
+      "names": 670,
+      "conventional": 0,
+      "estimated": 668,
+      "unsupported": 2
+    },
+    {
+      "country": "QA",
+      "names": 635,
+      "conventional": 0,
+      "estimated": 633,
+      "unsupported": 2
+    },
+    {
+      "country": "RU",
+      "names": 719,
+      "conventional": 0,
+      "estimated": 714,
+      "unsupported": 5
+    },
+    {
+      "country": "SA",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "SD",
+      "names": 949,
+      "conventional": 0,
+      "estimated": 949,
+      "unsupported": 0
+    },
+    {
+      "country": "SE",
+      "names": 453,
+      "conventional": 0,
+      "estimated": 447,
+      "unsupported": 6
+    },
+    {
+      "country": "SG",
+      "names": 713,
+      "conventional": 0,
+      "estimated": 712,
+      "unsupported": 1
+    },
+    {
+      "country": "SY",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "TN",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 1000,
+      "unsupported": 0
+    },
+    {
+      "country": "TW",
+      "names": 178,
+      "conventional": 0,
+      "estimated": 177,
+      "unsupported": 1
+    },
+    {
+      "country": "UY",
+      "names": 479,
+      "conventional": 30,
+      "estimated": 448,
+      "unsupported": 1
+    },
+    {
+      "country": "YE",
+      "names": 801,
+      "conventional": 0,
+      "estimated": 800,
+      "unsupported": 1
+    },
+    {
+      "country": "AF",
+      "names": 92,
+      "conventional": 0,
+      "estimated": 92,
+      "unsupported": 0
+    },
+    {
+      "country": "AL",
+      "names": 168,
+      "conventional": 0,
+      "estimated": 168,
+      "unsupported": 0
+    },
+    {
+      "country": "AU",
+      "names": 59,
+      "conventional": 29,
+      "estimated": 30,
+      "unsupported": 0
+    },
+    {
+      "country": "AZ",
+      "names": 72,
+      "conventional": 0,
+      "estimated": 71,
+      "unsupported": 1
+    },
+    {
+      "country": "BF",
+      "names": 3,
+      "conventional": 0,
+      "estimated": 3,
+      "unsupported": 0
+    },
+    {
+      "country": "BI",
+      "names": 11,
+      "conventional": 0,
+      "estimated": 11,
+      "unsupported": 0
+    },
+    {
+      "country": "BN",
+      "names": 110,
+      "conventional": 0,
+      "estimated": 109,
+      "unsupported": 1
+    },
+    {
+      "country": "BW",
+      "names": 58,
+      "conventional": 0,
+      "estimated": 58,
+      "unsupported": 0
+    },
+    {
+      "country": "CY",
+      "names": 104,
+      "conventional": 0,
+      "estimated": 104,
+      "unsupported": 0
+    },
+    {
+      "country": "DJ",
+      "names": 12,
+      "conventional": 0,
+      "estimated": 12,
+      "unsupported": 0
+    },
+    {
+      "country": "EC",
+      "names": 109,
+      "conventional": 14,
+      "estimated": 95,
+      "unsupported": 0
+    },
+    {
+      "country": "EE",
+      "names": 78,
+      "conventional": 0,
+      "estimated": 77,
+      "unsupported": 1
+    },
+    {
+      "country": "ET",
+      "names": 9,
+      "conventional": 0,
+      "estimated": 9,
+      "unsupported": 0
+    },
+    {
+      "country": "GE",
+      "names": 66,
+      "conventional": 0,
+      "estimated": 66,
+      "unsupported": 0
+    },
+    {
+      "country": "HN",
+      "names": 14,
+      "conventional": 0,
+      "estimated": 14,
+      "unsupported": 0
+    },
+    {
+      "country": "HR",
+      "names": 243,
+      "conventional": 0,
+      "estimated": 242,
+      "unsupported": 1
+    },
+    {
+      "country": "HT",
+      "names": 31,
+      "conventional": 0,
+      "estimated": 31,
+      "unsupported": 0
+    },
+    {
+      "country": "HU",
+      "names": 183,
+      "conventional": 0,
+      "estimated": 181,
+      "unsupported": 2
+    },
+    {
+      "country": "ID",
+      "names": 70,
+      "conventional": 0,
+      "estimated": 70,
+      "unsupported": 0
+    },
+    {
+      "country": "IS",
+      "names": 56,
+      "conventional": 0,
+      "estimated": 52,
+      "unsupported": 4
+    },
+    {
+      "country": "JM",
+      "names": 119,
+      "conventional": 34,
+      "estimated": 85,
+      "unsupported": 0
+    },
+    {
+      "country": "KH",
+      "names": 85,
+      "conventional": 0,
+      "estimated": 85,
+      "unsupported": 0
+    },
+    {
+      "country": "LT",
+      "names": 86,
+      "conventional": 0,
+      "estimated": 84,
+      "unsupported": 2
+    },
+    {
+      "country": "MD",
+      "names": 53,
+      "conventional": 0,
+      "estimated": 53,
+      "unsupported": 0
+    },
+    {
+      "country": "MT",
+      "names": 106,
+      "conventional": 0,
+      "estimated": 106,
+      "unsupported": 0
+    },
+    {
+      "country": "MV",
+      "names": 60,
+      "conventional": 0,
+      "estimated": 60,
+      "unsupported": 0
+    },
+    {
+      "country": "PK",
+      "names": 29,
+      "conventional": 0,
+      "estimated": 29,
+      "unsupported": 0
+    },
+    {
+      "country": "PR",
+      "names": 84,
+      "conventional": 7,
+      "estimated": 77,
+      "unsupported": 0
+    },
+    {
+      "country": "RO",
+      "names": 34,
+      "conventional": 0,
+      "estimated": 34,
+      "unsupported": 0
+    },
+    {
+      "country": "RS",
+      "names": 83,
+      "conventional": 0,
+      "estimated": 82,
+      "unsupported": 1
+    },
+    {
+      "country": "SI",
+      "names": 111,
+      "conventional": 0,
+      "estimated": 111,
+      "unsupported": 0
+    },
+    {
+      "country": "SK",
+      "names": 44,
+      "conventional": 0,
+      "estimated": 44,
+      "unsupported": 0
+    },
+    {
+      "country": "TM",
+      "names": 8,
+      "conventional": 0,
+      "estimated": 8,
+      "unsupported": 0
+    },
+    {
+      "country": "UA",
+      "names": 43,
+      "conventional": 0,
+      "estimated": 43,
+      "unsupported": 0
+    },
+    {
+      "country": "UZ",
+      "names": 3,
+      "conventional": 0,
+      "estimated": 3,
+      "unsupported": 0
+    },
+    {
+      "country": "VE",
+      "names": 23,
+      "conventional": 4,
+      "estimated": 19,
+      "unsupported": 0
+    },
+    {
+      "country": "VN",
+      "names": 44,
+      "conventional": 0,
+      "estimated": 39,
+      "unsupported": 5
+    },
+    {
+      "country": "AD",
+      "names": 11,
+      "conventional": 0,
+      "estimated": 11,
+      "unsupported": 0
+    },
+    {
+      "country": "AM",
+      "names": 58,
+      "conventional": 0,
+      "estimated": 58,
+      "unsupported": 0
+    },
+    {
+      "country": "AW",
+      "names": 10,
+      "conventional": 0,
+      "estimated": 10,
+      "unsupported": 0
+    },
+    {
+      "country": "BA",
+      "names": 64,
+      "conventional": 0,
+      "estimated": 62,
+      "unsupported": 2
+    },
+    {
+      "country": "BY",
+      "names": 12,
+      "conventional": 0,
+      "estimated": 12,
+      "unsupported": 0
+    },
+    {
+      "country": "FO",
+      "names": 1000,
+      "conventional": 0,
+      "estimated": 865,
+      "unsupported": 135
+    },
+    {
+      "country": "GG",
+      "names": 18,
+      "conventional": 0,
+      "estimated": 18,
+      "unsupported": 0
+    },
+    {
+      "country": "GI",
+      "names": 16,
+      "conventional": 0,
+      "estimated": 16,
+      "unsupported": 0
+    },
+    {
+      "country": "GL",
+      "names": 716,
+      "conventional": 0,
+      "estimated": 698,
+      "unsupported": 18
+    },
+    {
+      "country": "GQ",
+      "names": 9,
+      "conventional": 0,
+      "estimated": 9,
+      "unsupported": 0
+    },
+    {
+      "country": "IM",
+      "names": 19,
+      "conventional": 0,
+      "estimated": 19,
+      "unsupported": 0
+    },
+    {
+      "country": "JE",
+      "names": 20,
+      "conventional": 0,
+      "estimated": 20,
+      "unsupported": 0
+    },
+    {
+      "country": "LI",
+      "names": 22,
+      "conventional": 13,
+      "estimated": 9,
+      "unsupported": 0
+    },
+    {
+      "country": "LV",
+      "names": 33,
+      "conventional": 0,
+      "estimated": 33,
+      "unsupported": 0
+    },
+    {
+      "country": "MC",
+      "names": 10,
+      "conventional": 6,
+      "estimated": 4,
+      "unsupported": 0
+    },
+    {
+      "country": "ME",
+      "names": 48,
+      "conventional": 0,
+      "estimated": 48,
+      "unsupported": 0
+    },
+    {
+      "country": "MK",
+      "names": 75,
+      "conventional": 0,
+      "estimated": 75,
+      "unsupported": 0
+    },
+    {
+      "country": "ML",
+      "names": 20,
+      "conventional": 0,
+      "estimated": 20,
+      "unsupported": 0
+    },
+    {
+      "country": "MN",
+      "names": 7,
+      "conventional": 0,
+      "estimated": 7,
+      "unsupported": 0
+    },
+    {
+      "country": "NP",
+      "names": 40,
+      "conventional": 0,
+      "estimated": 40,
+      "unsupported": 0
+    },
+    {
+      "country": "NZ",
+      "names": 50,
+      "conventional": 21,
+      "estimated": 29,
+      "unsupported": 0
+    },
+    {
+      "country": "PF",
+      "names": 26,
+      "conventional": 0,
+      "estimated": 26,
+      "unsupported": 0
+    },
+    {
+      "country": "PY",
+      "names": 45,
+      "conventional": 12,
+      "estimated": 33,
+      "unsupported": 0
+    },
+    {
+      "country": "SM",
+      "names": 5,
+      "conventional": 2,
+      "estimated": 3,
+      "unsupported": 0
+    },
+    {
+      "country": "SV",
+      "names": 45,
+      "conventional": 0,
+      "estimated": 45,
+      "unsupported": 0
+    },
+    {
+      "country": "TH",
+      "names": 5,
+      "conventional": 0,
+      "estimated": 5,
+      "unsupported": 0
+    },
+    {
+      "country": "TJ",
+      "names": 10,
+      "conventional": 0,
+      "estimated": 10,
+      "unsupported": 0
+    },
+    {
+      "country": "KG",
+      "names": 20,
+      "conventional": 0,
+      "estimated": 20,
+      "unsupported": 0
+    },
+    {
+      "country": "LK",
+      "names": 55,
+      "conventional": 0,
+      "estimated": 55,
+      "unsupported": 0
+    },
+    {
+      "country": "XK",
+      "names": 20,
+      "conventional": 0,
+      "estimated": 20,
+      "unsupported": 0
+    },
+    {
+      "country": "CU",
+      "names": 35,
+      "conventional": 8,
+      "estimated": 27,
+      "unsupported": 0
+    },
+    {
+      "country": "DO",
+      "names": 33,
+      "conventional": 8,
+      "estimated": 25,
+      "unsupported": 0
+    },
+    {
+      "country": "FJ",
+      "names": 24,
+      "conventional": 0,
+      "estimated": 24,
+      "unsupported": 0
+    },
+    {
+      "country": "SR",
+      "names": 13,
+      "conventional": 0,
+      "estimated": 13,
+      "unsupported": 0
+    }
+  ]
+}

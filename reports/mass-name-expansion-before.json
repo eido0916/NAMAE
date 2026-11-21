@@ -1,0 +1,7209 @@
+{
+  "createdAt": "2026-10-16T13:17:38.219Z",
+  "countries": [
+    "JP",
+    "US",
+    "GB",
+    "FR",
+    "KR",
+    "DE",
+    "IT",
+    "ES",
+    "PT",
+    "NL",
+    "BE",
+    "CH",
+    "AT",
+    "IE",
+    "CA",
+    "BR",
+    "MX",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "ZA",
+    "NG",
+    "IN",
+    "TR",
+    "PL",
+    "AE",
+    "AO",
+    "BD",
+    "BG",
+    "BH",
+    "BO",
+    "CM",
+    "CN",
+    "CR",
+    "CZ",
+    "DK",
+    "DZ",
+    "EG",
+    "FI",
+    "GH",
+    "GR",
+    "GT",
+    "HK",
+    "IL",
+    "IQ",
+    "IR",
+    "JO",
+    "KW",
+    "KZ",
+    "LB",
+    "LU",
+    "LY",
+    "MA",
+    "MO",
+    "MU",
+    "MY",
+    "NO",
+    "OM",
+    "PA",
+    "PH",
+    "PS",
+    "QA",
+    "RU",
+    "SA",
+    "SD",
+    "SE",
+    "SG",
+    "SY",
+    "TN",
+    "TW",
+    "UY",
+    "YE",
+    "AF",
+    "AL",
+    "AU",
+    "AZ",
+    "BF",
+    "BI",
+    "BN",
+    "BW",
+    "CY",
+    "DJ",
+    "EC",
+    "EE",
+    "ET",
+    "GE",
+    "HN",
+    "HR",
+    "HT",
+    "HU",
+    "ID",
+    "IS",
+    "JM",
+    "KH",
+    "LT",
+    "MD",
+    "MT",
+    "MV",
+    "PK",
+    "PR",
+    "RO",
+    "RS",
+    "SI",
+    "SK",
+    "TM",
+    "UA",
+    "UZ",
+    "VE",
+    "VN",
+    "AD",
+    "AM",
+    "AW",
+    "BA",
+    "BY",
+    "FO",
+    "GG",
+    "GI",
+    "GL",
+    "GQ",
+    "IM",
+    "JE",
+    "LI",
+    "LV",
+    "MC",
+    "ME",
+    "MK",
+    "ML",
+    "MN",
+    "NP",
+    "NZ",
+    "PF",
+    "PY",
+    "SM",
+    "SV",
+    "TH",
+    "TJ",
+    "KG",
+    "LK",
+    "XK",
+    "CU",
+    "DO",
+    "FJ",
+    "SR"
+  ],
+  "before": [
+    {
+      "country": "JP",
+      "name": "日本",
+      "male": 24689,
+      "female": 32118,
+      "surname": 105918,
+      "givenName": 56807,
+      "total": 162725,
+      "before": {
+        "country": "JP",
+        "name": "日本",
+        "male": 24699,
+        "female": 32123,
+        "surname": 105918,
+        "givenName": 56822,
+        "total": 162740,
+        "before": {
+          "country": "JP",
+          "name": "日本",
+          "male": 24699,
+          "female": 32123,
+          "surname": 105918,
+          "givenName": 56822,
+          "total": 162740
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -10,
+        "female": -5,
+        "givenName": -15,
+        "surname": 0,
+        "total": -15
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "US",
+      "name": "アメリカ",
+      "male": 49357,
+      "female": 71748,
+      "surname": 199437,
+      "givenName": 121105,
+      "total": 320542,
+      "before": {
+        "country": "US",
+        "name": "アメリカ",
+        "male": 49381,
+        "female": 71769,
+        "surname": 199442,
+        "givenName": 121150,
+        "total": 320592,
+        "before": {
+          "country": "US",
+          "name": "アメリカ",
+          "male": 49381,
+          "female": 71769,
+          "surname": 199442,
+          "givenName": 121150,
+          "total": 320592
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -24,
+        "female": -21,
+        "givenName": -45,
+        "surname": -5,
+        "total": -50
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GB",
+      "name": "イギリス",
+      "male": 24777,
+      "female": 30263,
+      "surname": 81549,
+      "givenName": 55040,
+      "total": 136589,
+      "before": {
+        "country": "GB",
+        "name": "イギリス",
+        "male": 24797,
+        "female": 30286,
+        "surname": 81546,
+        "givenName": 55083,
+        "total": 136629,
+        "before": {
+          "country": "GB",
+          "name": "イギリス",
+          "male": 24797,
+          "female": 30286,
+          "surname": 81546,
+          "givenName": 55083,
+          "total": 136629
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -20,
+        "female": -23,
+        "givenName": -43,
+        "surname": 3,
+        "total": -40
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "FR",
+      "name": "フランス",
+      "male": 26062,
+      "female": 28805,
+      "surname": 252649,
+      "givenName": 54867,
+      "total": 307516,
+      "before": {
+        "country": "FR",
+        "name": "フランス",
+        "male": 26084,
+        "female": 28818,
+        "surname": 252650,
+        "givenName": 54902,
+        "total": 307552,
+        "before": {
+          "country": "FR",
+          "name": "フランス",
+          "male": 26084,
+          "female": 28818,
+          "surname": 252650,
+          "givenName": 54902,
+          "total": 307552
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -22,
+        "female": -13,
+        "givenName": -35,
+        "surname": -1,
+        "total": -36
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "KR",
+      "name": "韓国",
+      "male": 37534,
+      "female": 29825,
+      "surname": 629,
+      "givenName": 67359,
+      "total": 67988,
+      "before": {
+        "country": "KR",
+        "name": "韓国",
+        "male": 37543,
+        "female": 29828,
+        "surname": 629,
+        "givenName": 67371,
+        "total": 68000,
+        "before": {
+          "country": "KR",
+          "name": "韓国",
+          "male": 37543,
+          "female": 29828,
+          "surname": 629,
+          "givenName": 67371,
+          "total": 68000
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -9,
+        "female": -3,
+        "givenName": -12,
+        "surname": 0,
+        "total": -12
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "DE",
+      "name": "ドイツ",
+      "male": 7025,
+      "female": 5245,
+      "surname": 55636,
+      "givenName": 12270,
+      "total": 67906,
+      "before": {
+        "country": "DE",
+        "name": "ドイツ",
+        "male": 7047,
+        "female": 5261,
+        "surname": 55635,
+        "givenName": 12308,
+        "total": 67943,
+        "before": {
+          "country": "DE",
+          "name": "ドイツ",
+          "male": 7047,
+          "female": 5261,
+          "surname": 55635,
+          "givenName": 12308,
+          "total": 67943
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -22,
+        "female": -16,
+        "givenName": -38,
+        "surname": 1,
+        "total": -37
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IT",
+      "name": "イタリア",
+      "male": 63461,
+      "female": 60099,
+      "surname": 55671,
+      "givenName": 123560,
+      "total": 179231,
+      "before": {
+        "country": "IT",
+        "name": "イタリア",
+        "male": 63480,
+        "female": 60113,
+        "surname": 55670,
+        "givenName": 123593,
+        "total": 179263,
+        "before": {
+          "country": "IT",
+          "name": "イタリア",
+          "male": 63480,
+          "female": 60113,
+          "surname": 55670,
+          "givenName": 123593,
+          "total": 179263
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -19,
+        "female": -14,
+        "givenName": -33,
+        "surname": 1,
+        "total": -32
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "ES",
+      "name": "スペイン",
+      "male": 32479,
+      "female": 33036,
+      "surname": 94501,
+      "givenName": 65515,
+      "total": 160016,
+      "before": {
+        "country": "ES",
+        "name": "スペイン",
+        "male": 32496,
+        "female": 33051,
+        "surname": 94505,
+        "givenName": 65547,
+        "total": 160052,
+        "before": {
+          "country": "ES",
+          "name": "スペイン",
+          "male": 32496,
+          "female": 33051,
+          "surname": 94505,
+          "givenName": 65547,
+          "total": 160052
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -17,
+        "female": -15,
+        "givenName": -32,
+        "surname": -4,
+        "total": -36
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PT",
+      "name": "ポルトガル",
+      "male": 1444,
+      "female": 1167,
+      "surname": 2264,
+      "givenName": 2611,
+      "total": 4875,
+      "before": {
+        "country": "PT",
+        "name": "ポルトガル",
+        "male": 1458,
+        "female": 1174,
+        "surname": 2264,
+        "givenName": 2632,
+        "total": 4896,
+        "before": {
+          "country": "PT",
+          "name": "ポルトガル",
+          "male": 1458,
+          "female": 1174,
+          "surname": 2264,
+          "givenName": 2632,
+          "total": 4896
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -14,
+        "female": -7,
+        "givenName": -21,
+        "surname": 0,
+        "total": -21
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "NL",
+      "name": "オランダ",
+      "male": 5157,
+      "female": 4453,
+      "surname": 17387,
+      "givenName": 9610,
+      "total": 26997,
+      "before": {
+        "country": "NL",
+        "name": "オランダ",
+        "male": 5180,
+        "female": 4472,
+        "surname": 17383,
+        "givenName": 9652,
+        "total": 27035,
+        "before": {
+          "country": "NL",
+          "name": "オランダ",
+          "male": 5180,
+          "female": 4472,
+          "surname": 17383,
+          "givenName": 9652,
+          "total": 27035
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -23,
+        "female": -19,
+        "givenName": -42,
+        "surname": 4,
+        "total": -38
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BE",
+      "name": "ベルギー",
+      "male": 7671,
+      "female": 7784,
+      "surname": 111193,
+      "givenName": 15455,
+      "total": 126648,
+      "before": {
+        "country": "BE",
+        "name": "ベルギー",
+        "male": 7689,
+        "female": 7790,
+        "surname": 111194,
+        "givenName": 15479,
+        "total": 126673,
+        "before": {
+          "country": "BE",
+          "name": "ベルギー",
+          "male": 7689,
+          "female": 7790,
+          "surname": 111194,
+          "givenName": 15479,
+          "total": 126673
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -18,
+        "female": -6,
+        "givenName": -24,
+        "surname": -1,
+        "total": -25
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CH",
+      "name": "スイス",
+      "male": 3638,
+      "female": 2717,
+      "surname": 32065,
+      "givenName": 6355,
+      "total": 38420,
+      "before": {
+        "country": "CH",
+        "name": "スイス",
+        "male": 3655,
+        "female": 2726,
+        "surname": 32066,
+        "givenName": 6381,
+        "total": 38447,
+        "before": {
+          "country": "CH",
+          "name": "スイス",
+          "male": 3655,
+          "female": 2726,
+          "surname": 32066,
+          "givenName": 6381,
+          "total": 38447
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -17,
+        "female": -9,
+        "givenName": -26,
+        "surname": -1,
+        "total": -27
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AT",
+      "name": "オーストリア",
+      "male": 12563,
+      "female": 13561,
+      "surname": 16332,
+      "givenName": 26124,
+      "total": 42456,
+      "before": {
+        "country": "AT",
+        "name": "オーストリア",
+        "male": 12579,
+        "female": 13570,
+        "surname": 16333,
+        "givenName": 26149,
+        "total": 42482,
+        "before": {
+          "country": "AT",
+          "name": "オーストリア",
+          "male": 12579,
+          "female": 13570,
+          "surname": 16333,
+          "givenName": 26149,
+          "total": 42482
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -16,
+        "female": -9,
+        "givenName": -25,
+        "surname": -1,
+        "total": -26
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IE",
+      "name": "アイルランド",
+      "male": 1391,
+      "female": 1183,
+      "surname": 4118,
+      "givenName": 2574,
+      "total": 6692,
+      "before": {
+        "country": "IE",
+        "name": "アイルランド",
+        "male": 1407,
+        "female": 1196,
+        "surname": 4118,
+        "givenName": 2603,
+        "total": 6721,
+        "before": {
+          "country": "IE",
+          "name": "アイルランド",
+          "male": 1407,
+          "female": 1196,
+          "surname": 4118,
+          "givenName": 2603,
+          "total": 6721
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -16,
+        "female": -13,
+        "givenName": -29,
+        "surname": 0,
+        "total": -29
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CA",
+      "name": "カナダ",
+      "male": 39763,
+      "female": 54938,
+      "surname": 30871,
+      "givenName": 94701,
+      "total": 125572,
+      "before": {
+        "country": "CA",
+        "name": "カナダ",
+        "male": 39786,
+        "female": 54959,
+        "surname": 30870,
+        "givenName": 94745,
+        "total": 125615,
+        "before": {
+          "country": "CA",
+          "name": "カナダ",
+          "male": 39786,
+          "female": 54959,
+          "surname": 30870,
+          "givenName": 94745,
+          "total": 125615
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -23,
+        "female": -21,
+        "givenName": -44,
+        "surname": 1,
+        "total": -43
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BR",
+      "name": "ブラジル",
+      "male": 61891,
+      "female": 73802,
+      "surname": 203163,
+      "givenName": 135693,
+      "total": 338856,
+      "before": {
+        "country": "BR",
+        "name": "ブラジル",
+        "male": 61906,
+        "female": 73814,
+        "surname": 203164,
+        "givenName": 135720,
+        "total": 338884,
+        "before": {
+          "country": "BR",
+          "name": "ブラジル",
+          "male": 61906,
+          "female": 73814,
+          "surname": 203164,
+          "givenName": 135720,
+          "total": 338884
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -15,
+        "female": -12,
+        "givenName": -27,
+        "surname": -1,
+        "total": -28
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MX",
+      "name": "メキシコ",
+      "male": 1885,
+      "female": 1778,
+      "surname": 4569,
+      "givenName": 3663,
+      "total": 8232,
+      "before": {
+        "country": "MX",
+        "name": "メキシコ",
+        "male": 1900,
+        "female": 1786,
+        "surname": 4568,
+        "givenName": 3686,
+        "total": 8254,
+        "before": {
+          "country": "MX",
+          "name": "メキシコ",
+          "male": 1900,
+          "female": 1786,
+          "surname": 4568,
+          "givenName": 3686,
+          "total": 8254
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -15,
+        "female": -8,
+        "givenName": -23,
+        "surname": 1,
+        "total": -22
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AR",
+      "name": "アルゼンチン",
+      "male": 1888,
+      "female": 1265,
+      "surname": 10929,
+      "givenName": 3153,
+      "total": 14082,
+      "before": {
+        "country": "AR",
+        "name": "アルゼンチン",
+        "male": 1905,
+        "female": 1274,
+        "surname": 10927,
+        "givenName": 3179,
+        "total": 14106,
+        "before": {
+          "country": "AR",
+          "name": "アルゼンチン",
+          "male": 1905,
+          "female": 1274,
+          "surname": 10927,
+          "givenName": 3179,
+          "total": 14106
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -17,
+        "female": -9,
+        "givenName": -26,
+        "surname": 2,
+        "total": -24
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CO",
+      "name": "コロンビア",
+      "male": 1644,
+      "female": 1318,
+      "surname": 2278,
+      "givenName": 2962,
+      "total": 5240,
+      "before": {
+        "country": "CO",
+        "name": "コロンビア",
+        "male": 1651,
+        "female": 1322,
+        "surname": 2279,
+        "givenName": 2973,
+        "total": 5252,
+        "before": {
+          "country": "CO",
+          "name": "コロンビア",
+          "male": 1651,
+          "female": 1322,
+          "surname": 2279,
+          "givenName": 2973,
+          "total": 5252
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -4,
+        "givenName": -11,
+        "surname": -1,
+        "total": -12
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CL",
+      "name": "チリ",
+      "male": 76620,
+      "female": 128408,
+      "surname": 3262,
+      "givenName": 205028,
+      "total": 208290,
+      "before": {
+        "country": "CL",
+        "name": "チリ",
+        "male": 76628,
+        "female": 128411,
+        "surname": 3262,
+        "givenName": 205039,
+        "total": 208301,
+        "before": {
+          "country": "CL",
+          "name": "チリ",
+          "male": 76628,
+          "female": 128411,
+          "surname": 3262,
+          "givenName": 205039,
+          "total": 208301
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -8,
+        "female": -3,
+        "givenName": -11,
+        "surname": 0,
+        "total": -11
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PE",
+      "name": "ペルー",
+      "male": 2207,
+      "female": 2219,
+      "surname": 6077,
+      "givenName": 4426,
+      "total": 10503,
+      "before": {
+        "country": "PE",
+        "name": "ペルー",
+        "male": 2215,
+        "female": 2219,
+        "surname": 6077,
+        "givenName": 4434,
+        "total": 10511,
+        "before": {
+          "country": "PE",
+          "name": "ペルー",
+          "male": 2215,
+          "female": 2219,
+          "surname": 6077,
+          "givenName": 4434,
+          "total": 10511
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -8,
+        "female": 0,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "ZA",
+      "name": "南アフリカ",
+      "male": 2347,
+      "female": 2056,
+      "surname": 4845,
+      "givenName": 4403,
+      "total": 9248,
+      "before": {
+        "country": "ZA",
+        "name": "南アフリカ",
+        "male": 2366,
+        "female": 2066,
+        "surname": 4845,
+        "givenName": 4432,
+        "total": 9277,
+        "before": {
+          "country": "ZA",
+          "name": "南アフリカ",
+          "male": 2366,
+          "female": 2066,
+          "surname": 4845,
+          "givenName": 4432,
+          "total": 9277
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -19,
+        "female": -10,
+        "givenName": -29,
+        "surname": 0,
+        "total": -29
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "NG",
+      "name": "ナイジェリア",
+      "male": 2058,
+      "female": 1276,
+      "surname": 3337,
+      "givenName": 3334,
+      "total": 6671,
+      "before": {
+        "country": "NG",
+        "name": "ナイジェリア",
+        "male": 2073,
+        "female": 1276,
+        "surname": 3336,
+        "givenName": 3349,
+        "total": 6685,
+        "before": {
+          "country": "NG",
+          "name": "ナイジェリア",
+          "male": 2073,
+          "female": 1276,
+          "surname": 3336,
+          "givenName": 3349,
+          "total": 6685
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -15,
+        "female": 0,
+        "givenName": -15,
+        "surname": 1,
+        "total": -14
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IN",
+      "name": "インド",
+      "male": 4290,
+      "female": 1903,
+      "surname": 3460,
+      "givenName": 6193,
+      "total": 9653,
+      "before": {
+        "country": "IN",
+        "name": "インド",
+        "male": 4312,
+        "female": 1924,
+        "surname": 3470,
+        "givenName": 6236,
+        "total": 9706,
+        "before": {
+          "country": "IN",
+          "name": "インド",
+          "male": 4312,
+          "female": 1924,
+          "surname": 3470,
+          "givenName": 6236,
+          "total": 9706
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -22,
+        "female": -21,
+        "givenName": -43,
+        "surname": -10,
+        "total": -53
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "TR",
+      "name": "トルコ",
+      "male": 3048,
+      "female": 2380,
+      "surname": 6837,
+      "givenName": 5428,
+      "total": 12265,
+      "before": {
+        "country": "TR",
+        "name": "トルコ",
+        "male": 3057,
+        "female": 2387,
+        "surname": 6837,
+        "givenName": 5444,
+        "total": 12281,
+        "before": {
+          "country": "TR",
+          "name": "トルコ",
+          "male": 3057,
+          "female": 2387,
+          "surname": 6837,
+          "givenName": 5444,
+          "total": 12281
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -9,
+        "female": -7,
+        "givenName": -16,
+        "surname": 0,
+        "total": -16
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PL",
+      "name": "ポーランド",
+      "male": 47605,
+      "female": 30163,
+      "surname": 609181,
+      "givenName": 77768,
+      "total": 686949,
+      "before": {
+        "country": "PL",
+        "name": "ポーランド",
+        "male": 47611,
+        "female": 30169,
+        "surname": 609182,
+        "givenName": 77780,
+        "total": 686962,
+        "before": {
+          "country": "PL",
+          "name": "ポーランド",
+          "male": 47611,
+          "female": 30169,
+          "surname": 609182,
+          "givenName": 77780,
+          "total": 686962
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -6,
+        "female": -6,
+        "givenName": -12,
+        "surname": -1,
+        "total": -13
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AE",
+      "name": "アラブ首長国連邦",
+      "male": 910,
+      "female": 397,
+      "surname": 831,
+      "givenName": 1307,
+      "total": 2138,
+      "before": {
+        "country": "AE",
+        "name": "アラブ首長国連邦",
+        "male": 910,
+        "female": 397,
+        "surname": 831,
+        "givenName": 1307,
+        "total": 2138,
+        "before": {
+          "country": "AE",
+          "name": "アラブ首長国連邦",
+          "male": 910,
+          "female": 397,
+          "surname": 831,
+          "givenName": 1307,
+          "total": 2138
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "AO",
+      "name": "アンゴラ",
+      "male": 456,
+      "female": 316,
+      "surname": 521,
+      "givenName": 772,
+      "total": 1293,
+      "before": {
+        "country": "AO",
+        "name": "アンゴラ",
+        "male": 457,
+        "female": 316,
+        "surname": 521,
+        "givenName": 773,
+        "total": 1294,
+        "before": {
+          "country": "AO",
+          "name": "アンゴラ",
+          "male": 457,
+          "female": 316,
+          "surname": 521,
+          "givenName": 773,
+          "total": 1294
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BD",
+      "name": "バングラデシュ",
+      "male": 656,
+      "female": 382,
+      "surname": 642,
+      "givenName": 1038,
+      "total": 1680,
+      "before": {
+        "country": "BD",
+        "name": "バングラデシュ",
+        "male": 669,
+        "female": 383,
+        "surname": 642,
+        "givenName": 1052,
+        "total": 1694,
+        "before": {
+          "country": "BD",
+          "name": "バングラデシュ",
+          "male": 669,
+          "female": 383,
+          "surname": 642,
+          "givenName": 1052,
+          "total": 1694
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -13,
+        "female": -1,
+        "givenName": -14,
+        "surname": 0,
+        "total": -14
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BG",
+      "name": "ブルガリア",
+      "male": 1336,
+      "female": 1363,
+      "surname": 1321,
+      "givenName": 2699,
+      "total": 4020,
+      "before": {
+        "country": "BG",
+        "name": "ブルガリア",
+        "male": 1336,
+        "female": 1364,
+        "surname": 1320,
+        "givenName": 2700,
+        "total": 4020,
+        "before": {
+          "country": "BG",
+          "name": "ブルガリア",
+          "male": 1336,
+          "female": 1364,
+          "surname": 1320,
+          "givenName": 2700,
+          "total": 4020
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": -1,
+        "givenName": -1,
+        "surname": 1,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "BH",
+      "name": "バーレーン",
+      "male": 1703,
+      "female": 1109,
+      "surname": 329,
+      "givenName": 2812,
+      "total": 3141,
+      "before": {
+        "country": "BH",
+        "name": "バーレーン",
+        "male": 1703,
+        "female": 1109,
+        "surname": 329,
+        "givenName": 2812,
+        "total": 3141,
+        "before": {
+          "country": "BH",
+          "name": "バーレーン",
+          "male": 1703,
+          "female": 1109,
+          "surname": 329,
+          "givenName": 2812,
+          "total": 3141
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BO",
+      "name": "ボリビア",
+      "male": 678,
+      "female": 474,
+      "surname": 944,
+      "givenName": 1152,
+      "total": 2096,
+      "before": {
+        "country": "BO",
+        "name": "ボリビア",
+        "male": 680,
+        "female": 476,
+        "surname": 944,
+        "givenName": 1156,
+        "total": 2100,
+        "before": {
+          "country": "BO",
+          "name": "ボリビア",
+          "male": 680,
+          "female": 476,
+          "surname": 944,
+          "givenName": 1156,
+          "total": 2100
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": -2,
+        "givenName": -4,
+        "surname": 0,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CM",
+      "name": "カメルーン",
+      "male": 806,
+      "female": 660,
+      "surname": 868,
+      "givenName": 1466,
+      "total": 2334,
+      "before": {
+        "country": "CM",
+        "name": "カメルーン",
+        "male": 808,
+        "female": 659,
+        "surname": 868,
+        "givenName": 1467,
+        "total": 2335,
+        "before": {
+          "country": "CM",
+          "name": "カメルーン",
+          "male": 808,
+          "female": 659,
+          "surname": 868,
+          "givenName": 1467,
+          "total": 2335
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": 1,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CN",
+      "name": "中国",
+      "male": 4001,
+      "female": 2549,
+      "surname": 1605,
+      "givenName": 6550,
+      "total": 8155,
+      "before": {
+        "country": "CN",
+        "name": "中国",
+        "male": 2174,
+        "female": 1450,
+        "surname": 899,
+        "givenName": 3624,
+        "total": 4523,
+        "before": {
+          "country": "CN",
+          "name": "中国",
+          "male": 2174,
+          "female": 1450,
+          "surname": 899,
+          "givenName": 3624,
+          "total": 4523
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 1827,
+        "female": 1099,
+        "givenName": 2926,
+        "surname": 706,
+        "total": 3632
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CR",
+      "name": "コスタリカ",
+      "male": 689,
+      "female": 446,
+      "surname": 727,
+      "givenName": 1135,
+      "total": 1862,
+      "before": {
+        "country": "CR",
+        "name": "コスタリカ",
+        "male": 692,
+        "female": 447,
+        "surname": 727,
+        "givenName": 1139,
+        "total": 1866,
+        "before": {
+          "country": "CR",
+          "name": "コスタリカ",
+          "male": 692,
+          "female": 447,
+          "surname": 727,
+          "givenName": 1139,
+          "total": 1866
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": -1,
+        "givenName": -4,
+        "surname": 0,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CZ",
+      "name": "チェコ",
+      "male": 878,
+      "female": 855,
+      "surname": 9774,
+      "givenName": 1733,
+      "total": 11507,
+      "before": {
+        "country": "CZ",
+        "name": "チェコ",
+        "male": 884,
+        "female": 857,
+        "surname": 9772,
+        "givenName": 1741,
+        "total": 11513,
+        "before": {
+          "country": "CZ",
+          "name": "チェコ",
+          "male": 884,
+          "female": 857,
+          "surname": 9772,
+          "givenName": 1741,
+          "total": 11513
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -6,
+        "female": -2,
+        "givenName": -8,
+        "surname": 2,
+        "total": -6
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "DK",
+      "name": "デンマーク",
+      "male": 2520,
+      "female": 1816,
+      "surname": 292559,
+      "givenName": 4336,
+      "total": 296895,
+      "before": {
+        "country": "DK",
+        "name": "デンマーク",
+        "male": 1777,
+        "female": 1332,
+        "surname": 291516,
+        "givenName": 3109,
+        "total": 294625,
+        "before": {
+          "country": "DK",
+          "name": "デンマーク",
+          "male": 1777,
+          "female": 1332,
+          "surname": 291516,
+          "givenName": 3109,
+          "total": 294625
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 743,
+        "female": 484,
+        "givenName": 1227,
+        "surname": 1043,
+        "total": 2270
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "DZ",
+      "name": "アルジェリア",
+      "male": 1358,
+      "female": 1149,
+      "surname": 2034,
+      "givenName": 2507,
+      "total": 4541,
+      "before": {
+        "country": "DZ",
+        "name": "アルジェリア",
+        "male": 1360,
+        "female": 1149,
+        "surname": 2034,
+        "givenName": 2509,
+        "total": 4543,
+        "before": {
+          "country": "DZ",
+          "name": "アルジェリア",
+          "male": 1360,
+          "female": 1149,
+          "surname": 2034,
+          "givenName": 2509,
+          "total": 4543
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "EG",
+      "name": "エジプト",
+      "male": 1632,
+      "female": 1354,
+      "surname": 2684,
+      "givenName": 2986,
+      "total": 5670,
+      "before": {
+        "country": "EG",
+        "name": "エジプト",
+        "male": 1634,
+        "female": 1355,
+        "surname": 2683,
+        "givenName": 2989,
+        "total": 5672,
+        "before": {
+          "country": "EG",
+          "name": "エジプト",
+          "male": 1634,
+          "female": 1355,
+          "surname": 2683,
+          "givenName": 2989,
+          "total": 5672
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": -1,
+        "givenName": -3,
+        "surname": 1,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "FI",
+      "name": "フィンランド",
+      "male": 11326,
+      "female": 14455,
+      "surname": 27376,
+      "givenName": 25781,
+      "total": 53157,
+      "before": {
+        "country": "FI",
+        "name": "フィンランド",
+        "male": 11336,
+        "female": 14457,
+        "surname": 27376,
+        "givenName": 25793,
+        "total": 53169,
+        "before": {
+          "country": "FI",
+          "name": "フィンランド",
+          "male": 11336,
+          "female": 14457,
+          "surname": 27376,
+          "givenName": 25793,
+          "total": 53169
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -10,
+        "female": -2,
+        "givenName": -12,
+        "surname": 0,
+        "total": -12
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GH",
+      "name": "ガーナ",
+      "male": 722,
+      "female": 512,
+      "surname": 1047,
+      "givenName": 1234,
+      "total": 2281,
+      "before": {
+        "country": "GH",
+        "name": "ガーナ",
+        "male": 730,
+        "female": 512,
+        "surname": 1047,
+        "givenName": 1242,
+        "total": 2289,
+        "before": {
+          "country": "GH",
+          "name": "ガーナ",
+          "male": 730,
+          "female": 512,
+          "surname": 1047,
+          "givenName": 1242,
+          "total": 2289
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -8,
+        "female": 0,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GR",
+      "name": "ギリシャ",
+      "male": 1125,
+      "female": 1076,
+      "surname": 2109,
+      "givenName": 2201,
+      "total": 4310,
+      "before": {
+        "country": "GR",
+        "name": "ギリシャ",
+        "male": 1137,
+        "female": 1078,
+        "surname": 2109,
+        "givenName": 2215,
+        "total": 4324,
+        "before": {
+          "country": "GR",
+          "name": "ギリシャ",
+          "male": 1137,
+          "female": 1078,
+          "surname": 2109,
+          "givenName": 2215,
+          "total": 4324
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -12,
+        "female": -2,
+        "givenName": -14,
+        "surname": 0,
+        "total": -14
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GT",
+      "name": "グアテマラ",
+      "male": 502,
+      "female": 370,
+      "surname": 624,
+      "givenName": 872,
+      "total": 1496,
+      "before": {
+        "country": "GT",
+        "name": "グアテマラ",
+        "male": 506,
+        "female": 371,
+        "surname": 624,
+        "givenName": 877,
+        "total": 1501,
+        "before": {
+          "country": "GT",
+          "name": "グアテマラ",
+          "male": 506,
+          "female": 371,
+          "surname": 624,
+          "givenName": 877,
+          "total": 1501
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -4,
+        "female": -1,
+        "givenName": -5,
+        "surname": 0,
+        "total": -5
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "HK",
+      "name": "香港",
+      "male": 784,
+      "female": 763,
+      "surname": 663,
+      "givenName": 1547,
+      "total": 2210,
+      "before": {
+        "country": "HK",
+        "name": "香港",
+        "male": 790,
+        "female": 765,
+        "surname": 663,
+        "givenName": 1555,
+        "total": 2218,
+        "before": {
+          "country": "HK",
+          "name": "香港",
+          "male": 790,
+          "female": 765,
+          "surname": 663,
+          "givenName": 1555,
+          "total": 2218
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -6,
+        "female": -2,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IL",
+      "name": "イスラエル",
+      "male": 2080,
+      "female": 1705,
+      "surname": 6443,
+      "givenName": 3785,
+      "total": 10228,
+      "before": {
+        "country": "IL",
+        "name": "イスラエル",
+        "male": 2093,
+        "female": 1710,
+        "surname": 6441,
+        "givenName": 3803,
+        "total": 10244,
+        "before": {
+          "country": "IL",
+          "name": "イスラエル",
+          "male": 2093,
+          "female": 1710,
+          "surname": 6441,
+          "givenName": 3803,
+          "total": 10244
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -13,
+        "female": -5,
+        "givenName": -18,
+        "surname": 2,
+        "total": -16
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IQ",
+      "name": "イラク",
+      "male": 1184,
+      "female": 613,
+      "surname": 1224,
+      "givenName": 1797,
+      "total": 3021,
+      "before": {
+        "country": "IQ",
+        "name": "イラク",
+        "male": 1187,
+        "female": 613,
+        "surname": 1224,
+        "givenName": 1800,
+        "total": 3024,
+        "before": {
+          "country": "IQ",
+          "name": "イラク",
+          "male": 1187,
+          "female": 613,
+          "surname": 1224,
+          "givenName": 1800,
+          "total": 3024
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": 0,
+        "givenName": -3,
+        "surname": 0,
+        "total": -3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IR",
+      "name": "イラン",
+      "male": 1929,
+      "female": 1317,
+      "surname": 1781,
+      "givenName": 3246,
+      "total": 5027,
+      "before": {
+        "country": "IR",
+        "name": "イラン",
+        "male": 1933,
+        "female": 1319,
+        "surname": 1781,
+        "givenName": 3252,
+        "total": 5033,
+        "before": {
+          "country": "IR",
+          "name": "イラン",
+          "male": 1933,
+          "female": 1319,
+          "surname": 1781,
+          "givenName": 3252,
+          "total": 5033
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -4,
+        "female": -2,
+        "givenName": -6,
+        "surname": 0,
+        "total": -6
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "JO",
+      "name": "ヨルダン",
+      "male": 616,
+      "female": 390,
+      "surname": 515,
+      "givenName": 1006,
+      "total": 1521,
+      "before": {
+        "country": "JO",
+        "name": "ヨルダン",
+        "male": 617,
+        "female": 390,
+        "surname": 515,
+        "givenName": 1007,
+        "total": 1522,
+        "before": {
+          "country": "JO",
+          "name": "ヨルダン",
+          "male": 617,
+          "female": 390,
+          "surname": 515,
+          "givenName": 1007,
+          "total": 1522
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "KW",
+      "name": "クウェート",
+      "male": 470,
+      "female": 303,
+      "surname": 457,
+      "givenName": 773,
+      "total": 1230,
+      "before": {
+        "country": "KW",
+        "name": "クウェート",
+        "male": 470,
+        "female": 303,
+        "surname": 457,
+        "givenName": 773,
+        "total": 1230,
+        "before": {
+          "country": "KW",
+          "name": "クウェート",
+          "male": 470,
+          "female": 303,
+          "surname": 457,
+          "givenName": 773,
+          "total": 1230
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "KZ",
+      "name": "カザフスタン",
+      "male": 716,
+      "female": 660,
+      "surname": 1125,
+      "givenName": 1376,
+      "total": 2501,
+      "before": {
+        "country": "KZ",
+        "name": "カザフスタン",
+        "male": 723,
+        "female": 663,
+        "surname": 1125,
+        "givenName": 1386,
+        "total": 2511,
+        "before": {
+          "country": "KZ",
+          "name": "カザフスタン",
+          "male": 723,
+          "female": 663,
+          "surname": 1125,
+          "givenName": 1386,
+          "total": 2511
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -3,
+        "givenName": -10,
+        "surname": 0,
+        "total": -10
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LB",
+      "name": "レバノン",
+      "male": 800,
+      "female": 576,
+      "surname": 966,
+      "givenName": 1376,
+      "total": 2342,
+      "before": {
+        "country": "LB",
+        "name": "レバノン",
+        "male": 802,
+        "female": 576,
+        "surname": 965,
+        "givenName": 1378,
+        "total": 2343,
+        "before": {
+          "country": "LB",
+          "name": "レバノン",
+          "male": 802,
+          "female": 576,
+          "surname": 965,
+          "givenName": 1378,
+          "total": 2343
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 1,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LU",
+      "name": "ルクセンブルク",
+      "male": 838,
+      "female": 739,
+      "surname": 2757,
+      "givenName": 1577,
+      "total": 4334,
+      "before": {
+        "country": "LU",
+        "name": "ルクセンブルク",
+        "male": 839,
+        "female": 739,
+        "surname": 2757,
+        "givenName": 1578,
+        "total": 4335,
+        "before": {
+          "country": "LU",
+          "name": "ルクセンブルク",
+          "male": 839,
+          "female": 739,
+          "surname": 2757,
+          "givenName": 1578,
+          "total": 4335
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LY",
+      "name": "リビア",
+      "male": 488,
+      "female": 311,
+      "surname": 428,
+      "givenName": 799,
+      "total": 1227,
+      "before": {
+        "country": "LY",
+        "name": "リビア",
+        "male": 488,
+        "female": 311,
+        "surname": 428,
+        "givenName": 799,
+        "total": 1227,
+        "before": {
+          "country": "LY",
+          "name": "リビア",
+          "male": 488,
+          "female": 311,
+          "surname": 428,
+          "givenName": 799,
+          "total": 1227
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "MA",
+      "name": "モロッコ",
+      "male": 1607,
+      "female": 1350,
+      "surname": 2604,
+      "givenName": 2957,
+      "total": 5561,
+      "before": {
+        "country": "MA",
+        "name": "モロッコ",
+        "male": 1607,
+        "female": 1350,
+        "surname": 2602,
+        "givenName": 2957,
+        "total": 5559,
+        "before": {
+          "country": "MA",
+          "name": "モロッコ",
+          "male": 1607,
+          "female": 1350,
+          "surname": 2602,
+          "givenName": 2957,
+          "total": 5559
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 2,
+        "total": 2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MO",
+      "name": "マカオ",
+      "male": 142,
+      "female": 76,
+      "surname": 157,
+      "givenName": 218,
+      "total": 375,
+      "before": {
+        "country": "MO",
+        "name": "マカオ",
+        "male": 142,
+        "female": 76,
+        "surname": 157,
+        "givenName": 218,
+        "total": 375,
+        "before": {
+          "country": "MO",
+          "name": "マカオ",
+          "male": 142,
+          "female": 76,
+          "surname": 157,
+          "givenName": 218,
+          "total": 375
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MU",
+      "name": "モーリシャス",
+      "male": 454,
+      "female": 343,
+      "surname": 494,
+      "givenName": 797,
+      "total": 1291,
+      "before": {
+        "country": "MU",
+        "name": "モーリシャス",
+        "male": 464,
+        "female": 353,
+        "surname": 494,
+        "givenName": 817,
+        "total": 1311,
+        "before": {
+          "country": "MU",
+          "name": "モーリシャス",
+          "male": 464,
+          "female": 353,
+          "surname": 494,
+          "givenName": 817,
+          "total": 1311
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -10,
+        "female": -10,
+        "givenName": -20,
+        "surname": 0,
+        "total": -20
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MY",
+      "name": "マレーシア",
+      "male": 1630,
+      "female": 1169,
+      "surname": 1555,
+      "givenName": 2799,
+      "total": 4354,
+      "before": {
+        "country": "MY",
+        "name": "マレーシア",
+        "male": 1649,
+        "female": 1175,
+        "surname": 1554,
+        "givenName": 2824,
+        "total": 4378,
+        "before": {
+          "country": "MY",
+          "name": "マレーシア",
+          "male": 1649,
+          "female": 1175,
+          "surname": 1554,
+          "givenName": 2824,
+          "total": 4378
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -19,
+        "female": -6,
+        "givenName": -25,
+        "surname": 1,
+        "total": -24
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "NO",
+      "name": "ノルウェー",
+      "male": 2643,
+      "female": 2123,
+      "surname": 322280,
+      "givenName": 4766,
+      "total": 327046,
+      "before": {
+        "country": "NO",
+        "name": "ノルウェー",
+        "male": 2656,
+        "female": 2126,
+        "surname": 322280,
+        "givenName": 4782,
+        "total": 327062,
+        "before": {
+          "country": "NO",
+          "name": "ノルウェー",
+          "male": 2656,
+          "female": 2126,
+          "surname": 322280,
+          "givenName": 4782,
+          "total": 327062
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -13,
+        "female": -3,
+        "givenName": -16,
+        "surname": 0,
+        "total": -16
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "OM",
+      "name": "オマーン",
+      "male": 606,
+      "female": 269,
+      "surname": 561,
+      "givenName": 875,
+      "total": 1436,
+      "before": {
+        "country": "OM",
+        "name": "オマーン",
+        "male": 606,
+        "female": 269,
+        "surname": 561,
+        "givenName": 875,
+        "total": 1436,
+        "before": {
+          "country": "OM",
+          "name": "オマーン",
+          "male": 606,
+          "female": 269,
+          "surname": 561,
+          "givenName": 875,
+          "total": 1436
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "PA",
+      "name": "パナマ",
+      "male": 588,
+      "female": 403,
+      "surname": 877,
+      "givenName": 991,
+      "total": 1868,
+      "before": {
+        "country": "PA",
+        "name": "パナマ",
+        "male": 589,
+        "female": 403,
+        "surname": 877,
+        "givenName": 992,
+        "total": 1869,
+        "before": {
+          "country": "PA",
+          "name": "パナマ",
+          "male": 589,
+          "female": 403,
+          "surname": 877,
+          "givenName": 992,
+          "total": 1869
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PH",
+      "name": "フィリピン",
+      "male": 1369,
+      "female": 1059,
+      "surname": 2311,
+      "givenName": 2428,
+      "total": 4739,
+      "before": {
+        "country": "PH",
+        "name": "フィリピン",
+        "male": 1387,
+        "female": 1070,
+        "surname": 2310,
+        "givenName": 2457,
+        "total": 4767,
+        "before": {
+          "country": "PH",
+          "name": "フィリピン",
+          "male": 1387,
+          "female": 1070,
+          "surname": 2310,
+          "givenName": 2457,
+          "total": 4767
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -18,
+        "female": -11,
+        "givenName": -29,
+        "surname": 1,
+        "total": -28
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PS",
+      "name": "パレスチナ",
+      "male": 791,
+      "female": 500,
+      "surname": 680,
+      "givenName": 1291,
+      "total": 1971,
+      "before": {
+        "country": "PS",
+        "name": "パレスチナ",
+        "male": 791,
+        "female": 500,
+        "surname": 680,
+        "givenName": 1291,
+        "total": 1971,
+        "before": {
+          "country": "PS",
+          "name": "パレスチナ",
+          "male": 791,
+          "female": 500,
+          "surname": 680,
+          "givenName": 1291,
+          "total": 1971
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "QA",
+      "name": "カタール",
+      "male": 472,
+      "female": 259,
+      "surname": 425,
+      "givenName": 731,
+      "total": 1156,
+      "before": {
+        "country": "QA",
+        "name": "カタール",
+        "male": 472,
+        "female": 259,
+        "surname": 425,
+        "givenName": 731,
+        "total": 1156,
+        "before": {
+          "country": "QA",
+          "name": "カタール",
+          "male": 472,
+          "female": 259,
+          "surname": 425,
+          "givenName": 731,
+          "total": 1156
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "RU",
+      "name": "ロシア",
+      "male": 1614,
+      "female": 1053,
+      "surname": 8876,
+      "givenName": 2667,
+      "total": 11543,
+      "before": {
+        "country": "RU",
+        "name": "ロシア",
+        "male": 1627,
+        "female": 1060,
+        "surname": 8873,
+        "givenName": 2687,
+        "total": 11560,
+        "before": {
+          "country": "RU",
+          "name": "ロシア",
+          "male": 1627,
+          "female": 1060,
+          "surname": 8873,
+          "givenName": 2687,
+          "total": 11560
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -13,
+        "female": -7,
+        "givenName": -20,
+        "surname": 3,
+        "total": -17
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SA",
+      "name": "サウジアラビア",
+      "male": 2102,
+      "female": 821,
+      "surname": 2228,
+      "givenName": 2923,
+      "total": 5151,
+      "before": {
+        "country": "SA",
+        "name": "サウジアラビア",
+        "male": 2101,
+        "female": 821,
+        "surname": 2226,
+        "givenName": 2922,
+        "total": 5148,
+        "before": {
+          "country": "SA",
+          "name": "サウジアラビア",
+          "male": 2101,
+          "female": 821,
+          "surname": 2226,
+          "givenName": 2922,
+          "total": 5148
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 1,
+        "female": 0,
+        "givenName": 1,
+        "surname": 2,
+        "total": 3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SD",
+      "name": "スーダン",
+      "male": 611,
+      "female": 399,
+      "surname": 569,
+      "givenName": 1010,
+      "total": 1579,
+      "before": {
+        "country": "SD",
+        "name": "スーダン",
+        "male": 611,
+        "female": 399,
+        "surname": 569,
+        "givenName": 1010,
+        "total": 1579,
+        "before": {
+          "country": "SD",
+          "name": "スーダン",
+          "male": 611,
+          "female": 399,
+          "surname": 569,
+          "givenName": 1010,
+          "total": 1579
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "SE",
+      "name": "スウェーデン",
+      "male": 3495,
+      "female": 2696,
+      "surname": 18540,
+      "givenName": 6191,
+      "total": 24731,
+      "before": {
+        "country": "SE",
+        "name": "スウェーデン",
+        "male": 3514,
+        "female": 2703,
+        "surname": 18535,
+        "givenName": 6217,
+        "total": 24752,
+        "before": {
+          "country": "SE",
+          "name": "スウェーデン",
+          "male": 3514,
+          "female": 2703,
+          "surname": 18535,
+          "givenName": 6217,
+          "total": 24752
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -19,
+        "female": -7,
+        "givenName": -26,
+        "surname": 5,
+        "total": -21
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SG",
+      "name": "シンガポール",
+      "male": 734,
+      "female": 579,
+      "surname": 632,
+      "givenName": 1313,
+      "total": 1945,
+      "before": {
+        "country": "SG",
+        "name": "シンガポール",
+        "male": 749,
+        "female": 584,
+        "surname": 632,
+        "givenName": 1333,
+        "total": 1965,
+        "before": {
+          "country": "SG",
+          "name": "シンガポール",
+          "male": 749,
+          "female": 584,
+          "surname": 632,
+          "givenName": 1333,
+          "total": 1965
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -15,
+        "female": -5,
+        "givenName": -20,
+        "surname": 0,
+        "total": -20
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SY",
+      "name": "シリア",
+      "male": 977,
+      "female": 594,
+      "surname": 1137,
+      "givenName": 1571,
+      "total": 2708,
+      "before": {
+        "country": "SY",
+        "name": "シリア",
+        "male": 977,
+        "female": 594,
+        "surname": 1137,
+        "givenName": 1571,
+        "total": 2708,
+        "before": {
+          "country": "SY",
+          "name": "シリア",
+          "male": 977,
+          "female": 594,
+          "surname": 1137,
+          "givenName": 1571,
+          "total": 2708
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "TN",
+      "name": "チュニジア",
+      "male": 1023,
+      "female": 840,
+      "surname": 1472,
+      "givenName": 1863,
+      "total": 3335,
+      "before": {
+        "country": "TN",
+        "name": "チュニジア",
+        "male": 1023,
+        "female": 840,
+        "surname": 1472,
+        "givenName": 1863,
+        "total": 3335,
+        "before": {
+          "country": "TN",
+          "name": "チュニジア",
+          "male": 1023,
+          "female": 840,
+          "surname": 1472,
+          "givenName": 1863,
+          "total": 3335
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "TW",
+      "name": "台湾",
+      "male": 1136,
+      "female": 758,
+      "surname": 503,
+      "givenName": 1894,
+      "total": 2397,
+      "before": {
+        "country": "TW",
+        "name": "台湾",
+        "male": 1148,
+        "female": 765,
+        "surname": 503,
+        "givenName": 1913,
+        "total": 2416,
+        "before": {
+          "country": "TW",
+          "name": "台湾",
+          "male": 1148,
+          "female": 765,
+          "surname": 503,
+          "givenName": 1913,
+          "total": 2416
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -12,
+        "female": -7,
+        "givenName": -19,
+        "surname": 0,
+        "total": -19
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "UY",
+      "name": "ウルグアイ",
+      "male": 1179,
+      "female": 815,
+      "surname": 4174,
+      "givenName": 1994,
+      "total": 6168,
+      "before": {
+        "country": "UY",
+        "name": "ウルグアイ",
+        "male": 1197,
+        "female": 817,
+        "surname": 4174,
+        "givenName": 2014,
+        "total": 6188,
+        "before": {
+          "country": "UY",
+          "name": "ウルグアイ",
+          "male": 1197,
+          "female": 817,
+          "surname": 4174,
+          "givenName": 2014,
+          "total": 6188
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -18,
+        "female": -2,
+        "givenName": -20,
+        "surname": 0,
+        "total": -20
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "YE",
+      "name": "イエメン",
+      "male": 516,
+      "female": 246,
+      "surname": 566,
+      "givenName": 762,
+      "total": 1328,
+      "before": {
+        "country": "YE",
+        "name": "イエメン",
+        "male": 517,
+        "female": 246,
+        "surname": 566,
+        "givenName": 763,
+        "total": 1329,
+        "before": {
+          "country": "YE",
+          "name": "イエメン",
+          "male": 517,
+          "female": 246,
+          "surname": 566,
+          "givenName": 763,
+          "total": 1329
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AF",
+      "name": "アフガニスタン",
+      "male": 1482,
+      "female": 911,
+      "surname": 401,
+      "givenName": 2393,
+      "total": 2794,
+      "before": {
+        "country": "AF",
+        "name": "アフガニスタン",
+        "male": 1485,
+        "female": 911,
+        "surname": 401,
+        "givenName": 2396,
+        "total": 2797,
+        "before": {
+          "country": "AF",
+          "name": "アフガニスタン",
+          "male": 1485,
+          "female": 911,
+          "surname": 401,
+          "givenName": 2396,
+          "total": 2797
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -3,
+        "female": 0,
+        "givenName": -3,
+        "surname": 0,
+        "total": -3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AL",
+      "name": "アルバニア",
+      "male": 1535,
+      "female": 1009,
+      "surname": 1312,
+      "givenName": 2544,
+      "total": 3856,
+      "before": {
+        "country": "AL",
+        "name": "アルバニア",
+        "male": 1538,
+        "female": 1010,
+        "surname": 1312,
+        "givenName": 2548,
+        "total": 3860,
+        "before": {
+          "country": "AL",
+          "name": "アルバニア",
+          "male": 1538,
+          "female": 1010,
+          "surname": 1312,
+          "givenName": 2548,
+          "total": 3860
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": -1,
+        "givenName": -4,
+        "surname": 0,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AU",
+      "name": "オーストラリア",
+      "male": 3497,
+      "female": 2545,
+      "surname": 14472,
+      "givenName": 6042,
+      "total": 20514,
+      "before": {
+        "country": "AU",
+        "name": "オーストラリア",
+        "male": 3518,
+        "female": 2563,
+        "surname": 14472,
+        "givenName": 6081,
+        "total": 20553,
+        "before": {
+          "country": "AU",
+          "name": "オーストラリア",
+          "male": 3518,
+          "female": 2563,
+          "surname": 14472,
+          "givenName": 6081,
+          "total": 20553
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -21,
+        "female": -18,
+        "givenName": -39,
+        "surname": 0,
+        "total": -39
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AZ",
+      "name": "アゼルバイジャン",
+      "male": 790,
+      "female": 531,
+      "surname": 557,
+      "givenName": 1321,
+      "total": 1878,
+      "before": {
+        "country": "AZ",
+        "name": "アゼルバイジャン",
+        "male": 791,
+        "female": 531,
+        "surname": 557,
+        "givenName": 1322,
+        "total": 1879,
+        "before": {
+          "country": "AZ",
+          "name": "アゼルバイジャン",
+          "male": 791,
+          "female": 531,
+          "surname": 557,
+          "givenName": 1322,
+          "total": 1879
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BF",
+      "name": "ブルキナファソ",
+      "male": 927,
+      "female": 643,
+      "surname": 238,
+      "givenName": 1570,
+      "total": 1808,
+      "before": {
+        "country": "BF",
+        "name": "ブルキナファソ",
+        "male": 927,
+        "female": 645,
+        "surname": 238,
+        "givenName": 1572,
+        "total": 1810,
+        "before": {
+          "country": "BF",
+          "name": "ブルキナファソ",
+          "male": 927,
+          "female": 645,
+          "surname": 238,
+          "givenName": 1572,
+          "total": 1810
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": -2,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BI",
+      "name": "ブルンジ",
+      "male": 1347,
+      "female": 1192,
+      "surname": 144,
+      "givenName": 2539,
+      "total": 2683,
+      "before": {
+        "country": "BI",
+        "name": "ブルンジ",
+        "male": 1347,
+        "female": 1192,
+        "surname": 144,
+        "givenName": 2539,
+        "total": 2683,
+        "before": {
+          "country": "BI",
+          "name": "ブルンジ",
+          "male": 1347,
+          "female": 1192,
+          "surname": 144,
+          "givenName": 2539,
+          "total": 2683
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BN",
+      "name": "ブルネイ",
+      "male": 135,
+      "female": 89,
+      "surname": 112,
+      "givenName": 224,
+      "total": 336,
+      "before": {
+        "country": "BN",
+        "name": "ブルネイ",
+        "male": 136,
+        "female": 89,
+        "surname": 112,
+        "givenName": 225,
+        "total": 337,
+        "before": {
+          "country": "BN",
+          "name": "ブルネイ",
+          "male": 136,
+          "female": 89,
+          "surname": 112,
+          "givenName": 225,
+          "total": 337
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BW",
+      "name": "ボツワナ",
+      "male": 874,
+      "female": 896,
+      "surname": 204,
+      "givenName": 1770,
+      "total": 1974,
+      "before": {
+        "country": "BW",
+        "name": "ボツワナ",
+        "male": 875,
+        "female": 896,
+        "surname": 204,
+        "givenName": 1771,
+        "total": 1975,
+        "before": {
+          "country": "BW",
+          "name": "ボツワナ",
+          "male": 875,
+          "female": 896,
+          "surname": 204,
+          "givenName": 1771,
+          "total": 1975
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CY",
+      "name": "キプロス",
+      "male": 632,
+      "female": 327,
+      "surname": 1123,
+      "givenName": 959,
+      "total": 2082,
+      "before": {
+        "country": "CY",
+        "name": "キプロス",
+        "male": 635,
+        "female": 327,
+        "surname": 1123,
+        "givenName": 962,
+        "total": 2085,
+        "before": {
+          "country": "CY",
+          "name": "キプロス",
+          "male": 635,
+          "female": 327,
+          "surname": 1123,
+          "givenName": 962,
+          "total": 2085
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": 0,
+        "givenName": -3,
+        "surname": 0,
+        "total": -3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "DJ",
+      "name": "ジブチ",
+      "male": 703,
+      "female": 538,
+      "surname": 36,
+      "givenName": 1241,
+      "total": 1277,
+      "before": {
+        "country": "DJ",
+        "name": "ジブチ",
+        "male": 703,
+        "female": 538,
+        "surname": 36,
+        "givenName": 1241,
+        "total": 1277,
+        "before": {
+          "country": "DJ",
+          "name": "ジブチ",
+          "male": 703,
+          "female": 538,
+          "surname": 36,
+          "givenName": 1241,
+          "total": 1277
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "EC",
+      "name": "エクアドル",
+      "male": 729,
+      "female": 527,
+      "surname": 1158,
+      "givenName": 1256,
+      "total": 2414,
+      "before": {
+        "country": "EC",
+        "name": "エクアドル",
+        "male": 732,
+        "female": 529,
+        "surname": 1158,
+        "givenName": 1261,
+        "total": 2419,
+        "before": {
+          "country": "EC",
+          "name": "エクアドル",
+          "male": 732,
+          "female": 529,
+          "surname": 1158,
+          "givenName": 1261,
+          "total": 2419
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": -2,
+        "givenName": -5,
+        "surname": 0,
+        "total": -5
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "EE",
+      "name": "エストニア",
+      "male": 2131,
+      "female": 1886,
+      "surname": 13753,
+      "givenName": 4017,
+      "total": 17770,
+      "before": {
+        "country": "EE",
+        "name": "エストニア",
+        "male": 2133,
+        "female": 1886,
+        "surname": 13643,
+        "givenName": 4019,
+        "total": 17662,
+        "before": {
+          "country": "EE",
+          "name": "エストニア",
+          "male": 2133,
+          "female": 1886,
+          "surname": 13643,
+          "givenName": 4019,
+          "total": 17662
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 110,
+        "total": 108
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "ET",
+      "name": "エチオピア",
+      "male": 282,
+      "female": 179,
+      "surname": 402,
+      "givenName": 461,
+      "total": 863,
+      "before": {
+        "country": "ET",
+        "name": "エチオピア",
+        "male": 283,
+        "female": 181,
+        "surname": 402,
+        "givenName": 464,
+        "total": 866,
+        "before": {
+          "country": "ET",
+          "name": "エチオピア",
+          "male": 283,
+          "female": 181,
+          "surname": 402,
+          "givenName": 464,
+          "total": 866
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": -2,
+        "givenName": -3,
+        "surname": 0,
+        "total": -3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GE",
+      "name": "ジョージア",
+      "male": 503,
+      "female": 268,
+      "surname": 2243,
+      "givenName": 771,
+      "total": 3014,
+      "before": {
+        "country": "GE",
+        "name": "ジョージア",
+        "male": 504,
+        "female": 268,
+        "surname": 2243,
+        "givenName": 772,
+        "total": 3015,
+        "before": {
+          "country": "GE",
+          "name": "ジョージア",
+          "male": 504,
+          "female": 268,
+          "surname": 2243,
+          "givenName": 772,
+          "total": 3015
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "HN",
+      "name": "ホンジュラス",
+      "male": 441,
+      "female": 192,
+      "surname": 422,
+      "givenName": 633,
+      "total": 1055,
+      "before": {
+        "country": "HN",
+        "name": "ホンジュラス",
+        "male": 442,
+        "female": 194,
+        "surname": 422,
+        "givenName": 636,
+        "total": 1058,
+        "before": {
+          "country": "HN",
+          "name": "ホンジュラス",
+          "male": 442,
+          "female": 194,
+          "surname": 422,
+          "givenName": 636,
+          "total": 1058
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": -2,
+        "givenName": -3,
+        "surname": 0,
+        "total": -3
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "HR",
+      "name": "クロアチア",
+      "male": 985,
+      "female": 758,
+      "surname": 2883,
+      "givenName": 1743,
+      "total": 4626,
+      "before": {
+        "country": "HR",
+        "name": "クロアチア",
+        "male": 985,
+        "female": 759,
+        "surname": 2883,
+        "givenName": 1744,
+        "total": 4627,
+        "before": {
+          "country": "HR",
+          "name": "クロアチア",
+          "male": 985,
+          "female": 759,
+          "surname": 2883,
+          "givenName": 1744,
+          "total": 4627
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": -1,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "HT",
+      "name": "ハイチ",
+      "male": 528,
+      "female": 306,
+      "surname": 784,
+      "givenName": 834,
+      "total": 1618,
+      "before": {
+        "country": "HT",
+        "name": "ハイチ",
+        "male": 535,
+        "female": 307,
+        "surname": 784,
+        "givenName": 842,
+        "total": 1626,
+        "before": {
+          "country": "HT",
+          "name": "ハイチ",
+          "male": 535,
+          "female": 307,
+          "surname": 784,
+          "givenName": 842,
+          "total": 1626
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -1,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "HU",
+      "name": "ハンガリー",
+      "male": 1638,
+      "female": 1110,
+      "surname": 11399,
+      "givenName": 2748,
+      "total": 14147,
+      "before": {
+        "country": "HU",
+        "name": "ハンガリー",
+        "male": 1655,
+        "female": 1112,
+        "surname": 11417,
+        "givenName": 2767,
+        "total": 14184,
+        "before": {
+          "country": "HU",
+          "name": "ハンガリー",
+          "male": 1655,
+          "female": 1112,
+          "surname": 11417,
+          "givenName": 2767,
+          "total": 14184
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -17,
+        "female": -2,
+        "givenName": -19,
+        "surname": -18,
+        "total": -37
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "ID",
+      "name": "インドネシア",
+      "male": 1696,
+      "female": 1497,
+      "surname": 2143,
+      "givenName": 3193,
+      "total": 5336,
+      "before": {
+        "country": "ID",
+        "name": "インドネシア",
+        "male": 1715,
+        "female": 1505,
+        "surname": 2144,
+        "givenName": 3220,
+        "total": 5364,
+        "before": {
+          "country": "ID",
+          "name": "インドネシア",
+          "male": 1715,
+          "female": 1505,
+          "surname": 2144,
+          "givenName": 3220,
+          "total": 5364
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -19,
+        "female": -8,
+        "givenName": -27,
+        "surname": -1,
+        "total": -28
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IS",
+      "name": "アイスランド",
+      "male": 1057,
+      "female": 839,
+      "surname": 498,
+      "givenName": 1896,
+      "total": 2394,
+      "before": {
+        "country": "IS",
+        "name": "アイスランド",
+        "male": 1064,
+        "female": 840,
+        "surname": 498,
+        "givenName": 1904,
+        "total": 2402,
+        "before": {
+          "country": "IS",
+          "name": "アイスランド",
+          "male": 1064,
+          "female": 840,
+          "surname": 498,
+          "givenName": 1904,
+          "total": 2402
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -1,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "JM",
+      "name": "ジャマイカ",
+      "male": 733,
+      "female": 497,
+      "surname": 987,
+      "givenName": 1230,
+      "total": 2217,
+      "before": {
+        "country": "JM",
+        "name": "ジャマイカ",
+        "male": 744,
+        "female": 505,
+        "surname": 986,
+        "givenName": 1249,
+        "total": 2235,
+        "before": {
+          "country": "JM",
+          "name": "ジャマイカ",
+          "male": 744,
+          "female": 505,
+          "surname": 986,
+          "givenName": 1249,
+          "total": 2235
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -11,
+        "female": -8,
+        "givenName": -19,
+        "surname": 1,
+        "total": -18
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "KH",
+      "name": "カンボジア",
+      "male": 114,
+      "female": 48,
+      "surname": 223,
+      "givenName": 162,
+      "total": 385,
+      "before": {
+        "country": "KH",
+        "name": "カンボジア",
+        "male": 116,
+        "female": 48,
+        "surname": 223,
+        "givenName": 164,
+        "total": 387,
+        "before": {
+          "country": "KH",
+          "name": "カンボジア",
+          "male": 116,
+          "female": 48,
+          "surname": 223,
+          "givenName": 164,
+          "total": 387
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LT",
+      "name": "リトアニア",
+      "male": 983,
+      "female": 682,
+      "surname": 2124,
+      "givenName": 1665,
+      "total": 3789,
+      "before": {
+        "country": "LT",
+        "name": "リトアニア",
+        "male": 984,
+        "female": 682,
+        "surname": 2125,
+        "givenName": 1666,
+        "total": 3791,
+        "before": {
+          "country": "LT",
+          "name": "リトアニア",
+          "male": 984,
+          "female": 682,
+          "surname": 2125,
+          "givenName": 1666,
+          "total": 3791
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": -1,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MD",
+      "name": "モルドバ",
+      "male": 593,
+      "female": 377,
+      "surname": 1094,
+      "givenName": 970,
+      "total": 2064,
+      "before": {
+        "country": "MD",
+        "name": "モルドバ",
+        "male": 597,
+        "female": 377,
+        "surname": 1094,
+        "givenName": 974,
+        "total": 2068,
+        "before": {
+          "country": "MD",
+          "name": "モルドバ",
+          "male": 597,
+          "female": 377,
+          "surname": 1094,
+          "givenName": 974,
+          "total": 2068
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -4,
+        "female": 0,
+        "givenName": -4,
+        "surname": 0,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MT",
+      "name": "マルタ",
+      "male": 611,
+      "female": 475,
+      "surname": 511,
+      "givenName": 1086,
+      "total": 1597,
+      "before": {
+        "country": "MT",
+        "name": "マルタ",
+        "male": 628,
+        "female": 493,
+        "surname": 511,
+        "givenName": 1121,
+        "total": 1632,
+        "before": {
+          "country": "MT",
+          "name": "マルタ",
+          "male": 628,
+          "female": 493,
+          "surname": 511,
+          "givenName": 1121,
+          "total": 1632
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -17,
+        "female": -18,
+        "givenName": -35,
+        "surname": 0,
+        "total": -35
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MV",
+      "name": "モルディブ",
+      "male": 75,
+      "female": 65,
+      "surname": 89,
+      "givenName": 140,
+      "total": 229,
+      "before": {
+        "country": "MV",
+        "name": "モルディブ",
+        "male": 75,
+        "female": 65,
+        "surname": 89,
+        "givenName": 140,
+        "total": 229,
+        "before": {
+          "country": "MV",
+          "name": "モルディブ",
+          "male": 75,
+          "female": 65,
+          "surname": 89,
+          "givenName": 140,
+          "total": 229
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PK",
+      "name": "パキスタン",
+      "male": 655,
+      "female": 349,
+      "surname": 639,
+      "givenName": 1004,
+      "total": 1643,
+      "before": {
+        "country": "PK",
+        "name": "パキスタン",
+        "male": 668,
+        "female": 351,
+        "surname": 639,
+        "givenName": 1019,
+        "total": 1658,
+        "before": {
+          "country": "PK",
+          "name": "パキスタン",
+          "male": 668,
+          "female": 351,
+          "surname": 639,
+          "givenName": 1019,
+          "total": 1658
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -13,
+        "female": -2,
+        "givenName": -15,
+        "surname": 0,
+        "total": -15
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PR",
+      "name": "プエルトリコ",
+      "male": 622,
+      "female": 416,
+      "surname": 956,
+      "givenName": 1038,
+      "total": 1994,
+      "before": {
+        "country": "PR",
+        "name": "プエルトリコ",
+        "male": 614,
+        "female": 407,
+        "surname": 926,
+        "givenName": 1021,
+        "total": 1947,
+        "before": {
+          "country": "PR",
+          "name": "プエルトリコ",
+          "male": 614,
+          "female": 407,
+          "surname": 926,
+          "givenName": 1021,
+          "total": 1947
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 8,
+        "female": 9,
+        "givenName": 17,
+        "surname": 30,
+        "total": 47
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "RO",
+      "name": "ルーマニア",
+      "male": 1812,
+      "female": 1797,
+      "surname": 5109,
+      "givenName": 3609,
+      "total": 8718,
+      "before": {
+        "country": "RO",
+        "name": "ルーマニア",
+        "male": 1826,
+        "female": 1800,
+        "surname": 5113,
+        "givenName": 3626,
+        "total": 8739,
+        "before": {
+          "country": "RO",
+          "name": "ルーマニア",
+          "male": 1826,
+          "female": 1800,
+          "surname": 5113,
+          "givenName": 3626,
+          "total": 8739
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -14,
+        "female": -3,
+        "givenName": -17,
+        "surname": -4,
+        "total": -21
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "RS",
+      "name": "セルビア",
+      "male": 893,
+      "female": 631,
+      "surname": 1756,
+      "givenName": 1524,
+      "total": 3280,
+      "before": {
+        "country": "RS",
+        "name": "セルビア",
+        "male": 900,
+        "female": 632,
+        "surname": 1754,
+        "givenName": 1532,
+        "total": 3286,
+        "before": {
+          "country": "RS",
+          "name": "セルビア",
+          "male": 900,
+          "female": 632,
+          "surname": 1754,
+          "givenName": 1532,
+          "total": 3286
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -1,
+        "givenName": -8,
+        "surname": 2,
+        "total": -6
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SI",
+      "name": "スロベニア",
+      "male": 5164,
+      "female": 5043,
+      "surname": 35573,
+      "givenName": 10207,
+      "total": 45780,
+      "before": {
+        "country": "SI",
+        "name": "スロベニア",
+        "male": 5165,
+        "female": 5043,
+        "surname": 35573,
+        "givenName": 10208,
+        "total": 45781,
+        "before": {
+          "country": "SI",
+          "name": "スロベニア",
+          "male": 5165,
+          "female": 5043,
+          "surname": 35573,
+          "givenName": 10208,
+          "total": 45781
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SK",
+      "name": "スロバキア",
+      "male": 533,
+      "female": 515,
+      "surname": 3117,
+      "givenName": 1048,
+      "total": 4165,
+      "before": {
+        "country": "SK",
+        "name": "スロバキア",
+        "male": 533,
+        "female": 516,
+        "surname": 3118,
+        "givenName": 1049,
+        "total": 4167,
+        "before": {
+          "country": "SK",
+          "name": "スロバキア",
+          "male": 533,
+          "female": 516,
+          "surname": 3118,
+          "givenName": 1049,
+          "total": 4167
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": -1,
+        "givenName": -1,
+        "surname": -1,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "TM",
+      "name": "トルクメニスタン",
+      "male": 168,
+      "female": 55,
+      "surname": 196,
+      "givenName": 223,
+      "total": 419,
+      "before": {
+        "country": "TM",
+        "name": "トルクメニスタン",
+        "male": 168,
+        "female": 55,
+        "surname": 196,
+        "givenName": 223,
+        "total": 419,
+        "before": {
+          "country": "TM",
+          "name": "トルクメニスタン",
+          "male": 168,
+          "female": 55,
+          "surname": 196,
+          "givenName": 223,
+          "total": 419
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "UA",
+      "name": "ウクライナ",
+      "male": 872,
+      "female": 617,
+      "surname": 5408,
+      "givenName": 1489,
+      "total": 6897,
+      "before": {
+        "country": "UA",
+        "name": "ウクライナ",
+        "male": 875,
+        "female": 616,
+        "surname": 5406,
+        "givenName": 1491,
+        "total": 6897,
+        "before": {
+          "country": "UA",
+          "name": "ウクライナ",
+          "male": 875,
+          "female": 616,
+          "surname": 5406,
+          "givenName": 1491,
+          "total": 6897
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": 1,
+        "givenName": -2,
+        "surname": 2,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "UZ",
+      "name": "ウズベキスタン",
+      "male": 759,
+      "female": 595,
+      "surname": 855,
+      "givenName": 1354,
+      "total": 2209,
+      "before": {
+        "country": "UZ",
+        "name": "ウズベキスタン",
+        "male": 759,
+        "female": 595,
+        "surname": 855,
+        "givenName": 1354,
+        "total": 2209,
+        "before": {
+          "country": "UZ",
+          "name": "ウズベキスタン",
+          "male": 759,
+          "female": 595,
+          "surname": 855,
+          "givenName": 1354,
+          "total": 2209
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "VE",
+      "name": "ベネズエラ",
+      "male": 1117,
+      "female": 792,
+      "surname": 2037,
+      "givenName": 1909,
+      "total": 3946,
+      "before": {
+        "country": "VE",
+        "name": "ベネズエラ",
+        "male": 1122,
+        "female": 798,
+        "surname": 2038,
+        "givenName": 1920,
+        "total": 3958,
+        "before": {
+          "country": "VE",
+          "name": "ベネズエラ",
+          "male": 1122,
+          "female": 798,
+          "surname": 2038,
+          "givenName": 1920,
+          "total": 3958
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -5,
+        "female": -6,
+        "givenName": -11,
+        "surname": -1,
+        "total": -12
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "VN",
+      "name": "ベトナム",
+      "male": 613,
+      "female": 347,
+      "surname": 500,
+      "givenName": 960,
+      "total": 1460,
+      "before": {
+        "country": "VN",
+        "name": "ベトナム",
+        "male": 620,
+        "female": 349,
+        "surname": 500,
+        "givenName": 969,
+        "total": 1469,
+        "before": {
+          "country": "VN",
+          "name": "ベトナム",
+          "male": 620,
+          "female": 349,
+          "surname": 500,
+          "givenName": 969,
+          "total": 1469
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -2,
+        "givenName": -9,
+        "surname": 0,
+        "total": -9
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AD",
+      "name": "アンドラ",
+      "male": 227,
+      "female": 172,
+      "surname": 373,
+      "givenName": 399,
+      "total": 772,
+      "before": {
+        "country": "AD",
+        "name": "アンドラ",
+        "male": 227,
+        "female": 172,
+        "surname": 373,
+        "givenName": 399,
+        "total": 772,
+        "before": {
+          "country": "AD",
+          "name": "アンドラ",
+          "male": 227,
+          "female": 172,
+          "surname": 373,
+          "givenName": 399,
+          "total": 772
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AM",
+      "name": "アルメニア",
+      "male": 576,
+      "female": 384,
+      "surname": 429,
+      "givenName": 960,
+      "total": 1389,
+      "before": {
+        "country": "AM",
+        "name": "アルメニア",
+        "male": 580,
+        "female": 385,
+        "surname": 428,
+        "givenName": 965,
+        "total": 1393,
+        "before": {
+          "country": "AM",
+          "name": "アルメニア",
+          "male": 580,
+          "female": 385,
+          "surname": 428,
+          "givenName": 965,
+          "total": 1393
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -4,
+        "female": -1,
+        "givenName": -5,
+        "surname": 1,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "AW",
+      "name": "アルバ",
+      "male": 131,
+      "female": 51,
+      "surname": 97,
+      "givenName": 182,
+      "total": 279,
+      "before": {
+        "country": "AW",
+        "name": "アルバ",
+        "male": 131,
+        "female": 51,
+        "surname": 97,
+        "givenName": 182,
+        "total": 279,
+        "before": {
+          "country": "AW",
+          "name": "アルバ",
+          "male": 131,
+          "female": 51,
+          "surname": 97,
+          "givenName": 182,
+          "total": 279
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BA",
+      "name": "ボスニア・ヘルツェゴビナ",
+      "male": 899,
+      "female": 632,
+      "surname": 846,
+      "givenName": 1531,
+      "total": 2377,
+      "before": {
+        "country": "BA",
+        "name": "ボスニア・ヘルツェゴビナ",
+        "male": 900,
+        "female": 632,
+        "surname": 846,
+        "givenName": 1532,
+        "total": 2378,
+        "before": {
+          "country": "BA",
+          "name": "ボスニア・ヘルツェゴビナ",
+          "male": 900,
+          "female": 632,
+          "surname": 846,
+          "givenName": 1532,
+          "total": 2378
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "BY",
+      "name": "ベラルーシ",
+      "male": 528,
+      "female": 416,
+      "surname": 1891,
+      "givenName": 944,
+      "total": 2835,
+      "before": {
+        "country": "BY",
+        "name": "ベラルーシ",
+        "male": 530,
+        "female": 415,
+        "surname": 1890,
+        "givenName": 945,
+        "total": 2835,
+        "before": {
+          "country": "BY",
+          "name": "ベラルーシ",
+          "male": 530,
+          "female": 415,
+          "surname": 1890,
+          "givenName": 945,
+          "total": 2835
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -2,
+        "female": 1,
+        "givenName": -1,
+        "surname": 1,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "FO",
+      "name": "フェロー諸島",
+      "male": 992,
+      "female": 1040,
+      "surname": 2041,
+      "givenName": 2032,
+      "total": 4073,
+      "before": {
+        "country": "FO",
+        "name": "フェロー諸島",
+        "male": 991,
+        "female": 1040,
+        "surname": 2038,
+        "givenName": 2031,
+        "total": 4069,
+        "before": {
+          "country": "FO",
+          "name": "フェロー諸島",
+          "male": 991,
+          "female": 1040,
+          "surname": 2038,
+          "givenName": 2031,
+          "total": 4069
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 1,
+        "female": 0,
+        "givenName": 1,
+        "surname": 3,
+        "total": 4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GG",
+      "name": "ガーンジー",
+      "male": 164,
+      "female": 83,
+      "surname": 216,
+      "givenName": 247,
+      "total": 463,
+      "before": {
+        "country": "GG",
+        "name": "ガーンジー",
+        "male": 164,
+        "female": 83,
+        "surname": 216,
+        "givenName": 247,
+        "total": 463,
+        "before": {
+          "country": "GG",
+          "name": "ガーンジー",
+          "male": 164,
+          "female": 83,
+          "surname": 216,
+          "givenName": 247,
+          "total": 463
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GI",
+      "name": "ジブラルタル",
+      "male": 188,
+      "female": 64,
+      "surname": 219,
+      "givenName": 252,
+      "total": 471,
+      "before": {
+        "country": "GI",
+        "name": "ジブラルタル",
+        "male": 189,
+        "female": 64,
+        "surname": 219,
+        "givenName": 253,
+        "total": 472,
+        "before": {
+          "country": "GI",
+          "name": "ジブラルタル",
+          "male": 189,
+          "female": 64,
+          "surname": 219,
+          "givenName": 253,
+          "total": 472
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GL",
+      "name": "グリーンランド",
+      "male": 301,
+      "female": 270,
+      "surname": 339,
+      "givenName": 571,
+      "total": 910,
+      "before": {
+        "country": "GL",
+        "name": "グリーンランド",
+        "male": 301,
+        "female": 270,
+        "surname": 339,
+        "givenName": 571,
+        "total": 910,
+        "before": {
+          "country": "GL",
+          "name": "グリーンランド",
+          "male": 301,
+          "female": 270,
+          "surname": 339,
+          "givenName": 571,
+          "total": 910
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "GQ",
+      "name": "赤道ギニア",
+      "male": 279,
+      "female": 121,
+      "surname": 214,
+      "givenName": 400,
+      "total": 614,
+      "before": {
+        "country": "GQ",
+        "name": "赤道ギニア",
+        "male": 279,
+        "female": 121,
+        "surname": 214,
+        "givenName": 400,
+        "total": 614,
+        "before": {
+          "country": "GQ",
+          "name": "赤道ギニア",
+          "male": 279,
+          "female": 121,
+          "surname": 214,
+          "givenName": 400,
+          "total": 614
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "IM",
+      "name": "マン島",
+      "male": 151,
+      "female": 70,
+      "surname": 208,
+      "givenName": 221,
+      "total": 429,
+      "before": {
+        "country": "IM",
+        "name": "マン島",
+        "male": 153,
+        "female": 70,
+        "surname": 208,
+        "givenName": 223,
+        "total": 431,
+        "before": {
+          "country": "IM",
+          "name": "マン島",
+          "male": 153,
+          "female": 70,
+          "surname": 208,
+          "givenName": 223,
+          "total": 431
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "JE",
+      "name": "ジャージー",
+      "male": 211,
+      "female": 94,
+      "surname": 297,
+      "givenName": 305,
+      "total": 602,
+      "before": {
+        "country": "JE",
+        "name": "ジャージー",
+        "male": 211,
+        "female": 94,
+        "surname": 297,
+        "givenName": 305,
+        "total": 602,
+        "before": {
+          "country": "JE",
+          "name": "ジャージー",
+          "male": 211,
+          "female": 94,
+          "surname": 297,
+          "givenName": 305,
+          "total": 602
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LI",
+      "name": "リヒテンシュタイン",
+      "male": 1229,
+      "female": 1054,
+      "surname": 312,
+      "givenName": 2283,
+      "total": 2595,
+      "before": {
+        "country": "LI",
+        "name": "リヒテンシュタイン",
+        "male": 1229,
+        "female": 1054,
+        "surname": 312,
+        "givenName": 2283,
+        "total": 2595,
+        "before": {
+          "country": "LI",
+          "name": "リヒテンシュタイン",
+          "male": 1229,
+          "female": 1054,
+          "surname": 312,
+          "givenName": 2283,
+          "total": 2595
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LV",
+      "name": "ラトビア",
+      "male": 845,
+      "female": 701,
+      "surname": 2294,
+      "givenName": 1546,
+      "total": 3840,
+      "before": {
+        "country": "LV",
+        "name": "ラトビア",
+        "male": 848,
+        "female": 703,
+        "surname": 2293,
+        "givenName": 1551,
+        "total": 3844,
+        "before": {
+          "country": "LV",
+          "name": "ラトビア",
+          "male": 848,
+          "female": 703,
+          "surname": 2293,
+          "givenName": 1551,
+          "total": 3844
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -3,
+        "female": -2,
+        "givenName": -5,
+        "surname": 1,
+        "total": -4
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MC",
+      "name": "モナコ",
+      "male": 881,
+      "female": 605,
+      "surname": 417,
+      "givenName": 1486,
+      "total": 1903,
+      "before": {
+        "country": "MC",
+        "name": "モナコ",
+        "male": 881,
+        "female": 605,
+        "surname": 417,
+        "givenName": 1486,
+        "total": 1903,
+        "before": {
+          "country": "MC",
+          "name": "モナコ",
+          "male": 881,
+          "female": 605,
+          "surname": 417,
+          "givenName": 1486,
+          "total": 1903
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "ME",
+      "name": "モンテネグロ",
+      "male": 1348,
+      "female": 1117,
+      "surname": 517,
+      "givenName": 2465,
+      "total": 2982,
+      "before": {
+        "country": "ME",
+        "name": "モンテネグロ",
+        "male": 1349,
+        "female": 1117,
+        "surname": 517,
+        "givenName": 2466,
+        "total": 2983,
+        "before": {
+          "country": "ME",
+          "name": "モンテネグロ",
+          "male": 1349,
+          "female": 1117,
+          "surname": 517,
+          "givenName": 2466,
+          "total": 2983
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MK",
+      "name": "北マケドニア",
+      "male": 707,
+      "female": 463,
+      "surname": 416,
+      "givenName": 1170,
+      "total": 1586,
+      "before": {
+        "country": "MK",
+        "name": "北マケドニア",
+        "male": 707,
+        "female": 463,
+        "surname": 416,
+        "givenName": 1170,
+        "total": 1586,
+        "before": {
+          "country": "MK",
+          "name": "北マケドニア",
+          "male": 707,
+          "female": 463,
+          "surname": 416,
+          "givenName": 1170,
+          "total": 1586
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+    },
+    {
+      "country": "ML",
+      "name": "マリ",
+      "male": 900,
+      "female": 613,
+      "surname": 255,
+      "givenName": 1513,
+      "total": 1768,
+      "before": {
+        "country": "ML",
+        "name": "マリ",
+        "male": 901,
+        "female": 613,
+        "surname": 255,
+        "givenName": 1514,
+        "total": 1769,
+        "before": {
+          "country": "ML",
+          "name": "マリ",
+          "male": 901,
+          "female": 613,
+          "surname": 255,
+          "givenName": 1514,
+          "total": 1769
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "MN",
+      "name": "モンゴル",
+      "male": 126,
+      "female": 50,
+      "surname": 123,
+      "givenName": 176,
+      "total": 299,
+      "before": {
+        "country": "MN",
+        "name": "モンゴル",
+        "male": 127,
+        "female": 50,
+        "surname": 123,
+        "givenName": 177,
+        "total": 300,
+        "before": {
+          "country": "MN",
+          "name": "モンゴル",
+          "male": 127,
+          "female": 50,
+          "surname": 123,
+          "givenName": 177,
+          "total": 300
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "NP",
+      "name": "ネパール",
+      "male": 228,
+      "female": 165,
+      "surname": 190,
+      "givenName": 393,
+      "total": 583,
+      "before": {
+        "country": "NP",
+        "name": "ネパール",
+        "male": 237,
+        "female": 165,
+        "surname": 190,
+        "givenName": 402,
+        "total": 592,
+        "before": {
+          "country": "NP",
+          "name": "ネパール",
+          "male": 237,
+          "female": 165,
+          "surname": 190,
+          "givenName": 402,
+          "total": 592
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -9,
+        "female": 0,
+        "givenName": -9,
+        "surname": 0,
+        "total": -9
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "NZ",
+      "name": "ニュージーランド",
+      "male": 2710,
+      "female": 2044,
+      "surname": 8540,
+      "givenName": 4754,
+      "total": 13294,
+      "before": {
+        "country": "NZ",
+        "name": "ニュージーランド",
+        "male": 2731,
+        "female": 2064,
+        "surname": 8540,
+        "givenName": 4795,
+        "total": 13335,
+        "before": {
+          "country": "NZ",
+          "name": "ニュージーランド",
+          "male": 2731,
+          "female": 2064,
+          "surname": 8540,
+          "givenName": 4795,
+          "total": 13335
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -21,
+        "female": -20,
+        "givenName": -41,
+        "surname": 0,
+        "total": -41
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PF",
+      "name": "仏領ポリネシア",
+      "male": 144,
+      "female": 65,
+      "surname": 204,
+      "givenName": 209,
+      "total": 413,
+      "before": {
+        "country": "PF",
+        "name": "仏領ポリネシア",
+        "male": 145,
+        "female": 66,
+        "surname": 204,
+        "givenName": 211,
+        "total": 415,
+        "before": {
+          "country": "PF",
+          "name": "仏領ポリネシア",
+          "male": 145,
+          "female": 66,
+          "surname": 204,
+          "givenName": 211,
+          "total": 415
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": -1,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "PY",
+      "name": "パラグアイ",
+      "male": 566,
+      "female": 271,
+      "surname": 689,
+      "givenName": 837,
+      "total": 1526,
+      "before": {
+        "country": "PY",
+        "name": "パラグアイ",
+        "male": 566,
+        "female": 271,
+        "surname": 688,
+        "givenName": 837,
+        "total": 1525,
+        "before": {
+          "country": "PY",
+          "name": "パラグアイ",
+          "male": 566,
+          "female": 271,
+          "surname": 688,
+          "givenName": 837,
+          "total": 1525
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 1,
+        "total": 1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SM",
+      "name": "サンマリノ",
+      "male": 519,
+      "female": 308,
+      "surname": 524,
+      "givenName": 827,
+      "total": 1351,
+      "before": {
+        "country": "SM",
+        "name": "サンマリノ",
+        "male": 520,
+        "female": 308,
+        "surname": 524,
+        "givenName": 828,
+        "total": 1352,
+        "before": {
+          "country": "SM",
+          "name": "サンマリノ",
+          "male": 520,
+          "female": 308,
+          "surname": 524,
+          "givenName": 828,
+          "total": 1352
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SV",
+      "name": "エルサルバドル",
+      "male": 448,
+      "female": 271,
+      "surname": 612,
+      "givenName": 719,
+      "total": 1331,
+      "before": {
+        "country": "SV",
+        "name": "エルサルバドル",
+        "male": 450,
+        "female": 271,
+        "surname": 612,
+        "givenName": 721,
+        "total": 1333,
+        "before": {
+          "country": "SV",
+          "name": "エルサルバドル",
+          "male": 450,
+          "female": 271,
+          "surname": 612,
+          "givenName": 721,
+          "total": 1333
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -2,
+        "female": 0,
+        "givenName": -2,
+        "surname": 0,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "TH",
+      "name": "タイ",
+      "male": 605,
+      "female": 572,
+      "surname": 1027,
+      "givenName": 1177,
+      "total": 2204,
+      "before": {
+        "country": "TH",
+        "name": "タイ",
+        "male": 612,
+        "female": 575,
+        "surname": 1027,
+        "givenName": 1187,
+        "total": 2214,
+        "before": {
+          "country": "TH",
+          "name": "タイ",
+          "male": 612,
+          "female": 575,
+          "surname": 1027,
+          "givenName": 1187,
+          "total": 2214
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -7,
+        "female": -3,
+        "givenName": -10,
+        "surname": 0,
+        "total": -10
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "TJ",
+      "name": "タジキスタン",
+      "male": 211,
+      "female": 75,
+      "surname": 266,
+      "givenName": 286,
+      "total": 552,
+      "before": {
+        "country": "TJ",
+        "name": "タジキスタン",
+        "male": 212,
+        "female": 75,
+        "surname": 266,
+        "givenName": 287,
+        "total": 553,
+        "before": {
+          "country": "TJ",
+          "name": "タジキスタン",
+          "male": 212,
+          "female": 75,
+          "surname": 266,
+          "givenName": 287,
+          "total": 553
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "KG",
+      "name": "キルギス",
+      "male": 241,
+      "female": 110,
+      "surname": 400,
+      "givenName": 351,
+      "total": 751,
+      "before": {
+        "country": "KG",
+        "name": "キルギス",
+        "male": 242,
+        "female": 110,
+        "surname": 400,
+        "givenName": 352,
+        "total": 752,
+        "before": {
+          "country": "KG",
+          "name": "キルギス",
+          "male": 242,
+          "female": 110,
+          "surname": 400,
+          "givenName": 352,
+          "total": 752
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -1,
+        "female": 0,
+        "givenName": -1,
+        "surname": 0,
+        "total": -1
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "LK",
+      "name": "スリランカ",
+      "male": 536,
+      "female": 235,
+      "surname": 550,
+      "givenName": 771,
+      "total": 1321,
+      "before": {
+        "country": "LK",
+        "name": "スリランカ",
+        "male": 558,
+        "female": 244,
+        "surname": 550,
+        "givenName": 802,
+        "total": 1352,
+        "before": {
+          "country": "LK",
+          "name": "スリランカ",
+          "male": 558,
+          "female": 244,
+          "surname": 550,
+          "givenName": 802,
+          "total": 1352
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": -22,
+        "female": -9,
+        "givenName": -31,
+        "surname": 0,
+        "total": -31
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "XK",
+      "name": "コソボ",
+      "male": 523,
+      "female": 183,
+      "surname": 497,
+      "givenName": 706,
+      "total": 1203,
+      "before": {
+        "country": "XK",
+        "name": "コソボ",
+        "male": 523,
+        "female": 183,
+        "surname": 497,
+        "givenName": 706,
+        "total": 1203,
+        "before": {
+          "country": "XK",
+          "name": "コソボ",
+          "male": 523,
+          "female": 183,
+          "surname": 497,
+          "givenName": 706,
+          "total": 1203
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": "取得済みの国別原本と国籍・出生地・居住地の明示記録では、既存登録に含まれない有効名を確認できませんでした。"
+      },
+      "added": {
+        "male": 0,
+        "female": 0,
+        "givenName": 0,
+        "surname": 0,
+        "total": 0
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "CU",
+      "name": "キューバ",
+      "male": 839,
+      "female": 590,
+      "surname": 1611,
+      "givenName": 1429,
+      "total": 3040,
+      "before": {
+        "country": "CU",
+        "name": "キューバ",
+        "male": 850,
+        "female": 595,
+        "surname": 1611,
+        "givenName": 1445,
+        "total": 3056,
+        "before": {
+          "country": "CU",
+          "name": "キューバ",
+          "male": 850,
+          "female": 595,
+          "surname": 1611,
+          "givenName": 1445,
+          "total": 3056
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -11,
+        "female": -5,
+        "givenName": -16,
+        "surname": 0,
+        "total": -16
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "DO",
+      "name": "ドミニカ共和国",
+      "male": 695,
+      "female": 376,
+      "surname": 842,
+      "givenName": 1071,
+      "total": 1913,
+      "before": {
+        "country": "DO",
+        "name": "ドミニカ共和国",
+        "male": 696,
+        "female": 378,
+        "surname": 841,
+        "givenName": 1074,
+        "total": 1915,
+        "before": {
+          "country": "DO",
+          "name": "ドミニカ共和国",
+          "male": 696,
+          "female": 378,
+          "surname": 841,
+          "givenName": 1074,
+          "total": 1915
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -1,
+        "female": -2,
+        "givenName": -3,
+        "surname": 1,
+        "total": -2
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "FJ",
+      "name": "フィジー",
+      "male": 924,
+      "female": 865,
+      "surname": 456,
+      "givenName": 1789,
+      "total": 2245,
+      "before": {
+        "country": "FJ",
+        "name": "フィジー",
+        "male": 932,
+        "female": 865,
+        "surname": 456,
+        "givenName": 1797,
+        "total": 2253,
+        "before": {
+          "country": "FJ",
+          "name": "フィジー",
+          "male": 932,
+          "female": 865,
+          "surname": 456,
+          "givenName": 1797,
+          "total": 2253
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -8,
+        "female": 0,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    },
+    {
+      "country": "SR",
+      "name": "スリナム",
+      "male": 613,
+      "female": 332,
+      "surname": 962,
+      "givenName": 945,
+      "total": 1907,
+      "before": {
+        "country": "SR",
+        "name": "スリナム",
+        "male": 618,
+        "female": 335,
+        "surname": 962,
+        "givenName": 953,
+        "total": 1915,
+        "before": {
+          "country": "SR",
+          "name": "スリナム",
+          "male": 618,
+          "female": 335,
+          "surname": 962,
+          "givenName": 953,
+          "total": 1915
+        },
+        "added": {
+          "male": 0,
+          "female": 0,
+          "givenName": 0,
+          "surname": 0,
+          "total": 0
+        },
+        "remainingReason": null
+      },
+      "added": {
+        "male": -5,
+        "female": -3,
+        "givenName": -8,
+        "surname": 0,
+        "total": -8
+      },
+      "remainingReason": null
+    }
+  ],
+  "referenceRankCoverage": [
+    {
+      "country": "JP",
+      "male": 716,
+      "female": 214,
+      "surname": 792
+    },
+    {
+      "country": "US",
+      "male": 6942,
+      "female": 3252,
+      "surname": 24334
+    },
+    {
+      "country": "GB",
+      "male": 3470,
+      "female": 1233,
+      "surname": 7511
+    },
+    {
+      "country": "FR",
+      "male": 2410,
+      "female": 788,
+      "surname": 27390
+    },
+    {
+      "country": "KR",
+      "male": 723,
+      "female": 550,
+      "surname": 529
+    },
+    {
+      "country": "DE",
+      "male": 5116,
+      "female": 3313,
+      "surname": 55254
+    },
+    {
+      "country": "IT",
+      "male": 1693,
+      "female": 777,
+      "surname": 33146
+    },
+    {
+      "country": "ES",
+      "male": 1316,
+      "female": 674,
+      "surname": 5093
+    },
+    {
+      "country": "PT",
+      "male": 1011,
+      "female": 640,
+      "surname": 2036
+    },
+    {
+      "country": "NL",
+      "male": 4137,
+      "female": 3098,
+      "surname": 17067
+    },
+    {
+      "country": "BE",
+      "male": 1000,
+      "female": 463,
+      "surname": 2859
+    },
+    {
+      "country": "CH",
+      "male": 3172,
+      "female": 1944,
+      "surname": 6877
+    },
+    {
+      "country": "AT",
+      "male": 596,
+      "female": 375,
+      "surname": 16172
+    },
+    {
+      "country": "IE",
+      "male": 1050,
+      "female": 735,
+      "surname": 3763
+    },
+    {
+      "country": "CA",
+      "male": 4247,
+      "female": 1927,
+      "surname": 30579
+    },
+    {
+      "country": "BR",
+      "male": 937,
+      "female": 441,
+      "surname": 1561
+    },
+    {
+      "country": "MX",
+      "male": 1199,
+      "female": 914,
+      "surname": 3803
+    },
+    {
+      "country": "AR",
+      "male": 1635,
+      "female": 962,
+      "surname": 10591
+    },
+    {
+      "country": "CO",
+      "male": 799,
+      "female": 371,
+      "surname": 1338
+    },
+    {
+      "country": "CL",
+      "male": 171,
+      "female": 67,
+      "surname": 2735
+    },
+    {
+      "country": "PE",
+      "male": 1638,
+      "female": 1629,
+      "surname": 5675
+    },
+    {
+      "country": "ZA",
+      "male": 1276,
+      "female": 904,
+      "surname": 3737
+    },
+    {
+      "country": "NG",
+      "male": 1227,
+      "female": 712,
+      "surname": 2382
+    },
+    {
+      "country": "IN",
+      "male": 1919,
+      "female": 1292,
+      "surname": 2935
+    },
+    {
+      "country": "TR",
+      "male": 1210,
+      "female": 724,
+      "surname": 4841
+    },
+    {
+      "country": "PL",
+      "male": 171,
+      "female": 54,
+      "surname": 1730
+    },
+    {
+      "country": "AE",
+      "male": 94,
+      "female": 62,
+      "surname": 124
+    },
+    {
+      "country": "AO",
+      "male": 393,
+      "female": 261,
+      "surname": 459
+    },
+    {
+      "country": "BD",
+      "male": 297,
+      "female": 221,
+      "surname": 249
+    },
+    {
+      "country": "BG",
+      "male": 788,
+      "female": 530,
+      "surname": 1262
+    },
+    {
+      "country": "BH",
+      "male": 148,
+      "female": 86,
+      "surname": 127
+    },
+    {
+      "country": "BO",
+      "male": 372,
+      "female": 187,
+      "surname": 713
+    },
+    {
+      "country": "CM",
+      "male": 574,
+      "female": 435,
+      "surname": 730
+    },
+    {
+      "country": "CN",
+      "male": 2420,
+      "female": 1572,
+      "surname": 1077
+    },
+    {
+      "country": "CR",
+      "male": 446,
+      "female": 206,
+      "surname": 534
+    },
+    {
+      "country": "CZ",
+      "male": 673,
+      "female": 581,
+      "surname": 9683
+    },
+    {
+      "country": "DK",
+      "male": 2129,
+      "female": 1425,
+      "surname": 11848
+    },
+    {
+      "country": "DZ",
+      "male": 271,
+      "female": 200,
+      "surname": 744
+    },
+    {
+      "country": "EG",
+      "male": 430,
+      "female": 279,
+      "surname": 653
+    },
+    {
+      "country": "FI",
+      "male": 301,
+      "female": 111,
+      "surname": 3656
+    },
+    {
+      "country": "GH",
+      "male": 594,
+      "female": 394,
+      "surname": 935
+    },
+    {
+      "country": "GR",
+      "male": 859,
+      "female": 675,
+      "surname": 2024
+    },
+    {
+      "country": "GT",
+      "male": 303,
+      "female": 199,
+      "surname": 473
+    },
+    {
+      "country": "HK",
+      "male": 475,
+      "female": 473,
+      "surname": 446
+    },
+    {
+      "country": "IL",
+      "male": 1478,
+      "female": 1085,
+      "surname": 6264
+    },
+    {
+      "country": "IQ",
+      "male": 364,
+      "female": 138,
+      "surname": 295
+    },
+    {
+      "country": "IR",
+      "male": 638,
+      "female": 401,
+      "surname": 1569
+    },
+    {
+      "country": "JO",
+      "male": 247,
+      "female": 112,
+      "surname": 322
+    },
+    {
+      "country": "KW",
+      "male": 80,
+      "female": 50,
+      "surname": 108
+    },
+    {
+      "country": "KZ",
+      "male": 291,
+      "female": 164,
+      "surname": 1034
+    },
+    {
+      "country": "LB",
+      "male": 522,
+      "female": 321,
+      "surname": 701
+    },
+    {
+      "country": "LU",
+      "male": 682,
+      "female": 525,
+      "surname": 2659
+    },
+    {
+      "country": "LY",
+      "male": 75,
+      "female": 35,
+      "surname": 60
+    },
+    {
+      "country": "MA",
+      "male": 281,
+      "female": 139,
+      "surname": 639
+    },
+    {
+      "country": "MO",
+      "male": 90,
+      "female": 27,
+      "surname": 101
+    },
+    {
+      "country": "MU",
+      "male": 318,
+      "female": 208,
+      "surname": 380
+    },
+    {
+      "country": "MY",
+      "male": 752,
+      "female": 391,
+      "surname": 479
+    },
+    {
+      "country": "NO",
+      "male": 1591,
+      "female": 937,
+      "surname": 3308
+    },
+    {
+      "country": "OM",
+      "male": 36,
+      "female": 17,
+      "surname": 22
+    },
+    {
+      "country": "PA",
+      "male": 381,
+      "female": 228,
+      "surname": 671
+    },
+    {
+      "country": "PH",
+      "male": 1263,
+      "female": 957,
+      "surname": 2173
+    },
+    {
+      "country": "PS",
+      "male": 389,
+      "female": 177,
+      "surname": 489
+    },
+    {
+      "country": "QA",
+      "male": 139,
+      "female": 53,
+      "surname": 131
+    },
+    {
+      "country": "RU",
+      "male": 1246,
+      "female": 656,
+      "surname": 8647
+    },
+    {
+      "country": "SA",
+      "male": 112,
+      "female": 53,
+      "surname": 205
+    },
+    {
+      "country": "SD",
+      "male": 125,
+      "female": 64,
+      "surname": 120
+    },
+    {
+      "country": "SE",
+      "male": 3100,
+      "female": 2227,
+      "surname": 18411
+    },
+    {
+      "country": "SG",
+      "male": 386,
+      "female": 296,
+      "surname": 346
+    },
+    {
+      "country": "SY",
+      "male": 403,
+      "female": 131,
+      "surname": 526
+    },
+    {
+      "country": "TN",
+      "male": 288,
+      "female": 142,
+      "surname": 467
+    },
+    {
+      "country": "TW",
+      "male": 1046,
+      "female": 679,
+      "surname": 423
+    },
+    {
+      "country": "UY",
+      "male": 975,
+      "female": 597,
+      "surname": 4009
+    },
+    {
+      "country": "YE",
+      "male": 150,
+      "female": 76,
+      "surname": 144
+    },
+    {
+      "country": "AF",
+      "male": 255,
+      "female": 128,
+      "surname": 286
+    },
+    {
+      "country": "AL",
+      "male": 918,
+      "female": 430,
+      "surname": 1239
+    },
+    {
+      "country": "AU",
+      "male": 3482,
+      "female": 2533,
+      "surname": 14420
+    },
+    {
+      "country": "AZ",
+      "male": 568,
+      "female": 251,
+      "surname": 540
+    },
+    {
+      "country": "BF",
+      "male": 404,
+      "female": 213,
+      "surname": 237
+    },
+    {
+      "country": "BI",
+      "male": 288,
+      "female": 122,
+      "surname": 140
+    },
+    {
+      "country": "BN",
+      "male": 78,
+      "female": 35,
+      "surname": 63
+    },
+    {
+      "country": "BW",
+      "male": 212,
+      "female": 143,
+      "surname": 181
+    },
+    {
+      "country": "CY",
+      "male": 582,
+      "female": 276,
+      "surname": 1083
+    },
+    {
+      "country": "DJ",
+      "male": 50,
+      "female": 24,
+      "surname": 30
+    },
+    {
+      "country": "EC",
+      "male": 665,
+      "female": 471,
+      "surname": 1126
+    },
+    {
+      "country": "EE",
+      "male": 2004,
+      "female": 1711,
+      "surname": 13715
+    },
+    {
+      "country": "ET",
+      "male": 275,
+      "female": 172,
+      "surname": 399
+    },
+    {
+      "country": "GE",
+      "male": 440,
+      "female": 191,
+      "surname": 2214
+    },
+    {
+      "country": "HN",
+      "male": 431,
+      "female": 182,
+      "surname": 417
+    },
+    {
+      "country": "HR",
+      "male": 668,
+      "female": 412,
+      "surname": 2700
+    },
+    {
+      "country": "HT",
+      "male": 514,
+      "female": 288,
+      "surname": 780
+    },
+    {
+      "country": "HU",
+      "male": 1484,
+      "female": 964,
+      "surname": 11340
+    },
+    {
+      "country": "ID",
+      "male": 1645,
+      "female": 1459,
+      "surname": 2116
+    },
+    {
+      "country": "IS",
+      "male": 598,
+      "female": 315,
+      "surname": 475
+    },
+    {
+      "country": "JM",
+      "male": 679,
+      "female": 456,
+      "surname": 932
+    },
+    {
+      "country": "KH",
+      "male": 112,
+      "female": 47,
+      "surname": 139
+    },
+    {
+      "country": "LT",
+      "male": 724,
+      "female": 453,
+      "surname": 2099
+    },
+    {
+      "country": "MD",
+      "male": 512,
+      "female": 259,
+      "surname": 1071
+    },
+    {
+      "country": "MT",
+      "male": 436,
+      "female": 318,
+      "surname": 466
+    },
+    {
+      "country": "MV",
+      "male": 42,
+      "female": 39,
+      "surname": 62
+    },
+    {
+      "country": "PK",
+      "male": 638,
+      "female": 339,
+      "surname": 636
+    },
+    {
+      "country": "PR",
+      "male": 583,
+      "female": 376,
+      "surname": 922
+    },
+    {
+      "country": "RO",
+      "male": 1369,
+      "female": 877,
+      "surname": 5096
+    },
+    {
+      "country": "RS",
+      "male": 664,
+      "female": 393,
+      "surname": 1735
+    },
+    {
+      "country": "SI",
+      "male": 124,
+      "female": 62,
+      "surname": 712
+    },
+    {
+      "country": "SK",
+      "male": 435,
+      "female": 393,
+      "surname": 3096
+    },
+    {
+      "country": "TM",
+      "male": 160,
+      "female": 51,
+      "surname": 193
+    },
+    {
+      "country": "UA",
+      "male": 765,
+      "female": 510,
+      "surname": 5384
+    },
+    {
+      "country": "UZ",
+      "male": 269,
+      "female": 168,
+      "surname": 438
+    },
+    {
+      "country": "VE",
+      "male": 1102,
+      "female": 782,
+      "surname": 2036
+    },
+    {
+      "country": "VN",
+      "male": 358,
+      "female": 193,
+      "surname": 214
+    },
+    {
+      "country": "AD",
+      "male": 218,
+      "female": 164,
+      "surname": 373
+    },
+    {
+      "country": "AM",
+      "male": 374,
+      "female": 195,
+      "surname": 409
+    },
+    {
+      "country": "AW",
+      "male": 126,
+      "female": 46,
+      "surname": 97
+    },
+    {
+      "country": "BA",
+      "male": 488,
+      "female": 226,
+      "surname": 802
+    },
+    {
+      "country": "BY",
+      "male": 398,
+      "female": 268,
+      "surname": 1886
+    },
+    {
+      "country": "FO",
+      "male": 36,
+      "female": 9,
+      "surname": 45
+    },
+    {
+      "country": "GG",
+      "male": 153,
+      "female": 76,
+      "surname": 216
+    },
+    {
+      "country": "GI",
+      "male": 180,
+      "female": 56,
+      "surname": 219
+    },
+    {
+      "country": "GL",
+      "male": 74,
+      "female": 39,
+      "surname": 77
+    },
+    {
+      "country": "GQ",
+      "male": 274,
+      "female": 114,
+      "surname": 214
+    },
+    {
+      "country": "IM",
+      "male": 142,
+      "female": 60,
+      "surname": 208
+    },
+    {
+      "country": "JE",
+      "male": 201,
+      "female": 84,
+      "surname": 297
+    },
+    {
+      "country": "LI",
+      "male": 285,
+      "female": 177,
+      "surname": 312
+    },
+    {
+      "country": "LV",
+      "male": 712,
+      "female": 541,
+      "surname": 2279
+    },
+    {
+      "country": "MC",
+      "male": 157,
+      "female": 71,
+      "surname": 187
+    },
+    {
+      "country": "ME",
+      "male": 233,
+      "female": 92,
+      "surname": 317
+    },
+    {
+      "country": "MK",
+      "male": 346,
+      "female": 194,
+      "surname": 378
+    },
+    {
+      "country": "ML",
+      "male": 293,
+      "female": 114,
+      "surname": 255
+    },
+    {
+      "country": "MN",
+      "male": 117,
+      "female": 43,
+      "surname": 123
+    },
+    {
+      "country": "NP",
+      "male": 218,
+      "female": 154,
+      "surname": 170
+    },
+    {
+      "country": "NZ",
+      "male": 2688,
+      "female": 2024,
+      "surname": 8530
+    },
+    {
+      "country": "PF",
+      "male": 132,
+      "female": 51,
+      "surname": 204
+    },
+    {
+      "country": "PY",
+      "male": 556,
+      "female": 259,
+      "surname": 663
+    },
+    {
+      "country": "SM",
+      "male": 310,
+      "female": 64,
+      "surname": 501
+    },
+    {
+      "country": "SV",
+      "male": 438,
+      "female": 260,
+      "surname": 587
+    },
+    {
+      "country": "TH",
+      "male": 593,
+      "female": 563,
+      "surname": 1027
+    },
+    {
+      "country": "TJ",
+      "male": 206,
+      "female": 69,
+      "surname": 266
+    },
+    {
+      "country": "KG",
+      "male": 231,
+      "female": 100,
+      "surname": 400
+    },
+    {
+      "country": "LK",
+      "male": 534,
+      "female": 233,
+      "surname": 500
+    },
+    {
+      "country": "XK",
+      "male": 523,
+      "female": 183,
+      "surname": 477
+    },
+    {
+      "country": "CU",
+      "male": 839,
+      "female": 587,
+      "surname": 1580
+    },
+    {
+      "country": "DO",
+      "male": 695,
+      "female": 375,
+      "surname": 812
+    },
+    {
+      "country": "FJ",
+      "male": 246,
+      "female": 100,
+      "surname": 338
+    },
+    {
+      "country": "SR",
+      "male": 613,
+      "female": 332,
+      "surname": 949
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-16T22:57:32.909Z",
+  "country": "US",
+  "type": "given_name",
+  "sourceUrl": "https://www.ssa.gov/oact/babynames/limits.html",
+  "mirror": {
+    "retrievedAt": "2026-10-16T22:55:24.069Z",
+    "url": "https://raw.githubusercontent.com/hackerb9/ssa-baby-names/0b1a1316457d55447d1a1f7bfe57ee15e53cc2f0/alldata.txt",
+    "upstream": "https://www.ssa.gov/oact/babynames/names.zip",
+    "commit": "0b1a1316457d55447d1a1f7bfe57ee15e53cc2f0"
+  },
+  "sha256": "8abb7415a03531100e3dcfa68f68b09c51f6ad7cd0f4fcef74c78e9b4ca17d39",
+  "period": [
+    1880,
+    2020
+  ],
+  "years": 141,
+  "sourceRows": 2020863,
+  "bands": [
+    {
+      "gender": "male",
+      "before": 35590,
+      "after": 42567,
+      "added": 6977
+    },
+    {
+      "gender": "female",
+      "before": 53804,
+      "after": 68905,
+      "added": 15101
+    }
+  ],
+  "totalAdded": 22078
+}

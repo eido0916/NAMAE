@@ -1,0 +1,4184 @@
+{
+  "targetPerCategory": 10000,
+  "countries": 144,
+  "countriesMeetingAllTargets": 8,
+  "totalRecords": 2871272,
+  "coverage": [
+    {
+      "country": "JP",
+      "name": "日本",
+      "male": {
+        "names": 23780,
+        "withPublishedEvidence": 608,
+        "estimated": 23172,
+        "searchableSpellings": 95545,
+        "shortfall": 0,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html"
+      },
+      "female": {
+        "names": 31843,
+        "withPublishedEvidence": 304,
+        "estimated": 31539,
+        "searchableSpellings": 165698,
+        "shortfall": 0,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html"
+      },
+      "surname": {
+        "names": 105125,
+        "withPublishedEvidence": 1999,
+        "estimated": 103126,
+        "searchableSpellings": 185191,
+        "shortfall": 0,
+        "source": "https://www.edrdg.org/enamdict/enamdict_doc.html"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "US",
+      "name": "アメリカ",
+      "male": {
+        "names": 42567,
+        "withPublishedEvidence": 42567,
+        "estimated": 0,
+        "searchableSpellings": 42567,
+        "shortfall": 0,
+        "source": "https://www.ssa.gov/oact/babynames/limits.html"
+      },
+      "female": {
+        "names": 68905,
+        "withPublishedEvidence": 68905,
+        "estimated": 0,
+        "searchableSpellings": 68905,
+        "shortfall": 0,
+        "source": "https://www.ssa.gov/oact/babynames/limits.html"
+      },
+      "surname": {
+        "names": 162254,
+        "withPublishedEvidence": 162254,
+        "estimated": 0,
+        "searchableSpellings": 162254,
+        "shortfall": 0,
+        "source": "https://www.census.gov/topics/population/genealogy/data/2010_surnames.html"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "GB",
+      "name": "イギリス",
+      "male": {
+        "names": 18080,
+        "withPublishedEvidence": 18080,
+        "estimated": 0,
+        "searchableSpellings": 18080,
+        "shortfall": 0,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996"
+      },
+      "female": {
+        "names": 24005,
+        "withPublishedEvidence": 24005,
+        "estimated": 0,
+        "searchableSpellings": 24005,
+        "shortfall": 0,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996"
+      },
+      "surname": {
+        "names": 74035,
+        "withPublishedEvidence": 74035,
+        "estimated": 0,
+        "searchableSpellings": 74035,
+        "shortfall": 0,
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/adhocs/3674babysurnamesbirthsregisteredineachyearenglandandwales1996to2025"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "FR",
+      "name": "フランス",
+      "male": {
+        "names": 23648,
+        "withPublishedEvidence": 23648,
+        "estimated": 0,
+        "searchableSpellings": 23648,
+        "shortfall": 0,
+        "source": "https://www.insee.fr/fr/statistiques/8894961"
+      },
+      "female": {
+        "names": 28003,
+        "withPublishedEvidence": 28003,
+        "estimated": 0,
+        "searchableSpellings": 28003,
+        "shortfall": 0,
+        "source": "https://www.insee.fr/fr/statistiques/8894961"
+      },
+      "surname": {
+        "names": 218982,
+        "withPublishedEvidence": 218982,
+        "estimated": 0,
+        "searchableSpellings": 218982,
+        "shortfall": 0,
+        "source": "https://www.insee.fr/fr/statistiques/3536630"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "KR",
+      "name": "韓国",
+      "male": {
+        "names": 36103,
+        "withPublishedEvidence": 36103,
+        "estimated": 0,
+        "searchableSpellings": 36103,
+        "shortfall": 0,
+        "source": "https://baby-name.kr/ranking/"
+      },
+      "female": {
+        "names": 28694,
+        "withPublishedEvidence": 28694,
+        "estimated": 0,
+        "searchableSpellings": 28694,
+        "shortfall": 0,
+        "source": "https://baby-name.kr/ranking/"
+      },
+      "surname": {
+        "names": 100,
+        "withPublishedEvidence": 100,
+        "estimated": 0,
+        "searchableSpellings": 200,
+        "shortfall": 9900,
+        "source": "https://koreanlastnames.com/most-common-korean-last-names/"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "DE",
+      "name": "ドイツ",
+      "male": {
+        "names": 905,
+        "withPublishedEvidence": 905,
+        "estimated": 0,
+        "searchableSpellings": 905,
+        "shortfall": 9095,
+        "source": "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024"
+      },
+      "female": {
+        "names": 910,
+        "withPublishedEvidence": 910,
+        "estimated": 0,
+        "searchableSpellings": 910,
+        "shortfall": 9090,
+        "source": "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024"
+      },
+      "surname": {
+        "names": 378,
+        "withPublishedEvidence": 378,
+        "estimated": 0,
+        "searchableSpellings": 378,
+        "shortfall": 9622,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IT",
+      "name": "イタリア",
+      "male": {
+        "names": 61427,
+        "withPublishedEvidence": 61427,
+        "estimated": 0,
+        "searchableSpellings": 61427,
+        "shortfall": 0,
+        "source": "https://www.istat.it/dati/calcolatori/contanomi/"
+      },
+      "female": {
+        "names": 58839,
+        "withPublishedEvidence": 58839,
+        "estimated": 0,
+        "searchableSpellings": 58839,
+        "shortfall": 0,
+        "source": "https://www.istat.it/dati/calcolatori/contanomi/"
+      },
+      "surname": {
+        "names": 2939,
+        "withPublishedEvidence": 2939,
+        "estimated": 0,
+        "searchableSpellings": 3014,
+        "shortfall": 7061,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ES",
+      "name": "スペイン",
+      "male": {
+        "names": 31119,
+        "withPublishedEvidence": 31119,
+        "estimated": 0,
+        "searchableSpellings": 31119,
+        "shortfall": 0,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados"
+      },
+      "female": {
+        "names": 32321,
+        "withPublishedEvidence": 32321,
+        "estimated": 0,
+        "searchableSpellings": 32321,
+        "shortfall": 0,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados"
+      },
+      "surname": {
+        "names": 86511,
+        "withPublishedEvidence": 86511,
+        "estimated": 0,
+        "searchableSpellings": 86511,
+        "shortfall": 0,
+        "source": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&idp=1254735572981&menu=resultados"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "PT",
+      "name": "ポルトガル",
+      "male": {
+        "names": 189,
+        "withPublishedEvidence": 189,
+        "estimated": 0,
+        "searchableSpellings": 194,
+        "shortfall": 9811,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 214,
+        "withPublishedEvidence": 214,
+        "estimated": 0,
+        "searchableSpellings": 225,
+        "shortfall": 9786,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 228,
+        "withPublishedEvidence": 228,
+        "estimated": 0,
+        "searchableSpellings": 231,
+        "shortfall": 9772,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "NL",
+      "name": "オランダ",
+      "male": {
+        "names": 625,
+        "withPublishedEvidence": 625,
+        "estimated": 0,
+        "searchableSpellings": 663,
+        "shortfall": 9375,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 598,
+        "withPublishedEvidence": 598,
+        "estimated": 0,
+        "searchableSpellings": 628,
+        "shortfall": 9402,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 320,
+        "withPublishedEvidence": 320,
+        "estimated": 0,
+        "searchableSpellings": 374,
+        "shortfall": 9680,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BE",
+      "name": "ベルギー",
+      "male": {
+        "names": 6648,
+        "withPublishedEvidence": 6648,
+        "estimated": 0,
+        "searchableSpellings": 6648,
+        "shortfall": 3352,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23"
+      },
+      "female": {
+        "names": 7275,
+        "withPublishedEvidence": 7275,
+        "estimated": 0,
+        "searchableSpellings": 7275,
+        "shortfall": 2725,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23"
+      },
+      "surname": {
+        "names": 105899,
+        "withPublishedEvidence": 105899,
+        "estimated": 0,
+        "searchableSpellings": 105899,
+        "shortfall": 0,
+        "source": "https://statbel.fgov.be/nl/open-data?category=23"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CH",
+      "name": "スイス",
+      "male": {
+        "names": 304,
+        "withPublishedEvidence": 304,
+        "estimated": 0,
+        "searchableSpellings": 309,
+        "shortfall": 9696,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 280,
+        "withPublishedEvidence": 280,
+        "estimated": 0,
+        "searchableSpellings": 291,
+        "shortfall": 9720,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 25186,
+        "withPublishedEvidence": 25186,
+        "estimated": 0,
+        "searchableSpellings": 25186,
+        "shortfall": 0,
+        "source": "https://opendata.swiss/de/dataset/nachnamen-der-standigen-wohnbevolkerung-nach-gemeinde3"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AT",
+      "name": "オーストリア",
+      "male": {
+        "names": 11856,
+        "withPublishedEvidence": 11856,
+        "estimated": 0,
+        "searchableSpellings": 11856,
+        "shortfall": 0,
+        "source": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGDEXT_VORNAMEN_1"
+      },
+      "female": {
+        "names": 12953,
+        "withPublishedEvidence": 12953,
+        "estimated": 0,
+        "searchableSpellings": 12953,
+        "shortfall": 0,
+        "source": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGDEXT_VORNAMEN_1"
+      },
+      "surname": {
+        "names": 146,
+        "withPublishedEvidence": 146,
+        "estimated": 0,
+        "searchableSpellings": 164,
+        "shortfall": 9854,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IE",
+      "name": "アイルランド",
+      "male": {
+        "names": 270,
+        "withPublishedEvidence": 270,
+        "estimated": 0,
+        "searchableSpellings": 275,
+        "shortfall": 9730,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 281,
+        "withPublishedEvidence": 281,
+        "estimated": 0,
+        "searchableSpellings": 292,
+        "shortfall": 9719,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 196,
+        "withPublishedEvidence": 196,
+        "estimated": 0,
+        "searchableSpellings": 217,
+        "shortfall": 9804,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CA",
+      "name": "カナダ",
+      "male": {
+        "names": 8672,
+        "withPublishedEvidence": 8672,
+        "estimated": 0,
+        "searchableSpellings": 8672,
+        "shortfall": 1328,
+        "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014701"
+      },
+      "female": {
+        "names": 11954,
+        "withPublishedEvidence": 11954,
+        "estimated": 0,
+        "searchableSpellings": 11954,
+        "shortfall": 0,
+        "source": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014701"
+      },
+      "surname": {
+        "names": 290,
+        "withPublishedEvidence": 290,
+        "estimated": 0,
+        "searchableSpellings": 324,
+        "shortfall": 9710,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BR",
+      "name": "ブラジル",
+      "male": {
+        "names": 60954,
+        "withPublishedEvidence": 60954,
+        "estimated": 0,
+        "searchableSpellings": 60954,
+        "shortfall": 0,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+      },
+      "female": {
+        "names": 73361,
+        "withPublishedEvidence": 73361,
+        "estimated": 0,
+        "searchableSpellings": 73361,
+        "shortfall": 0,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+      },
+      "surname": {
+        "names": 201601,
+        "withPublishedEvidence": 201601,
+        "estimated": 0,
+        "searchableSpellings": 201601,
+        "shortfall": 0,
+        "source": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "MX",
+      "name": "メキシコ",
+      "male": {
+        "names": 684,
+        "withPublishedEvidence": 684,
+        "estimated": 0,
+        "searchableSpellings": 696,
+        "shortfall": 9316,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 861,
+        "withPublishedEvidence": 861,
+        "estimated": 0,
+        "searchableSpellings": 876,
+        "shortfall": 9139,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 766,
+        "withPublishedEvidence": 766,
+        "estimated": 0,
+        "searchableSpellings": 769,
+        "shortfall": 9234,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AR",
+      "name": "アルゼンチン",
+      "male": {
+        "names": 253,
+        "withPublishedEvidence": 253,
+        "estimated": 0,
+        "searchableSpellings": 257,
+        "shortfall": 9747,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 303,
+        "withPublishedEvidence": 303,
+        "estimated": 0,
+        "searchableSpellings": 307,
+        "shortfall": 9697,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 326,
+        "withPublishedEvidence": 326,
+        "estimated": 0,
+        "searchableSpellings": 326,
+        "shortfall": 9674,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CO",
+      "name": "コロンビア",
+      "male": {
+        "names": 845,
+        "withPublishedEvidence": 845,
+        "estimated": 0,
+        "searchableSpellings": 872,
+        "shortfall": 9155,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 946,
+        "withPublishedEvidence": 946,
+        "estimated": 0,
+        "searchableSpellings": 947,
+        "shortfall": 9054,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 940,
+        "withPublishedEvidence": 940,
+        "estimated": 0,
+        "searchableSpellings": 943,
+        "shortfall": 9060,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CL",
+      "name": "チリ",
+      "male": {
+        "names": 76449,
+        "withPublishedEvidence": 76449,
+        "estimated": 0,
+        "searchableSpellings": 76449,
+        "shortfall": 0,
+        "source": "https://github.com/rivaquiroga/guaguas"
+      },
+      "female": {
+        "names": 128341,
+        "withPublishedEvidence": 128341,
+        "estimated": 0,
+        "searchableSpellings": 128341,
+        "shortfall": 0,
+        "source": "https://github.com/rivaquiroga/guaguas"
+      },
+      "surname": {
+        "names": 527,
+        "withPublishedEvidence": 527,
+        "estimated": 0,
+        "searchableSpellings": 532,
+        "shortfall": 9473,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PE",
+      "name": "ペルー",
+      "male": {
+        "names": 569,
+        "withPublishedEvidence": 569,
+        "estimated": 0,
+        "searchableSpellings": 574,
+        "shortfall": 9431,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 590,
+        "withPublishedEvidence": 590,
+        "estimated": 0,
+        "searchableSpellings": 595,
+        "shortfall": 9410,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 402,
+        "withPublishedEvidence": 402,
+        "estimated": 0,
+        "searchableSpellings": 414,
+        "shortfall": 9598,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ZA",
+      "name": "南アフリカ",
+      "male": {
+        "names": 1065,
+        "withPublishedEvidence": 1065,
+        "estimated": 0,
+        "searchableSpellings": 1070,
+        "shortfall": 8935,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1148,
+        "withPublishedEvidence": 1148,
+        "estimated": 0,
+        "searchableSpellings": 1156,
+        "shortfall": 8852,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1047,
+        "withPublishedEvidence": 1047,
+        "estimated": 0,
+        "searchableSpellings": 1056,
+        "shortfall": 8953,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "NG",
+      "name": "ナイジェリア",
+      "male": {
+        "names": 829,
+        "withPublishedEvidence": 829,
+        "estimated": 0,
+        "searchableSpellings": 836,
+        "shortfall": 9171,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 563,
+        "withPublishedEvidence": 563,
+        "estimated": 0,
+        "searchableSpellings": 564,
+        "shortfall": 9437,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 955,
+        "withPublishedEvidence": 955,
+        "estimated": 0,
+        "searchableSpellings": 957,
+        "shortfall": 9045,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IN",
+      "name": "インド",
+      "male": {
+        "names": 661,
+        "withPublishedEvidence": 661,
+        "estimated": 0,
+        "searchableSpellings": 673,
+        "shortfall": 9339,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 291,
+        "withPublishedEvidence": 291,
+        "estimated": 0,
+        "searchableSpellings": 303,
+        "shortfall": 9709,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 527,
+        "withPublishedEvidence": 527,
+        "estimated": 0,
+        "searchableSpellings": 533,
+        "shortfall": 9473,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TR",
+      "name": "トルコ",
+      "male": {
+        "names": 1457,
+        "withPublishedEvidence": 1457,
+        "estimated": 0,
+        "searchableSpellings": 1702,
+        "shortfall": 8543,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1276,
+        "withPublishedEvidence": 1276,
+        "estimated": 0,
+        "searchableSpellings": 1404,
+        "shortfall": 8724,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1995,
+        "withPublishedEvidence": 1995,
+        "estimated": 0,
+        "searchableSpellings": 2296,
+        "shortfall": 8005,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PL",
+      "name": "ポーランド",
+      "male": {
+        "names": 47406,
+        "withPublishedEvidence": 47406,
+        "estimated": 0,
+        "searchableSpellings": 47406,
+        "shortfall": 0,
+        "source": "https://dane.gov.pl/pl/dataset/1501"
+      },
+      "female": {
+        "names": 30090,
+        "withPublishedEvidence": 30090,
+        "estimated": 0,
+        "searchableSpellings": 30090,
+        "shortfall": 0,
+        "source": "https://dane.gov.pl/pl/dataset/1501"
+      },
+      "surname": {
+        "names": 598466,
+        "withPublishedEvidence": 598466,
+        "estimated": 0,
+        "searchableSpellings": 598466,
+        "shortfall": 0,
+        "source": "https://dane.gov.pl/pl/dataset/1681"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "AE",
+      "name": "アラブ首長国連邦",
+      "male": {
+        "names": 836,
+        "withPublishedEvidence": 836,
+        "estimated": 0,
+        "searchableSpellings": 920,
+        "shortfall": 9164,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 347,
+        "withPublishedEvidence": 347,
+        "estimated": 0,
+        "searchableSpellings": 406,
+        "shortfall": 9653,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 723,
+        "withPublishedEvidence": 723,
+        "estimated": 0,
+        "searchableSpellings": 856,
+        "shortfall": 9277,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AO",
+      "name": "アンゴラ",
+      "male": {
+        "names": 62,
+        "withPublishedEvidence": 62,
+        "estimated": 0,
+        "searchableSpellings": 62,
+        "shortfall": 9938,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 54,
+        "withPublishedEvidence": 54,
+        "estimated": 0,
+        "searchableSpellings": 54,
+        "shortfall": 9946,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 62,
+        "withPublishedEvidence": 62,
+        "estimated": 0,
+        "searchableSpellings": 69,
+        "shortfall": 9938,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BD",
+      "name": "バングラデシュ",
+      "male": {
+        "names": 366,
+        "withPublishedEvidence": 366,
+        "estimated": 0,
+        "searchableSpellings": 391,
+        "shortfall": 9634,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 162,
+        "withPublishedEvidence": 162,
+        "estimated": 0,
+        "searchableSpellings": 175,
+        "shortfall": 9838,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 421,
+        "withPublishedEvidence": 421,
+        "estimated": 0,
+        "searchableSpellings": 425,
+        "shortfall": 9579,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BG",
+      "name": "ブルガリア",
+      "male": {
+        "names": 71,
+        "withPublishedEvidence": 71,
+        "estimated": 0,
+        "searchableSpellings": 78,
+        "shortfall": 9929,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 55,
+        "withPublishedEvidence": 55,
+        "estimated": 0,
+        "searchableSpellings": 71,
+        "shortfall": 9945,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 59,
+        "withPublishedEvidence": 59,
+        "estimated": 0,
+        "searchableSpellings": 88,
+        "shortfall": 9941,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BH",
+      "name": "バーレーン",
+      "male": {
+        "names": 196,
+        "withPublishedEvidence": 196,
+        "estimated": 0,
+        "searchableSpellings": 248,
+        "shortfall": 9804,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 151,
+        "withPublishedEvidence": 151,
+        "estimated": 0,
+        "searchableSpellings": 187,
+        "shortfall": 9849,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 207,
+        "withPublishedEvidence": 207,
+        "estimated": 0,
+        "searchableSpellings": 266,
+        "shortfall": 9793,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BO",
+      "name": "ボリビア",
+      "male": {
+        "names": 306,
+        "withPublishedEvidence": 306,
+        "estimated": 0,
+        "searchableSpellings": 306,
+        "shortfall": 9694,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 287,
+        "withPublishedEvidence": 287,
+        "estimated": 0,
+        "searchableSpellings": 287,
+        "shortfall": 9713,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 224,
+        "withPublishedEvidence": 224,
+        "estimated": 0,
+        "searchableSpellings": 224,
+        "shortfall": 9776,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CM",
+      "name": "カメルーン",
+      "male": {
+        "names": 231,
+        "withPublishedEvidence": 231,
+        "estimated": 0,
+        "searchableSpellings": 231,
+        "shortfall": 9769,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 225,
+        "withPublishedEvidence": 225,
+        "estimated": 0,
+        "searchableSpellings": 225,
+        "shortfall": 9775,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 138,
+        "withPublishedEvidence": 138,
+        "estimated": 0,
+        "searchableSpellings": 143,
+        "shortfall": 9862,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CN",
+      "name": "中国",
+      "male": {
+        "names": 16,
+        "withPublishedEvidence": 16,
+        "estimated": 0,
+        "searchableSpellings": 42,
+        "shortfall": 9984,
+        "source": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html"
+      },
+      "female": {
+        "names": 13,
+        "withPublishedEvidence": 13,
+        "estimated": 0,
+        "searchableSpellings": 35,
+        "shortfall": 9987,
+        "source": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html"
+      },
+      "surname": {
+        "names": 100,
+        "withPublishedEvidence": 100,
+        "estimated": 0,
+        "searchableSpellings": 234,
+        "shortfall": 9900,
+        "source": "https://www.xinhuanet.com/politics/2021-02/08/c_1127079509.htm"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CR",
+      "name": "コスタリカ",
+      "male": {
+        "names": 242,
+        "withPublishedEvidence": 242,
+        "estimated": 0,
+        "searchableSpellings": 243,
+        "shortfall": 9758,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 239,
+        "withPublishedEvidence": 239,
+        "estimated": 0,
+        "searchableSpellings": 240,
+        "shortfall": 9761,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 193,
+        "withPublishedEvidence": 193,
+        "estimated": 0,
+        "searchableSpellings": 193,
+        "shortfall": 9807,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CZ",
+      "name": "チェコ",
+      "male": {
+        "names": 141,
+        "withPublishedEvidence": 141,
+        "estimated": 0,
+        "searchableSpellings": 150,
+        "shortfall": 9859,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 158,
+        "withPublishedEvidence": 158,
+        "estimated": 0,
+        "searchableSpellings": 173,
+        "shortfall": 9842,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 90,
+        "withPublishedEvidence": 90,
+        "estimated": 0,
+        "searchableSpellings": 122,
+        "shortfall": 9910,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "DK",
+      "name": "デンマーク",
+      "male": {
+        "names": 187,
+        "withPublishedEvidence": 187,
+        "estimated": 0,
+        "searchableSpellings": 192,
+        "shortfall": 9813,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 177,
+        "withPublishedEvidence": 177,
+        "estimated": 0,
+        "searchableSpellings": 182,
+        "shortfall": 9823,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 112,
+        "withPublishedEvidence": 112,
+        "estimated": 0,
+        "searchableSpellings": 123,
+        "shortfall": 9888,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "DZ",
+      "name": "アルジェリア",
+      "male": {
+        "names": 1196,
+        "withPublishedEvidence": 1196,
+        "estimated": 0,
+        "searchableSpellings": 1456,
+        "shortfall": 8804,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1033,
+        "withPublishedEvidence": 1033,
+        "estimated": 0,
+        "searchableSpellings": 1128,
+        "shortfall": 8967,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1393,
+        "withPublishedEvidence": 1393,
+        "estimated": 0,
+        "searchableSpellings": 1659,
+        "shortfall": 8607,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "EG",
+      "name": "エジプト",
+      "male": {
+        "names": 1844,
+        "withPublishedEvidence": 1844,
+        "estimated": 0,
+        "searchableSpellings": 2987,
+        "shortfall": 8156,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1460,
+        "withPublishedEvidence": 1460,
+        "estimated": 0,
+        "searchableSpellings": 1987,
+        "shortfall": 8540,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 3422,
+        "withPublishedEvidence": 3422,
+        "estimated": 0,
+        "searchableSpellings": 5396,
+        "shortfall": 6578,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "FI",
+      "name": "フィンランド",
+      "male": {
+        "names": 11013,
+        "withPublishedEvidence": 11013,
+        "estimated": 0,
+        "searchableSpellings": 11013,
+        "shortfall": 0,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+      },
+      "female": {
+        "names": 14328,
+        "withPublishedEvidence": 14328,
+        "estimated": 0,
+        "searchableSpellings": 14328,
+        "shortfall": 0,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+      },
+      "surname": {
+        "names": 23260,
+        "withPublishedEvidence": 23260,
+        "estimated": 0,
+        "searchableSpellings": 23260,
+        "shortfall": 0,
+        "source": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+      },
+      "meetsTarget": true
+    },
+    {
+      "country": "GH",
+      "name": "ガーナ",
+      "male": {
+        "names": 127,
+        "withPublishedEvidence": 127,
+        "estimated": 0,
+        "searchableSpellings": 127,
+        "shortfall": 9873,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 118,
+        "withPublishedEvidence": 118,
+        "estimated": 0,
+        "searchableSpellings": 118,
+        "shortfall": 9882,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 112,
+        "withPublishedEvidence": 112,
+        "estimated": 0,
+        "searchableSpellings": 112,
+        "shortfall": 9888,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GR",
+      "name": "ギリシャ",
+      "male": {
+        "names": 140,
+        "withPublishedEvidence": 140,
+        "estimated": 0,
+        "searchableSpellings": 163,
+        "shortfall": 9860,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 114,
+        "withPublishedEvidence": 114,
+        "estimated": 0,
+        "searchableSpellings": 146,
+        "shortfall": 9886,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 83,
+        "withPublishedEvidence": 83,
+        "estimated": 0,
+        "searchableSpellings": 108,
+        "shortfall": 9917,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GT",
+      "name": "グアテマラ",
+      "male": {
+        "names": 199,
+        "withPublishedEvidence": 199,
+        "estimated": 0,
+        "searchableSpellings": 199,
+        "shortfall": 9801,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 171,
+        "withPublishedEvidence": 171,
+        "estimated": 0,
+        "searchableSpellings": 171,
+        "shortfall": 9829,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 151,
+        "withPublishedEvidence": 151,
+        "estimated": 0,
+        "searchableSpellings": 151,
+        "shortfall": 9849,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "HK",
+      "name": "香港",
+      "male": {
+        "names": 309,
+        "withPublishedEvidence": 309,
+        "estimated": 0,
+        "searchableSpellings": 310,
+        "shortfall": 9691,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 290,
+        "withPublishedEvidence": 290,
+        "estimated": 0,
+        "searchableSpellings": 291,
+        "shortfall": 9710,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 213,
+        "withPublishedEvidence": 213,
+        "estimated": 0,
+        "searchableSpellings": 213,
+        "shortfall": 9787,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IL",
+      "name": "イスラエル",
+      "male": {
+        "names": 546,
+        "withPublishedEvidence": 546,
+        "estimated": 0,
+        "searchableSpellings": 791,
+        "shortfall": 9454,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 523,
+        "withPublishedEvidence": 523,
+        "estimated": 0,
+        "searchableSpellings": 683,
+        "shortfall": 9477,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 208,
+        "withPublishedEvidence": 208,
+        "estimated": 0,
+        "searchableSpellings": 314,
+        "shortfall": 9792,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IQ",
+      "name": "イラク",
+      "male": {
+        "names": 1248,
+        "withPublishedEvidence": 1248,
+        "estimated": 0,
+        "searchableSpellings": 2238,
+        "shortfall": 8752,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 657,
+        "withPublishedEvidence": 657,
+        "estimated": 0,
+        "searchableSpellings": 1108,
+        "shortfall": 9343,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1523,
+        "withPublishedEvidence": 1523,
+        "estimated": 0,
+        "searchableSpellings": 3091,
+        "shortfall": 8477,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IR",
+      "name": "イラン",
+      "male": {
+        "names": 370,
+        "withPublishedEvidence": 370,
+        "estimated": 0,
+        "searchableSpellings": 429,
+        "shortfall": 9630,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 275,
+        "withPublishedEvidence": 275,
+        "estimated": 0,
+        "searchableSpellings": 307,
+        "shortfall": 9725,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 228,
+        "withPublishedEvidence": 228,
+        "estimated": 0,
+        "searchableSpellings": 272,
+        "shortfall": 9772,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "JO",
+      "name": "ヨルダン",
+      "male": {
+        "names": 446,
+        "withPublishedEvidence": 446,
+        "estimated": 0,
+        "searchableSpellings": 716,
+        "shortfall": 9554,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 333,
+        "withPublishedEvidence": 333,
+        "estimated": 0,
+        "searchableSpellings": 473,
+        "shortfall": 9667,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 258,
+        "withPublishedEvidence": 258,
+        "estimated": 0,
+        "searchableSpellings": 471,
+        "shortfall": 9742,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "KW",
+      "name": "クウェート",
+      "male": {
+        "names": 393,
+        "withPublishedEvidence": 393,
+        "estimated": 0,
+        "searchableSpellings": 427,
+        "shortfall": 9607,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 255,
+        "withPublishedEvidence": 255,
+        "estimated": 0,
+        "searchableSpellings": 280,
+        "shortfall": 9745,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 349,
+        "withPublishedEvidence": 349,
+        "estimated": 0,
+        "searchableSpellings": 396,
+        "shortfall": 9651,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "KZ",
+      "name": "カザフスタン",
+      "male": {
+        "names": 281,
+        "withPublishedEvidence": 281,
+        "estimated": 0,
+        "searchableSpellings": 506,
+        "shortfall": 9719,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 303,
+        "withPublishedEvidence": 303,
+        "estimated": 0,
+        "searchableSpellings": 496,
+        "shortfall": 9697,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 152,
+        "withPublishedEvidence": 152,
+        "estimated": 0,
+        "searchableSpellings": 256,
+        "shortfall": 9848,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LB",
+      "name": "レバノン",
+      "male": {
+        "names": 303,
+        "withPublishedEvidence": 303,
+        "estimated": 0,
+        "searchableSpellings": 378,
+        "shortfall": 9697,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 277,
+        "withPublishedEvidence": 277,
+        "estimated": 0,
+        "searchableSpellings": 318,
+        "shortfall": 9723,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 283,
+        "withPublishedEvidence": 283,
+        "estimated": 0,
+        "searchableSpellings": 405,
+        "shortfall": 9717,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LU",
+      "name": "ルクセンブルク",
+      "male": {
+        "names": 82,
+        "withPublishedEvidence": 82,
+        "estimated": 0,
+        "searchableSpellings": 82,
+        "shortfall": 9918,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 78,
+        "withPublishedEvidence": 78,
+        "estimated": 0,
+        "searchableSpellings": 78,
+        "shortfall": 9922,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 98,
+        "withPublishedEvidence": 98,
+        "estimated": 0,
+        "searchableSpellings": 98,
+        "shortfall": 9902,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LY",
+      "name": "リビア",
+      "male": {
+        "names": 520,
+        "withPublishedEvidence": 520,
+        "estimated": 0,
+        "searchableSpellings": 1057,
+        "shortfall": 9480,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 345,
+        "withPublishedEvidence": 345,
+        "estimated": 0,
+        "searchableSpellings": 539,
+        "shortfall": 9655,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 509,
+        "withPublishedEvidence": 509,
+        "estimated": 0,
+        "searchableSpellings": 1091,
+        "shortfall": 9491,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MA",
+      "name": "モロッコ",
+      "male": {
+        "names": 1346,
+        "withPublishedEvidence": 1346,
+        "estimated": 0,
+        "searchableSpellings": 1413,
+        "shortfall": 8654,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1225,
+        "withPublishedEvidence": 1225,
+        "estimated": 0,
+        "searchableSpellings": 1265,
+        "shortfall": 8775,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1976,
+        "withPublishedEvidence": 1976,
+        "estimated": 0,
+        "searchableSpellings": 2054,
+        "shortfall": 8024,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MO",
+      "name": "マカオ",
+      "male": {
+        "names": 52,
+        "withPublishedEvidence": 52,
+        "estimated": 0,
+        "searchableSpellings": 52,
+        "shortfall": 9948,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 49,
+        "withPublishedEvidence": 49,
+        "estimated": 0,
+        "searchableSpellings": 49,
+        "shortfall": 9951,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 56,
+        "withPublishedEvidence": 56,
+        "estimated": 0,
+        "searchableSpellings": 56,
+        "shortfall": 9944,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MU",
+      "name": "モーリシャス",
+      "male": {
+        "names": 134,
+        "withPublishedEvidence": 134,
+        "estimated": 0,
+        "searchableSpellings": 138,
+        "shortfall": 9866,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 134,
+        "withPublishedEvidence": 134,
+        "estimated": 0,
+        "searchableSpellings": 144,
+        "shortfall": 9866,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 114,
+        "withPublishedEvidence": 114,
+        "estimated": 0,
+        "searchableSpellings": 114,
+        "shortfall": 9886,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MY",
+      "name": "マレーシア",
+      "male": {
+        "names": 880,
+        "withPublishedEvidence": 880,
+        "estimated": 0,
+        "searchableSpellings": 929,
+        "shortfall": 9120,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 778,
+        "withPublishedEvidence": 778,
+        "estimated": 0,
+        "searchableSpellings": 809,
+        "shortfall": 9222,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1080,
+        "withPublishedEvidence": 1080,
+        "estimated": 0,
+        "searchableSpellings": 1107,
+        "shortfall": 8920,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "NO",
+      "name": "ノルウェー",
+      "male": {
+        "names": 987,
+        "withPublishedEvidence": 987,
+        "estimated": 0,
+        "searchableSpellings": 987,
+        "shortfall": 9013,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn"
+      },
+      "female": {
+        "names": 1098,
+        "withPublishedEvidence": 1098,
+        "estimated": 0,
+        "searchableSpellings": 1098,
+        "shortfall": 8902,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn"
+      },
+      "surname": {
+        "names": 117807,
+        "withPublishedEvidence": 117807,
+        "estimated": 0,
+        "searchableSpellings": 117807,
+        "shortfall": 0,
+        "source": "https://www.ssb.no/befolkning/navn/statistikk/navn"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "OM",
+      "name": "オマーン",
+      "male": {
+        "names": 622,
+        "withPublishedEvidence": 622,
+        "estimated": 0,
+        "searchableSpellings": 779,
+        "shortfall": 9378,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 279,
+        "withPublishedEvidence": 279,
+        "estimated": 0,
+        "searchableSpellings": 345,
+        "shortfall": 9721,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 594,
+        "withPublishedEvidence": 594,
+        "estimated": 0,
+        "searchableSpellings": 850,
+        "shortfall": 9406,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PA",
+      "name": "パナマ",
+      "male": {
+        "names": 207,
+        "withPublishedEvidence": 207,
+        "estimated": 0,
+        "searchableSpellings": 207,
+        "shortfall": 9793,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 174,
+        "withPublishedEvidence": 174,
+        "estimated": 0,
+        "searchableSpellings": 174,
+        "shortfall": 9826,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 206,
+        "withPublishedEvidence": 206,
+        "estimated": 0,
+        "searchableSpellings": 206,
+        "shortfall": 9794,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PH",
+      "name": "フィリピン",
+      "male": {
+        "names": 102,
+        "withPublishedEvidence": 102,
+        "estimated": 0,
+        "searchableSpellings": 102,
+        "shortfall": 9898,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 94,
+        "withPublishedEvidence": 94,
+        "estimated": 0,
+        "searchableSpellings": 94,
+        "shortfall": 9906,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 138,
+        "withPublishedEvidence": 138,
+        "estimated": 0,
+        "searchableSpellings": 139,
+        "shortfall": 9862,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PS",
+      "name": "パレスチナ",
+      "male": {
+        "names": 457,
+        "withPublishedEvidence": 457,
+        "estimated": 0,
+        "searchableSpellings": 784,
+        "shortfall": 9543,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 369,
+        "withPublishedEvidence": 369,
+        "estimated": 0,
+        "searchableSpellings": 576,
+        "shortfall": 9631,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 208,
+        "withPublishedEvidence": 208,
+        "estimated": 0,
+        "searchableSpellings": 356,
+        "shortfall": 9792,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "QA",
+      "name": "カタール",
+      "male": {
+        "names": 334,
+        "withPublishedEvidence": 334,
+        "estimated": 0,
+        "searchableSpellings": 356,
+        "shortfall": 9666,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 206,
+        "withPublishedEvidence": 206,
+        "estimated": 0,
+        "searchableSpellings": 230,
+        "shortfall": 9794,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 294,
+        "withPublishedEvidence": 294,
+        "estimated": 0,
+        "searchableSpellings": 306,
+        "shortfall": 9706,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "RU",
+      "name": "ロシア",
+      "male": {
+        "names": 419,
+        "withPublishedEvidence": 419,
+        "estimated": 0,
+        "searchableSpellings": 642,
+        "shortfall": 9581,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 393,
+        "withPublishedEvidence": 393,
+        "estimated": 0,
+        "searchableSpellings": 538,
+        "shortfall": 9607,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 854,
+        "withPublishedEvidence": 854,
+        "estimated": 0,
+        "searchableSpellings": 1204,
+        "shortfall": 9146,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SA",
+      "name": "サウジアラビア",
+      "male": {
+        "names": 2345,
+        "withPublishedEvidence": 2345,
+        "estimated": 0,
+        "searchableSpellings": 3349,
+        "shortfall": 7655,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 950,
+        "withPublishedEvidence": 950,
+        "estimated": 0,
+        "searchableSpellings": 1262,
+        "shortfall": 9050,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 2457,
+        "withPublishedEvidence": 2457,
+        "estimated": 0,
+        "searchableSpellings": 4172,
+        "shortfall": 7543,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SD",
+      "name": "スーダン",
+      "male": {
+        "names": 721,
+        "withPublishedEvidence": 721,
+        "estimated": 0,
+        "searchableSpellings": 1498,
+        "shortfall": 9279,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 464,
+        "withPublishedEvidence": 464,
+        "estimated": 0,
+        "searchableSpellings": 768,
+        "shortfall": 9536,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 739,
+        "withPublishedEvidence": 739,
+        "estimated": 0,
+        "searchableSpellings": 1618,
+        "shortfall": 9261,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SE",
+      "name": "スウェーデン",
+      "male": {
+        "names": 234,
+        "withPublishedEvidence": 234,
+        "estimated": 0,
+        "searchableSpellings": 259,
+        "shortfall": 9766,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 222,
+        "withPublishedEvidence": 222,
+        "estimated": 0,
+        "searchableSpellings": 247,
+        "shortfall": 9778,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 129,
+        "withPublishedEvidence": 129,
+        "estimated": 0,
+        "searchableSpellings": 150,
+        "shortfall": 9871,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SG",
+      "name": "シンガポール",
+      "male": {
+        "names": 346,
+        "withPublishedEvidence": 346,
+        "estimated": 0,
+        "searchableSpellings": 354,
+        "shortfall": 9654,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 281,
+        "withPublishedEvidence": 281,
+        "estimated": 0,
+        "searchableSpellings": 289,
+        "shortfall": 9719,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 286,
+        "withPublishedEvidence": 286,
+        "estimated": 0,
+        "searchableSpellings": 289,
+        "shortfall": 9714,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SY",
+      "name": "シリア",
+      "male": {
+        "names": 768,
+        "withPublishedEvidence": 768,
+        "estimated": 0,
+        "searchableSpellings": 1347,
+        "shortfall": 9232,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 634,
+        "withPublishedEvidence": 634,
+        "estimated": 0,
+        "searchableSpellings": 905,
+        "shortfall": 9366,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 873,
+        "withPublishedEvidence": 873,
+        "estimated": 0,
+        "searchableSpellings": 1695,
+        "shortfall": 9127,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TN",
+      "name": "チュニジア",
+      "male": {
+        "names": 748,
+        "withPublishedEvidence": 748,
+        "estimated": 0,
+        "searchableSpellings": 822,
+        "shortfall": 9252,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 708,
+        "withPublishedEvidence": 708,
+        "estimated": 0,
+        "searchableSpellings": 755,
+        "shortfall": 9292,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1015,
+        "withPublishedEvidence": 1015,
+        "estimated": 0,
+        "searchableSpellings": 1110,
+        "shortfall": 8985,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TW",
+      "name": "台湾",
+      "male": {
+        "names": 100,
+        "withPublishedEvidence": 100,
+        "estimated": 0,
+        "searchableSpellings": 110,
+        "shortfall": 9900,
+        "source": "https://www.ris.gov.tw/documents/data/5/2/112namestat.pdf"
+      },
+      "female": {
+        "names": 100,
+        "withPublishedEvidence": 100,
+        "estimated": 0,
+        "searchableSpellings": 110,
+        "shortfall": 9900,
+        "source": "https://www.ris.gov.tw/documents/data/5/2/112namestat.pdf"
+      },
+      "surname": {
+        "names": 2694,
+        "withPublishedEvidence": 2694,
+        "estimated": 0,
+        "searchableSpellings": 2706,
+        "shortfall": 7306,
+        "source": "https://data.gov.tw/dataset/126774"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "UY",
+      "name": "ウルグアイ",
+      "male": {
+        "names": 204,
+        "withPublishedEvidence": 204,
+        "estimated": 0,
+        "searchableSpellings": 204,
+        "shortfall": 9796,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 216,
+        "withPublishedEvidence": 216,
+        "estimated": 0,
+        "searchableSpellings": 216,
+        "shortfall": 9784,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 146,
+        "withPublishedEvidence": 146,
+        "estimated": 0,
+        "searchableSpellings": 146,
+        "shortfall": 9854,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "YE",
+      "name": "イエメン",
+      "male": {
+        "names": 514,
+        "withPublishedEvidence": 514,
+        "estimated": 0,
+        "searchableSpellings": 1180,
+        "shortfall": 9486,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 241,
+        "withPublishedEvidence": 241,
+        "estimated": 0,
+        "searchableSpellings": 365,
+        "shortfall": 9759,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 705,
+        "withPublishedEvidence": 705,
+        "estimated": 0,
+        "searchableSpellings": 1730,
+        "shortfall": 9295,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AF",
+      "name": "アフガニスタン",
+      "male": {
+        "names": 48,
+        "withPublishedEvidence": 48,
+        "estimated": 0,
+        "searchableSpellings": 65,
+        "shortfall": 9952,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 33,
+        "withPublishedEvidence": 33,
+        "estimated": 0,
+        "searchableSpellings": 41,
+        "shortfall": 9967,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 58,
+        "withPublishedEvidence": 58,
+        "estimated": 0,
+        "searchableSpellings": 61,
+        "shortfall": 9942,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AL",
+      "name": "アルバニア",
+      "male": {
+        "names": 85,
+        "withPublishedEvidence": 85,
+        "estimated": 0,
+        "searchableSpellings": 85,
+        "shortfall": 9915,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 50,
+        "withPublishedEvidence": 50,
+        "estimated": 0,
+        "searchableSpellings": 50,
+        "shortfall": 9950,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 72,
+        "withPublishedEvidence": 72,
+        "estimated": 0,
+        "searchableSpellings": 72,
+        "shortfall": 9928,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AU",
+      "name": "オーストラリア",
+      "male": {
+        "names": 15,
+        "withPublishedEvidence": 15,
+        "estimated": 0,
+        "searchableSpellings": 15,
+        "shortfall": 9985,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 12,
+        "withPublishedEvidence": 12,
+        "estimated": 0,
+        "searchableSpellings": 12,
+        "shortfall": 9988,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 34,
+        "withPublishedEvidence": 34,
+        "estimated": 0,
+        "searchableSpellings": 34,
+        "shortfall": 9966,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AZ",
+      "name": "アゼルバイジャン",
+      "male": {
+        "names": 31,
+        "withPublishedEvidence": 31,
+        "estimated": 0,
+        "searchableSpellings": 32,
+        "shortfall": 9969,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 34,
+        "withPublishedEvidence": 34,
+        "estimated": 0,
+        "searchableSpellings": 35,
+        "shortfall": 9966,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 17,
+        "withPublishedEvidence": 17,
+        "estimated": 0,
+        "searchableSpellings": 26,
+        "shortfall": 9983,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BF",
+      "name": "ブルキナファソ",
+      "male": {
+        "names": 2,
+        "withPublishedEvidence": 2,
+        "estimated": 0,
+        "searchableSpellings": 2,
+        "shortfall": 9998,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 2,
+        "withPublishedEvidence": 2,
+        "estimated": 0,
+        "searchableSpellings": 2,
+        "shortfall": 9998,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BI",
+      "name": "ブルンジ",
+      "male": {
+        "names": 7,
+        "withPublishedEvidence": 7,
+        "estimated": 0,
+        "searchableSpellings": 7,
+        "shortfall": 9993,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 6,
+        "withPublishedEvidence": 6,
+        "estimated": 0,
+        "searchableSpellings": 6,
+        "shortfall": 9994,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BN",
+      "name": "ブルネイ",
+      "male": {
+        "names": 57,
+        "withPublishedEvidence": 57,
+        "estimated": 0,
+        "searchableSpellings": 58,
+        "shortfall": 9943,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 53,
+        "withPublishedEvidence": 53,
+        "estimated": 0,
+        "searchableSpellings": 54,
+        "shortfall": 9947,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 49,
+        "withPublishedEvidence": 49,
+        "estimated": 0,
+        "searchableSpellings": 49,
+        "shortfall": 9951,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BW",
+      "name": "ボツワナ",
+      "male": {
+        "names": 34,
+        "withPublishedEvidence": 34,
+        "estimated": 0,
+        "searchableSpellings": 34,
+        "shortfall": 9966,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 29,
+        "withPublishedEvidence": 29,
+        "estimated": 0,
+        "searchableSpellings": 29,
+        "shortfall": 9971,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 23,
+        "withPublishedEvidence": 23,
+        "estimated": 0,
+        "searchableSpellings": 23,
+        "shortfall": 9977,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CY",
+      "name": "キプロス",
+      "male": {
+        "names": 50,
+        "withPublishedEvidence": 50,
+        "estimated": 0,
+        "searchableSpellings": 61,
+        "shortfall": 9950,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 50,
+        "withPublishedEvidence": 50,
+        "estimated": 0,
+        "searchableSpellings": 64,
+        "shortfall": 9950,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 40,
+        "withPublishedEvidence": 40,
+        "estimated": 0,
+        "searchableSpellings": 50,
+        "shortfall": 9960,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "DJ",
+      "name": "ジブチ",
+      "male": {
+        "names": 6,
+        "withPublishedEvidence": 6,
+        "estimated": 0,
+        "searchableSpellings": 6,
+        "shortfall": 9994,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 6,
+        "withPublishedEvidence": 6,
+        "estimated": 0,
+        "searchableSpellings": 6,
+        "shortfall": 9994,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "EC",
+      "name": "エクアドル",
+      "male": {
+        "names": 63,
+        "withPublishedEvidence": 63,
+        "estimated": 0,
+        "searchableSpellings": 63,
+        "shortfall": 9937,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 55,
+        "withPublishedEvidence": 55,
+        "estimated": 0,
+        "searchableSpellings": 55,
+        "shortfall": 9945,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 32,
+        "withPublishedEvidence": 32,
+        "estimated": 0,
+        "searchableSpellings": 32,
+        "shortfall": 9968,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "EE",
+      "name": "エストニア",
+      "male": {
+        "names": 28,
+        "withPublishedEvidence": 28,
+        "estimated": 0,
+        "searchableSpellings": 32,
+        "shortfall": 9972,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 28,
+        "withPublishedEvidence": 28,
+        "estimated": 0,
+        "searchableSpellings": 38,
+        "shortfall": 9972,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 38,
+        "withPublishedEvidence": 38,
+        "estimated": 0,
+        "searchableSpellings": 55,
+        "shortfall": 9962,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ET",
+      "name": "エチオピア",
+      "male": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 6,
+        "withPublishedEvidence": 6,
+        "estimated": 0,
+        "searchableSpellings": 6,
+        "shortfall": 9994,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GE",
+      "name": "ジョージア",
+      "male": {
+        "names": 26,
+        "withPublishedEvidence": 26,
+        "estimated": 0,
+        "searchableSpellings": 35,
+        "shortfall": 9974,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 26,
+        "withPublishedEvidence": 26,
+        "estimated": 0,
+        "searchableSpellings": 35,
+        "shortfall": 9974,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 29,
+        "withPublishedEvidence": 29,
+        "estimated": 0,
+        "searchableSpellings": 60,
+        "shortfall": 9971,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "HN",
+      "name": "ホンジュラス",
+      "male": {
+        "names": 9,
+        "withPublishedEvidence": 9,
+        "estimated": 0,
+        "searchableSpellings": 9,
+        "shortfall": 9991,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 9,
+        "withPublishedEvidence": 9,
+        "estimated": 0,
+        "searchableSpellings": 9,
+        "shortfall": 9991,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "HR",
+      "name": "クロアチア",
+      "male": {
+        "names": 109,
+        "withPublishedEvidence": 109,
+        "estimated": 0,
+        "searchableSpellings": 110,
+        "shortfall": 9891,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 112,
+        "withPublishedEvidence": 112,
+        "estimated": 0,
+        "searchableSpellings": 113,
+        "shortfall": 9888,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 62,
+        "withPublishedEvidence": 62,
+        "estimated": 0,
+        "searchableSpellings": 69,
+        "shortfall": 9938,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "HT",
+      "name": "ハイチ",
+      "male": {
+        "names": 14,
+        "withPublishedEvidence": 14,
+        "estimated": 0,
+        "searchableSpellings": 14,
+        "shortfall": 9986,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 17,
+        "withPublishedEvidence": 17,
+        "estimated": 0,
+        "searchableSpellings": 17,
+        "shortfall": 9983,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "HU",
+      "name": "ハンガリー",
+      "male": {
+        "names": 86,
+        "withPublishedEvidence": 86,
+        "estimated": 0,
+        "searchableSpellings": 86,
+        "shortfall": 9914,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 79,
+        "withPublishedEvidence": 79,
+        "estimated": 0,
+        "searchableSpellings": 79,
+        "shortfall": 9921,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 58,
+        "withPublishedEvidence": 58,
+        "estimated": 0,
+        "searchableSpellings": 58,
+        "shortfall": 9942,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ID",
+      "name": "インドネシア",
+      "male": {
+        "names": 42,
+        "withPublishedEvidence": 42,
+        "estimated": 0,
+        "searchableSpellings": 42,
+        "shortfall": 9958,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 36,
+        "withPublishedEvidence": 36,
+        "estimated": 0,
+        "searchableSpellings": 36,
+        "shortfall": 9964,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 27,
+        "withPublishedEvidence": 27,
+        "estimated": 0,
+        "searchableSpellings": 27,
+        "shortfall": 9973,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IS",
+      "name": "アイスランド",
+      "male": {
+        "names": 22,
+        "withPublishedEvidence": 22,
+        "estimated": 0,
+        "searchableSpellings": 22,
+        "shortfall": 9978,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9980,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 23,
+        "withPublishedEvidence": 23,
+        "estimated": 0,
+        "searchableSpellings": 23,
+        "shortfall": 9977,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "JM",
+      "name": "ジャマイカ",
+      "male": {
+        "names": 53,
+        "withPublishedEvidence": 53,
+        "estimated": 0,
+        "searchableSpellings": 53,
+        "shortfall": 9947,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 38,
+        "withPublishedEvidence": 38,
+        "estimated": 0,
+        "searchableSpellings": 38,
+        "shortfall": 9962,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 55,
+        "withPublishedEvidence": 55,
+        "estimated": 0,
+        "searchableSpellings": 55,
+        "shortfall": 9945,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "KH",
+      "name": "カンボジア",
+      "male": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 84,
+        "withPublishedEvidence": 84,
+        "estimated": 0,
+        "searchableSpellings": 167,
+        "shortfall": 9916,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LT",
+      "name": "リトアニア",
+      "male": {
+        "names": 38,
+        "withPublishedEvidence": 38,
+        "estimated": 0,
+        "searchableSpellings": 43,
+        "shortfall": 9962,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 39,
+        "withPublishedEvidence": 39,
+        "estimated": 0,
+        "searchableSpellings": 44,
+        "shortfall": 9961,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 25,
+        "withPublishedEvidence": 25,
+        "estimated": 0,
+        "searchableSpellings": 42,
+        "shortfall": 9975,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MD",
+      "name": "モルドバ",
+      "male": {
+        "names": 19,
+        "withPublishedEvidence": 19,
+        "estimated": 0,
+        "searchableSpellings": 23,
+        "shortfall": 9981,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 19,
+        "withPublishedEvidence": 19,
+        "estimated": 0,
+        "searchableSpellings": 23,
+        "shortfall": 9981,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 23,
+        "withPublishedEvidence": 23,
+        "estimated": 0,
+        "searchableSpellings": 26,
+        "shortfall": 9977,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MT",
+      "name": "マルタ",
+      "male": {
+        "names": 55,
+        "withPublishedEvidence": 55,
+        "estimated": 0,
+        "searchableSpellings": 59,
+        "shortfall": 9945,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 48,
+        "withPublishedEvidence": 48,
+        "estimated": 0,
+        "searchableSpellings": 52,
+        "shortfall": 9952,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 45,
+        "withPublishedEvidence": 45,
+        "estimated": 0,
+        "searchableSpellings": 45,
+        "shortfall": 9955,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MV",
+      "name": "モルディブ",
+      "male": {
+        "names": 33,
+        "withPublishedEvidence": 33,
+        "estimated": 0,
+        "searchableSpellings": 33,
+        "shortfall": 9967,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 26,
+        "withPublishedEvidence": 26,
+        "estimated": 0,
+        "searchableSpellings": 26,
+        "shortfall": 9974,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 27,
+        "withPublishedEvidence": 27,
+        "estimated": 0,
+        "searchableSpellings": 27,
+        "shortfall": 9973,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PK",
+      "name": "パキスタン",
+      "male": {
+        "names": 16,
+        "withPublishedEvidence": 16,
+        "estimated": 0,
+        "searchableSpellings": 16,
+        "shortfall": 9984,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PR",
+      "name": "プエルトリコ",
+      "male": {
+        "names": 39,
+        "withPublishedEvidence": 39,
+        "estimated": 0,
+        "searchableSpellings": 39,
+        "shortfall": 9961,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 40,
+        "withPublishedEvidence": 40,
+        "estimated": 0,
+        "searchableSpellings": 40,
+        "shortfall": 9960,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 32,
+        "withPublishedEvidence": 32,
+        "estimated": 0,
+        "searchableSpellings": 32,
+        "shortfall": 9968,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "RO",
+      "name": "ルーマニア",
+      "male": {
+        "names": 11,
+        "withPublishedEvidence": 11,
+        "estimated": 0,
+        "searchableSpellings": 11,
+        "shortfall": 9989,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 13,
+        "withPublishedEvidence": 13,
+        "estimated": 0,
+        "searchableSpellings": 13,
+        "shortfall": 9987,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "RS",
+      "name": "セルビア",
+      "male": {
+        "names": 44,
+        "withPublishedEvidence": 44,
+        "estimated": 0,
+        "searchableSpellings": 50,
+        "shortfall": 9956,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 36,
+        "withPublishedEvidence": 36,
+        "estimated": 0,
+        "searchableSpellings": 45,
+        "shortfall": 9964,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 37,
+        "shortfall": 9980,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SI",
+      "name": "スロベニア",
+      "male": {
+        "names": 4252,
+        "withPublishedEvidence": 4252,
+        "estimated": 0,
+        "searchableSpellings": 4252,
+        "shortfall": 5748,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1005S.px"
+      },
+      "female": {
+        "names": 4435,
+        "withPublishedEvidence": 4435,
+        "estimated": 0,
+        "searchableSpellings": 4435,
+        "shortfall": 5565,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1005S.px"
+      },
+      "surname": {
+        "names": 30412,
+        "withPublishedEvidence": 30412,
+        "estimated": 0,
+        "searchableSpellings": 30412,
+        "shortfall": 0,
+        "source": "https://pxweb.stat.si/SiStatData/pxweb/en/Data/-/05X1015S.px"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SK",
+      "name": "スロバキア",
+      "male": {
+        "names": 12,
+        "withPublishedEvidence": 12,
+        "estimated": 0,
+        "searchableSpellings": 12,
+        "shortfall": 9988,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 11,
+        "withPublishedEvidence": 11,
+        "estimated": 0,
+        "searchableSpellings": 11,
+        "shortfall": 9989,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 21,
+        "withPublishedEvidence": 21,
+        "estimated": 0,
+        "searchableSpellings": 21,
+        "shortfall": 9979,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TM",
+      "name": "トルクメニスタン",
+      "male": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "UA",
+      "name": "ウクライナ",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 23,
+        "withPublishedEvidence": 23,
+        "estimated": 0,
+        "searchableSpellings": 23,
+        "shortfall": 9977,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "UZ",
+      "name": "ウズベキスタン",
+      "male": {
+        "names": 2,
+        "withPublishedEvidence": 2,
+        "estimated": 0,
+        "searchableSpellings": 2,
+        "shortfall": 9998,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "VE",
+      "name": "ベネズエラ",
+      "male": {
+        "names": 12,
+        "withPublishedEvidence": 12,
+        "estimated": 0,
+        "searchableSpellings": 12,
+        "shortfall": 9988,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "VN",
+      "name": "ベトナム",
+      "male": {
+        "names": 1,
+        "withPublishedEvidence": 1,
+        "estimated": 0,
+        "searchableSpellings": 1,
+        "shortfall": 9999,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": "https://onomaverse.com/datasets/given-name-frequency"
+      },
+      "surname": {
+        "names": 43,
+        "withPublishedEvidence": 43,
+        "estimated": 0,
+        "searchableSpellings": 85,
+        "shortfall": 9957,
+        "source": "https://onomaverse.com/datasets/surname-frequency"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AD",
+      "name": "アンドラ",
+      "male": {
+        "names": 7,
+        "withPublishedEvidence": 7,
+        "estimated": 0,
+        "searchableSpellings": 7,
+        "shortfall": 9993,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AM",
+      "name": "アルメニア",
+      "male": {
+        "names": 19,
+        "withPublishedEvidence": 19,
+        "estimated": 0,
+        "searchableSpellings": 19,
+        "shortfall": 9981,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 19,
+        "withPublishedEvidence": 19,
+        "estimated": 0,
+        "searchableSpellings": 19,
+        "shortfall": 9981,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 40,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "AW",
+      "name": "アルバ",
+      "male": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BA",
+      "name": "ボスニア・ヘルツェゴビナ",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 44,
+        "withPublishedEvidence": 44,
+        "estimated": 0,
+        "searchableSpellings": 44,
+        "shortfall": 9956,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "BY",
+      "name": "ベラルーシ",
+      "male": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "FO",
+      "name": "フェロー諸島",
+      "male": {
+        "names": 956,
+        "withPublishedEvidence": 956,
+        "estimated": 0,
+        "searchableSpellings": 956,
+        "shortfall": 9044,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/"
+      },
+      "female": {
+        "names": 1031,
+        "withPublishedEvidence": 1031,
+        "estimated": 0,
+        "searchableSpellings": 1031,
+        "shortfall": 8969,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/"
+      },
+      "surname": {
+        "names": 1996,
+        "withPublishedEvidence": 1996,
+        "estimated": 0,
+        "searchableSpellings": 1996,
+        "shortfall": 8004,
+        "source": "https://statbank.hagstova.fo/pxweb/en/H2/H2__IB__IB05/"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GG",
+      "name": "ガーンジー",
+      "male": {
+        "names": 11,
+        "withPublishedEvidence": 11,
+        "estimated": 0,
+        "searchableSpellings": 11,
+        "shortfall": 9989,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 7,
+        "withPublishedEvidence": 7,
+        "estimated": 0,
+        "searchableSpellings": 7,
+        "shortfall": 9993,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GI",
+      "name": "ジブラルタル",
+      "male": {
+        "names": 8,
+        "withPublishedEvidence": 8,
+        "estimated": 0,
+        "searchableSpellings": 8,
+        "shortfall": 9992,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 8,
+        "withPublishedEvidence": 8,
+        "estimated": 0,
+        "searchableSpellings": 8,
+        "shortfall": 9992,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GL",
+      "name": "グリーンランド",
+      "male": {
+        "names": 227,
+        "withPublishedEvidence": 227,
+        "estimated": 0,
+        "searchableSpellings": 227,
+        "shortfall": 9773,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/"
+      },
+      "female": {
+        "names": 231,
+        "withPublishedEvidence": 231,
+        "estimated": 0,
+        "searchableSpellings": 231,
+        "shortfall": 9769,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/"
+      },
+      "surname": {
+        "names": 262,
+        "withPublishedEvidence": 262,
+        "estimated": 0,
+        "searchableSpellings": 262,
+        "shortfall": 9738,
+        "source": "https://bank.stat.gl/pxweb/en/Greenland/Greenland__NA/"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "GQ",
+      "name": "赤道ギニア",
+      "male": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "IM",
+      "name": "マン島",
+      "male": {
+        "names": 9,
+        "withPublishedEvidence": 9,
+        "estimated": 0,
+        "searchableSpellings": 9,
+        "shortfall": 9991,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "JE",
+      "name": "ジャージー",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LI",
+      "name": "リヒテンシュタイン",
+      "male": {
+        "names": 14,
+        "withPublishedEvidence": 14,
+        "estimated": 0,
+        "searchableSpellings": 14,
+        "shortfall": 9986,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 8,
+        "withPublishedEvidence": 8,
+        "estimated": 0,
+        "searchableSpellings": 8,
+        "shortfall": 9992,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LV",
+      "name": "ラトビア",
+      "male": {
+        "names": 9,
+        "withPublishedEvidence": 9,
+        "estimated": 0,
+        "searchableSpellings": 9,
+        "shortfall": 9991,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 9,
+        "withPublishedEvidence": 9,
+        "estimated": 0,
+        "searchableSpellings": 9,
+        "shortfall": 9991,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 15,
+        "withPublishedEvidence": 15,
+        "estimated": 0,
+        "searchableSpellings": 15,
+        "shortfall": 9985,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MC",
+      "name": "モナコ",
+      "male": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ME",
+      "name": "モンテネグロ",
+      "male": {
+        "names": 18,
+        "withPublishedEvidence": 18,
+        "estimated": 0,
+        "searchableSpellings": 28,
+        "shortfall": 9982,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 30,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MK",
+      "name": "北マケドニア",
+      "male": {
+        "names": 18,
+        "withPublishedEvidence": 18,
+        "estimated": 0,
+        "searchableSpellings": 28,
+        "shortfall": 9982,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 19,
+        "withPublishedEvidence": 19,
+        "estimated": 0,
+        "searchableSpellings": 28,
+        "shortfall": 9981,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 38,
+        "withPublishedEvidence": 38,
+        "estimated": 0,
+        "searchableSpellings": 38,
+        "shortfall": 9962,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "ML",
+      "name": "マリ",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "MN",
+      "name": "モンゴル",
+      "male": {
+        "names": 2,
+        "withPublishedEvidence": 2,
+        "estimated": 0,
+        "searchableSpellings": 2,
+        "shortfall": 9998,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "NP",
+      "name": "ネパール",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 40,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "NZ",
+      "name": "ニュージーランド",
+      "male": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PF",
+      "name": "仏領ポリネシア",
+      "male": {
+        "names": 12,
+        "withPublishedEvidence": 12,
+        "estimated": 0,
+        "searchableSpellings": 12,
+        "shortfall": 9988,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 14,
+        "withPublishedEvidence": 14,
+        "estimated": 0,
+        "searchableSpellings": 14,
+        "shortfall": 9986,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "PY",
+      "name": "パラグアイ",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 25,
+        "withPublishedEvidence": 25,
+        "estimated": 0,
+        "searchableSpellings": 25,
+        "shortfall": 9975,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SM",
+      "name": "サンマリノ",
+      "male": {
+        "names": 3,
+        "withPublishedEvidence": 3,
+        "estimated": 0,
+        "searchableSpellings": 3,
+        "shortfall": 9997,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 2,
+        "withPublishedEvidence": 2,
+        "estimated": 0,
+        "searchableSpellings": 2,
+        "shortfall": 9998,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SV",
+      "name": "エルサルバドル",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 10,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 25,
+        "withPublishedEvidence": 25,
+        "estimated": 0,
+        "searchableSpellings": 25,
+        "shortfall": 9975,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TH",
+      "name": "タイ",
+      "male": {
+        "names": 5,
+        "withPublishedEvidence": 5,
+        "estimated": 0,
+        "searchableSpellings": 5,
+        "shortfall": 9995,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "TJ",
+      "name": "タジキスタン",
+      "male": {
+        "names": 4,
+        "withPublishedEvidence": 4,
+        "estimated": 0,
+        "searchableSpellings": 4,
+        "shortfall": 9996,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 6,
+        "withPublishedEvidence": 6,
+        "estimated": 0,
+        "searchableSpellings": 6,
+        "shortfall": 9994,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "KG",
+      "name": "キルギス",
+      "male": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "female": {
+        "names": 10,
+        "withPublishedEvidence": 10,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9990,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "surname": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "LK",
+      "name": "スリランカ",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 50,
+        "withPublishedEvidence": 50,
+        "estimated": 0,
+        "searchableSpellings": 50,
+        "shortfall": 9950,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "XK",
+      "name": "コソボ",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 20,
+        "withPublishedEvidence": 20,
+        "estimated": 0,
+        "searchableSpellings": 20,
+        "shortfall": 9980,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "CU",
+      "name": "キューバ",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 30,
+        "withPublishedEvidence": 30,
+        "estimated": 0,
+        "searchableSpellings": 30,
+        "shortfall": 9970,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "DO",
+      "name": "ドミニカ共和国",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 30,
+        "withPublishedEvidence": 30,
+        "estimated": 0,
+        "searchableSpellings": 30,
+        "shortfall": 9970,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "FJ",
+      "name": "フィジー",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 22,
+        "withPublishedEvidence": 22,
+        "estimated": 0,
+        "searchableSpellings": 22,
+        "shortfall": 9978,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    },
+    {
+      "country": "SR",
+      "name": "スリナム",
+      "male": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "female": {
+        "names": 0,
+        "withPublishedEvidence": 0,
+        "estimated": 0,
+        "searchableSpellings": 0,
+        "shortfall": 10000,
+        "source": null
+      },
+      "surname": {
+        "names": 13,
+        "withPublishedEvidence": 13,
+        "estimated": 0,
+        "searchableSpellings": 13,
+        "shortfall": 9987,
+        "source": "https://github.com/sigpwned/popular-names-by-country-dataset"
+      },
+      "meetsTarget": false
+    }
+  ]
+}

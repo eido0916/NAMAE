@@ -16,6 +16,7 @@ const hira = (value) =>
     );
 
 const dictionary = [];
+const commonReadings = new Set();
 for (const [gender, file] of [
   ["male", "man"],
   ["female", "woman"],
@@ -32,6 +33,14 @@ for (const [gender, file] of [
       reading,
       aliases: [romaji, ...kanji].filter(Boolean),
     });
+  }
+  for (const line of readFileSync(
+    `data-sources/japanese-names/first_name_${file}_opti.csv`,
+    "utf8",
+  )
+    .trim()
+    .split(/\r?\n/)) {
+    commonReadings.add(`${gender}|${line.split(",")[0]}`);
   }
 }
 mkdirSync("src/data/dictionary", { recursive: true });
@@ -120,13 +129,13 @@ for (let start = 1920; start <= 2025; start += 4) {
             .map((line) => line.split(","));
           for (const sex of ["M", "F"]) {
             const group = rows.filter((row) => row[1] === sex);
-            group.slice(0, 200).forEach(([name, , count], index) =>
+            group.forEach(([name, , count], index) =>
               american.push({
                 country: "US",
                 type: "given_name",
                 name,
                 rank: index + 1,
-                totalEntries: Math.min(200, group.length),
+                totalEntries: group.length,
                 year,
                 dataYear: year,
                 gender: sex === "M" ? "male" : "female",
@@ -142,7 +151,109 @@ for (let start = 1920; start <= 2025; start += 4) {
   );
 }
 
+function addJapaneseOverallRankings() {
+  const published = JSON.parse(
+    readFileSync("data-sources/rankings/jp-baby-calendar.json", "utf8"),
+  );
+  const latestPublished = new Map();
+  for (const row of published.records) {
+    const gender = row.sex === "m" ? "male" : "female";
+    const key = `${gender}|${row.reading}`;
+    const current = latestPublished.get(key);
+    if (!current || row.year > current.year) latestPublished.set(key, row);
+  }
+
+  // Public readings must not depend on coverage in the initial dictionary.
+  const keys = new Set(dictionary.map((entry) => `${entry.gender}|${entry.reading}`));
+  for (const [key, row] of latestPublished) {
+    if (!keys.has(key)) {
+      dictionary.push({ gender: row.sex === "m" ? "male" : "female", reading: row.reading, aliases: [] });
+      keys.add(key);
+    }
+  }
+
+  const spellingReadings = new Map();
+  for (const entry of dictionary) {
+    for (const alias of entry.aliases.slice(1)) {
+      const key = `${entry.gender}|${alias}`;
+      if (!spellingReadings.has(key)) spellingReadings.set(key, new Set());
+      spellingReadings.get(key).add(entry.reading);
+    }
+  }
+
+  const evidence = new Map();
+  const addEvidence = (key, value) =>
+    evidence.set(key, (evidence.get(key) ?? 0) + value);
+  for (const record of japanese) {
+    const key = `${record.gender}|${record.name}`;
+    const recency = Math.exp(-(2025 - record.year) / 24);
+    const position =
+      (record.totalEntries - record.rank + 1) / record.totalEntries;
+    if (record.rankingBasis === "reading") {
+      addEvidence(key, 10 * recency * position);
+      continue;
+    }
+    const candidates = spellingReadings.get(key);
+    if (candidates?.size === 1) {
+      addEvidence(
+        `${record.gender}|${[...candidates][0]}`,
+        1.5 * recency * position,
+      );
+    }
+  }
+
+  for (const gender of ["male", "female"]) {
+    const candidates = dictionary
+      .filter((entry) => entry.gender === gender)
+      .map((entry) => {
+        const key = `${gender}|${entry.reading}`;
+        const survey = latestPublished.get(key);
+        const surveyScore = survey
+          ? 1000 * (1 - survey.rank / survey.totalEntries)
+          : 0;
+        return {
+          entry,
+          survey,
+          score:
+            surveyScore +
+            (evidence.get(key) ?? 0) +
+            (commonReadings.has(key) ? 0.6 : 0) +
+            Math.log1p(entry.aliases.length - 1) * 0.015,
+        };
+      })
+      .sort(
+        (a, b) =>
+          b.score - a.score ||
+          b.entry.aliases.length - a.entry.aliases.length ||
+          a.entry.reading.localeCompare(b.entry.reading, "ja"),
+      );
+
+    candidates.forEach(({ entry, survey }, index) => {
+      japanese.push({
+        country: "JP",
+        type: "given_name",
+        name: entry.reading,
+        rank: survey?.rank ?? index + 1,
+        totalEntries: survey?.totalEntries ?? candidates.length,
+        year: survey?.year,
+        dataYear: survey?.year ?? 2025,
+        gender,
+        rankingBasis: "overall",
+        isEstimated: !survey,
+      });
+    });
+  }
+}
+
+addJapaneseOverallRankings();
+writeFileSync("src/data/dictionary/names.json", JSON.stringify(dictionary));
+
 if (!japanese.length || !american.length) throw Error("No rankings imported");
+
+const japaneseForApp = japanese.filter(
+  (record) => record.rankingBasis === "overall",
+);
+const americanForApp = american.filter((record) => record.year === 2020);
 
 const sortRecords = (a, b) =>
   (a.year ?? 0) - (b.year ?? 0) ||
@@ -150,8 +261,91 @@ const sortRecords = (a, b) =>
   String(a.rankingBasis).localeCompare(String(b.rankingBasis)) ||
   a.rank - b.rank ||
   a.name.localeCompare(b.name, "ja");
-japanese.sort(sortRecords);
-american.sort(sortRecords);
+japaneseForApp.sort(sortRecords);
+americanForApp.sort(sortRecords);
+
+const foreignDatasets = [
+  {
+    country: "GB",
+    year: 2025,
+    source: "Office for National Statistics・Onomaverse Global Given-Name Frequency",
+    sourceUrl: "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesenglandandwalesbabynamesstatisticsboys",
+    file: "data-sources/rankings/foreign/gb-2025.json",
+  },
+  {
+    country: "FR",
+    year: 2024,
+    source: "INSEE Fichier des prénoms national",
+    sourceUrl: "https://www.insee.fr/fr/statistiques/8894961",
+    file: "data-sources/rankings/foreign/fr-2024.json",
+  },
+  {
+    country: "DE",
+    year: 2024,
+    source: "Beliebte Vornamen Top 500",
+    sourceUrl: "https://www.beliebte-vornamen.de/jahrgang/j2024/top-500-2024",
+    file: "data-sources/rankings/foreign/de-2024.json",
+  },
+  {
+    country: "KR",
+    year: 2024,
+    source: "아기이름 연도별 이름 순위・출생신고 기준",
+    sourceUrl: "https://baby-name.kr/annalRanking/2024/",
+    file: "data-sources/rankings/foreign/kr-2024.json",
+  },
+];
+for (const dataset of foreignDatasets) {
+  const records = JSON.parse(readFileSync(dataset.file, "utf8"));
+  const normalized = records.map((record) => ({
+    ...record,
+    totalEntries: record.totalEntries || records.filter((item) => item.gender === record.gender).length,
+    year: dataset.year,
+    dataYear: dataset.year,
+  }));
+  writeFileSync(
+    `src/data/${dataset.country.toLowerCase()}/given-name/sample.json`,
+    JSON.stringify({
+      meta: {
+        country: dataset.country,
+        type: "given_name",
+        source: dataset.source,
+        sourceUrl: dataset.sourceUrl,
+        dataYear: dataset.year,
+        isOfficial: dataset.country === "GB" || dataset.country === "FR",
+        isSample: false,
+        notes: "公開データから取得できる範囲を男女別に収録。同数順位は掲載順を連番化しています。",
+      },
+      records: normalized,
+    }),
+  );
+}
+
+const foreignSurnameDatasets = [
+  { country: "US", year: 2020, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/us-surname-2020.json" },
+  { country: "GB", year: 2025, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/gb-surname-2025.json" },
+  { country: "FR", year: 2024, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/fr-surname-2024.json" },
+  { country: "DE", year: 2024, source: "Onomaverse Global Surname Frequency", sourceUrl: "https://onomaverse.com/datasets/surname-frequency", file: "data-sources/rankings/foreign/de-surname-2024.json" },
+  { country: "KR", year: 2015, source: "Korean Last Names・2015 Census / Onomaverse", sourceUrl: "https://koreanlastnames.com/most-common-korean-last-names/", file: "data-sources/rankings/foreign/kr-surname-2015.json" },
+];
+for (const dataset of foreignSurnameDatasets) {
+  const records = JSON.parse(readFileSync(dataset.file, "utf8"));
+  writeFileSync(
+    `src/data/${dataset.country.toLowerCase()}/surname/sample.json`,
+    JSON.stringify({
+      meta: {
+        country: dataset.country,
+        type: "surname",
+        source: dataset.source,
+        sourceUrl: dataset.sourceUrl,
+        dataYear: dataset.year,
+        isOfficial: false,
+        isSample: false,
+        notes: "公開姓氏頻度データを順位順に収録。日本の順位番号と対応させます。",
+      },
+      records,
+    }),
+  );
+}
 
 const meta = (country, source, sourceUrl, records) => ({
   country,
@@ -166,8 +360,8 @@ const meta = (country, source, sourceUrl, records) => ({
   isSample: false,
   notes:
     country === "JP"
-      ? "保険加入者を対象とする名前表記・読み方調査。全国民の人口順位ではありません。"
-      : "SSA公開データのミラーを使用。各年・性別上位200件を収録。",
+      ? "公開された赤ちゃんの読み順位を優先し、未掲載の読みは公開ランキング掲載歴と名前辞書から総合順位を推定。全国民の人口順位ではありません。"
+      : "SSA公開データのミラーを使用。2020年に5件以上登録された名前を男女別に全件収録。",
 });
 
 writeFileSync(
@@ -175,11 +369,11 @@ writeFileSync(
   JSON.stringify({
     meta: meta(
       "JP",
-      "明治安田 生まれ年別の名前調査（名前表記・読み方）",
-      "https://www.meijiyasuda.co.jp/enjoy/ranking/index.html",
-      japanese,
+      "ベビーカレンダー 名前ランキング・明治安田 名前調査・Japanese Personal Name Dataset",
+      "https://baby-calendar.jp/nazuke/",
+      japaneseForApp,
     ),
-    records: japanese,
+    records: japaneseForApp,
   }),
 );
 writeFileSync(
@@ -189,9 +383,9 @@ writeFileSync(
       "US",
       "米国SSA Baby Names（公開ミラー）",
       "https://www.ssa.gov/oact/babynames/limits.html",
-      american,
+      americanForApp,
     ),
-    records: american,
+    records: americanForApp,
   }),
 );
 
@@ -239,12 +433,15 @@ console.log(
   JSON.stringify({
     dictionary: dictionary.length,
     surnames: surnames.length,
-    japanese: japanese.length,
+    japanese: japaneseForApp.length,
     japaneseReading: japanese.filter(
       (record) => record.rankingBasis === "reading",
     ).length,
     japaneseSpelling: japanese.filter(
       (record) => record.rankingBasis === "spelling",
+    ).length,
+    japaneseOverall: japanese.filter(
+      (record) => record.rankingBasis === "overall",
     ).length,
     american: american.length,
     readingYears: readingYears.sort(),

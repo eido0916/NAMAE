@@ -1,0 +1,4008 @@
+{
+  "provenanceReviewedAt": "2026-09-24",
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "ベビーカレンダー 名前ランキング: 公開前に再配布条件の確認が必要です",
+    "明治安田 名前ランキング: 公開前に再配布条件の確認が必要です",
+    "ENAMDICT/JMnedict Japanese Proper Names Dictionary: 公開前に再配布条件の確認が必要です",
+    "Beliebte Vornamen Top 500: 公開前に再配布条件の確認が必要です",
+    "아기이름 연도별 이름 순위: 公開前に再配布条件の確認が必要です",
+    "Korean Last Names: 公開前に再配布条件の確認が必要です"
+  ],
+  "changes": [
+    {
+      "key": "AD/given_name",
+      "before": 11,
+      "after": 11,
+      "delta": 0
+    },
+    {
+      "key": "AE/given_name",
+      "before": 1148,
+      "after": 1183,
+      "delta": 35
+    },
+    {
+      "key": "AE/surname",
+      "before": 707,
+      "after": 723,
+      "delta": 16
+    },
+    {
+      "key": "AF/given_name",
+      "before": 76,
+      "after": 81,
+      "delta": 5
+    },
+    {
+      "key": "AF/surname",
+      "before": 47,
+      "after": 58,
+      "delta": 11
+    },
+    {
+      "key": "AL/given_name",
+      "before": 135,
+      "after": 135,
+      "delta": 0
+    },
+    {
+      "key": "AL/surname",
+      "before": 72,
+      "after": 72,
+      "delta": 0
+    },
+    {
+      "key": "AM/given_name",
+      "before": 38,
+      "after": 38,
+      "delta": 0
+    },
+    {
+      "key": "AM/surname",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "AO/given_name",
+      "before": 116,
+      "after": 116,
+      "delta": 0
+    },
+    {
+      "key": "AO/surname",
+      "before": 62,
+      "after": 62,
+      "delta": 0
+    },
+    {
+      "key": "AR/given_name",
+      "before": 556,
+      "after": 556,
+      "delta": 0
+    },
+    {
+      "key": "AR/surname",
+      "before": 326,
+      "after": 326,
+      "delta": 0
+    },
+    {
+      "key": "AT/given_name",
+      "before": 24809,
+      "after": 24809,
+      "delta": 0
+    },
+    {
+      "key": "AT/surname",
+      "before": 146,
+      "after": 146,
+      "delta": 0
+    },
+    {
+      "key": "AU/given_name",
+      "before": 27,
+      "after": 27,
+      "delta": 0
+    },
+    {
+      "key": "AU/surname",
+      "before": 34,
+      "after": 34,
+      "delta": 0
+    },
+    {
+      "key": "AW/given_name",
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    {
+      "key": "AZ/given_name",
+      "before": 65,
+      "after": 65,
+      "delta": 0
+    },
+    {
+      "key": "AZ/surname",
+      "before": 17,
+      "after": 17,
+      "delta": 0
+    },
+    {
+      "key": "BA/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "BA/surname",
+      "before": 44,
+      "after": 44,
+      "delta": 0
+    },
+    {
+      "key": "BD/given_name",
+      "before": 520,
+      "after": 528,
+      "delta": 8
+    },
+    {
+      "key": "BD/surname",
+      "before": 393,
+      "after": 421,
+      "delta": 28
+    },
+    {
+      "key": "BE/given_name",
+      "before": 13923,
+      "after": 13923,
+      "delta": 0
+    },
+    {
+      "key": "BE/surname",
+      "before": 105899,
+      "after": 105899,
+      "delta": 0
+    },
+    {
+      "key": "BF/given_name",
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    {
+      "key": "BF/surname",
+      "before": 1,
+      "after": 1,
+      "delta": 0
+    },
+    {
+      "key": "BG/given_name",
+      "before": 123,
+      "after": 126,
+      "delta": 3
+    },
+    {
+      "key": "BG/surname",
+      "before": 59,
+      "after": 59,
+      "delta": 0
+    },
+    {
+      "key": "BH/given_name",
+      "before": 333,
+      "after": 347,
+      "delta": 14
+    },
+    {
+      "key": "BH/surname",
+      "before": 202,
+      "after": 207,
+      "delta": 5
+    },
+    {
+      "key": "BI/given_name",
+      "before": 13,
+      "after": 13,
+      "delta": 0
+    },
+    {
+      "key": "BI/surname",
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    {
+      "key": "BN/given_name",
+      "before": 110,
+      "after": 110,
+      "delta": 0
+    },
+    {
+      "key": "BN/surname",
+      "before": 49,
+      "after": 49,
+      "delta": 0
+    },
+    {
+      "key": "BO/given_name",
+      "before": 593,
+      "after": 593,
+      "delta": 0
+    },
+    {
+      "key": "BO/surname",
+      "before": 224,
+      "after": 224,
+      "delta": 0
+    },
+    {
+      "key": "BR/given_name",
+      "before": 134315,
+      "after": 134315,
+      "delta": 0
+    },
+    {
+      "key": "BR/surname",
+      "before": 201601,
+      "after": 201601,
+      "delta": 0
+    },
+    {
+      "key": "BW/given_name",
+      "before": 63,
+      "after": 63,
+      "delta": 0
+    },
+    {
+      "key": "BW/surname",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "key": "BY/given_name",
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    {
+      "key": "BY/surname",
+      "before": 5,
+      "after": 5,
+      "delta": 0
+    },
+    {
+      "key": "CA/given_name",
+      "before": 20626,
+      "after": 20626,
+      "delta": 0
+    },
+    {
+      "key": "CA/surname",
+      "before": 290,
+      "after": 290,
+      "delta": 0
+    },
+    {
+      "key": "CH/given_name",
+      "before": 584,
+      "after": 584,
+      "delta": 0
+    },
+    {
+      "key": "CH/surname",
+      "before": 25186,
+      "after": 25186,
+      "delta": 0
+    },
+    {
+      "key": "CL/given_name",
+      "before": 204790,
+      "after": 204790,
+      "delta": 0
+    },
+    {
+      "key": "CL/surname",
+      "before": 527,
+      "after": 527,
+      "delta": 0
+    },
+    {
+      "key": "CM/given_name",
+      "before": 456,
+      "after": 456,
+      "delta": 0
+    },
+    {
+      "key": "CM/surname",
+      "before": 138,
+      "after": 138,
+      "delta": 0
+    },
+    {
+      "key": "CN/given_name",
+      "before": 20,
+      "after": 40,
+      "delta": 20
+    },
+    {
+      "key": "CN/surname",
+      "before": 100,
+      "after": 100,
+      "delta": 0
+    },
+    {
+      "key": "CO/given_name",
+      "before": 1791,
+      "after": 1791,
+      "delta": 0
+    },
+    {
+      "key": "CO/surname",
+      "before": 940,
+      "after": 940,
+      "delta": 0
+    },
+    {
+      "key": "CR/given_name",
+      "before": 481,
+      "after": 481,
+      "delta": 0
+    },
+    {
+      "key": "CR/surname",
+      "before": 193,
+      "after": 193,
+      "delta": 0
+    },
+    {
+      "key": "CU/surname",
+      "before": 30,
+      "after": 30,
+      "delta": 0
+    },
+    {
+      "key": "CY/given_name",
+      "before": 100,
+      "after": 100,
+      "delta": 0
+    },
+    {
+      "key": "CY/surname",
+      "before": 40,
+      "after": 40,
+      "delta": 0
+    },
+    {
+      "key": "CZ/given_name",
+      "before": 299,
+      "after": 299,
+      "delta": 0
+    },
+    {
+      "key": "CZ/surname",
+      "before": 90,
+      "after": 90,
+      "delta": 0
+    },
+    {
+      "key": "DE/given_name",
+      "before": 1815,
+      "after": 1815,
+      "delta": 0
+    },
+    {
+      "key": "DE/surname",
+      "before": 378,
+      "after": 378,
+      "delta": 0
+    },
+    {
+      "key": "DJ/given_name",
+      "before": 9,
+      "after": 9,
+      "delta": 0
+    },
+    {
+      "key": "DJ/surname",
+      "before": 6,
+      "after": 6,
+      "delta": 0
+    },
+    {
+      "key": "DK/given_name",
+      "before": 364,
+      "after": 364,
+      "delta": 0
+    },
+    {
+      "key": "DK/surname",
+      "before": 112,
+      "after": 112,
+      "delta": 0
+    },
+    {
+      "key": "DO/surname",
+      "before": 30,
+      "after": 30,
+      "delta": 0
+    },
+    {
+      "key": "DZ/given_name",
+      "before": 2036,
+      "after": 2229,
+      "delta": 193
+    },
+    {
+      "key": "DZ/surname",
+      "before": 1290,
+      "after": 1393,
+      "delta": 103
+    },
+    {
+      "key": "EC/given_name",
+      "before": 118,
+      "after": 118,
+      "delta": 0
+    },
+    {
+      "key": "EC/surname",
+      "before": 32,
+      "after": 32,
+      "delta": 0
+    },
+    {
+      "key": "EE/given_name",
+      "before": 56,
+      "after": 56,
+      "delta": 0
+    },
+    {
+      "key": "EE/surname",
+      "before": 38,
+      "after": 38,
+      "delta": 0
+    },
+    {
+      "key": "EG/given_name",
+      "before": 2271,
+      "after": 3304,
+      "delta": 1033
+    },
+    {
+      "key": "EG/surname",
+      "before": 2031,
+      "after": 3422,
+      "delta": 1391
+    },
+    {
+      "key": "ES/given_name",
+      "before": 63440,
+      "after": 63440,
+      "delta": 0
+    },
+    {
+      "key": "ES/surname",
+      "before": 86511,
+      "after": 86511,
+      "delta": 0
+    },
+    {
+      "key": "ET/given_name",
+      "before": 11,
+      "after": 11,
+      "delta": 0
+    },
+    {
+      "key": "ET/surname",
+      "before": 3,
+      "after": 3,
+      "delta": 0
+    },
+    {
+      "key": "FI/given_name",
+      "before": 25341,
+      "after": 25341,
+      "delta": 0
+    },
+    {
+      "key": "FI/surname",
+      "before": 23260,
+      "after": 23260,
+      "delta": 0
+    },
+    {
+      "key": "FJ/surname",
+      "before": 22,
+      "after": 22,
+      "delta": 0
+    },
+    {
+      "key": "FO/given_name",
+      "before": 1987,
+      "after": 1987,
+      "delta": 0
+    },
+    {
+      "key": "FO/surname",
+      "before": 1996,
+      "after": 1996,
+      "delta": 0
+    },
+    {
+      "key": "FR/given_name",
+      "before": 51651,
+      "after": 51651,
+      "delta": 0
+    },
+    {
+      "key": "FR/surname",
+      "before": 218982,
+      "after": 218982,
+      "delta": 0
+    },
+    {
+      "key": "GB/given_name",
+      "before": 42085,
+      "after": 42085,
+      "delta": 0
+    },
+    {
+      "key": "GB/surname",
+      "before": 74035,
+      "after": 74035,
+      "delta": 0
+    },
+    {
+      "key": "GE/given_name",
+      "before": 52,
+      "after": 52,
+      "delta": 0
+    },
+    {
+      "key": "GE/surname",
+      "before": 29,
+      "after": 29,
+      "delta": 0
+    },
+    {
+      "key": "GG/given_name",
+      "before": 18,
+      "after": 18,
+      "delta": 0
+    },
+    {
+      "key": "GH/given_name",
+      "before": 245,
+      "after": 245,
+      "delta": 0
+    },
+    {
+      "key": "GH/surname",
+      "before": 112,
+      "after": 112,
+      "delta": 0
+    },
+    {
+      "key": "GI/given_name",
+      "before": 16,
+      "after": 16,
+      "delta": 0
+    },
+    {
+      "key": "GL/given_name",
+      "before": 458,
+      "after": 458,
+      "delta": 0
+    },
+    {
+      "key": "GL/surname",
+      "before": 262,
+      "after": 262,
+      "delta": 0
+    },
+    {
+      "key": "GQ/given_name",
+      "before": 9,
+      "after": 9,
+      "delta": 0
+    },
+    {
+      "key": "GR/given_name",
+      "before": 250,
+      "after": 254,
+      "delta": 4
+    },
+    {
+      "key": "GR/surname",
+      "before": 83,
+      "after": 83,
+      "delta": 0
+    },
+    {
+      "key": "GT/given_name",
+      "before": 370,
+      "after": 370,
+      "delta": 0
+    },
+    {
+      "key": "GT/surname",
+      "before": 151,
+      "after": 151,
+      "delta": 0
+    },
+    {
+      "key": "HK/given_name",
+      "before": 599,
+      "after": 599,
+      "delta": 0
+    },
+    {
+      "key": "HK/surname",
+      "before": 213,
+      "after": 213,
+      "delta": 0
+    },
+    {
+      "key": "HN/given_name",
+      "before": 18,
+      "after": 18,
+      "delta": 0
+    },
+    {
+      "key": "HN/surname",
+      "before": 5,
+      "after": 5,
+      "delta": 0
+    },
+    {
+      "key": "HR/given_name",
+      "before": 221,
+      "after": 221,
+      "delta": 0
+    },
+    {
+      "key": "HR/surname",
+      "before": 62,
+      "after": 62,
+      "delta": 0
+    },
+    {
+      "key": "HT/given_name",
+      "before": 31,
+      "after": 31,
+      "delta": 0
+    },
+    {
+      "key": "HT/surname",
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    {
+      "key": "HU/given_name",
+      "before": 165,
+      "after": 165,
+      "delta": 0
+    },
+    {
+      "key": "HU/surname",
+      "before": 58,
+      "after": 58,
+      "delta": 0
+    },
+    {
+      "key": "ID/given_name",
+      "before": 78,
+      "after": 78,
+      "delta": 0
+    },
+    {
+      "key": "ID/surname",
+      "before": 27,
+      "after": 27,
+      "delta": 0
+    },
+    {
+      "key": "IE/given_name",
+      "before": 551,
+      "after": 551,
+      "delta": 0
+    },
+    {
+      "key": "IE/surname",
+      "before": 196,
+      "after": 196,
+      "delta": 0
+    },
+    {
+      "key": "IL/given_name",
+      "before": 807,
+      "after": 1069,
+      "delta": 262
+    },
+    {
+      "key": "IL/surname",
+      "before": 179,
+      "after": 208,
+      "delta": 29
+    },
+    {
+      "key": "IM/given_name",
+      "before": 19,
+      "after": 19,
+      "delta": 0
+    },
+    {
+      "key": "IN/given_name",
+      "before": 950,
+      "after": 952,
+      "delta": 2
+    },
+    {
+      "key": "IN/surname",
+      "before": 524,
+      "after": 527,
+      "delta": 3
+    },
+    {
+      "key": "IQ/given_name",
+      "before": 1295,
+      "after": 1905,
+      "delta": 610
+    },
+    {
+      "key": "IQ/surname",
+      "before": 929,
+      "after": 1523,
+      "delta": 594
+    },
+    {
+      "key": "IR/given_name",
+      "before": 610,
+      "after": 645,
+      "delta": 35
+    },
+    {
+      "key": "IR/surname",
+      "before": 212,
+      "after": 228,
+      "delta": 16
+    },
+    {
+      "key": "IS/given_name",
+      "before": 42,
+      "after": 42,
+      "delta": 0
+    },
+    {
+      "key": "IS/surname",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "key": "IT/given_name",
+      "before": 120266,
+      "after": 120266,
+      "delta": 0
+    },
+    {
+      "key": "IT/surname",
+      "before": 2939,
+      "after": 2939,
+      "delta": 0
+    },
+    {
+      "key": "JE/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "JM/given_name",
+      "before": 91,
+      "after": 91,
+      "delta": 0
+    },
+    {
+      "key": "JM/surname",
+      "before": 55,
+      "after": 55,
+      "delta": 0
+    },
+    {
+      "key": "JO/given_name",
+      "before": 645,
+      "after": 779,
+      "delta": 134
+    },
+    {
+      "key": "JO/surname",
+      "before": 193,
+      "after": 258,
+      "delta": 65
+    },
+    {
+      "key": "JP/given_name",
+      "before": 55623,
+      "after": 55623,
+      "delta": 0
+    },
+    {
+      "key": "JP/surname",
+      "before": 105125,
+      "after": 105125,
+      "delta": 0
+    },
+    {
+      "key": "KG/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "KH/given_name",
+      "before": 2,
+      "after": 2,
+      "delta": 0
+    },
+    {
+      "key": "KH/surname",
+      "before": 84,
+      "after": 84,
+      "delta": 0
+    },
+    {
+      "key": "KR/given_name",
+      "before": 64797,
+      "after": 64797,
+      "delta": 0
+    },
+    {
+      "key": "KR/surname",
+      "before": 100,
+      "after": 100,
+      "delta": 0
+    },
+    {
+      "key": "KW/given_name",
+      "before": 643,
+      "after": 648,
+      "delta": 5
+    },
+    {
+      "key": "KW/surname",
+      "before": 349,
+      "after": 349,
+      "delta": 0
+    },
+    {
+      "key": "KZ/given_name",
+      "before": 401,
+      "after": 584,
+      "delta": 183
+    },
+    {
+      "key": "KZ/surname",
+      "before": 91,
+      "after": 152,
+      "delta": 61
+    },
+    {
+      "key": "LB/given_name",
+      "before": 533,
+      "after": 580,
+      "delta": 47
+    },
+    {
+      "key": "LB/surname",
+      "before": 265,
+      "after": 283,
+      "delta": 18
+    },
+    {
+      "key": "LI/given_name",
+      "before": 22,
+      "after": 22,
+      "delta": 0
+    },
+    {
+      "key": "LK/surname",
+      "before": 50,
+      "after": 50,
+      "delta": 0
+    },
+    {
+      "key": "LT/given_name",
+      "before": 77,
+      "after": 77,
+      "delta": 0
+    },
+    {
+      "key": "LT/surname",
+      "before": 25,
+      "after": 25,
+      "delta": 0
+    },
+    {
+      "key": "LU/given_name",
+      "before": 160,
+      "after": 160,
+      "delta": 0
+    },
+    {
+      "key": "LU/surname",
+      "before": 98,
+      "after": 98,
+      "delta": 0
+    },
+    {
+      "key": "LV/given_name",
+      "before": 18,
+      "after": 18,
+      "delta": 0
+    },
+    {
+      "key": "LV/surname",
+      "before": 15,
+      "after": 15,
+      "delta": 0
+    },
+    {
+      "key": "LY/given_name",
+      "before": 689,
+      "after": 865,
+      "delta": 176
+    },
+    {
+      "key": "LY/surname",
+      "before": 368,
+      "after": 509,
+      "delta": 141
+    },
+    {
+      "key": "MA/given_name",
+      "before": 2534,
+      "after": 2571,
+      "delta": 37
+    },
+    {
+      "key": "MA/surname",
+      "before": 1965,
+      "after": 1976,
+      "delta": 11
+    },
+    {
+      "key": "MC/given_name",
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    {
+      "key": "MD/given_name",
+      "before": 38,
+      "after": 38,
+      "delta": 0
+    },
+    {
+      "key": "MD/surname",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "key": "ME/given_name",
+      "before": 38,
+      "after": 38,
+      "delta": 0
+    },
+    {
+      "key": "ME/surname",
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    {
+      "key": "MK/given_name",
+      "before": 37,
+      "after": 37,
+      "delta": 0
+    },
+    {
+      "key": "MK/surname",
+      "before": 38,
+      "after": 38,
+      "delta": 0
+    },
+    {
+      "key": "ML/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "MN/given_name",
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    {
+      "key": "MO/given_name",
+      "before": 101,
+      "after": 101,
+      "delta": 0
+    },
+    {
+      "key": "MO/surname",
+      "before": 56,
+      "after": 56,
+      "delta": 0
+    },
+    {
+      "key": "MT/given_name",
+      "before": 103,
+      "after": 103,
+      "delta": 0
+    },
+    {
+      "key": "MT/surname",
+      "before": 45,
+      "after": 45,
+      "delta": 0
+    },
+    {
+      "key": "MU/given_name",
+      "before": 268,
+      "after": 268,
+      "delta": 0
+    },
+    {
+      "key": "MU/surname",
+      "before": 114,
+      "after": 114,
+      "delta": 0
+    },
+    {
+      "key": "MV/given_name",
+      "before": 59,
+      "after": 59,
+      "delta": 0
+    },
+    {
+      "key": "MV/surname",
+      "before": 27,
+      "after": 27,
+      "delta": 0
+    },
+    {
+      "key": "MX/given_name",
+      "before": 1545,
+      "after": 1545,
+      "delta": 0
+    },
+    {
+      "key": "MX/surname",
+      "before": 766,
+      "after": 766,
+      "delta": 0
+    },
+    {
+      "key": "MY/given_name",
+      "before": 1651,
+      "after": 1658,
+      "delta": 7
+    },
+    {
+      "key": "MY/surname",
+      "before": 1076,
+      "after": 1080,
+      "delta": 4
+    },
+    {
+      "key": "NG/given_name",
+      "before": 1392,
+      "after": 1392,
+      "delta": 0
+    },
+    {
+      "key": "NG/surname",
+      "before": 955,
+      "after": 955,
+      "delta": 0
+    },
+    {
+      "key": "NL/given_name",
+      "before": 1223,
+      "after": 1223,
+      "delta": 0
+    },
+    {
+      "key": "NL/surname",
+      "before": 320,
+      "after": 320,
+      "delta": 0
+    },
+    {
+      "key": "NO/given_name",
+      "before": 2085,
+      "after": 2085,
+      "delta": 0
+    },
+    {
+      "key": "NO/surname",
+      "before": 117807,
+      "after": 117807,
+      "delta": 0
+    },
+    {
+      "key": "NP/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "NP/surname",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "NZ/given_name",
+      "before": 40,
+      "after": 40,
+      "delta": 0
+    },
+    {
+      "key": "NZ/surname",
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    {
+      "key": "OM/given_name",
+      "before": 819,
+      "after": 901,
+      "delta": 82
+    },
+    {
+      "key": "OM/surname",
+      "before": 539,
+      "after": 594,
+      "delta": 55
+    },
+    {
+      "key": "PA/given_name",
+      "before": 381,
+      "after": 381,
+      "delta": 0
+    },
+    {
+      "key": "PA/surname",
+      "before": 206,
+      "after": 206,
+      "delta": 0
+    },
+    {
+      "key": "PE/given_name",
+      "before": 1159,
+      "after": 1159,
+      "delta": 0
+    },
+    {
+      "key": "PE/surname",
+      "before": 402,
+      "after": 402,
+      "delta": 0
+    },
+    {
+      "key": "PF/given_name",
+      "before": 26,
+      "after": 26,
+      "delta": 0
+    },
+    {
+      "key": "PH/given_name",
+      "before": 196,
+      "after": 196,
+      "delta": 0
+    },
+    {
+      "key": "PH/surname",
+      "before": 138,
+      "after": 138,
+      "delta": 0
+    },
+    {
+      "key": "PK/given_name",
+      "before": 26,
+      "after": 26,
+      "delta": 0
+    },
+    {
+      "key": "PK/surname",
+      "before": 3,
+      "after": 3,
+      "delta": 0
+    },
+    {
+      "key": "PL/given_name",
+      "before": 77496,
+      "after": 77496,
+      "delta": 0
+    },
+    {
+      "key": "PL/surname",
+      "before": 598466,
+      "after": 598466,
+      "delta": 0
+    },
+    {
+      "key": "PR/given_name",
+      "before": 79,
+      "after": 79,
+      "delta": 0
+    },
+    {
+      "key": "PR/surname",
+      "before": 32,
+      "after": 32,
+      "delta": 0
+    },
+    {
+      "key": "PS/given_name",
+      "before": 725,
+      "after": 826,
+      "delta": 101
+    },
+    {
+      "key": "PS/surname",
+      "before": 191,
+      "after": 208,
+      "delta": 17
+    },
+    {
+      "key": "PT/given_name",
+      "before": 403,
+      "after": 403,
+      "delta": 0
+    },
+    {
+      "key": "PT/surname",
+      "before": 228,
+      "after": 228,
+      "delta": 0
+    },
+    {
+      "key": "PY/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "PY/surname",
+      "before": 25,
+      "after": 25,
+      "delta": 0
+    },
+    {
+      "key": "QA/given_name",
+      "before": 537,
+      "after": 540,
+      "delta": 3
+    },
+    {
+      "key": "QA/surname",
+      "before": 294,
+      "after": 294,
+      "delta": 0
+    },
+    {
+      "key": "RO/given_name",
+      "before": 21,
+      "after": 21,
+      "delta": 0
+    },
+    {
+      "key": "RO/surname",
+      "before": 13,
+      "after": 13,
+      "delta": 0
+    },
+    {
+      "key": "RS/given_name",
+      "before": 80,
+      "after": 80,
+      "delta": 0
+    },
+    {
+      "key": "RS/surname",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "RU/given_name",
+      "before": 636,
+      "after": 812,
+      "delta": 176
+    },
+    {
+      "key": "RU/surname",
+      "before": 222,
+      "after": 854,
+      "delta": 632
+    },
+    {
+      "key": "SA/given_name",
+      "before": 2757,
+      "after": 3295,
+      "delta": 538
+    },
+    {
+      "key": "SA/surname",
+      "before": 2023,
+      "after": 2457,
+      "delta": 434
+    },
+    {
+      "key": "SD/given_name",
+      "before": 821,
+      "after": 1185,
+      "delta": 364
+    },
+    {
+      "key": "SD/surname",
+      "before": 449,
+      "after": 739,
+      "delta": 290
+    },
+    {
+      "key": "SE/given_name",
+      "before": 456,
+      "after": 456,
+      "delta": 0
+    },
+    {
+      "key": "SE/surname",
+      "before": 129,
+      "after": 129,
+      "delta": 0
+    },
+    {
+      "key": "SG/given_name",
+      "before": 627,
+      "after": 627,
+      "delta": 0
+    },
+    {
+      "key": "SG/surname",
+      "before": 286,
+      "after": 286,
+      "delta": 0
+    },
+    {
+      "key": "SI/given_name",
+      "before": 8687,
+      "after": 8687,
+      "delta": 0
+    },
+    {
+      "key": "SI/surname",
+      "before": 30412,
+      "after": 30412,
+      "delta": 0
+    },
+    {
+      "key": "SK/given_name",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "key": "SK/surname",
+      "before": 21,
+      "after": 21,
+      "delta": 0
+    },
+    {
+      "key": "SM/given_name",
+      "before": 5,
+      "after": 5,
+      "delta": 0
+    },
+    {
+      "key": "SR/surname",
+      "before": 13,
+      "after": 13,
+      "delta": 0
+    },
+    {
+      "key": "SV/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "SV/surname",
+      "before": 25,
+      "after": 25,
+      "delta": 0
+    },
+    {
+      "key": "SY/given_name",
+      "before": 1037,
+      "after": 1402,
+      "delta": 365
+    },
+    {
+      "key": "SY/surname",
+      "before": 611,
+      "after": 873,
+      "delta": 262
+    },
+    {
+      "key": "TH/given_name",
+      "before": 5,
+      "after": 5,
+      "delta": 0
+    },
+    {
+      "key": "TJ/given_name",
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    {
+      "key": "TM/given_name",
+      "before": 8,
+      "after": 8,
+      "delta": 0
+    },
+    {
+      "key": "TM/surname",
+      "before": 3,
+      "after": 3,
+      "delta": 0
+    },
+    {
+      "key": "TN/given_name",
+      "before": 1433,
+      "after": 1456,
+      "delta": 23
+    },
+    {
+      "key": "TN/surname",
+      "before": 1005,
+      "after": 1015,
+      "delta": 10
+    },
+    {
+      "key": "TR/given_name",
+      "before": 2733,
+      "after": 2733,
+      "delta": 0
+    },
+    {
+      "key": "TR/surname",
+      "before": 1995,
+      "after": 1995,
+      "delta": 0
+    },
+    {
+      "key": "TW/given_name",
+      "before": 160,
+      "after": 200,
+      "delta": 40
+    },
+    {
+      "key": "TW/surname",
+      "before": 80,
+      "after": 2708,
+      "delta": 2628
+    },
+    {
+      "key": "UA/given_name",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "UA/surname",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "key": "US/given_name",
+      "before": 89394,
+      "after": 111472,
+      "delta": 22078
+    },
+    {
+      "key": "US/surname",
+      "before": 162254,
+      "after": 162254,
+      "delta": 0
+    },
+    {
+      "key": "UY/given_name",
+      "before": 420,
+      "after": 420,
+      "delta": 0
+    },
+    {
+      "key": "UY/surname",
+      "before": 146,
+      "after": 146,
+      "delta": 0
+    },
+    {
+      "key": "UZ/given_name",
+      "before": 2,
+      "after": 2,
+      "delta": 0
+    },
+    {
+      "key": "UZ/surname",
+      "before": 1,
+      "after": 1,
+      "delta": 0
+    },
+    {
+      "key": "VE/given_name",
+      "before": 22,
+      "after": 22,
+      "delta": 0
+    },
+    {
+      "key": "VE/surname",
+      "before": 1,
+      "after": 1,
+      "delta": 0
+    },
+    {
+      "key": "VN/given_name",
+      "before": 1,
+      "after": 1,
+      "delta": 0
+    },
+    {
+      "key": "VN/surname",
+      "before": 43,
+      "after": 43,
+      "delta": 0
+    },
+    {
+      "key": "XK/surname",
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    {
+      "key": "YE/given_name",
+      "before": 535,
+      "after": 755,
+      "delta": 220
+    },
+    {
+      "key": "YE/surname",
+      "before": 422,
+      "after": 705,
+      "delta": 283
+    },
+    {
+      "key": "ZA/given_name",
+      "before": 2213,
+      "after": 2213,
+      "delta": 0
+    },
+    {
+      "key": "ZA/surname",
+      "before": 1047,
+      "after": 1047,
+      "delta": 0
+    }
+  ],
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "key": "AD/given_name",
+      "file": "src/data/ad/given-name/popular.json",
+      "records": 11,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 7,
+      "sha256": "30a6588fbe44765fcc2f4d6d6673b97df2e3e145975deddebcf00729717c22a1"
+    },
+    {
+      "key": "AE/given_name",
+      "file": "src/data/ae/given-name/onomaverse.json",
+      "records": 1183,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 833,
+      "sha256": "21260f072b251e1db8ca8c7f3261eb9dc7d5f39b6066b37693c7f7bc641e038e"
+    },
+    {
+      "key": "AE/surname",
+      "file": "src/data/ae/surname/onomaverse.json",
+      "records": 723,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 723,
+      "sha256": "15d7db19cae9d815c4b9796c19c9c04b6a1ed3d451224052723702ff89115be9"
+    },
+    {
+      "key": "AF/given_name",
+      "file": "src/data/af/given-name/onomaverse.json",
+      "records": 81,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 48,
+      "sha256": "7cf28db64f029c0feb7584239282f22682e43fe64a252779e492fa77987d1f8c"
+    },
+    {
+      "key": "AF/surname",
+      "file": "src/data/af/surname/onomaverse.json",
+      "records": 58,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 58,
+      "sha256": "2210223c79bfff2749f05e3d48e70ad331c98876637f0abba2afa95bd1437d28"
+    },
+    {
+      "key": "AL/given_name",
+      "file": "src/data/al/given-name/onomaverse.json",
+      "records": 135,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 85,
+      "sha256": "6b60519915d922be89d88dffd806f4c1cd06abac45d027dd0de42775608bfb6b"
+    },
+    {
+      "key": "AL/surname",
+      "file": "src/data/al/surname/onomaverse.json",
+      "records": 72,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 72,
+      "sha256": "d7d1ea43b2ddba7a27248e75b84838633033e6637ae1ea2c09c4a3a59163b537"
+    },
+    {
+      "key": "AM/given_name",
+      "file": "src/data/am/given-name/popular.json",
+      "records": 38,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 19,
+      "sha256": "1bd7d2d1207aedfc344e5f064380f7bc8678273ce07c81b7a004fe7314e6e7d7"
+    },
+    {
+      "key": "AM/surname",
+      "file": "src/data/am/surname/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "ce0b251c295b46813bb27860e264492dcbedde7099769685b9104c7ff0353951"
+    },
+    {
+      "key": "AO/given_name",
+      "file": "src/data/ao/given-name/onomaverse.json",
+      "records": 116,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 62,
+      "sha256": "2e7a44c767eddb10dbdd771f6b7b25d9027a95f553a2995f6c5264ec07daf2b1"
+    },
+    {
+      "key": "AO/surname",
+      "file": "src/data/ao/surname/onomaverse.json",
+      "records": 62,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 62,
+      "sha256": "f7b570ba9389f6d4272b29e087fff2d314b2645dd99e49ce317404c988219e54"
+    },
+    {
+      "key": "AR/given_name",
+      "file": "src/data/ar/given-name/onomaverse.json",
+      "records": 556,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 303,
+      "sha256": "b09da919807dc5a007084ecc27cab5c053196dd4bcf6f9a16851d306aeb25dc2"
+    },
+    {
+      "key": "AR/surname",
+      "file": "src/data/ar/surname/onomaverse.json",
+      "records": 326,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 326,
+      "sha256": "d1b81356180018638a5a98078b2955bb527cb28fe63b982cfd81d4ab124de12a"
+    },
+    {
+      "key": "AT/given_name",
+      "file": "src/data/at/given-name/onomaverse.json",
+      "records": 24809,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 12953,
+      "sha256": "ff1720b238977b5d548341723940654d41ef97e4c7078d99121e9dfbcd6f0ec8"
+    },
+    {
+      "key": "AT/surname",
+      "file": "src/data/at/surname/onomaverse.json",
+      "records": 146,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 146,
+      "sha256": "58654381e81ca5cc9d234f5ad9b88ee851b17c96cdbfb6fe662746ff7500bfce"
+    },
+    {
+      "key": "AU/given_name",
+      "file": "src/data/au/given-name/onomaverse.json",
+      "records": 27,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 15,
+      "sha256": "9ce16011592447d63a613ba81d280de37a6e18bf0fc37c2458dbc988295d324c"
+    },
+    {
+      "key": "AU/surname",
+      "file": "src/data/au/surname/onomaverse.json",
+      "records": 34,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 34,
+      "sha256": "1eba35c472476800895ad5da10873ff9f9e1bc64b5d6ff7b9c328d0c847d66ae"
+    },
+    {
+      "key": "AW/given_name",
+      "file": "src/data/aw/given-name/popular.json",
+      "records": 10,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "1a30f47dee0f9c36d0f7f4927ffa732a667e8cbfc55e1227ee5e40f4fa9f3035"
+    },
+    {
+      "key": "AZ/given_name",
+      "file": "src/data/az/given-name/onomaverse.json",
+      "records": 65,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "99b5af6c9301768c59c8d5d9a925201d2302523a004d60ea0b616506e4b97f45"
+    },
+    {
+      "key": "AZ/surname",
+      "file": "src/data/az/surname/onomaverse.json",
+      "records": 17,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 17,
+      "sha256": "b8faa61a0246ea900adb45d7f6f0fda4d35c1f23178d7d7b9d248ca30f5b9b4a"
+    },
+    {
+      "key": "BA/given_name",
+      "file": "src/data/ba/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "ffd8bbd0035cf4862bc9491d995be5427a729da0419c0fbcaf123e0c9c568fd3"
+    },
+    {
+      "key": "BA/surname",
+      "file": "src/data/ba/surname/popular.json",
+      "records": 44,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 44,
+      "sha256": "5bbc4f8c1303b9f28d35939ad065094ec69c8b86215cc85ca69d1d6c4440a0ac"
+    },
+    {
+      "key": "BD/given_name",
+      "file": "src/data/bd/given-name/onomaverse.json",
+      "records": 528,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 366,
+      "sha256": "6554c18223da441f50b8b9115074e448064b8e2c5955f9a81089ae71c4a86e31"
+    },
+    {
+      "key": "BD/surname",
+      "file": "src/data/bd/surname/onomaverse.json",
+      "records": 421,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 421,
+      "sha256": "bd6d83f8f2d3070a9ce5a19afb2eb8fafeee9e7e91fb783498342daa757e0314"
+    },
+    {
+      "key": "BE/given_name",
+      "file": "src/data/be/given-name/onomaverse.json",
+      "records": 13923,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 7275,
+      "sha256": "42c9c78e7a8a4904c0ac4db50e340a70a638cea0e0f87aee71dedfe38f5c8534"
+    },
+    {
+      "key": "BE/surname",
+      "file": "src/data/be/surname/onomaverse.json",
+      "records": 105899,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 105899,
+      "sha256": "c27d2c3d6aa260fbe5e5b632df8a1c31b394f769a9806ca804e2fa8cef4eb45f"
+    },
+    {
+      "key": "BF/given_name",
+      "file": "src/data/bf/given-name/onomaverse.json",
+      "records": 4,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2,
+      "sha256": "f80cce65e110671d396793559acf57ddb0a9d4c15975ceb263c047f74c3f0f7d"
+    },
+    {
+      "key": "BF/surname",
+      "file": "src/data/bf/surname/onomaverse.json",
+      "records": 1,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1,
+      "sha256": "2c2e9f43ac16b13990752148cd3875831d9f11d983365971bb2dce896e31001e"
+    },
+    {
+      "key": "BG/given_name",
+      "file": "src/data/bg/given-name/onomaverse.json",
+      "records": 126,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 68,
+      "sha256": "6c60a347e263fa9766aa49222555801b4109b9b29af53fed58d7b34bd7f6a203"
+    },
+    {
+      "key": "BG/surname",
+      "file": "src/data/bg/surname/onomaverse.json",
+      "records": 59,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 59,
+      "sha256": "f5b651a46dd7ea7ee80277b9c02e15b6236e050d1c7645347730bba37334c945"
+    },
+    {
+      "key": "BH/given_name",
+      "file": "src/data/bh/given-name/onomaverse.json",
+      "records": 347,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 196,
+      "sha256": "8b64fd7acb2d181e84bb424c2f9b4607b462a393c02817fe308c347562f0f2fc"
+    },
+    {
+      "key": "BH/surname",
+      "file": "src/data/bh/surname/onomaverse.json",
+      "records": 207,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 207,
+      "sha256": "657ae0f38a5b2c8351b2a49181197c3cb934687a025b0be734d34898ba73bfec"
+    },
+    {
+      "key": "BI/given_name",
+      "file": "src/data/bi/given-name/onomaverse.json",
+      "records": 13,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 7,
+      "sha256": "6bb08115a2025ce3359379b6ec9c662aa70a55334886324b3155d74fe9f18e80"
+    },
+    {
+      "key": "BI/surname",
+      "file": "src/data/bi/surname/onomaverse.json",
+      "records": 4,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 4,
+      "sha256": "9bbc55d3391586b79fbdf55af978aea7fd7b916d8420c1ed604db45d34e6c13e"
+    },
+    {
+      "key": "BN/given_name",
+      "file": "src/data/bn/given-name/onomaverse.json",
+      "records": 110,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 57,
+      "sha256": "88a359f668404aff8c0cad50723ebd194072131b99eaff00dd2e2296dd3a5c21"
+    },
+    {
+      "key": "BN/surname",
+      "file": "src/data/bn/surname/onomaverse.json",
+      "records": 49,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 49,
+      "sha256": "bf71d131f11a97132dfc100abbb5bc62a55f981b1d20e00c2b7bb4a8fd6de632"
+    },
+    {
+      "key": "BO/given_name",
+      "file": "src/data/bo/given-name/onomaverse.json",
+      "records": 593,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 306,
+      "sha256": "fe239f73023def407c0d5337e2c6c15fa37a6663dd9011c886b85071af70dce4"
+    },
+    {
+      "key": "BO/surname",
+      "file": "src/data/bo/surname/onomaverse.json",
+      "records": 224,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 224,
+      "sha256": "5e3d2f3bb0d3dc73e6f8d88d74a16f47380ea5359e520b64f2738abc7275abd9"
+    },
+    {
+      "key": "BR/given_name",
+      "file": "src/data/br/given-name/onomaverse.json",
+      "records": 134315,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 73361,
+      "sha256": "3ea1d4ab2803bb40db84bca569288d0420d7c98a70e5bc760fe32db6cf9e0dae"
+    },
+    {
+      "key": "BR/surname",
+      "file": "src/data/br/surname/onomaverse.json",
+      "records": 201601,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 201601,
+      "sha256": "008689afe81919abeebfdec259cb0e1f6d4254a3e6471f87a3aadbcb5794ecea"
+    },
+    {
+      "key": "BW/given_name",
+      "file": "src/data/bw/given-name/onomaverse.json",
+      "records": 63,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 34,
+      "sha256": "4aca052b282b74a9ad83258c5f142cd6d9bde48ada2f823275d51b7ad0432d01"
+    },
+    {
+      "key": "BW/surname",
+      "file": "src/data/bw/surname/onomaverse.json",
+      "records": 23,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 23,
+      "sha256": "fa851c10047c11fbd6abf3beed57631808534e42832d8f6f9cd149adb03887cf"
+    },
+    {
+      "key": "BY/given_name",
+      "file": "src/data/by/given-name/popular.json",
+      "records": 7,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 4,
+      "sha256": "12ed3d87ea8156f2a8afc0238955cd393db04e4c5db75bf58577be0e2e481090"
+    },
+    {
+      "key": "BY/surname",
+      "file": "src/data/by/surname/popular.json",
+      "records": 5,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "d83d1237ba5c4973d1bc88ab92ade404e34dee432054b273a5d08e3843546a2c"
+    },
+    {
+      "key": "CA/given_name",
+      "file": "src/data/ca/given-name/onomaverse.json",
+      "records": 20626,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 11954,
+      "sha256": "c9784b2f58f65169a3d6c28c8d9ee67326478e888d9c4bd339b5448b91805591"
+    },
+    {
+      "key": "CA/surname",
+      "file": "src/data/ca/surname/onomaverse.json",
+      "records": 290,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 290,
+      "sha256": "791a27831c19500cf67c2313930d87f1452a0f087cc43b4a3b3e81258a950604"
+    },
+    {
+      "key": "CH/given_name",
+      "file": "src/data/ch/given-name/onomaverse.json",
+      "records": 584,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 304,
+      "sha256": "63210e626471ac73077e28f2ca639bd6fb6cae7283233f2f2d9953aae09639c6"
+    },
+    {
+      "key": "CH/surname",
+      "file": "src/data/ch/surname/onomaverse.json",
+      "records": 25186,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 25186,
+      "sha256": "1e3d2de1b734b9bd335e13580bd72b40605234b5d2f79efd6425f504557fd4d6"
+    },
+    {
+      "key": "CL/given_name",
+      "file": "src/data/cl/given-name/onomaverse.json",
+      "records": 204790,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 128341,
+      "sha256": "1edf29734b0a3db34e0332d3016c8004ef7793778a0e21ae833f42105ddd156f"
+    },
+    {
+      "key": "CL/surname",
+      "file": "src/data/cl/surname/onomaverse.json",
+      "records": 527,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 527,
+      "sha256": "5131f5c1e0b11b0a2317d8b76be6963d6a179e7179441ad91b1971706c2a60c1"
+    },
+    {
+      "key": "CM/given_name",
+      "file": "src/data/cm/given-name/onomaverse.json",
+      "records": 456,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 231,
+      "sha256": "837809b96f21889dc83705549e46b4f920a902fb6e676075e369dae863351138"
+    },
+    {
+      "key": "CM/surname",
+      "file": "src/data/cm/surname/onomaverse.json",
+      "records": 138,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 138,
+      "sha256": "d50a07008d5d9130511d111f1ac28a38cda9d0b7ce50f7e84230149a2936fbe6"
+    },
+    {
+      "key": "CN/given_name",
+      "file": "src/data/cn/given-name/onomaverse.json",
+      "records": 40,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "6069e6640b9d115cce1871fb080164f35a0bd379dd30cf77b50a05f6cb75cc2d"
+    },
+    {
+      "key": "CN/surname",
+      "file": "src/data/cn/surname/onomaverse.json",
+      "records": 100,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 100,
+      "sha256": "c7cf549b974fd4773a9fb68e1a523fab5bda08be75cdf5c7bfad35cf00c43f09"
+    },
+    {
+      "key": "CO/given_name",
+      "file": "src/data/co/given-name/onomaverse.json",
+      "records": 1791,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 946,
+      "sha256": "d8d8986e96760642b29a9f2ae69e06a361f93e7e11fb3384b86721333da952ef"
+    },
+    {
+      "key": "CO/surname",
+      "file": "src/data/co/surname/onomaverse.json",
+      "records": 940,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 940,
+      "sha256": "646e1584fe504c9003394790a6a873f2e32c19fbf474a43016a97871084e2d32"
+    },
+    {
+      "key": "CR/given_name",
+      "file": "src/data/cr/given-name/onomaverse.json",
+      "records": 481,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 242,
+      "sha256": "8fa7c30eabec2d0749d953b7675b441ab49addaeefc77aa15d3b2e63a96e6d63"
+    },
+    {
+      "key": "CR/surname",
+      "file": "src/data/cr/surname/onomaverse.json",
+      "records": 193,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 193,
+      "sha256": "fcf0e1e79e3d3b64ad326d6996a325dfed2cb981a40cee74adff0c941fac327d"
+    },
+    {
+      "key": "CU/surname",
+      "file": "src/data/cu/surname/popular.json",
+      "records": 30,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 30,
+      "sha256": "b349309c26f76746ebe7885b2bf92720a74ea9a52ed095976c9c9dad6b6c0b5f"
+    },
+    {
+      "key": "CY/given_name",
+      "file": "src/data/cy/given-name/onomaverse.json",
+      "records": 100,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 50,
+      "sha256": "a5c81a6daece7e6eb8bb5c4a242fa4d27da1c447abbf537b5de86f17c54807b0"
+    },
+    {
+      "key": "CY/surname",
+      "file": "src/data/cy/surname/onomaverse.json",
+      "records": 40,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 40,
+      "sha256": "238fc3c6b3fa19a298d90400fd2b5f2a1ab8a32155bab832c344b8f61c3db476"
+    },
+    {
+      "key": "CZ/given_name",
+      "file": "src/data/cz/given-name/onomaverse.json",
+      "records": 299,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 158,
+      "sha256": "1dfdc1b6ed4c456aaee1057ae61c7a27e3ec43591a0c975e51c44dd6119a5a22"
+    },
+    {
+      "key": "CZ/surname",
+      "file": "src/data/cz/surname/onomaverse.json",
+      "records": 90,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 90,
+      "sha256": "78e818d4deae15385f063f63a4ae6624d3dcac6e86bdd6b20dc60e38111288ee"
+    },
+    {
+      "key": "DE/given_name",
+      "file": "src/data/de/given-name/sample.json",
+      "records": 1815,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 910,
+      "sha256": "d60b31df484f1806c35671673b82053b33b9c1eab179f8928ea98f55d3925258"
+    },
+    {
+      "key": "DE/surname",
+      "file": "src/data/de/surname/sample.json",
+      "records": 378,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 378,
+      "sha256": "7ac08234e15705e279364936e77b0047222f13cf6ff01161ef9591871af559ab"
+    },
+    {
+      "key": "DJ/given_name",
+      "file": "src/data/dj/given-name/onomaverse.json",
+      "records": 9,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 6,
+      "sha256": "7404b16e380d6123670aadf4ea2b2ebe9b75a42108359933d4d212bc428a84be"
+    },
+    {
+      "key": "DJ/surname",
+      "file": "src/data/dj/surname/onomaverse.json",
+      "records": 6,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 6,
+      "sha256": "9311c20521ef73e67180f7a517998dcbd912ec1e5dbe6cbe2264ede95e8ab02a"
+    },
+    {
+      "key": "DK/given_name",
+      "file": "src/data/dk/given-name/onomaverse.json",
+      "records": 364,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 187,
+      "sha256": "c2b28573cf720ea51edb795fbff06861bd68cc1a0a2c4ea289faa05c73cf63fa"
+    },
+    {
+      "key": "DK/surname",
+      "file": "src/data/dk/surname/onomaverse.json",
+      "records": 112,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 112,
+      "sha256": "31637bd5d97f6bb894ddc0d4976d492df62628831e3ce9a602f6e72ce890dd74"
+    },
+    {
+      "key": "DO/surname",
+      "file": "src/data/do/surname/popular.json",
+      "records": 30,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 30,
+      "sha256": "36c008546cc3dfa879229199dd6789938cfbd1f33d66bac09d91ff972a1ce79c"
+    },
+    {
+      "key": "DZ/given_name",
+      "file": "src/data/dz/given-name/onomaverse.json",
+      "records": 2229,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1196,
+      "sha256": "9d0cdb0c2b84cc661753d1953005681ca6117149795dff8dad42a7cf07a28ee0"
+    },
+    {
+      "key": "DZ/surname",
+      "file": "src/data/dz/surname/onomaverse.json",
+      "records": 1393,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1393,
+      "sha256": "c4907789d846fb5a37d9aa5b07daf7f5b58f026e640d83eb1c55d9f0598b148d"
+    },
+    {
+      "key": "EC/given_name",
+      "file": "src/data/ec/given-name/onomaverse.json",
+      "records": 118,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 63,
+      "sha256": "ae0d1a111788052e99dd5f846bad1ccc3980418227669115daf96ee156ac38f1"
+    },
+    {
+      "key": "EC/surname",
+      "file": "src/data/ec/surname/onomaverse.json",
+      "records": 32,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 32,
+      "sha256": "a8188420bfff9a320f20268efefd466bc1b4b7f1358c453fdbbc4b6544c9ad92"
+    },
+    {
+      "key": "EE/given_name",
+      "file": "src/data/ee/given-name/onomaverse.json",
+      "records": 56,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 28,
+      "sha256": "e7497f50ccb98a3506f546eb9ac4c93fec8c0f4d291188d9d624b68bf59e3de6"
+    },
+    {
+      "key": "EE/surname",
+      "file": "src/data/ee/surname/onomaverse.json",
+      "records": 38,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 38,
+      "sha256": "693e52bc5cdead68720588f53fc8c5a01528f08797357b51a517b0884f9d9b0e"
+    },
+    {
+      "key": "EG/given_name",
+      "file": "src/data/eg/given-name/onomaverse.json",
+      "records": 3304,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1840,
+      "sha256": "3d0a499e142b61d713deaa23572355808a605090e8fbfa3ac0f2f60c3ae0e341"
+    },
+    {
+      "key": "EG/surname",
+      "file": "src/data/eg/surname/onomaverse.json",
+      "records": 3422,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 3422,
+      "sha256": "913b1c3a64a02d4b22666b4425276e383c58785b15ce0a3fc0d74f7ad18304b7"
+    },
+    {
+      "key": "ES/given_name",
+      "file": "src/data/es/given-name/onomaverse.json",
+      "records": 63440,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 32321,
+      "sha256": "5ce11509c14a506e14a4bf8038c7ccd6f4cd81f22c77aff89b62bbf5a3de5d38"
+    },
+    {
+      "key": "ES/surname",
+      "file": "src/data/es/surname/onomaverse.json",
+      "records": 86511,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 86511,
+      "sha256": "52daf2da3744e361eff56cc65460aac538855820822c5972f1a0c96ff8b29c7e"
+    },
+    {
+      "key": "ET/given_name",
+      "file": "src/data/et/given-name/onomaverse.json",
+      "records": 11,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 6,
+      "sha256": "dc65aa588cadb88c87ad9d6d54d24c08a943687c731b42d8fe8e784dc5777cba"
+    },
+    {
+      "key": "ET/surname",
+      "file": "src/data/et/surname/onomaverse.json",
+      "records": 3,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 3,
+      "sha256": "43d5a5b450ad4bd1fed5d00815afa749ae66e7d6acac78f506de23eaf558fbbb"
+    },
+    {
+      "key": "FI/given_name",
+      "file": "src/data/fi/given-name/onomaverse.json",
+      "records": 25341,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 14328,
+      "sha256": "828588a52d988a71846c362d307b6e2f680eb6be146a72b16c5fb5d7cde36784"
+    },
+    {
+      "key": "FI/surname",
+      "file": "src/data/fi/surname/onomaverse.json",
+      "records": 23260,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 23260,
+      "sha256": "7475619867daa8a792b8475194f37aacfeb6bb0555de0f44027556b251c98e5c"
+    },
+    {
+      "key": "FJ/surname",
+      "file": "src/data/fj/surname/popular.json",
+      "records": 22,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 22,
+      "sha256": "7afc12104f68f3e5bde41b76051a898f9641b810c039f024823e5b28b901c77e"
+    },
+    {
+      "key": "FO/given_name",
+      "file": "src/data/fo/given-name/popular.json",
+      "records": 1987,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1031,
+      "sha256": "a9687a2ce32e95abe6eca863e6cfaaec9239db3015fda78b9afab3c351d9b1c1"
+    },
+    {
+      "key": "FO/surname",
+      "file": "src/data/fo/surname/popular.json",
+      "records": 1996,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1996,
+      "sha256": "57e31c27f8149a74794a74eecfa5fd28c1b7f42d2f55908b20096352bc530a02"
+    },
+    {
+      "key": "FR/given_name",
+      "file": "src/data/fr/given-name/sample.json",
+      "records": 51651,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 28003,
+      "sha256": "21edb78a0cde96f2f9030194e05d243b14dc79be6af29ff1510ffa0174cf316b"
+    },
+    {
+      "key": "FR/surname",
+      "file": "src/data/fr/surname/sample.json",
+      "records": 218982,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 218982,
+      "sha256": "bb31bf10d882c88a8aaf33dfb2b269042c5b29629a4c476ab8eaa5aaf983a17c"
+    },
+    {
+      "key": "GB/given_name",
+      "file": "src/data/gb/given-name/sample.json",
+      "records": 42085,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 24005,
+      "sha256": "99ca72dda06209d43f47f98c1772511cfcf13d8695c5457d16f6b62c508539b7"
+    },
+    {
+      "key": "GB/surname",
+      "file": "src/data/gb/surname/sample.json",
+      "records": 74035,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 74035,
+      "sha256": "232fd34699a08624855720b7050cec67aa41def97478c634948dba0eaa4cb1b6"
+    },
+    {
+      "key": "GE/given_name",
+      "file": "src/data/ge/given-name/onomaverse.json",
+      "records": 52,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 26,
+      "sha256": "71ff41a28f10d6cb412b5d5c6c436dff0e514d90487769d7d2323f82869dd5fa"
+    },
+    {
+      "key": "GE/surname",
+      "file": "src/data/ge/surname/onomaverse.json",
+      "records": 29,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 29,
+      "sha256": "d2d4d37104b10cdf70d7f16f62198a5fd003e567a9cbe838204e8fc96e8f8334"
+    },
+    {
+      "key": "GG/given_name",
+      "file": "src/data/gg/given-name/popular.json",
+      "records": 18,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 11,
+      "sha256": "21f80332c6fc8aae17a9e1215722f1bdd7713f1532e55cbf6af3a7cc7841bd5c"
+    },
+    {
+      "key": "GH/given_name",
+      "file": "src/data/gh/given-name/onomaverse.json",
+      "records": 245,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 127,
+      "sha256": "c3662092fc0f5a244bc35bebf68cee332b7f566619781f102803514eb6b915b0"
+    },
+    {
+      "key": "GH/surname",
+      "file": "src/data/gh/surname/onomaverse.json",
+      "records": 112,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 112,
+      "sha256": "e3bf0f61563f5c55239a6c451fd5de73e9742da0f504e4a380d99dac159f51e1"
+    },
+    {
+      "key": "GI/given_name",
+      "file": "src/data/gi/given-name/popular.json",
+      "records": 16,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 8,
+      "sha256": "8dd79025532c41ca09d3d180d59c9371393a361559d2415de6eb2cce98062688"
+    },
+    {
+      "key": "GL/given_name",
+      "file": "src/data/gl/given-name/popular.json",
+      "records": 458,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 231,
+      "sha256": "b748fcdb7965f76b1f4497865fe07ddc8cabd2052a81b4d713cfbf8b4daf5972"
+    },
+    {
+      "key": "GL/surname",
+      "file": "src/data/gl/surname/national.json",
+      "records": 262,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 262,
+      "sha256": "9251d0c2b41d9dd9f7a10651c80e39bbe57c68c44a4b56fdcda7390baef21583"
+    },
+    {
+      "key": "GQ/given_name",
+      "file": "src/data/gq/given-name/popular.json",
+      "records": 9,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "44c20be61d7dfc96f1054bbc12fd2609a7422fddaa128f0cfbd399958802c0dd"
+    },
+    {
+      "key": "GR/given_name",
+      "file": "src/data/gr/given-name/onomaverse.json",
+      "records": 254,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 136,
+      "sha256": "54e626aac17b61f5cc73cce057a1689a3b994b80560e75b1abb9f52bad4d66f9"
+    },
+    {
+      "key": "GR/surname",
+      "file": "src/data/gr/surname/onomaverse.json",
+      "records": 83,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 83,
+      "sha256": "f1f344f777e63ae13c20a9f91606bab6e66550c77ec585d59a3198484173ccde"
+    },
+    {
+      "key": "GT/given_name",
+      "file": "src/data/gt/given-name/onomaverse.json",
+      "records": 370,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 199,
+      "sha256": "690dd14e639d9e4d370736ae0434bc02f5b0e5a789adf2e029d1bbba0d374a7c"
+    },
+    {
+      "key": "GT/surname",
+      "file": "src/data/gt/surname/onomaverse.json",
+      "records": 151,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 151,
+      "sha256": "96922aa129ee84a5e535c05d3e0a108a05cd1e55a6fd960c426d4b5903980a98"
+    },
+    {
+      "key": "HK/given_name",
+      "file": "src/data/hk/given-name/onomaverse.json",
+      "records": 599,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 309,
+      "sha256": "a4f5b97f5cc06ef36559654456301ceafc03fb419dc19f82cdaa864fdda32363"
+    },
+    {
+      "key": "HK/surname",
+      "file": "src/data/hk/surname/onomaverse.json",
+      "records": 213,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 213,
+      "sha256": "35884e5154032dfba03dbe928847d8cd780f2d54fa802624a88a2fbf6429e6f6"
+    },
+    {
+      "key": "HN/given_name",
+      "file": "src/data/hn/given-name/onomaverse.json",
+      "records": 18,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 9,
+      "sha256": "93d2a1bf88adba291352bd983f79e27f61bc9966e467d62fc4ab00cdbdea58e4"
+    },
+    {
+      "key": "HN/surname",
+      "file": "src/data/hn/surname/onomaverse.json",
+      "records": 5,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "11edc11b2e99803755d82242b6d3e066f1dccfd8bb9b9f3fd047635208f92c60"
+    },
+    {
+      "key": "HR/given_name",
+      "file": "src/data/hr/given-name/onomaverse.json",
+      "records": 221,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 112,
+      "sha256": "d25c7bf8f486d324d911a928e1cf4fbddc80b3a41acaefdf281612fad2aec4f6"
+    },
+    {
+      "key": "HR/surname",
+      "file": "src/data/hr/surname/onomaverse.json",
+      "records": 62,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 62,
+      "sha256": "a4cf3c4e36142220672bd5ce9c3ee27b00831a09ea7c29dce1a7ac7517759a8d"
+    },
+    {
+      "key": "HT/given_name",
+      "file": "src/data/ht/given-name/onomaverse.json",
+      "records": 31,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 17,
+      "sha256": "efbd165c473371358d080fac492f1deac4a3d52fdfb0336c4ea11d949b7f77e9"
+    },
+    {
+      "key": "HT/surname",
+      "file": "src/data/ht/surname/onomaverse.json",
+      "records": 4,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 4,
+      "sha256": "384bc4f78d9f2fc2f64bb84f631154c860db62c50b5be27602d0f7e264baf835"
+    },
+    {
+      "key": "HU/given_name",
+      "file": "src/data/hu/given-name/onomaverse.json",
+      "records": 165,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 86,
+      "sha256": "d7dbbaf1ff9dca8cc33cdc82ff9f24a2e904ec0f963ac16c50f8f50ce3337652"
+    },
+    {
+      "key": "HU/surname",
+      "file": "src/data/hu/surname/onomaverse.json",
+      "records": 58,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 58,
+      "sha256": "10a12f516d1c60451baa94a38961fc4517c83b2c4a564f43f622d79937193b2c"
+    },
+    {
+      "key": "ID/given_name",
+      "file": "src/data/id/given-name/onomaverse.json",
+      "records": 78,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 42,
+      "sha256": "632a138f3b97c5778a5f956043e4eed9185de748f5f7e0ab61aa0ade37afdf97"
+    },
+    {
+      "key": "ID/surname",
+      "file": "src/data/id/surname/onomaverse.json",
+      "records": 27,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 27,
+      "sha256": "dcc93d77adf9061c2477edac123227fb8866806d4b27d3103e316213217830a9"
+    },
+    {
+      "key": "IE/given_name",
+      "file": "src/data/ie/given-name/onomaverse.json",
+      "records": 551,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 281,
+      "sha256": "c5cd1f47d7dc74f26a30b0c6b84ec87535dfc35e760a8e1253cb7f7bdf4f5a1b"
+    },
+    {
+      "key": "IE/surname",
+      "file": "src/data/ie/surname/onomaverse.json",
+      "records": 196,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 196,
+      "sha256": "993752f53acbe264de1f55dd6f94fb457685fd95971b40eaf6ac98b56da23c10"
+    },
+    {
+      "key": "IL/given_name",
+      "file": "src/data/il/given-name/onomaverse.json",
+      "records": 1069,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 537,
+      "sha256": "f21b198f8fc662034da7a94f4deda111273f2dd7f92bc68ea955a94f661a235f"
+    },
+    {
+      "key": "IL/surname",
+      "file": "src/data/il/surname/onomaverse.json",
+      "records": 208,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 194,
+      "sha256": "f376975d75d43c15feaa216dedc6dabffe5941db8af7abbc86a88d56f3c3eaff"
+    },
+    {
+      "key": "IM/given_name",
+      "file": "src/data/im/given-name/popular.json",
+      "records": 19,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "18f566ef714fa4026e89cac9d66286e41d2b7e57b40c849fa79fd5f66bf09698"
+    },
+    {
+      "key": "IN/given_name",
+      "file": "src/data/in/given-name/onomaverse.json",
+      "records": 952,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 660,
+      "sha256": "4849e4c80a42e23437cff0aa46f3ab27db4dd328ca0ad702cf95b73f747923da"
+    },
+    {
+      "key": "IN/surname",
+      "file": "src/data/in/surname/onomaverse.json",
+      "records": 527,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 527,
+      "sha256": "15852e2467ded4bd613ccacebccd78b324f1c1d89a6652d05f045b2554eca669"
+    },
+    {
+      "key": "IQ/given_name",
+      "file": "src/data/iq/given-name/onomaverse.json",
+      "records": 1905,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1246,
+      "sha256": "ac7b9c02fa819ce84269a6d399b3307661f8799231d4fcd5aa026c71cd8d5fa1"
+    },
+    {
+      "key": "IQ/surname",
+      "file": "src/data/iq/surname/onomaverse.json",
+      "records": 1523,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1523,
+      "sha256": "088e38614eb1eb91e95ca9e43a424a7c99338bb8637d311284f72eb47e4985be"
+    },
+    {
+      "key": "IR/given_name",
+      "file": "src/data/ir/given-name/onomaverse.json",
+      "records": 645,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 362,
+      "sha256": "2e62a36a8106c23fca046816df3f42419abef3669256d6c5d8f006419bfd6956"
+    },
+    {
+      "key": "IR/surname",
+      "file": "src/data/ir/surname/onomaverse.json",
+      "records": 228,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 228,
+      "sha256": "488171fa090521fa703247da79ff190ce172c3658681992475c4f268043b8187"
+    },
+    {
+      "key": "IS/given_name",
+      "file": "src/data/is/given-name/onomaverse.json",
+      "records": 42,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 22,
+      "sha256": "843746837dffd40042acfdeb2b44b7abe17129fa47b83a524258284deae6ab07"
+    },
+    {
+      "key": "IS/surname",
+      "file": "src/data/is/surname/onomaverse.json",
+      "records": 23,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 23,
+      "sha256": "73d8a6456559dace415e08814cc2af08a91d9e75dd41ab1a50565da2676396ee"
+    },
+    {
+      "key": "IT/given_name",
+      "file": "src/data/it/given-name/onomaverse.json",
+      "records": 120266,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 61427,
+      "sha256": "df235df0eac89111eda12e415114c6bfa58907992b90c8685009a459be4147e1"
+    },
+    {
+      "key": "IT/surname",
+      "file": "src/data/it/surname/onomaverse.json",
+      "records": 2939,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2939,
+      "sha256": "dea7421d7817611b0556694175c1195666dd259166049483057f94e211cd22b2"
+    },
+    {
+      "key": "JE/given_name",
+      "file": "src/data/je/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "3f21bd01f8e7d708e80b4ff90a6d2ca69c7e8d46e4d4722cefd72980f4d23759"
+    },
+    {
+      "key": "JM/given_name",
+      "file": "src/data/jm/given-name/onomaverse.json",
+      "records": 91,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 53,
+      "sha256": "eec347c7ec79c845f541f07599ef51ce9dbaf1ff288ac7aab1fd1574a6ab547c"
+    },
+    {
+      "key": "JM/surname",
+      "file": "src/data/jm/surname/onomaverse.json",
+      "records": 55,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 55,
+      "sha256": "6669800bffcf5403df4806419b16ac5e5bdecacd230dbbb0d0a1b6a2112fe920"
+    },
+    {
+      "key": "JO/given_name",
+      "file": "src/data/jo/given-name/onomaverse.json",
+      "records": 779,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 444,
+      "sha256": "cb59585a175eab450172e3b2bddb72c94f90bac9409b6204d280747e8934b07d"
+    },
+    {
+      "key": "JO/surname",
+      "file": "src/data/jo/surname/onomaverse.json",
+      "records": 258,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 258,
+      "sha256": "4857bbc20cc071c34dbaa784c31c73a1860f014158b2a224e56c8afb542ac145"
+    },
+    {
+      "key": "JP/given_name",
+      "file": "src/data/jp/given-name/sample.json",
+      "records": 55623,
+      "estimated": 54711,
+      "minRank": 1,
+      "maxRank": 31843,
+      "sha256": "f6f891e80caee15b8caf3ddebaf55eadf85489fa56716893246e73fb8bd87c85"
+    },
+    {
+      "key": "JP/surname",
+      "file": "src/data/jp/surname/sample.json",
+      "records": 105125,
+      "estimated": 103126,
+      "minRank": 1,
+      "maxRank": 105125,
+      "sha256": "b849ca80553872b7e35b8b447275663f71530384965c480d6601eaddc9a18744"
+    },
+    {
+      "key": "KG/given_name",
+      "file": "src/data/kg/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "89fe25c9f7d74d0d11b0a08fa96bcd627e87a326974e9d5b4b680ae2c57084e1"
+    },
+    {
+      "key": "KH/given_name",
+      "file": "src/data/kh/given-name/onomaverse.json",
+      "records": 2,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1,
+      "sha256": "6d50273f255a84e825c9bda82c45b42e45eec85e1f773d813e827fa47611eae3"
+    },
+    {
+      "key": "KH/surname",
+      "file": "src/data/kh/surname/onomaverse.json",
+      "records": 84,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 84,
+      "sha256": "44f55d473fd9ea459465afd40a0e3c37a04302ab5cb1de39ca881c3415693a19"
+    },
+    {
+      "key": "KR/given_name",
+      "file": "src/data/kr/given-name/sample.json",
+      "records": 64797,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 36103,
+      "sha256": "7b65c4d48f62dedd037a054181b0069482ddddaecefe187d1bd12a5737f436ef"
+    },
+    {
+      "key": "KR/surname",
+      "file": "src/data/kr/surname/sample.json",
+      "records": 100,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 100,
+      "sha256": "2b357943154000ab41bb78854d7a6d8c099438614c138021f02e2e35e04f683d"
+    },
+    {
+      "key": "KW/given_name",
+      "file": "src/data/kw/given-name/onomaverse.json",
+      "records": 648,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 392,
+      "sha256": "410cee3aef6cda6e4aece148692a4e9edb9346795792487d13852206433428b9"
+    },
+    {
+      "key": "KW/surname",
+      "file": "src/data/kw/surname/onomaverse.json",
+      "records": 349,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 349,
+      "sha256": "2ccecc68fb48bd054f1c45d04bf28ce4185ed5cc7610c3f0dda1790bbe59b73e"
+    },
+    {
+      "key": "KZ/given_name",
+      "file": "src/data/kz/given-name/onomaverse.json",
+      "records": 584,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 294,
+      "sha256": "9a7dd48935b704ae32feec1ad3d7495580b071885e453069a161cecf3298348c"
+    },
+    {
+      "key": "KZ/surname",
+      "file": "src/data/kz/surname/onomaverse.json",
+      "records": 152,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 134,
+      "sha256": "4fb42fafa9711320f5443594db1a23774b610cd4254da6837f44fd9cbf1f0895"
+    },
+    {
+      "key": "LB/given_name",
+      "file": "src/data/lb/given-name/onomaverse.json",
+      "records": 580,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 302,
+      "sha256": "6db96039157a418b522778884458a90bebf4acdd4d7f29a12152521bbab2b25d"
+    },
+    {
+      "key": "LB/surname",
+      "file": "src/data/lb/surname/onomaverse.json",
+      "records": 283,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 283,
+      "sha256": "bcf0ca37caf4fdd4ac856e543fa101dbea477c96d29b550c5062c6f0994c3f13"
+    },
+    {
+      "key": "LI/given_name",
+      "file": "src/data/li/given-name/popular.json",
+      "records": 22,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 14,
+      "sha256": "af8bb8d04edae0724218c801d0324fcc99e55e5006673a6c36220df7622ee5f3"
+    },
+    {
+      "key": "LK/surname",
+      "file": "src/data/lk/surname/popular.json",
+      "records": 50,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 50,
+      "sha256": "79ea25ba90748d43e99b30784630475caebeda1afd230639672075c4175bb40d"
+    },
+    {
+      "key": "LT/given_name",
+      "file": "src/data/lt/given-name/onomaverse.json",
+      "records": 77,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 39,
+      "sha256": "b57e2e8d0253ca218b8e033bc8366a3badaa74d9395c3f97ce505c78d60a8907"
+    },
+    {
+      "key": "LT/surname",
+      "file": "src/data/lt/surname/onomaverse.json",
+      "records": 25,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 25,
+      "sha256": "6ca4689aa127d9032bb53bcdb482a3f1ceaaa7d6eb8902106ba53919794b4e6a"
+    },
+    {
+      "key": "LU/given_name",
+      "file": "src/data/lu/given-name/onomaverse.json",
+      "records": 160,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 82,
+      "sha256": "26ddcaa3dc90499dbaeda838d735e2d3b6b4ae41e0ff3d1238f358560e344b07"
+    },
+    {
+      "key": "LU/surname",
+      "file": "src/data/lu/surname/onomaverse.json",
+      "records": 98,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 98,
+      "sha256": "4cf23a3536b2567fa530c6e0e72d6e8cea36ca5b4afcbcdf27b84738b8c3dfcd"
+    },
+    {
+      "key": "LV/given_name",
+      "file": "src/data/lv/given-name/popular.json",
+      "records": 18,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 9,
+      "sha256": "bf7efffcc9886e547e7760c2dba9895c31ba322e6a99daff5e097afb0485b205"
+    },
+    {
+      "key": "LV/surname",
+      "file": "src/data/lv/surname/popular.json",
+      "records": 15,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 15,
+      "sha256": "690cb6f2f75332718331637d97eba2bd4336f06223aba51ad1bc4ca47ffa1ea2"
+    },
+    {
+      "key": "LY/given_name",
+      "file": "src/data/ly/given-name/onomaverse.json",
+      "records": 865,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 519,
+      "sha256": "b2dcf160a1b23be09f5133b912414a040141fb2aab4d6f3ed1c9ee2cef889813"
+    },
+    {
+      "key": "LY/surname",
+      "file": "src/data/ly/surname/onomaverse.json",
+      "records": 509,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 509,
+      "sha256": "b8870812cd0fc93be8b80fca0487d5c8a55adb2a6e8dda7fc6ee91a2611129bf"
+    },
+    {
+      "key": "MA/given_name",
+      "file": "src/data/ma/given-name/onomaverse.json",
+      "records": 2571,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1344,
+      "sha256": "f0b6628b139f4719b5335e627b3474a87efee7554eb92eb873973956a8dcbf68"
+    },
+    {
+      "key": "MA/surname",
+      "file": "src/data/ma/surname/onomaverse.json",
+      "records": 1976,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1976,
+      "sha256": "18801b1c4004ed6d6689d450322d78cb467b4d7400d0c9ffd03f9c33d0d45c80"
+    },
+    {
+      "key": "MC/given_name",
+      "file": "src/data/mc/given-name/popular.json",
+      "records": 10,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "f68e88feb48d14d1f8cc05d645363382d7f139f0de9893ea0b39b7600b00621a"
+    },
+    {
+      "key": "MD/given_name",
+      "file": "src/data/md/given-name/onomaverse.json",
+      "records": 38,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 19,
+      "sha256": "2c6f08d3a39d9f99a4a871d2bb16ed66fbbfcfcfb3c9743008c9cc781c18600c"
+    },
+    {
+      "key": "MD/surname",
+      "file": "src/data/md/surname/onomaverse.json",
+      "records": 23,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 23,
+      "sha256": "5dee1dfb6c7ab5383aff991284b1e6a29106f4196c0a61bf2fafb6f2e1f5d890"
+    },
+    {
+      "key": "ME/given_name",
+      "file": "src/data/me/given-name/popular.json",
+      "records": 38,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "d28d0908d1282d215e5d1f2000aa93ec57efef1b714240fde3a2d315ee0dd1de"
+    },
+    {
+      "key": "ME/surname",
+      "file": "src/data/me/surname/popular.json",
+      "records": 10,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "ae07c651697f13646fc5ee90b41ccd584c2dae379fd7ea86a5a1efa2d9b25983"
+    },
+    {
+      "key": "MK/given_name",
+      "file": "src/data/mk/given-name/popular.json",
+      "records": 37,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 19,
+      "sha256": "e7945249618fb22a5c7328a0395736f28ce0490426f58dbc417716fc6c3498cc"
+    },
+    {
+      "key": "MK/surname",
+      "file": "src/data/mk/surname/popular.json",
+      "records": 38,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 38,
+      "sha256": "d7dda1de0bc4e0fe2e674fe71e7c3aa5e012b0d3017156eefd39036ddda824af"
+    },
+    {
+      "key": "ML/given_name",
+      "file": "src/data/ml/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "def10a435d6e965cbc7d9e11e0d16810367988eb41f5574499bc8959687995bb"
+    },
+    {
+      "key": "MN/given_name",
+      "file": "src/data/mn/given-name/popular.json",
+      "records": 7,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "bc49df5a0ce98f6814c12d1d468c97233bbc2fc13e14971b7c7aa9a0c7d0bc05"
+    },
+    {
+      "key": "MO/given_name",
+      "file": "src/data/mo/given-name/onomaverse.json",
+      "records": 101,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 52,
+      "sha256": "31c0f93b9099b8fa3abb81cf63b1e025ca408fce591156ac2d5479dae22e80b7"
+    },
+    {
+      "key": "MO/surname",
+      "file": "src/data/mo/surname/onomaverse.json",
+      "records": 56,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 56,
+      "sha256": "9eee5e60f62e8a667778fd25879ee9d8bf31f69be0deebc24d69d5fa75b0a0f0"
+    },
+    {
+      "key": "MT/given_name",
+      "file": "src/data/mt/given-name/onomaverse.json",
+      "records": 103,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 55,
+      "sha256": "12f48c0986d5062b967b4ab6f0d74cbdd127eaa19d92f3ca4a0413c537c18b30"
+    },
+    {
+      "key": "MT/surname",
+      "file": "src/data/mt/surname/onomaverse.json",
+      "records": 45,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 45,
+      "sha256": "cfbb4f965c1af4baeb0ddb288e38f67209b8cc1956be84f4a72f8e2ae2027ad2"
+    },
+    {
+      "key": "MU/given_name",
+      "file": "src/data/mu/given-name/onomaverse.json",
+      "records": 268,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 134,
+      "sha256": "8d8eafde505e9bb7c7eae62e59b9ed0a1ee74f887988d71807f78a0f2bb8a3a1"
+    },
+    {
+      "key": "MU/surname",
+      "file": "src/data/mu/surname/onomaverse.json",
+      "records": 114,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 114,
+      "sha256": "a80e0adae72fa8f148bb8b25a030ce3e68f5da7ef7b322c64ea2e98fe23284b2"
+    },
+    {
+      "key": "MV/given_name",
+      "file": "src/data/mv/given-name/onomaverse.json",
+      "records": 59,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 33,
+      "sha256": "ca2e6cb9ee87ee8c890dd16e426548b506ade0590808ff2531b631e50aa71c4a"
+    },
+    {
+      "key": "MV/surname",
+      "file": "src/data/mv/surname/onomaverse.json",
+      "records": 27,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 27,
+      "sha256": "81a1e08d7aeaa70a987d2ce1651ea7b4bb62489daa21bda7f5e8fadd61c16a93"
+    },
+    {
+      "key": "MX/given_name",
+      "file": "src/data/mx/given-name/onomaverse.json",
+      "records": 1545,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 861,
+      "sha256": "115e72f3a3346bcfde4d558c8364c235ed78d8e5d6b8891a9cc278882ac9f4df"
+    },
+    {
+      "key": "MX/surname",
+      "file": "src/data/mx/surname/onomaverse.json",
+      "records": 766,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 766,
+      "sha256": "6b8c0b916ab19dfe3eb46c146c4b700199e0c20ea8ce9a51e26376a48b4721fb"
+    },
+    {
+      "key": "MY/given_name",
+      "file": "src/data/my/given-name/onomaverse.json",
+      "records": 1658,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 878,
+      "sha256": "78cbc6407c161ab31be6858c74dedbe955545734f2e0f9b11af63f10f6505070"
+    },
+    {
+      "key": "MY/surname",
+      "file": "src/data/my/surname/onomaverse.json",
+      "records": 1080,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1080,
+      "sha256": "c50b85743960eb46a37fcd673f16eca505b9ea9b3311c982dfbec7fd85de3cc4"
+    },
+    {
+      "key": "NG/given_name",
+      "file": "src/data/ng/given-name/onomaverse.json",
+      "records": 1392,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 829,
+      "sha256": "de54eed4b4e02eaf2ae3f31567df045a8c00473a3c77b244b62006c144b37166"
+    },
+    {
+      "key": "NG/surname",
+      "file": "src/data/ng/surname/onomaverse.json",
+      "records": 955,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 955,
+      "sha256": "f6850bf4414fa950d78f19b0664ba90260375e9e8c2c6d1dc944408c6809e09f"
+    },
+    {
+      "key": "NL/given_name",
+      "file": "src/data/nl/given-name/onomaverse.json",
+      "records": 1223,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 625,
+      "sha256": "aa362055e5a7c469f79c770e0a0d7d272a6cd4b8de36b2c7c86445cc04bd798d"
+    },
+    {
+      "key": "NL/surname",
+      "file": "src/data/nl/surname/onomaverse.json",
+      "records": 320,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 320,
+      "sha256": "b22627cf409e35b486fe21143250e18cc601486ff167a7de3ad9042a99b64784"
+    },
+    {
+      "key": "NO/given_name",
+      "file": "src/data/no/given-name/onomaverse.json",
+      "records": 2085,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1098,
+      "sha256": "dee471cd0389c96e845dcb6ee844850b5c0f4a933a9173b9abb2ed0a39c6353c"
+    },
+    {
+      "key": "NO/surname",
+      "file": "src/data/no/surname/onomaverse.json",
+      "records": 117807,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 117807,
+      "sha256": "035c772ff6bd6b275a287a2de981bfdc6007ba9e84f308f14806fa8e38212023"
+    },
+    {
+      "key": "NP/given_name",
+      "file": "src/data/np/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "35c90f71cfaff9020b041272d4c0fc0e0b0292caf9f067df206bee10ec0c5f47"
+    },
+    {
+      "key": "NP/surname",
+      "file": "src/data/np/surname/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "c72b1a8e78689d9c83a46ad60115d7ac77c0f73c1de92280438a56fe76385e0f"
+    },
+    {
+      "key": "NZ/given_name",
+      "file": "src/data/nz/given-name/popular.json",
+      "records": 40,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "435cfc40e1181affe1c9af624d942528d724fca5b4b1adbdc5f0f82570c03597"
+    },
+    {
+      "key": "NZ/surname",
+      "file": "src/data/nz/surname/popular.json",
+      "records": 10,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "5cc4f54c2aa1395594291c2ba6d0980c2857dda2b415acb2884759cef8a7f9ea"
+    },
+    {
+      "key": "OM/given_name",
+      "file": "src/data/om/given-name/onomaverse.json",
+      "records": 901,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 622,
+      "sha256": "456c821c1b4eeae025c519116ddc4ea0fb4122dbe1cb98c8593b6f574bf94209"
+    },
+    {
+      "key": "OM/surname",
+      "file": "src/data/om/surname/onomaverse.json",
+      "records": 594,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 594,
+      "sha256": "85c0f68fd4c57ada5c9ccb3f2dd2094fa5232b16f65c4da47de9afd015494654"
+    },
+    {
+      "key": "PA/given_name",
+      "file": "src/data/pa/given-name/onomaverse.json",
+      "records": 381,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 207,
+      "sha256": "5430154b805ce9d29c434ae44a255ec05663355e8b28b8070ebc9e188ff7df71"
+    },
+    {
+      "key": "PA/surname",
+      "file": "src/data/pa/surname/onomaverse.json",
+      "records": 206,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 206,
+      "sha256": "7abb2b8225eb45e0a2af155ad387f912e36f46a3d6b17f48d36a84d58a22fe63"
+    },
+    {
+      "key": "PE/given_name",
+      "file": "src/data/pe/given-name/onomaverse.json",
+      "records": 1159,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 590,
+      "sha256": "d9d900c3c98b4d489667a402ff3a3ef853e49ae3a2ae973722c303b14bb807fc"
+    },
+    {
+      "key": "PE/surname",
+      "file": "src/data/pe/surname/onomaverse.json",
+      "records": 402,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 402,
+      "sha256": "f612307b6ce96eeb75f8771d11dc6ba0bb62c14a8c9d1683b6d76349f3b0e787"
+    },
+    {
+      "key": "PF/given_name",
+      "file": "src/data/pf/given-name/popular.json",
+      "records": 26,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 14,
+      "sha256": "fa36f98c202693c816792d08c270d41862e2bf2fe6919117d7d2249a0c62878a"
+    },
+    {
+      "key": "PH/given_name",
+      "file": "src/data/ph/given-name/onomaverse.json",
+      "records": 196,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 102,
+      "sha256": "a3397a530ec8dfd6daa303f07baaade827d009f099d80c13283d7990a36ab122"
+    },
+    {
+      "key": "PH/surname",
+      "file": "src/data/ph/surname/onomaverse.json",
+      "records": 138,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 138,
+      "sha256": "7b2c3f78567e11833f6db851aeb9ad26ae80a32f90581e32758dae56bab3a162"
+    },
+    {
+      "key": "PK/given_name",
+      "file": "src/data/pk/given-name/onomaverse.json",
+      "records": 26,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 16,
+      "sha256": "09c874c7dd1e7248e08bd0592b80df383e6d427ed1a749188b800cd6c4e73c99"
+    },
+    {
+      "key": "PK/surname",
+      "file": "src/data/pk/surname/onomaverse.json",
+      "records": 3,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 3,
+      "sha256": "ede762577bb16a1371fcd57b096a054edfcec79b29ed7876717df404741ce1fa"
+    },
+    {
+      "key": "PL/given_name",
+      "file": "src/data/pl/given-name/onomaverse.json",
+      "records": 77496,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 47406,
+      "sha256": "6ea68c7e7184499cd903842b753faed375b5696b165b9a8b6d1d873870df7771"
+    },
+    {
+      "key": "PL/surname",
+      "file": "src/data/pl/surname/onomaverse.json",
+      "records": 598466,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 598466,
+      "sha256": "7a5bcc4023ea4ab3f5048e8f69d43ec5c9ac8efe0ed18aaf99580ec5a7e45c5a"
+    },
+    {
+      "key": "PR/given_name",
+      "file": "src/data/pr/given-name/onomaverse.json",
+      "records": 79,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 40,
+      "sha256": "01ee6f6b19f0b2760b48cec621bf8317d36809246897331f6c5bdc5fb7ea0352"
+    },
+    {
+      "key": "PR/surname",
+      "file": "src/data/pr/surname/onomaverse.json",
+      "records": 32,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 32,
+      "sha256": "6a5d21b8962e4d40280bcab8a1edfdf51d582856e4cf0fe8feae40d003c9e80e"
+    },
+    {
+      "key": "PS/given_name",
+      "file": "src/data/ps/given-name/onomaverse.json",
+      "records": 826,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 457,
+      "sha256": "7256cb95e3eb8be28b2da90d86c6d6e9b85e7d8701c9c456dbd9d76074a1ae00"
+    },
+    {
+      "key": "PS/surname",
+      "file": "src/data/ps/surname/onomaverse.json",
+      "records": 208,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 208,
+      "sha256": "b39a0c01fd0eaa3ea85985c5d2ce5dff12392020c5aa9d94bec0d9e5ddc14705"
+    },
+    {
+      "key": "PT/given_name",
+      "file": "src/data/pt/given-name/onomaverse.json",
+      "records": 403,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 214,
+      "sha256": "2e4f4dd5807259dfc41ff461177b37b324f8ca26a8cd269a089bcbb33ad86aee"
+    },
+    {
+      "key": "PT/surname",
+      "file": "src/data/pt/surname/onomaverse.json",
+      "records": 228,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 228,
+      "sha256": "ff68182108a4592b15145ef2a982f5f445e1f6d813bc1f47d0f18b1cd3ccdb69"
+    },
+    {
+      "key": "PY/given_name",
+      "file": "src/data/py/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "75879b1cf0cf75bbf35969dca233f41ee8f19d3be6cc1621a5a2e69ed64be18e"
+    },
+    {
+      "key": "PY/surname",
+      "file": "src/data/py/surname/popular.json",
+      "records": 25,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 25,
+      "sha256": "0cca5bde069a00efee4d737744c56e64df6b547d393594fcc83befc2422fba95"
+    },
+    {
+      "key": "QA/given_name",
+      "file": "src/data/qa/given-name/onomaverse.json",
+      "records": 540,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 334,
+      "sha256": "3d3f15ab6d03f9c76726fd244a7b4b3059332ae6224575a49f2a7e94c08e6fa9"
+    },
+    {
+      "key": "QA/surname",
+      "file": "src/data/qa/surname/onomaverse.json",
+      "records": 294,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 294,
+      "sha256": "364a4ecee9de3e7e04e65e69570ff96f4a340d83f720913d76c8abb3e7ea4a51"
+    },
+    {
+      "key": "RO/given_name",
+      "file": "src/data/ro/given-name/onomaverse.json",
+      "records": 21,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 11,
+      "sha256": "63e6448dfc37fe1d536890a53b038b60a2280bc3dea7f119386c21e90ff3f0d0"
+    },
+    {
+      "key": "RO/surname",
+      "file": "src/data/ro/surname/onomaverse.json",
+      "records": 13,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 13,
+      "sha256": "33e1ca6d653e77f138d71e41193fa7e09e4441caa8a475686b3fea21c497b25c"
+    },
+    {
+      "key": "RS/given_name",
+      "file": "src/data/rs/given-name/onomaverse.json",
+      "records": 80,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 44,
+      "sha256": "a35f48f3959fcb6da049c795f8b6d5be6d67732099d33d7e3255780357ba82e1"
+    },
+    {
+      "key": "RS/surname",
+      "file": "src/data/rs/surname/onomaverse.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "00a970cbb16143bf83adb75215b5ed5f78f6988605d498a0312ba1c34fc0982b"
+    },
+    {
+      "key": "RU/given_name",
+      "file": "src/data/ru/given-name/onomaverse.json",
+      "records": 812,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 416,
+      "sha256": "e3f81fbff74f0b3be61c7467c36006cb6b9f52c70a7078de8b14ca77406ca077"
+    },
+    {
+      "key": "RU/surname",
+      "file": "src/data/ru/surname/onomaverse.json",
+      "records": 854,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 846,
+      "sha256": "47aee7c04c27ada2b40f7bce0c2094b31175d07044066ca877988bc2d791ce75"
+    },
+    {
+      "key": "SA/given_name",
+      "file": "src/data/sa/given-name/onomaverse.json",
+      "records": 3295,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2345,
+      "sha256": "031dbcd39351441513a01d63313fc11171e01b197d4639435b6cfa3b01e059fd"
+    },
+    {
+      "key": "SA/surname",
+      "file": "src/data/sa/surname/onomaverse.json",
+      "records": 2457,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2457,
+      "sha256": "c78c81f444ba6cf163149c652c4ead321176c9665f221c29bca12ffb1c83caab"
+    },
+    {
+      "key": "SD/given_name",
+      "file": "src/data/sd/given-name/onomaverse.json",
+      "records": 1185,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 721,
+      "sha256": "0f1c75ca073cac4bb2b161e08d6176edfd438c76706eba948c8a707ab2b1fdab"
+    },
+    {
+      "key": "SD/surname",
+      "file": "src/data/sd/surname/onomaverse.json",
+      "records": 739,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 739,
+      "sha256": "ba303bc83488737d827a053958fe3140e31a361c1e2c20b89159757a1f208556"
+    },
+    {
+      "key": "SE/given_name",
+      "file": "src/data/se/given-name/onomaverse.json",
+      "records": 456,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 234,
+      "sha256": "7d67d9d4fa3a890d6637b67141e1a15bc0883a59c89101201480d95cb8470089"
+    },
+    {
+      "key": "SE/surname",
+      "file": "src/data/se/surname/onomaverse.json",
+      "records": 129,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 129,
+      "sha256": "098a2bb720937cc9c4d2e0567d6b8fecb23ac17c04709935abe3b74c69247451"
+    },
+    {
+      "key": "SG/given_name",
+      "file": "src/data/sg/given-name/onomaverse.json",
+      "records": 627,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 346,
+      "sha256": "6cc28fc8f2ed2fc946c357b529d3b6f884d2df8654f9a2ecdcf4f9f888300a84"
+    },
+    {
+      "key": "SG/surname",
+      "file": "src/data/sg/surname/onomaverse.json",
+      "records": 286,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 286,
+      "sha256": "782574627409864fead773e764bef163e8efb0601f0edfc32f5baf9f4c2ee69d"
+    },
+    {
+      "key": "SI/given_name",
+      "file": "src/data/si/given-name/onomaverse.json",
+      "records": 8687,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 4435,
+      "sha256": "9c6003050c558f4e311a92f644e235b87361e20947a540757b44a43bce392df3"
+    },
+    {
+      "key": "SI/surname",
+      "file": "src/data/si/surname/onomaverse.json",
+      "records": 30412,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 30412,
+      "sha256": "0b4b391320a8690d375353ed870391bc4f59179e111be4df7db244f74f7a2580"
+    },
+    {
+      "key": "SK/given_name",
+      "file": "src/data/sk/given-name/onomaverse.json",
+      "records": 23,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 12,
+      "sha256": "ec477f01aac2c5824960c911bb7093b1f24d680878f5bb58ad3892a450ed4af7"
+    },
+    {
+      "key": "SK/surname",
+      "file": "src/data/sk/surname/onomaverse.json",
+      "records": 21,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 21,
+      "sha256": "caf5ff551b26f90e103e530502c789679ed2def936f5d8aafbabb14a5dba1ee3"
+    },
+    {
+      "key": "SM/given_name",
+      "file": "src/data/sm/given-name/popular.json",
+      "records": 5,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 3,
+      "sha256": "3d6d4b35213a4307135e0b0732819925d92d71711017a5b7298c4711415175f4"
+    },
+    {
+      "key": "SR/surname",
+      "file": "src/data/sr/surname/popular.json",
+      "records": 13,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 13,
+      "sha256": "77fcb710008b86c9a376ff7f4200eb0524d350ba580eefd56e666369232b64b1"
+    },
+    {
+      "key": "SV/given_name",
+      "file": "src/data/sv/given-name/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "45c3c44125d21328601b58ae05c997d1d2472e4efc00d48f08803ede010a8f42"
+    },
+    {
+      "key": "SV/surname",
+      "file": "src/data/sv/surname/popular.json",
+      "records": 25,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 25,
+      "sha256": "1beb1cdd028a7b6458d8c8f47246aeadcdc7bc9ae06256a019103457e1aeac30"
+    },
+    {
+      "key": "SY/given_name",
+      "file": "src/data/sy/given-name/onomaverse.json",
+      "records": 1402,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 768,
+      "sha256": "be11b205cc1226c00a213e0027c791b161a775c8a805d30d6722c1289a966247"
+    },
+    {
+      "key": "SY/surname",
+      "file": "src/data/sy/surname/onomaverse.json",
+      "records": 873,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 873,
+      "sha256": "d34392d9aac4501166a20321050fe1485dc552591c9c2c5733d46b190954b46f"
+    },
+    {
+      "key": "TH/given_name",
+      "file": "src/data/th/given-name/popular.json",
+      "records": 5,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 5,
+      "sha256": "978a73bae394e1061d4cf5cb9f73b0d6fb09d1e75604d61e82e04469f2f48ba9"
+    },
+    {
+      "key": "TJ/given_name",
+      "file": "src/data/tj/given-name/popular.json",
+      "records": 10,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 6,
+      "sha256": "c05ffcc35167ae51c1586afe918896fd0910e7a571ea826fae1b17d0f27dc2e6"
+    },
+    {
+      "key": "TM/given_name",
+      "file": "src/data/tm/given-name/onomaverse.json",
+      "records": 8,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 4,
+      "sha256": "726a5e0907a825b2358769626a6d9c2016923d427180a33d65c9868d419a6af8"
+    },
+    {
+      "key": "TM/surname",
+      "file": "src/data/tm/surname/onomaverse.json",
+      "records": 3,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 3,
+      "sha256": "7c7ed0d75f81d813c1d856f3bf7120cf4ec25e04033c67081ab38d20238247f1"
+    },
+    {
+      "key": "TN/given_name",
+      "file": "src/data/tn/given-name/onomaverse.json",
+      "records": 1456,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 748,
+      "sha256": "20cab7874bee18536f8b1899d6351faecbf9c2eea48928f84b3c3d975b98f23f"
+    },
+    {
+      "key": "TN/surname",
+      "file": "src/data/tn/surname/onomaverse.json",
+      "records": 1015,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1015,
+      "sha256": "ddcf8c09cbf62d1f67e0d720f60fcfafd69ab2a80736e59a12e345d5a15ad030"
+    },
+    {
+      "key": "TR/given_name",
+      "file": "src/data/tr/given-name/onomaverse.json",
+      "records": 2733,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1457,
+      "sha256": "2fac243d6b8f71b1651502f09d2c212730f82c33217e80c305d5c918d234336c"
+    },
+    {
+      "key": "TR/surname",
+      "file": "src/data/tr/surname/onomaverse.json",
+      "records": 1995,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1995,
+      "sha256": "18cb49b60824153442dcb51a1b037b5b3db18bcadacf656e7ce6b14a70926405"
+    },
+    {
+      "key": "TW/given_name",
+      "file": "src/data/tw/given-name/onomaverse.json",
+      "records": 200,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 100,
+      "sha256": "69d61daa0f5a789ac47f19e1efc1a5424ba62edd5615420bd6a6d653560e9f3c"
+    },
+    {
+      "key": "TW/surname",
+      "file": "src/data/tw/surname/onomaverse.json",
+      "records": 2708,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2726,
+      "sha256": "8b5596cf6b6c5f1f4948c0d8ed527638fa59c0f69eb7827a534e8d7593a64c09"
+    },
+    {
+      "key": "UA/given_name",
+      "file": "src/data/ua/given-name/onomaverse.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 10,
+      "sha256": "fcc080b6298591385b5a3a34dbbbc32bc0d27ebc7792b9d1c4494ca17f45141a"
+    },
+    {
+      "key": "UA/surname",
+      "file": "src/data/ua/surname/onomaverse.json",
+      "records": 23,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 23,
+      "sha256": "70d80477826ca2486d2fddf9150d450e23f0d0f4363906fea9be00ce907d89d3"
+    },
+    {
+      "key": "US/given_name",
+      "file": "src/data/us/given-name/sample.json",
+      "records": 111472,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 68905,
+      "sha256": "041a62fbefe79c0886f61c1c847ced436736efef8f95ee5eb04b208490e36a36"
+    },
+    {
+      "key": "US/surname",
+      "file": "src/data/us/surname/sample.json",
+      "records": 162254,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 162254,
+      "sha256": "506f35ae4026fc4fdc208a6869a3e2a16c1974bbb681f5e187f98d203b504d9e"
+    },
+    {
+      "key": "UY/given_name",
+      "file": "src/data/uy/given-name/onomaverse.json",
+      "records": 420,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 216,
+      "sha256": "b7a8119ce07559b451a3445ff3d18eb9abb3df247fe4cdc8ffcb556cfe728e3e"
+    },
+    {
+      "key": "UY/surname",
+      "file": "src/data/uy/surname/onomaverse.json",
+      "records": 146,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 146,
+      "sha256": "09b030ba086b62e7424126169e7333e0057aacd0b6e6fa63a3ac06184e3e1a97"
+    },
+    {
+      "key": "UZ/given_name",
+      "file": "src/data/uz/given-name/onomaverse.json",
+      "records": 2,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 2,
+      "sha256": "b042d118769e0f1340b5982c0c17bcdcb808f2d0ed6c2f7d52d170575ba2aacf"
+    },
+    {
+      "key": "UZ/surname",
+      "file": "src/data/uz/surname/onomaverse.json",
+      "records": 1,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1,
+      "sha256": "d18ed5d94c9da9c09b09aa872670c1d1e4834274caa638671eb15982fdaabaa9"
+    },
+    {
+      "key": "VE/given_name",
+      "file": "src/data/ve/given-name/onomaverse.json",
+      "records": 22,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 12,
+      "sha256": "60f31b6c6749e6da19b5cc3b3109c382d098e400b85e7b6a75bc120be60c0861"
+    },
+    {
+      "key": "VE/surname",
+      "file": "src/data/ve/surname/onomaverse.json",
+      "records": 1,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1,
+      "sha256": "345ca4853f00bf8a756a4f873f0a7934491ed14f06acd78aa9c1982dc29ae266"
+    },
+    {
+      "key": "VN/given_name",
+      "file": "src/data/vn/given-name/onomaverse.json",
+      "records": 1,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1,
+      "sha256": "b7057722110154a2c6e17390acb36fa834dfe14a22f29f1f229c26ef20365626"
+    },
+    {
+      "key": "VN/surname",
+      "file": "src/data/vn/surname/onomaverse.json",
+      "records": 43,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 43,
+      "sha256": "0c6b09a3e18e3ccd942f90a96914b70114fab7f4a5277ead302bcaa4cdfc68bf"
+    },
+    {
+      "key": "XK/surname",
+      "file": "src/data/xk/surname/popular.json",
+      "records": 20,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 20,
+      "sha256": "f96cf9b0c8d29b8b212b9767c3bba4bc6007a03f622d5b4609cba0ff9e46915b"
+    },
+    {
+      "key": "YE/given_name",
+      "file": "src/data/ye/given-name/onomaverse.json",
+      "records": 755,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 514,
+      "sha256": "9f36e332964a14d489b71043df8be97e27d6c74d449992d6eadb42f6a9c73f51"
+    },
+    {
+      "key": "YE/surname",
+      "file": "src/data/ye/surname/onomaverse.json",
+      "records": 705,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 705,
+      "sha256": "797df930ef96221f971dfcb51b43eecf0b54ddf504c7d777480ce65cad834723"
+    },
+    {
+      "key": "ZA/given_name",
+      "file": "src/data/za/given-name/onomaverse.json",
+      "records": 2213,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1148,
+      "sha256": "8fdde103538b69c497b09367f1fc6cf829fab2727668569378a0f7df027ccc88"
+    },
+    {
+      "key": "ZA/surname",
+      "file": "src/data/za/surname/onomaverse.json",
+      "records": 1047,
+      "estimated": 0,
+      "minRank": 1,
+      "maxRank": 1047,
+      "sha256": "0e074bbcb7f91b32251101c3741ed550a04e7fbaca37e7ba485780efe1f5f837"
+    }
+  ]
+}

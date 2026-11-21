@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-15T14:06:18.670Z",
+  "counts": {
+    "names": 411,
+    "entities": 4501,
+    "name_entities": 4686,
+    "collection_jobs": 403
+  },
+  "cacheRows": 0,
+  "approvedImages": 1,
+  "identicalManifest": true,
+  "shards": 148,
+  "integrity": "ok",
+  "foreignKeyViolations": 0
+}
