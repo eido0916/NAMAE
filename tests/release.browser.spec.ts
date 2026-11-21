@@ -14,12 +14,14 @@ test("static release leaves unattested Japanese names unranked", async ({ page }
 });
 
 test("reviewed abbreviations and administrative labels have no name rank", async ({ page }) => {
+  test.setTimeout(60000);
   for (const [country, path, name] of [
     ["Afghanistan", "name", "إتش."],
     ["Spain", "name", "master of ..."],
     ["Brazil", "surname", "masculino"],
     ["Vietnam", "name", "male"],
     ["United States", "name", "Noname"],
+    ["Poland", "surname", "DR. VARGA"],
   ]) {
     await page.goto(base + "/" + path + "/");
     await page.locator(".country-select-trigger").click();

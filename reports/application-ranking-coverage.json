@@ -3817,11 +3817,11 @@
     {
       "country": "PL",
       "type": "surname",
-      "names": 606129,
+      "names": 606128,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
-        "published": 598423,
+        "published": 598422,
         "public_people": 7705,
         "country_association": 1
       }
@@ -6584,7 +6584,7 @@
       "type": "surname",
       "source": "Ministerstwo Cyfryzacji — PESEL",
       "reason": "invalid_display_name",
-      "rows": 86
+      "rows": 88
     },
     {
       "country": "PS",

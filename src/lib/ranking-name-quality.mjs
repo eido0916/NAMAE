@@ -15,7 +15,8 @@ function hasNameShape(name) {
 function isRejectedSpelling(country, type, name) {
   const spelling = name.normalize('NFKC').trim().replace(/\s+/g, ' ');
   return (type === 'given_name' && (initials.test(normalizeInputName(spelling)) ||
-      /\.$|(?:^|\s)\p{L}\.(?:\s|$)|^(?:dr|mr|mrs|ms|prof)\.\s/iu.test(spelling))) ||
+      /\.$|(?:^|\s)\p{L}\.(?:\s|$)/u.test(spelling))) ||
+    /^(?:dr|mr|mrs|ms|prof)\.\s/iu.test(spelling) ||
     /^marico el que lo lea$/iu.test(spelling) ||
     (country === 'VN' && type === 'given_name' && /^male$/iu.test(spelling)) ||
     (type === 'surname' && ['BE', 'FR'].includes(country) && /^famille /iu.test(spelling)) ||

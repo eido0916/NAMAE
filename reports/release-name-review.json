@@ -3,7 +3,7 @@
   "inputDataVersion": "77e444ff997fca37",
   "screenedRows": 3592504,
   "candidateRows": 1792,
-  "newlyRejectedCandidateRows": 275,
+  "newlyRejectedCandidateRows": 276,
   "affectedCountries": [
     "AF",
     "AU",
@@ -2281,6 +2281,13 @@
       "name": "إتش.",
       "source": "Wikidata — observed people with recorded names",
       "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PL",
+      "type": "surname",
+      "name": "DR. VARGA",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1681"
     }
   ]
 }

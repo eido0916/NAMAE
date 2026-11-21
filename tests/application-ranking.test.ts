@@ -97,6 +97,7 @@ test('quality checks reject corrupted labels and preserve attested short names a
   assert.equal(isUsableRankingAlias('US', 'Noname', 'given_name'), false);
   assert.equal(isUsableRankingName('BR', 'masculino', 'surname'), false);
   assert.equal(isUsableRankingName('BR', 'null', 'surname'), false);
+  assert.equal(isUsableRankingName('PL', 'DR. VARGA', 'surname'), false);
   assert.equal(isUsableRankingName('VN', 'male', 'given_name'), false);
   assert.equal(isUsableRankingName('US', 'Null', 'surname'), true);
   assert.equal(isUsableRankingName('US', 'Test', 'surname'), true);
