@@ -33,6 +33,7 @@ import type { Diagnosis, DiagnosisInput, Gender, NameType, RankingScope } from "
 import { NameDetailsDialog } from "./name-details";
 import { countryNativeNames, formatEquivalentRank, getUiCopy, localizedCountryName, localizeInputError } from "@/lib/ui-copy";
 import { getRankingScopeCopy } from "@/lib/ranking-scope-copy";
+import { withBasePath } from "@/lib/base-path";
 const ResultContext = createContext<{
   result: Diagnosis | null;
   setResult: (value: Diagnosis) => void;
@@ -77,7 +78,7 @@ export function Footer() {
       <span>{copy.tagline}</span>
       <span>
         © {new Date().getFullYear()} NAMAE ·{" "}
-        <a href="/flags/ATTRIBUTION.txt">Flags: Twemoji / CC BY 4.0</a>
+        <a href={withBasePath("/flags/ATTRIBUTION.txt")}>Flags: Twemoji / CC BY 4.0</a>
       </span>
       <span className="footer-links">
         <Link href="/sources">{copy.sources}</Link>
