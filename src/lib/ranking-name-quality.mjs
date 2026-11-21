@@ -9,13 +9,15 @@ const initials = /^(?:\p{Script=Latin}\p{M}*\.?|(?:\p{Script=Latin}\p{M}*\.\s*){
 
 function hasNameShape(name) {
   return Array.from(name).length <= 30 && nameCharacters.test(name) &&
-    /\p{L}/u.test(name) && !incompleteName.test(name) && !/^(\p{L})\1{3,}$/iu.test(name);
+    /\p{L}/u.test(name) && !incompleteName.test(name) && !/\.{2,}/u.test(name) && !/^(\p{L})\1{3,}$/iu.test(name);
 }
 
 function isRejectedSpelling(country, type, name) {
   const spelling = name.normalize('NFKC').trim().replace(/\s+/g, ' ');
-  return (type === 'given_name' && initials.test(normalizeInputName(spelling))) ||
+  return (type === 'given_name' && (initials.test(normalizeInputName(spelling)) ||
+      /\.$|(?:^|\s)\p{L}\.(?:\s|$)|^(?:dr|mr|mrs|ms|prof)\.\s/iu.test(spelling))) ||
     /^marico el que lo lea$/iu.test(spelling) ||
+    (country === 'VN' && type === 'given_name' && /^male$/iu.test(spelling)) ||
     (type === 'surname' && ['BE', 'FR'].includes(country) && /^famille /iu.test(spelling)) ||
     (country === 'BR' && type === 'surname' && /^(?:feeeeira|frrrrira)$/iu.test(spelling));
 }
@@ -27,6 +29,8 @@ export function isRankingPlaceholder(name, country, type) {
   // tables. Ambiguous aggregates for these values cannot support a ranking.
   const label = normalized.replace(/[-.]+/g, ' ').trim().replace(/\s+/g, ' ');
   return placeholders.test(label) || /^un named$/i.test(label) || /x{4,}/i.test(normalized) ||
+    (type === 'given_name' && /^(?:noname|fnu)$/i.test(label)) ||
+    (country === 'BR' && /^(?:masculino|feminino|male|female|none|null|undefined)$/i.test(label)) ||
     (country === 'CA' && type === 'given_name' && /^(?:infant|male|female)$/i.test(label)) ||
     (country === 'TH' && /^(?:นาย|นาง|นางสาว|เด็กชาย|เด็กหญิง)$/u.test(label)) ||
     (country === 'US' && type === 'given_name' &&

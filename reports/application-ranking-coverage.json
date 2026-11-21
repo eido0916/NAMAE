@@ -72,11 +72,11 @@
       "country": "AF",
       "type": "given_name",
       "gender": "male",
-      "names": 262,
+      "names": 259,
       "target": 7500,
-      "shortfall": 7238,
+      "shortfall": 7241,
       "evidence": {
-        "public_people": 198,
+        "public_people": 195,
         "country_frequency": 5,
         "country_association": 59
       }
@@ -282,11 +282,11 @@
       "country": "AU",
       "type": "given_name",
       "gender": "male",
-      "names": 22835,
+      "names": 22832,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
-        "published": 21583,
+        "published": 21580,
         "country_frequency": 3,
         "public_people": 1249
       }
@@ -417,12 +417,12 @@
       "country": "BD",
       "type": "given_name",
       "gender": "male",
-      "names": 198,
+      "names": 194,
       "target": 20000,
-      "shortfall": 19802,
+      "shortfall": 19806,
       "evidence": {
         "country_frequency": 7,
-        "public_people": 191
+        "public_people": 187
       }
     },
     {
@@ -720,11 +720,11 @@
     {
       "country": "BR",
       "type": "surname",
-      "names": 203413,
+      "names": 203408,
       "target": 20000,
       "shortfall": 0,
       "evidence": {
-        "published": 201596,
+        "published": 201591,
         "public_people": 1817
       }
     },
@@ -767,11 +767,11 @@
       "country": "BY",
       "type": "given_name",
       "gender": "male",
-      "names": 295,
+      "names": 293,
       "target": 3000,
-      "shortfall": 2705,
+      "shortfall": 2707,
       "evidence": {
-        "public_people": 295
+        "public_people": 293
       }
     },
     {
@@ -834,13 +834,13 @@
       "country": "CH",
       "type": "given_name",
       "gender": "male",
-      "names": 22875,
+      "names": 22874,
       "target": 10000,
       "shortfall": 0,
       "evidence": {
         "published": 22104,
         "country_frequency": 84,
-        "public_people": 687
+        "public_people": 686
       }
     },
     {
@@ -1150,12 +1150,12 @@
       "country": "DE",
       "type": "given_name",
       "gender": "male",
-      "names": 10107,
+      "names": 10106,
       "target": 10000,
       "shortfall": 0,
       "evidence": {
         "published": 5232,
-        "public_people": 4875
+        "public_people": 4874
       }
     },
     {
@@ -1220,12 +1220,12 @@
       "country": "DK",
       "type": "given_name",
       "gender": "male",
-      "names": 2495,
+      "names": 2494,
       "target": 3000,
-      "shortfall": 505,
+      "shortfall": 506,
       "evidence": {
         "country_frequency": 178,
-        "public_people": 2269,
+        "public_people": 2268,
         "country_association": 48
       }
     },
@@ -1233,12 +1233,12 @@
       "country": "DK",
       "type": "given_name",
       "gender": "female",
-      "names": 1699,
+      "names": 1698,
       "target": 3000,
-      "shortfall": 1301,
+      "shortfall": 1302,
       "evidence": {
         "country_frequency": 165,
-        "public_people": 1505,
+        "public_people": 1504,
         "country_association": 29
       }
     },
@@ -1290,12 +1290,12 @@
       "country": "DZ",
       "type": "given_name",
       "gender": "male",
-      "names": 410,
+      "names": 409,
       "target": 7500,
-      "shortfall": 7090,
+      "shortfall": 7091,
       "evidence": {
         "country_frequency": 179,
-        "public_people": 231
+        "public_people": 230
       }
     },
     {
@@ -1395,24 +1395,24 @@
       "country": "EG",
       "type": "given_name",
       "gender": "male",
-      "names": 1242,
+      "names": 1240,
       "target": 20000,
-      "shortfall": 18758,
+      "shortfall": 18760,
       "evidence": {
         "country_frequency": 910,
-        "public_people": 332
+        "public_people": 330
       }
     },
     {
       "country": "EG",
       "type": "given_name",
       "gender": "female",
-      "names": 819,
+      "names": 818,
       "target": 20000,
-      "shortfall": 19181,
+      "shortfall": 19182,
       "evidence": {
         "country_frequency": 534,
-        "public_people": 285
+        "public_people": 284
       }
     },
     {
@@ -1430,12 +1430,12 @@
       "country": "ES",
       "type": "given_name",
       "gender": "male",
-      "names": 32956,
+      "names": 32954,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
         "published": 31119,
-        "public_people": 1837
+        "public_people": 1835
       }
     },
     {
@@ -1497,11 +1497,11 @@
       "country": "FI",
       "type": "given_name",
       "gender": "male",
-      "names": 11352,
+      "names": 11350,
       "target": 3000,
       "shortfall": 0,
       "evidence": {
-        "published": 10989,
+        "published": 10987,
         "public_people": 363
       }
     },
@@ -1509,11 +1509,11 @@
       "country": "FI",
       "type": "given_name",
       "gender": "female",
-      "names": 14441,
+      "names": 14437,
       "target": 3000,
       "shortfall": 0,
       "evidence": {
-        "published": 14309,
+        "published": 14305,
         "public_people": 132
       }
     },
@@ -1602,12 +1602,12 @@
       "country": "FR",
       "type": "given_name",
       "gender": "male",
-      "names": 26058,
+      "names": 26056,
       "target": 10000,
       "shortfall": 0,
       "evidence": {
         "published": 23648,
-        "public_people": 2410
+        "public_people": 2408
       }
     },
     {
@@ -1637,11 +1637,11 @@
       "country": "GB",
       "type": "given_name",
       "gender": "male",
-      "names": 21592,
+      "names": 21591,
       "target": 10000,
       "shortfall": 0,
       "evidence": {
-        "published": 18161,
+        "published": 18160,
         "public_people": 3431
       }
     },
@@ -1870,11 +1870,11 @@
       "country": "GR",
       "type": "given_name",
       "gender": "male",
-      "names": 546,
+      "names": 544,
       "target": 7500,
-      "shortfall": 6954,
+      "shortfall": 6956,
       "evidence": {
-        "public_people": 542,
+        "public_people": 540,
         "country_frequency": 4
       }
     },
@@ -2075,12 +2075,12 @@
       "country": "HU",
       "type": "given_name",
       "gender": "male",
-      "names": 1570,
+      "names": 1569,
       "target": 3000,
-      "shortfall": 1430,
+      "shortfall": 1431,
       "evidence": {
         "country_frequency": 77,
-        "public_people": 1493
+        "public_people": 1492
       }
     },
     {
@@ -2186,26 +2186,26 @@
       "country": "IL",
       "type": "given_name",
       "gender": "male",
-      "names": 10026,
+      "names": 10016,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
         "published": 9577,
         "country_frequency": 45,
-        "public_people": 404
+        "public_people": 394
       }
     },
     {
       "country": "IL",
       "type": "given_name",
       "gender": "female",
-      "names": 12990,
+      "names": 12985,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
         "published": 12692,
         "country_frequency": 38,
-        "public_people": 260
+        "public_people": 255
       }
     },
     {
@@ -2259,8 +2259,8 @@
       "target": 20000,
       "shortfall": 0,
       "evidence": {
-        "country_frequency": 23230,
-        "public_people": 2613,
+        "country_frequency": 23231,
+        "public_people": 2612,
         "country_association": 240
       }
     },
@@ -2293,12 +2293,12 @@
       "country": "IQ",
       "type": "given_name",
       "gender": "male",
-      "names": 984,
+      "names": 981,
       "target": 7500,
-      "shortfall": 6516,
+      "shortfall": 6519,
       "evidence": {
         "country_frequency": 684,
-        "public_people": 300
+        "public_people": 297
       }
     },
     {
@@ -2500,12 +2500,12 @@
       "country": "JO",
       "type": "given_name",
       "gender": "male",
-      "names": 390,
+      "names": 389,
       "target": 7500,
-      "shortfall": 7110,
+      "shortfall": 7111,
       "evidence": {
         "country_frequency": 167,
-        "public_people": 223
+        "public_people": 222
       }
     },
     {
@@ -2573,11 +2573,11 @@
       "country": "KG",
       "type": "given_name",
       "gender": "male",
-      "names": 164,
+      "names": 163,
       "target": 3000,
-      "shortfall": 2836,
+      "shortfall": 2837,
       "evidence": {
-        "public_people": 164
+        "public_people": 163
       }
     },
     {
@@ -2710,24 +2710,24 @@
       "country": "KZ",
       "type": "given_name",
       "gender": "male",
-      "names": 364,
+      "names": 357,
       "target": 7500,
-      "shortfall": 7136,
+      "shortfall": 7143,
       "evidence": {
         "country_frequency": 148,
-        "public_people": 216
+        "public_people": 209
       }
     },
     {
       "country": "KZ",
       "type": "given_name",
       "gender": "female",
-      "names": 280,
+      "names": 278,
       "target": 7500,
-      "shortfall": 7220,
+      "shortfall": 7222,
       "evidence": {
         "country_frequency": 150,
-        "public_people": 130
+        "public_people": 128
       }
     },
     {
@@ -2745,11 +2745,11 @@
       "country": "LB",
       "type": "given_name",
       "gender": "male",
-      "names": 495,
+      "names": 494,
       "target": 3000,
-      "shortfall": 2505,
+      "shortfall": 2506,
       "evidence": {
-        "public_people": 452,
+        "public_people": 451,
         "country_frequency": 43
       }
     },
@@ -3383,12 +3383,12 @@
       "country": "MY",
       "type": "given_name",
       "gender": "male",
-      "names": 1727,
+      "names": 1725,
       "target": 7500,
-      "shortfall": 5773,
+      "shortfall": 5775,
       "evidence": {
         "country_frequency": 878,
-        "public_people": 849
+        "public_people": 847
       }
     },
     {
@@ -3453,12 +3453,12 @@
       "country": "NL",
       "type": "given_name",
       "gender": "male",
-      "names": 5458,
+      "names": 5456,
       "target": 7500,
-      "shortfall": 2042,
+      "shortfall": 2044,
       "evidence": {
         "country_frequency": 623,
-        "public_people": 4835
+        "public_people": 4833
       }
     },
     {
@@ -3488,12 +3488,12 @@
       "country": "NO",
       "type": "given_name",
       "gender": "male",
-      "names": 2667,
+      "names": 2666,
       "target": 3000,
-      "shortfall": 333,
+      "shortfall": 334,
       "evidence": {
         "published": 987,
-        "public_people": 1680
+        "public_people": 1679
       }
     },
     {
@@ -3724,12 +3724,12 @@
       "country": "PH",
       "type": "given_name",
       "gender": "male",
-      "names": 1488,
+      "names": 1487,
       "target": 20000,
-      "shortfall": 18512,
+      "shortfall": 18513,
       "evidence": {
         "country_frequency": 93,
-        "public_people": 1391,
+        "public_people": 1390,
         "country_association": 4
       }
     },
@@ -3762,22 +3762,22 @@
       "country": "PK",
       "type": "given_name",
       "gender": "male",
-      "names": 422,
+      "names": 409,
       "target": 20000,
-      "shortfall": 19578,
+      "shortfall": 19591,
       "evidence": {
-        "public_people": 422
+        "public_people": 409
       }
     },
     {
       "country": "PK",
       "type": "given_name",
       "gender": "female",
-      "names": 186,
+      "names": 184,
       "target": 20000,
-      "shortfall": 19814,
+      "shortfall": 19816,
       "evidence": {
-        "public_people": 186
+        "public_people": 184
       }
     },
     {
@@ -3794,11 +3794,11 @@
       "country": "PL",
       "type": "given_name",
       "gender": "male",
-      "names": 48034,
+      "names": 47872,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
-        "published": 47396,
+        "published": 47234,
         "public_people": 638
       }
     },
@@ -3806,11 +3806,11 @@
       "country": "PL",
       "type": "given_name",
       "gender": "female",
-      "names": 30299,
+      "names": 30298,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
-        "published": 30089,
+        "published": 30088,
         "public_people": 210
       }
     },
@@ -4071,24 +4071,24 @@
       "country": "RU",
       "type": "given_name",
       "gender": "male",
-      "names": 1755,
+      "names": 1745,
       "target": 20000,
-      "shortfall": 18245,
+      "shortfall": 18255,
       "evidence": {
         "country_frequency": 158,
-        "public_people": 1597
+        "public_people": 1587
       }
     },
     {
       "country": "RU",
       "type": "given_name",
       "gender": "female",
-      "names": 869,
+      "names": 863,
       "target": 20000,
-      "shortfall": 19131,
+      "shortfall": 19137,
       "evidence": {
         "country_frequency": 122,
-        "public_people": 747
+        "public_people": 741
       }
     },
     {
@@ -4189,13 +4189,13 @@
       "country": "SE",
       "type": "given_name",
       "gender": "female",
-      "names": 8124,
+      "names": 8123,
       "target": 7500,
       "shortfall": 0,
       "evidence": {
         "published": 7000,
         "country_frequency": 93,
-        "public_people": 1031
+        "public_people": 1030
       }
     },
     {
@@ -4488,11 +4488,11 @@
       "country": "TJ",
       "type": "given_name",
       "gender": "male",
-      "names": 164,
+      "names": 163,
       "target": 7500,
-      "shortfall": 7336,
+      "shortfall": 7337,
       "evidence": {
-        "public_people": 164
+        "public_people": 163
       }
     },
     {
@@ -4695,23 +4695,23 @@
       "country": "US",
       "type": "given_name",
       "gender": "male",
-      "names": 51655,
+      "names": 51651,
       "target": 20000,
       "shortfall": 0,
       "evidence": {
-        "published": 46446,
-        "public_people": 5209
+        "published": 46445,
+        "public_people": 5206
       }
     },
     {
       "country": "US",
       "type": "given_name",
       "gender": "female",
-      "names": 75830,
+      "names": 75829,
       "target": 20000,
       "shortfall": 0,
       "evidence": {
-        "published": 73718,
+        "published": 73717,
         "public_people": 2112
       }
     },
@@ -4836,12 +4836,12 @@
       "country": "VN",
       "type": "given_name",
       "gender": "male",
-      "names": 555,
+      "names": 554,
       "target": 20000,
-      "shortfall": 19445,
+      "shortfall": 19446,
       "evidence": {
         "country_frequency": 1,
-        "public_people": 535,
+        "public_people": 534,
         "country_association": 19
       }
     },
@@ -4905,12 +4905,12 @@
       "country": "YE",
       "type": "given_name",
       "gender": "male",
-      "names": 440,
+      "names": 439,
       "target": 7500,
-      "shortfall": 7060,
+      "shortfall": 7061,
       "evidence": {
         "country_frequency": 330,
-        "public_people": 110
+        "public_people": 109
       }
     },
     {
@@ -5007,6 +5007,30 @@
     {
       "country": "AF",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — birthplace",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
@@ -5050,7 +5074,7 @@
       "gender": "male",
       "source": "South Australia — birth registrations 1944–2013",
       "reason": "invalid_display_name",
-      "rows": 29
+      "rows": 32
     },
     {
       "country": "AU",
@@ -5092,6 +5116,22 @@
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 718
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 4
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 4
     },
     {
       "country": "BD",
@@ -5182,7 +5222,39 @@
       "type": "surname",
       "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
       "reason": "placeholder",
+      "name": "male",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "none",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "masculino",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
       "name": "xxxxx",
+      "rows": 2
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "feminino",
       "rows": 2
     },
     {
@@ -5199,6 +5271,30 @@
       "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
       "reason": "invalid_display_name",
       "rows": 4
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "reason": "placeholder",
+      "name": "null",
+      "rows": 2
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
     },
     {
       "country": "CA",
@@ -5271,6 +5367,22 @@
       "rows": 2
     },
     {
+      "country": "CH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
       "country": "CL",
       "type": "given_name",
       "gender": "male",
@@ -5336,8 +5448,40 @@
     {
       "country": "DE",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
       "gender": "female",
       "source": "BerlinOnline / LABO — Berlin birth registrations",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
       "rows": 1
     },
@@ -5357,6 +5501,22 @@
       "reason": "placeholder",
       "name": "Unknown",
       "rows": 2
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
     },
     {
       "country": "DZ",
@@ -5393,10 +5553,42 @@
     {
       "country": "EG",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 1836
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
     },
     {
       "country": "EG",
@@ -5411,7 +5603,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "ES",
@@ -5419,7 +5611,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "ET",
@@ -5450,7 +5642,7 @@
       "gender": "male",
       "source": "Digi- ja väestötietovirasto (DVV)",
       "reason": "invalid_display_name",
-      "rows": 48
+      "rows": 52
     },
     {
       "country": "FI",
@@ -5458,7 +5650,7 @@
       "gender": "female",
       "source": "Digi- ja väestötietovirasto (DVV)",
       "reason": "invalid_display_name",
-      "rows": 38
+      "rows": 46
     },
     {
       "country": "FR",
@@ -5466,7 +5658,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "FR",
@@ -5474,7 +5666,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "FR",
@@ -5511,7 +5703,7 @@
       "gender": "male",
       "source": "Office for National Statistics",
       "reason": "invalid_display_name",
-      "rows": 52
+      "rows": 54
     },
     {
       "country": "GB",
@@ -5579,6 +5771,22 @@
     {
       "country": "GR",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
@@ -5631,6 +5839,22 @@
       "rows": 1
     },
     {
+      "country": "HU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
       "country": "IE",
       "type": "given_name",
       "gender": "male",
@@ -5673,6 +5897,22 @@
     {
       "country": "IL",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 10
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 10
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
       "gender": "female",
       "source": "Israel CBS / babynamesIL — birth names 1949–2024",
       "reason": "invalid_display_name",
@@ -5688,6 +5928,22 @@
     },
     {
       "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 5
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 5
+    },
+    {
+      "country": "IL",
       "type": "surname",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
@@ -5699,7 +5955,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "IN",
@@ -5707,7 +5963,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship and name records",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "IN",
@@ -5715,7 +5971,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "IQ",
@@ -5733,6 +5989,22 @@
       "reason": "placeholder",
       "name": "Unknown",
       "rows": 2
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 3
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 3
     },
     {
       "country": "IQ",
@@ -5799,6 +6071,22 @@
     {
       "country": "JO",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
@@ -5810,6 +6098,22 @@
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 252
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
     },
     {
       "country": "KH",
@@ -5877,10 +6181,42 @@
     {
       "country": "KZ",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 7
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 7
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 288
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
     },
     {
       "country": "KZ",
@@ -5896,6 +6232,22 @@
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 518
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
     },
     {
       "country": "LB",
@@ -6035,7 +6387,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "MY",
@@ -6043,7 +6395,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 3
     },
     {
       "country": "NG",
@@ -6057,6 +6409,38 @@
       "country": "NG",
       "type": "given_name",
       "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
       "rows": 1
@@ -6106,7 +6490,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "PH",
@@ -6114,7 +6498,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship and name records",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "PH",
@@ -6122,7 +6506,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 1
+      "rows": 2
     },
     {
       "country": "PK",
@@ -6135,8 +6519,40 @@
     {
       "country": "PK",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 13
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 13
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 2
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
       "rows": 2
     },
@@ -6153,7 +6569,7 @@
       "gender": "male",
       "source": "Ministerstwo Cyfryzacji — PESEL",
       "reason": "invalid_display_name",
-      "rows": 20
+      "rows": 344
     },
     {
       "country": "PL",
@@ -6161,7 +6577,7 @@
       "gender": "female",
       "source": "Ministerstwo Cyfryzacji — PESEL",
       "reason": "invalid_display_name",
-      "rows": 2
+      "rows": 4
     },
     {
       "country": "PL",
@@ -6243,10 +6659,42 @@
     {
       "country": "RU",
       "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 10
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 9
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
       "gender": "female",
       "source": "Onomaverse Global Name Frequency",
       "reason": "invalid_display_name",
       "rows": 530
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 6
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 5
     },
     {
       "country": "RU",
@@ -6328,6 +6776,22 @@
       "rows": 3
     },
     {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "female",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
       "country": "SG",
       "type": "given_name",
       "gender": "male",
@@ -6380,6 +6844,22 @@
       "type": "given_name",
       "gender": "female",
       "source": "Thai Names Corpus (CC BY-SA 4.0)",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
       "rows": 1
     },
@@ -6499,6 +6979,15 @@
       "gender": "male",
       "source": "U.S. Social Security Administration",
       "reason": "placeholder",
+      "name": "Noname",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
       "name": "Female",
       "rows": 2
     },
@@ -6553,7 +7042,7 @@
       "gender": "male",
       "source": "Wikidata — observed people with recorded names",
       "reason": "invalid_display_name",
-      "rows": 7
+      "rows": 10
     },
     {
       "country": "US",
@@ -6579,7 +7068,7 @@
       "gender": "male",
       "source": "Wikidata — citizenship",
       "reason": "invalid_display_name",
-      "rows": 7
+      "rows": 10
     },
     {
       "country": "US",
@@ -6660,6 +7149,15 @@
       "source": "U.S. Social Security Administration",
       "reason": "placeholder",
       "name": "Newborn",
+      "rows": 2
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "source": "U.S. Social Security Administration",
+      "reason": "placeholder",
+      "name": "Noname",
       "rows": 2
     },
     {
@@ -6766,6 +7264,30 @@
       "rows": 1
     },
     {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — birthplace",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
       "country": "YE",
       "type": "given_name",
       "gender": "male",
@@ -6781,6 +7303,22 @@
       "reason": "placeholder",
       "name": "Unknown",
       "rows": 2
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "reason": "invalid_display_name",
+      "rows": 1
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "source": "Wikidata — citizenship",
+      "reason": "invalid_display_name",
+      "rows": 1
     },
     {
       "country": "YE",

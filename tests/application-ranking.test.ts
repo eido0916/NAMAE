@@ -90,6 +90,19 @@ test('US first-name placeholders are excluded across sources while documented su
 });
 
 test('quality checks reject corrupted labels and preserve attested short names and punctuation', () => {
+  for (const [country, name] of [['AF', 'إتش.'], ['BD', 'এম.'], ['GR', 'Α.'], ['RU', 'Дж.'], ['US', 'Josep M.']])
+    assert.equal(isUsableRankingName(country, name, 'given_name'), false);
+  assert.equal(isUsableRankingName('ES', 'master of ...', 'given_name'), false);
+  assert.equal(isUsableRankingName('US', 'Fnu', 'given_name'), false);
+  assert.equal(isUsableRankingAlias('US', 'Noname', 'given_name'), false);
+  assert.equal(isUsableRankingName('BR', 'masculino', 'surname'), false);
+  assert.equal(isUsableRankingName('BR', 'null', 'surname'), false);
+  assert.equal(isUsableRankingName('VN', 'male', 'given_name'), false);
+  assert.equal(isUsableRankingName('US', 'Null', 'surname'), true);
+  assert.equal(isUsableRankingName('US', 'Test', 'surname'), true);
+  assert.equal(isUsableRankingName('GB', 'St. John', 'given_name'), true);
+  assert.equal(isUsableRankingName('BD', 'মোহাম্মদ', 'given_name'), true);
+  assert.equal(isUsableRankingName('CN', '小明', 'given_name'), true);
   assert.equal(isUsableRankingName('AU', 'Un-Named', 'given_name'), false);
   assert.equal(isUsableRankingName('CA', 'OLIVIERXXXXXXXXXXXXX', 'given_name'), false);
   assert.equal(isUsableRankingName('CL', "D'", 'given_name'), false);

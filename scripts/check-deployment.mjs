@@ -1,5 +1,6 @@
 const base = (process.env.SITE_URL || process.argv[2] || "").replace(/\/$/, "");
 if (!base) throw new Error("SITE_URL is required");
+const allFiles = process.argv.includes("--all");
 
 async function request(path, method = "GET") {
   const response = await fetch(`${base}${path}`, {
@@ -32,14 +33,22 @@ if (
 )
   throw new Error("Unexpected data manifest");
 const representatives = new Set(["JP", "US", "CN", "KR", "IN", "PL", "GL"]);
-const dataFiles = app.filter(entry => representatives.has(entry.country)).flatMap(entry => {
-  const files = [entry.chunks[0]?.path, entry.chunks.at(-1)?.path];
-  if (entry.inputLookup?.buckets.length) files.push(`${entry.inputLookup.directory}/${entry.inputLookup.buckets[0]}.json`);
+const dataFiles = app.filter(entry => allFiles || representatives.has(entry.country)).flatMap(entry => {
+  const files = allFiles ? entry.chunks.map(chunk => chunk.path) : [entry.chunks[0]?.path, entry.chunks.at(-1)?.path];
+  const buckets = allFiles ? entry.inputLookup?.buckets ?? [] : entry.inputLookup?.buckets.slice(0, 1) ?? [];
+  for (const bucket of buckets) files.push(`${entry.inputLookup.directory}/${bucket}.json`);
   return files.filter(Boolean);
 });
 const details = await (await request("/data/name-details/manifest.json")).json();
-const detail = Object.values(details.shards ?? {})[0];
-await Promise.all([...new Set([...dataFiles, ...(detail ? [detail] : [])])].map(path => request(path, "HEAD")));
+const detailFiles = Object.values(details.shards ?? {});
+const files = [...new Set([...dataFiles, ...(allFiles ? detailFiles : detailFiles.slice(0, 1))])];
+let nextFile = 0;
+await Promise.all(Array.from({ length: Math.min(8, files.length) }, async () => {
+  while (nextFile < files.length) {
+    const path = files[nextFile++];
+    await request(path, "HEAD");
+  }
+}));
 console.log(
-  `Healthy: ${base}, data ${manifest.dataVersion}, ${app.length} application datasets.`,
+  `Healthy: ${base}, data ${manifest.dataVersion}, ${app.length} application datasets, ${files.length} files checked.`,
 );

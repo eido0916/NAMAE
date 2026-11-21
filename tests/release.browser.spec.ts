@@ -13,6 +13,26 @@ test("static release leaves unattested Japanese names unranked", async ({ page }
   }
 });
 
+test("reviewed abbreviations and administrative labels have no name rank", async ({ page }) => {
+  for (const [country, path, name] of [
+    ["Afghanistan", "name", "إتش."],
+    ["Spain", "name", "master of ..."],
+    ["Brazil", "surname", "masculino"],
+    ["Vietnam", "name", "male"],
+    ["United States", "name", "Noname"],
+  ]) {
+    await page.goto(base + "/" + path + "/");
+    await page.locator(".country-select-trigger").click();
+    await page.locator(".country-select").getByRole("combobox").fill(country);
+    await page.getByRole("option").filter({ hasText: country }).first().click();
+    await page.locator("#name").fill(name);
+    await page.locator(".form-card button[type=submit]").click();
+    await expect(page.locator(".rank strong")).toBeVisible();
+    await expect(page.locator(".rank strong")).not.toHaveText(/^#/);
+    await expect(page.locator(".match-card-interactive")).toHaveCount(0);
+  }
+});
+
 test("Japanese names verified in municipal birth statistics are searchable", async ({ page }) => {
   await page.goto(base + "/name/");
   await page.locator('.gender-options label:has(input[value="female"])').click();

@@ -23,4 +23,5 @@ await import("../tests/native-ranking-expansion.test.mjs");
 await import("../tests/official-asian-expansion.test.ts");
 await import("../tests/public-people-ranking.test.ts");
 await import("../tests/application-ranking.test.ts");
+await import("../tests/check-deployment.test.mjs");
 unregister();

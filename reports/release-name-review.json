@@ -1,0 +1,2286 @@
+{
+  "scope": "Automated spelling screening of the previous public release with source review of suspect categories.",
+  "inputDataVersion": "77e444ff997fca37",
+  "screenedRows": 3592504,
+  "candidateRows": 1792,
+  "newlyRejectedCandidateRows": 275,
+  "affectedCountries": [
+    "AF",
+    "AU",
+    "BD",
+    "BR",
+    "BY",
+    "CH",
+    "DE",
+    "DK",
+    "DZ",
+    "EG",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "HU",
+    "IL",
+    "IN",
+    "IQ",
+    "JO",
+    "KG",
+    "KZ",
+    "LB",
+    "MY",
+    "NL",
+    "NO",
+    "PH",
+    "PK",
+    "PL",
+    "RU",
+    "SE",
+    "TJ",
+    "US",
+    "VN",
+    "YE"
+  ],
+  "rules": [
+    "Exclude truncated given names ending in a full stop, isolated letter initials, honorific prefixes and ellipsis placeholders.",
+    "Exclude the US administrative given-name placeholders Noname and FNU.",
+    "Exclude Brazilian sex and missing-value labels when found in name fields.",
+    "Exclude the Vietnamese given-name value male, traced to the Wikidata sex item Q6581097."
+  ],
+  "retainedExamples": [
+    {
+      "country": "US",
+      "type": "surname",
+      "name": "Null",
+      "basis": "Recorded in the Census surname table."
+    },
+    {
+      "country": "US",
+      "type": "surname",
+      "name": "Test",
+      "basis": "Recorded in the Census surname table."
+    },
+    {
+      "country": "FR",
+      "type": "surname",
+      "name": "Saint Martin",
+      "basis": "Compound surnames occur in published national statistics."
+    },
+    {
+      "country": "BE",
+      "type": "surname",
+      "name": "'t Kindt",
+      "basis": "Leading apostrophes occur in published surnames."
+    },
+    {
+      "country": "CN",
+      "type": "given_name",
+      "name": "小明",
+      "basis": "Recorded in the aggregate Chinese Gender sample."
+    }
+  ],
+  "evidenceLinks": [
+    "https://www.wikidata.org/wiki/Q19803510",
+    "https://www.wikidata.org/wiki/Q6581097",
+    "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/forms/ds-160-online-nonimmigrant-visa-application/ds-160-faqs.html"
+  ],
+  "verification": "The build validates all emitted names, aliases, source permissions, file hashes, consecutive ranks and lookup coverage. Screening alone cannot establish every recorded spelling as a correct personal name.",
+  "rejectedCandidates": [
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إتش.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "name": "جي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "AF",
+      "type": "given_name",
+      "gender": "male",
+      "name": "واي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Bj.",
+      "source": "South Australia — birth registrations 1944–2013",
+      "url": "https://data.sa.gov.au/data/dataset/popular-baby-names"
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Bo.",
+      "source": "South Australia — birth registrations 1944–2013",
+      "url": "https://data.sa.gov.au/data/dataset/popular-baby-names"
+    },
+    {
+      "country": "AU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "St.",
+      "source": "South Australia — birth registrations 1944–2013",
+      "url": "https://data.sa.gov.au/data/dataset/popular-baby-names"
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "name": "এম.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "name": "কে.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "name": "জে.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "BD",
+      "type": "given_name",
+      "gender": "male",
+      "name": "কিউ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "name": "male",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "name": "none",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "name": "masculino",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+    },
+    {
+      "country": "BR",
+      "type": "surname",
+      "name": "null",
+      "source": "IBGE Censo 2022 / Gabriel Lobo compilation",
+      "url": "https://huggingface.co/datasets/olob0/ibge-nomes-no-brasil-2022"
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ай.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "BY",
+      "type": "given_name",
+      "gender": "male",
+      "name": "В.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "CH",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ch.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "DE",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Chr.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Chr.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "DK",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Th.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "DZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "name": "أ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "EG",
+      "type": "given_name",
+      "gender": "female",
+      "name": "اف.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Josep M.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "ES",
+      "type": "given_name",
+      "gender": "male",
+      "name": "master of ...",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Md.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Jr.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Ma.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Sh.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Mst.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FI",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Most.",
+      "source": "Digi- ja väestötietovirasto (DVV)",
+      "url": "https://avoindata.suomi.fi/data/fi/dataset/57282ad6-3ab1-48fb-983a-8aba5ff8d29a"
+    },
+    {
+      "country": "FR",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ch.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "GB",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Md.",
+      "source": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996"
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Α.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "GR",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Κ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "HU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Gy.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ס.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "جيه.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "أ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "بي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "تي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "زد.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "سي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "في.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "واي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "بي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "آر.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "جي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "كي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IN",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Md.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "آر.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "أ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "IQ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "JO",
+      "type": "given_name",
+      "gender": "male",
+      "name": "أ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KG",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Н.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ай.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "В.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "П.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Дж.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "К.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "М.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Р.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "name": "В.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "KZ",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Н.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "LB",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "MY",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Md.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Th.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "NL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ch.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "NO",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Chr.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PH",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ma.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "أ.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إم.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إس.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إتش.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "جي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "آر.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "جيه.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "سي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "اف.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "بي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "دي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "زد.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "male",
+      "name": "كي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "name": "تي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PK",
+      "type": "given_name",
+      "gender": "female",
+      "name": "جي.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MD.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROMEO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RODOLFO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ANTONIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ERNESTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JOSE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALFREDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROGELIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "REYNALDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROLANDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DANILO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDUARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROBERTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALBERTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RODRIGO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FRANCISCO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JAIME JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JESUS JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MANUEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MARIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RENATO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RICARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RUBEN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CARLOS JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DOMINGO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DOMINADOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NESTOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALEXANDER JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ARMANDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CARLITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EFREN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FELIX JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "PEDRO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "VIRGILIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "WILFREDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ARTURO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CELSO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FLORENTINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GREGORIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JOEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "LUIS JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NORBERTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROGER JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BERNARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DAVID JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDGARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDMUNDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EMMANUEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FERNANDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JACINTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JERRY JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JIMMY JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JUANITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JULIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MIGUEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "OSCAR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ABELARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALEJANDRO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ANGEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ARSENIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BENJAMIN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BIENVENIDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CONRADO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CRESENCIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DANTE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DEMETRIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DIOSDADO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDWIN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ELPIDIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FELIPE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FLORENCIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GODOFREDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "HENRY JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JOSELITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JUAN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "LEONARDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "LORETO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MARCELO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MELCHOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MICHAEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NARCISO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NICANOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NILO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NOEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ORLANDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROMULO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RUFINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ABRAHAM JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "AGAPITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "AGUSTIN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALBERT JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ALLAN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ANGELITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "AQUINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ARISTON JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ARNEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "AURELIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "AVELINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BARTOLOME JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BENITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BENJAMEN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "BONIFACIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CARMELO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CATALINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CESAR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CESARIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CLEMENTE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CRISANTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "CRISPOLO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DANNY JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "DESIDERIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDDIE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EDILBERTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ELADIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ELIAS JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ENRICO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ENRIQUE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ESTEBAN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "EULOGIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FERDINAND JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FORTUNATO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "FRANKLIN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GAUDENCIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GENARO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GEORGE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GERONIMO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "GUILLERMO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "HERMOSO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "HILARIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ILDEFONSO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "IRENEO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ISABELO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ISAGANI JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "JOVENCIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "LEANDRO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MARCELINO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MARIANO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MARLON JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MELECIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MELQUIADES JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MOHAMMED A.A.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "MOISES JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "NELSON JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ONOFRE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "PABLO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "PATRICIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "PIO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "PRIMITIVO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "QUIRICO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RAFAEL JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RAMON JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RESTITUTO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RICHARD JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "ROBERT JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "RONALDO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "SALVADOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "TEODORO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "TITO JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "VALENTIN JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "VICENTE JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "VICTOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "male",
+      "name": "VILLAMOR JR.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "PL",
+      "type": "given_name",
+      "gender": "female",
+      "name": "MA.",
+      "source": "Ministerstwo Cyfryzacji — PESEL",
+      "url": "https://dane.gov.pl/pl/dataset/1501"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "В.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Ай.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "М.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Э.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "К.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Дж.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Н.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "О.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "П.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "male",
+      "name": "С.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Ай.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "В.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Н.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Дж.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Т.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "RU",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Э.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "SE",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Ch.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "TJ",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Н.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Noname",
+      "source": "U.S. Social Security Administration",
+      "url": "https://www.ssa.gov/oact/babynames/limits.html"
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "name": "Jr.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "male",
+      "name": "J.-C.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "US",
+      "type": "given_name",
+      "gender": "female",
+      "name": "Noname",
+      "source": "U.S. Social Security Administration",
+      "url": "https://www.ssa.gov/oact/babynames/limits.html"
+    },
+    {
+      "country": "VN",
+      "type": "given_name",
+      "gender": "male",
+      "name": "male",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    },
+    {
+      "country": "YE",
+      "type": "given_name",
+      "gender": "male",
+      "name": "إتش.",
+      "source": "Wikidata — observed people with recorded names",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Data_access"
+    }
+  ]
+}

@@ -79,7 +79,7 @@ jobs:
           trap 'kill "$server_pid" 2>/dev/null || true' EXIT
           curl --fail --silent --show-error --retry 30 --retry-connrefused --retry-delay 1 \
             --max-time 3 --output /dev/null "$NAMAE_PREVIEW_URL/"
-          node scripts/check-deployment.mjs "$NAMAE_PREVIEW_URL"
+          node scripts/check-deployment.mjs "$NAMAE_PREVIEW_URL" --all
           npx playwright test tests/release.browser.spec.ts
       - uses: actions/upload-artifact@v7
         if: always()
@@ -89,6 +89,7 @@ jobs:
           path: |
             .tmp/release-*/quality-audit.json
             .tmp/release-*/out/data/coverage.json
+            reports/release-name-review.json
             ${{ runner.temp }}/namae-release-build.log
             ${{ runner.temp }}/namae-release-server.log
             test-results/
