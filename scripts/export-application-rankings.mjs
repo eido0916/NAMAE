@@ -8,6 +8,7 @@ import { writeDataFile } from './write-data-file.mjs';
 import { referenceLookupBucket, referenceLookupKey } from '../src/lib/reference-lookup.mjs';
 import { normalizePinyin } from '../src/lib/chinese-surnames.mjs';
 import { loadCoverageTargets } from './application-coverage-targets.mjs';
+import { manifestSourcesFromLedger, publicManifestVersion } from './public-manifest-version.mjs';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 export function exportAppLookup(outputRoot, entry, records, lookupVersion) {
@@ -36,7 +37,7 @@ export function exportAppLookup(outputRoot, entry, records, lookupVersion) {
   }
   return { directory: '/data/' + directory, count: bucketCount, buckets: [...buckets.keys()].sort() };
 }
-export async function exportApplicationRankings(root, outputRoot, manifest, release) {
+export async function exportApplicationRankings(root, outputRoot, manifest, release, options = {}) {
   const supplements = await loadApplicationRankingSources(root);
   const targetFor = loadCoverageTargets(root);
   const load = entry => {
@@ -47,7 +48,7 @@ export async function exportApplicationRankings(root, outputRoot, manifest, rele
   const entries = [];
   const coverage = [];
   const excluded = new Map();
-  for (const source of manifest.observedRankings) {
+  for (const source of manifest.observedRankings.filter(entry => !options.country || entry.country === options.country)) {
     const primary = manifest.datasets.find(row => row.country === source.country && row.type === source.type);
     const rejected = [];
     const published = load(primary);
@@ -91,9 +92,12 @@ export async function exportApplicationRankings(root, outputRoot, manifest, rele
     if (release) entry.inputLookup = exportAppLookup(outputRoot, entry, dataset.records, release.version);
     entries.push(entry);
   }
-  const reportPath = release ? join(outputRoot, 'coverage.json') : join(root, 'reports/application-ranking-coverage.json');
-  writeDataFile(reportPath, JSON.stringify({ populationYear: 2024, coverage, excluded: [...excluded.values()] }, null, 2) + '\n');
-  return entries;
+  const report = { populationYear: 2024, coverage, excluded: [...excluded.values()] };
+  if (!options.skipReport) {
+    const reportPath = release ? join(outputRoot, 'coverage.json') : join(root, 'reports/application-ranking-coverage.json');
+    writeDataFile(reportPath, JSON.stringify(report, null, 2) + '\n');
+  }
+  return options.returnReport ? { entries, report } : entries;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
@@ -101,14 +105,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const outputRoot = join(root, 'public/data');
   const manifest = JSON.parse(readFileSync(join(outputRoot, 'manifest.json'), 'utf8'));
   const provenance = JSON.parse(readFileSync(join(root, 'data-sources/SOURCES.json'), 'utf8'));
-  for (const { datasets: _datasets, ...source } of provenance.sources) {
-    void _datasets;
-    if (!manifest.sources.some(entry => entry.id === source.id)) manifest.sources.push(source);
-  }
+  manifest.sources = manifestSourcesFromLedger(provenance);
   manifest.appRankings = await exportApplicationRankings(root, outputRoot, manifest);
-  const { dataVersion: _oldVersion, ...versioned } = manifest;
-  void _oldVersion;
-  manifest.dataVersion = hash(JSON.stringify(versioned)).slice(0, 16);
+  manifest.dataVersion = publicManifestVersion(manifest);
   writeDataFile(join(outputRoot, 'manifest.json'), JSON.stringify(manifest));
   console.log(`Exported ${manifest.appRankings.reduce((n, row) => n + row.records, 0)} application ranking names.`);
 }

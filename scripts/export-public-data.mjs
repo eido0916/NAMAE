@@ -1,5 +1,6 @@
 import { exportApplicationRankings } from './export-application-rankings.mjs';
 import { exportObservedRankings } from './export-observed-rankings.mjs';
+import { publicManifestVersion } from './public-manifest-version.mjs';
 import { createHash } from "node:crypto";
 import { DatabaseSync } from "node:sqlite";
 import {
@@ -195,22 +196,9 @@ const observedRankings = exportObservedRankings(root, temporaryRoot);
 const appRankings = await exportApplicationRankings(root, temporaryRoot, { datasets: manifestDatasets, observedRankings });
 const rankAlternatives = exportJapaneseRankAlternatives(root, temporaryRoot);
 
-const dataVersion = hash(
-  JSON.stringify({
-    dictionaryHash,
-    observedRankings,
-    appRankings,
-    rankAlternatives,
-    datasets: manifestDatasets.map(({ country, type, sha256, chunks }) => ({
-      country,
-      type,
-      sha256,
-      chunks: chunks?.map(({ sha256: chunkHash }) => chunkHash),
-    })),
-    sources,
-    references: manifestReferences,
-  }),
-).slice(0, 16);
+const dataVersion = publicManifestVersion({ dictionary: { sha256: dictionaryHash },
+  observedRankings, appRankings, rankAlternatives, datasets: manifestDatasets, sources,
+  references: manifestReferences });
 writeFileSync(
   join(temporaryRoot, "manifest.json"),
   JSON.stringify({
