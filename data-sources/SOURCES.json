@@ -1775,6 +1775,17 @@
       "attribution": "Contains public sector information from National Records of Scotland licensed under the Open Government Licence v3.0. Published counts from Scottish birth registrations 1974–2025 are aggregated for UK name coverage."
     },
     {
+      "id": "nz-dia-birth-names-1900-2025",
+      "name": "New Zealand Department of Internal Affairs — Baby Name Popularity Over Time",
+      "url": "https://figure.nz/table/CzeNlATo4kS9zaUM",
+      "datasetUrls": ["https://catalogue.data.govt.nz/dataset/baby-name-popularity-over-time"],
+      "datasets": ["NZ/given_name"],
+      "licenseName": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "redistributionStatus": "permitted",
+      "attribution": "Source: New Zealand Department of Internal Affairs, Baby Name Popularity Over Time, via Figure.NZ, CC BY 4.0. NAMAE sums registered birth counts across 1900–2025 and retains spellings with at least 20 registrations. Damaged source encodings and unusable labels are omitted. Counts are not current national prevalence."
+    },
+    {
       "id": "cso-irish-birth-names",
       "name": "Central Statistics Office — Irish Babies’ Names",
       "url": "https://www.cso.ie/en/statistics/birthsdeathsandmarriages/irishbabiesnames/",

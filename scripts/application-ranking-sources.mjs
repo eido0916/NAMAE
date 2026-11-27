@@ -19,6 +19,7 @@ const thaiHonorifics = new Set(['นาย', 'นาง', 'นางสาว', 
 const berlinSource = 'https://github.com/berlin/haeufige-vornamen-berlin';
 const swedenSource = 'https://www.statistikdatabasen.scb.se/goto/sv/ssd/BE0001Nyfodda';
 const israelSource = 'https://aviezerl.github.io/babynamesIL/';
+const newZealandSource = 'https://figure.nz/table/CzeNlATo4kS9zaUM';
 
 async function asianSources(root, foreign) {
   const sources = new Map();
@@ -349,6 +350,19 @@ export async function loadApplicationRankingSources(root) {
     if (sex !== 'Boy' && sex !== 'Girl') throw Error('Unexpected Scottish birth sex');
     return { name, gender: sex === 'Boy' ? 'male' : 'female', count: Number(count) };
   });
+  const [nzHeader, ...nzLines] = readFileSync(join(births, 'nz-dia-1900-2025.csv'), 'utf8').trim().split(/\r?\n/);
+  if (nzHeader !== 'Year,Sex,Rank,Name,Value,Value Unit,Value Label,Null Reason' || nzLines.length !== 74015)
+    throw Error('Unexpected New Zealand birth name table');
+  const nzRows = nzLines.flatMap(line => {
+    const fields = /^(\d{4}),(Girls|Boys),(\d+),([^,]+),(\d+),number,Number of babies,$/.exec(line);
+    if (!fields || Number(fields[1]) < 1900 || Number(fields[1]) > 2025 || Number(fields[5]) < 10)
+      throw Error('Invalid New Zealand birth name row');
+    const [, , sex, , name, count] = fields;
+    // The source CSV has a few damaged Māori diacritics. Never publish those spellings.
+    if (!/^[\p{L}\p{M}]+(?:[ '-][\p{L}\p{M}]+)*$/u.test(name) ||
+        !isUsableRankingName('NZ', name, 'given_name')) return [];
+    return [{ name, gender: sex === 'Boys' ? 'male' : 'female', count: Number(count) }];
+  });
   const australiaZip = await JSZip.loadAsync(readFileSync(join(births, 'south-australia-1944-2013.zip')));
   const australiaFiles = australiaZip.file(/\/(?:female|male)_cy\d{4}_top\.csv$/);
   if (australiaFiles.length !== 140) throw Error('Incomplete South Australian birth name archive');
@@ -382,6 +396,10 @@ export async function loadApplicationRankingSources(root) {
     ['GB/given_name', {
       kind: 'published', meta: { source: 'National Records of Scotland — births 1974–2025', sourceUrl: scotlandSource },
       records: birthRecords(scotlandRows),
+    }],
+    ['NZ/given_name', {
+      kind: 'published', meta: { source: 'New Zealand Department of Internal Affairs — births 1900–2025', sourceUrl: newZealandSource },
+      records: birthRecords(nzRows).filter(row => row.count >= 20),
     }],
     ['IE/given_name', {
       kind: 'published', meta: { source: 'Central Statistics Office — Irish Babies’ Names 1964–2025', sourceUrl: irelandSource },
