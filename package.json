@@ -64,7 +64,8 @@
     "data:refresh:taiwan": "node scripts/import-taiwan-official.mjs",
     "data:collect:native-observations": "node scripts/collect-native-observed-labels.mjs",
     "data:export:public-people": "node scripts/export-observed-rankings.mjs",
-    "data:export:app": "node scripts/export-application-rankings.mjs"
+    "data:export:app": "node scripts/export-application-rankings.mjs",
+    "data:refresh:app-country": "node scripts/export-country-application-rankings.mjs"
   },
   "dependencies": {
     "jszip": "^3.10.1",

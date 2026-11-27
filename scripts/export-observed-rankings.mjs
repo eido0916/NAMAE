@@ -8,9 +8,10 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { buildObservedDataset } from './observed-ranking-dataset.mjs';
 import { writeDataFile } from './write-data-file.mjs';
+import { publicManifestVersion } from './public-manifest-version.mjs';
 
-export function exportObservedRankings(root, outputRoot) {
-  const db = new DatabaseSync(join(root, 'data/namae.sqlite'), { readOnly: true });
+export function exportObservedRankings(root, outputRoot, { entries, writeCoverage = true } = {}) {
+  const db = entries ? undefined : new DatabaseSync(join(root, 'data/namae.sqlite'), { readOnly: true });
   const labelRoot = join(root, 'data-sources/rankings/foreign/');
   const labels = JSON.parse(gunzipSync(readFileSync(join(labelRoot, 'wikidata-country-names/entity-labels.json.gz')))).labels;
   const nativePath = join(labelRoot, 'observed-name-rankings/native-labels.json.gz');
@@ -20,10 +21,11 @@ export function exportObservedRankings(root, outputRoot) {
   }
   const manifest = [];
   const coverage = [];
-  for (const row of db.prepare('SELECT * FROM reference_datasets ORDER BY country,type').all()) {
+  for (const row of entries ?? db.prepare('SELECT * FROM reference_datasets ORDER BY country,type').all()) {
     const original = JSON.parse(gunzipSync(readFileSync(join(labelRoot, 'observed-name-rankings', row.country + '-' + row.type + '.json.gz'))));
     if (original.country !== row.country || original.type !== row.type || !original.query.includes('SELECT DISTINCT ?person ?name') || !original.query.includes('wdt:P31 wd:Q5')) throw Error('Invalid people snapshot');
-    const meta = { ...JSON.parse(row.meta_json), evidenceRanking: { sourceUrl: 'https://query.wikidata.org/#' + encodeURIComponent(original.query), asOf: original.retrievedAt.slice(0, 10) } };
+    const meta = { ...(row.meta_json ? JSON.parse(row.meta_json) : { country: row.country, type: row.type }),
+      evidenceRanking: { sourceUrl: 'https://query.wikidata.org/#' + encodeURIComponent(original.query), asOf: original.retrievedAt.slice(0, 10) } };
     const ranked = buildObservedRanks(original.bindings, labels, row.country, row.type, { nativeLabels: true }).map(record => ({
       ...record, evidenceRank: { ...record.evidenceRank, asOf: original.retrievedAt.slice(0, 10), sourceId: 'wikidata-observed-name-counts' },
     }));
@@ -52,7 +54,8 @@ export function exportObservedRankings(root, outputRoot) {
       female: dataset.records.filter(record => record.gender === 'female').length,
       sourceUrl: dataset.meta.sourceUrl });
   }
-  db.close();
+  db?.close();
+  if (!writeCoverage) return manifest;
   const totalNames = coverage.reduce((sum, row) => sum + row.names, 0);
   const report = { scope: 'public_people', policy: 'Distinct people in Wikidata, not population or birth statistics. Native source spellings only. Competition ranks are calculated from distinct people after grouping source-linked native labels. Counts, ties and observation dates remain explicit.',
     countries: new Set(coverage.map(row => row.country)).size,
@@ -78,6 +81,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   delete base.observedRankings;
   const observedRankings = exportObservedRankings(root, output);
   const next = { ...base, observedRankings };
-  const dataVersion = createHash('sha256').update(JSON.stringify(next)).digest('hex').slice(0, 16);
+  const dataVersion = publicManifestVersion(next);
   writeDataFile(manifestPath, JSON.stringify({ ...next, dataVersion }));
 }

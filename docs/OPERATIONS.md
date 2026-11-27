@@ -16,11 +16,13 @@
 
 `npm run build:release -- --preview` でローカル確認用の成果物を生成できます。表示された `out` を `NAMAE_STATIC_DIR` に指定して `npm start` を実行し、`node scripts/check-deployment.mjs <URL>` と `NAMAE_PREVIEW_URL=<URL>` を指定した `tests/release.browser.spec.ts` で確認します。
 
-`develop` と `main` への push、および両ブランチへの Pull Request では、GitHub Actions の `release-preview` ジョブが同じ公開用ビルドを実行します。生成された成果物をランナー内で配信し、HTTP の確認と公開版専用のブラウザーテストを実行します。監査結果、収録数、ビルドログ、テスト結果は Actions の `public-release-verification` から取得できます。外部プレビューを配置したら、その URL でも同じ HTTP チェックとブラウザーテストを実行します。
+`develop` と `main` への push、および両ブランチへの Pull Request では、GitHub Actions の `verify` ジョブが入力データを一度だけ生成して通常ビルドと公開用ビルドの両方を検査します。公開成果物をランナー内で配信し、HTTP の確認と公開版専用のブラウザーテストを実行します。監査結果、収録数、ビルドログ、テスト結果は Actions の `public-release-verification` から取得できます。外部プレビューを配置したら、その URL でも同じ HTTP チェックとブラウザーテストを実行します。
 
-`verify` ジョブは通常ビルド、単体テスト、生成データの再現性を確認します。`npm run test:browser` には旧ランキング・辞書表示を前提とするテストもあり、現行の公開画面との照合には `tests/release.browser.spec.ts` を使用します。
+`verify` ジョブは通常ビルド、単体テスト、生成データの再現性、公開版をまとめて確認します。`npm run test:browser` には旧ランキング・辞書表示を前提とするテストもあり、現行の公開画面との照合には `tests/release.browser.spec.ts` を使用します。
 
 新規チェックアウトでは `npm ci` の後に `npm run data:build` と `npm run details:build` を実行して公開用ビルドの入力を生成します。GitHub Actions も同じ順番で実行します。`public/data/app/` と `public/data/observed/` は生成先です。追跡済みのマニフェストとデータは CI の差分チェックで再現性を確認します。
+
+既存国の**アプリ内順位に使う補助資料だけ**を更新した場合は、`npm run data:refresh:app-country -- NZ` のように国コードを指定できます。対象国の公開人物チャンクを原本から再生成し、その国のアプリ内順位、公開マニフェスト、収録数レポートだけを更新します。初回の全データ生成は不要ですが、`public/data/manifest.json` と一次順位のファイルが揃っている必要があります。公開人物の原本、一次順位、参照辞書、国一覧、表示コードを変えた場合は `npm run data:build` を使います。PRのCIと本番公開では引き続き全件生成で差分を検証します。
 
 公開用ビルドの `out/data/coverage.json` に、国・地域ごとの男性名、女性名、姓の収録数、目標、不足件数を出力します。人口を基準に各リスト300〜20,000件を暫定目標とし、中国・台湾・韓国の姓には表記の集中を踏まえた個別目標を設けています。スイスの名は、2025年の住民統計の掲載人数を上位1万表記で概ね95%以上カバーできることから、男女それぞれ1万件を目標とします。データを更新したら、`shortfall` で不足、`excluded` で集計ラベルや使用できない表記の除外を確認できます。
 
