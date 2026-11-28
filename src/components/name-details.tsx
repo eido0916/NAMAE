@@ -112,6 +112,6 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, close }:
       {!details.people.length && !details.characters.length && !['queued','running','busy','pending','error','background'].includes(lookup?.state ?? '') && <p className="detail-empty">{copy.empty}</p>}
       {!details.people.length && <p><a href={`https://${language === 'nb' ? 'no' : language.split('-')[0]}.wikipedia.org/w/index.php?title=Special:Search&search=${encodeURIComponent('"'+name+'"')}`} target="_blank" rel="noopener noreferrer">{copy.wikipedia} ↗</a></p>}
     </>}
-    <p className="detail-report"><a href="/sources/#corrections">⚑ {sourceCountry === "JP" ? "誤りを報告" : "Report an issue"}</a></p>
+    <p className="detail-report"><a href={withBasePath("/sources/#corrections")}>⚑ {sourceCountry === "JP" ? "誤りを報告" : "Report an issue"}</a></p>
   </dialog>;
 }
