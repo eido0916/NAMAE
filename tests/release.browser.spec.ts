@@ -39,17 +39,17 @@ test("reviewed abbreviations and administrative labels have no name rank", async
   }
 });
 
-test("Japanese names verified in municipal birth statistics are searchable", async ({ page }) => {
+test("Japanese names verified in municipal birth statistics are searchable without source clutter", async ({ page }) => {
   await page.goto(base + "/name/");
   await page.locator('.gender-options label:has(input[value="female"])').click();
   await page.locator("#name").fill("陽葵");
   await page.locator(".form-card button[type=submit]").click();
   await expect(page.locator(".original h2")).toHaveText("陽葵");
-  await expect(page.locator(".original")).toContainText("船橋市");
+  await expect(page.locator(".original")).not.toContainText("船橋市");
   await expect(page.locator(".rank strong")).toContainText("#");
 });
 
-test("Korean names verified in regional birth registration statistics are searchable", async ({ page }) => {
+test("Korean names verified in regional birth registration statistics are searchable without source clutter", async ({ page }) => {
   await page.goto(base + "/name/");
   await page.locator(".country-select-trigger").click();
   await page.locator(".country-select").getByRole("combobox").fill("South Korea");
@@ -58,7 +58,7 @@ test("Korean names verified in regional birth registration statistics are search
   await page.locator("#name").fill("서아");
   await page.locator(".form-card button[type=submit]").click();
   await expect(page.locator(".original h2")).toHaveText("서아");
-  await expect(page.locator(".original")).toContainText("대한민국 대법원");
+  await expect(page.locator(".original")).not.toContainText("대한민국 대법원");
   await expect(page.locator(".rank strong")).toContainText("#");
 });
 
@@ -86,7 +86,7 @@ test("static release keeps malformed birth registry entries out of searches", as
   }
 });
 
-test("Thai female names from the corpus are searchable with their evidence label", async ({ page }) => {
+test("Thai female names from the corpus are searchable without their evidence label", async ({ page }) => {
   await page.goto(base + "/name/");
   await page.locator(".country-select-trigger").click();
   await page.locator(".country-select").getByRole("combobox").fill("Thailand");
@@ -96,7 +96,7 @@ test("Thai female names from the corpus are searchable with their evidence label
   await page.locator(".form-card button[type=submit]").click();
   await expect(page.locator(".original h2")).toHaveText("กชกานต์");
   await expect(page.locator(".rank strong")).toContainText("#");
-  await expect(page.locator(".original")).toContainText("Recorded names (no frequency data)");
+  await expect(page.locator(".original")).not.toContainText("Recorded names (no frequency data)");
 });
 
 test("Taiwanese household registration names retain published ranks in the release", async ({ page }) => {
@@ -109,7 +109,7 @@ test("Taiwanese household registration names retain published ranks in the relea
   await page.locator(".form-card button[type=submit]").click();
   await expect(page.locator(".original h2")).toHaveText("淑芬");
   await expect(page.locator(".rank strong")).toHaveText("#1");
-  await expect(page.locator(".original")).toContainText("表五十一");
+  await expect(page.locator(".original")).not.toContainText("表五十一");
 });
 
 test("female name search handles decomposed Vietnamese accents and attested Indian aliases", async ({ page }) => {
@@ -130,7 +130,7 @@ test("female name search handles decomposed Vietnamese accents and attested Indi
   }
 });
 
-test("Chinese and Indian female names from aggregate records are searchable with their source", async ({ page }) => {
+test("Chinese and Indian female names from aggregate records are searchable without source clutter", async ({ page }) => {
   for (const [country, name, source] of [
     ["China", "丽娟", "shareholder records through 2018"],
     ["India", "सुनीता", "historical electoral rolls"],
@@ -144,7 +144,7 @@ test("Chinese and Indian female names from aggregate records are searchable with
     await page.locator(".form-card button[type=submit]").click();
     await expect(page.locator(".original h2")).toHaveText(name);
     await expect(page.locator(".rank strong")).toHaveText(/^#\d+$/);
-    await expect(page.locator(".original")).toContainText(source);
+    await expect(page.locator(".original")).not.toContainText(source);
   }
 });
 
@@ -165,7 +165,10 @@ test("static release finds names, compares list positions and saves an image", a
   await expect(greenland).toContainText("相当");
   await expect(greenland).toContainText("リスト内で近い位置");
   await greenland.getByRole("button").click();
-  await expect(page.getByRole("dialog")).toBeVisible();
+  const dialog = page.getByRole("dialog");
+  await expect(dialog).toBeVisible();
+  await expect(dialog).not.toContainText("データの誤りを報告する方法");
+  await expect(dialog.locator(".detail-report")).toContainText("⚑ 誤りを報告");
   expect(fetched).not.toContain("/api/name-details");
   await page.keyboard.press("Escape");
   const download = page.waitForEvent("download");

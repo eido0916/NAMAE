@@ -44,6 +44,20 @@ test('unlisted spellings have no app ranking or destination names', () => {
   assert.deepEqual(diagnose({ ...input, destinationCountries: ['KR'] }).matches, []);
 });
 
+test('Japanese app given names accept a reading without asking for a spelling', () => {
+  const japanese: Dataset = {
+    meta: { country: 'JP', type: 'given_name', source: 'Published', dataYear: 2025, isOfficial: true, isSample: false },
+    records: [
+      { country: 'JP', type: 'given_name', name: 'じゅん', gender: 'male', rank: 1, totalEntries: 2 },
+      { country: 'JP', type: 'given_name', name: 'ジュン', gender: 'male', rank: 2, totalEntries: 2 },
+    ],
+  };
+  configureEngine({ appDatasets: [japanese] });
+  const result = diagnose({ sourceCountry: 'JP', name: 'じゅん', type: 'given_name', gender: 'male', rankingScope: 'app', destinationCountries: ['US'] });
+  assert.equal(result.record?.name, 'じゅん');
+  assert.equal(result.record?.rank, 1);
+});
+
 test('dictionary-only names and counts without a country evidence source are excluded', () => {
   const primary: Dataset = {
     meta: { country: 'JP', type: 'given_name', source: 'Published and dictionary', dataYear: 2025, isOfficial: false, isSample: false },

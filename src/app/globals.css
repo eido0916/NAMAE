@@ -657,6 +657,35 @@ footer {
   font-size: 30px;
   font-weight: 500;
 }
+.app-ranking-value {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.original.app-ranking-summary {
+  padding-block: 26px;
+}
+.app-ranking-summary .rank,
+.app-ranking-summary .rarity {
+  min-height: 104px;
+  gap: 7px;
+}
+.app-ranking-summary .rank strong,
+.app-ranking-summary .rarity b {
+  font-size: clamp(32px, 3vw, 38px);
+  line-height: 1.1;
+}
+.app-ranking-summary .rarity b {
+  white-space: nowrap;
+}
+.app-ranking-value.rarity b {
+  color: var(--accent);
+}
+.app-ranking-value .meter {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 5px;
+}
 .meter {
   height: 4px;
   border-radius: 3px;
@@ -900,6 +929,9 @@ footer {
 .detail-entity figcaption { font-size: 10px; overflow-wrap: anywhere; }
 .detail-note { margin-top: 28px; line-height: 1.8; }
 .detail-empty { padding: 26px 0; line-height: 1.8; }
+.detail-report { display: flex; justify-content: flex-end; margin: 28px 0 0; }
+.detail-report a { color: var(--muted); font-size: 12px; text-decoration: none; }
+.detail-report a:hover { color: var(--accent); }
 @media (max-width: 480px) {
   .name-detail-dialog { padding: 20px; }
   .detail-entity { gap: 12px; }
@@ -1150,6 +1182,20 @@ footer {
   .original h2 {
     font-size: 40px;
   }
+  .original.app-ranking-summary {
+    padding: 21px 22px;
+  }
+  .app-ranking-summary > div:first-child {
+    padding-bottom: 16px;
+  }
+  .app-ranking-summary .rank,
+  .app-ranking-summary .rarity {
+    min-height: 88px;
+  }
+  .app-ranking-summary .rank strong,
+  .app-ranking-summary .rarity b {
+    font-size: clamp(28px, 6vw, 34px);
+  }
   .rank {
     border: 0;
     padding: 0;
@@ -1258,6 +1304,11 @@ footer {
 .ranking-scope-field p { color: var(--muted); font-size: 12px; line-height: 1.6; margin-block: 8px 0; }
 .observed-rank-label { color: var(--accent); font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
 .public-people-notice { line-height: 1.7; overflow-wrap: anywhere; }
+
+@media (max-width: 480px) {
+  .app-ranking-summary .rank strong,
+  .app-ranking-summary .rarity b { font-size: 26px; }
+}
 
 /* Long native names and large ranking totals must fit narrow result cards. */
 .original > div { min-width: 0; overflow-wrap: anywhere; }

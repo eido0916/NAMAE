@@ -17,6 +17,8 @@ export function appRankNote(lang: string) {
 }
 
 export function formatListPosition(rank: number, total: number, lang: string) {
-  const position = new Intl.NumberFormat(lang, { style: "percent", maximumFractionDigits: 4 }).format(rank / total);
+  const ratio = rank / total;
+  const maximumFractionDigits = ratio * 100 < 0.01 ? 4 : 2;
+  const position = new Intl.NumberFormat(lang, { style: "percent", maximumFractionDigits }).format(ratio);
   return lang === "ja" ? `上位${position}` : `Top ${position}`;
 }

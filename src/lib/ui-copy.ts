@@ -55,7 +55,7 @@ const en = {
 };
 type UiCopy = { [K in keyof typeof en]: string };
 const ja: UiCopy = {
-  lang: "ja", about: "NAMAEについて", tagline: "ひとつの名前から、世界が広がる。",
+  lang: "ja", about: "NAMAEについて", tagline: "いいNAMAEだね",
   sources: "データ出典", privacy: "プライバシー", legal: "利用上の注意",
   hero: "もし海外で生まれていたら、あなたは", heroAccent: "何という名前？",
   title: "世界のあなたに、会いにいこう。", intro: "国旗から、名前を調べる国・地域を選んでください。",

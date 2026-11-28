@@ -363,7 +363,8 @@ export function validateInput(input: DiagnosisInput): string | undefined {
   if (!input.name.trim()) return "名前を入力してください。";
   if (!input.rankingScope && input.sourceCountry === "CN" && input.type === "surname" && getChineseSurnameCandidates(input.name).length > 1)
     return "同じローマ字の姓が複数あります。漢字表記を選んでください。";
-  if (getInputNameCandidates(input).length > 1) return '同じ表記に複数の名前が対応します。現地表記を選んでください。';
+  const readingOnlyAppInput = input.rankingScope === 'app' && (input.sourceCountry ?? 'JP') === 'JP' && input.type === 'given_name';
+  if (!readingOnlyAppInput && getInputNameCandidates(input).length > 1) return '同じ表記に複数の名前が対応します。現地表記を選んでください。';
   if (
     input.destinationCountries &&
     (input.destinationCountries.length < 1 || input.destinationCountries.length > 8)
