@@ -519,7 +519,7 @@ export function Results() {
           {result.input.name} — {copy.surnameNotice}
         </p>
       )}
-      <section className="glass original">
+      <section className={`glass original${appRanking ? " app-ranking-summary" : ""}`}>
         <div>
           <span className="eyebrow">
             YOUR {result.input.type === "surname" ? "SURNAME" : "NAME"} · {sourceConfig.nameEn.toUpperCase()}{" "}
