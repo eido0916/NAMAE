@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import { CountryFlag as Flag } from "./country-flag";
-import { estimatedRankingNote } from "@/lib/estimated-ranking-copy";
-import { appRankNote, formatListPosition, usageEvidenceLabel } from "@/lib/app-ranking-copy";
+import { formatListPosition } from "@/lib/app-ranking-copy";
 import { CountryPicker } from "./country-picker";
 import { useRouter } from "next/navigation";
 import {
@@ -26,7 +25,7 @@ import {
   getSurnameRecord,
   hasReferenceName,
 } from "@/lib/engine";
-import { loadAppCoverage, loadAppInputName, loadDiagnosisData, loadInputData, loadInputReferenceName } from "@/lib/data-loader";
+import { loadAppInputName, loadDiagnosisData, loadInputData, loadInputReferenceName } from "@/lib/data-loader";
 import { saveResult, shareResult } from "@/lib/share";
 import { formatName } from "@/lib/name-presentation";
 import type { Diagnosis, DiagnosisInput, Gender, NameType, RankingScope } from "@/lib/types";
@@ -169,13 +168,11 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
   const [dataReady, setDataReady] = useState(false);
-  const [coverage, setCoverage] = useState<Record<string, number>>({});
   const [submittedCandidates, setSubmittedCandidates] = useState<ReturnType<typeof getInputNameCandidates>>([]);
   const [dataError, setDataError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
   const destinationCountries = getDefaultDestinations(sourceCountry);
   const router = useRouter();
-  useEffect(() => { void loadAppCoverage().then(setCoverage).catch(() => {}); }, []);
   useEffect(() => {
     let active = true;
     loadInputData(type, sourceCountry, rankingScope)
@@ -269,7 +266,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
   }, [sourceCountry, type, gender, dataReady, rankingScope]);
   const spellingCandidates = busy ? [] : submittedCandidates.length || process.env.NEXT_PUBLIC_NAMAE_RELEASE === "1"
     ? submittedCandidates : dataReady ? getInputNameCandidates({sourceCountry, type, gender, name, rankingScope}) : [];
-  const availableNames = coverage[[sourceCountry, type, type === "surname" ? "" : gender].join("/")];
   return (
     <form onSubmit={submit} className="glass form-card" lang={copy.lang}>
       <div className="form-heading">
@@ -337,9 +333,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
         required
         aria-describedby={error ? "form-error" : undefined}
       />
-      {availableNames !== undefined && <p className="record-meta">
-        {availableNames ? `${availableNames.toLocaleString(copy.lang)} ${copy.rankCount}` : copy.noData}
-      </p>}
       {spellingCandidates.length > 1 && <fieldset className="chinese-surname-options" aria-describedby="chinese-surname-help">
         <legend>{sourceCountry === "CN" ? "请选择姓名的汉字 / Choose the local spelling" : "Choose the local spelling"}</legend>
         <p id="chinese-surname-help">{sourceCountry === "CN" ? "同一拼音可能对应不同的姓名。请选择正确的汉字。" : "This spelling matches several names. Select yours."}</p>
@@ -564,18 +557,7 @@ export function Results() {
             <Flag code={sourceCountry} label={sourceConfig.nameJa} />
           </span>
           <h2 dir="auto">{result.record ? formatName(result.record) : result.input.name}</h2>
-          <p>
-            {[
-              result.input.type === "given_name" ? result.input.gender === "male" ? copy.male : copy.female : "",
-              result.input.reading ? `読み：${result.input.reading}` : "",
-
-            ].filter(Boolean).join(" · ")}
-          </p>
           {publicPeople && <p className="observed-rank-label">{scopeCopy.rank}</p>}
-          <p className="estimated-ranking-note">{appRanking ? appRankNote(copy.lang) : estimatedRankingNote(copy.lang)}</p>
-          {result.record?.usageEvidence && <p className="record-meta">
-            {usageEvidenceLabel(result.record.usageEvidence, copy.lang)} · {result.record.usageEvidence.source}
-          </p>}
         </div>
         <div className="rank">
           <span>
@@ -601,13 +583,6 @@ export function Results() {
                 ? copy.unknown
                 : sourceCountry === "JP" ? "データ未収録" : copy.noData}
           </strong>
-          <small>
-            {result.record
-              ? `${result.record.totalEntries.toLocaleString(copy.lang)} ${copy.rankCount}`
-              : result.recognition === "dictionary"
-                ? copy.noData
-                : copy.noData}
-          </small>
         </div>
         <div className="rarity">
           <span>
@@ -723,9 +698,6 @@ export function Results() {
                   : copy.reference}
               </span>}
             </div>
-            {record.usageEvidence && <p className="record-meta">{usageEvidenceLabel(record.usageEvidence, copy.lang)}</p>}
-
-
             <span className="match-detail-hint">{copy.details} ↗</span>
             <button type="button" className="match-detail-trigger" aria-haspopup="dialog" aria-label={`${countryName(country.code)} · ${record.name} · ${copy.details}`} onClick={() => setDetailMatch({ country, record, meta })} />
           </article>
