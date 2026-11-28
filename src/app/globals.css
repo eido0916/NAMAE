@@ -657,6 +657,17 @@ footer {
   font-size: 30px;
   font-weight: 500;
 }
+.app-ranking-value {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.app-ranking-value.rarity b {
+  color: var(--accent);
+}
+.app-ranking-value .meter {
+  width: 100%;
+}
 .meter {
   height: 4px;
   border-radius: 3px;
@@ -900,6 +911,9 @@ footer {
 .detail-entity figcaption { font-size: 10px; overflow-wrap: anywhere; }
 .detail-note { margin-top: 28px; line-height: 1.8; }
 .detail-empty { padding: 26px 0; line-height: 1.8; }
+.detail-report { display: flex; justify-content: flex-end; margin: 28px 0 0; }
+.detail-report a { color: var(--muted); font-size: 12px; text-decoration: none; }
+.detail-report a:hover { color: var(--accent); }
 @media (max-width: 480px) {
   .name-detail-dialog { padding: 20px; }
   .detail-entity { gap: 12px; }

@@ -21,7 +21,6 @@ import {
   getInputExamples,
   getNameRecord,
   getInputNameCandidates,
-  getReadingOptions,
   getSurnameRecord,
   hasReferenceName,
 } from "@/lib/engine";
@@ -164,7 +163,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
   const [type, setType] = useState(initialType);
   const [name, setName] = useState("");
   const [gender, setGender] = useState<Gender>("male");
-  const [reading, setReading] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
   const [dataReady, setDataReady] = useState(false);
@@ -201,19 +199,16 @@ function NameForm({ initialType }: { initialType: NameType }) {
         name,
         type,
         destinationCountries,
-        ...(type === "given_name"
-          ? { gender, ...(reading ? { reading } : {}) }
-          : {}),
+        ...(type === "given_name" ? { gender } : {}),
       };
       await loadAppInputName(input);
-      const candidates = getInputNameCandidates(input);
+      const candidates = readingOnlyInput ? [] : getInputNameCandidates(input);
       if (candidates.length > 1) {
         setSubmittedCandidates(candidates);
         setError("同じ表記に複数の名前が対応します。現地表記を選んでください。");
         return;
       }
       await loadInputReferenceName(type, name, type === "given_name" ? gender : undefined, sourceCountry, rankingScope);
-      if (type === "given_name" && reading) await loadInputReferenceName(type, reading, gender, sourceCountry, rankingScope);
       const givenNameRecord =
         type === "given_name" ? getNameRecord(input) : undefined;
       let surnameRecord: ReturnType<typeof getSurnameRecord>;
@@ -233,7 +228,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
         destinationCountries,
         sourceRecord?.rank,
         sourceRecord?.gender ?? gender,
-        reading || name,
+        name,
         sourceCountry,
         input.rankingScope,
         sourceRecord?.totalEntries,
@@ -257,14 +252,13 @@ function NameForm({ initialType }: { initialType: NameType }) {
     }
   }
   const surname = type === "surname";
-  const readings = surname || sourceCountry !== "JP" ? [] : getReadingOptions(name, gender);
-  const needsReading = !surname && sourceCountry === "JP" && rankingScope === "app";
+  const readingOnlyInput = !surname && sourceCountry === "JP" && rankingScope === "app";
   const nameExamples = useMemo(() => {
     if (sourceCountry === "JP" && process.env.NEXT_PUBLIC_NAMAE_RELEASE !== "1")
       return type === "surname" ? ["佐藤", "鈴木", "山田"] : ["じゅん", "れん", "さくら"];
     return dataReady ? getInputExamples(sourceCountry, type, gender === "female" ? "female" : "male", rankingScope) : [];
   }, [sourceCountry, type, gender, dataReady, rankingScope]);
-  const spellingCandidates = busy ? [] : submittedCandidates.length || process.env.NEXT_PUBLIC_NAMAE_RELEASE === "1"
+  const spellingCandidates = readingOnlyInput || busy ? [] : submittedCandidates.length || process.env.NEXT_PUBLIC_NAMAE_RELEASE === "1"
     ? submittedCandidates : dataReady ? getInputNameCandidates({sourceCountry, type, gender, name, rankingScope}) : [];
   return (
     <form onSubmit={submit} className="glass form-card" lang={copy.lang}>
@@ -272,7 +266,7 @@ function NameForm({ initialType }: { initialType: NameType }) {
         <span className="mini-star">✳</span>
       </div>
       <h2>{copy.title}</h2>
-      <p className="muted">{copy.intro}</p>
+      {sourceCountry !== "JP" && <p className="muted">{copy.intro}</p>}
       <fieldset className="source-country-field" id="source-country" aria-describedby="source-country-help">
         <legend className="field-label source-country-legend">
           <span className="globe-symbol" aria-hidden="true">🌐</span>
@@ -281,7 +275,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
         <CountryPicker value={sourceCountry} disabled={busy} onChange={(code) => {
           setSubmittedCandidates([]);
           setSourceCountry(code);
-          setReading("");
           setError("");
           setDataError("");
           setDataReady(false);
@@ -312,8 +305,8 @@ function NameForm({ initialType }: { initialType: NameType }) {
         ))}
       </div>
       <label className="field-label" htmlFor="name">
-        {surname ? copy.surnameLabel : copy.nameLabel}
-        <span>{sourceCountry === "JP" ? "漢字・ひらがな・カタカナ・英字" : copy.scriptHint}</span>
+        {readingOnlyInput ? "名前の読み方" : surname ? copy.surnameLabel : copy.nameLabel}
+        {!readingOnlyInput && <span>{sourceCountry === "JP" ? "漢字・ひらがな・カタカナ・英字" : copy.scriptHint}</span>}
       </label>
       <input
         id="name"
@@ -323,7 +316,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
         onChange={(e) => {
           setName(e.target.value);
           setSubmittedCandidates([]);
-          setReading("");
           setError("");
         }}
         placeholder={sourceCountry === "JP" ? (surname ? "例：佐藤" : "例：はると") : nameExamples.length ? `${copy.example}${nameExamples[0]}` : surname ? copy.surnameLabel : copy.nameLabel}
@@ -353,7 +345,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
             onClick={() => {
               setName(n);
               setSubmittedCandidates([]);
-              setReading("");
               if (rankingScope === "app") {
                 if (n === "ゆい" || n === "さくら") setGender("female");
                 else if (!surname && sourceCountry === "JP") setGender("male");
@@ -365,27 +356,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
           </button>
         ))}
       </div>}
-      {needsReading && (
-        <div className="reading-field">
-          <label className="field-label" htmlFor="reading">
-            名前の読み方
-            <span>任意・見つからない場合は読みを入力</span>
-          </label>
-          <input
-            id="reading"
-            list="reading-options"
-            placeholder="例：はると（候補からも選べます）"
-            value={reading}
-            maxLength={30}
-            onChange={(e) => { setReading(e.target.value); setSubmittedCandidates([]); }}
-          />
-          <datalist id="reading-options">
-            {readings.map((r) => (
-              <option key={r} value={r} />
-            ))}
-          </datalist>
-        </div>
-      )}
       {!surname && (
         <fieldset>
           <legend className="field-label">{copy.gender}</legend>
@@ -401,7 +371,6 @@ function NameForm({ initialType }: { initialType: NameType }) {
                   onChange={() => {
                     setGender(g);
                     setSubmittedCandidates([]);
-                    setReading("");
                   }}
                 />
                 <span>{g === "male" ? copy.male : copy.female}</span>
@@ -559,9 +528,9 @@ export function Results() {
           <h2 dir="auto">{result.record ? formatName(result.record) : result.input.name}</h2>
           {publicPeople && <p className="observed-rank-label">{scopeCopy.rank}</p>}
         </div>
-        <div className="rank">
+        <div className={`rank${appRanking ? " app-ranking-value" : ""}`}>
           <span>
-            {publicPeople ? scopeCopy.rank : sourceCountry === "JP" ? `${sourceConfig.nameJa}のアプリ内順位` : `${countryName(sourceCountry)} · ${copy.rank}`}{" "}
+            {publicPeople ? scopeCopy.rank : sourceCountry === "JP" ? `${sourceConfig.nameJa}の順位` : `${countryName(sourceCountry)} · ${copy.rank}`}{" "}
             <small hidden={result.meta.rankingScope === "app"}>
               {publicPeople ? "" : sourceCountry !== "JP" ? (result.meta.isSample ? copy.sample : "") : result.meta.isSample
                 ? "サンプル"
@@ -584,10 +553,10 @@ export function Results() {
                 : sourceCountry === "JP" ? "データ未収録" : copy.noData}
           </strong>
         </div>
-        <div className="rarity">
-          <span>
-            {publicPeople ? scopeCopy.observed : appRanking ? (copy.lang === "ja" ? "リスト内の位置" : "List position") : <>Rarity Score <small>{copy.estimated}</small></>}
-          </span>
+        <div className={`rarity${appRanking ? " app-ranking-value" : ""}`}>
+          {!appRanking && <span>
+            {publicPeople ? scopeCopy.observed : <>Rarity Score <small>{copy.estimated}</small></>}
+          </span>}
           <b>
             {publicPeople ? result.record?.count?.toLocaleString(copy.lang) ?? "—" : result.record ? (appRanking ? formatListPosition(result.record.rank, result.record.totalEntries, copy.lang) : result.score) : "—"}
             <small>{publicPeople ? result.record?.observation ? ` / ${result.record.observation.totalPeople.toLocaleString(copy.lang)}` : "" : result.record ? (appRanking ? "" : " / 100") : sourceCountry === "JP" ? " 算出不可" : " —"}</small>
@@ -703,7 +672,7 @@ export function Results() {
           </article>
           );
         })}
-        {detailMatch && <NameDetailsDialog key={`${sourceCountry}/${detailMatch.country.code}/${detailMatch.record.type}/${detailMatch.record.name}`} country={detailMatch.country} sourceCountry={sourceCountry} name={detailMatch.record.name} type={detailMatch.record.type} usageEvidence={detailMatch.record.usageEvidence} close={() => setDetailMatch(null)} />}
+        {detailMatch && <NameDetailsDialog key={`${sourceCountry}/${detailMatch.country.code}/${detailMatch.record.type}/${detailMatch.record.name}`} country={detailMatch.country} sourceCountry={sourceCountry} name={detailMatch.record.name} type={detailMatch.record.type} close={() => setDetailMatch(null)} />}
         {result.unavailableCountries?.map(({ country, reason }) => (
           <article className="glass match-card" key={country.code}>
             <div className="match-top">

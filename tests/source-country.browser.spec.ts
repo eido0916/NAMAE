@@ -12,9 +12,9 @@ test("country selection updates input and US results can include Japan", async (
   test.setTimeout(120000);
   await page.goto("http://localhost:3000");
   await expect(page.locator(".country-select-trigger")).toContainText("日本");
-  await expect(page.locator("#reading")).toBeVisible();
-  await chooseCountry(page, "United States");
+  await expect(page.getByLabel("名前の読み方")).toBeVisible();
   await expect(page.locator("#reading")).toHaveCount(0);
+  await chooseCountry(page, "United States");
   await expect(page.locator("#name")).toHaveAttribute("placeholder", /^e.g. /);
   await page.screenshot({ path: "test-results/source-country-form.png", fullPage: true });
   await page.locator("#name").fill("Liam");
@@ -45,9 +45,9 @@ test("country selection updates input and US results can include Japan", async (
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test("switching countries clears reading and input data failures can be retried", async ({ page }) => {
+test("switching countries keeps the single name field and input data failures can be retried", async ({ page }) => {
   await page.goto("http://localhost:3000");
-  await page.locator("#reading").fill("じゅん");
+  await page.locator("#name").fill("じゅん");
   await page.route("**/data/datasets/de/**", (route) => route.abort());
   await chooseCountry(page, "Deutschland");
   await expect(page.locator("#form-error")).toBeVisible();
@@ -56,7 +56,7 @@ test("switching countries clears reading and input data failures can be retried"
   await page.getByRole("button", { name: "Daten neu laden" }).click();
   await expect(page.getByRole("button", { name: "Meine Vornamen weltweit finden" })).toBeEnabled();
   await chooseCountry(page, "日本");
-  await expect(page.locator("#reading")).toHaveValue("");
+  await expect(page.getByLabel("名前の読み方")).toHaveValue("じゅん");
   await page.getByRole("button", { name: "じゅん", exact: true }).click();
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
   await expect(page.locator(".rank strong")).toHaveText("#365");

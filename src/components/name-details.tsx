@@ -7,7 +7,7 @@ import { loadNameDetails, collectNameDetails, type NameDetails, type DetailEntit
 import { nameReadingHint } from '@/lib/name-reading.mjs';
 import { getDetailCopy, getDetailReadingCopy, detailUiLanguage } from '@/lib/detail-copy';
 import { localizedCountryName } from '@/lib/ui-copy';
-import type { CountryConfig, NameRecord, NameType } from '@/lib/types';
+import type { CountryConfig, NameType } from '@/lib/types';
 
 function licenseLink(license: string) {
   const match = /^CC (BY(?:-SA)?) (2\.0|2\.5|3\.0|4\.0)$/.exec(license);
@@ -36,8 +36,8 @@ function Entity({ entity, sourceCountry }: { entity: DetailEntity; sourceCountry
     </div>
   </article>;
 }
-export function NameDetailsDialog({ country, sourceCountry, name, type, usageEvidence, close }: {
-  country: CountryConfig; sourceCountry: string; name: string; type: NameType; usageEvidence?: NameRecord["usageEvidence"]; close: () => void;
+export function NameDetailsDialog({ country, sourceCountry, name, type, close }: {
+  country: CountryConfig; sourceCountry: string; name: string; type: NameType; close: () => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const copy = getDetailCopy(sourceCountry);
@@ -97,14 +97,6 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, usageEvi
     <div className="detail-toolbar"><span className="eyebrow">WORLD NAME STORIES</span><button type="button" className="detail-close" onClick={close} aria-label={copy.close} autoFocus>×</button></div>
     <p className="detail-country"><Image className="country-flag" src={withBasePath(`/flags/${country.code}.svg`)} alt={`${countryName} ${copy.flag}`} width={32} height={32} unoptimized /> {countryName} <small>{country.nameEn}</small></p>
     <h2 id="name-detail-title">{name}</h2>
-    {usageEvidence && <p className="detail-meta">
-      {usageEvidence.url
-        ? <a href={usageEvidence.url} target="_blank" rel="noopener noreferrer">{usageEvidence.source} ↗</a>
-        : usageEvidence.source}
-    </p>}
-    {usageEvidence && <p className="detail-meta">
-      <a href={`/sources/#corrections`}>{sourceCountry === "JP" ? "データの誤りを報告する方法" : "How to report a data issue"}</a>
-    </p>}
     {language === 'ja' && details?.reading ? <p className="detail-reading">{readingCopy.reading}: {details.reading.text} <a href={details.reading.source} target="_blank" rel="noopener noreferrer" aria-label={copy.source}>↗</a></p>
       : language === 'ja' && hint ? <p className="detail-reading">{readingCopy.hint}: {hint.text}</p>
       : (details || error) && <p className="detail-reading">{readingCopy.missing}</p>}
@@ -120,5 +112,6 @@ export function NameDetailsDialog({ country, sourceCountry, name, type, usageEvi
       {!details.people.length && !details.characters.length && !['queued','running','busy','pending','error','background'].includes(lookup?.state ?? '') && <p className="detail-empty">{copy.empty}</p>}
       {!details.people.length && <p><a href={`https://${language === 'nb' ? 'no' : language.split('-')[0]}.wikipedia.org/w/index.php?title=Special:Search&search=${encodeURIComponent('"'+name+'"')}`} target="_blank" rel="noopener noreferrer">{copy.wikipedia} ↗</a></p>}
     </>}
+    <p className="detail-report"><a href="/sources/#corrections">⚑ {sourceCountry === "JP" ? "誤りを報告" : "Report an issue"}</a></p>
   </dialog>;
 }

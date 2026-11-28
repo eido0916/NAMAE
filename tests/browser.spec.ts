@@ -108,8 +108,9 @@ test("name, surname, unknown, PNG save and mobile width", async ({ page }) => {
       .filter({ hasText: "United States" })
   ).toContainText("#1");
   await page.goto("http://localhost:3000/name");
-  await page.locator("#name").fill("大翔");
-  await page.locator("#reading").fill("はると");
+  await expect(page.getByLabel("名前の読み方")).toBeVisible();
+  await expect(page.locator("#reading")).toHaveCount(0);
+  await page.locator("#name").fill("はると");
   await page.getByRole("button", { name: "世界の名前を見る" }).click();
   await expect(page.locator(".rank strong")).not.toHaveText("データ未収録");
   await page.goto("http://localhost:3000/name");
