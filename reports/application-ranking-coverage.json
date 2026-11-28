@@ -3555,22 +3555,24 @@
       "country": "NZ",
       "type": "given_name",
       "gender": "male",
-      "names": 2700,
+      "names": 3056,
       "target": 3000,
-      "shortfall": 300,
+      "shortfall": 0,
       "evidence": {
-        "public_people": 2700
+        "published": 1094,
+        "public_people": 1962
       }
     },
     {
       "country": "NZ",
       "type": "given_name",
       "gender": "female",
-      "names": 2036,
+      "names": 2621,
       "target": 3000,
-      "shortfall": 964,
+      "shortfall": 379,
       "evidence": {
-        "public_people": 2036
+        "published": 1475,
+        "public_people": 1146
       }
     },
     {
