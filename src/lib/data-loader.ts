@@ -2,6 +2,7 @@ import { calculateRankPercentile, configureEngine, setDatasetUnavailable, clearR
 import { referenceLookupBucket, referenceLookupKey } from "./reference-lookup.mjs";
 import { normalizePinyin } from "./chinese-surnames.mjs";
 import { reportOperationalError } from "./monitoring";
+import { withBasePath } from "./base-path";
 import type { CountryConfig, Dataset, Gender, NameType, ReferenceDataset, RankingScope } from "./types";
 
 type DictionaryEntry = { gender: string; reading: string; aliases: string[] };
@@ -83,7 +84,7 @@ const lookupPromises = new Map<string, Promise<ReferenceLookup>>();
 
 async function fetchJson<T>(path: string, init?: RequestInit): Promise<T> {
   try {
-    const response = await fetch(path, init);
+    const response = await fetch(withBasePath(path), init);
     if (!response.ok)
       throw new Error(`診断データを読み込めませんでした (${response.status})`);
     return response.json() as Promise<T>;

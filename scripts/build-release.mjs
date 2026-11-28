@@ -10,9 +10,11 @@ const preview = process.argv.includes('--preview');
 const configured = process.env.NEXT_PUBLIC_SITE_URL;
 if (!configured && !preview) throw Error('Set NEXT_PUBLIC_SITE_URL to the public HTTPS origin.');
 const url = new URL(configured || 'http://localhost:3001');
-if (!preview && (url.protocol !== 'https:' || url.hostname === 'localhost' || url.href !== url.origin + '/'))
-  throw Error('NEXT_PUBLIC_SITE_URL must be the public HTTPS origin.');
+if (!preview && (url.protocol !== 'https:' || url.hostname === 'localhost' || url.search || url.hash || !url.pathname.endsWith('/')))
+  throw Error('NEXT_PUBLIC_SITE_URL must be a public HTTPS URL ending in /.');
 if (preview && !configured) console.log(`Preview origin: ${url.origin}`);
+const siteUrl = url.href.replace(/\/$/, '');
+const basePath = url.pathname.replace(/\/$/, '');
 
 const releaseRoot = join(root, '.tmp');
 mkdirSync(releaseRoot, { recursive: true });
@@ -84,7 +86,7 @@ mkdirSync(join(project, 'data-sources'));
 writeFileSync(join(project, 'data-sources/SOURCES.json'), JSON.stringify({ ...ledger, sources }));
 symlinkSync(join(root, 'node_modules'), join(project, 'node_modules'), 'junction');
 const build = spawnSync(process.execPath, [join(root, 'node_modules/next/dist/bin/next'), 'build', '--webpack'], {
-  cwd: project, stdio: 'inherit', env: { ...process.env, NEXT_PUBLIC_SITE_URL: url.origin, NEXT_PUBLIC_NAMAE_RELEASE: '1' },
+  cwd: project, stdio: 'inherit', env: { ...process.env, NEXT_PUBLIC_SITE_URL: siteUrl, NEXT_PUBLIC_BASE_PATH: basePath, NEXT_PUBLIC_NAMAE_RELEASE: '1' },
 });
 if (build.status !== 0) throw build.error ?? Error('Release build failed');
 renameSync(outputRoot, join(project, 'out/data'));
