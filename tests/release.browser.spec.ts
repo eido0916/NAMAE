@@ -169,6 +169,7 @@ test("static release finds names, compares list positions and saves an image", a
   await expect(dialog).toBeVisible();
   await expect(dialog).not.toContainText("データの誤りを報告する方法");
   await expect(dialog.locator(".detail-report")).toContainText("⚑ 誤りを報告");
+  await expect(dialog.locator(".detail-report a")).toHaveAttribute("href", "/NAMAE/sources/#corrections");
   expect(fetched).not.toContain("/api/name-details");
   await page.keyboard.press("Escape");
   const download = page.waitForEvent("download");
