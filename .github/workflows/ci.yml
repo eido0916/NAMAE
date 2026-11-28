@@ -12,7 +12,7 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
         with:
@@ -23,42 +23,18 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
-      - run: npm run build
-      - name: Generated data is committed and reproducible
-        run: git diff --exit-code -- data/quality-baseline.json public/data reports
-      - run: npm test
-      - uses: actions/upload-artifact@v7
-        if: always()
-        with:
-          name: data-quality-reports
-          path: reports/
-          if-no-files-found: ignore
-
-  release-preview:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      PORT: '3001'
-      NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3001
-      NAMAE_PREVIEW_URL: http://127.0.0.1:3001
-    defaults:
-      run:
-        shell: bash
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          lfs: true
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-      - run: npm ci
-      - name: Generate the public build inputs
+      - name: Generate build inputs once
         run: |
           npm run data:build
           npm run details:build
+      - name: Generated data is committed and reproducible
+        run: git diff --exit-code -- data/quality-baseline.json public/data reports
+      - run: npx next build
+      - run: npm test
       - name: Build the public release
         id: build
+        env:
+          NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3001
         run: |
           npm run build:release -- --preview 2>&1 | tee "$RUNNER_TEMP/namae-release-build.log"
           release_dir=$(sed -n 's/^Static release: //p' "$RUNNER_TEMP/namae-release-build.log")
@@ -73,6 +49,8 @@ jobs:
       - name: Verify the public release through HTTP and the browser
         env:
           NAMAE_STATIC_DIR: ${{ steps.build.outputs.directory }}
+          NAMAE_PREVIEW_URL: http://127.0.0.1:3001
+          PORT: '3001'
         run: |
           node scripts/serve.mjs > "$RUNNER_TEMP/namae-release-server.log" 2>&1 &
           server_pid=$!
@@ -87,6 +65,7 @@ jobs:
           name: public-release-verification
           include-hidden-files: true
           path: |
+            reports/
             .tmp/release-*/quality-audit.json
             .tmp/release-*/out/data/coverage.json
             reports/release-name-review.json
